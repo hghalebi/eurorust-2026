@@ -1,0 +1,144 @@
+{
+  "snapshot_id": "eurorust-2026-574d9578f971f60677c4",
+  "profile": {
+    "name": "Fictional API-design participant",
+    "goals": [
+      "Understand Rust type contracts and standard traits"
+    ],
+    "topics": [
+      "types",
+      "api-design",
+      "compilers"
+    ],
+    "available_windows": [
+      {
+        "start": "2026-10-15T10:00:00+02:00",
+        "end": "2026-10-15T18:30:00+02:00"
+      },
+      {
+        "start": "2026-10-16T10:00:00+02:00",
+        "end": "2026-10-16T18:30:00+02:00"
+      }
+    ],
+    "registered_workshops": [],
+    "attendance_mode": "in_person"
+  },
+  "selections": [
+    {
+      "session_id": "talks-move-your-problems",
+      "rationale": "Matches requested topics: types, api-design, compilers",
+      "alternatives": []
+    },
+    {
+      "session_id": "talks-compiling-the-linux-kernel-with-gccrs",
+      "rationale": "Matches requested topics: compilers",
+      "alternatives": [
+        "talks-the-future-of-unmanned-systems-is-built-on-rust"
+      ]
+    },
+    {
+      "session_id": "talks-optimizing-the-new-rust-trait-solver",
+      "rationale": "Matches requested topics: types, compilers",
+      "alternatives": [
+        "talks-shipping-temporal-how-the-rust-ecosystem-built-chrome-s-newest-web-api"
+      ]
+    },
+    {
+      "session_id": "talks-building-a-query-system",
+      "rationale": "Matches requested topics: compilers",
+      "alternatives": [
+        "talks-tales-from-the-embedded-rust-frontier-bootstrapping-a-brand-new-ecosystem"
+      ]
+    },
+    {
+      "session_id": "talks-rebuilding-the-tower-of-babel-write-your-own-language-server-with-tree-sitter",
+      "rationale": "Matches requested topics: api-design, compilers",
+      "alternatives": [
+        "talks-from-hardware-to-human-interface-building-hid-devices-in-rust"
+      ]
+    },
+    {
+      "session_id": "talks-lessons-from-building-a-background-task-processing-library",
+      "rationale": "Matches requested topics: api-design",
+      "alternatives": [
+        "talks-running-safely-with-scissors-lock-free-concurrency-for-maximum-throughput"
+      ]
+    },
+    {
+      "session_id": "talks-game-show",
+      "rationale": "Shared session or no stronger topic match; review its official abstract",
+      "alternatives": []
+    },
+    {
+      "session_id": "talks-what-s-next-for-rust-s-type-system",
+      "rationale": "Matches requested topics: types, api-design, compilers",
+      "alternatives": [
+        "talks-inside-cloud-hypervisor-from-kvm-to-a-running-vm"
+      ]
+    },
+    {
+      "session_id": "talks-image-codecs-rustification-in-chromium",
+      "rationale": "Shared session or no stronger topic match; review its official abstract",
+      "alternatives": []
+    },
+    {
+      "session_id": "talks-rust-s-influence-on-c-and-python-shaping-the-future-of-three-communities",
+      "rationale": "Shared session or no stronger topic match; review its official abstract",
+      "alternatives": []
+    },
+    {
+      "session_id": "talks-designing-state-machines-for-streaming-proxies-in-rust",
+      "rationale": "Matches requested topics: types, api-design",
+      "alternatives": [
+        "talks-blastbeat-when-a-decade-of-c-meets-rust-and-io-uring"
+      ]
+    },
+    {
+      "session_id": "talks-qt-bridges-bringing-a-mature-c-ui-framework-to-rust",
+      "rationale": "Matches requested topics: api-design",
+      "alternatives": [
+        "talks-supply-chain-attacks-and-how-to-protect-ourselves"
+      ]
+    },
+    {
+      "session_id": "talks-build-systems-when-your-systems-need-systems-to-build",
+      "rationale": "Shared session or no stronger topic match; review its official abstract",
+      "alternatives": [
+        "talks-vortex-one-format-for-any-shape"
+      ]
+    },
+    {
+      "session_id": "talks-atomic-design-patterns-in-rust-from-orderings-to-code",
+      "rationale": "Matches requested topics: types",
+      "alternatives": [
+        "talks-moving-a-quantum-compiler-from-python-to-rust"
+      ]
+    },
+    {
+      "session_id": "talks-your-infrastructure-should-compile-too",
+      "rationale": "Matches requested topics: types, api-design",
+      "alternatives": [
+        "talks-building-a-high-performance-thread-per-core-zero-copy-opentelemetry-engine-in-rust"
+      ]
+    },
+    {
+      "session_id": "talks-from-deref-into-borrow-a-primer-on-standard-library-traits",
+      "rationale": "Matches requested topics: types, api-design",
+      "alternatives": [
+        "talks-fearless-concurrency-on-the-gpu"
+      ]
+    },
+    {
+      "session_id": "talks-beyond-flamegraphs-precise-rust-profiling-with-hotpath-rs",
+      "rationale": "Shared session or no stronger topic match; review its official abstract",
+      "alternatives": [
+        "talks-the-lamp"
+      ]
+    },
+    {
+      "session_id": "talks-beyond-cargo-build",
+      "rationale": "Shared session or no stronger topic match; review its official abstract",
+      "alternatives": []
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+name: Refresh conference data
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 5 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: eurorust-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Bound scheduled refreshes to the conference window
+        id: window
+        shell: bash
+        run: |
+          refresh_date=$(date -u +%F)
+          if [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" || ( "$refresh_date" > "2026-10-13" && "$refresh_date" < "2026-10-19" ) ]]; then
+            echo 'run=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'run=false' >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        if: steps.window.outputs.run == 'true'
+      - uses: dtolnay/rust-toolchain@686976e191b89faba57d3206551f0f330d8cb249
+        if: steps.window.outputs.run == 'true'
+        with:
+          toolchain: stable
+          components: rustfmt, clippy
+      - name: Fetch, regenerate, and validate using compiled executables
+        if: steps.window.outputs.run == 'true'
+        shell: bash
+        run: |
+          cargo build --release --locked
+          mkdir -p .cache
+          target/release/conference-data refresh > .cache/refresh-summary.txt
+          cat .cache/refresh-summary.txt
+          for profile in community/paths/*-profile.json; do
+            target/release/conference-data recommend --profile "$profile" --output "${profile%-profile.json}-itinerary.json"
+          done
+          cargo fmt --all --check
+          cargo clippy --workspace --all-targets --locked -- -D warnings
+          cargo test --workspace --locked
+          target/release/conference-data validate
+          target/release/conference-data check-docs
+          for path in community/paths/*-itinerary.json; do
+            target/release/conference-data check-itinerary --itinerary "$path"
+          done
+      - name: Propose the checked snapshot for review
+        if: steps.window.outputs.run == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          git add -- data exports schema community/paths/*-itinerary.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          refresh_branch="refresh/eurorust-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          git switch -c "$refresh_branch"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Refresh official EuroRust snapshot and participant paths'
+          git push origin "$refresh_branch"
+          cat > .cache/refresh-pr.md <<'BODY'
+          Refreshes source-linked conference facts, immutable snapshot, human and agent exports, and fictional participant paths.
+
+          The refresh job completed formatting, lint, unit/integration/compile-fail tests, dataset integrity, document routing, and itinerary checks before creating this proposal. Review source changes and unknowns before merging. This job does not merge automatically.
+          BODY
+          gh pr create --base main --head "$refresh_branch" --title 'Refresh official EuroRust conference snapshot' --body-file .cache/refresh-pr.md

@@ -1,0 +1,22 @@
+name: Data correction
+description: Report an official-source discrepancy or extraction issue
+labels: [data]
+body:
+  - type: input
+    id: session
+    attributes:
+      label: Session ID and snapshot
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official source URL and observation time
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Published value, proposed correction, and supporting evidence
+    validations:
+      required: true

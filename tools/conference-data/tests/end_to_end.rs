@@ -1,0 +1,228 @@
+use conference_data::{
+    collect,
+    domain::*,
+    export,
+    itinerary::{self, Profile, Selection},
+};
+use std::{fs, process::Command};
+
+fn fixture_catalog() -> Catalog {
+    let source = Provenance {
+        source_url: collect::SCHEDULE.to_owned().try_into().unwrap(),
+        retrieved_at: Timestamp::now(),
+        source_updated_at: None,
+        content_sha256: collect::digest(b"synthetic fixture").try_into().unwrap(),
+    };
+    let checked = collect::parse_schedule(include_str!("fixtures/schedule.html"), source)
+        .unwrap()
+        .validate()
+        .unwrap();
+    let mut catalog: Catalog =
+        serde_json::from_value(serde_json::to_value(checked.catalog()).unwrap()).unwrap();
+    let mut alternative = catalog.sessions[0].clone();
+    alternative.id = "talks-fixture-robotics".to_owned().try_into().unwrap();
+    alternative.title = "Robotics fixture".to_owned().try_into().unwrap();
+    alternative.official_url = "https://eurorust.eu/talks/fixture-robotics/"
+        .to_owned()
+        .try_into()
+        .unwrap();
+    catalog.sessions.push(alternative);
+    for (index, topic) in [(0, "async"), (2, "robotics")] {
+        let session = &mut catalog.sessions[index];
+        session.annotation = Some(Annotation {
+            session_id: session.id.clone(),
+            summary: "Synthetic test summary".to_owned().try_into().unwrap(),
+            topics: vec![topic.to_owned().try_into().unwrap()],
+            prerequisites: None,
+            setup: None,
+            author: "Test fixture".to_owned().try_into().unwrap(),
+            method: "Synthetic".to_owned().try_into().unwrap(),
+            review_status: AnnotationReview::SourceCheckedDraft,
+            source_checked_at: Timestamp::now(),
+            source_content_sha256: collect::digest(b"synthetic detail").try_into().unwrap(),
+            source_url: session.official_url.clone(),
+        });
+    }
+    catalog
+}
+fn bundle(root: &std::path::Path) -> export::VerifiedBundle {
+    export::publish(
+        DraftSnapshot::new(fixture_catalog()).validate().unwrap(),
+        root,
+    )
+    .unwrap();
+    export::verify(root).unwrap()
+}
+fn profile(topic: &str) -> Profile {
+    serde_json::from_value(serde_json::json!({"name":"Fictional test participant","goals":["Explore a topic"],"topics":[topic],"available_windows":[],"registered_workshops":[],"attendance_mode":null})).unwrap()
+}
+
+#[test]
+fn participant_profiles_produce_different_checked_choices() {
+    let directory = tempfile::tempdir().unwrap();
+    let checked = bundle(directory.path());
+    let backend = itinerary::recommend(&checked, profile("async")).unwrap();
+    let robotics = itinerary::recommend(&checked, profile("robotics")).unwrap();
+    assert_ne!(
+        backend.selections[0].session_id,
+        robotics.selections[0].session_id
+    );
+    assert!(
+        itinerary::check(&checked, &backend)
+            .unwrap()
+            .iter()
+            .any(|s| s.contains("Availability unknown"))
+    );
+    assert!(itinerary::check(&checked, &robotics).is_ok());
+}
+
+#[test]
+fn rejects_overlap_stale_snapshot_and_wrong_availability() {
+    let directory = tempfile::tempdir().unwrap();
+    let checked = bundle(directory.path());
+    let mut plan = itinerary::recommend(&checked, profile("async")).unwrap();
+    plan.snapshot_id = "different-snapshot".to_owned().try_into().unwrap();
+    assert!(
+        itinerary::check(&checked, &plan)
+            .unwrap_err()
+            .to_string()
+            .contains("different snapshot")
+    );
+    plan.snapshot_id = checked.manifest().snapshot_id.clone();
+    plan.selections.push(Selection {
+        session_id: "talks-fixture-robotics".to_owned().try_into().unwrap(),
+        rationale: "Alternative selected concurrently"
+            .to_owned()
+            .try_into()
+            .unwrap(),
+        alternatives: vec![],
+    });
+    assert!(
+        itinerary::check(&checked, &plan)
+            .unwrap_err()
+            .to_string()
+            .contains("overlap")
+    );
+    plan.selections.pop();
+    plan.profile.available_windows = vec![
+        Slot::new(
+            "2026-10-15T11:00:00+02:00".to_owned().try_into().unwrap(),
+            Some("2026-10-15T12:00:00+02:00".to_owned().try_into().unwrap()),
+        )
+        .unwrap(),
+    ];
+    assert!(
+        itinerary::check(&checked, &plan)
+            .unwrap_err()
+            .to_string()
+            .contains("availability")
+    );
+}
+
+#[test]
+fn rejects_broken_reference_and_annotation_identity() {
+    let mut catalog = fixture_catalog();
+    catalog.sessions[0].speaker_ids = vec!["speaker-missing".to_owned().try_into().unwrap()];
+    assert!(DraftSnapshot::new(catalog).validate().is_err());
+    let mut catalog = fixture_catalog();
+    catalog.sessions[0].annotation.as_mut().unwrap().session_id =
+        "talks-other".to_owned().try_into().unwrap();
+    assert!(DraftSnapshot::new(catalog).validate().is_err());
+}
+
+#[test]
+fn modified_view_is_detected_and_offline_export_recovers() {
+    let directory = tempfile::tempdir().unwrap();
+    let checked = bundle(directory.path());
+    let immutable = directory
+        .path()
+        .join(&checked.manifest().authoritative_catalog);
+    fs::write(directory.path().join("data/sessions.json"), b"[]").unwrap();
+    assert!(export::verify(directory.path()).is_err());
+    let old = collect::load(&immutable).unwrap();
+    export::publish(old, directory.path()).unwrap();
+    assert!(export::verify(directory.path()).is_ok());
+}
+
+#[test]
+fn actual_binary_rejects_bad_input_without_replacing_last_snapshot() {
+    let directory = tempfile::tempdir().unwrap();
+    let _checked = bundle(directory.path());
+    let before = fs::read(directory.path().join("data/manifest.json")).unwrap();
+    let input = directory.path().join("invalid.json");
+    fs::write(&input, b"{}").unwrap();
+    let output = Command::new(env!("CARGO_BIN_EXE_conference-data"))
+        .arg("--root")
+        .arg(directory.path())
+        .args(["export", "--catalog"])
+        .arg(input)
+        .output()
+        .unwrap();
+    assert!(!output.status.success());
+    assert_eq!(
+        before,
+        fs::read(directory.path().join("data/manifest.json")).unwrap()
+    );
+    assert!(export::verify(directory.path()).is_ok());
+    let good = Command::new(env!("CARGO_BIN_EXE_conference-data"))
+        .arg("--root")
+        .arg(directory.path())
+        .arg("validate")
+        .output()
+        .unwrap();
+    assert!(good.status.success());
+}
+
+#[test]
+fn manifest_generator_binding_detects_tampering() {
+    let directory = tempfile::tempdir().unwrap();
+    let checked = bundle(directory.path());
+    assert_eq!(checked.manifest().session_count, 3);
+    assert!(export::verify(directory.path()).is_ok());
+    let path = directory
+        .path()
+        .join(&checked.manifest().authoritative_catalog);
+    assert_eq!(collect::load(&path).unwrap().catalog().sessions.len(), 3);
+    let mut manifest = serde_json::to_value(checked.manifest()).unwrap();
+    manifest["generator_source_sha256"] =
+        serde_json::json!("ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
+    fs::write(
+        directory.path().join("data/manifest.json"),
+        serde_json::to_vec(&manifest).unwrap(),
+    )
+    .unwrap();
+    assert!(export::verify(directory.path()).is_err());
+}
+
+#[test]
+fn document_fixtures_reject_active_history_and_private_dependencies() {
+    let directory = tempfile::tempdir().unwrap();
+    let root = directory.path();
+    fs::create_dir(root.join("docs")).unwrap();
+    let inventory = serde_json::json!([
+        {"path":"README.md","class":"current","owner":"Fixture","purpose":"Active guide","scope":"Test","replacement":null},
+        {"path":"history.md","class":"historical","owner":"Fixture","purpose":"Archived record","scope":"Test","replacement":null}
+    ]);
+    fs::write(
+        root.join("docs/document-map.json"),
+        serde_json::to_vec(&inventory).unwrap(),
+    )
+    .unwrap();
+    fs::write(root.join("history.md"), "# Historical record\n").unwrap();
+    fs::write(root.join("README.md"), "# Guide\n[Continue](history.md)\n").unwrap();
+    assert!(conference_data::navigation::check(root).is_err());
+    fs::write(
+        root.join("README.md"),
+        "# Guide\n[Historical record](history.md)\n",
+    )
+    .unwrap();
+    assert!(conference_data::navigation::check(root).is_ok());
+    fs::create_dir(root.join(".plan")).unwrap();
+    fs::write(root.join(".plan/private.md"), "# Private\n").unwrap();
+    fs::write(
+        root.join("README.md"),
+        "# Guide\n[Required](.plan/private.md)\n",
+    )
+    .unwrap();
+    assert!(conference_data::navigation::check(root).is_err());
+}

@@ -1,0 +1,670 @@
+[
+  {
+    "session_id": "workshops-beyond-p99-observing-async-rust",
+    "summary": "Instrument async workloads to understand task progress, scheduling delays, slow requests, and the cost of production diagnostics.",
+    "topics": [
+      "observability",
+      "async",
+      "production-reliability"
+    ],
+    "prerequisites": "Comfort with Rust, preferably including some async programming; the named tools need no prior experience.",
+    "setup": "Bring a Rust-ready laptop and follow the emailed preparation instructions.",
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/workshops/beyond-p99-observing-async-rust/",
+    "source_checked_at": "2026-10-14T14:17:14.395238+00:00",
+    "source_content_sha256": "a451c3737f647f5248ca15121e75fc1f8fde55e3ae416aa43aee0f7fd261a131"
+  },
+  {
+    "session_id": "workshops-building-a-virtual-machine-monitor-in-rust",
+    "summary": "Build a Linux-booting virtual-machine monitor while learning virtualization hardware, KVM interfaces, and device behavior.",
+    "topics": [
+      "infrastructure",
+      "systems",
+      "production-reliability"
+    ],
+    "prerequisites": "Comfort writing Rust; virtualization background is not required.",
+    "setup": "Bring a laptop with an SSH client; the organizer describes provided cloud instances with nested virtualization.",
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/workshops/building-a-virtual-machine-monitor-in-rust/",
+    "source_checked_at": "2026-10-14T14:17:15.378733+00:00",
+    "source_content_sha256": "68f0bbfebd1c96ba1f5e45bca266f589c43f35a2de97b923e01e44eb6b6d0d55"
+  },
+  {
+    "session_id": "workshops-c-to-rust",
+    "summary": "Practice incremental C-to-Rust migration through interfaces, module replacement, and interoperability pitfalls.",
+    "topics": [
+      "interop",
+      "systems",
+      "production-reliability"
+    ],
+    "prerequisites": null,
+    "setup": "Bring a laptop and follow the emailed software setup instructions.",
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/workshops/c-to-rust/",
+    "source_checked_at": "2026-10-14T14:17:16.381211+00:00",
+    "source_content_sha256": "bd768b937bb3b014acf78424ac3c02d5afb8ff46305f3a2f2cc9bd4eb504ef5c"
+  },
+  {
+    "session_id": "workshops-containers-are-dead",
+    "summary": "Build a Rust WebAssembly service and compare its deployment and isolation tradeoffs with container-based approaches.",
+    "topics": [
+      "infrastructure",
+      "security",
+      "systems"
+    ],
+    "prerequisites": "Rust familiarity and introductory awareness of WebAssembly.",
+    "setup": "Confirm the organizer’s preparation instructions; specific equipment requirements are not captured here.",
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/workshops/containers-are-dead/",
+    "source_checked_at": "2026-10-14T14:17:17.382260+00:00",
+    "source_content_sha256": "c2fe35403e2a1002731367b974e1c9daccc0e3bb355dd240939a041badad4ac3"
+  },
+  {
+    "session_id": "workshops-hands-on-embedded-rust",
+    "summary": "Build microcontroller exercises using Embassy, LEDs, sensors, and wireless connectivity on supplied Pico-based hardware.",
+    "topics": [
+      "embedded",
+      "robotics",
+      "async",
+      "hardware"
+    ],
+    "prerequisites": "Rust familiarity; awareness of async Rust helps, but embedded or async experience is not required.",
+    "setup": "Bring a laptop with two USB-A connections or suitable adapters; check the emailed setup guide.",
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/workshops/hands-on-embedded-rust/",
+    "source_checked_at": "2026-10-14T14:17:18.393555+00:00",
+    "source_content_sha256": "4028103de8314deccd0a15535c2b7b5b2d7d000dfc426b0941a170f1dd6d3063"
+  },
+  {
+    "session_id": "workshops-programming-a-line-follower-robot",
+    "summary": "Program simulated line-following robots with embedded async Rust, telemetry, and control refinements; this workshop does not supply physical robots.",
+    "topics": [
+      "robotics",
+      "embedded",
+      "async",
+      "observability"
+    ],
+    "prerequisites": "Basic Rust familiarity; prior embedded experience is unnecessary and async knowledge is optional.",
+    "setup": "Bring a Rust development laptop with rustup, Git, and an editor; exercises use simulation.",
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/workshops/programming-a-line-follower-robot/",
+    "source_checked_at": "2026-10-14T14:17:19.402477+00:00",
+    "source_content_sha256": "7fbcd640532c27f9306abd5d085ed462719a5a372b7b5cc35bbb913388e50ce2"
+  },
+  {
+    "session_id": "workshops-rust-in-action",
+    "summary": "Use a supplied Rust SDK, cameras, and vehicles in team-based control exercises that connect perception with physical movement.",
+    "topics": [
+      "robotics",
+      "hardware",
+      "systems"
+    ],
+    "prerequisites": null,
+    "setup": "Confirm workshop access and team setup; the page describes supplied vehicles and a Rust SDK.",
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/workshops/rust-in-action/",
+    "source_checked_at": "2026-10-14T14:17:20.410243+00:00",
+    "source_content_sha256": "cdb4a068b58a1062fb589659257125f2fa93c19176de3462da04559b4609fcf3"
+  },
+  {
+    "session_id": "workshops-rust-on-the-field-integrating-real-autonomous-systems",
+    "summary": "Integrate vehicle and field-data protocols into a Rust orchestration platform while handling unreliable transport and heterogeneous system models.",
+    "topics": [
+      "robotics",
+      "async",
+      "production-reliability",
+      "infrastructure"
+    ],
+    "prerequisites": "Comfort with async Rust and Tokio; previous robotics or protocol experience is not required.",
+    "setup": "Bring a stable-Rust development laptop; the source describes provided hardware and emailed setup instructions.",
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/workshops/rust-on-the-field-integrating-real-autonomous-systems/",
+    "source_checked_at": "2026-10-14T14:17:21.425881+00:00",
+    "source_content_sha256": "5046427e8f71b0d49a4cd9065d45a59c4aeafe58de055196434e344cfb2255a0"
+  },
+  {
+    "session_id": "talks-move-your-problems",
+    "summary": "Explore compile-time evaluation, reflection proposals, and compiler diagnostics, distinguishing available nightly features from designs still under discussion.",
+    "topics": [
+      "types",
+      "api-design",
+      "compilers"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/move-your-problems/",
+    "source_checked_at": "2026-10-14T14:17:26.452356+00:00",
+    "source_content_sha256": "308e44caa530383dd773c4568baf30f07e63f84807a7adf40b6b79f561bfd76e"
+  },
+  {
+    "session_id": "talks-compiling-the-linux-kernel-with-gccrs",
+    "summary": "Follow gccrs development toward building Rust kernel code and examine the compiler behavior and compatibility work behind that milestone.",
+    "topics": [
+      "compilers",
+      "infrastructure",
+      "systems"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/compiling-the-linux-kernel-with-gccrs/",
+    "source_checked_at": "2026-10-14T14:17:27.668070+00:00",
+    "source_content_sha256": "3fbaa38ff29fc654a66c2c5425beeb17443a795805df245e62d879cef98f3cbb"
+  },
+  {
+    "session_id": "talks-the-future-of-unmanned-systems-is-built-on-rust",
+    "summary": "Examine a distributed ground-control architecture and the practical changes involved in moving an unmanned-systems platform from C++ to Rust.",
+    "topics": [
+      "robotics",
+      "production-reliability",
+      "async",
+      "infrastructure"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/the-future-of-unmanned-systems-is-built-on-rust/",
+    "source_checked_at": "2026-10-14T14:17:28.565121+00:00",
+    "source_content_sha256": "074ac57501ac45f6bb274b07a42a73ef08485da74d6f9344129c07d5a293eebd"
+  },
+  {
+    "session_id": "talks-optimizing-the-new-rust-trait-solver",
+    "summary": "Study algorithmic improvements and sound caching decisions in the next trait solver, with performance claims understood in their benchmark context.",
+    "topics": [
+      "types",
+      "compilers",
+      "performance"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/optimizing-the-new-rust-trait-solver/",
+    "source_checked_at": "2026-10-14T14:17:29.465889+00:00",
+    "source_content_sha256": "bb74200a82c8db4b25ab493abd2a431e4b294fe6b1bd229c84463afcc58e3216"
+  },
+  {
+    "session_id": "talks-shipping-temporal-how-the-rust-ecosystem-built-chrome-s-newest-web-api",
+    "summary": "Explore Rust integration into browser date-and-time APIs through bindings and shared calendrical libraries. This Temporal is unrelated to workflow orchestration.",
+    "topics": [
+      "interop",
+      "api-design",
+      "types"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/shipping-temporal-how-the-rust-ecosystem-built-chrome-s-newest-web-api/",
+    "source_checked_at": "2026-10-14T14:17:30.801754+00:00",
+    "source_content_sha256": "f0709e2961f079087281639acf5e5bcfc5109cf96a2f840c9a33ef45dbbfee93"
+  },
+  {
+    "session_id": "talks-building-a-query-system",
+    "summary": "Compare compiler query architectures and incremental-result caching through a Cargo dependency-resolution example.",
+    "topics": [
+      "compilers",
+      "tooling",
+      "data",
+      "performance"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/building-a-query-system/",
+    "source_checked_at": "2026-10-14T14:17:31.495331+00:00",
+    "source_content_sha256": "220b2d3c812dee708f1f6625edcb95e38b48f3977f63f2a02287cca0400a73dd"
+  },
+  {
+    "session_id": "talks-tales-from-the-embedded-rust-frontier-bootstrapping-a-brand-new-ecosystem",
+    "summary": "Survey the crates and testing work needed to build an ecosystem for intermediate-sized Arm processors used in real-time and embedded systems.",
+    "topics": [
+      "embedded",
+      "robotics",
+      "systems"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/tales-from-the-embedded-rust-frontier-bootstrapping-a-brand-new-ecosystem/",
+    "source_checked_at": "2026-10-14T14:17:32.602696+00:00",
+    "source_content_sha256": "8ed1d96753bc1728fead8e21a54d4a05e9de6eceb67de1bf845f75744d911cbc"
+  },
+  {
+    "session_id": "talks-from-hardware-to-human-interface-building-hid-devices-in-rust",
+    "summary": "Learn how Rust-based input devices connect through USB and Bluetooth, including the protocols that make them usable by ordinary computers.",
+    "topics": [
+      "embedded",
+      "robotics",
+      "hardware"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/from-hardware-to-human-interface-building-hid-devices-in-rust/",
+    "source_checked_at": "2026-10-14T14:17:33.614046+00:00",
+    "source_content_sha256": "bec8dd3f067eae1ea3ab4fb89076f7b3868d3595de704e7b70e8a2993143d8c3"
+  },
+  {
+    "session_id": "talks-rebuilding-the-tower-of-babel-write-your-own-language-server-with-tree-sitter",
+    "summary": "Use grammar parsing and shared language-server components to build editor features for a specialized language.",
+    "topics": [
+      "tooling",
+      "api-design",
+      "compilers"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/rebuilding-the-tower-of-babel-write-your-own-language-server-with-tree-sitter/",
+    "source_checked_at": "2026-10-14T14:17:34.898979+00:00",
+    "source_content_sha256": "461652b4e4cb819bb1ab9a2fd7743f31d66dd1d4c963f3b810cb688929e1d851"
+  },
+  {
+    "session_id": "talks-lessons-from-building-a-background-task-processing-library",
+    "summary": "Explore worker API evolution, extensibility, dependency injection, and production shutdown/restart concerns in a Rust task-processing library.",
+    "topics": [
+      "async",
+      "production-reliability",
+      "api-design"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/lessons-from-building-a-background-task-processing-library/",
+    "source_checked_at": "2026-10-14T14:17:35.746438+00:00",
+    "source_content_sha256": "b1c9b1ffaae82ff59e93604ef702964f752a84b1be8b00414721ad398974a86a"
+  },
+  {
+    "session_id": "talks-running-safely-with-scissors-lock-free-concurrency-for-maximum-throughput",
+    "summary": "Study append-oriented metrics storage and type-constrained concurrency, including the boundary between safe APIs and carefully isolated unsafe implementation.",
+    "topics": [
+      "performance",
+      "types",
+      "observability",
+      "production-reliability"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/running-safely-with-scissors-lock-free-concurrency-for-maximum-throughput/",
+    "source_checked_at": "2026-10-14T14:17:36.736708+00:00",
+    "source_content_sha256": "e14d1061d9557ac182578595298e7dcf63869d5c6454468c775fdfe193bae90d"
+  },
+  {
+    "session_id": "talks-game-show",
+    "summary": "A community game-show session uses code review and bug-finding as a playful shared activity.",
+    "topics": [
+      "community"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/game-show/",
+    "source_checked_at": "2026-10-14T14:17:37.524496+00:00",
+    "source_content_sha256": "86e34fa98896b23d288ca6dd7adc80b0ba37687769f9617b4a30618763157c61"
+  },
+  {
+    "session_id": "talks-inside-cloud-hypervisor-from-kvm-to-a-running-vm",
+    "summary": "Trace VM boot through memory, virtual CPUs, devices, and kernel boundaries while examining the development workflow of a Rust hypervisor.",
+    "topics": [
+      "infrastructure",
+      "systems",
+      "production-reliability"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/inside-cloud-hypervisor-from-kvm-to-a-running-vm/",
+    "source_checked_at": "2026-10-14T14:17:38.740070+00:00",
+    "source_content_sha256": "11275e9c8a2c539caf95553c8a249e427ee5baa80dbb144bf52ef540b4b6c443"
+  },
+  {
+    "session_id": "talks-what-s-next-for-rust-s-type-system",
+    "summary": "Review ongoing type-system work and prospective language changes following the next-generation trait solver. Future features are not assumed stable.",
+    "topics": [
+      "types",
+      "compilers",
+      "api-design"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/what-s-next-for-rust-s-type-system/",
+    "source_checked_at": "2026-10-14T14:17:39.846835+00:00",
+    "source_content_sha256": "ae4802ae94c6f98656d6ee22fba0087dee5f942c043150d3e88dd31b9f82def2"
+  },
+  {
+    "session_id": "talks-image-codecs-rustification-in-chromium",
+    "summary": "Follow incremental replacement of browser image decoders with Rust, including integration, upstream contributions, and staged production evaluation.",
+    "topics": [
+      "security",
+      "interop",
+      "production-reliability"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/image-codecs-rustification-in-chromium/",
+    "source_checked_at": "2026-10-14T14:17:40.548583+00:00",
+    "source_content_sha256": "433a9fe0d8f9833e80d02133cb739c0fa75668242309844cb36bb2385d9c322a"
+  },
+  {
+    "session_id": "talks-rust-s-influence-on-c-and-python-shaping-the-future-of-three-communities",
+    "summary": "Examine how Rust, C++, and Python influence each other through memory safety, tooling, and interoperability expectations.",
+    "topics": [
+      "interop",
+      "tooling",
+      "systems"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/rust-s-influence-on-c-and-python-shaping-the-future-of-three-communities/",
+    "source_checked_at": "2026-10-14T14:17:43.554948+00:00",
+    "source_content_sha256": "b267d01a463a03ec2342b4e689a9d6a1ec5e4521491e9318056979ca33584d1f"
+  },
+  {
+    "session_id": "talks-blastbeat-when-a-decade-of-c-meets-rust-and-io-uring",
+    "summary": "Review a network-observability rewrite using batched I/O, with kernel compatibility and fleet rollout as important parts of the case study.",
+    "topics": [
+      "performance",
+      "observability",
+      "infrastructure",
+      "production-reliability"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/blastbeat-when-a-decade-of-c-meets-rust-and-io-uring/",
+    "source_checked_at": "2026-10-14T14:17:44.907906+00:00",
+    "source_content_sha256": "85d3185f2b17034bb0116f3bcd3f851dd2945036306321f99d6f768b5cd2143e"
+  },
+  {
+    "session_id": "talks-designing-state-machines-for-streaming-proxies-in-rust",
+    "summary": "Model partial streaming progress, cancellation, buffering, and connection reuse as explicit states and transitions in a Rust proxy.",
+    "topics": [
+      "types",
+      "async",
+      "production-reliability",
+      "api-design"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/designing-state-machines-for-streaming-proxies-in-rust/",
+    "source_checked_at": "2026-10-14T14:17:45.944067+00:00",
+    "source_content_sha256": "9f422ad2ca912d5ef86222db7251a61d0eae404a404225db9f59b81fcb914898"
+  },
+  {
+    "session_id": "talks-qt-bridges-bringing-a-mature-c-ui-framework-to-rust",
+    "summary": "Explore a Rust-facing API for QML applications and the tradeoffs at the boundary with an established C++ UI toolkit.",
+    "topics": [
+      "interop",
+      "api-design"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/qt-bridges-bringing-a-mature-c-ui-framework-to-rust/",
+    "source_checked_at": "2026-10-14T14:17:46.772149+00:00",
+    "source_content_sha256": "b9fb943419c71dbf1fd5975855fc691cc96676e7a548440ef55d66718017579b"
+  },
+  {
+    "session_id": "talks-supply-chain-attacks-and-how-to-protect-ourselves",
+    "summary": "Map dependency and build-time exposure to available auditing, review, and publishing practices in the Rust ecosystem.",
+    "topics": [
+      "security",
+      "infrastructure",
+      "production-reliability"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/supply-chain-attacks-and-how-to-protect-ourselves/",
+    "source_checked_at": "2026-10-14T14:17:47.719737+00:00",
+    "source_content_sha256": "08d1e7547520caddb5fd99d937d7dbcea32ed1766bef729ab872576ba0cc9ae3"
+  },
+  {
+    "session_id": "talks-build-systems-when-your-systems-need-systems-to-build",
+    "summary": "Develop criteria for choosing and evolving build systems as project complexity grows.",
+    "topics": [
+      "infrastructure",
+      "tooling",
+      "production-reliability"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/build-systems-when-your-systems-need-systems-to-build/",
+    "source_checked_at": "2026-10-14T14:17:48.803286+00:00",
+    "source_content_sha256": "00a6854e05926ec7541bfa0041faca93c14eb3865b6844bb44af8938982402e2"
+  },
+  {
+    "session_id": "talks-vortex-one-format-for-any-shape",
+    "summary": "Explore extensible columnar types and compression for heterogeneous data, including event, telemetry, and vector-oriented workloads.",
+    "topics": [
+      "data",
+      "observability",
+      "performance"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/vortex-one-format-for-any-shape/",
+    "source_checked_at": "2026-10-14T14:17:49.867886+00:00",
+    "source_content_sha256": "0fa1bce56a12c94a125174e6862a5e87e38a0c1054cb6f3ee34ffb75ea5698e6"
+  },
+  {
+    "session_id": "talks-atomic-design-patterns-in-rust-from-orderings-to-code",
+    "summary": "Connect memory-ordering arguments to recurring atomic coordination patterns and their correctness and performance tradeoffs.",
+    "topics": [
+      "types",
+      "performance",
+      "production-reliability"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/atomic-design-patterns-in-rust-from-orderings-to-code/",
+    "source_checked_at": "2026-10-14T14:17:50.851525+00:00",
+    "source_content_sha256": "513c44ffb47e3b99534898a411802b92042967ce2dbee826f40831fef91cf994"
+  },
+  {
+    "session_id": "talks-moving-a-quantum-compiler-from-python-to-rust",
+    "summary": "Follow an incremental compiler migration from research-oriented Python toward a Rust-centered implementation and changing hardware requirements.",
+    "topics": [
+      "compilers",
+      "interop",
+      "performance"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/moving-a-quantum-compiler-from-python-to-rust/",
+    "source_checked_at": "2026-10-14T14:17:51.701894+00:00",
+    "source_content_sha256": "b1afd9f63acfe92646d3adb1768fe5ad012b92688ffaf2d6dd968508bb730691"
+  },
+  {
+    "session_id": "talks-building-a-high-performance-thread-per-core-zero-copy-opentelemetry-engine-in-rust",
+    "summary": "Study telemetry architecture using per-core execution, locality, typed thread constraints, and direct columnar processing.",
+    "topics": [
+      "observability",
+      "async",
+      "performance",
+      "types"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/building-a-high-performance-thread-per-core-zero-copy-opentelemetry-engine-in-rust/",
+    "source_checked_at": "2026-10-14T14:17:52.702729+00:00",
+    "source_content_sha256": "0dfae44dbd2a34345e9994451412ce70f09ab789269c2cac61c49e04930df44d"
+  },
+  {
+    "session_id": "talks-your-infrastructure-should-compile-too",
+    "summary": "Explore bringing application infrastructure requirements into compilation so integration mismatches can be discovered earlier in development.",
+    "topics": [
+      "infrastructure",
+      "types",
+      "api-design"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/your-infrastructure-should-compile-too/",
+    "source_checked_at": "2026-10-14T14:17:53.722473+00:00",
+    "source_content_sha256": "bc75fa548dd3e5d1696448de22d3016c6ea0275174be13091b48b3ed2f8fc224"
+  },
+  {
+    "session_id": "talks-fearless-concurrency-on-the-gpu",
+    "summary": "Explore ownership-oriented GPU programming with tiles and runtime data movement, using a small example rather than assuming hardware expertise.",
+    "topics": [
+      "gpu",
+      "types",
+      "performance"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/fearless-concurrency-on-the-gpu/",
+    "source_checked_at": "2026-10-14T14:17:54.713665+00:00",
+    "source_content_sha256": "3b1c1c9de816fb144761aa713e9b5c1cbf69d39bb524d36ab9a2e0ce68340c14"
+  },
+  {
+    "session_id": "talks-from-deref-into-borrow-a-primer-on-standard-library-traits",
+    "summary": "Clarify the different responsibilities of standard conversion and reference traits when designing Rust APIs.",
+    "topics": [
+      "types",
+      "api-design"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/from-deref-into-borrow-a-primer-on-standard-library-traits/",
+    "source_checked_at": "2026-10-14T14:17:55.820434+00:00",
+    "source_content_sha256": "b53b7de78bf7b989ecb73bd26b949595ded8d8dab351bc948c8c85db1072f267"
+  },
+  {
+    "session_id": "talks-beyond-flamegraphs-precise-rust-profiling-with-hotpath-rs",
+    "summary": "Compare instrumentation-oriented profiling with sampling approaches and examine measurement overhead in async-heavy programs.",
+    "topics": [
+      "observability",
+      "async",
+      "performance"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/beyond-flamegraphs-precise-rust-profiling-with-hotpath-rs/",
+    "source_checked_at": "2026-10-14T14:17:56.855968+00:00",
+    "source_content_sha256": "9ea85f022038e0bc83fe2620163f2ea40120a84bad993c29e0564e7615702b4d"
+  },
+  {
+    "session_id": "talks-the-lamp",
+    "summary": "Follow a home-automation project through mechanical, electronic, and embedded-Rust decisions while making a motorized lamp remotely controllable.",
+    "topics": [
+      "embedded",
+      "robotics",
+      "hardware"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/the-lamp/",
+    "source_checked_at": "2026-10-14T14:17:57.734550+00:00",
+    "source_content_sha256": "a169929a2fa047728728c427a8ff6eebe6b07b1417dcc2a0fa18a2d906460ccc"
+  },
+  {
+    "session_id": "talks-beyond-cargo-build",
+    "summary": "Explore a Cargo-compatible build-system effort focused on hermetic execution, remote work, caching, and cross-platform developer feedback.",
+    "topics": [
+      "infrastructure",
+      "tooling",
+      "production-reliability"
+    ],
+    "prerequisites": null,
+    "setup": null,
+    "author": "Codex-assisted initial repository curation",
+    "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
+    "review_status": "source_checked_draft",
+    "source_url": "https://eurorust.eu/talks/beyond-cargo-build/",
+    "source_checked_at": "2026-10-14T14:17:58.638856+00:00",
+    "source_content_sha256": "a17756d2f7e362b1c46b6ac019c4e02700ac2773e8b8a6ccf612d440ef5cc4af"
+  }
+]

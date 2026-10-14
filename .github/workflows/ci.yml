@@ -1,0 +1,44 @@
+name: CI
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: dtolnay/rust-toolchain@686976e191b89faba57d3206551f0f330d8cb249
+        with:
+          toolchain: stable
+          components: rustfmt, clippy
+      - name: Private-path boundary
+        shell: bash
+        run: test -z "$(git ls-files .plan .cache bin target)"
+      - run: cargo fmt --all --check
+      - run: cargo clippy --workspace --all-targets --locked -- -D warnings
+      - run: cargo test --workspace --locked
+      - run: cargo build --release --locked
+      - run: target/release/conference-data validate
+      - run: target/release/conference-data check-docs
+      - name: Check participant paths
+        shell: bash
+        run: |
+          for path in community/paths/*-itinerary.json; do
+            target/release/conference-data check-itinerary --itinerary "$path"
+          done
+      - name: Verify installed-example behavior
+        shell: bash
+        run: |
+          target/release/agent-contract-lab input --tool index-code --timeout-ms 500
+          target/release/agent-contract-lab retry --budget 3 --failures 2
+          set +e
+          target/release/agent-contract-lab input --tool index-code --timeout-ms 0
+          input_status=$?
+          target/release/agent-contract-lab retry --budget 2 --failures 2
+          retry_status=$?
+          set -e
+          test "$input_status" -eq 1
+          test "$retry_status" -eq 2
