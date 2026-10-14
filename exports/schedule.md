@@ -1,6 +1,6 @@
 # EuroRust 2026 schedule
 
-Generated from official schedule facts. Snapshot: `eurorust-2026-09f701ec84faae84382f`.
+Generated from official schedule facts. Snapshot: `eurorust-2026-4e5eb188687f8a0b06f0`.
 All times are Europe/Madrid with explicit offsets (+02:00 during the event).
 Unknown prerequisites, remote access, tickets and recording availability remain unknown.
 Recheck official pages before attending. Community summaries are attributed interpretations.
