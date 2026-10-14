@@ -17,7 +17,7 @@ Confirm session access, tickets, recordings, and unlisted prerequisites on the o
 - End: 2026-10-14T16:00:00+02:00
 - Stage: Workshop
 - Official source: https://eurorust.eu/workshops/beyond-p99-observing-async-rust/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Julián Montes de Oca
 - Venue: WeWork Glories Barcelona
 - Remote access for this session: unknown
@@ -40,7 +40,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-14T16:00:00+02:00
 - Stage: Workshop
 - Official source: https://eurorust.eu/workshops/building-a-virtual-machine-monitor-in-rust/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Johan Sannemo
 - Venue: WeWork Glories Barcelona
 - Remote access for this session: unknown
@@ -63,7 +63,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-14T16:00:00+02:00
 - Stage: Workshop
 - Official source: https://eurorust.eu/workshops/c-to-rust/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Magnus Markling
 - Venue: WeWork Glories Barcelona
 - Remote access for this session: unknown
@@ -86,7 +86,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-14T16:00:00+02:00
 - Stage: Workshop
 - Official source: https://eurorust.eu/workshops/containers-are-dead/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Jonas Kruckenberg
 - Venue: WeWork Glories Barcelona
 - Remote access for this session: unknown
@@ -109,7 +109,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-14T16:00:00+02:00
 - Stage: Workshop
 - Official source: https://eurorust.eu/workshops/hands-on-embedded-rust/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Domenic Quirl, Björn Barwinski
 - Venue: WeWork Glories Barcelona
 - Remote access for this session: unknown
@@ -132,7 +132,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-14T16:00:00+02:00
 - Stage: Workshop
 - Official source: https://eurorust.eu/workshops/programming-a-line-follower-robot/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Massimiliano Mantione, Michele Mantione
 - Venue: WeWork Glories Barcelona
 - Remote access for this session: unknown
@@ -155,7 +155,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-14T16:00:00+02:00
 - Stage: Workshop
 - Official source: https://eurorust.eu/workshops/rust-in-action/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Alex Read
 - Venue: WeWork Glories Barcelona
 - Remote access for this session: unknown
@@ -178,7 +178,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-14T16:00:00+02:00
 - Stage: Workshop
 - Official source: https://eurorust.eu/workshops/rust-on-the-field-integrating-real-autonomous-systems/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: WeWork Glories Barcelona
 - Remote access for this session: unknown
@@ -201,7 +201,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-14T17:30:00+02:00
 - Stage: Side activity
 - Official source: https://eurorust.eu/activities/bike-tour/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: unknown; check source
 - Remote access for this session: unknown
@@ -216,7 +216,7 @@ No community summary or prerequisites are recorded. Follow the official page to 
 - End: 2026-10-14T21:30:00+02:00
 - Stage: Side activity
 - Official source: https://eurorust.eu/activities/meetup/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: unknown; check source
 - Remote access for this session: unknown
@@ -231,7 +231,7 @@ No community summary or prerequisites are recorded. Follow the official page to 
 - End: 2026-10-14T20:00:00+02:00
 - Stage: Side activity
 - Official source: https://eurorust.eu/activities/boat-tour/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: unknown; check source
 - Remote access for this session: unknown
@@ -246,7 +246,7 @@ No community summary or prerequisites are recorded. Follow the official page to 
 - End: 2026-10-14T20:00:00+02:00
 - Stage: Side activity
 - Official source: https://eurorust.eu/activities/wine-tasting/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: unknown; check source
 - Remote access for this session: unknown
@@ -264,7 +264,7 @@ No community summary or prerequisites are recorded. Follow the official page to 
 - End: 2026-10-15T10:00:00+02:00
 - Stage: All stages
 - Official source: https://eurorust.eu/schedule/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -279,7 +279,7 @@ No community summary or prerequisites are recorded. Follow the official page to 
 - End: 2026-10-15T10:45:00+02:00
 - Stage: Main Stage
 - Official source: https://eurorust.eu/talks/move-your-problems/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Oli Scherer
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -302,7 +302,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-15T11:30:00+02:00
 - Stage: Main Stage
 - Official source: https://eurorust.eu/talks/compiling-the-linux-kernel-with-gccrs/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Arthur Cohen, Pierre-Emmanuel Patry
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -325,7 +325,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-15T11:30:00+02:00
 - Stage: Side Track
 - Official source: https://eurorust.eu/talks/the-future-of-unmanned-systems-is-built-on-rust/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Benedikt Wiethof, Theophil Spiegeler Castañeda
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -348,7 +348,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-15T12:15:00+02:00
 - Stage: Side Track
 - Official source: https://eurorust.eu/talks/optimizing-the-new-rust-trait-solver/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Jana Dönszelmann
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -371,7 +371,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-15T12:15:00+02:00
 - Stage: Main Stage
 - Official source: https://eurorust.eu/talks/shipping-temporal-how-the-rust-ecosystem-built-chrome-s-newest-web-api/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Shane Carr
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -394,7 +394,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-15T13:45:00+02:00
 - Stage: All stages
 - Official source: https://eurorust.eu/schedule/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -409,7 +409,7 @@ No community summary or prerequisites are recorded. Follow the official page to 
 - End: 2026-10-15T14:15:00+02:00
 - Stage: Side Track
 - Official source: https://eurorust.eu/talks/building-a-query-system/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Arya Dradjica
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -432,7 +432,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-15T14:15:00+02:00
 - Stage: Main Stage
 - Official source: https://eurorust.eu/talks/tales-from-the-embedded-rust-frontier-bootstrapping-a-brand-new-ecosystem/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Jonathan Pallant
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -455,7 +455,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-15T15:00:00+02:00
 - Stage: Main Stage
 - Official source: https://eurorust.eu/talks/from-hardware-to-human-interface-building-hid-devices-in-rust/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Frank Lyaruu
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -478,7 +478,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-15T15:00:00+02:00
 - Stage: Side Track
 - Official source: https://eurorust.eu/talks/rebuilding-the-tower-of-babel-write-your-own-language-server-with-tree-sitter/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Timo Bachmann
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -501,7 +501,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-15T15:45:00+02:00
 - Stage: Side Track
 - Official source: https://eurorust.eu/talks/lessons-from-building-a-background-task-processing-library/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Njuguna Mureithi
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -524,7 +524,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-15T15:45:00+02:00
 - Stage: Main Stage
 - Official source: https://eurorust.eu/talks/running-safely-with-scissors-lock-free-concurrency-for-maximum-throughput/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Filip Petkovski
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -547,7 +547,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-15T16:15:00+02:00
 - Stage: All stages
 - Official source: https://eurorust.eu/schedule/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -562,7 +562,7 @@ No community summary or prerequisites are recorded. Follow the official page to 
 - End: 2026-10-15T16:45:00+02:00
 - Stage: Main Stage
 - Official source: https://eurorust.eu/talks/game-show/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Amos Wenger, Tris Oaten
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -585,7 +585,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-15T17:30:00+02:00
 - Stage: Side Track
 - Official source: https://eurorust.eu/talks/inside-cloud-hypervisor-from-kvm-to-a-running-vm/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Philipp Schuster
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -608,7 +608,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-15T17:30:00+02:00
 - Stage: Main Stage
 - Official source: https://eurorust.eu/talks/what-s-next-for-rust-s-type-system/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: lcnr
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -631,7 +631,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-15T18:30:00+02:00
 - Stage: Main Stage
 - Official source: https://eurorust.eu/talks/image-codecs-rustification-in-chromium/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Johan Rosengren, Sergio Gonzalez Martin
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -654,7 +654,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: unknown
 - Stage: Side activity
 - Official source: https://eurorust.eu/activities/group-dinner/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: unknown; check source
 - Remote access for this session: unknown
@@ -669,7 +669,7 @@ No community summary or prerequisites are recorded. Follow the official page to 
 - End: 2026-10-15T23:00:00+02:00
 - Stage: Side activity
 - Official source: https://eurorust.eu/activities/karaoke/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: unknown; check source
 - Remote access for this session: unknown
@@ -687,7 +687,7 @@ No community summary or prerequisites are recorded. Follow the official page to 
 - End: 2026-10-16T10:45:00+02:00
 - Stage: Main Stage
 - Official source: https://eurorust.eu/talks/rust-s-influence-on-c-and-python-shaping-the-future-of-three-communities/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Cristián Maureira-Fredes
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -710,7 +710,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-16T11:30:00+02:00
 - Stage: Main Stage
 - Official source: https://eurorust.eu/talks/blastbeat-when-a-decade-of-c-meets-rust-and-io-uring/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Daniel Rodriguez, Giacomo Bagnoli
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -733,7 +733,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-16T11:30:00+02:00
 - Stage: Side Track
 - Official source: https://eurorust.eu/talks/designing-state-machines-for-streaming-proxies-in-rust/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Sanskar Jaiswal
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -756,7 +756,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-16T12:15:00+02:00
 - Stage: Main Stage
 - Official source: https://eurorust.eu/talks/qt-bridges-bringing-a-mature-c-ui-framework-to-rust/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Matthias Rauter
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -779,7 +779,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-16T12:15:00+02:00
 - Stage: Side Track
 - Official source: https://eurorust.eu/talks/supply-chain-attacks-and-how-to-protect-ourselves/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Francois Mockers
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -802,7 +802,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-16T13:45:00+02:00
 - Stage: All stages
 - Official source: https://eurorust.eu/schedule/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -817,7 +817,7 @@ No community summary or prerequisites are recorded. Follow the official page to 
 - End: 2026-10-16T14:15:00+02:00
 - Stage: Main Stage
 - Official source: https://eurorust.eu/talks/build-systems-when-your-systems-need-systems-to-build/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Jonas Kruckenberg
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -840,7 +840,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-16T14:15:00+02:00
 - Stage: Side Track
 - Official source: https://eurorust.eu/talks/vortex-one-format-for-any-shape/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Connor Tsui
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -863,7 +863,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-16T15:00:00+02:00
 - Stage: Main Stage
 - Official source: https://eurorust.eu/talks/atomic-design-patterns-in-rust-from-orderings-to-code/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Martin Ombura Jr.
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -886,7 +886,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-16T15:00:00+02:00
 - Stage: Side Track
 - Official source: https://eurorust.eu/talks/moving-a-quantum-compiler-from-python-to-rust/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Jake Lishman
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -909,7 +909,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-16T15:45:00+02:00
 - Stage: Main Stage
 - Official source: https://eurorust.eu/talks/building-a-high-performance-thread-per-core-zero-copy-opentelemetry-engine-in-rust/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Albert Lockett
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -932,7 +932,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-16T15:45:00+02:00
 - Stage: Side Track
 - Official source: https://eurorust.eu/talks/your-infrastructure-should-compile-too/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: André Eriksson
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -955,7 +955,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-16T16:15:00+02:00
 - Stage: All stages
 - Official source: https://eurorust.eu/schedule/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -970,7 +970,7 @@ No community summary or prerequisites are recorded. Follow the official page to 
 - End: 2026-10-16T16:45:00+02:00
 - Stage: Side Track
 - Official source: https://eurorust.eu/talks/fearless-concurrency-on-the-gpu/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Melih Elibol
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -993,7 +993,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-16T16:45:00+02:00
 - Stage: Main Stage
 - Official source: https://eurorust.eu/talks/from-deref-into-borrow-a-primer-on-standard-library-traits/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Andre Bogus
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -1016,7 +1016,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-16T17:30:00+02:00
 - Stage: Side Track
 - Official source: https://eurorust.eu/talks/beyond-flamegraphs-precise-rust-profiling-with-hotpath-rs/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Paweł Urbanek
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -1039,7 +1039,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-16T17:30:00+02:00
 - Stage: Main Stage
 - Official source: https://eurorust.eu/talks/the-lamp/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Uwe Pachler
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -1062,7 +1062,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-16T18:30:00+02:00
 - Stage: Main Stage
 - Official source: https://eurorust.eu/talks/beyond-cargo-build/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Amos Wenger
 - Venue: Auditori L’illa
 - Remote access for this session: unknown
@@ -1085,7 +1085,7 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - End: 2026-10-16T22:00:00+02:00
 - Stage: Side activity
 - Official source: https://maps.app.goo.gl/rfuhDZ3M6pxXWYP58
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: unknown; check source
 - Remote access for this session: unknown
@@ -1103,7 +1103,7 @@ No community summary or prerequisites are recorded. Follow the official page to 
 - End: 2026-10-17T16:00:00+02:00
 - Stage: Side activity
 - Official source: https://eurorust.eu/activities/impl-day/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: unknown; check source
 - Remote access for this session: unknown
@@ -1118,7 +1118,7 @@ No community summary or prerequisites are recorded. Follow the official page to 
 - End: 2026-10-17T15:00:00+02:00
 - Stage: Side activity
 - Official source: https://eurorust.eu/activities/museum-tour/
-- Retrieved: 2026-10-14T14:30:00.638499+00:00
+- Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: unknown; check source
 - Remote access for this session: unknown

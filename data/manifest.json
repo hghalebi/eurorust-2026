@@ -8,9 +8,9 @@
   "session_count": 53,
   "detail_count": 47,
   "files": {
-    "data/catalog.json": "a7b0fed48cdb7b9826e48c3a78e3af93a9cb03f78f62d85deb952f1e1eb85fde",
+    "data/catalog.json": "382d2e32deaa0eb4604e1c4c2d6b8db628e64230fc79cb63205946d85a8bf4ca",
     "data/conference.json": "8beb6000bd0416e45d608b095d7adbe4c6b85827775225a04be20bd04b4f2ac8",
-    "data/sessions.json": "d9326a21c58e8216b7e9ddf0cfb8034de5c280f8c3cb3b43162a5655ff158b67",
+    "data/sessions.json": "7ed29631b815be8920d3407813e97919223d029de2accc05924434e802ac691f",
     "data/speakers.json": "5a1d0af05eb3b8ddd9d7c4aa526497b5011c82c3f4c3f3dcb9cb0ff78179ebf3",
     "data/venues.json": "6ff326b50802cdc0e918c0fd85fe93509e5106769ad9468065b65784246c72a8",
     "exports/conference-pack.md": "c93969c0e81a2f2c019c3a27d0b16ce8b003c3557c3e233d26a8b9cee60e21d5",
