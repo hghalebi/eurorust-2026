@@ -1,6 +1,6 @@
 # Proposed learning path
 
-Profile: Shared production agents and Rust learning path. Snapshot: `eurorust-2026-09f701ec84faae84382f`.
+Profile: Shared production agents and Rust learning path. Snapshot: `eurorust-2026-4e5eb188687f8a0b06f0`.
 
 This is a conditional preparation plan. All times use Europe/Madrid with explicit offsets.
 It records no booking, attendance, or prerequisite readiness. Keep breaks and confirm travel time.
@@ -26,7 +26,7 @@ Conditions to resolve:
 - Rationale: Matches requested topics: types
 - Stage: Main Stage
 - Venue: Auditori L’illa
-- Schedule retrieved: 2026-10-14T14:30:00.638499+00:00
+- Schedule retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Preparation: prerequisites: unknown; setup: unknown
 - Community annotation: SourceCheckedDraft; source checked 2026-10-14T14:17:26.452356+00:00
 
@@ -38,7 +38,7 @@ Conditions to resolve:
 - Rationale: Matches requested topics: production-reliability, async, infrastructure, robotics
 - Stage: Side Track
 - Venue: Auditori L’illa
-- Schedule retrieved: 2026-10-14T14:30:00.638499+00:00
+- Schedule retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Preparation: prerequisites: unknown; setup: unknown
 - Community annotation: SourceCheckedDraft; source checked 2026-10-14T14:17:28.565121+00:00
 - Same-slot alternative: [Compiling the Linux kernel with gccrs](https://eurorust.eu/talks/compiling-the-linux-kernel-with-gccrs/) (`talks-compiling-the-linux-kernel-with-gccrs`); choose one.
@@ -51,7 +51,7 @@ Conditions to resolve:
 - Rationale: Matches requested topics: types
 - Stage: Side Track
 - Venue: Auditori L’illa
-- Schedule retrieved: 2026-10-14T14:30:00.638499+00:00
+- Schedule retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Preparation: prerequisites: unknown; setup: unknown
 - Community annotation: SourceCheckedDraft; source checked 2026-10-14T14:17:29.465889+00:00
 - Same-slot alternative: [Shipping Temporal: How the Rust Ecosystem Built Chrome’s Newest Web API](https://eurorust.eu/talks/shipping-temporal-how-the-rust-ecosystem-built-chrome-s-newest-web-api/) (`talks-shipping-temporal-how-the-rust-ecosystem-built-chrome-s-newest-web-api`); choose one.
@@ -64,7 +64,7 @@ Conditions to resolve:
 - Rationale: Matches requested topics: robotics
 - Stage: Main Stage
 - Venue: Auditori L’illa
-- Schedule retrieved: 2026-10-14T14:30:00.638499+00:00
+- Schedule retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Preparation: prerequisites: unknown; setup: unknown
 - Community annotation: SourceCheckedDraft; source checked 2026-10-14T14:17:32.602696+00:00
 - Same-slot alternative: [Building a Query System](https://eurorust.eu/talks/building-a-query-system/) (`talks-building-a-query-system`); choose one.
@@ -77,7 +77,7 @@ Conditions to resolve:
 - Rationale: Matches requested topics: robotics
 - Stage: Main Stage
 - Venue: Auditori L’illa
-- Schedule retrieved: 2026-10-14T14:30:00.638499+00:00
+- Schedule retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Preparation: prerequisites: unknown; setup: unknown
 - Community annotation: SourceCheckedDraft; source checked 2026-10-14T14:17:33.614046+00:00
 - Same-slot alternative: [Rebuilding the Tower of Babel – Write Your Own Language Server with Tree-sitter](https://eurorust.eu/talks/rebuilding-the-tower-of-babel-write-your-own-language-server-with-tree-sitter/) (`talks-rebuilding-the-tower-of-babel-write-your-own-language-server-with-tree-sitter`); choose one.
@@ -90,7 +90,7 @@ Conditions to resolve:
 - Rationale: Matches requested topics: production-reliability, async
 - Stage: Side Track
 - Venue: Auditori L’illa
-- Schedule retrieved: 2026-10-14T14:30:00.638499+00:00
+- Schedule retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Preparation: prerequisites: unknown; setup: unknown
 - Community annotation: SourceCheckedDraft; source checked 2026-10-14T14:17:35.746438+00:00
 - Same-slot alternative: [Running Safely with Scissors: Lock-free Concurrency for Maximum Throughput](https://eurorust.eu/talks/running-safely-with-scissors-lock-free-concurrency-for-maximum-throughput/) (`talks-running-safely-with-scissors-lock-free-concurrency-for-maximum-throughput`); choose one.
@@ -103,7 +103,7 @@ Conditions to resolve:
 - Rationale: Shared session or no stronger topic match; review its official abstract
 - Stage: Main Stage
 - Venue: Auditori L’illa
-- Schedule retrieved: 2026-10-14T14:30:00.638499+00:00
+- Schedule retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Preparation: prerequisites: unknown; setup: unknown
 - Community annotation: SourceCheckedDraft; source checked 2026-10-14T14:17:37.524496+00:00
 
@@ -115,7 +115,7 @@ Conditions to resolve:
 - Rationale: Matches requested topics: production-reliability, infrastructure
 - Stage: Side Track
 - Venue: Auditori L’illa
-- Schedule retrieved: 2026-10-14T14:30:00.638499+00:00
+- Schedule retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Preparation: prerequisites: unknown; setup: unknown
 - Community annotation: SourceCheckedDraft; source checked 2026-10-14T14:17:38.740070+00:00
 - Same-slot alternative: [What's next for Rust's type system](https://eurorust.eu/talks/what-s-next-for-rust-s-type-system/) (`talks-what-s-next-for-rust-s-type-system`); choose one.
@@ -128,7 +128,7 @@ Conditions to resolve:
 - Rationale: Matches requested topics: production-reliability
 - Stage: Main Stage
 - Venue: Auditori L’illa
-- Schedule retrieved: 2026-10-14T14:30:00.638499+00:00
+- Schedule retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Preparation: prerequisites: unknown; setup: unknown
 - Community annotation: SourceCheckedDraft; source checked 2026-10-14T14:17:40.548583+00:00
 
@@ -140,7 +140,7 @@ Conditions to resolve:
 - Rationale: Shared session or no stronger topic match; review its official abstract
 - Stage: Main Stage
 - Venue: Auditori L’illa
-- Schedule retrieved: 2026-10-14T14:30:00.638499+00:00
+- Schedule retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Preparation: prerequisites: unknown; setup: unknown
 - Community annotation: SourceCheckedDraft; source checked 2026-10-14T14:17:43.554948+00:00
 
@@ -152,7 +152,7 @@ Conditions to resolve:
 - Rationale: Matches requested topics: types, production-reliability, async
 - Stage: Side Track
 - Venue: Auditori L’illa
-- Schedule retrieved: 2026-10-14T14:30:00.638499+00:00
+- Schedule retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Preparation: prerequisites: unknown; setup: unknown
 - Community annotation: SourceCheckedDraft; source checked 2026-10-14T14:17:45.944067+00:00
 - Same-slot alternative: [Blastbeat: When a Decade of C++ Meets Rust and io_uring](https://eurorust.eu/talks/blastbeat-when-a-decade-of-c-meets-rust-and-io-uring/) (`talks-blastbeat-when-a-decade-of-c-meets-rust-and-io-uring`); choose one.
@@ -165,7 +165,7 @@ Conditions to resolve:
 - Rationale: Matches requested topics: production-reliability, infrastructure
 - Stage: Side Track
 - Venue: Auditori L’illa
-- Schedule retrieved: 2026-10-14T14:30:00.638499+00:00
+- Schedule retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Preparation: prerequisites: unknown; setup: unknown
 - Community annotation: SourceCheckedDraft; source checked 2026-10-14T14:17:47.719737+00:00
 - Same-slot alternative: [Qt Bridges: Bringing a mature C++ UI framework to Rust](https://eurorust.eu/talks/qt-bridges-bringing-a-mature-c-ui-framework-to-rust/) (`talks-qt-bridges-bringing-a-mature-c-ui-framework-to-rust`); choose one.
@@ -178,7 +178,7 @@ Conditions to resolve:
 - Rationale: Matches requested topics: production-reliability, infrastructure
 - Stage: Main Stage
 - Venue: Auditori L’illa
-- Schedule retrieved: 2026-10-14T14:30:00.638499+00:00
+- Schedule retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Preparation: prerequisites: unknown; setup: unknown
 - Community annotation: SourceCheckedDraft; source checked 2026-10-14T14:17:48.803286+00:00
 - Same-slot alternative: [Vortex: One Format for Any Shape](https://eurorust.eu/talks/vortex-one-format-for-any-shape/) (`talks-vortex-one-format-for-any-shape`); choose one.
@@ -191,7 +191,7 @@ Conditions to resolve:
 - Rationale: Matches requested topics: types, production-reliability
 - Stage: Main Stage
 - Venue: Auditori L’illa
-- Schedule retrieved: 2026-10-14T14:30:00.638499+00:00
+- Schedule retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Preparation: prerequisites: unknown; setup: unknown
 - Community annotation: SourceCheckedDraft; source checked 2026-10-14T14:17:50.851525+00:00
 - Same-slot alternative: [Moving a quantum compiler from Python to Rust](https://eurorust.eu/talks/moving-a-quantum-compiler-from-python-to-rust/) (`talks-moving-a-quantum-compiler-from-python-to-rust`); choose one.
@@ -204,7 +204,7 @@ Conditions to resolve:
 - Rationale: Matches requested topics: types, async
 - Stage: Main Stage
 - Venue: Auditori L’illa
-- Schedule retrieved: 2026-10-14T14:30:00.638499+00:00
+- Schedule retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Preparation: prerequisites: unknown; setup: unknown
 - Community annotation: SourceCheckedDraft; source checked 2026-10-14T14:17:52.702729+00:00
 - Same-slot alternative: [Your Infrastructure Should Compile, Too](https://eurorust.eu/talks/your-infrastructure-should-compile-too/) (`talks-your-infrastructure-should-compile-too`); choose one.
@@ -217,7 +217,7 @@ Conditions to resolve:
 - Rationale: Matches requested topics: types
 - Stage: Side Track
 - Venue: Auditori L’illa
-- Schedule retrieved: 2026-10-14T14:30:00.638499+00:00
+- Schedule retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Preparation: prerequisites: unknown; setup: unknown
 - Community annotation: SourceCheckedDraft; source checked 2026-10-14T14:17:54.713665+00:00
 - Same-slot alternative: [From Deref Into Borrow, a Primer on Standard Library Traits](https://eurorust.eu/talks/from-deref-into-borrow-a-primer-on-standard-library-traits/) (`talks-from-deref-into-borrow-a-primer-on-standard-library-traits`); choose one.
@@ -230,7 +230,7 @@ Conditions to resolve:
 - Rationale: Matches requested topics: async
 - Stage: Side Track
 - Venue: Auditori L’illa
-- Schedule retrieved: 2026-10-14T14:30:00.638499+00:00
+- Schedule retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Preparation: prerequisites: unknown; setup: unknown
 - Community annotation: SourceCheckedDraft; source checked 2026-10-14T14:17:56.855968+00:00
 - Same-slot alternative: [The Lämp](https://eurorust.eu/talks/the-lamp/) (`talks-the-lamp`); choose one.
@@ -243,7 +243,7 @@ Conditions to resolve:
 - Rationale: Matches requested topics: production-reliability, infrastructure
 - Stage: Main Stage
 - Venue: Auditori L’illa
-- Schedule retrieved: 2026-10-14T14:30:00.638499+00:00
+- Schedule retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Preparation: prerequisites: unknown; setup: unknown
 - Community annotation: SourceCheckedDraft; source checked 2026-10-14T14:17:58.638856+00:00
 
