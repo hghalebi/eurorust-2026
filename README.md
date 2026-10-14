@@ -8,6 +8,9 @@ agents in production. This independent attendee collection shares my proposed
 path, preparation notes, speaker reading profiles, and reusable conference data
 so you can build a path of your own.
 
+Find me on [X](https://x.com/Hamzeml), [GitHub](https://github.com/hghalebi),
+and [LinkedIn](https://www.linkedin.com/in/hamze/).
+
 [EuroRust takes place October 14–17, 2026, in Barcelona](https://eurorust.eu/).
 Times in this collection use **Europe/Madrid**.
 

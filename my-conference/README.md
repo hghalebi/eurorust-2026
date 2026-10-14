@@ -5,6 +5,9 @@ I'm looking for the engineering ideas underneath that goal: clearer contracts,
 reliable workers, infrastructure I can reason about, and software that interacts
 with the physical world.
 
+Find me on [X](https://x.com/Hamzeml), [GitHub](https://github.com/hghalebi),
+and [LinkedIn](https://www.linkedin.com/in/hamze/).
+
 | What I'm exploring | What I want to take away |
 | --- | --- |
 | Rust's type system | Make invalid tool inputs and illegal state transitions harder to express |
