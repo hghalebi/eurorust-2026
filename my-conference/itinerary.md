@@ -1,6 +1,6 @@
 # Proposed learning path
 
-Profile: Shared production agents and Rust learning path. Snapshot: `eurorust-2026-c19dca1f5dc486613643`.
+Profile: Shared production agents and Rust learning path. Snapshot: `eurorust-2026-09f701ec84faae84382f`.
 
 This is a conditional preparation plan. All times use Europe/Madrid with explicit offsets.
 It records no booking, attendance, or prerequisite readiness. Keep breaks and confirm travel time.
@@ -262,4 +262,4 @@ No workshop booking is recorded, so none is selected. October 14 may already hav
 
 ## Capture and apply
 
-Before each session, write one question. After attending, record one concrete follow-up and label actual observations separately. Use October 17 impl Day conditionally to test a small tool or worker contract and its failure behavior.
+Before each session, write one question. After attending, record one concrete follow-up connected to your goals and label actual observations separately.
