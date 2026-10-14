@@ -1,11 +1,11 @@
-name: Tool bug
-description: Report collection, validation, export, or planning behavior
+name: 'Report a tool problem'
+description: 'Help reproduce a collection, export, validation, or itinerary failure.'
 labels: [bug]
 body:
   - type: textarea
     id: reproduction
     attributes:
-      label: Commands, expected behavior, actual output, and platform
-      description: Include the tool version and snapshot; omit credentials and private profiles.
+      label: 'What happened, and how can we reproduce it?'
+      description: 'Include the command, expected result, actual output, platform, tool version, and snapshot. Remove credentials and real participant profiles before posting.'
     validations:
       required: true

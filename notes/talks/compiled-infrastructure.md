@@ -1,17 +1,22 @@
-# Preparing for compiled infrastructure
+# What should infrastructure catch before delivery?
 
-Status: source-based preparation, not attendance. Session ID:
-`talks-your-infrastructure-should-compile-too`. Source:
-[official session](https://eurorust.eu/talks/your-infrastructure-should-compile-too/).
+**Status: source-based preparation.** Session:
+`talks-your-infrastructure-should-compile-too`.
+[Read the official description](https://eurorust.eu/talks/your-infrastructure-should-compile-too/).
 
-The abstract describes moving infrastructure integration checks into development
-and compilation. This directly fits an interest in infrastructure expressed
-through Rust.
+The description explores moving infrastructure integration checks into
+development and compilation. That fits my interest in expressing infrastructure
+through Rust and making configuration assumptions easier to inspect.
 
-Ask how configuration meaning is represented, which integration mismatches are
-caught, how secrets and environment-specific facts are handled, and where actual
-deployment remains a separate effect. Compilation is useful evidence for a
-contract, not evidence that a remote service was deployed or recovered.
+## Questions to bring
 
-Compare the approach with build and observability sessions. Preserve specific
-tool/version context when recording later examples or measured outcomes.
+- How does the API represent configuration meaning and integration constraints?
+- Which mismatches can compilation catch, and which depend on the environment?
+- How are secrets handled, and where does actual deployment begin?
+
+## Keep the evidence attached
+
+Compare the approach with build-system and observability ideas. When trying an
+example, record the tool, version, checked contract, and deployment result
+separately. Compilation can support a configuration guarantee; remote deployment
+and recovery still need their own checks.

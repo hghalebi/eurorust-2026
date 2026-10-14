@@ -1,9 +1,10 @@
 # EuroRust 2026 schedule
 
-Generated from official schedule facts. Snapshot: `eurorust-2026-09f701ec84faae84382f`.
-All times are Europe/Madrid with explicit offsets (+02:00 during the event).
-Unknown prerequisites, remote access, tickets and recording availability remain unknown.
-Recheck official pages before attending. Community summaries are attributed interpretations.
+Compare times, venues, and preparation needs, then choose the sessions that fit your goals. Follow a session link for its full official description.
+
+Snapshot: `eurorust-2026-4015f32fd5b266a4352c`. Schedule times use Europe/Madrid (+02:00 during the event); retrieval timestamps retain their recorded offsets.
+
+Confirm session access, tickets, recordings, and unlisted prerequisites on the official pages. Community notes are attributed interpretations; their review status and source dates show what still needs checking.
 
 
 ## 2026-10-14

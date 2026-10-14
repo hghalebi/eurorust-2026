@@ -280,6 +280,15 @@ pub enum AnnotationReview {
     CommunityReviewed,
     SourceChanged,
 }
+impl std::fmt::Display for AnnotationReview {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        f.write_str(match self {
+            Self::SourceCheckedDraft => "Draft checked against source; community review pending",
+            Self::CommunityReviewed => "Reviewed by a community contributor",
+            Self::SourceChanged => "Source changed; annotation needs review",
+        })
+    }
+}
 
 #[derive(Debug, Clone, Serialize, Deserialize, JsonSchema)]
 #[serde(deny_unknown_fields)]

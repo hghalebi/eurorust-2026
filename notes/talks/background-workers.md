@@ -1,18 +1,25 @@
-# Preparing for background-worker design
+# What happens around the worker loop?
 
-Status: source-based preparation, not attendance. Session ID:
-`talks-lessons-from-building-a-background-task-processing-library`. Source:
-[official session](https://eurorust.eu/talks/lessons-from-building-a-background-task-processing-library/).
+**Status: source-based preparation.** Session:
+`talks-lessons-from-building-a-background-task-processing-library`.
+[Read the official description](https://eurorust.eu/talks/lessons-from-building-a-background-task-processing-library/).
 
-The abstract describes a task library's evolving APIs, dependency injection,
-middleware, shutdown, and rolling restarts. These concerns are relevant to
-production agent workers independently of the choice of reasoning model.
+Production agent work needs a place to live between model calls: a task API,
+dependencies, shutdown behavior, and a recovery path. The session's description
+covers an evolving task library, dependency injection, middleware, shutdown,
+and rolling restarts.
 
-Bring questions about duplicate work, cancellation, crash recovery, retry
-classification, and durable acknowledgments. Distinguish a local API ownership
-guarantee from persistence or remote-effect guarantees. Compare trait-based
-capabilities with concrete dependencies and ask which bounds are truly required.
+## Questions to bring
 
-The [retry experiment](../../experiments/owned-retry-budget.md) shows a bounded
-local attempt loop with simulated failures. It does not demonstrate restart-safe
-job execution. Record actual lessons and results only after observation.
+- How are duplicate work, cancellation, and retryable failures represented?
+- What survives a crash, and when is an acknowledgment durable?
+- Which capabilities belong behind traits, and which bounds are actually needed?
+
+## Try one bounded contract
+
+The [retry-budget experiment](../../experiments/owned-retry-budget.md) models a
+local attempt limit with simulated failures. It tests ownership and exhaustion;
+it provides no restart-safe job execution. Use the session to examine the
+persistence and recovery requirements around that smaller contract.
+
+Add actual lessons and measured outcomes after observing them.

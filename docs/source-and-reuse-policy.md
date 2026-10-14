@@ -1,25 +1,33 @@
-# Sources, attribution, and reuse
+# Share useful context with clear attribution
 
-The official [schedule](https://eurorust.eu/schedule/), linked session pages, and
-[event site](https://eurorust.eu/) own conference announcements. The
-[imprint](https://eurorust.eu/imprint/) identifies the organizer. Current crawler
-rules are at [robots.txt](https://eurorust.eu/robots.txt). Crawl permission does
-not establish a license to redistribute every page or asset.
+The official [schedule](https://eurorust.eu/schedule/), session pages, and
+[event site](https://eurorust.eu/) are the source for conference announcements.
+The [imprint](https://eurorust.eu/imprint/) identifies the organizer. Check
+[robots.txt](https://eurorust.eu/robots.txt) for current crawler rules. Permission
+to crawl does not establish a license to redistribute a page or its assets.
 
-Published data contains factual metadata, source URLs, retrieval observations,
-and separately attributed original short summaries. Full source HTML, speaker
-biographies, photographs, slides, and transcripts are not distributed by the
-collector. Follow the source for complete abstracts. New sources require review
-of their access rules and reuse terms before inclusion.
+## What this repository publishes
 
-Original repository prose and annotations use CC BY 4.0 as described in
-[LICENSES](../LICENSES/README.md). Code uses [MIT](../LICENSE). Those terms apply
-to our original contributions; third-party material retains its own terms.
-Contributors must have authority to share their material and identify upstream
-sources. Informal conversation notes and identifiable photographs require the
-people involved to be comfortable with publication.
+The collector publishes factual metadata, source URLs, retrieval observations,
+and separately attributed original short summaries. Follow the official source
+for complete abstracts. Full source HTML, speaker biographies, photographs,
+slides, and transcripts are excluded from collector exports. Review access rules
+and reuse terms before adding a source.
 
-Official facts, community interpretation, generated suggestions, and personal
-observations remain distinguishable. Preparation notes are not attendance
-reports. A correction records disagreement with the source instead of quietly
-rewriting official facts. Participant profiles and internal records stay local.
+## What contributors can share
+
+Share material you have authority to publish and identify its upstream sources.
+Original repository prose and annotations use [CC BY 4.0](../LICENSES/README.md);
+software uses [MIT](../LICENSE). Those licenses cover our original contributions.
+Third-party material retains its own rights and terms.
+
+Get the people involved comfortable with publication before sharing informal
+conversation notes or identifiable photographs. Keep participant profiles and
+internal records local.
+
+## Help readers judge the evidence
+
+Label official facts, community interpretation, generated suggestions, and
+personal observations clearly. Record preparation separately from attendance.
+When sources disagree, document both values and the evidence so a correction
+can be reviewed. Use the [contribution guide](../CONTRIBUTING.md) for the right route.

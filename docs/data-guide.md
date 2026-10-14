@@ -1,78 +1,94 @@
-# Dataset and collection guide
+# Use the data. Keep the evidence.
+
+The public files let a participant browse the conference and a tool build a
+traceable itinerary from the same source-linked facts. Start with the
+[manifest](../data/manifest.json) for the active snapshot, coverage, validation
+time, and file hashes. Use per-record provenance for source retrieval dates.
 
 ## Contract
 
-Schema version 1.0.0 describes [the catalog](../data/catalog.json): conference,
-sessions, speakers, and venues. [The schema](../schema/catalog.schema.json) is
-generated from the Rust types. Runtime construction adds interval, reference,
-timezone, version, and annotation-consistency checks beyond JSON shape.
+Schema version 1.0.0 describes the [catalog](../data/catalog.json): conference,
+sessions, speakers, and venues. The [JSON schema](../schema/catalog.schema.json)
+is generated from Rust types. Runtime construction also checks intervals,
+references, timezone offsets, schema version, and annotation consistency.
 
-Session IDs come from official URL paths; service IDs include their time and
-label because those entries have no detail page. A service time change therefore
-changes its ID. Speaker IDs combine a normalized name with a digest to retain
-distinct non-ASCII names. Title/time edits preserve URL-based session IDs.
+| Field or value | How to read it |
+| --- | --- |
+| Session ID | Derived from the official URL path. Title or time edits preserve URL-based IDs |
+| Service ID | Includes time and label because service entries have no detail page; changing the time changes the ID |
+| Speaker ID | Combines a normalized name with a digest to distinguish non-ASCII names |
+| `source` | Schedule-page provenance for extracted facts |
+| `official_url` | The session's source page |
+| `detail_source` | Detail-page retrieval time and content hash |
+| `annotation` | Attributed original summary, topics, known preparation, review status, checked date, and source hash |
+| `null` | Unknown or not published in this dataset; it does not mean false |
 
-`source` is the schedule-page provenance for extracted fields. `official_url`
-identifies the session page, and `detail_source` records its retrieval and hash.
-`annotation` carries separately attributed original paraphrases and topic tags.
-It records the source hash and check date. A changed detail page marks the
-annotation `source_changed`; its previous prerequisites need review, and the
-baseline stops using its topic tags.
-Null means unknown or not published in this dataset, not false. There are no
-invented difficulty ratings, live seat counts, or per-session streaming claims.
+When a detail-page hash changes, refresh marks the annotation `source_changed`.
+Review its previous summary and prerequisites against the current page. The
+baseline stops using those stale topic tags. Offline loading rejects mismatched
+hashes that still claim a checked status, or annotations without detail evidence.
+The dataset supplies no inferred difficulty ratings, live seat counts, or
+unsupported streaming claims.
 
 ## Source discovery and refresh
 
-The inspected site publishes conference-level JSON-LD, a sitemap, and schedule
-elements with start/end offsets and detail links. No session feed is assumed.
-The current collector uses those schedule attributes and visits linked official
-detail pages. External side-activity links are retained without fetching them.
-The origin is restricted to the official HTTPS host. It checks
-robots rules, waits at least one second between requests, uses ETag/Last-Modified
-cache validators, and bounds retries. Source HTML remains in the ignored cache.
+The inspected site exposes conference JSON-LD, a sitemap, schedule attributes,
+and detail links. The collector reads the schedule attributes and fetches linked
+pages on the official HTTPS origin. External activity URLs are retained as links.
+
+Requests follow robots rules, wait at least one second apart, use
+ETag/Last-Modified validators, and have bounded retries. Source HTML stays in the
+ignored local cache. To retrieve and publish checked facts:
 
 ```sh
 bin/conference-data refresh
 bin/conference-data validate
 ```
 
-Missing fields, unsupported kinds, empty schedules, failed detail fetches, broken
-references, and disappeared sessions fail the refresh before publication.
-Review removals against the official site before using `refresh --accept-removals`.
-Annotations whose sessions disappeared must be reviewed too.
+`refresh` applies community annotations as it rebuilds the catalog. Missing
+required fields, unsupported kinds, an empty schedule, failed detail fetches,
+broken references, and disappeared sessions stop publication. Review removals
+against the official site before using `refresh --accept-removals`; reconcile
+annotations for removed sessions too.
 
 ## Snapshots and recovery
 
-The manifest identifies an immutable snapshot under `data/snapshots/`. A snapshot
-contains the catalog, individual data files, schemas, exports, and a manifest.
-Snapshot identity binds catalog content and generator-source/dependency
-fingerprint. Data and generator version are recorded separately.
+Each immutable bundle under `data/snapshots/` contains data, schemas, exports,
+and a manifest. Its identity binds the catalog to the recorded generator-source
+and dependency fingerprint. Data and generator versions are recorded separately.
 
-The complete immutable bundle is prepared before an atomic directory rename.
-Convenience views are replaced individually and the active manifest is written
-last. Failed fetch/parse/validation leaves published data alone. An interruption
-during view updates can leave a digest mismatch: read the old manifest's immutable
-catalog and restore the views using `export --catalog PATH`. This is a file
-publication protocol, not a claim of a cross-file filesystem transaction.
+Publication prepares the complete immutable bundle and renames its directory
+atomically. It then replaces convenience views individually and writes the active
+manifest last. Fetch, parsing, or validation failure leaves published files alone.
+An interruption while replacing views can leave a digest mismatch; the old
+manifest still identifies the immutable catalog used for recovery.
+
+To rebuild from a checked catalog offline:
 
 ```sh
 bin/conference-data export --catalog data/catalog.json
 bin/conference-data validate
 ```
 
-Validation checks both convenience views and immutable files against manifest
-hashes. Git history and release assets retain earlier source-bound observations.
-Offline export reruns validation but does not retrieve newer conference facts.
+If active views are inconsistent, pass the immutable catalog path recorded in the
+last intact manifest to `export --catalog PATH`. Validation compares both active
+views and immutable files with their recorded hashes. This protocol does not
+provide one filesystem transaction across all view files.
+
+`export` retrieves no newer facts and applies no annotation-file edits. Git
+history and release assets retain previous observations; keep their snapshot
+identity when intentionally using historical data.
 
 ## Code and proof routes
 
-| Concern | Owning source | Focused evidence |
+| You are changing… | Owning source | Check the guarantee with… |
 | --- | --- | --- |
-| Domain values and lifecycle | [domain.rs](../tools/conference-data/src/domain.rs) | Constructor tests and compile-fail rustdoc |
-| Fetch, robots, extraction | [collect.rs](../tools/conference-data/src/collect.rs) | Synthetic HTML and malformed-layout tests |
-| Publication and integrity | [export.rs](../tools/conference-data/src/export.rs) | Snapshot/digest and failed-input integration tests |
+| Domain values or lifecycle | [domain.rs](../tools/conference-data/src/domain.rs) | Constructors and compile-fail rustdoc |
+| Fetching, robots, or extraction | [collect.rs](../tools/conference-data/src/collect.rs) | Synthetic HTML and malformed-layout tests |
+| Publication or integrity | [export.rs](../tools/conference-data/src/export.rs) | Digest, recovery, and failed-publication integration tests |
 | Itinerary decisions | [itinerary.rs](../tools/conference-data/src/itinerary.rs) | Availability, stale-snapshot, overlap, and profile scenarios |
-| Public document routing | [navigation.rs](../tools/conference-data/src/navigation.rs) | Link checks and active-to-history negative fixtures |
+| Public document routing | [navigation.rs](../tools/conference-data/src/navigation.rs) | Link checks and historical/private dependency fixtures |
 
-Freshness, attendance, bookings, prerequisites, CI, and published releases each
-need their own evidence. A successful build establishes none of the other facts.
+Use the evidence for the claim you are making: a checked dataset, remote CI,
+published release, confirmed booking, and observed conference lesson each need
+their own proof. Find the current routes in the [task index](README.md).
