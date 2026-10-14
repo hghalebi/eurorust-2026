@@ -2,7 +2,7 @@
 
 Conference facts and community notes for choosing your path. Use the session IDs, official links, and source dates to make each recommendation traceable to this snapshot.
 
-Snapshot: `eurorust-2026-4015f32fd5b266a4352c`. Schedule times use Europe/Madrid (+02:00 during the event); retrieval timestamps retain their recorded offsets.
+Snapshot: `eurorust-2026-bd9ff3d15e58a1b2d39f`. Schedule times use Europe/Madrid (+02:00 during the event); retrieval timestamps retain their recorded offsets.
 
 Confirm session access, tickets, recordings, and unlisted prerequisites on the official pages. Community notes are attributed interpretations; their review status and source dates show what still needs checking.
 

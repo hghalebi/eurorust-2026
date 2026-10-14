@@ -1,0 +1,14 @@
+[
+  {
+    "id": "conference",
+    "name": "Auditori L’illa",
+    "address": "Av. Diagonal, 547, Barcelona",
+    "source_url": "https://eurorust.eu/"
+  },
+  {
+    "id": "workshops",
+    "name": "WeWork Glories Barcelona",
+    "address": "Carrer Tànger 86, Barcelona",
+    "source_url": "https://eurorust.eu/"
+  }
+]
