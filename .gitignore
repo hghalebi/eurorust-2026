@@ -1,0 +1,8 @@
+# Private planning and internal project documents.
+/.plan/
+/.cache/
+/target/
+/bin/
+.DS_Store
+.env
+.env.*
