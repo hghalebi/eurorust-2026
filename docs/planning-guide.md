@@ -32,6 +32,13 @@ Need a starting point? Compare [my path](../my-conference/itinerary.md) with the
 [backend, embedded, and foundations examples](../community/paths/README.md).
 For a half-day or a single day, filter by your availability before ranking talks.
 
+A concrete example from the recorded October 14 snapshot: on October 15,
+11:00–11:30 in Europe/Madrid, [The Future of Unmanned Systems Is Built on Rust](https://eurorust.eu/talks/the-future-of-unmanned-systems-is-built-on-rust/)
+and [Compiling the Linux kernel with gccrs](https://eurorust.eu/talks/compiling-the-linux-kernel-with-gccrs/)
+overlap. A participant exploring robotics could choose the first and retain the
+second as an alternative. Record the chosen session's ID, your reason, and the
+question you want answered. Recheck the official pages before attending.
+
 ## 4. Check that you can attend
 
 Confirm workshop registration, prerequisites, setup, and session access. For

@@ -45,16 +45,20 @@ limits of any check. A recommendation is not a booking or proof of readiness.
 
 ## Optional: generate and check a baseline
 
-After [building the tool](../README.md#build-and-check-the-tools), run:
+Follow the [tested quick start](quickstart.md) first. With the
+[repository-local binary installed](quickstart.md#install-a-reusable-binary), run:
 
 ```sh
-bin/conference-data recommend --profile community/paths/backend-profile.json --output /tmp/my-itinerary.json --markdown /tmp/my-itinerary.md
-bin/conference-data check-itinerary --itinerary /tmp/my-itinerary.json
+mkdir -p .cache/quickstart
+bin/conference-data recommend --profile community/paths/backend-profile.json --output .cache/quickstart/agent-itinerary.json --markdown .cache/quickstart/agent-itinerary.md
+bin/conference-data check-itinerary --itinerary .cache/quickstart/agent-itinerary.json
 ```
 
-The deterministic baseline scores topics, selects one talk per slot, and includes
+The deterministic baseline scores `topics`, selects one talk per slot, and includes
 a workshop only when the profile records its registration. It provides a starting
-point for review. The checker verifies snapshot identity, references, availability,
+point for review. Prose in `goals` is retained but not interpreted by the CLI.
+Use the [profile and scoring reference](cli.md#how-the-baseline-chooses) when
+explaining the baseline. The checker verifies snapshot identity, references, availability,
 and overlaps; warnings still need a participant's decision. Travel time remains
 an external constraint supplied by the participant.
 

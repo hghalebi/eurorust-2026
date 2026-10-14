@@ -9,6 +9,9 @@ own plan. Each generated itinerary records the dataset snapshot it uses.
 | Embedded systems and robotics | [Embedded profile](embedded-profile.json) | [Embedded itinerary](embedded-itinerary.json) |
 | Rust foundations and API design | [Foundations profile](foundations-profile.json) | [Foundations itinerary](foundations-itinerary.json) |
 
+To generate a readable copy, follow the [quick start](../../docs/quickstart.md).
+The CLI ranks `topics`; prose `goals` gives context to people and agents.
+
 These are topic-based starting points. Confirm prerequisites, session access,
 and bookings before attending. The [browser planning guide](../../docs/planning-guide.md)
 helps you turn an example into your own choices; the [agent guide](../../docs/agent-guide.md)

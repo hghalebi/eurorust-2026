@@ -6,6 +6,38 @@ provenance. For the current code revision, inspect its completed
 below record checks at specific times and revisions. Use
 [the contribution checks](../CONTRIBUTING.md#checks) to reproduce them.
 
+## Documentation walkthrough — 2026-10-14
+
+The revised [quick start](quickstart.md) was reproduced from a fresh public clone
+at implementation baseline `dfbfe4c07577f74867ac6a71a690f0984bebe552` using
+Rust/Cargo 1.98.0 on macOS arm64. This documentation change leaves that Rust
+implementation and the published dataset unchanged.
+
+- The exact README clone/build/validate/recommend/check sequence exited 0.
+  Snapshot `eurorust-2026-bd9ff3d15e58a1b2d39f` contained 53 entries; the backend
+  example produced 18 selections. Embedded and foundations profiles also
+  produced 18 selections each, with distinct choices across the three profiles.
+- The complete one-day profile in the walkthrough produced 8 selections and
+  passed `check-itinerary`. Repository-local binary installation, the owner and
+  agent examples, and all four published itineraries passed their checks.
+- In a disposable clone, replacing `data/sessions.json` with an empty array made
+  `validate` exit 1. The [recovery sequence](cli.md#recover-after-a-refresh-or-merge)
+  restored the bundle, regenerated all four paths, and passed validation and
+  itinerary checks. An unknown CLI flag exited 2.
+- Workspace formatting, Clippy with warnings denied, all 17 unit/integration
+  tests, and 9 rustdoc cases passed. The 5 compile-fail cases remain part of that
+  evidence. A release build passed, and the input/retry examples produced their
+  documented success and failure exits.
+- Both documentation checkers passed on the 48-file public Markdown tree,
+  including local links and anchors. The repository checker also verified the
+  document inventory and private/historical routing boundaries. Neither checker
+  validates every external web link or establishes reader comprehension.
+
+The declared Rust 1.88 minimum was not separately retested. This walkthrough
+performed no new live collector refresh, booking, social post, release, or
+platform-support test beyond the stated environment. Historical receipts below
+retain their original scope; match remote CI to the exact commit you use.
+
 ## Recorded checks — 2026-10-14
 
 Local verification on 2026-10-14, macOS arm64, Rust/Cargo 1.98.0:

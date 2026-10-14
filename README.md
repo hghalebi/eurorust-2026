@@ -1,83 +1,96 @@
-# EuroRust 2026, with a plan
+# EuroRust 2026: a conference plan you can reuse
 
-**Choose your talks. Bring better questions. Build something useful.**
+**My Rust learning path, a schedule you can browse, and a CLI that builds checked starting itineraries for attendees and their agents.**
 
-I'm planning my EuroRust around one question: what can Rust teach me about
-building better autonomous agents in production? My route connects type systems,
-reliable workers, infrastructure, and robotics. This is where I turn those
-interests into session choices, preparation notes, and small experiments.
+I'm planning around production autonomous agents, Rust's type system,
+infrastructure, and robotics. Start with [my proposed path](my-conference/itinerary.md),
+then adapt the same conference context to your own goals.
 
-Use my path as a starting point, make a plan of your own, or give the conference
-data to your agent. Everything you need to get started is readable on GitHub.
+1. **Follow my plan:** [learning goals and preparation](my-conference/README.md).
+2. **Choose your sessions:** [browse the schedule](exports/schedule.md) and use
+   the [browser planning guide](docs/planning-guide.md). No installation needed.
+3. **Plan with your agent:** give it the [conference pack](exports/conference-pack.md)
+   and [copyable prompt](prompts/choose-my-path.md). Use your own harness.
 
-| Your next step | Open this |
-| --- | --- |
-| **Follow my path** | [What I'm looking for](my-conference/README.md) → [my proposed itinerary](my-conference/itinerary.md) |
-| **Plan your own EuroRust** | [Browse the schedule](exports/schedule.md) → [choose your sessions](docs/planning-guide.md) → [save your plan](templates/itinerary.md) |
-| **Plan with your agent** | [Give it the conference pack](exports/conference-pack.md) → [copy the planning prompt](prompts/choose-my-path.md) → [check its itinerary](docs/agent-guide.md) |
+The event dates are **October 14–17, 2026**, in Barcelona. Session times use
+**Europe/Madrid**. Check the [official schedule](https://eurorust.eu/schedule/)
+for current times, tickets, prerequisites, and access to individual sessions.
 
-EuroRust 2026 runs **October 14–17 in Barcelona**, with online participation
-announced on the [official event site](https://eurorust.eu/). Schedule times here
-use **Europe/Madrid**. Check the linked official pages for changes, registration,
-prerequisites, and access to each session.
+## Quick start: generate a plan
 
-## Find a path worth bringing home
+**Prerequisites:** Git and a current stable Rust toolchain. Cloning needs network
+access, and the first build may download dependencies. The planning commands read the local snapshot
+and require no model provider, account, or API key.
 
-Start with a question you want the conference to help answer. Then compare
-sessions, choose between conflicting talks, and prepare one question for each.
-The [planning guide](docs/planning-guide.md) walks you through it without a build
-step. [Example paths](community/paths/README.md) show how different goals lead to
-different choices.
+```sh
+git clone https://github.com/hghalebi/eurorust-2026.git
+cd eurorust-2026
+cargo build --release --locked --package conference-data
+mkdir -p .cache/quickstart
+./target/release/conference-data validate
+./target/release/conference-data recommend \
+  --profile community/paths/backend-profile.json \
+  --output .cache/quickstart/itinerary.json \
+  --markdown .cache/quickstart/itinerary.md
+./target/release/conference-data check-itinerary \
+  --itinerary .cache/quickstart/itinerary.json
+```
 
-My itinerary is a proposal. Availability, bookings, attendance mode, and readiness
-still need confirmation. [Preparation notes](notes/README.md),
-[experiments](experiments/README.md), and the [journal](journal/README.md) keep
-planned learning separate from what has actually been observed.
+Open `.cache/quickstart/itinerary.md` to see times, reasons, official links,
+preparation, and alternatives. The final check prints:
 
-## Bring the data to your own harness
+```text
+Schedule feasibility checked; no booking or attendance claim
+```
 
-Use the [Markdown pack](exports/conference-pack.md) for a quick start, or take
-[JSON](data/catalog.json), [JSONL](exports/sessions.jsonl), and
-[schemas](schema/catalog.schema.json) into your own tools. The
-[agent guide](docs/agent-guide.md) explains how to build a plan around a
-participant's goals and constraints. No provider account or custom MCP server is
-required by this repository.
+Warnings identify decisions that still need confirmation. The fictional backend
+profile covers October 15–16. [Make it your own](docs/quickstart.md#use-your-own-profile)
+by editing a local profile's topics, availability, and confirmed registrations.
+The CLI uses topic matching; an agent can interpret your broader goals.
 
-Every published bundle has a [manifest](data/manifest.json) with its snapshot
-identity, file hashes, coverage, and validation time. Official facts retain their
-sources; community summaries carry attribution and review status. Missing
-information stays explicit. Read the [data guide](docs/data-guide.md) when you
-need the exact contract.
+See the [complete walkthrough](docs/quickstart.md) for verified example output,
+platform evidence, downloads, and troubleshooting.
 
-[Download a complete context pack and macOS arm64 tools](https://github.com/hghalebi/eurorust-2026/releases).
+## What makes a plan traceable?
 
-## Make the next person's plan better
+The [manifest](data/manifest.json) identifies the dataset snapshot, generator
+fingerprint, coverage, and file hashes. Each session retains its official URL and
+retrieval date. Original community summaries carry attribution, a checked source
+hash, and a review status. Validation checks internal consistency; it does not
+establish live booking, access, or prerequisite readiness.
 
-A corrected time, a clearer prerequisite, or a useful question can help another
-attendee decide where to go. [Contribute one improvement](CONTRIBUTING.md),
-[pick a starter issue](https://github.com/hghalebi/eurorust-2026/issues), or share a
-path for someone with different goals. Small, well-sourced contributions welcome.
+Use [JSON](data/catalog.json), [JSONL](exports/sessions.jsonl), or
+[Markdown](exports/conference-pack.md). The [data guide](docs/data-guide.md)
+explains the schema, collection rules, immutable snapshots, and recovery.
+The [CLI reference](docs/cli.md) explains exactly how selection and checks work.
 
-If this helps you plan, share the guide or path that helped—and tell us what
-would make the next choice easier.
+## Turn a choice into something you can try
+
+[Preparation notes](notes/README.md) connect session descriptions to questions
+about tool contracts, workers, infrastructure, and robotics. Two
+[small Rust experiments](experiments/README.md) exercise checked tool inputs and
+owned retry budgets. They are local learning examples with explicit limits.
+
+My itinerary is conditional: availability, bookings, attendance mode, and
+readiness remain unconfirmed. The [journal](journal/README.md) and
+[retrospective](retrospective.md) separate preparation from actual observations.
+
+## Help the next attendee choose
+
+[Report a source discrepancy](community/corrections/README.md),
+[share a learning path](community/paths/README.md), or add an original session
+note. [CONTRIBUTING](CONTRIBUTING.md) shows the owning files and relevant checks;
+[starter issues](https://github.com/hghalebi/eurorust-2026/issues) offer focused ways in.
+If you share the project, link the guide, example, or experiment that helped you.
 
 ## Build and check the tools
 
-Use a current stable Rust toolchain. From the repository root:
-
-```sh
-cargo build --release --locked
-mkdir -p bin
-install -m 755 target/release/conference-data bin/conference-data
-bin/conference-data validate
-bin/conference-data check-docs
-```
-
-The compiled tool refreshes official facts, exports checked snapshots, and
-proposes or checks itineraries. See the [task index](docs/README.md) for the owning
-source and relevant check, and the [validation receipt](docs/validation.md) for
-recorded evidence.
+The quick start uses the compiled executable in `target/release/`. For reusable
+`bin/` commands, follow [the installation steps](docs/quickstart.md#install-a-reusable-binary).
+Use the [task index](docs/README.md) for source and check routes and the
+[validation receipt](docs/validation.md) for dated evidence. Native downloads
+are available in [releases](https://github.com/hghalebi/eurorust-2026/releases).
 
 This is an independent attendee project. Code uses [MIT](LICENSE); original prose
-and annotations use [CC BY 4.0](LICENSES/README.md). Third-party material retains
-its own terms. See the [source and reuse policy](docs/source-and-reuse-policy.md).
+and annotations use [CC BY 4.0](LICENSES/README.md). Third-party materials retain
+their own terms. Read the [source and reuse policy](docs/source-and-reuse-policy.md).

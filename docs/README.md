@@ -8,6 +8,8 @@ question open.
 | --- | --- | --- | --- |
 | Follow the owner's path | [Learning goals](../my-conference/README.md) | [Proposed itinerary](../my-conference/itinerary.md) | Official session links, source dates, and unresolved access |
 | Choose sessions in a browser | [Planning guide](planning-guide.md) | [Readable schedule](../exports/schedule.md) | Availability, prerequisites, and conflicts |
+| Build a first local itinerary | [Quick start](quickstart.md) | [Backend profile](../community/paths/backend-profile.json), [CLI](../tools/conference-data/src/main.rs) | Generated JSON/Markdown and `check-itinerary` |
+| Understand inputs or scoring | [CLI reference](cli.md) | [Profile schema](../schema/profile.schema.json), [selection code](../tools/conference-data/src/itinerary.rs) | Match fields, warnings, and the supplied snapshot |
 | Plan with a participant's agent | [Agent guide](agent-guide.md) | [Manifest](../data/manifest.json), [conference pack](../exports/conference-pack.md) | Same-snapshot `check-itinerary` |
 | Refresh official facts | [Refresh guide](data-guide.md#source-discovery-and-refresh) | [Collector](../tools/conference-data/src/collect.rs), [parser fixture](../tools/conference-data/tests/fixtures/schedule.html) | Parser failures, then `validate` |
 | Change a schema or domain check | [Dataset contract](data-guide.md#contract) | [Domain types](../tools/conference-data/src/domain.rs) | Constructors and compile-fail cases |

@@ -32,13 +32,20 @@ After participating, I'll connect observed lessons to tested follow-ups in the
 
 ## Reproduce or adapt the path
 
-After [building the tool](../README.md#build-and-check-the-tools), run:
+After the [quick start](../docs/quickstart.md) and
+[local binary installation](../docs/quickstart.md#install-a-reusable-binary), run
+this copy of the owner example. Outputs stay in the ignored cache:
 
 ```sh
-bin/conference-data recommend --profile my-conference/profile.json --output my-conference/itinerary.json --markdown my-conference/itinerary.md
-bin/conference-data check-itinerary --itinerary my-conference/itinerary.json
+mkdir -p .cache/quickstart
+bin/conference-data recommend --profile my-conference/profile.json --output .cache/quickstart/owner-itinerary.json --markdown .cache/quickstart/owner-itinerary.md
+bin/conference-data check-itinerary --itinerary .cache/quickstart/owner-itinerary.json
 ```
 
 Use the [official schedule](https://eurorust.eu/schedule/) to confirm times and
 access. To make your own path, keep a profile in your own files and follow the
 [planning guide](../docs/planning-guide.md). Your goals should decide your route.
+
+The CLI uses the profile's `topics` and availability to select sessions; the prose
+in `goals` records the learning intent. To change the plan meaningfully, follow
+[the profile guide](../docs/quickstart.md#use-your-own-profile).

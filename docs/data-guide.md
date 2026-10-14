@@ -4,6 +4,8 @@ The public files let a participant browse the conference and a tool build a
 traceable itinerary from the same source-linked facts. Start with the
 [manifest](../data/manifest.json) for the active snapshot, coverage, validation
 time, and file hashes. Use per-record provenance for source retrieval dates.
+Use the [quick start](quickstart.md) to produce a plan; the
+[CLI reference](cli.md) covers exact flags, profile fields, and scoring.
 
 ## Contract
 
@@ -38,7 +40,8 @@ pages on the official HTTPS origin. External activity URLs are retained as links
 
 Requests follow robots rules, wait at least one second apart, use
 ETag/Last-Modified validators, and have bounded retries. Source HTML stays in the
-ignored local cache. To retrieve and publish checked facts:
+ignored local cache. With [the binary installed](quickstart.md#install-a-reusable-binary),
+retrieve and publish checked facts:
 
 ```sh
 bin/conference-data refresh
@@ -63,7 +66,8 @@ manifest last. Fetch, parsing, or validation failure leaves published files alon
 An interruption while replacing views can leave a digest mismatch; the old
 manifest still identifies the immutable catalog used for recovery.
 
-To rebuild from a checked catalog offline:
+To rebuild from a checked catalog offline (after
+[installing the binary](quickstart.md#install-a-reusable-binary)):
 
 ```sh
 bin/conference-data export --catalog data/catalog.json
@@ -77,7 +81,10 @@ provide one filesystem transaction across all view files.
 
 `export` retrieves no newer facts and applies no annotation-file edits. Git
 history and release assets retain previous observations; keep their snapshot
-identity when intentionally using historical data.
+identity when intentionally using historical data. After a source refresh or a
+merge involving generated files, regenerate the example paths too. The
+[complete recovery sequence](cli.md#recover-after-a-refresh-or-merge) keeps the
+manifest, views, and all four paths together.
 
 ## Code and proof routes
 

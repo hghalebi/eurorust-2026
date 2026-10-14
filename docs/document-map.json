@@ -270,5 +270,21 @@
     "purpose": "Generated source-linked facts and attributed annotations for participants and agents",
     "scope": "Manifest-bound EuroRust snapshot",
     "replacement": null
+  },
+  {
+    "path": "docs/quickstart.md",
+    "class": "current",
+    "owner": "repository maintainers",
+    "purpose": "Build and check a first local itinerary, adapt a profile, and resolve setup failures",
+    "scope": "EuroRust 2026 participant CLI onboarding",
+    "replacement": null
+  },
+  {
+    "path": "docs/cli.md",
+    "class": "current",
+    "owner": "repository maintainers",
+    "purpose": "Explain command semantics, profile inputs, deterministic selection, warnings, and snapshot recovery",
+    "scope": "EuroRust 2026 compiled CLI contract",
+    "replacement": null
   }
 ]

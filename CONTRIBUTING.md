@@ -39,7 +39,13 @@ and [community conduct](CODE_OF_CONDUCT.md).
 
 ## Checks
 
-From the repository root, with a current stable Rust toolchain:
+For a prose-only change, start with the file and its source links. You can open a
+GitHub pull request without installing the scraper; state which checks you did
+and did not run. Repository CI includes the navigation check.
+
+For Rust or dataset changes, run the checks below. To build the tool first, use
+[the quick start](docs/quickstart.md). From the repository root, with a current
+stable Rust toolchain:
 
 ```sh
 cargo fmt --all --check
@@ -67,7 +73,9 @@ or compatibility effects. A reviewer should be able to follow the evidence from
 your description to the owning files.
 
 The refresh workflow opens a checked proposal for review. It does not merge
-changes automatically.
+changes automatically. For a refresh or merge that affects generated files, use
+[the complete regeneration sequence](docs/cli.md#recover-after-a-refresh-or-merge)
+so manifests, views, and example paths agree.
 
 ## Runtime troubleshooting
 
