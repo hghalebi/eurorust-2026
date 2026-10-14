@@ -1,12 +1,15 @@
-# Experiment: an owned local retry budget
+# Give every retry a budget it must spend
 
-Status: learning example with a simulated workload. A positive budget issues
-non-cloneable attempt tokens, each consumed by one modeled call. The trait asks
-only for the operation required by the loop. Runtime failures consume attempts,
-and exhaustion is explicit.
+**Learning goal:** make a local attempt limit explicit and exhaustion observable.
 
-Source: [retry.rs](agent-contract-lab/src/retry.rs). Preparation context:
-[background workers](../notes/talks/background-workers.md).
+A positive budget issues attempt tokens that cannot be cloned. Each modeled call
+consumes one token. The loop's trait asks only for the operation it needs, and a
+runtime failure still spends an attempt.
+
+[Read the implementation](agent-contract-lab/src/retry.rs) or its
+[background-worker preparation context](../notes/talks/background-workers.md).
+
+## Run it
 
 ```sh
 cargo build --release --locked --package agent-contract-lab
@@ -14,11 +17,18 @@ target/release/agent-contract-lab retry --budget 3 --failures 2
 target/release/agent-contract-lab retry --budget 2 --failures 2
 ```
 
-The first completes on attempt 3. The second reports exhaustion after 2 attempts
-and exits 2. Unit tests check both outcomes; rustdoc checks that reusing a consumed
-token fails to compile and that valid use succeeds.
+| Simulated workload | Expected result |
+| --- | --- |
+| Budget 3, first 2 calls fail | Completes on attempt 3; exits successfully |
+| Budget 2, first 2 calls fail | Reports exhaustion after 2 attempts; exits 2 |
 
-The token proves only a local ownership restriction. It is not authentication,
-cross-process uniqueness, durable exactly-once execution, or a guarantee that an
-external effect stopped after cancellation. Real remote work needs appropriate
-idempotency/reconciliation, persistence, and observable recovery behavior.
+Unit tests check both outcomes. Rustdoc pairs valid use with a compile-fail
+example showing that a consumed token cannot be reused.
+
+## Take the contract as far as the evidence goes
+
+The token restricts ownership inside this process. Authentication, cross-process
+uniqueness, durable exactly-once execution, and stopping remote effects after
+cancellation each require additional mechanisms. For real remote work, design
+persistence, idempotency or reconciliation, and observable recovery around the
+local retry loop.

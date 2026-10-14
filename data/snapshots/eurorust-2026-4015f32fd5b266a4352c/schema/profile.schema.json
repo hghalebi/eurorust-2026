@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Profile",
+  "type": "object",
+  "properties": {
+    "attendance_mode": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/AttendanceMode"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "available_windows": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Slot"
+      }
+    },
+    "goals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "name": {
+      "type": "string"
+    },
+    "registered_workshops": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "goals",
+    "topics",
+    "available_windows",
+    "registered_workshops"
+  ],
+  "$defs": {
+    "AttendanceMode": {
+      "type": "string",
+      "enum": [
+        "in_person",
+        "remote"
+      ]
+    },
+    "Slot": {
+      "type": "object",
+      "properties": {
+        "end": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "start": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "start"
+      ]
+    }
+  }
+}

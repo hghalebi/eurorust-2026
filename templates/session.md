@@ -1,21 +1,26 @@
-# Session note template
+# [Session title]: the idea I want to test
 
-Status: preparation / attended / watched recording / community interpretation.
-Session ID, official URL, speaker, date, and snapshot:
+Context: [preparation / attended / watched recording / community interpretation].
+Session ID: [ID]. Official source: [URL]. Speaker: [name].
+Session date: [date]. Source snapshot and retrieval date: [details].
 
-## Problem and context
+## The problem
 
-Explain the problem in your own words.
+What problem does this session address, and why does it matter to your work?
+Use your own words.
 
-## Takeaways and tradeoffs
+## The idea and its tradeoffs
 
-Attribute speaker claims, personal interpretation, and observed results.
+Record the useful idea, when it applies, and what it costs. Attribute speaker
+claims. Label your interpretation and anything you actually measured.
 
-## Questions and uncertainty
+## What I still need to check
 
-What still needs verification?
+List open questions, assumptions, and missing evidence. For preparation, write
+the question you want to bring to the session.
 
-## Try next
+## The next experiment
 
-Link relevant sources, code, and any tested experiment. Include expected output,
-platform, and meaningful limits. Leave unsupported conclusions unclaimed.
+Describe one thing to try. Link the source or code, state the platform and
+expected result, and record the check when you run it. Keep conclusions within
+the evidence you have.

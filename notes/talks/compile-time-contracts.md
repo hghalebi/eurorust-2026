@@ -1,20 +1,24 @@
-# Preparing for compile-time contracts
+# Which tool contracts can the compiler check?
 
-Status: source-based preparation, not attendance. Session ID:
-`talks-move-your-problems`. Source:
-[official session](https://eurorust.eu/talks/move-your-problems/).
+**Status: source-based preparation.** Session: `talks-move-your-problems`.
+[Read the official description](https://eurorust.eu/talks/move-your-problems/).
 
-The abstract discusses const evaluation, diagnostic quality, reflection, and
-possible future capabilities. Some material is nightly or still being designed;
-do not assume every proposal is available in stable Rust.
+For production agents, tool boundaries are a useful place to ask what Rust can
+make harder to misuse. This session's description covers const evaluation,
+diagnostics, reflection, and possible future capabilities. Some material is
+nightly or still in design; check the status of a feature before using it.
 
-For production tools, look for ways to make invalid inputs and combinations
-harder to express while retaining runtime checks for permissions, freshness, and
-external effects. Ask which checks are stable today, how failures are explained,
-and what remains dynamic. Compare with
-[the checked-input experiment](../../experiments/checked-tool-input.md), which
-uses ordinary validated nominal types and makes no claim to implement the talk's
-future proposals.
+## Questions to bring
 
-After attending or watching a published recording, add attributed observations,
-questions answered, and code tested on a stated toolchain.
+- Which checks can stable Rust express today?
+- How can a type-driven API explain an invalid input clearly?
+- Which facts still need runtime evidence, such as permissions or source freshness?
+
+## Try the foundation
+
+The [checked-input experiment](../../experiments/checked-tool-input.md) uses
+validated nominal types to separate a tool name from its timeout. It is a small
+existing-Rust example; it does not implement the session's future proposals.
+
+After attending or watching a published recording, add attributed answers and
+code checked on a named toolchain.

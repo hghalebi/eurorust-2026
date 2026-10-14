@@ -1,11 +1,16 @@
-# Small Rust experiments
+# Turn a conference question into a small Rust experiment
 
-Experiments demonstrate a bounded engineering lesson with commands, expected
-behavior, negative cases, and limits. They are independent learning examples,
-not production-agent frameworks or proof of an external system's recovery.
+Each experiment isolates one contract, shows valid and invalid use, and makes
+the result observable. Start with the lesson you want to test:
 
-Read [checked tool inputs](checked-tool-input.md) and
-[an owned retry budget](owned-retry-budget.md). Both are implemented in
-`agent-contract-lab`, with valid use, invalid input, compile-fail examples, and
-observable success/failure commands. Run `cargo test --workspace --locked` and
-the documented commands. No real external tool or robotic system is exercised.
+| Question | Experiment | What you can check |
+| --- | --- | --- |
+| Can a tool API reject invalid or mixed-up inputs? | [Checked tool inputs](checked-tool-input.md) | Valid construction, invalid input, and nominal type separation |
+| Can one retry attempt be used twice? | [An owned retry budget](owned-retry-budget.md) | Consumed attempt tokens, simulated recovery, and exhaustion |
+
+Both live in `agent-contract-lab`. Run the documented compiled binaries and
+`cargo test --workspace --locked` for unit and rustdoc evidence.
+
+These are local learning examples. They execute no external tools or robotic
+systems, and they establish no production recovery guarantee. For a contribution,
+state the contract, show the failure case, and explain what remains outside it.
