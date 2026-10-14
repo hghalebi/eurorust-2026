@@ -1,16 +1,25 @@
-# Fictional participant paths
+# Different goals. Different EuroRust paths.
 
-Profiles here are fictional examples, not real participant records. Each generated
-itinerary records its snapshot. Different topics produce different session choices.
+Compare three fictional participants, then adapt the assumptions to fit your
+own plan. Each generated itinerary records the dataset snapshot it uses.
 
-| Example | Profile | Checked starting path |
+| You want to explore… | Start with this profile | See the checked choices |
 | --- | --- | --- |
-| Backend and async | [profile](backend-profile.json) | [itinerary](backend-itinerary.json) |
-| Embedded and robotics | [profile](embedded-profile.json) | [itinerary](embedded-itinerary.json) |
-| Rust foundations and API design | [profile](foundations-profile.json) | [itinerary](foundations-itinerary.json) |
+| Backend services and async reliability | [Backend profile](backend-profile.json) | [Backend itinerary](backend-itinerary.json) |
+| Embedded systems and robotics | [Embedded profile](embedded-profile.json) | [Embedded itinerary](embedded-itinerary.json) |
+| Rust foundations and API design | [Foundations profile](foundations-profile.json) | [Foundations itinerary](foundations-itinerary.json) |
 
-The baseline is topic-driven; prerequisites, access, and bookings still need
-participant confirmation. Regenerate paths after a snapshot changes and run
-`check-itinerary`. Submit your own shareable path with the profile assumptions,
-source snapshot, rationale, and alternatives. Keep real logistics in your own
-environment.
+These are topic-based starting points. Confirm prerequisites, session access,
+and bookings before attending. The [browser planning guide](../../docs/planning-guide.md)
+helps you turn an example into your own choices; the [agent guide](../../docs/agent-guide.md)
+explains the programmatic route.
+
+## Share a path someone else can use
+
+Name the audience, author, goals, and availability assumptions. Include the
+snapshot, session IDs, official links, reasons, and same-slot alternatives.
+Keep real personal logistics in your own files. Regenerate a path when its source
+snapshot changes and run `check-itinerary` for JSON contributions.
+
+[Contribute your path](../../CONTRIBUTING.md#where-to-contribute) or
+[propose one in an issue](https://github.com/hghalebi/eurorust-2026/issues/new/choose).

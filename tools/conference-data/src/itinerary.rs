@@ -40,15 +40,15 @@ pub fn markdown(snapshot: &export::VerifiedBundle, plan: &Itinerary) -> Result<S
     let catalog = snapshot.catalog();
     let cell = |s: &str| s.replace('|', "\\|").replace(['\r', '\n'], " ");
     let mut out = format!(
-        "# Proposed learning path\n\nProfile: {}. Snapshot: `{}`.\n\nThis is a conditional preparation plan. All times use Europe/Madrid with explicit offsets.\nIt records no booking, attendance, or prerequisite readiness. Keep breaks and confirm travel time.\nThe deterministic topic matcher provides a starting point; compare the alternatives with the official abstracts.\n\n",
+        "# Your EuroRust starting path\n\nProfile: {}. Snapshot: `{}`.\n\nUse these choices to decide where to go, what to prepare, and which questions to bring. This is a conditional plan generated from topic matches; compare each choice and alternative with the official description.\n\nSession times use Europe/Madrid with explicit offsets. Retrieval timestamps retain their recorded offsets. Confirm bookings, readiness, breaks, and travel time before attending. This plan records no attendance.\n\n",
         cell(plan.profile.name.as_str()),
         plan.snapshot_id.as_str()
     );
-    out.push_str("Goals:\n\n");
+    out.push_str("## What this path is for\n\n");
     for goal in &plan.profile.goals {
         out.push_str(&format!("- {}\n", goal.as_str()));
     }
-    out.push_str("\nConditions to resolve:\n\n");
+    out.push_str("\n## Confirm before you go\n\n");
     for warning in warnings {
         out.push_str(&format!("- {warning}\n"));
     }
@@ -59,7 +59,7 @@ pub fn markdown(snapshot: &export::VerifiedBundle, plan: &Itinerary) -> Result<S
             .find(|s| s.id == selection.session_id)
             .ok_or_else(|| Error::Validation("selection disappeared during rendering".into()))?;
         out.push_str(&format!(
-            "\n## {} — {}\n\n- Session: [{}]({})\n- ID: `{}`\n- End: {}\n- Rationale: {}\n- Stage: {}\n- Venue: {}\n- Schedule retrieved: {}\n",
+            "\n## {} — {}\n\n- Session: [{}]({})\n- ID: `{}`\n- End: {}\n- Why this choice: {}\n- Stage: {}\n- Venue: {}\n- Schedule retrieved: {}\n",
             session.slot.start().as_rfc3339(), session.title.as_str(),
             session.title.as_str(), session.official_url.as_str(), session.id.as_str(),
             session.slot.end().map(Timestamp::as_rfc3339).unwrap_or_else(|| "unknown".into()),
@@ -73,7 +73,7 @@ pub fn markdown(snapshot: &export::VerifiedBundle, plan: &Itinerary) -> Result<S
                     "- Source changed: recheck the official abstract, prerequisites and setup.\n",
                 );
             } else {
-                out.push_str(&format!("- Preparation: prerequisites: {}; setup: {}\n- Community annotation: {:?}; source checked {}\n", a.prerequisites.as_ref().map_or("unknown", Prerequisite::as_str), a.setup.as_ref().map_or("unknown", SetupRequirement::as_str), a.review_status, a.source_checked_at.as_rfc3339()));
+                out.push_str(&format!("- Preparation: prerequisites: {}; setup: {}\n- Community note: {}; source checked {}\n", a.prerequisites.as_ref().map_or("unknown", Prerequisite::as_str), a.setup.as_ref().map_or("unknown", SetupRequirement::as_str), a.review_status, a.source_checked_at.as_rfc3339()));
             }
         }
         for id in &selection.alternatives {
@@ -101,7 +101,7 @@ pub fn markdown(snapshot: &export::VerifiedBundle, plan: &Itinerary) -> Result<S
         })
         .collect();
     if plan.profile.registered_workshops.is_empty() && !workshops.is_empty() {
-        out.push_str("\n## Conditional workshop choices\n\nNo workshop booking is recorded, so none is selected. October 14 may already have started or passed when you read this. Check availability and prerequisites before choosing one:\n\n");
+        out.push_str("\n## Conditional workshop choices\n\nNo workshop booking is recorded in this profile, so none is selected. These options fit the known availability, or remain conditional when availability is unknown. October 14 may already have started or passed when you read this. Confirm registration, prerequisites, and setup before choosing one:\n\n");
         for session in workshops {
             out.push_str(&format!(
                 "- [{}]({}) — {} (`{}`).\n",
@@ -112,7 +112,7 @@ pub fn markdown(snapshot: &export::VerifiedBundle, plan: &Itinerary) -> Result<S
             ));
         }
     }
-    out.push_str("\n## Capture and apply\n\nBefore each session, write one question. After attending, record one concrete follow-up connected to your goals and label actual observations separately.\n");
+    out.push_str("\n## Bring a question. Leave with a next step.\n\nBefore each session, write the question you want it to help answer. After attending, capture one idea to test against your goals. Label what you observed and link any experiment when you have run it.\n");
     Ok(out)
 }
 

@@ -1,9 +1,10 @@
 # EuroRust 2026 conference pack
 
-Generated from official schedule facts. Snapshot: `eurorust-2026-4e5eb188687f8a0b06f0`.
-All times are Europe/Madrid with explicit offsets (+02:00 during the event).
-Unknown prerequisites, remote access, tickets and recording availability remain unknown.
-Recheck official pages before attending. Community summaries are attributed interpretations.
+Conference facts and community notes for choosing your path. Use the session IDs, official links, and source dates to make each recommendation traceable to this snapshot.
+
+Snapshot: `eurorust-2026-4015f32fd5b266a4352c`. Schedule times use Europe/Madrid (+02:00 during the event); retrieval timestamps retain their recorded offsets.
+
+Confirm session access, tickets, recordings, and unlisted prerequisites on the official pages. Community notes are attributed interpretations; their review status and source dates show what still needs checking.
 
 
 ## 2026-10-14
@@ -19,14 +20,14 @@ Recheck official pages before attending. Community summaries are attributed inte
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Julián Montes de Oca
 - Venue: WeWork Glories Barcelona
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:14.395238+00:00
 - Annotation source SHA-256: `a451c3737f647f5248ca15121e75fc1f8fde55e3ae416aa43aee0f7fd261a131`
-- Topics (community): observability, async, production-reliability
-- Prerequisites (source-based paraphrase): Comfort with Rust, preferably including some async programming; the named tools need no prior experience.
-- Setup (source-based paraphrase): Bring a Rust-ready laptop and follow the emailed preparation instructions.
+- Community topics: observability, async, production-reliability
+- Prerequisites (community paraphrase): Comfort with Rust, preferably including some async programming; the named tools need no prior experience.
+- Setup (community paraphrase): Bring a Rust-ready laptop and follow the emailed preparation instructions.
 
 Instrument async workloads to understand task progress, scheduling delays, slow requests, and the cost of production diagnostics.
 
@@ -42,14 +43,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Johan Sannemo
 - Venue: WeWork Glories Barcelona
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:15.378733+00:00
 - Annotation source SHA-256: `68f0bbfebd1c96ba1f5e45bca266f589c43f35a2de97b923e01e44eb6b6d0d55`
-- Topics (community): infrastructure, systems, production-reliability
-- Prerequisites (source-based paraphrase): Comfort writing Rust; virtualization background is not required.
-- Setup (source-based paraphrase): Bring a laptop with an SSH client; the organizer describes provided cloud instances with nested virtualization.
+- Community topics: infrastructure, systems, production-reliability
+- Prerequisites (community paraphrase): Comfort writing Rust; virtualization background is not required.
+- Setup (community paraphrase): Bring a laptop with an SSH client; the organizer describes provided cloud instances with nested virtualization.
 
 Build a Linux-booting virtual-machine monitor while learning virtualization hardware, KVM interfaces, and device behavior.
 
@@ -65,14 +66,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Magnus Markling
 - Venue: WeWork Glories Barcelona
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:16.381211+00:00
 - Annotation source SHA-256: `bd768b937bb3b014acf78424ac3c02d5afb8ff46305f3a2f2cc9bd4eb504ef5c`
-- Topics (community): interop, systems, production-reliability
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): Bring a laptop and follow the emailed software setup instructions.
+- Community topics: interop, systems, production-reliability
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): Bring a laptop and follow the emailed software setup instructions.
 
 Practice incremental C-to-Rust migration through interfaces, module replacement, and interoperability pitfalls.
 
@@ -88,14 +89,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Jonas Kruckenberg
 - Venue: WeWork Glories Barcelona
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:17.382260+00:00
 - Annotation source SHA-256: `c2fe35403e2a1002731367b974e1c9daccc0e3bb355dd240939a041badad4ac3`
-- Topics (community): infrastructure, security, systems
-- Prerequisites (source-based paraphrase): Rust familiarity and introductory awareness of WebAssembly.
-- Setup (source-based paraphrase): Confirm the organizer’s preparation instructions; specific equipment requirements are not captured here.
+- Community topics: infrastructure, security, systems
+- Prerequisites (community paraphrase): Rust familiarity and introductory awareness of WebAssembly.
+- Setup (community paraphrase): Confirm the organizer’s preparation instructions; specific equipment requirements are not captured here.
 
 Build a Rust WebAssembly service and compare its deployment and isolation tradeoffs with container-based approaches.
 
@@ -111,14 +112,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Domenic Quirl, Björn Barwinski
 - Venue: WeWork Glories Barcelona
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:18.393555+00:00
 - Annotation source SHA-256: `4028103de8314deccd0a15535c2b7b5b2d7d000dfc426b0941a170f1dd6d3063`
-- Topics (community): embedded, robotics, async, hardware
-- Prerequisites (source-based paraphrase): Rust familiarity; awareness of async Rust helps, but embedded or async experience is not required.
-- Setup (source-based paraphrase): Bring a laptop with two USB-A connections or suitable adapters; check the emailed setup guide.
+- Community topics: embedded, robotics, async, hardware
+- Prerequisites (community paraphrase): Rust familiarity; awareness of async Rust helps, but embedded or async experience is not required.
+- Setup (community paraphrase): Bring a laptop with two USB-A connections or suitable adapters; check the emailed setup guide.
 
 Build microcontroller exercises using Embassy, LEDs, sensors, and wireless connectivity on supplied Pico-based hardware.
 
@@ -134,14 +135,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Massimiliano Mantione, Michele Mantione
 - Venue: WeWork Glories Barcelona
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:19.402477+00:00
 - Annotation source SHA-256: `7fbcd640532c27f9306abd5d085ed462719a5a372b7b5cc35bbb913388e50ce2`
-- Topics (community): robotics, embedded, async, observability
-- Prerequisites (source-based paraphrase): Basic Rust familiarity; prior embedded experience is unnecessary and async knowledge is optional.
-- Setup (source-based paraphrase): Bring a Rust development laptop with rustup, Git, and an editor; exercises use simulation.
+- Community topics: robotics, embedded, async, observability
+- Prerequisites (community paraphrase): Basic Rust familiarity; prior embedded experience is unnecessary and async knowledge is optional.
+- Setup (community paraphrase): Bring a Rust development laptop with rustup, Git, and an editor; exercises use simulation.
 
 Program simulated line-following robots with embedded async Rust, telemetry, and control refinements; this workshop does not supply physical robots.
 
@@ -157,14 +158,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Alex Read
 - Venue: WeWork Glories Barcelona
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:20.410243+00:00
 - Annotation source SHA-256: `cdb4a068b58a1062fb589659257125f2fa93c19176de3462da04559b4609fcf3`
-- Topics (community): robotics, hardware, systems
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): Confirm workshop access and team setup; the page describes supplied vehicles and a Rust SDK.
+- Community topics: robotics, hardware, systems
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): Confirm workshop access and team setup; the page describes supplied vehicles and a Rust SDK.
 
 Use a supplied Rust SDK, cameras, and vehicles in team-based control exercises that connect perception with physical movement.
 
@@ -180,14 +181,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: WeWork Glories Barcelona
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:21.425881+00:00
 - Annotation source SHA-256: `5046427e8f71b0d49a4cd9065d45a59c4aeafe58de055196434e344cfb2255a0`
-- Topics (community): robotics, async, production-reliability, infrastructure
-- Prerequisites (source-based paraphrase): Comfort with async Rust and Tokio; previous robotics or protocol experience is not required.
-- Setup (source-based paraphrase): Bring a stable-Rust development laptop; the source describes provided hardware and emailed setup instructions.
+- Community topics: robotics, async, production-reliability, infrastructure
+- Prerequisites (community paraphrase): Comfort with async Rust and Tokio; previous robotics or protocol experience is not required.
+- Setup (community paraphrase): Bring a stable-Rust development laptop; the source describes provided hardware and emailed setup instructions.
 
 Integrate vehicle and field-data protocols into a Rust orchestration platform while handling unreliable transport and heterogeneous system models.
 
@@ -203,10 +204,10 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: unknown; check source
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
 
-Summary and prerequisites: unknown; follow the official source.
+No community summary or prerequisites are recorded. Follow the official page to check what you need to prepare.
 ### BcnRust Barcelona Meetup
 
 - ID: `activities-meetup`
@@ -218,10 +219,10 @@ Summary and prerequisites: unknown; follow the official source.
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: unknown; check source
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
 
-Summary and prerequisites: unknown; follow the official source.
+No community summary or prerequisites are recorded. Follow the official page to check what you need to prepare.
 ### Barcelona Sunset Catamaran Tour
 
 - ID: `activities-boat-tour`
@@ -233,10 +234,10 @@ Summary and prerequisites: unknown; follow the official source.
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: unknown; check source
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
 
-Summary and prerequisites: unknown; follow the official source.
+No community summary or prerequisites are recorded. Follow the official page to check what you need to prepare.
 ### Spanish Wine and Tapas Tasting
 
 - ID: `activities-wine-tasting`
@@ -248,10 +249,10 @@ Summary and prerequisites: unknown; follow the official source.
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: unknown; check source
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
 
-Summary and prerequisites: unknown; follow the official source.
+No community summary or prerequisites are recorded. Follow the official page to check what you need to prepare.
 
 ## 2026-10-15
 
@@ -266,10 +267,10 @@ Summary and prerequisites: unknown; follow the official source.
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
 
-Summary and prerequisites: unknown; follow the official source.
+No community summary or prerequisites are recorded. Follow the official page to check what you need to prepare.
 ### Move your problems to compile-time and get new capabilities out of it
 
 - ID: `talks-move-your-problems`
@@ -281,14 +282,14 @@ Summary and prerequisites: unknown; follow the official source.
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Oli Scherer
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:26.452356+00:00
 - Annotation source SHA-256: `308e44caa530383dd773c4568baf30f07e63f84807a7adf40b6b79f561bfd76e`
-- Topics (community): types, api-design, compilers
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: types, api-design, compilers
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Explore compile-time evaluation, reflection proposals, and compiler diagnostics, distinguishing available nightly features from designs still under discussion.
 
@@ -304,14 +305,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Arthur Cohen, Pierre-Emmanuel Patry
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:27.668070+00:00
 - Annotation source SHA-256: `3fbaa38ff29fc654a66c2c5425beeb17443a795805df245e62d879cef98f3cbb`
-- Topics (community): compilers, infrastructure, systems
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: compilers, infrastructure, systems
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Follow gccrs development toward building Rust kernel code and examine the compiler behavior and compatibility work behind that milestone.
 
@@ -327,14 +328,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Benedikt Wiethof, Theophil Spiegeler Castañeda
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:28.565121+00:00
 - Annotation source SHA-256: `074ac57501ac45f6bb274b07a42a73ef08485da74d6f9344129c07d5a293eebd`
-- Topics (community): robotics, production-reliability, async, infrastructure
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: robotics, production-reliability, async, infrastructure
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Examine a distributed ground-control architecture and the practical changes involved in moving an unmanned-systems platform from C++ to Rust.
 
@@ -350,14 +351,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Jana Dönszelmann
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:29.465889+00:00
 - Annotation source SHA-256: `bb74200a82c8db4b25ab493abd2a431e4b294fe6b1bd229c84463afcc58e3216`
-- Topics (community): types, compilers, performance
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: types, compilers, performance
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Study algorithmic improvements and sound caching decisions in the next trait solver, with performance claims understood in their benchmark context.
 
@@ -373,14 +374,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Shane Carr
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:30.801754+00:00
 - Annotation source SHA-256: `f0709e2961f079087281639acf5e5bcfc5109cf96a2f840c9a33ef45dbbfee93`
-- Topics (community): interop, api-design, types
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: interop, api-design, types
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Explore Rust integration into browser date-and-time APIs through bindings and shared calendrical libraries. This Temporal is unrelated to workflow orchestration.
 
@@ -396,10 +397,10 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
 
-Summary and prerequisites: unknown; follow the official source.
+No community summary or prerequisites are recorded. Follow the official page to check what you need to prepare.
 ### Building a Query System
 
 - ID: `talks-building-a-query-system`
@@ -411,14 +412,14 @@ Summary and prerequisites: unknown; follow the official source.
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Arya Dradjica
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:31.495331+00:00
 - Annotation source SHA-256: `220b2d3c812dee708f1f6625edcb95e38b48f3977f63f2a02287cca0400a73dd`
-- Topics (community): compilers, tooling, data, performance
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: compilers, tooling, data, performance
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Compare compiler query architectures and incremental-result caching through a Cargo dependency-resolution example.
 
@@ -434,14 +435,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Jonathan Pallant
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:32.602696+00:00
 - Annotation source SHA-256: `8ed1d96753bc1728fead8e21a54d4a05e9de6eceb67de1bf845f75744d911cbc`
-- Topics (community): embedded, robotics, systems
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: embedded, robotics, systems
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Survey the crates and testing work needed to build an ecosystem for intermediate-sized Arm processors used in real-time and embedded systems.
 
@@ -457,14 +458,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Frank Lyaruu
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:33.614046+00:00
 - Annotation source SHA-256: `bec8dd3f067eae1ea3ab4fb89076f7b3868d3595de704e7b70e8a2993143d8c3`
-- Topics (community): embedded, robotics, hardware
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: embedded, robotics, hardware
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Learn how Rust-based input devices connect through USB and Bluetooth, including the protocols that make them usable by ordinary computers.
 
@@ -480,14 +481,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Timo Bachmann
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:34.898979+00:00
 - Annotation source SHA-256: `461652b4e4cb819bb1ab9a2fd7743f31d66dd1d4c963f3b810cb688929e1d851`
-- Topics (community): tooling, api-design, compilers
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: tooling, api-design, compilers
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Use grammar parsing and shared language-server components to build editor features for a specialized language.
 
@@ -503,14 +504,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Njuguna Mureithi
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:35.746438+00:00
 - Annotation source SHA-256: `b1c9b1ffaae82ff59e93604ef702964f752a84b1be8b00414721ad398974a86a`
-- Topics (community): async, production-reliability, api-design
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: async, production-reliability, api-design
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Explore worker API evolution, extensibility, dependency injection, and production shutdown/restart concerns in a Rust task-processing library.
 
@@ -526,14 +527,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Filip Petkovski
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:36.736708+00:00
 - Annotation source SHA-256: `e14d1061d9557ac182578595298e7dcf63869d5c6454468c775fdfe193bae90d`
-- Topics (community): performance, types, observability, production-reliability
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: performance, types, observability, production-reliability
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Study append-oriented metrics storage and type-constrained concurrency, including the boundary between safe APIs and carefully isolated unsafe implementation.
 
@@ -549,10 +550,10 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
 
-Summary and prerequisites: unknown; follow the official source.
+No community summary or prerequisites are recorded. Follow the official page to check what you need to prepare.
 ### Game Show
 
 - ID: `talks-game-show`
@@ -564,14 +565,14 @@ Summary and prerequisites: unknown; follow the official source.
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Amos Wenger, Tris Oaten
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:37.524496+00:00
 - Annotation source SHA-256: `86e34fa98896b23d288ca6dd7adc80b0ba37687769f9617b4a30618763157c61`
-- Topics (community): community
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: community
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 A community game-show session uses code review and bug-finding as a playful shared activity.
 
@@ -587,14 +588,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Philipp Schuster
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:38.740070+00:00
 - Annotation source SHA-256: `11275e9c8a2c539caf95553c8a249e427ee5baa80dbb144bf52ef540b4b6c443`
-- Topics (community): infrastructure, systems, production-reliability
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: infrastructure, systems, production-reliability
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Trace VM boot through memory, virtual CPUs, devices, and kernel boundaries while examining the development workflow of a Rust hypervisor.
 
@@ -610,14 +611,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: lcnr
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:39.846835+00:00
 - Annotation source SHA-256: `ae4802ae94c6f98656d6ee22fba0087dee5f942c043150d3e88dd31b9f82def2`
-- Topics (community): types, compilers, api-design
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: types, compilers, api-design
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Review ongoing type-system work and prospective language changes following the next-generation trait solver. Future features are not assumed stable.
 
@@ -633,14 +634,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Johan Rosengren, Sergio Gonzalez Martin
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:40.548583+00:00
 - Annotation source SHA-256: `433a9fe0d8f9833e80d02133cb739c0fa75668242309844cb36bb2385d9c322a`
-- Topics (community): security, interop, production-reliability
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: security, interop, production-reliability
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Follow incremental replacement of browser image decoders with Rust, including integration, upstream contributions, and staged production evaluation.
 
@@ -656,10 +657,10 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: unknown; check source
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
 
-Summary and prerequisites: unknown; follow the official source.
+No community summary or prerequisites are recorded. Follow the official page to check what you need to prepare.
 ### Karaoke Night
 
 - ID: `activities-karaoke`
@@ -671,10 +672,10 @@ Summary and prerequisites: unknown; follow the official source.
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: unknown; check source
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
 
-Summary and prerequisites: unknown; follow the official source.
+No community summary or prerequisites are recorded. Follow the official page to check what you need to prepare.
 
 ## 2026-10-16
 
@@ -689,14 +690,14 @@ Summary and prerequisites: unknown; follow the official source.
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Cristián Maureira-Fredes
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:43.554948+00:00
 - Annotation source SHA-256: `b267d01a463a03ec2342b4e689a9d6a1ec5e4521491e9318056979ca33584d1f`
-- Topics (community): interop, tooling, systems
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: interop, tooling, systems
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Examine how Rust, C++, and Python influence each other through memory safety, tooling, and interoperability expectations.
 
@@ -712,14 +713,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Daniel Rodriguez, Giacomo Bagnoli
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:44.907906+00:00
 - Annotation source SHA-256: `85d3185f2b17034bb0116f3bcd3f851dd2945036306321f99d6f768b5cd2143e`
-- Topics (community): performance, observability, infrastructure, production-reliability
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: performance, observability, infrastructure, production-reliability
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Review a network-observability rewrite using batched I/O, with kernel compatibility and fleet rollout as important parts of the case study.
 
@@ -735,14 +736,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Sanskar Jaiswal
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:45.944067+00:00
 - Annotation source SHA-256: `9f422ad2ca912d5ef86222db7251a61d0eae404a404225db9f59b81fcb914898`
-- Topics (community): types, async, production-reliability, api-design
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: types, async, production-reliability, api-design
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Model partial streaming progress, cancellation, buffering, and connection reuse as explicit states and transitions in a Rust proxy.
 
@@ -758,14 +759,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Matthias Rauter
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:46.772149+00:00
 - Annotation source SHA-256: `b9fb943419c71dbf1fd5975855fc691cc96676e7a548440ef55d66718017579b`
-- Topics (community): interop, api-design
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: interop, api-design
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Explore a Rust-facing API for QML applications and the tradeoffs at the boundary with an established C++ UI toolkit.
 
@@ -781,14 +782,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Francois Mockers
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:47.719737+00:00
 - Annotation source SHA-256: `08d1e7547520caddb5fd99d937d7dbcea32ed1766bef729ab872576ba0cc9ae3`
-- Topics (community): security, infrastructure, production-reliability
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: security, infrastructure, production-reliability
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Map dependency and build-time exposure to available auditing, review, and publishing practices in the Rust ecosystem.
 
@@ -804,10 +805,10 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
 
-Summary and prerequisites: unknown; follow the official source.
+No community summary or prerequisites are recorded. Follow the official page to check what you need to prepare.
 ### Build systems: when your systems need systems to build
 
 - ID: `talks-build-systems-when-your-systems-need-systems-to-build`
@@ -819,14 +820,14 @@ Summary and prerequisites: unknown; follow the official source.
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Jonas Kruckenberg
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:48.803286+00:00
 - Annotation source SHA-256: `00a6854e05926ec7541bfa0041faca93c14eb3865b6844bb44af8938982402e2`
-- Topics (community): infrastructure, tooling, production-reliability
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: infrastructure, tooling, production-reliability
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Develop criteria for choosing and evolving build systems as project complexity grows.
 
@@ -842,14 +843,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Connor Tsui
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:49.867886+00:00
 - Annotation source SHA-256: `0fa1bce56a12c94a125174e6862a5e87e38a0c1054cb6f3ee34ffb75ea5698e6`
-- Topics (community): data, observability, performance
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: data, observability, performance
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Explore extensible columnar types and compression for heterogeneous data, including event, telemetry, and vector-oriented workloads.
 
@@ -865,14 +866,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Martin Ombura Jr.
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:50.851525+00:00
 - Annotation source SHA-256: `513c44ffb47e3b99534898a411802b92042967ce2dbee826f40831fef91cf994`
-- Topics (community): types, performance, production-reliability
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: types, performance, production-reliability
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Connect memory-ordering arguments to recurring atomic coordination patterns and their correctness and performance tradeoffs.
 
@@ -888,14 +889,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Jake Lishman
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:51.701894+00:00
 - Annotation source SHA-256: `b1afd9f63acfe92646d3adb1768fe5ad012b92688ffaf2d6dd968508bb730691`
-- Topics (community): compilers, interop, performance
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: compilers, interop, performance
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Follow an incremental compiler migration from research-oriented Python toward a Rust-centered implementation and changing hardware requirements.
 
@@ -911,14 +912,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Albert Lockett
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:52.702729+00:00
 - Annotation source SHA-256: `0dfae44dbd2a34345e9994451412ce70f09ab789269c2cac61c49e04930df44d`
-- Topics (community): observability, async, performance, types
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: observability, async, performance, types
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Study telemetry architecture using per-core execution, locality, typed thread constraints, and direct columnar processing.
 
@@ -934,14 +935,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: André Eriksson
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:53.722473+00:00
 - Annotation source SHA-256: `bc75fa548dd3e5d1696448de22d3016c6ea0275174be13091b48b3ed2f8fc224`
-- Topics (community): infrastructure, types, api-design
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: infrastructure, types, api-design
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Explore bringing application infrastructure requirements into compilation so integration mismatches can be discovered earlier in development.
 
@@ -957,10 +958,10 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
 
-Summary and prerequisites: unknown; follow the official source.
+No community summary or prerequisites are recorded. Follow the official page to check what you need to prepare.
 ### Fearless Concurrency on the GPU
 
 - ID: `talks-fearless-concurrency-on-the-gpu`
@@ -972,14 +973,14 @@ Summary and prerequisites: unknown; follow the official source.
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Melih Elibol
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:54.713665+00:00
 - Annotation source SHA-256: `3b1c1c9de816fb144761aa713e9b5c1cbf69d39bb524d36ab9a2e0ce68340c14`
-- Topics (community): gpu, types, performance
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: gpu, types, performance
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Explore ownership-oriented GPU programming with tiles and runtime data movement, using a small example rather than assuming hardware expertise.
 
@@ -995,14 +996,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Andre Bogus
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:55.820434+00:00
 - Annotation source SHA-256: `b53b7de78bf7b989ecb73bd26b949595ded8d8dab351bc948c8c85db1072f267`
-- Topics (community): types, api-design
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: types, api-design
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Clarify the different responsibilities of standard conversion and reference traits when designing Rust APIs.
 
@@ -1018,14 +1019,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Paweł Urbanek
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:56.855968+00:00
 - Annotation source SHA-256: `9ea85f022038e0bc83fe2620163f2ea40120a84bad993c29e0564e7615702b4d`
-- Topics (community): observability, async, performance
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: observability, async, performance
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Compare instrumentation-oriented profiling with sampling approaches and examine measurement overhead in async-heavy programs.
 
@@ -1041,14 +1042,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Uwe Pachler
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:57.734550+00:00
 - Annotation source SHA-256: `a169929a2fa047728728c427a8ff6eebe6b07b1417dcc2a0fa18a2d906460ccc`
-- Topics (community): embedded, robotics, hardware
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: embedded, robotics, hardware
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Follow a home-automation project through mechanical, electronic, and embedded-Rust decisions while making a motorized lamp remotely controllable.
 
@@ -1064,14 +1065,14 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: Amos Wenger
 - Venue: Auditori L’illa
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
-- Annotation status: SourceCheckedDraft
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
+- Annotation status: Draft checked against source; community review pending
 - Annotation source checked: 2026-10-14T14:17:58.638856+00:00
 - Annotation source SHA-256: `a17756d2f7e362b1c46b6ac019c4e02700ac2773e8b8a6ccf612d440ef5cc4af`
-- Topics (community): infrastructure, tooling, production-reliability
-- Prerequisites (source-based paraphrase): unknown
-- Setup (source-based paraphrase): unknown
+- Community topics: infrastructure, tooling, production-reliability
+- Prerequisites (community paraphrase): unknown
+- Setup (community paraphrase): unknown
 
 Explore a Cargo-compatible build-system effort focused on hermetic execution, remote work, caching, and cross-platform developer feedback.
 
@@ -1087,10 +1088,10 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: unknown; check source
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
 
-Summary and prerequisites: unknown; follow the official source.
+No community summary or prerequisites are recorded. Follow the official page to check what you need to prepare.
 
 ## 2026-10-17
 
@@ -1105,10 +1106,10 @@ Summary and prerequisites: unknown; follow the official source.
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: unknown; check source
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
 
-Summary and prerequisites: unknown; follow the official source.
+No community summary or prerequisites are recorded. Follow the official page to check what you need to prepare.
 ### Museu Nacional d'Art de Catalunya Private Tour
 
 - ID: `activities-museum-tour`
@@ -1120,7 +1121,7 @@ Summary and prerequisites: unknown; follow the official source.
 - Retrieved: 2026-10-14T14:50:15.013173793+00:00
 - Speakers: not listed
 - Venue: unknown; check source
-- Individual remote access: unknown
-- Booking status: unknown; check official registration
+- Remote access for this session: unknown
+- Booking status: unknown; confirm through official registration
 
-Summary and prerequisites: unknown; follow the official source.
+No community summary or prerequisites are recorded. Follow the official page to check what you need to prepare.
