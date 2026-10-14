@@ -13,6 +13,7 @@ improvement you can explain and support with a source.
 | A preparation or session note | [Session note template](templates/session.md) | Source attribution, participation context, useful questions or observations, and a next step |
 | A translation or clearer explanation | [Planning guide](docs/planning-guide.md) or [agent prompt](prompts/choose-my-path.md) | Language, translator, original page, and working links |
 | A summary, topic, or prerequisite | [Session annotations](community/annotations/sessions.json) | Original wording and official source; maintainers can help with the structured fields |
+| A speaker's work or public account | [Speaker directory](resources/speakers/README.md) | Profile, resource, evidence connecting it to the speaker, and when you checked |
 | An optional code example or tool improvement | [Maintenance guide](docs/maintenance.md) | The learning goal or failure, reproducible steps, relevant checks, and limits |
 
 ## Share an issue or edit a page
@@ -44,6 +45,27 @@ profiles, source caches, credentials, attendee contact lists, and unlicensed
 slide decks out of public changes. Follow the
 [source policy](docs/source-and-reuse-policy.md) and
 [community conduct](CODE_OF_CONDUCT.md).
+
+## Speaker profile corrections
+
+A speaker profile can begin with one useful resource. Link a project, book,
+article, talk, publication, or public professional account and explain what an
+attendee can learn from it. Establish the connection through the speaker's own
+site, an organizer, a publisher, an institution, or a credited contribution.
+A matching name alone is insufficient.
+
+Identify the actual relationship: author, coauthor, maintainer, contributor,
+presenter, or instructor. Label preprints, upcoming talks, archived projects,
+and restricted access accurately. Link to original work and write a short
+annotation; do not copy biographies, papers, slides, or personal contact details.
+
+An issue with the source is enough. For a direct edit, keep the relevant
+`resources/speakers/` page and its record in
+[speaker-profiles.json](community/speaker-profiles.json) consistent. Preserve
+the catalog speaker ID, update the checked date only for research actually
+rechecked, and explain the extent of your review. Keep uncertain claims out
+of the public profile until attribution is established. The
+[data guide](docs/data-guide.md#speaker-research-companion) documents the fields.
 
 ## Checks
 

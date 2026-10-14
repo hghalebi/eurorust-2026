@@ -1,7 +1,14 @@
 # Follow the question beyond the session
 
 Use these sources to prepare, check an API contract, or turn a session idea into
-an experiment. Each link has a job:
+an experiment. For books, earlier talks, research, projects, and public accounts
+from the people on the programme, [explore the speaker directory](speakers/README.md).
+Choose one work that connects to your goals and write down a question before
+the session.
+
+## References for a technical question
+
+Each link has a job:
 
 | When you need to… | Open this | What to look for |
 | --- | --- | --- |
@@ -12,6 +19,9 @@ an experiment. Each link has a job:
 | Prepare for hardware-facing Rust | [The Embedded Rust Book](https://docs.rust-embedded.org/book/) | Embedded concepts to compare with workshop requirements |
 | Compare conference options | [The conference pack](../exports/conference-pack.md) | Source-linked facts and attributed community summaries |
 
-For a speaker's materials, follow their official session page. When contributing
-a resource, explain what question it helps answer and identify relevant versions
-or limits. A short, useful list is easier to return to.
+For current session materials, follow the official session page. The speaker
+profiles supply separately researched background, with attribution and a
+checked date; they do not establish what a speaker will cover at EuroRust.
+
+When contributing a resource, explain what question it helps answer and identify
+relevant versions or limits. A short, useful list is easier to return to.

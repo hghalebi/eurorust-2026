@@ -12,6 +12,7 @@ them to your agent.
 | Choose my own talks and workshops | [Planning guide](planning-guide.md), with the [schedule](../exports/schedule.md) open alongside it |
 | Keep my choices and questions together | [Itinerary template](../templates/itinerary.md) and [session note template](../templates/session.md) |
 | Prepare for a topic | [Preparation notes](../notes/README.md) and [further reading](../resources/README.md) |
+| Explore a speaker's work | [Speaker directory](../resources/speakers/README.md), with books, projects, writing, talks, and public accounts |
 | Compare other learning goals | [Example paths](../community/paths/README.md) |
 | Follow actual observations | [Journal](../journal/README.md) and [retrospective](../retrospective.md) |
 
@@ -21,6 +22,8 @@ them to your agent.
 for a plan. The [copyable prompt](../prompts/choose-my-path.md) helps you add your
 goals and constraints. The [data guide](data-guide.md) explains the available
 formats, source dates, review status, and recorded dataset versions.
+For a reading list tied to your sessions, add the separately curated
+[speaker profiles](../community/speaker-profiles.json).
 
 ## Contribute to the collection
 

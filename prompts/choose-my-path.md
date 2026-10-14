@@ -40,3 +40,14 @@ context in JSON.
 
 For choosing files, reviewing the answer, and optional JSON checks, use the
 [agent guide](../docs/agent-guide.md).
+
+## Add a short speaker reading list
+
+If you supply the [speaker profiles](../community/speaker-profiles.json), append:
+
+> Suggest one relevant earlier work for each selected session where the supplied
+> profiles support a connection. Explain its relevance and give its original URL
+> and attribution. Preserve publication format, research date, and draft status.
+> Distinguish an earlier work from the advertised EuroRust topic. If a profile
+> has no verified resource for this purpose, say so rather than filling the gap.
+> End each suggestion with a question I could bring to the session.

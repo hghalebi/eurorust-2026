@@ -1,0 +1,3478 @@
+{
+  "format_version": "1.0.0",
+  "collection": "EuroRust 2026 speaker reading profiles",
+  "checked_on": "2026-10-14",
+  "roster_snapshot_id": "eurorust-2026-bd9ff3d15e58a1b2d39f",
+  "coverage": {
+    "catalog_speakers": 43,
+    "additional_meetup_speakers": 2
+  },
+  "curation": {
+    "author": "Codex-assisted initial repository curation",
+    "method": "codex_assisted_primary_source_research",
+    "review_status": "source_checked_draft",
+    "policy": "resources/speakers/README.md#how-to-read-these-profiles",
+    "limits": [
+      "Independent selection of public professional work; community and speaker review are pending.",
+      "Accounts are attributed through public source links; current posting activity is not established.",
+      "Some sources were available only as indexed primary pages or through their authors' links.",
+      "Missing works remain unverified, not nonexistent. This is not a comprehensive bibliography.",
+      "The roster snapshot identifies the join target, not a manifest checksum for this companion file."
+    ]
+  },
+  "profiles": [
+    {
+      "profile_id": "albert-lockett",
+      "speaker_id": "speaker-albert-lockett-d55dabb1",
+      "name": "Albert Lockett",
+      "focus": "Rust telemetry pipelines, Apache Arrow, and OpenTelemetry.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/albert-lockett.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-building-a-high-performance-thread-per-core-zero-copy-opentelemetry-engine-in-rust",
+          "title": "Building a high performance, thread-per-core, zero-copy OpenTelemetry engine in Rust",
+          "official_url": "https://eurorust.eu/talks/building-a-high-performance-thread-per-core-zero-copy-opentelemetry-engine-in-rust/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/building-a-high-performance-thread-per-core-zero-copy-opentelemetry-engine-in-rust/",
+        "https://github.com/albertlockett",
+        "https://github.com/open-telemetry/otel-arrow"
+      ],
+      "items": [
+        {
+          "kind": "account",
+          "label": "GitHub: albertlockett",
+          "url": "https://github.com/albertlockett",
+          "note": "Profile identifies F5 and OTel-Arrow maintenance.",
+          "evidence": "https://github.com/albertlockett"
+        },
+        {
+          "kind": "account",
+          "label": "LinkedIn",
+          "url": "https://ca.linkedin.com/in/albertlockett",
+          "note": "Professional profile linked to the same F5 work and personal blog.",
+          "evidence": "https://ca.linkedin.com/in/albertlockett"
+        },
+        {
+          "kind": "blog",
+          "label": "Programming and data engineering blog",
+          "url": "https://albertlockett.wordpress.com/",
+          "note": "Personal blog linked from the professional profile.",
+          "evidence": "https://ca.linkedin.com/in/albertlockett"
+        },
+        {
+          "kind": "project",
+          "label": "OpenTelemetry Arrow",
+          "url": "https://github.com/open-telemetry/otel-arrow",
+          "note": "Listed maintainer; Rust telemetry processing and Arrow transport.",
+          "evidence": "https://github.com/open-telemetry/otel-arrow"
+        },
+        {
+          "kind": "publication",
+          "label": "OTel-Arrow Phase 2",
+          "url": "https://opentelemetry.io/blog/2026/otel-arrow-phase-2/",
+          "note": "Coauthored project report on moving Arrow through telemetry pipelines.",
+          "evidence": "https://opentelemetry.io/blog/2026/otel-arrow-phase-2/",
+          "format": "article"
+        },
+        {
+          "kind": "talk",
+          "label": "Using DataFusion in the otel-arrow project",
+          "url": "https://github.com/apache/datafusion/discussions/21541",
+          "note": "Meetup agenda includes slides and a recording; direct page retrieval was unavailable, but the primary agenda was indexed.",
+          "evidence": "https://github.com/apache/datafusion/discussions/21541"
+        }
+      ],
+      "gaps": [
+        "No authored book verified.",
+        "Personal domain albertlockett.ca could not be retrieved; the accessible blog is linked instead."
+      ]
+    },
+    {
+      "profile_id": "alex-read",
+      "speaker_id": "speaker-alex-read-65ccc9bf",
+      "name": "Alex Read",
+      "focus": "Applied Rust, computer vision, control, and deployed AI systems.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/alex-read.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "workshops-rust-in-action",
+          "title": "Rust in Action - Applications of Computer Vision and Control",
+          "official_url": "https://eurorust.eu/workshops/rust-in-action/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/workshops/rust-in-action/",
+        "https://uk.linkedin.com/in/alexmarcelread"
+      ],
+      "items": [
+        {
+          "kind": "account",
+          "label": "LinkedIn",
+          "url": "https://uk.linkedin.com/in/alexmarcelread",
+          "note": "Professional profile matches the conference's Helsing affiliation.",
+          "evidence": "https://uk.linkedin.com/in/alexmarcelread"
+        },
+        {
+          "kind": "work",
+          "label": "Lura and SG-1",
+          "url": "https://eurorust.eu/workshops/rust-in-action/",
+          "note": "The conference biography describes work on Helsing's acoustic-analysis capability and underwater glider. These are professional projects; no open-source release is established here.",
+          "evidence": "https://eurorust.eu/workshops/rust-in-action/"
+        }
+      ],
+      "gaps": [
+        "No personal website, blog, authored book, scholarly publication, additional talk, or attributable open-source repository verified.",
+        "Searches returned several namesakes; their accounts and publications are omitted."
+      ]
+    },
+    {
+      "profile_id": "amos-wenger",
+      "speaker_id": "speaker-amos-wenger-94826399",
+      "name": "Amos Wenger",
+      "focus": "Rust systems programming, technical explanations, and experimental Rust libraries.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/amos-wenger.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-game-show",
+          "title": "Game Show",
+          "official_url": "https://eurorust.eu/talks/game-show/"
+        },
+        {
+          "session_id": "talks-beyond-cargo-build",
+          "title": "Beyond cargo build",
+          "official_url": "https://eurorust.eu/talks/beyond-cargo-build/"
+        }
+      ],
+      "identity_evidence": [
+        "https://fasterthanli.me/about",
+        "https://github.com/fasterthanlime"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "fasterthanli.me",
+          "url": "https://fasterthanli.me/",
+          "note": "Personal articles, series, videos, and project updates.",
+          "evidence": "https://fasterthanli.me/about"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: fasterthanlime",
+          "url": "https://github.com/fasterthanlime",
+          "note": "Author's development profile.",
+          "evidence": "https://github.com/fasterthanlime"
+        },
+        {
+          "kind": "account",
+          "label": "Bluesky: fasterthanli.me",
+          "url": "https://bsky.app/profile/fasterthanli.me",
+          "note": "Linked from the author's own About page.",
+          "evidence": "https://fasterthanli.me/about"
+        },
+        {
+          "kind": "project",
+          "label": "rubicon",
+          "url": "https://github.com/bearcove/rubicon",
+          "note": "Experimental dynamic linking through Rust cdylib crates.",
+          "evidence": "https://fasterthanli.me/about"
+        },
+        {
+          "kind": "project",
+          "label": "rc-zip",
+          "url": "https://github.com/bearcove/rc-zip",
+          "note": "Rust ZIP-format implementation organized around sans-I/O parsing.",
+          "evidence": "https://fasterthanli.me/about"
+        },
+        {
+          "kind": "publication",
+          "label": "A half-hour to learn Rust",
+          "url": "https://fasterthanli.me/articles/a-half-hour-to-learn-rust",
+          "note": "A guided tour of Rust syntax through small examples.",
+          "evidence": "https://fasterthanli.me/about",
+          "format": "article"
+        },
+        {
+          "kind": "publication",
+          "label": "Understanding Rust futures by going way too deep",
+          "url": "https://fasterthanli.me/articles/understanding-rust-futures-by-going-way-too-deep",
+          "note": "Long-form investigation of Rust futures.",
+          "evidence": "https://fasterthanli.me/articles/understanding-rust-futures-by-going-way-too-deep",
+          "format": "article"
+        },
+        {
+          "kind": "talk",
+          "label": "Self-Directed Research",
+          "url": "https://sdr-podcast.com/",
+          "note": "Podcast cohosted with James Munns; an ongoing conversation series rather than a conference recording.",
+          "evidence": "https://fasterthanli.me/about"
+        },
+        {
+          "kind": "talk",
+          "label": "Engineering a Rust optimization quiz",
+          "url": "https://fasterthanli.me/articles/engineering-a-rust-optimization-quiz",
+          "note": "Author's account of developing and presenting the live optimization quiz.",
+          "evidence": "https://fasterthanli.me/articles/engineering-a-rust-optimization-quiz"
+        }
+      ],
+      "gaps": [
+        "No authored print book or scholarly paper verified; the selected publications are technical articles."
+      ]
+    },
+    {
+      "profile_id": "andre-bogus",
+      "speaker_id": "speaker-andre-bogus-93bc0bec",
+      "name": "Andre Bogus",
+      "focus": "Rust traits, API design, linting, and practical Rust education.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/andre-bogus.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-from-deref-into-borrow-a-primer-on-standard-library-traits",
+          "title": "From Deref Into Borrow, a Primer on Standard Library Traits",
+          "official_url": "https://eurorust.eu/talks/from-deref-into-borrow-a-primer-on-standard-library-traits/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/from-deref-into-borrow-a-primer-on-standard-library-traits/",
+        "https://rust-lang.org/governance/teams/moderation/"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "Llogiq on stuff",
+          "url": "https://llogiq.github.io/",
+          "note": "Personal writing on Rust, software design, and development practice.",
+          "evidence": "https://llogiq.github.io/"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: llogiq",
+          "url": "https://github.com/llogiq",
+          "note": "Handle confirmed by the Rust project's team directory.",
+          "evidence": "https://rust-lang.org/governance/teams/moderation/"
+        },
+        {
+          "kind": "account",
+          "label": "X / Twitter: llogiq",
+          "url": "https://twitter.com/llogiq",
+          "note": "Public handle listed in the Rust mentoring directory; recent activity not checked.",
+          "evidence": "https://github.com/RustBeginners/awesome-rust-mentors/blob/master/_includes/mentors.md"
+        },
+        {
+          "kind": "project",
+          "label": "Clippy",
+          "url": "https://github.com/rust-lang/rust-clippy",
+          "note": "Rust lint collection; Bogus's author biography identifies maintenance work.",
+          "evidence": "https://blog.logrocket.com/author/andrebogus/"
+        },
+        {
+          "kind": "publication",
+          "label": "Why Rust?",
+          "url": "https://qdrant.tech/articles/why-rust/",
+          "note": "Authored account of language tradeoffs at Qdrant.",
+          "evidence": "https://qdrant.tech/articles/why-rust/",
+          "format": "article"
+        },
+        {
+          "kind": "publication",
+          "label": "Comparing Rust supply chain safety tools",
+          "url": "https://blog.logrocket.com/comparing-rust-supply-chain-safety-tools/",
+          "note": "A dated comparison of dependency-inspection tools; recheck current tool behavior.",
+          "evidence": "https://blog.logrocket.com/comparing-rust-supply-chain-safety-tools/",
+          "format": "article"
+        },
+        {
+          "kind": "talk",
+          "label": "Easy Mode Rust",
+          "url": "https://www.youtube.com/watch?v=33FG6O3qejM",
+          "note": "Rust Nation UK 2024 recording on reducing unnecessary complexity.",
+          "evidence": "https://www.youtube.com/watch?v=33FG6O3qejM"
+        }
+      ],
+      "gaps": [
+        "No authored book or scholarly paper verified."
+      ]
+    },
+    {
+      "profile_id": "andre-eriksson",
+      "speaker_id": "speaker-andr-eriksson-d633058c",
+      "name": "André Eriksson",
+      "focus": "Developer tooling and deriving infrastructure from application code.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/andre-eriksson.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-your-infrastructure-should-compile-too",
+          "title": "Your Infrastructure Should Compile, Too",
+          "official_url": "https://eurorust.eu/talks/your-infrastructure-should-compile-too/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/your-infrastructure-should-compile-too/",
+        "https://encore.dev/blog/fun-back-into-software-development"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "Writing on DEV",
+          "url": "https://dev.to/eandre",
+          "note": "Author profile with Encore and distributed-systems articles.",
+          "evidence": "https://dev.to/eandre"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: eandre",
+          "url": "https://github.com/eandre",
+          "note": "Development profile under André Eriksson's name.",
+          "evidence": "https://github.com/eandre"
+        },
+        {
+          "kind": "account",
+          "label": "X / Twitter: _eandre",
+          "url": "https://twitter.com/_eandre",
+          "note": "Handle identified in the author's GopherCon UK slides; posting activity was not checked.",
+          "evidence": "https://encore.dev/assets/slides/gophercon-uk-2022.pdf"
+        },
+        {
+          "kind": "project",
+          "label": "Encore",
+          "url": "https://github.com/encoredev/encore",
+          "note": "Open-source backend and infrastructure project founded by Eriksson.",
+          "evidence": "https://encore.dev/blog/fun-back-into-software-development"
+        },
+        {
+          "kind": "publication",
+          "label": "Designing an algorithmic cloud infrastructure provisioning system",
+          "url": "https://dev.to/encore/designing-an-algorithmic-cloud-infrastructure-provisioning-system-kde",
+          "note": "Author's explanation of static analysis and infrastructure requirements.",
+          "evidence": "https://dev.to/encore/designing-an-algorithmic-cloud-infrastructure-provisioning-system-kde",
+          "format": "article"
+        },
+        {
+          "kind": "publication",
+          "label": "Encore.ts: a new type of framework",
+          "url": "https://encore.dev/blog/a-new-type-of-framework",
+          "note": "Author's architectural argument for Encore.ts; performance claims remain the author's claims.",
+          "evidence": "https://encore.dev/blog/a-new-type-of-framework",
+          "format": "article"
+        },
+        {
+          "kind": "talk",
+          "label": "Using Go to Naturally Express Higher-level Distributed Systems Concepts",
+          "url": "https://www.engineers.sg/video/using-go-to-naturally-express-higher-level-distributed-systems-concepts/",
+          "note": "Go Singapore recording about static analysis, generated code, and backend design.",
+          "evidence": "https://www.engineers.sg/video/using-go-to-naturally-express-higher-level-distributed-systems-concepts/"
+        }
+      ],
+      "gaps": [
+        "No authored book or scholarly paper verified."
+      ]
+    },
+    {
+      "profile_id": "arthur-cohen",
+      "speaker_id": "speaker-arthur-cohen-e46114d6",
+      "name": "Arthur Cohen",
+      "focus": "Compiler frontends, gccrs, macro expansion, and name resolution.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/arthur-cohen.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-compiling-the-linux-kernel-with-gccrs",
+          "title": "Compiling the Linux kernel with gccrs",
+          "official_url": "https://eurorust.eu/talks/compiling-the-linux-kernel-with-gccrs/"
+        }
+      ],
+      "identity_evidence": [
+        "https://cohenarthur.github.io/",
+        "https://eurorust.eu/talks/compiling-the-linux-kernel-with-gccrs/"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "Arthur's compiler blog",
+          "url": "https://cohenarthur.github.io/",
+          "note": "Compiler notes, Rust derives, and gccrs development workflows.",
+          "evidence": "https://cohenarthur.github.io/"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: CohenArthur",
+          "url": "https://github.com/CohenArthur",
+          "note": "Linked from the personal site.",
+          "evidence": "https://cohenarthur.github.io/"
+        },
+        {
+          "kind": "account",
+          "label": "Mastodon: @cohenarthur@hachyderm.io",
+          "url": "https://hachyderm.io/@cohenarthur",
+          "note": "Linked from the personal site; account activity not checked.",
+          "evidence": "https://cohenarthur.github.io/"
+        },
+        {
+          "kind": "account",
+          "label": "X / Twitter: CohenArthurDev",
+          "url": "https://twitter.com/CohenArthurDev",
+          "note": "Linked from the personal site.",
+          "evidence": "https://cohenarthur.github.io/"
+        },
+        {
+          "kind": "project",
+          "label": "gccrs",
+          "url": "https://github.com/Rust-GCC/gccrs",
+          "note": "Rust frontend for GCC; Cohen is listed among its maintainers.",
+          "evidence": "https://github.com/Rust-GCC/gccrs/blob/master/MAINTAINERS"
+        },
+        {
+          "kind": "project",
+          "label": "jinko",
+          "url": "https://github.com/jinko-core/jinko",
+          "note": "Programming-language project identified in the speaker's earlier EuroRust biography.",
+          "evidence": "https://eurorust.eu/2023/speakers/arthur-cohen/"
+        },
+        {
+          "kind": "publication",
+          "label": "gccrs: An alternative compiler for Rust",
+          "url": "https://blog.rust-lang.org/2024/11/07/gccrs-an-alternative-compiler-for-rust/",
+          "note": "Guest post explaining the project's goals and relationship with Rust.",
+          "evidence": "https://blog.rust-lang.org/2024/11/07/gccrs-an-alternative-compiler-for-rust/",
+          "format": "article"
+        },
+        {
+          "kind": "talk",
+          "label": "A deep dive inside the Rust frontend for GCC",
+          "url": "https://archive.fosdem.org/2023/schedule/event/rust_a_deep_dive_inside_the_rust_frontend_for_gcc/",
+          "note": "FOSDEM 2023 slides and recording; historical compiler status.",
+          "evidence": "https://archive.fosdem.org/2023/schedule/event/rust_a_deep_dive_inside_the_rust_frontend_for_gcc/"
+        }
+      ],
+      "gaps": [
+        "No authored book or scholarly paper verified.",
+        "Conference and GitHub biographies show different employer affiliations; no current employer is asserted here."
+      ]
+    },
+    {
+      "profile_id": "arya-dradjica",
+      "speaker_id": "speaker-arya-dradjica-79529315",
+      "name": "Arya Dradjica",
+      "focus": "Compiler architecture, concurrent data structures, and low-level optimization.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/arya-dradjica.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-building-a-query-system",
+          "title": "Building a Query System",
+          "official_url": "https://eurorust.eu/talks/building-a-query-system/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/building-a-query-system/",
+        "https://2026.rustweek.org/talks/arya/",
+        "https://bal-e.org/speed/krabby/2026/a-year/"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "Compiler and optimization writing",
+          "url": "https://bal-e.org/",
+          "note": "Personal blog; indexed articles were available, but direct retrieval was blocked by robots rules during this review.",
+          "evidence": "https://bal-e.org/speed/krabby/2026/a-year/"
+        },
+        {
+          "kind": "account",
+          "label": "SourceHut: bal-e",
+          "url": "https://git.sr.ht/~bal-e",
+          "note": "Development account identified by the author's published crate metadata.",
+          "evidence": "https://docs.rs/crate/takeaway/0.1.0/source/Cargo.toml"
+        },
+        {
+          "kind": "project",
+          "label": "takeaway",
+          "url": "https://git.sr.ht/~bal-e/takeaway",
+          "note": "Work-stealing task queues developed for the experimental Krabby compiler.",
+          "evidence": "https://docs.rs/crate/takeaway/0.1.0/source/Cargo.toml"
+        },
+        {
+          "kind": "publication",
+          "label": "A year of Krabby",
+          "url": "https://bal-e.org/speed/krabby/2026/a-year/",
+          "note": "Author's development retrospective on the experimental compiler.",
+          "evidence": "https://bal-e.org/speed/krabby/2026/a-year/",
+          "format": "article"
+        },
+        {
+          "kind": "publication",
+          "label": "Oops, cubic macro!",
+          "url": "https://bal-e.org/blog/2026/oops-cubic-macro/",
+          "note": "Investigation of macro-expansion complexity.",
+          "evidence": "https://bal-e.org/blog/2026/oops-cubic-macro/",
+          "format": "article"
+        },
+        {
+          "kind": "talk",
+          "label": "Obsessive Optimization with String Interning",
+          "url": "https://2026.rustweek.org/talks/arya/",
+          "note": "RustWeek 2026 session on concurrent interning and performance work.",
+          "evidence": "https://2026.rustweek.org/talks/arya/"
+        }
+      ],
+      "gaps": [
+        "No authored book, scholarly paper, or independently verified social-network account recorded.",
+        "Personal-site content was verified through indexed primary pages; direct retrieval was unavailable."
+      ]
+    },
+    {
+      "profile_id": "benedikt-wiethof",
+      "speaker_id": "speaker-benedikt-wiethof-71f96ff9",
+      "name": "Benedikt Wiethof",
+      "focus": "Rust architecture for distributed ground stations, trust, and multi-user systems.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/benedikt-wiethof.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-the-future-of-unmanned-systems-is-built-on-rust",
+          "title": "The Future of Unmanned Systems Is Built on Rust",
+          "official_url": "https://eurorust.eu/talks/the-future-of-unmanned-systems-is-built-on-rust/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/the-future-of-unmanned-systems-is-built-on-rust/"
+      ],
+      "items": [
+        {
+          "kind": "work",
+          "label": "MOSAIC architecture",
+          "url": "https://eurorust.eu/talks/the-future-of-unmanned-systems-is-built-on-rust/",
+          "note": "The official biography credits work on ground-station trust and multi-user architecture at Quantum Systems; no public source-code release is established.",
+          "evidence": "https://eurorust.eu/talks/the-future-of-unmanned-systems-is-built-on-rust/"
+        }
+      ],
+      "gaps": [
+        "No personal blog, public social account, authored book, scholarly publication, additional talk, or independently attributable open-source project was verified."
+      ]
+    },
+    {
+      "profile_id": "bjorn-barwinski",
+      "speaker_id": "speaker-bj-rn-barwinski-77b0809c",
+      "name": "Björn Barwinski",
+      "focus": "Embedded Rust, async microcontroller programming, and the Embassy framework.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/bjorn-barwinski.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "workshops-hands-on-embedded-rust",
+          "title": "Hands-On Embedded Rust",
+          "official_url": "https://eurorust.eu/workshops/hands-on-embedded-rust/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/workshops/hands-on-embedded-rust/",
+        "https://de.linkedin.com/in/bj%C3%B6rn-barwinski-6b2a10358"
+      ],
+      "items": [
+        {
+          "kind": "account",
+          "label": "LinkedIn",
+          "url": "https://de.linkedin.com/in/bj%C3%B6rn-barwinski-6b2a10358",
+          "note": "Profile shares the Rust Dortmund embedded workshop and Embassy talk associated with this instructor.",
+          "evidence": "https://de.linkedin.com/in/bj%C3%B6rn-barwinski-6b2a10358"
+        },
+        {
+          "kind": "talk",
+          "label": "A Soft Intro to the Embassy Framework",
+          "url": "https://www.youtube.com/watch?v=zsanJhEiiCE",
+          "note": "Recording linked as preparatory material by the official EuroRust workshop.",
+          "evidence": "https://eurorust.eu/workshops/hands-on-embedded-rust/"
+        }
+      ],
+      "gaps": [
+        "No personal website/blog, authored book, or scholarly publication verified.",
+        "A separate same-name LinkedIn profile was excluded; open-source attribution still needs an identity bridge."
+      ]
+    },
+    {
+      "profile_id": "connor-tsui",
+      "speaker_id": "speaker-connor-tsui-9bcb3f5a",
+      "name": "Connor Tsui",
+      "focus": "Columnar data formats, extensible types, and Rust data systems.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/connor-tsui.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-vortex-one-format-for-any-shape",
+          "title": "Vortex: One Format for Any Shape",
+          "official_url": "https://eurorust.eu/talks/vortex-one-format-for-any-shape/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/vortex-one-format-for-any-shape/",
+        "https://www.linkedin.com/in/connortsui"
+      ],
+      "items": [
+        {
+          "kind": "account",
+          "label": "GitHub: connortsui20",
+          "url": "https://github.com/connortsui20",
+          "note": "Development account linked from the professional profile.",
+          "evidence": "https://www.linkedin.com/in/connortsui"
+        },
+        {
+          "kind": "account",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/connortsui",
+          "note": "Professional profile identifies work on Vortex at Spiral.",
+          "evidence": "https://www.linkedin.com/in/connortsui"
+        },
+        {
+          "kind": "project",
+          "label": "Vortex",
+          "url": "https://github.com/vortex-data/vortex",
+          "note": "Contributor to the extensible columnar-format project; the project bulletin records contributions.",
+          "evidence": "https://vortex.dev/blog/october-2025"
+        },
+        {
+          "kind": "publication",
+          "label": "Vortex: One Format for Any Shape",
+          "url": "https://spiraldb.com/blog/vortex-one-format-for-any-shape",
+          "note": "Authored technical companion to the EuroRust session, with more detail on extension points.",
+          "evidence": "https://spiraldb.com/blog/vortex-one-format-for-any-shape",
+          "format": "article"
+        },
+        {
+          "kind": "work",
+          "label": "CMU Intro to Rust Lang",
+          "url": "https://rust-stuco.github.io/about/",
+          "note": "Course site credits Tsui as a previous instructor and links teaching material.",
+          "evidence": "https://rust-stuco.github.io/about/"
+        }
+      ],
+      "gaps": [
+        "No personal blog, authored book, scholarly publication, or additional conference talk verified.",
+        "Social-feed posts merely liked by this account are not treated as authored publications."
+      ]
+    },
+    {
+      "profile_id": "cristian-maureira-fredes",
+      "speaker_id": "speaker-cristi-n-maureira-fredes-842ad79e",
+      "name": "Cristián Maureira-Fredes",
+      "focus": "Python/C++/Rust interoperability, Qt, and scientific computing.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/cristian-maureira-fredes.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-rust-s-influence-on-c-and-python-shaping-the-future-of-three-communities",
+          "title": "Rust's Influence on C++ and Python: Shaping the Future of Three Communities",
+          "official_url": "https://eurorust.eu/talks/rust-s-influence-on-c-and-python-shaping-the-future-of-three-communities/"
+        }
+      ],
+      "identity_evidence": [
+        "https://maureira.dev/",
+        "https://github.com/cmaureir"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "Personal site and blog",
+          "url": "https://maureira.dev/",
+          "note": "Writing on language communities, open-source work, and conference participation.",
+          "evidence": "https://maureira.dev/"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: cmaureir",
+          "url": "https://github.com/cmaureir",
+          "note": "Profile links the personal site and Qt contributions.",
+          "evidence": "https://github.com/cmaureir"
+        },
+        {
+          "kind": "account",
+          "label": "Mastodon: cmaureir",
+          "url": "https://mastodon.social/@cmaureir",
+          "note": "Linked from the author's profiles.",
+          "evidence": "https://github.com/cmaureir"
+        },
+        {
+          "kind": "account",
+          "label": "Bluesky: cmaureir",
+          "url": "https://bsky.app/profile/cmaureir.bsky.social",
+          "note": "Linked from the author's development profile.",
+          "evidence": "https://github.com/cmaureir"
+        },
+        {
+          "kind": "account",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/cmaureir",
+          "note": "Professional account linked from the personal site.",
+          "evidence": "https://maureira.dev/"
+        },
+        {
+          "kind": "project",
+          "label": "Qt for Python / PySide",
+          "url": "https://www.qt.io/qt-for-python",
+          "note": "Conference and author profiles identify leadership and maintenance work on Python bindings for Qt.",
+          "evidence": "https://us.pycon.org/2026/speaker/profile/182/"
+        },
+        {
+          "kind": "project",
+          "label": "GraviDy",
+          "url": "https://gitlab.com/cmaureir/gravidy",
+          "note": "Parallel N-body integrator linked from the author's research page.",
+          "evidence": "https://maureira.dev/academia/"
+        },
+        {
+          "kind": "publication",
+          "label": "GraviDy: parallel N-body integration",
+          "url": "https://arxiv.org/abs/1702.00440",
+          "note": "Research paper coauthored with Pau Amaro-Seoane; see the author's bibliography for other astrophysics and computing papers.",
+          "evidence": "https://maureira.dev/academia/",
+          "format": "paper"
+        },
+        {
+          "kind": "talk",
+          "label": "What comes after Rust in the Python ecosystem?",
+          "url": "https://www.youtube.com/watch?v=yJPX7n0tMfo",
+          "note": "EuroPython 2025 video linked from the author's speaking archive; video retrieval was throttled during review.",
+          "evidence": "https://maureira.dev/speaking/"
+        },
+        {
+          "kind": "talk",
+          "label": "Talks, tutorials, and panels",
+          "url": "https://maureira.dev/speaking/",
+          "note": "Author-maintained archive distinguishing upcoming appearances and available recordings.",
+          "evidence": "https://maureira.dev/speaking/"
+        }
+      ],
+      "gaps": [
+        "No authored book verified.",
+        "Research and talk archives contain historical material; their older project-status statements should not be read as current."
+      ]
+    },
+    {
+      "profile_id": "daniel-rodriguez",
+      "speaker_id": "speaker-daniel-rodriguez-e9c644c7",
+      "name": "Daniel Rodriguez",
+      "focus": "Network observability, synthetic monitoring, and production engineering.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/daniel-rodriguez.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-blastbeat-when-a-decade-of-c-meets-rust-and-io-uring",
+          "title": "Blastbeat: When a Decade of C++ Meets Rust and io_uring",
+          "official_url": "https://eurorust.eu/talks/blastbeat-when-a-decade-of-c-meets-rust-and-io-uring/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/blastbeat-when-a-decade-of-c-meets-rust-and-io-uring/",
+        "https://www.sgnog.net/?page_id=7023"
+      ],
+      "items": [
+        {
+          "kind": "work",
+          "label": "Blastbeat",
+          "url": "https://eurorust.eu/talks/blastbeat-when-a-decade-of-c-meets-rust-and-io-uring/",
+          "note": "Conference account of a network-observability rewrite with Giacomo Bagnoli. No public repository or independently reproduced benchmark was verified.",
+          "evidence": "https://eurorust.eu/talks/blastbeat-when-a-decade-of-c-meets-rust-and-io-uring/"
+        },
+        {
+          "kind": "talk",
+          "label": "The boy who cried SLI: A tale of too many alerts",
+          "url": "https://www.sgnog.net/?page_id=7023",
+          "note": "SGNOG11 programme identifies Rodriguez and Jose Leitao with a talk on network alerting and service-level indicators.",
+          "evidence": "https://www.sgnog.net/?page_id=7023"
+        }
+      ],
+      "gaps": [
+        "No personal website, social account, authored book, scholarly publication, or open-source project could be reliably attributed to this speaker.",
+        "Several same-name developers appeared in search; their work was not merged into this profile."
+      ]
+    },
+    {
+      "profile_id": "domenic-quirl",
+      "speaker_id": "speaker-domenic-quirl-ffc9c850",
+      "name": "Domenic Quirl",
+      "focus": "Embedded Rust, parsing, syntax trees, and generic APIs.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/domenic-quirl.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "workshops-hands-on-embedded-rust",
+          "title": "Hands-On Embedded Rust",
+          "official_url": "https://eurorust.eu/workshops/hands-on-embedded-rust/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/workshops/hands-on-embedded-rust/",
+        "https://domenicquirl.github.io/blog/",
+        "https://github.com/domenicquirl"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "Quirl",
+          "url": "https://domenicquirl.github.io/blog/",
+          "note": "Personal articles on Rust parsing, language implementation, and zero-copy handlers.",
+          "evidence": "https://domenicquirl.github.io/blog/"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: domenicquirl",
+          "url": "https://github.com/domenicquirl",
+          "note": "Development profile with the blog source and embedded-Rust teaching material.",
+          "evidence": "https://github.com/domenicquirl"
+        },
+        {
+          "kind": "project",
+          "label": "cstree",
+          "url": "https://github.com/domenicquirl/cstree",
+          "note": "Concrete syntax tree library owned by this development account.",
+          "evidence": "https://github.com/domenicquirl"
+        },
+        {
+          "kind": "project",
+          "label": "Embedded Rust introduction material",
+          "url": "https://github.com/domenicquirl/rust-embedded-intro",
+          "note": "Public source for an introductory embedded-Rust presentation.",
+          "evidence": "https://github.com/domenicquirl"
+        },
+        {
+          "kind": "publication",
+          "label": "Where to Start Hand-Writing a Parser (in Rust)",
+          "url": "https://domenicquirl.github.io/blog/parsing-basics/",
+          "note": "Author's parsing tutorial, with accompanying code in the blog repository.",
+          "evidence": "https://domenicquirl.github.io/blog/",
+          "format": "article"
+        },
+        {
+          "kind": "talk",
+          "label": "Intro to Embedded Rust",
+          "url": "https://www.youtube.com/watch?v=BXjcAf0Z95Q",
+          "note": "Recording recommended by the official EuroRust workshop.",
+          "evidence": "https://eurorust.eu/workshops/hands-on-embedded-rust/"
+        }
+      ],
+      "gaps": [
+        "No authored book, independently attributed scholarly paper, or additional social-network account verified.",
+        "A paper mentioning the name was not treated as an authored publication without authorship evidence."
+      ]
+    },
+    {
+      "profile_id": "filip-petkovski",
+      "speaker_id": "speaker-filip-petkovski-da6fe955",
+      "name": "Filip Petkovski",
+      "focus": "Observability, PromQL execution, and concurrent systems.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/filip-petkovski.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-running-safely-with-scissors-lock-free-concurrency-for-maximum-throughput",
+          "title": "Running Safely with Scissors: Lock-free Concurrency for Maximum Throughput",
+          "official_url": "https://eurorust.eu/talks/running-safely-with-scissors-lock-free-concurrency-for-maximum-throughput/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/running-safely-with-scissors-lock-free-concurrency-for-maximum-throughput/",
+        "https://github.com/fpetkovski"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "Personal engineering blog",
+          "url": "https://fpetkovski.github.io/",
+          "note": "Articles on Kubernetes abstractions, monitoring, and external metrics.",
+          "evidence": "https://fpetkovski.github.io/"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: fpetkovski",
+          "url": "https://github.com/fpetkovski",
+          "note": "Development profile for the Thanos and Prometheus contributor.",
+          "evidence": "https://github.com/fpetkovski"
+        },
+        {
+          "kind": "project",
+          "label": "Thanos",
+          "url": "https://github.com/thanos-io/thanos",
+          "note": "Conference biography identifies Petkovski as a maintainer of this metrics system.",
+          "evidence": "https://eurorust.eu/talks/running-safely-with-scissors-lock-free-concurrency-for-maximum-throughput/"
+        },
+        {
+          "kind": "project",
+          "label": "Prometheus",
+          "url": "https://github.com/prometheus/prometheus",
+          "note": "Contributor, as identified in the official conference biography.",
+          "evidence": "https://eurorust.eu/talks/running-safely-with-scissors-lock-free-concurrency-for-maximum-throughput/"
+        },
+        {
+          "kind": "talk",
+          "label": "Opening Pandora's Box: Redesigning PromQL for Scalable Computation",
+          "url": "https://promcon.io/2022-munich/talks/opening-pandoras-box-redesigning/",
+          "note": "PromCon EU 2022 session with Bartłomiej Płotka on query execution.",
+          "evidence": "https://promcon.io/2022-munich/talks/opening-pandoras-box-redesigning/"
+        }
+      ],
+      "gaps": [
+        "No authored book or scholarly paper verified.",
+        "An unrelated same-name academic and their books were excluded."
+      ]
+    },
+    {
+      "profile_id": "francois-mockers",
+      "speaker_id": "speaker-francois-mockers-a962584a",
+      "name": "Francois Mockers",
+      "focus": "Bevy, Rust game development, testing, and software supply chains.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/francois-mockers.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-supply-chain-attacks-and-how-to-protect-ourselves",
+          "title": "Supply Chain Attacks, and how to protect ourselves",
+          "official_url": "https://eurorust.eu/talks/supply-chain-attacks-and-how-to-protect-ourselves/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/supply-chain-attacks-and-how-to-protect-ourselves/",
+        "https://github.com/mockersf",
+        "https://vleue.com/"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "Testing and Stuff",
+          "url": "https://vleue.com/",
+          "note": "Articles on Rust, WebAssembly, Bevy, and running ML models in a game.",
+          "evidence": "https://vleue.com/"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: mockersf",
+          "url": "https://github.com/mockersf",
+          "note": "Profile links the personal website and social accounts.",
+          "evidence": "https://github.com/mockersf"
+        },
+        {
+          "kind": "account",
+          "label": "Mastodon: FrancoisMockers",
+          "url": "https://hachyderm.io/@FrancoisMockers",
+          "note": "Account linked from GitHub.",
+          "evidence": "https://github.com/mockersf"
+        },
+        {
+          "kind": "account",
+          "label": "Bluesky: francois.mock.rs",
+          "url": "https://bsky.app/profile/francois.mock.rs",
+          "note": "Account linked from GitHub.",
+          "evidence": "https://github.com/mockersf"
+        },
+        {
+          "kind": "project",
+          "label": "Bevy",
+          "url": "https://github.com/bevyengine/bevy",
+          "note": "Maintainer with documented work on mobile support and testing.",
+          "evidence": "https://bevy.org/news/sme-announcements/"
+        },
+        {
+          "kind": "project",
+          "label": "bevy_embedded_assets",
+          "url": "https://github.com/vleue/bevy_embedded_assets",
+          "note": "Bevy asset-embedding plugin; repository credits mockersf.",
+          "evidence": "https://github.com/vleue/bevy_embedded_assets"
+        },
+        {
+          "kind": "publication",
+          "label": "Bevy editor presentation",
+          "url": "https://vleue.com/presentations/bevy-meetup-2024-1-bevy-editor/bevy-editor.pdf",
+          "note": "Author-hosted presentation slides identifying the GitHub handle.",
+          "evidence": "https://vleue.com/presentations/bevy-meetup-2024-1-bevy-editor/bevy-editor.pdf",
+          "format": "slides"
+        },
+        {
+          "kind": "talk",
+          "label": "RustLab talks and workshops",
+          "url": "https://rustlab.it/speakers/mockers",
+          "note": "Organizer archive includes build-iteration strategies and a first-Bevy-game workshop.",
+          "evidence": "https://rustlab.it/speakers/mockers"
+        }
+      ],
+      "gaps": [
+        "No authored book or scholarly paper verified."
+      ]
+    },
+    {
+      "profile_id": "frank-lyaruu",
+      "speaker_id": "speaker-frank-lyaruu-f7e1af9c",
+      "name": "Frank Lyaruu",
+      "focus": "Hardware interfaces, embedded Rust, streaming data, and distributed applications.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/frank-lyaruu.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-from-hardware-to-human-interface-building-hid-devices-in-rust",
+          "title": "From Hardware to Human Interface: Building HID Devices in Rust",
+          "official_url": "https://eurorust.eu/talks/from-hardware-to-human-interface-building-hid-devices-in-rust/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/from-hardware-to-human-interface-building-hid-devices-in-rust/",
+        "https://gotopia.tech/experts/2291/frank-lyaruu",
+        "https://github.com/flyaruu"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "Engineering articles on Medium",
+          "url": "https://flyaruu.medium.com/",
+          "note": "Author's articles include running and securing Kafka in local Kubernetes.",
+          "evidence": "https://flyaruu.medium.com/"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: flyaruu",
+          "url": "https://github.com/flyaruu",
+          "note": "Development profile under the speaker's name.",
+          "evidence": "https://github.com/flyaruu"
+        },
+        {
+          "kind": "account",
+          "label": "LinkedIn",
+          "url": "https://nl.linkedin.com/in/lyaruu",
+          "note": "Professional profile matches the HighTech Innovators conference affiliation.",
+          "evidence": "https://www.rustikon.dev/talk/no-cars-were-harmed-for-this-talk-automotive-rust-amateur-style"
+        },
+        {
+          "kind": "project",
+          "label": "Floodplain library",
+          "url": "https://github.com/floodplainio/floodplain-library",
+          "note": "Streaming-data project; package metadata names Lyaruu as developer and identifies this repository.",
+          "evidence": "https://central.sonatype.com/artifact/io.floodplain/floodplain-integration"
+        },
+        {
+          "kind": "talk",
+          "label": "No cars were harmed for this talk: Automotive Rust, amateur style",
+          "url": "https://www.rustikon.dev/talk/no-cars-were-harmed-for-this-talk-automotive-rust-amateur-style",
+          "note": "Rustikon session on reading vehicle CAN-bus data.",
+          "evidence": "https://www.rustikon.dev/talk/no-cars-were-harmed-for-this-talk-automotive-rust-amateur-style"
+        },
+        {
+          "kind": "talk",
+          "label": "GOTO speaker archive",
+          "url": "https://gotopia.tech/experts/2291/frank-lyaruu",
+          "note": "Organizer-maintained entry for further talks and biographical context.",
+          "evidence": "https://gotopia.tech/experts/2291/frank-lyaruu"
+        }
+      ],
+      "gaps": [
+        "No authored book or scholarly paper verified; blog posts and talks are listed separately."
+      ]
+    },
+    {
+      "profile_id": "giacomo-bagnoli",
+      "speaker_id": "speaker-giacomo-bagnoli-1f228113",
+      "name": "Giacomo Bagnoli",
+      "focus": "Production network monitoring, low-latency systems, and infrastructure engineering.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/giacomo-bagnoli.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-blastbeat-when-a-decade-of-c-meets-rust-and-io-uring",
+          "title": "Blastbeat: When a Decade of C++ Meets Rust and io_uring",
+          "official_url": "https://eurorust.eu/talks/blastbeat-when-a-decade-of-c-meets-rust-and-io-uring/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/blastbeat-when-a-decade-of-c-meets-rust-and-io-uring/",
+        "https://es.linkedin.com/in/giacomobagnoli",
+        "https://devopsdays.org/events/2020-madrid/program/giacomo-bagnoli/"
+      ],
+      "items": [
+        {
+          "kind": "account",
+          "label": "GitHub: gbagnoli",
+          "url": "https://github.com/gbagnoli",
+          "note": "Development profile under the speaker's name, including systems and Rust projects.",
+          "evidence": "https://github.com/gbagnoli"
+        },
+        {
+          "kind": "account",
+          "label": "LinkedIn",
+          "url": "https://es.linkedin.com/in/giacomobagnoli",
+          "note": "Professional profile connects his production-engineering work and research publication.",
+          "evidence": "https://es.linkedin.com/in/giacomobagnoli"
+        },
+        {
+          "kind": "project",
+          "label": "glock",
+          "url": "https://github.com/gbagnoli/glock",
+          "note": "Go locking-library experiment with Redis, Cassandra, and in-memory backends; its README warns that the API is unstable.",
+          "evidence": "https://github.com/gbagnoli/glock"
+        },
+        {
+          "kind": "talk",
+          "label": "Lessons learned from monitoring a large production network",
+          "url": "https://devopsdays.org/events/2020-madrid/program/giacomo-bagnoli/",
+          "note": "DevOpsDays Madrid 2020 session on production-network monitoring.",
+          "evidence": "https://devopsdays.org/events/2020-madrid/program/giacomo-bagnoli/"
+        },
+        {
+          "kind": "publication",
+          "label": "Low-Latency Audio on Linux by Means of Real-Time Scheduling",
+          "url": "https://www.iris.sssup.it/handle/11382/361494",
+          "note": "Coauthored Linux Audio Conference 2011 paper on audio latency and real-time scheduling; the institutional record identifies the authors.",
+          "evidence": "https://www.iris.sssup.it/handle/11382/361494",
+          "format": "paper"
+        }
+      ],
+      "gaps": [
+        "A Tumblr blog linked from his professional profile could not be retrieved during this check; it is omitted from the reading recommendations.",
+        "No authored book verified."
+      ]
+    },
+    {
+      "profile_id": "jake-lishman",
+      "speaker_id": "speaker-jake-lishman-fc953dbc",
+      "name": "Jake Lishman",
+      "focus": "Quantum compilers, Python–Rust integration, and numerical software.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/jake-lishman.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-moving-a-quantum-compiler-from-python-to-rust",
+          "title": "Moving a quantum compiler from Python to Rust",
+          "official_url": "https://eurorust.eu/talks/moving-a-quantum-compiler-from-python-to-rust/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/moving-a-quantum-compiler-from-python-to-rust/",
+        "https://binhbar.com/about/",
+        "https://github.com/jakelishman"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "/bin/ħ",
+          "url": "https://binhbar.com/",
+          "note": "Personal technical writing on Python, numerical representations, and quantum-software development.",
+          "evidence": "https://binhbar.com/about/"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: jakelishman",
+          "url": "https://github.com/jakelishman",
+          "note": "Development profile links back to his personal site and identifies his Qiskit work.",
+          "evidence": "https://github.com/jakelishman"
+        },
+        {
+          "kind": "account",
+          "label": "LinkedIn",
+          "url": "https://uk.linkedin.com/in/jakelishman",
+          "note": "Professional profile matches the Qiskit and OpenQASM work described on his site.",
+          "evidence": "https://uk.linkedin.com/in/jakelishman"
+        },
+        {
+          "kind": "project",
+          "label": "Qiskit",
+          "url": "https://github.com/Qiskit/qiskit",
+          "note": "Quantum-computing SDK; Lishman's profile identifies him as technical lead. Relevant background for the conference's Python-to-Rust migration talk.",
+          "evidence": "https://github.com/jakelishman"
+        },
+        {
+          "kind": "project",
+          "label": "qiskit-qasm2",
+          "url": "https://github.com/jakelishman/qiskit-qasm2",
+          "note": "OpenQASM 2 parser combining Python and Rust; package documentation explains the lexer design.",
+          "evidence": "https://pypi.org/project/qiskit-qasm2/0.3.2/"
+        },
+        {
+          "kind": "publication",
+          "label": "LightSABRE: A Lightweight and Enhanced SABRE Algorithm",
+          "url": "https://arxiv.org/abs/2409.08368",
+          "note": "Coauthored preprint on quantum-circuit routing implemented primarily in Rust within Qiskit. Performance claims belong to the paper's stated benchmarks.",
+          "evidence": "https://arxiv.org/abs/2409.08368",
+          "format": "preprint"
+        },
+        {
+          "kind": "publication",
+          "label": "Trapped-Ion Entangling Gates Robust Against Qubit Frequency Errors",
+          "url": "https://arxiv.org/abs/2004.07253",
+          "note": "Coauthored quantum-physics research, listed in his own publication bibliography.",
+          "evidence": "https://binhbar.com/about/",
+          "format": "paper"
+        }
+      ],
+      "gaps": [
+        "No authored book or separately attributable recording of another talk verified in this search."
+      ]
+    },
+    {
+      "profile_id": "jana-donszelmann",
+      "speaker_id": "speaker-jana-d-nszelmann-f6d22cc4",
+      "name": "Jana Dönszelmann",
+      "focus": "Rust compiler maintenance, trait solving, diagnostics, and teaching.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/jana-donszelmann.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-optimizing-the-new-rust-trait-solver",
+          "title": "Optimizing rustc's Next Trait Solver",
+          "official_url": "https://eurorust.eu/talks/optimizing-the-new-rust-trait-solver/"
+        }
+      ],
+      "identity_evidence": [
+        "https://donsz.nl/",
+        "https://rustnl.org/maintainers/"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "Jana's blog",
+          "url": "https://donsz.nl/blog",
+          "note": "Compiler-development articles, including a detailed account of optimizing the new trait solver.",
+          "evidence": "https://donsz.nl/blog"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: jdonszelmann",
+          "url": "https://github.com/jdonszelmann",
+          "note": "Author account linked by her own blog.",
+          "evidence": "https://donsz.nl/blog"
+        },
+        {
+          "kind": "project",
+          "label": "Rust compiler",
+          "url": "https://github.com/rust-lang/rust",
+          "note": "Compiler-team work documented by her site and the RustNL maintainers directory.",
+          "evidence": "https://rustnl.org/maintainers/"
+        },
+        {
+          "kind": "project",
+          "label": "rust-scopegraphs",
+          "url": "https://github.com/metaborg/rust-scopegraphs",
+          "note": "Scope-graph implementation developed with Aron Zwaan. The repository describes it as development work with an unstable API.",
+          "evidence": "https://donsz.nl/"
+        },
+        {
+          "kind": "talk",
+          "label": "Crafting errors like rustc",
+          "url": "https://2026.rustweek.org/workshops/rustc/",
+          "note": "RustWeek 2026 workshop with Esteban Kuber on compiler-style diagnostics.",
+          "evidence": "https://2026.rustweek.org/workshops/rustc/"
+        },
+        {
+          "kind": "publication",
+          "label": "It's the people that matter",
+          "url": "https://donsz.nl/blog/externally-implementable-items",
+          "note": "Author's written version of her Rust in Paris 2026 talk, using a compiler feature to explain collaboration in the Rust project.",
+          "evidence": "https://donsz.nl/blog",
+          "format": "article"
+        },
+        {
+          "kind": "work",
+          "label": "Rust for Research course",
+          "url": "https://reit.pages.ewi.tudelft.nl/course-rust-basics/010-introduction.html",
+          "note": "TU Delft's March 2026 course credits her for course design.",
+          "evidence": "https://reit.pages.ewi.tudelft.nl/course-rust-basics/010-introduction.html"
+        }
+      ],
+      "gaps": [
+        "No authored book or scholarly paper verified. Teaching materials and compiler articles are listed by their actual format.",
+        "No social-network account beyond the linked GitHub identity was verified."
+      ]
+    },
+    {
+      "profile_id": "johan-rosengren",
+      "speaker_id": "speaker-johan-rosengren-9db45c0a",
+      "name": "Johan Rosengren",
+      "focus": "Browser image decoding and incremental migration from C++ to Rust.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/johan-rosengren.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-image-codecs-rustification-in-chromium",
+          "title": "Image codecs rustification in Chromium",
+          "official_url": "https://eurorust.eu/talks/image-codecs-rustification-in-chromium/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/image-codecs-rustification-in-chromium/",
+        "https://skia.googlesource.com/skia/+/3613e6dfbb6dbf53fb49b0edc3a7fb3e68e57980"
+      ],
+      "items": [
+        {
+          "kind": "project",
+          "label": "Skia: Rust-based ICO decoder",
+          "url": "https://skia.googlesource.com/skia/+/3613e6dfbb6dbf53fb49b0edc3a7fb3e68e57980",
+          "note": "Upstream commit credits Rosengren with an ICO/CUR decoder using image-rs. This is a concrete contribution in the area covered by his conference session.",
+          "evidence": "https://skia.googlesource.com/skia/+/3613e6dfbb6dbf53fb49b0edc3a7fb3e68e57980"
+        },
+        {
+          "kind": "project",
+          "label": "Skia: handling incomplete ICO data",
+          "url": "https://chromium.googlesource.com/experimental/external/gob/skia/skia/+/50e43ef61a44cc601d51fc7c28982f2e03ba7648",
+          "note": "Follow-up contribution documents compatibility problems around partially available multi-frame images.",
+          "evidence": "https://chromium.googlesource.com/experimental/external/gob/skia/skia/+/50e43ef61a44cc601d51fc7c28982f2e03ba7648"
+        }
+      ],
+      "gaps": [
+        "No personal website, social account, authored book, scholarly paper, or separate earlier talk could be confidently matched to this speaker.",
+        "Searches also returned researchers and professionals with the same name; their publications and accounts are not included."
+      ]
+    },
+    {
+      "profile_id": "johan-sannemo",
+      "speaker_id": "speaker-johan-sannemo-951eac7a",
+      "name": "Johan Sannemo",
+      "focus": "Virtualization infrastructure, competitive programming, and algorithmic problem solving.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/johan-sannemo.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "workshops-building-a-virtual-machine-monitor-in-rust",
+          "title": "Building a virtual machine monitor in Rust",
+          "official_url": "https://eurorust.eu/workshops/building-a-virtual-machine-monitor-in-rust/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/workshops/building-a-virtual-machine-monitor-in-rust/",
+        "https://se.linkedin.com/in/jsannemo",
+        "https://jsannemo.se/latest.pdf"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "jsannemo's blog",
+          "url": "https://jsannemo.se/",
+          "note": "Personal writing on technology and education, including optimization of programming-contest problems.",
+          "evidence": "https://jsannemo.se/"
+        },
+        {
+          "kind": "account",
+          "label": "LinkedIn",
+          "url": "https://se.linkedin.com/in/jsannemo",
+          "note": "Professional profile explicitly links his EuroRust virtualization workshop.",
+          "evidence": "https://se.linkedin.com/in/jsannemo"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: jsannemo",
+          "url": "https://github.com/jsannemo",
+          "note": "Development account for the Omogen judging system and algorithmic programming work.",
+          "evidence": "https://github.com/jsannemo/omogenjudge"
+        },
+        {
+          "kind": "book",
+          "label": "Principles of Algorithmic Problem Solving",
+          "url": "https://jsannemo.se/latest.pdf",
+          "note": "Author-hosted textbook on algorithms and competitive programming. The PDF identifies a 2025 first edition and its reuse terms.",
+          "evidence": "https://jsannemo.se/latest.pdf"
+        },
+        {
+          "kind": "project",
+          "label": "Omogen Judging System",
+          "url": "https://github.com/jsannemo/omogenjudge",
+          "note": "Public system for evaluating programming submissions, with judge hosts, a queue, and a web interface.",
+          "evidence": "https://github.com/jsannemo/omogenjudge"
+        },
+        {
+          "kind": "project",
+          "label": "KACTL range-minimum queries",
+          "url": "https://github.com/kth-competitive-programming/kactl/blob/main/content/data-structures/RMQ.h",
+          "note": "A specific algorithm-library contribution credited to Sannemo and pajenegod.",
+          "evidence": "https://github.com/kth-competitive-programming/kactl/blob/main/content/data-structures/RMQ.h"
+        }
+      ],
+      "gaps": [
+        "No separate earlier talk or scholarly paper was confidently verified in this search."
+      ]
+    },
+    {
+      "profile_id": "jon-gjengset",
+      "speaker_id": null,
+      "name": "Jon Gjengset",
+      "focus": "Rust API design, concurrency, performance, and the database research behind Noria.",
+      "participation": "meetup_speaker",
+      "page": "resources/speakers/jon-gjengset.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "activities-meetup",
+          "title": "BcnRust Barcelona Meetup",
+          "official_url": "https://eurorust.eu/activities/meetup/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/activities/meetup/",
+        "https://thesquareplanet.com/",
+        "https://github.com/jonhoo"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "The Square Planet",
+          "url": "https://thesquareplanet.com/blog/",
+          "note": "His essays on Rust, systems, and software engineering; check each article's date when applying its details.",
+          "evidence": "https://thesquareplanet.com/"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: jonhoo",
+          "url": "https://github.com/jonhoo",
+          "note": "Public account linked from his own website or GitHub profile.",
+          "evidence": "https://github.com/jonhoo"
+        },
+        {
+          "kind": "account",
+          "label": "Bluesky: jonhoo.eu",
+          "url": "https://bsky.app/profile/jonhoo.eu",
+          "note": "Public account linked from his own website or GitHub profile.",
+          "evidence": "https://github.com/jonhoo"
+        },
+        {
+          "kind": "account",
+          "label": "Mastodon: @jonhoo@fosstodon.org",
+          "url": "https://fosstodon.org/@jonhoo",
+          "note": "Public account linked from his own website or GitHub profile.",
+          "evidence": "https://github.com/jonhoo"
+        },
+        {
+          "kind": "account",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/jonhoo/",
+          "note": "Public account linked from his own website or GitHub profile.",
+          "evidence": "https://github.com/jonhoo"
+        },
+        {
+          "kind": "account",
+          "label": "YouTube: jonhoo",
+          "url": "https://www.youtube.com/@jonhoo",
+          "note": "Rust teaching and live coding, including the Crust of Rust series.",
+          "evidence": "https://github.com/jonhoo"
+        },
+        {
+          "kind": "book",
+          "label": "Rust for Rustaceans",
+          "url": "https://nostarch.com/rust-rustaceans",
+          "note": "His 2021 book for readers who already know basic Rust, covering API design, traits, concurrency, and unsafe code. The publisher supplies a sample chapter; the full book is commercial.",
+          "evidence": "https://nostarch.com/rust-rustaceans"
+        },
+        {
+          "kind": "work",
+          "label": "Rust for Rustaceans resources and errata",
+          "url": "https://rust-for-rustaceans.com/",
+          "note": "The author's companion site provides corrections and discussion of the book.",
+          "evidence": "https://nostarch.com/rust-rustaceans"
+        },
+        {
+          "kind": "project",
+          "label": "Noria",
+          "url": "https://github.com/mit-pdos/noria",
+          "note": "The research database developed during his PhD uses partially stateful dataflow. Read it as a research artifact; ReadySet continues the work separately.",
+          "evidence": "https://thesquareplanet.com/"
+        },
+        {
+          "kind": "project",
+          "label": "inferno",
+          "url": "https://github.com/jonhoo/inferno",
+          "note": "A Rust implementation of flamegraph tooling, among the crates he maintains.",
+          "evidence": "https://github.com/jonhoo"
+        },
+        {
+          "kind": "project",
+          "label": "left-right",
+          "url": "https://github.com/jonhoo/left-right",
+          "note": "A concurrency primitive intended for read-heavy access patterns, maintained under his account.",
+          "evidence": "https://github.com/jonhoo"
+        },
+        {
+          "kind": "publication",
+          "label": "Noria — OSDI 2018",
+          "url": "https://www.usenix.org/conference/osdi18/presentation/gjengset",
+          "note": "Coauthored research paper on dynamic, partially stateful dataflow. USENIX provides the paper, slides, and presentation audio.",
+          "evidence": "https://www.usenix.org/conference/osdi18/presentation/gjengset",
+          "format": "paper"
+        },
+        {
+          "kind": "talk",
+          "label": "Rust for Rustaceans — Rustacean Station",
+          "url": "https://rustacean-station.org/episode/038-jon-gjengset/",
+          "note": "A 2021 interview about the book, intermediate Rust, memory, and the limits of compiler guarantees.",
+          "evidence": "https://rustacean-station.org/episode/038-jon-gjengset/"
+        },
+        {
+          "kind": "work",
+          "label": "The Missing Semester of Your CS Education",
+          "url": "https://missing.csail.mit.edu/",
+          "note": "A shared course on practical development tools. His GitHub profile identifies him as a co-instructor.",
+          "evidence": "https://github.com/jonhoo"
+        }
+      ],
+      "gaps": [
+        "The official EuroRust meetup names him, but the current structured dataset has no individual speaker record for that activity. This profile selects entry points from a larger body of work."
+      ]
+    },
+    {
+      "profile_id": "jonas-kruckenberg",
+      "speaker_id": "speaker-jonas-kruckenberg-ef661ef6",
+      "name": "Jonas Kruckenberg",
+      "focus": "WebAssembly systems, operating systems, build tooling, and C-to-Rust migration.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/jonas-kruckenberg.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "workshops-containers-are-dead",
+          "title": "Containers Are Dead: Long Live WebAssembly",
+          "official_url": "https://eurorust.eu/workshops/containers-are-dead/"
+        },
+        {
+          "session_id": "talks-build-systems-when-your-systems-need-systems-to-build",
+          "title": "Build systems: when your systems need systems to build",
+          "official_url": "https://eurorust.eu/talks/build-systems-when-your-systems-need-systems-to-build/"
+        }
+      ],
+      "identity_evidence": [
+        "https://jonaskruckenberg.de/",
+        "https://github.com/JonasKruckenberg",
+        "https://mainmatter.com/c-to-rust-migration-book/"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "Personal site and blog",
+          "url": "https://jonaskruckenberg.de/",
+          "note": "Writing about Rust ecosystem conventions and systems work.",
+          "evidence": "https://jonaskruckenberg.de/"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: JonasKruckenberg",
+          "url": "https://github.com/JonasKruckenberg",
+          "note": "Development profile links his website and social accounts.",
+          "evidence": "https://github.com/JonasKruckenberg"
+        },
+        {
+          "kind": "account",
+          "label": "Bluesky",
+          "url": "https://bsky.app/profile/jonaskruckenberg.de",
+          "note": "Account linked from his GitHub profile.",
+          "evidence": "https://github.com/JonasKruckenberg"
+        },
+        {
+          "kind": "account",
+          "label": "Mastodon",
+          "url": "https://m.webtoo.ls/@unsafe",
+          "note": "Account linked from his GitHub profile.",
+          "evidence": "https://github.com/JonasKruckenberg"
+        },
+        {
+          "kind": "account",
+          "label": "X / Twitter",
+          "url": "https://twitter.com/jonaskruckie",
+          "note": "Account linked by GitHub and the GitNation speaker page.",
+          "evidence": "https://gitnation.com/person/jonas_kruckenberg"
+        },
+        {
+          "kind": "book",
+          "label": "The C to Rust Migration Book",
+          "url": "https://mainmatter.com/c-to-rust-migration-book/",
+          "note": "Mainmatter's online book and exercises credit Kruckenberg and Artur Jakubiec as authors. Topics include FFI, ownership across language boundaries, and validation.",
+          "evidence": "https://mainmatter.com/c-to-rust-migration-book/course/"
+        },
+        {
+          "kind": "project",
+          "label": "k23",
+          "url": "https://github.com/JonasKruckenberg/k23",
+          "note": "Experimental WebAssembly microkernel operating system; useful context for his systems interests.",
+          "evidence": "https://github.com/JonasKruckenberg/k23"
+        },
+        {
+          "kind": "project",
+          "label": "imagetools",
+          "url": "https://github.com/JonasKruckenberg/imagetools",
+          "note": "Image transformation tools used through build-time import directives, including vite-imagetools.",
+          "evidence": "https://github.com/JonasKruckenberg/imagetools/blob/main/README.md"
+        },
+        {
+          "kind": "publication",
+          "label": "ABQ Notes I: Towards an Idiomatic Ecosystem",
+          "url": "https://jonaskruckenberg.de/blog/idiomatic-crates/",
+          "note": "Technical essay extending Rust conventions to crate documentation, configuration, and project workflows.",
+          "evidence": "https://jonaskruckenberg.de/blog/idiomatic-crates/",
+          "format": "article"
+        },
+        {
+          "kind": "talk",
+          "label": "Migrating RediSearch from C to Rust",
+          "url": "https://rustconf.com/speakers/",
+          "note": "RustConf's speaker programme lists his 2026 session on migration challenges and techniques. This URL is an organizer archive that may change between editions.",
+          "evidence": "https://rustconf.com/speakers/"
+        },
+        {
+          "kind": "talk",
+          "label": "GitNation talks and workshops",
+          "url": "https://gitnation.com/person/jonas_kruckenberg",
+          "note": "Organizer archive includes the JSNation 2023 workshop on distributing desktop applications.",
+          "evidence": "https://gitnation.com/person/jonas_kruckenberg"
+        }
+      ],
+      "gaps": [
+        "No scholarly paper verified; the book and technical essay are identified separately."
+      ]
+    },
+    {
+      "profile_id": "jonathan-pallant",
+      "speaker_id": "speaker-jonathan-pallant-b53eabe6",
+      "name": "Jonathan Pallant",
+      "focus": "Embedded Rust, real-time systems, retrocomputing, and Rust training.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/jonathan-pallant.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-tales-from-the-embedded-rust-frontier-bootstrapping-a-brand-new-ecosystem",
+          "title": "Tales from the Embedded Rust Frontier: Bootstrapping a brand new ecosystem",
+          "official_url": "https://eurorust.eu/talks/tales-from-the-embedded-rust-frontier-bootstrapping-a-brand-new-ecosystem/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/tales-from-the-embedded-rust-frontier-bootstrapping-a-brand-new-ecosystem/",
+        "https://onevariable.com/blog/cwj-ep017-on-the-road/",
+        "https://github.com/thejpster"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "theJPster's website",
+          "url": "https://www.thejpster.org.uk/",
+          "note": "Personal site linked by his GitHub profile and podcast appearance; direct retrieval was unavailable during this check.",
+          "evidence": "https://github.com/thejpster"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: thejpster",
+          "url": "https://github.com/thejpster",
+          "note": "Personal development profile; its current notice says projects are moving to Codeberg.",
+          "evidence": "https://github.com/thejpster"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: jonathanpallant",
+          "url": "https://github.com/jonathanpallant",
+          "note": "Work-related development account, distinguished from the personal account in the interview's show notes.",
+          "evidence": "https://onevariable.com/blog/cwj-ep017-on-the-road/"
+        },
+        {
+          "kind": "account",
+          "label": "Bluesky",
+          "url": "https://bsky.app/profile/thejpster.org.uk",
+          "note": "Account linked from his personal GitHub profile.",
+          "evidence": "https://github.com/thejpster"
+        },
+        {
+          "kind": "account",
+          "label": "Mastodon",
+          "url": "https://hachyderm.io/@thejpster",
+          "note": "Account linked from his personal GitHub profile.",
+          "evidence": "https://github.com/thejpster"
+        },
+        {
+          "kind": "project",
+          "label": "Neotron",
+          "url": "https://neotron-compute.github.io/",
+          "note": "Retrocomputing project discussed in his own podcast interview; follow its current repository links as hosting changes.",
+          "evidence": "https://onevariable.com/blog/cwj-ep017-on-the-road/"
+        },
+        {
+          "kind": "work",
+          "label": "Neotron technical manual",
+          "url": "https://github.com/Neotron-Compute/Neotron-Book",
+          "note": "Project user manual and technical reference, linked from his profile. It is project documentation, not credited here as a sole-authored commercial book.",
+          "evidence": "https://github.com/thejpster"
+        },
+        {
+          "kind": "publication",
+          "label": "Rust and ThreadX",
+          "url": "https://ferrous-systems.com/blog/rust-and-threadx/",
+          "note": "Technical article about connecting Rust to a C real-time operating system, with a Nordic-board example.",
+          "evidence": "https://www.eclipse.org/lists/threadx-dev/msg00003.html",
+          "format": "article"
+        },
+        {
+          "kind": "talk",
+          "label": "Chats with James: RustNL & Oxidize",
+          "url": "https://onevariable.com/blog/cwj-ep017-on-the-road/",
+          "note": "The second part interviews Pallant on embedded systems and retrocomputing; show notes link several earlier conference recordings.",
+          "evidence": "https://onevariable.com/blog/cwj-ep017-on-the-road/"
+        }
+      ],
+      "gaps": [
+        "No scholarly paper or sole-authored commercial book verified; the Neotron manual is listed as project documentation.",
+        "Some repositories are moving to Codeberg, so follow the project's own current links before cloning."
+      ]
+    },
+    {
+      "profile_id": "julian-montes-de-oca",
+      "speaker_id": "speaker-juli-n-montes-de-oca-a60f5276",
+      "name": "Julián Montes de Oca",
+      "focus": "Async Rust observability, profiling, telemetry, and cross-platform user interfaces.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/julian-montes-de-oca.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "workshops-beyond-p99-observing-async-rust",
+          "title": "Beyond p99: Observing Async Rust",
+          "official_url": "https://eurorust.eu/workshops/beyond-p99-observing-async-rust/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/workshops/beyond-p99-observing-async-rust/",
+        "https://github.com/jv1i",
+        "https://china2024.gosim.org/speakers.html"
+      ],
+      "items": [
+        {
+          "kind": "account",
+          "label": "GitHub: jv1i",
+          "url": "https://github.com/jv1i",
+          "note": "Named development profile matches the conference's WyeWorks affiliation and Rust projects.",
+          "evidence": "https://github.com/jv1i"
+        },
+        {
+          "kind": "project",
+          "label": "dial9",
+          "url": "https://github.com/dial9-rs/dial9",
+          "note": "Rust profiler; his official workshop biography identifies him as a contributor.",
+          "evidence": "https://eurorust.eu/workshops/beyond-p99-observing-async-rust/"
+        },
+        {
+          "kind": "project",
+          "label": "metrique",
+          "url": "https://github.com/awslabs/metrique",
+          "note": "Metrics and wide-event library; listed among his contributions in the workshop biography.",
+          "evidence": "https://eurorust.eu/workshops/beyond-p99-observing-async-rust/"
+        },
+        {
+          "kind": "project",
+          "label": "Makepad",
+          "url": "https://github.com/makepad/makepad",
+          "note": "Rust UI framework; both EuroRust and GOSIM identify his work on this ecosystem.",
+          "evidence": "https://china2024.gosim.org/speakers.html"
+        },
+        {
+          "kind": "project",
+          "label": "Moly",
+          "url": "https://github.com/moly-ai/moly-ai",
+          "note": "Rust-based AI application whose release history credits his development account; an additional route into the UI work.",
+          "evidence": "https://github.com/moly-ai/moly-ai/releases"
+        },
+        {
+          "kind": "talk",
+          "label": "Makepad in Action: Building your First Application",
+          "url": "https://china2024.gosim.org/speakers.html",
+          "note": "GOSIM China 2024's organizer programme lists his application-building session.",
+          "evidence": "https://china2024.gosim.org/speakers.html"
+        }
+      ],
+      "gaps": [
+        "No personal weblog, authored book, scholarly paper, or additional social-network account was confidently verified.",
+        "A WyeWorks article acknowledges his discussion contributions but has another author; it is not listed as his publication."
+      ]
+    },
+    {
+      "profile_id": "lcnr",
+      "speaker_id": "speaker-lcnr-078d4d35",
+      "name": "lcnr",
+      "focus": "Rust's type system, trait solving, const generics, and compiler soundness.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/lcnr.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-what-s-next-for-rust-s-type-system",
+          "title": "What's next for Rust's type system",
+          "official_url": "https://eurorust.eu/talks/what-s-next-for-rust-s-type-system/"
+        }
+      ],
+      "identity_evidence": [
+        "https://lcnr.de/about/",
+        "https://rust-lang.org/governance/people/lcnr/"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "lcnr's technical blog",
+          "url": "https://lcnr.de/",
+          "note": "Detailed writing on trait solving, implied bounds, variance, and compiler internals.",
+          "evidence": "https://lcnr.de/"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: lcnr",
+          "url": "https://github.com/lcnr",
+          "note": "Development account linked from the author's own site and the Rust team directory.",
+          "evidence": "https://lcnr.de/about/"
+        },
+        {
+          "kind": "project",
+          "label": "Rust trait-system refactor",
+          "url": "https://github.com/rust-lang/trait-system-refactor-initiative",
+          "note": "Open development initiative led by lcnr, as recorded by the Rust project's team directory.",
+          "evidence": "https://rust-lang.org/governance/people/lcnr/"
+        },
+        {
+          "kind": "publication",
+          "label": "Diving Deep: implied bounds and variance",
+          "url": "https://lcnr.de/blog/2022/02/05/diving-deep-implied-bounds-and-variance.html",
+          "note": "Technical analysis of a type-system soundness issue. Read the author's later edit and current issue state alongside this historical explanation.",
+          "evidence": "https://lcnr.de/blog/2022/02/05/diving-deep-implied-bounds-and-variance.html",
+          "format": "article"
+        },
+        {
+          "kind": "talk",
+          "label": "-Znext-solver: what, why, and when",
+          "url": "https://eurorust.eu/2025/schedule/",
+          "note": "EuroRust 2025's archived programme lists this earlier talk on the next-generation trait solver.",
+          "evidence": "https://eurorust.eu/2025/schedule/"
+        },
+        {
+          "kind": "publication",
+          "label": "Enabling the next-generation trait solver on nightly",
+          "url": "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/",
+          "note": "August 2026 Rust project update written by lcnr on behalf of the refactor initiative. It describes a nightly rollout; planned stabilization is not a completed release claim.",
+          "evidence": "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/",
+          "format": "article"
+        }
+      ],
+      "gaps": [
+        "No authored book, scholarly paper, or additional public social-network account verified; the profile retains the speaker's published name, lcnr."
+      ]
+    },
+    {
+      "profile_id": "magnus-markling",
+      "speaker_id": "speaker-magnus-markling-56ebb7b6",
+      "name": "Magnus Markling",
+      "focus": "C-to-Rust migration, Rust education, and application engineering.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/magnus-markling.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "workshops-c-to-rust",
+          "title": "C→Rust, Beyond the Basics",
+          "official_url": "https://eurorust.eu/workshops/c-to-rust/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/workshops/c-to-rust/",
+        "https://github.com/memark"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "DEV articles",
+          "url": "https://dev.to/memark",
+          "note": "Author's technical writing; his GitHub profile links accompanying GraphQL and AWS Lambda example code.",
+          "evidence": "https://github.com/memark"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: memark",
+          "url": "https://github.com/memark",
+          "note": "Named profile matches the Mainmatter and Redis work described for his workshop.",
+          "evidence": "https://github.com/memark"
+        },
+        {
+          "kind": "account",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/magnusmarkling/",
+          "note": "Professional profile linked as the preferred current information source from GitHub.",
+          "evidence": "https://github.com/memark"
+        },
+        {
+          "kind": "project",
+          "label": "Advent of Code solutions",
+          "url": "https://github.com/memark/advent-of-code",
+          "note": "Public practice code across Rust and other languages, listed on his development profile.",
+          "evidence": "https://github.com/memark"
+        },
+        {
+          "kind": "project",
+          "label": "zsh-dotnet-completion",
+          "url": "https://github.com/memark/zsh-dotnet-completion",
+          "note": "Shell-completion plugin for the dotnet CLI.",
+          "evidence": "https://github.com/memark"
+        },
+        {
+          "kind": "talk",
+          "label": "Dev Day dependency-injection materials",
+          "url": "https://github.com/memark/dev-day-di",
+          "note": "Speaker-owned materials for his 2018 Sigma MyTeam Dev Day talk.",
+          "evidence": "https://github.com/memark/dev-day-di"
+        },
+        {
+          "kind": "talk",
+          "label": "Learn Rust from Scratch: Barcelona Upskilling Week",
+          "url": "https://rustfoundation.org/media/recap-learning-rust-from-scratch-with-mainmatter-at-barcelonas-first-ever-upskilling-week/",
+          "note": "Rust Foundation recap documents his June 2026 teaching sessions.",
+          "evidence": "https://rustfoundation.org/media/recap-learning-rust-from-scratch-with-mainmatter-at-barcelonas-first-ever-upskilling-week/"
+        }
+      ],
+      "gaps": [
+        "No authored book or scholarly paper verified. The C to Rust Migration Book mentioned in related Mainmatter material is credited to Jonas Kruckenberg."
+      ]
+    },
+    {
+      "profile_id": "martin-ombura-jr",
+      "speaker_id": "speaker-martin-ombura-jr-ea73724e",
+      "name": "Martin Ombura Jr.",
+      "focus": "Concurrency, Rust memory ordering, distributed systems, and evolutionary computation.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/martin-ombura-jr.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-atomic-design-patterns-in-rust-from-orderings-to-code",
+          "title": "Atomic Design Patterns in Rust: From Orderings to Code",
+          "official_url": "https://eurorust.eu/talks/atomic-design-patterns-in-rust-from-orderings-to-code/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/atomic-design-patterns-in-rust-from-orderings-to-code/",
+        "https://rustlab.it/speakers/ombura-jr",
+        "https://www.linkedin.com/in/martinomburajr"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "Personal website",
+          "url": "https://martinomburajr.com/",
+          "note": "Author's site points readers to his blog.",
+          "evidence": "https://martinomburajr.com/"
+        },
+        {
+          "kind": "blog",
+          "label": "Medium articles",
+          "url": "https://medium.com/martinomburajr",
+          "note": "Technical writing on Go, systems, and related topics.",
+          "evidence": "https://medium.com/martinomburajr/about"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: martinomburajr",
+          "url": "https://github.com/martinomburajr",
+          "note": "Named development profile with public programming projects.",
+          "evidence": "https://github.com/martinomburajr"
+        },
+        {
+          "kind": "account",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/martinomburajr",
+          "note": "Professional profile whose posts explicitly identify his RustConf appearance.",
+          "evidence": "https://www.linkedin.com/posts/martinomburajr_i-have-the-awesome-opportunity-to-speak-at-activity-7470250782769074176-4QC2"
+        },
+        {
+          "kind": "project",
+          "label": "gogist",
+          "url": "https://github.com/martinomburajr/gogist",
+          "note": "Go command-line tool for creating GitHub gists; package metadata documents its interface.",
+          "evidence": "https://pkg.go.dev/github.com/martinomburajr/gogist@v0.0.0-20190518155134-c8bbe1275fc1"
+        },
+        {
+          "kind": "publication",
+          "label": "MSc work on coevolution and symbolic regression",
+          "url": "https://sit.uct.ac.za/nitschke-lab/nitschke-lab-people",
+          "note": "University of Cape Town lab page lists his master's thesis on coevolutionary topologies and tree manipulation. RustLab's biography independently matches the degree and research area.",
+          "evidence": "https://sit.uct.ac.za/nitschke-lab/nitschke-lab-people",
+          "format": "thesis_record"
+        },
+        {
+          "kind": "publication",
+          "label": "Sockets and Go networking",
+          "url": "https://medium.com/advanced-golang/sockets-the-genesis-of-golang-connections-golang-net-pkg-1-586d8a02da13",
+          "note": "2019 technical article introducing the operating-system foundations of Go connections; Medium marks it as a members-only story.",
+          "evidence": "https://medium.com/advanced-golang/sockets-the-genesis-of-golang-connections-golang-net-pkg-1-586d8a02da13",
+          "format": "article"
+        },
+        {
+          "kind": "talk",
+          "label": "RustLab speaker archive",
+          "url": "https://rustlab.it/speakers/ombura-jr",
+          "note": "Organizer page for his systems and Rust concurrency presentations.",
+          "evidence": "https://rustlab.it/speakers/ombura-jr"
+        },
+        {
+          "kind": "talk",
+          "label": "Rust atomics at RustConf 2026",
+          "url": "https://www.linkedin.com/posts/martinomburajr_i-have-the-awesome-opportunity-to-speak-at-activity-7470250782769074176-4QC2",
+          "note": "Speaker's announcement and Rust Foundation programme credit the talk on memory-ordering patterns in crates.",
+          "evidence": "https://rustconf.com/speakers/"
+        }
+      ],
+      "gaps": [
+        "No authored book verified. The university work is a master's thesis, not presented here as a peer-reviewed journal paper."
+      ]
+    },
+    {
+      "profile_id": "massimiliano-mantione",
+      "speaker_id": "speaker-massimiliano-mantione-558069e0",
+      "name": "Massimiliano Mantione",
+      "focus": "Embedded robotics, compiler engineering, and programming-language runtimes.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/massimiliano-mantione.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "workshops-programming-a-line-follower-robot",
+          "title": "Programming a Line Follower Robot",
+          "official_url": "https://eurorust.eu/workshops/programming-a-line-follower-robot/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/workshops/programming-a-line-follower-robot/",
+        "https://github.com/massimiliano-mantione",
+        "https://2019.jsday.it/talks.html"
+      ],
+      "items": [
+        {
+          "kind": "account",
+          "label": "GitHub: massimiliano-mantione",
+          "url": "https://github.com/massimiliano-mantione",
+          "note": "Named development profile hosts his robotics workshop code and talk materials.",
+          "evidence": "https://github.com/massimiliano-mantione"
+        },
+        {
+          "kind": "account",
+          "label": "LinkedIn",
+          "url": "https://it.linkedin.com/in/massimilianomantione",
+          "note": "Professional profile includes his RustFest robotics appearance.",
+          "evidence": "https://it.linkedin.com/in/massimilianomantione"
+        },
+        {
+          "kind": "account",
+          "label": "X / Twitter",
+          "url": "https://twitter.com/M_a_s_s_i",
+          "note": "Historical speaker account linked by the ReactJS Day 2015 programme; recent activity was not verified.",
+          "evidence": "https://2015.reactjsday.it/"
+        },
+        {
+          "kind": "project",
+          "label": "RustLab robotic sumo workshop",
+          "url": "https://github.com/massimiliano-mantione/rustlab-2023-robotic-sumo",
+          "note": "Robot firmware, message broker, and body-design files used in the 2023 workshop. Useful preparation for embedded tasks and messaging.",
+          "evidence": "https://github.com/massimiliano-mantione/rustlab-2023-robotic-sumo"
+        },
+        {
+          "kind": "talk",
+          "label": "Presentation archive",
+          "url": "https://github.com/massimiliano-mantione/talks",
+          "note": "Speaker-owned slide repository spanning several presentations.",
+          "evidence": "https://github.com/massimiliano-mantione/talks"
+        },
+        {
+          "kind": "talk",
+          "label": "JavaScript and the Polyglot Web",
+          "url": "https://2019.jsday.it/talks.html",
+          "note": "JS Day 2019 organizer programme supplies the abstract and compiler-engineering background.",
+          "evidence": "https://2019.jsday.it/talks.html"
+        },
+        {
+          "kind": "talk",
+          "label": "HSSA: Aliases in SSA",
+          "url": "https://compilers.cs.uni-saarland.de/ssasem/talks/Massimiliano.Mantione/index.html",
+          "note": "University-hosted 2009 compiler seminar slides on representing aliasing in static single assignment form.",
+          "evidence": "https://compilers.cs.uni-saarland.de/ssasem/talks/Massimiliano.Mantione/index.html"
+        }
+      ],
+      "gaps": [
+        "No authored book or scholarly paper verified. The HSSA material is a slide presentation.",
+        "A historical blog directory names him, but a reliable direct weblog page was not verified."
+      ]
+    },
+    {
+      "profile_id": "matthias-rauter",
+      "speaker_id": "speaker-matthias-rauter-bb3ef338",
+      "name": "Matthias Rauter",
+      "focus": "Qt graphics and Rust integration, with a research background in numerical flow simulation.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/matthias-rauter.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-qt-bridges-bringing-a-mature-c-ui-framework-to-rust",
+          "title": "Qt Bridges: Bringing a mature C++ UI framework to Rust",
+          "official_url": "https://eurorust.eu/talks/qt-bridges-bringing-a-mature-c-ui-framework-to-rust/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/qt-bridges-bringing-a-mature-c-ui-framework-to-rust/",
+        "https://no.linkedin.com/in/matti-rauter",
+        "https://www.qt.io/blog/author/matthias-rauter"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "Qt author archive",
+          "url": "https://www.qt.io/blog/author/matthias-rauter",
+          "note": "Articles on Qt Bridges, vector maps, and SVG rendering.",
+          "evidence": "https://www.qt.io/blog/author/matthias-rauter"
+        },
+        {
+          "kind": "account",
+          "label": "LinkedIn",
+          "url": "https://no.linkedin.com/in/matti-rauter",
+          "note": "Qt professional profile also documents the civil-engineering research and OpenFOAM work.",
+          "evidence": "https://no.linkedin.com/in/matti-rauter"
+        },
+        {
+          "kind": "account",
+          "label": "ResearchGate",
+          "url": "https://www.researchgate.net/profile/Matthias-Rauter",
+          "note": "Research profile identifies the Qt role and provides a broader bibliography; individual research claims here use the paper record.",
+          "evidence": "https://www.researchgate.net/profile/Matthias-Rauter"
+        },
+        {
+          "kind": "project",
+          "label": "OpenFOAM avalanche module",
+          "url": "https://develop.openfoam.com/Community/avalanche",
+          "note": "His professional profile identifies him as maintainer and links this source repository. Direct retrieval was unavailable during this check.",
+          "evidence": "https://no.linkedin.com/in/matti-rauter"
+        },
+        {
+          "kind": "publication",
+          "label": "Qt Bridge for Rust 0.3 beta: compatibility and soundness",
+          "url": "https://www.qt.io/blog/qt-bridge-for-rust-0.3-cxx-qt-compatibility-and-soundness",
+          "note": "September 2026 engineering update on CXX-Qt integration and API changes; read it as a dated beta report.",
+          "evidence": "https://www.qt.io/blog/qt-bridge-for-rust-0.3-cxx-qt-compatibility-and-soundness",
+          "format": "article"
+        },
+        {
+          "kind": "publication",
+          "label": "Research on granular collapse in fluids",
+          "url": "https://arxiv.org/abs/2102.07816",
+          "note": "2021 research paper on continuum models for submerged granular flows, matched to the publication listed in his professional profile.",
+          "evidence": "https://arxiv.org/abs/2102.07816",
+          "format": "paper"
+        },
+        {
+          "kind": "talk",
+          "label": "Sustainable programming in academia",
+          "url": "https://sustainable-cse.org/PosterSCSE25.pdf",
+          "note": "The Sustainable Computational Science and Engineering 2025 programme lists his keynote on reusing software in research.",
+          "evidence": "https://sustainable-cse.org/PosterSCSE25.pdf"
+        }
+      ],
+      "gaps": [
+        "No authored book or independently confirmed personal GitHub account verified. A similarly named Porsche professional is a different profile and is excluded."
+      ]
+    },
+    {
+      "profile_id": "melih-elibol",
+      "speaker_id": "speaker-melih-elibol-37eec552",
+      "name": "Melih Elibol",
+      "focus": "GPU programming, Rust ownership, distributed numerical computing, and machine-learning systems.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/melih-elibol.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-fearless-concurrency-on-the-gpu",
+          "title": "Fearless Concurrency on the GPU",
+          "official_url": "https://eurorust.eu/talks/fearless-concurrency-on-the-gpu/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/fearless-concurrency-on-the-gpu/",
+        "https://research.nvidia.com/person/melih-elibol",
+        "https://github.com/elibol"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "NVIDIA technical articles",
+          "url": "https://developer.nvidia.com/blog/author/melibol/",
+          "note": "Author archive covering CUDA Rust and GPU-kernel development.",
+          "evidence": "https://developer.nvidia.com/blog/author/melibol/"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: elibol",
+          "url": "https://github.com/elibol",
+          "note": "Development profile links directly to his NVIDIA research biography.",
+          "evidence": "https://github.com/elibol"
+        },
+        {
+          "kind": "account",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/elibol/",
+          "note": "Professional identity associated with his own RustConf announcement.",
+          "evidence": "https://www.linkedin.com/posts/elibol_rustconf-rustconf26-rustlang-activity-7498832815288070144-C6jD"
+        },
+        {
+          "kind": "work",
+          "label": "NVIDIA research bibliography",
+          "url": "https://research.nvidia.com/person/melih-elibol",
+          "note": "Institutional profile and publication list for his programming-systems research.",
+          "evidence": "https://research.nvidia.com/person/melih-elibol"
+        },
+        {
+          "kind": "project",
+          "label": "cuTile Rust",
+          "url": "https://github.com/NVlabs/cutile-rs",
+          "note": "Research project applying Rust ownership ideas to tile-based GPU kernels. The repository explicitly describes an early stage with possible bugs and API changes.",
+          "evidence": "https://www.linkedin.com/posts/elibol_rustconf-rustconf26-rustlang-activity-7498832815288070144-C6jD"
+        },
+        {
+          "kind": "publication",
+          "label": "Fearless Concurrency on the GPU",
+          "url": "https://arxiv.org/abs/2606.15991",
+          "note": "Coauthored 2026 preprint describing the design behind cuTile Rust and the conference topic.",
+          "evidence": "https://arxiv.org/abs/2606.15991",
+          "format": "preprint"
+        },
+        {
+          "kind": "publication",
+          "label": "Ray: A Distributed Framework for Emerging AI Applications",
+          "url": "https://www.usenix.org/conference/osdi18/presentation/moritz",
+          "note": "Coauthored OSDI 2018 paper on task and actor computation. Authorship of the paper does not imply that Elibol delivered the linked conference recording.",
+          "evidence": "https://www.usenix.org/conference/osdi18/presentation/moritz",
+          "format": "paper"
+        },
+        {
+          "kind": "publication",
+          "label": "Translating CUDA tile operations with agentic AI",
+          "url": "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai/",
+          "note": "Coauthored September 2026 article about translating GPU kernels with staged checks. A useful connection to agent-assisted engineering; reported performance is specific to the authors' evaluation.",
+          "evidence": "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai/",
+          "format": "article"
+        },
+        {
+          "kind": "talk",
+          "label": "GPU concurrency at RustConf 2026",
+          "url": "https://www.linkedin.com/posts/elibol_rustconf-rustconf26-rustlang-activity-7498832815288070144-C6jD",
+          "note": "Speaker's announcement of the earlier RustConf presentation and its cuTile Rust examples.",
+          "evidence": "https://www.linkedin.com/posts/elibol_rustconf-rustconf26-rustlang-activity-7498832815288070144-C6jD"
+        }
+      ],
+      "gaps": [
+        "No authored book verified. The 2026 GPU paper is identified as a preprint; the Ray paper has a published conference record."
+      ]
+    },
+    {
+      "profile_id": "michele-mantione",
+      "speaker_id": "speaker-michele-mantione-1f899898",
+      "name": "Michele Mantione",
+      "focus": "Robot-control software, simulation, and embedded Rust education.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/michele-mantione.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "workshops-programming-a-line-follower-robot",
+          "title": "Programming a Line Follower Robot",
+          "official_url": "https://eurorust.eu/workshops/programming-a-line-follower-robot/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/workshops/programming-a-line-follower-robot/",
+        "https://rustlab.it/speakers/mickmantione"
+      ],
+      "items": [
+        {
+          "kind": "work",
+          "label": "RustLab speaker profile",
+          "url": "https://rustlab.it/speakers/mickmantione",
+          "note": "Organizer profile matches EuroRust's software-engineering and robotics biography.",
+          "evidence": "https://rustlab.it/speakers/mickmantione"
+        },
+        {
+          "kind": "talk",
+          "label": "Accurate robot simulations with Bevy and WebAssembly",
+          "url": "https://rustlab.it/speakers/mickmantione",
+          "note": "RustLab lists a workshop for November 1, 2026. At the October 14 research date this is an upcoming session, not a delivered talk or recording.",
+          "evidence": "https://rustlab.it/speakers/mickmantione"
+        },
+        {
+          "kind": "talk",
+          "label": "Line-follower robotics at RustLab",
+          "url": "https://rustlab.it/talks/programming-a-line-follower-robot",
+          "note": "Organizer's workshop page credits him alongside Massimiliano Mantione and describes async embedded code exercised in simulation.",
+          "evidence": "https://rustlab.it/talks/programming-a-line-follower-robot"
+        }
+      ],
+      "gaps": [
+        "No personal weblog, social account, authored book, scholarly paper, or personally attributable open-source repository was confidently verified.",
+        "Namesake professional accounts are excluded; a shared workshop does not establish authorship of another speaker's repository."
+      ]
+    },
+    {
+      "profile_id": "njuguna-mureithi",
+      "speaker_id": "speaker-njuguna-mureithi-8c221de5",
+      "name": "Njuguna Mureithi",
+      "focus": "Background jobs, Rust service APIs, WebAssembly plugins, and application tooling.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/njuguna-mureithi.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-lessons-from-building-a-background-task-processing-library",
+          "title": "Lessons from building a background task processing library",
+          "official_url": "https://eurorust.eu/talks/lessons-from-building-a-background-task-processing-library/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/lessons-from-building-a-background-task-processing-library/",
+        "https://mureithi.me/",
+        "https://github.com/geofmureithi"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "Code with Mureithi",
+          "url": "https://mureithi.me/",
+          "note": "Personal articles on Rust services and application development.",
+          "evidence": "https://mureithi.me/"
+        },
+        {
+          "kind": "blog",
+          "label": "DEV articles",
+          "url": "https://dev.to/njugunamureithi",
+          "note": "Additional writing on Apalis scheduling, plugins, and Rust tooling.",
+          "evidence": "https://github.com/geofmureithi"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: geofmureithi",
+          "url": "https://github.com/geofmureithi",
+          "note": "Development profile links his personal site and Apalis work.",
+          "evidence": "https://github.com/geofmureithi"
+        },
+        {
+          "kind": "account",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/njuguna-m-152b4ba4/",
+          "note": "Account linked from his personal site; the destination blocked automated retrieval.",
+          "evidence": "https://mureithi.me/"
+        },
+        {
+          "kind": "account",
+          "label": "X / Twitter link from his website",
+          "url": "https://twitter.com/tweetofnjuguna",
+          "note": "Site-published account link, also used in the 2022 article. Current handle and activity could not be checked.",
+          "evidence": "https://mureithi.me/blog/background-job-processing-with-rust-actix-redis"
+        },
+        {
+          "kind": "project",
+          "label": "Apalis",
+          "url": "https://github.com/apalis-dev/apalis",
+          "note": "Background-processing library behind his EuroRust session; his own article explains its origins and job API.",
+          "evidence": "https://mureithi.me/blog/background-job-processing-with-rust-actix-redis"
+        },
+        {
+          "kind": "project",
+          "label": "plugy",
+          "url": "https://github.com/geofmureithi/plugy",
+          "note": "Rust and WebAssembly plugin-system project listed on his profile and discussed in his DEV writing.",
+          "evidence": "https://github.com/geofmureithi"
+        },
+        {
+          "kind": "publication",
+          "label": "Background jobs with Actix and Redis",
+          "url": "https://mureithi.me/blog/background-job-processing-with-rust-actix-redis",
+          "note": "2022 Apalis walkthrough, useful for the design motivation. Check current project documentation before adapting its version-specific examples.",
+          "evidence": "https://mureithi.me/blog/background-job-processing-with-rust-actix-redis",
+          "format": "article"
+        }
+      ],
+      "gaps": [
+        "No authored book, scholarly paper, or independently verified earlier conference talk found in this search."
+      ]
+    },
+    {
+      "profile_id": "oli-scherer",
+      "speaker_id": "speaker-oli-scherer-6776d5b3",
+      "name": "Oli Scherer",
+      "focus": "Rust compiler internals, compile-time evaluation, and Miri's checks for undefined behavior.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/oli-scherer.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-move-your-problems",
+          "title": "Move your problems to compile-time and get new capabilities out of it",
+          "official_url": "https://eurorust.eu/talks/move-your-problems/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/move-your-problems/",
+        "https://rust-lang.org/governance/people/oli-obk/"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "Personal homepage",
+          "url": "https://oli-obk.de/",
+          "note": "A personal site with project history and a GitHub identity link. Its employment information is old; use it as a historical introduction.",
+          "evidence": "https://oli-obk.de/"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: oli-obk",
+          "url": "https://github.com/oli-obk",
+          "note": "Linked from the Rust project's contributor directory.",
+          "evidence": "https://rust-lang.org/governance/people/oli-obk/"
+        },
+        {
+          "kind": "project",
+          "label": "Miri",
+          "url": "https://github.com/rust-lang/miri",
+          "note": "An interpreter used to detect undefined behavior in executed Rust code. The Rust directory lists Scherer as a Miri lead; this is a collaborative project.",
+          "evidence": "https://rust-lang.org/governance/people/oli-obk/"
+        },
+        {
+          "kind": "publication",
+          "label": "Miri: Practical Undefined Behavior Detection for Rust",
+          "url": "https://plf.inf.ethz.ch/research/popl26-miri.html",
+          "note": "Coauthored research published at POPL 2026, explaining the tool's design, coverage, and evaluation. Useful background before relying on Miri in a validation workflow.",
+          "evidence": "https://plf.inf.ethz.ch/research/popl26-miri.html",
+          "format": "paper"
+        },
+        {
+          "kind": "work",
+          "label": "Rust reflection and compile-time evaluation goal",
+          "url": "https://goals.rust-lang.org/2026/reflection-and-comptime.html",
+          "note": "The accepted 2026–2028 project goal names Scherer as a contact. It describes planned language work, not a promise of features available in stable Rust.",
+          "evidence": "https://goals.rust-lang.org/2026/reflection-and-comptime.html"
+        },
+        {
+          "kind": "talk",
+          "label": "Pattern types — RustWeek 2025",
+          "url": "https://2025.rustweek.org/talks/oli/",
+          "note": "A compiler-oriented talk about adding pattern types to Rust.",
+          "evidence": "https://2025.rustweek.org/talks/oli/"
+        },
+        {
+          "kind": "talk",
+          "label": "Reliable optimizations for idiomatic Rust",
+          "url": "https://hackmd.io/@oli-obk/ryhIVhKkv",
+          "note": "Speaker-hosted slides linked from an OxidizeConf 2020 presentation note; background on MIR optimization and compile-time evaluation.",
+          "evidence": "https://hackmd.io/@oli-obk/BJ0Rhjt1P"
+        }
+      ],
+      "gaps": [
+        "No authored book or current social account beyond GitHub was verified. The historical homepage's Twitter link was not treated as evidence of a current handle."
+      ]
+    },
+    {
+      "profile_id": "orhun-parmaksiz",
+      "speaker_id": null,
+      "name": "Orhun Parmaksız",
+      "focus": "Ratatui, terminal interfaces, and the Rust tools around an open-source maintainer's daily work.",
+      "participation": "meetup_speaker",
+      "page": "resources/speakers/orhun-parmaksiz.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "activities-meetup",
+          "title": "BcnRust Barcelona Meetup",
+          "official_url": "https://eurorust.eu/activities/meetup/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/activities/meetup/",
+        "https://orhun.dev/",
+        "https://github.com/orhun"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "Orhun's blog",
+          "url": "https://blog.orhun.dev/",
+          "note": "Project write-ups, terminal experiments, and accounts of maintaining open-source software.",
+          "evidence": "https://orhun.dev/"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: orhun",
+          "url": "https://github.com/orhun",
+          "note": "Public account linked from the speaker's own website.",
+          "evidence": "https://orhun.dev/"
+        },
+        {
+          "kind": "account",
+          "label": "Mastodon: @orhun@fosstodon.org",
+          "url": "https://fosstodon.org/@orhun",
+          "note": "Public account linked from the speaker's own website.",
+          "evidence": "https://orhun.dev/"
+        },
+        {
+          "kind": "account",
+          "label": "Bluesky: orhun.dev",
+          "url": "https://bsky.app/profile/orhun.dev",
+          "note": "Public account linked from the speaker's own website.",
+          "evidence": "https://orhun.dev/"
+        },
+        {
+          "kind": "account",
+          "label": "X: orhundev",
+          "url": "https://twitter.com/orhundev",
+          "note": "Public account linked from the speaker's own website.",
+          "evidence": "https://orhun.dev/"
+        },
+        {
+          "kind": "account",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/orhunp/",
+          "note": "Public account linked from the speaker's own website.",
+          "evidence": "https://orhun.dev/"
+        },
+        {
+          "kind": "account",
+          "label": "YouTube: orhundev",
+          "url": "https://www.youtube.com/@orhundev",
+          "note": "Public account linked from the speaker's own website.",
+          "evidence": "https://orhun.dev/"
+        },
+        {
+          "kind": "project",
+          "label": "Ratatui",
+          "url": "https://github.com/ratatui/ratatui",
+          "note": "A Rust library for terminal interfaces. Parmaksız identifies himself as a lead maintainer; it is a community project.",
+          "evidence": "https://orhun.dev/"
+        },
+        {
+          "kind": "project",
+          "label": "git-cliff",
+          "url": "https://github.com/orhun/git-cliff",
+          "note": "His configurable changelog generator, written in Rust.",
+          "evidence": "https://github.com/orhun"
+        },
+        {
+          "kind": "project",
+          "label": "binsider",
+          "url": "https://github.com/orhun/binsider",
+          "note": "His terminal application for inspecting ELF binaries.",
+          "evidence": "https://github.com/orhun"
+        },
+        {
+          "kind": "talk",
+          "label": "Introducing Ratatui — FOSDEM 2024",
+          "url": "https://archive.fosdem.org/2024/schedule/event/fosdem-2024-1934-introducing-ratatui-a-rust-library-to-cook-up-terminal-user-interfaces/",
+          "note": "The organizer's session page includes slides and recordings for this introduction to terminal interfaces.",
+          "evidence": "https://archive.fosdem.org/2024/schedule/event/fosdem-2024-1934-introducing-ratatui-a-rust-library-to-cook-up-terminal-user-interfaces/"
+        },
+        {
+          "kind": "work",
+          "label": "Cooking up TUIs with Ratatui — workshop materials",
+          "url": "https://github.com/orhun/rustlab2024-ratatui-workshop",
+          "note": "His RustLab 2024 exercises build a terminal chat client. Read the repository's prerequisites before trying the historical workshop.",
+          "evidence": "https://rustlab.it/speakers/parmaksiz"
+        }
+      ],
+      "gaps": [
+        "No standalone authored book or scholarly publication was verified. The official EuroRust meetup names him, but the current structured dataset has no individual speaker record for that activity."
+      ]
+    },
+    {
+      "profile_id": "pawel-urbanek",
+      "speaker_id": "speaker-pawe-urbanek-2efd100e",
+      "name": "Paweł Urbanek",
+      "focus": "Rust profiling, asynchronous performance, and backend database diagnostics.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/pawel-urbanek.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-beyond-flamegraphs-precise-rust-profiling-with-hotpath-rs",
+          "title": "Beyond Flamegraphs: Precise Rust Profiling with hotpath-rs",
+          "official_url": "https://eurorust.eu/talks/beyond-flamegraphs-precise-rust-profiling-with-hotpath-rs/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/beyond-flamegraphs-precise-rust-profiling-with-hotpath-rs/",
+        "https://pawelurbanek.com/"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "Personal blog",
+          "url": "https://pawelurbanek.com/blog",
+          "note": "Articles on Ruby, Rust, PostgreSQL, and backend operations.",
+          "evidence": "https://pawelurbanek.com/"
+        },
+        {
+          "kind": "blog",
+          "label": "hotpath development blog",
+          "url": "https://hotpath.rs/blog/",
+          "note": "The author's notes on profiling Rust, including asynchronous execution and lock contention.",
+          "evidence": "https://hotpath.rs/blog/"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: pawurb",
+          "url": "https://github.com/pawurb",
+          "note": "The profile links back to the author's personal site and profiling project.",
+          "evidence": "https://github.com/pawurb"
+        },
+        {
+          "kind": "account",
+          "label": "Bluesky",
+          "url": "https://bsky.app/profile/pawelurbanek.com",
+          "note": "Linked from the author's GitHub profile.",
+          "evidence": "https://github.com/pawurb"
+        },
+        {
+          "kind": "account",
+          "label": "X",
+          "url": "https://x.com/pawelurbanekcom",
+          "note": "Linked from the author's GitHub profile.",
+          "evidence": "https://github.com/pawurb"
+        },
+        {
+          "kind": "account",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/pawel-urbanek-6225b2330/",
+          "note": "The account discusses the author's hotpath-rs and rails-pg-extras projects.",
+          "evidence": "https://www.linkedin.com/posts/pawel-urbanek-6225b2330_in-just-4-months-hotpath-rs-surpassed-pg-extras-activity-7409275396455759872-wFug"
+        },
+        {
+          "kind": "project",
+          "label": "hotpath-rs",
+          "url": "https://github.com/pawurb/hotpath-rs",
+          "note": "A Rust profiler covering instrumented execution, CPU, memory, and asynchronous workloads. Consult the current documentation for supported versions and overhead.",
+          "evidence": "https://pawelurbanek.com/"
+        },
+        {
+          "kind": "project",
+          "label": "rails-pg-extras",
+          "url": "https://github.com/pawurb/rails-pg-extras",
+          "note": "PostgreSQL diagnostics for Rails, useful context for the author's approach to application performance.",
+          "evidence": "https://pawelurbanek.com/"
+        },
+        {
+          "kind": "book",
+          "label": "Heroku PostgreSQL to AWS RDS migration guide",
+          "url": "https://pawelurbanek.com/heroku-migrate-postgres-rds",
+          "note": "An authored commercial ebook on database migration, outside the Rust-specific session topic. Recheck current provider behavior before using historical instructions.",
+          "evidence": "https://pawelurbanek.com/"
+        },
+        {
+          "kind": "publication",
+          "label": "Building a Rust profiler: implementation lessons",
+          "url": "https://hotpath.rs/blog/rust-performance-profiling",
+          "note": "A May 2026 technical article on instrumentation, cache contention, and resolving CPU traces.",
+          "evidence": "https://hotpath.rs/blog/rust-performance-profiling",
+          "format": "article"
+        },
+        {
+          "kind": "talk",
+          "label": "hotpath-rs at Rustikon",
+          "url": "https://hotpath.rs/blog/rust-hotpath-rustikon",
+          "note": "The speaker's May 2026 post links a recording and a demonstration using an instrumented Zed editor.",
+          "evidence": "https://hotpath.rs/blog/rust-hotpath-rustikon"
+        }
+      ],
+      "gaps": [
+        "No scholarly publication was verified. The linked ebook is a database operations guide, not a Rust book."
+      ]
+    },
+    {
+      "profile_id": "philipp-schuster",
+      "speaker_id": "speaker-philipp-schuster-4c5a38c3",
+      "name": "Philipp Schuster",
+      "focus": "Virtual machines, Rust operating-system tooling, and reproducible infrastructure with Nix.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/philipp-schuster.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-inside-cloud-hypervisor-from-kvm-to-a-running-vm",
+          "title": "Inside Cloud Hypervisor: From KVM to a Running VM",
+          "official_url": "https://eurorust.eu/talks/inside-cloud-hypervisor-from-kvm-to-a-running-vm/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/inside-cloud-hypervisor-from-kvm-to-a-running-vm/",
+        "https://github.com/phip1611"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "PHIPS BLOG",
+          "url": "https://phip1611.de/",
+          "note": "Writing on virtualization, kernels, Rust, and NixOS.",
+          "evidence": "https://github.com/phip1611"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: phip1611",
+          "url": "https://github.com/phip1611",
+          "note": "The speaker's public project profile, linked by the conference biography.",
+          "evidence": "https://eurorust.eu/talks/inside-cloud-hypervisor-from-kvm-to-a-running-vm/"
+        },
+        {
+          "kind": "account",
+          "label": "LinkedIn",
+          "url": "https://de.linkedin.com/in/phip1611",
+          "note": "The profile matches the GitHub handle, Cyberus role, and systems projects.",
+          "evidence": "https://de.linkedin.com/in/phip1611"
+        },
+        {
+          "kind": "account",
+          "label": "Reddit: phip1611",
+          "url": "https://www.reddit.com/user/phip1611/",
+          "note": "A public handle explicitly supplied in the speaker's 2025 JUG Saxony slides.",
+          "evidence": "https://jugsaxony.org/downloads/events/slides/20251106_OS-Loader-in-Rust-schreiben-mit-uefi-rs.pdf"
+        },
+        {
+          "kind": "project",
+          "label": "Cloud Hypervisor",
+          "url": "https://github.com/cloud-hypervisor/cloud-hypervisor",
+          "note": "The collaborative Rust virtual machine monitor discussed in the EuroRust session. Release notes independently credit Schuster's contributions.",
+          "evidence": "https://www.cloudhypervisor.org/blog/cloud-hypervisor-v51.0-released/"
+        },
+        {
+          "kind": "project",
+          "label": "uefi-rs",
+          "url": "https://github.com/rust-osdev/uefi-rs",
+          "note": "Rust interfaces for UEFI; Schuster identifies it among the projects he maintains.",
+          "evidence": "https://de.linkedin.com/in/phip1611"
+        },
+        {
+          "kind": "project",
+          "label": "Public Nix and NixOS configurations",
+          "url": "https://github.com/phip1611/nixos-configs",
+          "note": "Reusable modules, packages, and system configurations. Read the current flake requirements before adapting them.",
+          "evidence": "https://github.com/phip1611"
+        },
+        {
+          "kind": "work",
+          "label": "Diplom thesis implementation",
+          "url": "https://github.com/phip1611/diplomarbeit-impl",
+          "note": "An archived research implementation from TU Dresden involving the Hedron microhypervisor. This is a thesis artifact, not a maintained production system.",
+          "evidence": "https://github.com/phip1611"
+        },
+        {
+          "kind": "publication",
+          "label": "Booting a minimal Linux guest",
+          "url": "https://phip1611.de/blog/quickly-boot-a-minimal-linux-kernel-initrd-in-cloud-hypervisor-or-qemu/",
+          "note": "A technical article preparing kernel and initrd inputs for Cloud Hypervisor or QEMU.",
+          "evidence": "https://phip1611.de/",
+          "format": "article"
+        },
+        {
+          "kind": "talk",
+          "label": "Writing an OS loader with uefi-rs",
+          "url": "https://jugsaxony.org/downloads/events/slides/20251106_OS-Loader-in-Rust-schreiben-mit-uefi-rs.pdf",
+          "note": "Slides from JUG Saxony, November 2025, connecting Rust abstractions to firmware and bootloaders.",
+          "evidence": "https://jugsaxony.org/downloads/events/slides/20251106_OS-Loader-in-Rust-schreiben-mit-uefi-rs.pdf"
+        }
+      ],
+      "gaps": [
+        "No authored book or peer-reviewed paper was verified. The linked thesis implementation is identified separately."
+      ]
+    },
+    {
+      "profile_id": "pierre-emmanuel-patry",
+      "speaker_id": "speaker-pierre-emmanuel-patry-7b17e8dc",
+      "name": "Pierre-Emmanuel Patry",
+      "focus": "gccrs compiler development, language tooling, and the path toward building Rust kernel code with GCC.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/pierre-emmanuel-patry.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-compiling-the-linux-kernel-with-gccrs",
+          "title": "Compiling the Linux kernel with gccrs",
+          "official_url": "https://eurorust.eu/talks/compiling-the-linux-kernel-with-gccrs/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/compiling-the-linux-kernel-with-gccrs/",
+        "https://2025.rustweek.org/talks/arthurcohen/"
+      ],
+      "items": [
+        {
+          "kind": "account",
+          "label": "GitHub: P-E-P",
+          "url": "https://github.com/P-E-P",
+          "note": "Attribution connects the account to a signed gccrs contribution by Patry.",
+          "evidence": "https://github.com/Rust-GCC/gccrs/commit/1d7f6a0f16a8541bc5dcd159d6698ac9a4e14909"
+        },
+        {
+          "kind": "account",
+          "label": "LinkedIn",
+          "url": "https://fr.linkedin.com/in/pierre-emmanuel-patry/fr",
+          "note": "The profile identifies the gccrs project and EPITA teaching background, matching the conference biography.",
+          "evidence": "https://fr.linkedin.com/in/pierre-emmanuel-patry/fr"
+        },
+        {
+          "kind": "project",
+          "label": "gccrs",
+          "url": "https://github.com/Rust-GCC/gccrs",
+          "note": "The collaborative GCC frontend for Rust. The EuroRust session concerns work toward Linux kernel compilation; its title should not be read as evidence of a completed milestone.",
+          "evidence": "https://eurorust.eu/talks/compiling-the-linux-kernel-with-gccrs/"
+        },
+        {
+          "kind": "project",
+          "label": "Public NixOS configuration",
+          "url": "https://github.com/P-E-P/nix-config",
+          "note": "A personal flake-based configuration linked from the verified GitHub account.",
+          "evidence": "https://github.com/P-E-P"
+        },
+        {
+          "kind": "work",
+          "label": "An upstream gccrs parser contribution",
+          "url": "https://gcc.gnu.org/pipermail/gcc-patches/2026-March/709933.html",
+          "note": "An authored patch removing a duplicate diagnostic, with links to the corresponding commit and review.",
+          "evidence": "https://gcc.gnu.org/pipermail/gcc-patches/2026-March/709933.html"
+        },
+        {
+          "kind": "talk",
+          "label": "gccrs and the Rust standard library — RustWeek 2025",
+          "url": "https://2025.rustweek.org/talks/arthurcohen/",
+          "note": "A joint session with Arthur Cohen on compiler work needed to handle the standard library.",
+          "evidence": "https://2025.rustweek.org/talks/arthurcohen/"
+        }
+      ],
+      "gaps": [
+        "No personal blog, authored book, or scholarly publication was verified. Articles reporting on Patry's talks were not attributed to him as authored work."
+      ]
+    },
+    {
+      "profile_id": "sanskar-jaiswal",
+      "speaker_id": "speaker-sanskar-jaiswal-8ee6ee06",
+      "name": "Sanskar Jaiswal",
+      "focus": "Streaming proxies, Kubernetes networking, and progressive delivery with Flux and Flagger.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/sanskar-jaiswal.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-designing-state-machines-for-streaming-proxies-in-rust",
+          "title": "Designing State Machines for Streaming Proxies in Rust",
+          "official_url": "https://eurorust.eu/talks/designing-state-machines-for-streaming-proxies-in-rust/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/designing-state-machines-for-streaming-proxies-in-rust/",
+        "https://sanskarjaiswal.net/about/"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "Personal website and blog",
+          "url": "https://sanskarjaiswal.net/",
+          "note": "The GitHub-linked site includes deployment writing and a speaking archive.",
+          "evidence": "https://github.com/aryan9600"
+        },
+        {
+          "kind": "blog",
+          "label": "DEV articles",
+          "url": "https://dev.to/aryan9600",
+          "note": "Tutorials published under the verified GitHub handle, including a Rust-based Soroban application walkthrough.",
+          "evidence": "https://github.com/stellar/sorobounties/discussions/7"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: aryan9600",
+          "url": "https://github.com/aryan9600",
+          "note": "The profile links the speaker's Kong role, personal site, and Flux projects.",
+          "evidence": "https://github.com/aryan9600"
+        },
+        {
+          "kind": "account",
+          "label": "X / Twitter",
+          "url": "https://twitter.com/aryan9600_",
+          "note": "Handle linked from the personal site's About page; current posting activity was not verified.",
+          "evidence": "https://sanskarjaiswal.net/about/"
+        },
+        {
+          "kind": "project",
+          "label": "Flagger",
+          "url": "https://github.com/fluxcd/flagger",
+          "note": "A Kubernetes progressive-delivery operator. The Flux project announced Jaiswal as a maintainer in 2022 and credited Gateway API support.",
+          "evidence": "https://fluxcd.io/blog/2022/06/may-update/"
+        },
+        {
+          "kind": "project",
+          "label": "Flux",
+          "url": "https://github.com/fluxcd/flux2",
+          "note": "The GitOps project named in the EuroRust biography. This is shared project work, not a personal library.",
+          "evidence": "https://eurorust.eu/talks/designing-state-machines-for-streaming-proxies-in-rust/"
+        },
+        {
+          "kind": "project",
+          "label": "Rust DNS resolver",
+          "url": "https://github.com/aryan9600/dns-resolver",
+          "note": "A small learning project explicitly described by the author as a toy resolver.",
+          "evidence": "https://github.com/aryan9600"
+        },
+        {
+          "kind": "talk",
+          "label": "KubeCon and PromCon speaking archive",
+          "url": "https://sanskarjaiswal.net/talks/",
+          "note": "Slides and recordings cover Gateway API integration, SLO validation, OCI/Cosign with Flux, and the Flux ecosystem, from 2022–2025.",
+          "evidence": "https://sanskarjaiswal.net/talks/"
+        }
+      ],
+      "gaps": [
+        "No authored book or scholarly paper was verified. Same-name academic, marketing, and other developer profiles could not be connected to this speaker and were excluded."
+      ]
+    },
+    {
+      "profile_id": "sergio-gonzalez-martin",
+      "speaker_id": "speaker-sergio-gonzalez-martin-e884f1e6",
+      "name": "Sergio Gonzalez Martin",
+      "focus": "Incremental Rust adoption in browser image decoding and C++ integration.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/sergio-gonzalez-martin.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-image-codecs-rustification-in-chromium",
+          "title": "Image codecs rustification in Chromium",
+          "official_url": "https://eurorust.eu/talks/image-codecs-rustification-in-chromium/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/image-codecs-rustification-in-chromium/",
+        "https://github.com/telecos",
+        "https://microsoftedge.github.io/edgevr/posts/Rustifying-Image-Codecs-in-Chromium/"
+      ],
+      "items": [
+        {
+          "kind": "account",
+          "label": "GitHub: telecos",
+          "url": "https://github.com/telecos",
+          "note": "The named profile identifies work on Microsoft Edge and links Rust imaging repositories.",
+          "evidence": "https://github.com/telecos"
+        },
+        {
+          "kind": "account",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/sergio-gonzalez-840a4610",
+          "note": "Linked from the verified GitHub profile. The profile page itself could not be retrieved during this review.",
+          "evidence": "https://github.com/telecos"
+        },
+        {
+          "kind": "publication",
+          "label": "Rustifying Image Codecs in Chromium",
+          "url": "https://microsoftedge.github.io/edgevr/posts/Rustifying-Image-Codecs-in-Chromium/",
+          "note": "An authored July 2026 Microsoft Browser Vulnerability Research article about the collaborative browser migration. A useful starting point for the EuroRust session.",
+          "evidence": "https://microsoftedge.github.io/edgevr/posts/Rustifying-Image-Codecs-in-Chromium/",
+          "format": "article"
+        },
+        {
+          "kind": "project",
+          "label": "lib3mf_rust",
+          "url": "https://github.com/telecos/lib3mf_rust",
+          "note": "A public Rust implementation for the 3MF format, linked from the speaker's GitHub profile.",
+          "evidence": "https://github.com/telecos"
+        },
+        {
+          "kind": "work",
+          "label": "Chromium Rust BMP integration",
+          "url": "https://chromium.googlesource.com/chromium/src/third_party/rust/+/7eab6f950f6561069f78d5b229b0a88be6737bca",
+          "note": "An authored upstream change importing the image crate as a prerequisite for Rust BMP support. It records a specific contribution, not sole ownership of the codec.",
+          "evidence": "https://chromium.googlesource.com/chromium/src/third_party/rust/+/7eab6f950f6561069f78d5b229b0a88be6737bca"
+        },
+        {
+          "kind": "work",
+          "label": "Rust ICC parser bridge fixes",
+          "url": "https://skia.googlesource.com/skia.git/+/5d6eed2e9d28def17466a819be724887a408fc85",
+          "note": "An authored Skia change addressing integration bugs at the Rust/C++ boundary.",
+          "evidence": "https://skia.googlesource.com/skia.git/+/5d6eed2e9d28def17466a819be724887a408fc85"
+        }
+      ],
+      "gaps": [
+        "No personal blog, authored book, or earlier talk was verified. Same-name academic records were found, but their connection to this speaker was not established strongly enough to include."
+      ]
+    },
+    {
+      "profile_id": "shane-carr",
+      "speaker_id": "speaker-shane-carr-0bec0260",
+      "name": "Shane Carr",
+      "focus": "Unicode, internationalization, JavaScript standards, and Rust libraries used across language boundaries.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/shane-carr.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-shipping-temporal-how-the-rust-ecosystem-built-chrome-s-newest-web-api",
+          "title": "Shipping Temporal: How the Rust Ecosystem Built Chrome’s Newest Web API",
+          "official_url": "https://eurorust.eu/talks/shipping-temporal-how-the-rust-ecosystem-built-chrome-s-newest-web-api/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/shipping-temporal-how-the-rust-ecosystem-built-chrome-s-newest-web-api/",
+        "https://github.com/sffc",
+        "https://www.unicodeconference.org/iuc41/Speakers.pdf"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "sffc's Tech Blog",
+          "url": "https://blog.sffc.xyz/",
+          "note": "Writing on internationalization and engineering practice, explicitly presented as personal opinion.",
+          "evidence": "https://blog.sffc.xyz/"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: sffc",
+          "url": "https://github.com/sffc",
+          "note": "The profile identifies the speaker's Unicode and TC39 work.",
+          "evidence": "https://github.com/sffc"
+        },
+        {
+          "kind": "account",
+          "label": "Bluesky",
+          "url": "https://bsky.app/profile/sffc.bsky.social",
+          "note": "Linked from the speaker's GitHub profile.",
+          "evidence": "https://github.com/sffc"
+        },
+        {
+          "kind": "account",
+          "label": "X / Twitter",
+          "url": "https://twitter.com/_sffc",
+          "note": "Linked from the speaker's GitHub profile.",
+          "evidence": "https://github.com/sffc"
+        },
+        {
+          "kind": "project",
+          "label": "ICU4X",
+          "url": "https://github.com/unicode-org/icu4x",
+          "note": "A collaborative internationalization library ecosystem. The RustWeek biography identifies Carr's ICU4X technical committee leadership.",
+          "evidence": "https://2025.rustweek.org/talks/shane/"
+        },
+        {
+          "kind": "project",
+          "label": "Octave Online server",
+          "url": "https://github.com/octave-online/octave-online-server",
+          "note": "The infrastructure behind Octave Online; Carr identifies himself as the service's creator.",
+          "evidence": "https://github.com/sffc"
+        },
+        {
+          "kind": "work",
+          "label": "ECMA-402 proposal record",
+          "url": "https://github.com/tc39/proposals/blob/main/ecma402/finished-proposals.md",
+          "note": "The standards repository records Carr's authorship and championing of number-formatting proposals. Proposal work is distinguished from sole authorship of the standard.",
+          "evidence": "https://github.com/tc39/proposals/blob/main/ecma402/finished-proposals.md"
+        },
+        {
+          "kind": "publication",
+          "label": "BASC: Bayesian optimization for potential-energy surfaces",
+          "url": "https://proceedings.mlr.press/v48/carr16.html",
+          "note": "A coauthored ICML 2016 research paper with Roman Garnett and Cynthia Lo. The Unicode biography connects this earlier research to the speaker.",
+          "evidence": "https://www.unicodeconference.org/iuc41/Speakers.pdf",
+          "format": "paper"
+        },
+        {
+          "kind": "publication",
+          "label": "The Persona of the AI Curator",
+          "url": "https://blog.sffc.xyz/post/823010085419843584/the-persona-of-the-ai-curator",
+          "note": "A July 2026 personal essay on accountability, authorship, and review of agent-generated code; relevant to the collection owner's engineering goals.",
+          "evidence": "https://blog.sffc.xyz/post/823010085419843584/the-persona-of-the-ai-curator",
+          "format": "article"
+        },
+        {
+          "kind": "talk",
+          "label": "Beyond ICU4X 2.0 — RustWeek 2025",
+          "url": "https://2025.rustweek.org/talks/shane/",
+          "note": "Background on ZeroVec, Diplomat, Yoke, and Unicode's Rust tooling.",
+          "evidence": "https://2025.rustweek.org/talks/shane/"
+        }
+      ],
+      "gaps": [
+        "No authored book was verified. The personal homepage linked by GitHub was unavailable during research; the technical blog was accessible."
+      ]
+    },
+    {
+      "profile_id": "theophil-spiegeler-castaneda",
+      "speaker_id": "speaker-theophil-spiegeler-casta-eda-c32dc8b4",
+      "name": "Theophil Spiegeler Castañeda",
+      "focus": "Robotics software, autonomous-system infrastructure, and earlier research on prosthetic mechanisms and sensing.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/theophil-spiegeler-castaneda.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-the-future-of-unmanned-systems-is-built-on-rust",
+          "title": "The Future of Unmanned Systems Is Built on Rust",
+          "official_url": "https://eurorust.eu/talks/the-future-of-unmanned-systems-is-built-on-rust/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/the-future-of-unmanned-systems-is-built-on-rust/",
+        "https://research.tudelft.nl/en/publications/bicep-a-bio-inspired-compliant-elbow-prosthesis/"
+      ],
+      "items": [
+        {
+          "kind": "work",
+          "label": "MOSAIC backend work",
+          "url": "https://eurorust.eu/talks/the-future-of-unmanned-systems-is-built-on-rust/",
+          "note": "The conference biography identifies the speaker's backend leadership at Quantum Systems and previous robotics research at TUM. This is professional work; no public source repository was verified.",
+          "evidence": "https://eurorust.eu/talks/the-future-of-unmanned-systems-is-built-on-rust/"
+        },
+        {
+          "kind": "publication",
+          "label": "BICEP: a compliant elbow prosthesis",
+          "url": "https://research.tudelft.nl/en/publications/bicep-a-bio-inspired-compliant-elbow-prosthesis/",
+          "note": "A coauthored research contribution to Human-Friendly Robotics 2023, published in the 2024 proceedings. It is a chapter in an edited research volume, not authorship of the whole book.",
+          "evidence": "https://research.tudelft.nl/en/publications/bicep-a-bio-inspired-compliant-elbow-prosthesis/",
+          "format": "proceedings_chapter"
+        },
+        {
+          "kind": "publication",
+          "label": "sEMG interfaces and virtual myoelectric prostheses",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11020298/",
+          "note": "A coauthored 2024 journal paper on sensing interfaces and prosthetic embodiment. Read it as research context, not clinical guidance.",
+          "evidence": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11020298/",
+          "format": "paper"
+        },
+        {
+          "kind": "publication",
+          "label": "Normal and shear forces during manipulation",
+          "url": "https://portal.fis.tum.de/en/publications/spatial-and-temporal-analysis-of-normal-and-shear-forces-during-g-2",
+          "note": "A coauthored ICORR 2023 paper on tactile information for grasping and manipulation.",
+          "evidence": "https://portal.fis.tum.de/en/publications/spatial-and-temporal-analysis-of-normal-and-shear-forces-during-g-2",
+          "format": "paper"
+        },
+        {
+          "kind": "talk",
+          "label": "RehabWeek / ICORR 2023 presentations",
+          "url": "https://www.linkedin.com/posts/mirmi-tum_mirmi-icorr-activity-7112426460048433152-ZiZJ",
+          "note": "TUM MIRMI's institutional account reports the speaker and colleagues presenting research at the event. This is an event record; a recording was not verified.",
+          "evidence": "https://www.linkedin.com/posts/mirmi-tum_mirmi-icorr-activity-7112426460048433152-ZiZJ"
+        }
+      ],
+      "gaps": [
+        "No independently verified personal social account, blog, standalone authored book, or public code project was found. The confirmed book contribution is a coauthored proceedings chapter."
+      ]
+    },
+    {
+      "profile_id": "timo-bachmann",
+      "speaker_id": "speaker-timo-bachmann-19b767eb",
+      "name": "Timo Bachmann",
+      "focus": "Language tooling, Rust interfaces, and research on robotic task planning and skill adaptation.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/timo-bachmann.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-rebuilding-the-tower-of-babel-write-your-own-language-server-with-tree-sitter",
+          "title": "Rebuilding the Tower of Babel – Write Your Own Language Server with Tree-sitter",
+          "official_url": "https://eurorust.eu/talks/rebuilding-the-tower-of-babel-write-your-own-language-server-with-tree-sitter/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/rebuilding-the-tower-of-babel-write-your-own-language-server-with-tree-sitter/",
+        "https://github.com/tfachmann",
+        "https://de.linkedin.com/in/tfachmann"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "Personal website and research archive",
+          "url": "https://tfachmann.com/",
+          "note": "The speaker-linked site indexes technical writing and robotics research. Indexed content was available, but direct retrieval timed out during review.",
+          "evidence": "https://github.com/tfachmann"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: tfachmann",
+          "url": "https://github.com/tfachmann",
+          "note": "The profile identifies DLR robotics research and links the speaker's researcher identifier.",
+          "evidence": "https://github.com/tfachmann"
+        },
+        {
+          "kind": "account",
+          "label": "LinkedIn",
+          "url": "https://de.linkedin.com/in/tfachmann",
+          "note": "The speaker announced this EuroRust language-server session from this account.",
+          "evidence": "https://www.linkedin.com/posts/tfachmann_looking-forward-to-giving-a-talk-at-eurorust-activity-7500937659662639104-nFDK"
+        },
+        {
+          "kind": "account",
+          "label": "ORCID",
+          "url": "https://orcid.org/0009-0007-3451-0833",
+          "note": "Researcher identifier linked by both the GitHub profile and DLR publication record.",
+          "evidence": "https://elib.dlr.de/146499/"
+        },
+        {
+          "kind": "project",
+          "label": "Typst as a Rust library",
+          "url": "https://github.com/tfachmann/typst-as-library",
+          "note": "A demonstration of embedding Typst in Rust; a small example rather than a supported document service.",
+          "evidence": "https://github.com/tfachmann"
+        },
+        {
+          "kind": "project",
+          "label": "bewegtbild",
+          "url": "https://github.com/tfachmann/bewegtbild",
+          "note": "A Rust presentation interface for PDFs and video.",
+          "evidence": "https://github.com/tfachmann"
+        },
+        {
+          "kind": "project",
+          "label": "ESP32 and Embassy sensor examples",
+          "url": "https://github.com/tfachmann/esp32-embassy-sensor-snippets",
+          "note": "Small examples connecting asynchronous Rust with embedded sensors.",
+          "evidence": "https://github.com/tfachmann"
+        },
+        {
+          "kind": "publication",
+          "label": "Planning robotic workcell layouts",
+          "url": "https://elib.dlr.de/146499/",
+          "note": "A coauthored ICRA 2021 paper about layout optimization under task-sequence constraints. DLR provides a public record, while its PDF is restricted.",
+          "evidence": "https://elib.dlr.de/146499/",
+          "format": "paper"
+        },
+        {
+          "kind": "publication",
+          "label": "MOMO: multimodal robot skill adaptation",
+          "url": "https://arxiv.org/abs/2604.20468",
+          "note": "A coauthored 2026 preprint combining physical, verbal, and graphical interaction. Its tool-based LLM component selects predefined functions; this is research evidence, not a general production-safety guarantee.",
+          "evidence": "https://arxiv.org/abs/2604.20468",
+          "format": "preprint"
+        }
+      ],
+      "gaps": [
+        "No authored book or independently verified earlier talk recording was found. A standalone public repository for the EuroRust language-server demonstration was not verified."
+      ]
+    },
+    {
+      "profile_id": "tris-oaten",
+      "speaker_id": "speaker-tris-oaten-942da9da",
+      "name": "Tris Oaten",
+      "focus": "Rust education, compile-time techniques, and technical storytelling through No Boilerplate.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/tris-oaten.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-game-show",
+          "title": "Game Show",
+          "official_url": "https://eurorust.eu/talks/game-show/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/",
+        "https://github.com/0atman"
+      ],
+      "items": [
+        {
+          "kind": "blog",
+          "label": "NAMTAO website and video notes",
+          "url": "https://www.namtao.com/",
+          "note": "The creator's site links technical videos, accompanying material, and creative audio projects.",
+          "evidence": "https://github.com/0atman"
+        },
+        {
+          "kind": "account",
+          "label": "GitHub: 0atman",
+          "url": "https://github.com/0atman",
+          "note": "The No Boilerplate creator's project profile.",
+          "evidence": "https://github.com/0atman"
+        },
+        {
+          "kind": "account",
+          "label": "YouTube: No Boilerplate",
+          "url": "https://www.youtube.com/@NoBoilerplate",
+          "note": "The technical video channel linked from both GitHub and the show's website.",
+          "evidence": "https://github.com/0atman"
+        },
+        {
+          "kind": "account",
+          "label": "Mastodon: Tris",
+          "url": "https://namtao.com/@tris",
+          "note": "The current account linked by the creator; GitHub explicitly describes the previous mastodon.social account as a former address.",
+          "evidence": "https://github.com/0atman"
+        },
+        {
+          "kind": "account",
+          "label": "Mastodon: No Boilerplate",
+          "url": "https://namtao.com/@noboilerplate",
+          "note": "The show's update account, linked from the official show website.",
+          "evidence": "https://noboilerplate.org/"
+        },
+        {
+          "kind": "project",
+          "label": "No Boilerplate source material",
+          "url": "https://github.com/0atman/noboilerplate",
+          "note": "Public source material for the channel's talks. Useful for following references and inspecting examples alongside a video.",
+          "evidence": "https://github.com/0atman"
+        },
+        {
+          "kind": "publication",
+          "label": "The Testable Documentation Manifesto",
+          "url": "https://gist.github.com/0atman/242cf9d6d99f2fbeb182a090213cf74a",
+          "note": "An authored technical note about keeping documentation examples executable and current.",
+          "evidence": "https://github.com/0atman",
+          "format": "article"
+        },
+        {
+          "kind": "talk",
+          "label": "Misusing Const for Fn and Profit — EuroRust 2025",
+          "url": "https://eurorust.eu/2025/talks/misusing-const/",
+          "note": "An earlier conference session on moving work into compile-time Rust.",
+          "evidence": "https://eurorust.eu/2025/talks/misusing-const/"
+        },
+        {
+          "kind": "work",
+          "label": "Lost Terminal",
+          "url": "https://lostterminal.com/",
+          "note": "A creative audio-fiction project by Oaten, distinct from the technical education channel.",
+          "evidence": "https://www.namtao.com/"
+        }
+      ],
+      "gaps": [
+        "No technical book or scholarly publication was verified. The selected written publication is an engineering manifesto, not a research paper."
+      ]
+    },
+    {
+      "profile_id": "uwe-pachler",
+      "speaker_id": "speaker-uwe-pachler-75b7f916",
+      "name": "Uwe Pachler",
+      "focus": "Embedded Rust, home automation, and practical integration across software and hardware.",
+      "participation": "catalog_speaker",
+      "page": "resources/speakers/uwe-pachler.md",
+      "checked_on": "2026-10-14",
+      "review_status": "source_checked_draft",
+      "conference_sessions": [
+        {
+          "session_id": "talks-the-lamp",
+          "title": "The Lämp",
+          "official_url": "https://eurorust.eu/talks/the-lamp/"
+        }
+      ],
+      "identity_evidence": [
+        "https://eurorust.eu/talks/the-lamp/",
+        "https://github.com/upachler",
+        "https://github.com/sysgrok/rs-matter-embassy/issues/33",
+        "https://de.linkedin.com/in/uwepachler"
+      ],
+      "items": [
+        {
+          "kind": "account",
+          "label": "GitHub: upachler",
+          "url": "https://github.com/upachler",
+          "note": "The named profile and public Matter/ESP32 integration reports match the conference's embedded project context.",
+          "evidence": "https://github.com/sysgrok/rs-matter-embassy/issues/33"
+        },
+        {
+          "kind": "account",
+          "label": "LinkedIn",
+          "url": "https://de.linkedin.com/in/uwepachler",
+          "note": "The engineering profile matches the conference's Stuttgart-area background and the Almato speaking programme.",
+          "evidence": "https://devcon.almato.com/hubfs/Almato-DevCon-2025-Programm-1-7.pdf"
+        },
+        {
+          "kind": "project",
+          "label": "cogenitor",
+          "url": "https://github.com/upachler/cogenitor",
+          "note": "An OpenAPI code generator for Rust, listed on the speaker's GitHub profile.",
+          "evidence": "https://github.com/upachler"
+        },
+        {
+          "kind": "project",
+          "label": "ebur128_compressor",
+          "url": "https://github.com/upachler/ebur128_compressor",
+          "note": "A Rust LV2 audio-compressor project using EBU R128 loudness concepts.",
+          "evidence": "https://github.com/upachler"
+        },
+        {
+          "kind": "project",
+          "label": "mwbmodel",
+          "url": "https://github.com/gentity/mwbmodel",
+          "note": "A Java library for reading MySQL Workbench files. The published package metadata credits Pachler as a developer.",
+          "evidence": "https://central.sonatype.com/artifact/com.github.upachler.mwbmodel/mwbmodel"
+        },
+        {
+          "kind": "work",
+          "label": "Matter and ESP32 integration report",
+          "url": "https://github.com/sysgrok/rs-matter-embassy/issues/33",
+          "note": "An issue and follow-up by Pachler documenting integration with an IKEA controller. This is a user contribution to rs-matter-embassy, not authorship of that library.",
+          "evidence": "https://github.com/sysgrok/rs-matter-embassy/issues/33"
+        },
+        {
+          "kind": "talk",
+          "label": "WebAssembly — Almato DevCon 2025",
+          "url": "https://devcon.almato.com/hubfs/Almato-DevCon-2025-Programm-1-7.pdf",
+          "note": "The organizer's programme lists Pachler's WebAssembly session. A public recording was not verified.",
+          "evidence": "https://devcon.almato.com/hubfs/Almato-DevCon-2025-Programm-1-7.pdf"
+        }
+      ],
+      "gaps": [
+        "No personal blog, authored book, or scholarly publication was verified. A public repository for the EuroRust lamp itself was not found."
+      ]
+    }
+  ]
+}

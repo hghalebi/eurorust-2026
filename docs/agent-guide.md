@@ -26,6 +26,25 @@ the formats and how to obtain a complete recorded version. You can also supply
 [my plan](../my-conference/itinerary.md) or a [preparation note](../notes/README.md)
 as an example, with your own goals taking priority.
 
+### Add speaker background when it helps
+
+For a preparation reading list, provide the
+[speaker profiles JSON](../community/speaker-profiles.json), or select individual
+pages from the [speaker directory](../resources/speakers/README.md). Ask for one
+relevant work per chosen session, why it connects to your goals, and a question
+to bring. A short list is more useful than an entire bibliography.
+
+Join `profiles[].speaker_id` to the catalog's speaker IDs. Two meetup profiles
+have `speaker_id: null`; their `conference_sessions` point to the shared meetup
+activity. Do not invent speaker IDs or individual talk times for them.
+
+This companion is independent research, outside the conference manifest. Record
+its `checked_on` date and the Git revision alongside the schedule snapshot.
+Preserve item links, attribution, publication formats, review status, and gaps.
+The [data guide](data-guide.md#speaker-research-companion) explains the fields.
+These drafts have not been approved by the speakers. An earlier work does not
+establish the scope or availability of a EuroRust session.
+
 ## 2. Add what matters to you
 
 Copy the [prompt](../prompts/choose-my-path.md) and fill in your learning goals,

@@ -12,8 +12,9 @@ dates with the plan or notes you make from it.
 | Read session context or give it to an agent | [Conference pack](../exports/conference-pack.md) |
 | Work with the complete structured dataset | [Catalog JSON](../data/catalog.json) |
 | Process sessions one record at a time | [Sessions JSONL](../exports/sessions.jsonl) |
+| Find a speaker's public work for preparation | [Speaker directory](../resources/speakers/README.md) or [speaker profiles JSON](../community/speaker-profiles.json) |
 | Identify the recorded version and coverage | [Manifest](../data/manifest.json) |
-| Understand the structure expected by your tools | [Catalog schema](../schema/catalog.schema.json), [profile schema](../schema/profile.schema.json), and [itinerary schema](../schema/itinerary.schema.json) |
+| Understand the structure expected by your tools | [Catalog schema](../schema/catalog.schema.json), [participant preference schema](../schema/profile.schema.json), and [itinerary schema](../schema/itinerary.schema.json) |
 
 Markdown is the easiest starting point for reading and most agent conversations.
 JSON contains structured conference, session, speaker, and venue records. JSONL
@@ -51,6 +52,45 @@ live seat counts, or unsupported streaming claims. Follow the official session
 page for the full abstract and current access details. The
 [source and reuse policy](source-and-reuse-policy.md) explains attribution and
 what the collection publishes.
+
+## Speaker research companion
+
+[Speaker profiles](../community/speaker-profiles.json) add independently curated
+reading and project links to the conference roster. The human-readable pages
+live in the [speaker directory](../resources/speakers/README.md). Research covers
+the 43 speakers in the recorded catalog and two speakers explicitly named on
+the official meetup page.
+
+This is a separate JSON document with `format_version: "1.0.0"`. It is outside
+the catalog schema and manifest hashes. Its `roster_snapshot_id` identifies the
+catalog used to match people to sessions; it does not make the companion part
+of that immutable snapshot. Keep the companion's `checked_on` date and the Git
+revision when citing or reusing it. Earlier release bundles may not contain it.
+
+| Field | Meaning |
+| --- | --- |
+| `coverage` | Counts of catalog speakers and additional meetup speakers |
+| `curation` | Method, draft review status, research policy, and limits |
+| `profiles[].profile_id` | Local identifier for a reading profile; distinct from a catalog speaker ID |
+| `speaker_id` | Exact catalog join key, or `null` for a named meetup speaker without an individual catalog record |
+| `participation` | `catalog_speaker` or `meetup_speaker` |
+| `page` | Repository-relative path to the human-readable profile |
+| `checked_on`, `review_status` | Research date and `source_checked_draft` status; community and speaker review are pending |
+| `conference_sessions` | Related session IDs, titles, and official URLs; obtain times from the catalog |
+| `identity_evidence` | Public sources used to connect the person to their work and accounts |
+| `items` | Selected accounts, blogs, books, projects, publications, talks, or other professional work |
+| `gaps` | What this research could not verify; absence is not evidence that a work or account does not exist |
+
+Each item has a `kind`, `label`, `url`, original `note`, and an `evidence` URL for
+attribution. Publications also have a `format`: `article`, `paper`, `preprint`,
+`slides`, `thesis_record`, or `proceedings_chapter`. A paper record may link to an
+author's manuscript; consult the publication page for its venue and version.
+Coauthorship, maintenance, contribution, upcoming appearances, and access limits
+are described in the notes. A linked account does not imply recent activity.
+
+Use this file as reference material for reading suggestions. It supplies no
+additional schedule authority, booking information, or permission to contact a
+speaker. Corrections follow the [profile contribution route](../CONTRIBUTING.md#speaker-profile-corrections).
 
 ## Contract
 

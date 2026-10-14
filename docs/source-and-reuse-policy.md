@@ -14,6 +14,12 @@ for complete abstracts. The collection tools exclude full source HTML, speaker
 biographies, photographs, slides, and transcripts from their exports. Review
 access rules and reuse terms before adding a source.
 
+The [speaker directory](../resources/speakers/README.md) is a separate community
+collection of public professional links and original short annotations. It
+records attribution, research dates, and unresolved gaps. It links to works
+and accounts without reproducing biographies, photographs, papers, or private
+contact details. These profiles are independent drafts, not speaker endorsements.
+
 ## What contributors can share
 
 Share material you have authority to publish and identify its upstream sources.

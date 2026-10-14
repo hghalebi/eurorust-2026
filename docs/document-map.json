@@ -294,5 +294,373 @@
     "purpose": "Maintain the collection, refresh and recover data, and find supporting source files and checks",
     "scope": "EuroRust 2026 collection maintenance and optional tooling",
     "replacement": null
+  },
+  {
+    "path": "resources/speakers/albert-lockett.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Albert Lockett",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/alex-read.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Alex Read",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/amos-wenger.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Amos Wenger",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/andre-bogus.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Andre Bogus",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/andre-eriksson.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for André Eriksson",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/arthur-cohen.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Arthur Cohen",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/arya-dradjica.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Arya Dradjica",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/benedikt-wiethof.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Benedikt Wiethof",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/bjorn-barwinski.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Björn Barwinski",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/connor-tsui.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Connor Tsui",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/cristian-maureira-fredes.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Cristián Maureira-Fredes",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/daniel-rodriguez.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Daniel Rodriguez",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/domenic-quirl.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Domenic Quirl",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/filip-petkovski.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Filip Petkovski",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/francois-mockers.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Francois Mockers",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/frank-lyaruu.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Frank Lyaruu",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/giacomo-bagnoli.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Giacomo Bagnoli",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/jake-lishman.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Jake Lishman",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/jana-donszelmann.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Jana Dönszelmann",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/johan-rosengren.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Johan Rosengren",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/johan-sannemo.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Johan Sannemo",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/jon-gjengset.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Jon Gjengset",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/jonas-kruckenberg.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Jonas Kruckenberg",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/jonathan-pallant.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Jonathan Pallant",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/julian-montes-de-oca.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Julián Montes de Oca",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/lcnr.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for lcnr",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/magnus-markling.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Magnus Markling",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/martin-ombura-jr.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Martin Ombura Jr.",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/massimiliano-mantione.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Massimiliano Mantione",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/matthias-rauter.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Matthias Rauter",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/melih-elibol.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Melih Elibol",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/michele-mantione.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Michele Mantione",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/njuguna-mureithi.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Njuguna Mureithi",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/oli-scherer.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Oli Scherer",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/orhun-parmaksiz.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Orhun Parmaksız",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/philipp-schuster.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Philipp Schuster",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/pierre-emmanuel-patry.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Pierre-Emmanuel Patry",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/sanskar-jaiswal.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Sanskar Jaiswal",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/sergio-gonzalez-martin.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Sergio Gonzalez Martin",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/shane-carr.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Shane Carr",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/theophil-spiegeler-castaneda.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Theophil Spiegeler Castañeda",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/timo-bachmann.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Timo Bachmann",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/tris-oaten.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Tris Oaten",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/uwe-pachler.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Uwe Pachler",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/README.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Discover speaker work by interest or name and understand research provenance and gaps",
+    "scope": "43 catalog speakers and two explicitly named meetup speakers",
+    "replacement": null
+  },
+  {
+    "path": "resources/speakers/pawel-urbanek.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed public work and preparation resources for Paweł Urbanek",
+    "scope": "Independent speaker research checked on 2026-10-14",
+    "replacement": null
   }
 ]

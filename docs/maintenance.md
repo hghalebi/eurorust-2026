@@ -16,6 +16,7 @@ focused check, then expand only when needed.
 | Task | Owning material | Guide and verification |
 | --- | --- | --- |
 | Correct or annotate a session | [Annotations](../community/annotations/sessions.json) and the official page | [Source policy](source-and-reuse-policy.md), source evidence, then refresh |
+| Add or correct a speaker's work | [Speaker profiles JSON](../community/speaker-profiles.json) and [profile pages](../resources/speakers/README.md) | [Attribution and correction rules](../CONTRIBUTING.md#speaker-profile-corrections); keep both views consistent and verify catalog joins |
 | Add a guide or change navigation | [Document inventory](document-map.json) and [navigation checker](../tools/conference-data/src/navigation.rs) | Update incoming links; run `check-docs`; retain historical/private-route fixtures |
 | Change fetching, robots handling, or extraction | [Collector](../tools/conference-data/src/collect.rs) and [synthetic fixture](../tools/conference-data/tests/fixtures/schedule.html) | Valid/malformed parser cases, failed-publication checks, then `validate` |
 | Change a schema, value, or lifecycle rule | [Domain types](../tools/conference-data/src/domain.rs) | Constructor tests and valid/compile-fail rustdoc pairs |
@@ -54,6 +55,13 @@ without detail evidence. Review the summary and prerequisites against the source
 After refreshing, follow the [complete regeneration sequence](cli.md#recover-after-a-refresh-or-merge)
 to keep all example itineraries on the same snapshot. Review the resulting diff.
 The refresh workflow opens a checked proposal; it does not merge it automatically.
+
+Speaker research is edited separately. `refresh` and `export` do not update
+`community/speaker-profiles.json` or its profile pages. When the roster changes,
+compare speaker and session IDs, research any additions, and review the
+companion's coverage and `roster_snapshot_id`. Preserve per-profile research
+dates unless the underlying work was rechecked; a schedule refresh is not a
+new review of a speaker's bibliography.
 
 ## Publish and recover a snapshot
 
