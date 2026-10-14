@@ -1,88 +1,71 @@
 # Help someone make a better conference choice
 
-A contribution can be one corrected fact, one useful setup note, or one clear
-explanation of why you chose a talk. Start with the smallest improvement you can
-support with evidence. [Starter issues](https://github.com/hghalebi/eurorust-2026/issues)
-are open for annotation reviews, learning paths, and translations.
+A contribution can be one corrected detail, a preparation tip, a useful
+question, or a clear account of what you learned. Start with the smallest
+improvement you can explain and support with a source.
 
 ## Where to contribute
 
-| You can help with… | Start here | Include this evidence |
+| You can help with… | Start here | What to include |
 | --- | --- | --- |
-| An incorrect or conflicting fact | [Correction guide](community/corrections/README.md) | Session ID, snapshot, official link, affected field, and time checked |
-| A summary, topic, prerequisite, or setup note | [Session annotations](community/annotations/sessions.json) | Original wording, author, method, source URL, checked date and source hash |
-| A useful route through the conference | [Learning paths](community/paths/README.md) | Audience, shareable assumptions, snapshot, session IDs, reasons, and alternatives |
-| A lesson or workshop discovery | [Session note template](templates/session.md) | Participation context, source attribution, observations, and open questions |
-| A translation | [Planning guide](docs/planning-guide.md) or [agent prompt](prompts/choose-my-path.md) | Language, translator, original document, and working links |
-| A small Rust example | [Experiments](experiments/README.md) | Learning goal, commands, expected behavior, failure cases, and limits |
-| Better schedule extraction | [Collector](tools/conference-data/src/collect.rs) | A focused synthetic fixture, the failure it exposes, and parser checks |
+| An incorrect or conflicting detail | [Correction guide](community/corrections/README.md) | Session or page, official source, proposed correction, and when you checked |
+| A useful route through the conference | [Learning paths](community/paths/README.md) | Who it helps, goals, availability assumptions, session choices, and alternatives |
+| A preparation or session note | [Session note template](templates/session.md) | Source attribution, participation context, useful questions or observations, and a next step |
+| A translation or clearer explanation | [Planning guide](docs/planning-guide.md) or [agent prompt](prompts/choose-my-path.md) | Language, translator, original page, and working links |
+| A summary, topic, or prerequisite | [Session annotations](community/annotations/sessions.json) | Original wording and official source; maintainers can help with the structured fields |
+| An optional code example or tool improvement | [Maintenance guide](docs/maintenance.md) | The learning goal or failure, reproducible steps, relevant checks, and limits |
 
-For a prose contribution, start with the linked file or template. You can propose
-an improvement through GitHub without setting up the scraper.
+## Share an issue or edit a page
+
+You can [open an issue](https://github.com/hghalebi/eurorust-2026/issues/new/choose)
+with the note or correction in plain language. For a written change, edit the
+relevant Markdown page or copy a template and propose a pull request. You do not
+need to install the local tools to contribute content.
+
+A learning path can be a Markdown table. JSON is optional for paths intended for
+structured reuse. If you are unsure where a correction belongs, include the
+session's official URL and the page you were reading; maintainers can route it.
 
 ## Make your change easy to trust
 
-Write summaries in your own words and link the official session. Separate source
-facts, community interpretation, and your own observations. Record preparation,
-attendance, and watching a recording as different contexts. Leave unsupported
-fields `null`.
+Write summaries in your own words and link the official session. Distinguish
+source facts, community interpretation, and your own observations. Record
+preparation, attendance, and watching a recording as different contexts. Mark
+missing information as unknown; use `null` in structured data where appropriate.
 
-Annotation changes are applied by `refresh`, which retrieves official sources.
-`export` rebuilds views from an existing checked catalog; it does not apply edits
-to the annotation file. Use the [data guide](docs/data-guide.md) for the right
-regeneration route. Edit the owning inputs so your improvement survives refresh.
+For annotations, include the author, method, source URL, checked date, and source
+hash. You can propose the wording and source in an issue if you need help with
+those fields. Maintainers apply annotation changes through a data refresh.
+Generated schedules and exports are rebuilt from their inputs, so report the
+underlying correction instead of relying on a manual edit to a generated view.
 
-Share only material you have authority to publish. Keep real participant profiles,
-source caches, credentials, attendee contact lists, and unlicensed slide decks
-out of public changes. Follow the [source policy](docs/source-and-reuse-policy.md)
-and [community conduct](CODE_OF_CONDUCT.md).
+Share only material you have authority to publish. Keep personal participant
+profiles, source caches, credentials, attendee contact lists, and unlicensed
+slide decks out of public changes. Follow the
+[source policy](docs/source-and-reuse-policy.md) and
+[community conduct](CODE_OF_CONDUCT.md).
 
 ## Checks
 
-For a prose-only change, start with the file and its source links. You can open a
-GitHub pull request without installing the scraper; state which checks you did
-and did not run. Repository CI includes the navigation check.
+For a note or guide, check the links, names, session references, attribution,
+and participation context. Read it as someone choosing a session: can they tell
+what it helps with and what remains unknown? Say which checks you performed;
+maintainers and repository CI handle the technical checks where needed.
 
-For Rust or dataset changes, run the checks below. To build the tool first, use
-[the quick start](docs/quickstart.md). From the repository root, with a current
-stable Rust toolchain:
-
-```sh
-cargo fmt --all --check
-cargo clippy --workspace --all-targets --locked -- -D warnings
-cargo test --workspace --locked
-cargo build --release --locked
-target/release/conference-data validate
-target/release/conference-data check-docs
-```
-
-Run `check-itinerary` for each changed JSON path. Parser changes need a focused
-fixture with valid and malformed input. Type guarantees need both valid use and
-a compile-fail example that fails for the intended reason.
-
-For a new, moved, or reclassified document, update the [document inventory](docs/document-map.json)
-and the links that lead to it. Label historical references clearly. Keep recorded
-validation receipts and immutable snapshot history; update current pointers when
-new evidence arrives.
+For new, moved, or reclassified guides, maintainers also update the
+[document inventory](docs/document-map.json) and incoming links. Rust, dataset,
+and JSON itinerary changes follow the [maintenance checks](docs/maintenance.md#checks-for-maintainers).
+Historical observations and immutable snapshots retain their original scope.
 
 ## Pull requests
 
-Lead with the reader's problem and what your change improves. Include the source,
-affected session IDs and snapshot, checks actually run, and any remaining unknowns
-or compatibility effects. A reviewer should be able to follow the evidence from
-your description to the owning files.
-
-The refresh workflow opens a checked proposal for review. It does not merge
-changes automatically. For a refresh or merge that affects generated files, use
-[the complete regeneration sequence](docs/cli.md#recover-after-a-refresh-or-merge)
-so manifests, views, and example paths agree.
+Explain who the change helps and what becomes clearer or more useful. Include
+the supporting source, affected sessions and dataset version when relevant,
+checks actually performed, and any open questions. A reviewer should be able to
+follow your explanation back to the material you used.
 
 ## Runtime troubleshooting
 
-If commands cannot start, try a small read-only probe such as `git status --short`.
-A failure before shell execution belongs to the harness: check its installation,
-running version, and process owner using its supported recovery procedure. Prove
-recovery with a fresh command before drawing conclusions about repository code.
-
-If commands run and parsing fails, follow the [collector and fixture route](docs/data-guide.md#code-and-proof-routes).
-Keep machine-specific diagnostics local; contribute portable reproduction steps.
+If you are working on the optional tools and commands fail, use
+[maintainer troubleshooting](docs/maintenance.md#runtime-troubleshooting).
+Content corrections and notes can still be proposed through an issue.

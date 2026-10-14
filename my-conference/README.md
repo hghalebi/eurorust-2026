@@ -30,22 +30,18 @@ to extend that work, subject to confirmed participation and a prepared environme
 After participating, I'll connect observed lessons to tested follow-ups in the
 [journal](../journal/README.md) and [retrospective](../retrospective.md).
 
-## Reproduce or adapt the path
+## Use this path for your own planning
 
-After the [quick start](../docs/quickstart.md) and
-[local binary installation](../docs/quickstart.md#install-a-reusable-binary), run
-this copy of the owner example. Outputs stay in the ignored cache:
+Read the [itinerary](itinerary.md), compare its reasons with your own goals, and
+keep the choices that fit. Use the [planning guide](../docs/planning-guide.md)
+and [itinerary template](../templates/itinerary.md) to make a copy in your own
+notes. Your available time and confirmed bookings should decide what is feasible.
 
-```sh
-mkdir -p .cache/quickstart
-bin/conference-data recommend --profile my-conference/profile.json --output .cache/quickstart/owner-itinerary.json --markdown .cache/quickstart/owner-itinerary.md
-bin/conference-data check-itinerary --itinerary .cache/quickstart/owner-itinerary.json
-```
+You can also give this plan to your agent as an example alongside the conference
+pack. Follow [the agent guide](../docs/agent-guide.md), and ask it to explain
+where your goals lead to different choices.
 
-Use the [official schedule](https://eurorust.eu/schedule/) to confirm times and
-access. To make your own path, keep a profile in your own files and follow the
-[planning guide](../docs/planning-guide.md). Your goals should decide your route.
-
-The CLI uses the profile's `topics` and availability to select sessions; the prose
-in `goals` records the learning intent. To change the plan meaningfully, follow
-[the profile guide](../docs/quickstart.md#use-your-own-profile).
+The [profile](profile.json) and [itinerary JSON](itinerary.json) are available for
+structured use. If you want the local helper to reproduce the example, follow
+[the optional walkthrough](../docs/quickstart.md#reuse-the-owner-example).
+Check the [official schedule](https://eurorust.eu/schedule/) before attending.

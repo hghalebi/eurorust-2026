@@ -1,8 +1,13 @@
-# Build a starting itinerary from the public snapshot
+# Optional: use the local itinerary helper
 
-Run a supplied profile first, inspect the choices, then change the inputs that
-matter to you. For browser-only planning, use the [planning guide](planning-guide.md).
-For your own harness, use the [agent guide](agent-guide.md).
+This walkthrough is for readers who want a command-line draft or a local check
+of an itinerary in JSON. You can use the [planning guide](planning-guide.md),
+read the notes, and [work with your agent](agent-guide.md) directly from the
+conference files without this helper.
+
+To use the helper, run a supplied profile first, inspect the choices, then change
+the inputs that matter to you. The following sections cover installation and
+the optional workflow in full.
 
 ## Prerequisites and tested environments
 
@@ -89,6 +94,20 @@ actual time windows and registrations. Empty availability means unknown, so all
 eligible slots are considered conditionally. Keep real participant inputs local.
 The [CLI reference](cli.md#profile-fields) describes every field.
 
+## Reuse the owner example
+
+To reproduce the published owner example locally, use its existing profile.
+These commands keep your copy in the ignored cache:
+
+```sh
+mkdir -p .cache/quickstart
+./target/release/conference-data recommend --profile my-conference/profile.json --output .cache/quickstart/owner-itinerary.json --markdown .cache/quickstart/owner-itinerary.md
+./target/release/conference-data check-itinerary --itinerary .cache/quickstart/owner-itinerary.json
+```
+
+The owner profile leaves availability and attendance mode unknown, so the
+result remains conditional. To adapt the choices, use your own local profile.
+
 ## Install a reusable binary
 
 After the source build above, install the tool into the repository's ignored
@@ -130,4 +149,4 @@ from current `main`. The release offers no prebuilt Linux or Windows binary.
 | Access, readiness, or travel warning | Confirm the external fact yourself. A successful overlap check cannot establish it |
 
 For exact flags and failure behavior, read the [CLI reference](cli.md). To change
-collection or data rules, use the [task and evidence index](README.md).
+collection or data rules, use the [maintenance guide](maintenance.md).

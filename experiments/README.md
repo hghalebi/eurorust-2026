@@ -1,7 +1,9 @@
 # Turn a conference question into a small Rust experiment
 
-Each experiment isolates one contract, shows valid and invalid use, and makes
-the result observable. Start with the lesson you want to test:
+These optional code examples follow questions from the
+[preparation notes](../notes/README.md). Read the explanations for the idea, or
+run an example when you want to explore it in Rust. Each isolates one contract,
+shows valid and invalid use, and makes the result observable:
 
 | Question | Experiment | What you can check |
 | --- | --- | --- |

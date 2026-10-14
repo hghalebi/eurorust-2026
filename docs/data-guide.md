@@ -1,18 +1,63 @@
-# Use the data. Keep the evidence.
+# Use the conference data
 
-The public files let a participant browse the conference and a tool build a
-traceable itinerary from the same source-linked facts. Start with the
-[manifest](../data/manifest.json) for the active snapshot, coverage, validation
-time, and file hashes. Use per-record provenance for source retrieval dates.
-Use the [quick start](quickstart.md) to produce a plan; the
-[CLI reference](cli.md) covers exact flags, profile fields, and scoring.
+The collection offers the same conference context in readable and structured
+forms. Choose the format that fits your task, then keep its source links and
+dates with the plan or notes you make from it.
+
+## Choose a format
+
+| You want to… | Use this |
+| --- | --- |
+| Browse times and compare sessions | [Schedule](../exports/schedule.md) |
+| Read session context or give it to an agent | [Conference pack](../exports/conference-pack.md) |
+| Work with the complete structured dataset | [Catalog JSON](../data/catalog.json) |
+| Process sessions one record at a time | [Sessions JSONL](../exports/sessions.jsonl) |
+| Identify the recorded version and coverage | [Manifest](../data/manifest.json) |
+| Understand the structure expected by your tools | [Catalog schema](../schema/catalog.schema.json), [profile schema](../schema/profile.schema.json), and [itinerary schema](../schema/itinerary.schema.json) |
+
+Markdown is the easiest starting point for reading and most agent conversations.
+JSON contains structured conference, session, speaker, and venue records. JSONL
+contains one session record per line. The [agent guide](agent-guide.md) shows how
+to combine the context with a participant's goals.
+
+## Take a copy for your own use
+
+Read the linked files on GitHub, or save their raw contents for a local tool or
+an agent that accepts files. For a complete dated bundle, download
+`eurorust-2026-context.zip` from [releases](https://github.com/hghalebi/eurorust-2026/releases)
+and unzip it. That context contains documents and data you can use without
+installing the separate native tools.
+
+Use files from the same checkout or context bundle. A release is frozen;
+the current repository may contain newer information. Keep the manifest with
+your copy so another person or agent can identify the version you used.
+
+## Understand dates and review status
+
+A **snapshot** is a recorded version of the dataset. The manifest identifies it,
+lists coverage and file hashes, and records validation time. Each session's
+source fields record when its schedule and detail information were retrieved.
+Validation time and source retrieval time describe different events.
+
+Official links let you check the original announcement. Community summaries
+are attributed interpretations with their own review status. A
+`source_checked_draft` is a draft checked against a recorded source; community
+review may still be pending. If the detail page changes, refresh marks the
+annotation `source_changed`; review its previous summary and prerequisites
+against the current page before relying on them.
+
+Unknown values stay `null`. The dataset supplies no inferred difficulty ratings,
+live seat counts, or unsupported streaming claims. Follow the official session
+page for the full abstract and current access details. The
+[source and reuse policy](source-and-reuse-policy.md) explains attribution and
+what the collection publishes.
 
 ## Contract
 
 Schema version 1.0.0 describes the [catalog](../data/catalog.json): conference,
-sessions, speakers, and venues. The [JSON schema](../schema/catalog.schema.json)
-is generated from Rust types. Runtime construction also checks intervals,
-references, timezone offsets, schema version, and annotation consistency.
+sessions, speakers, and venues. Schemas are generated from Rust types and describe
+the serialized form. The supporting tools also check intervals, references,
+timezone offsets, schema version, and annotation consistency.
 
 | Field or value | How to read it |
 | --- | --- |
@@ -25,77 +70,33 @@ references, timezone offsets, schema version, and annotation consistency.
 | `annotation` | Attributed original summary, topics, known preparation, review status, checked date, and source hash |
 | `null` | Unknown or not published in this dataset; it does not mean false |
 
-When a detail-page hash changes, refresh marks the annotation `source_changed`.
-Review its previous summary and prerequisites against the current page. The
-baseline stops using those stale topic tags. Offline loading rejects mismatched
-hashes that still claim a checked status, or annotations without detail evidence.
-The dataset supplies no inferred difficulty ratings, live seat counts, or
-unsupported streaming claims.
-
 ## Source discovery and refresh
 
-The inspected site exposes conference JSON-LD, a sitemap, schedule attributes,
-and detail links. The collector reads the schedule attributes and fetches linked
-pages on the official HTTPS origin. External activity URLs are retained as links.
+The dataset is collected from the official schedule and linked session pages.
+The collector follows robots rules, waits between requests, and keeps full
+source HTML in an ignored local cache. External activity URLs remain links.
 
-Requests follow robots rules, wait at least one second apart, use
-ETag/Last-Modified validators, and have bounded retries. Source HTML stays in the
-ignored local cache. With [the binary installed](quickstart.md#install-a-reusable-binary),
-retrieve and publish checked facts:
-
-```sh
-bin/conference-data refresh
-bin/conference-data validate
-```
-
-`refresh` applies community annotations as it rebuilds the catalog. Missing
-required fields, unsupported kinds, an empty schedule, failed detail fetches,
-broken references, and disappeared sessions stop publication. Review removals
-against the official site before using `refresh --accept-removals`; reconcile
-annotations for removed sessions too.
+To report a changed detail, use the [correction guide](../community/corrections/README.md).
+Maintainers can follow the [collection procedure](maintenance.md#refresh-official-data)
+to retrieve sources, apply annotations, and update the published files.
 
 ## Snapshots and recovery
 
-Each immutable bundle under `data/snapshots/` contains data, schemas, exports,
-and a manifest. Its identity binds the catalog to the recorded generator-source
+Immutable bundles under `data/snapshots/` retain previous data, schemas, exports,
+and manifests. A snapshot identity binds the catalog to the recorded generator
 and dependency fingerprint. Data and generator versions are recorded separately.
+An itinerary's snapshot ID says which version its choices refer to.
 
-Publication prepares the complete immutable bundle and renames its directory
-atomically. It then replaces convenience views individually and writes the active
-manifest last. Fetch, parsing, or validation failure leaves published files alone.
-An interruption while replacing views can leave a digest mismatch; the old
-manifest still identifies the immutable catalog used for recovery.
-
-To rebuild from a checked catalog offline (after
-[installing the binary](quickstart.md#install-a-reusable-binary)):
-
-```sh
-bin/conference-data export --catalog data/catalog.json
-bin/conference-data validate
-```
-
-If active views are inconsistent, pass the immutable catalog path recorded in the
-last intact manifest to `export --catalog PATH`. Validation compares both active
-views and immutable files with their recorded hashes. This protocol does not
-provide one filesystem transaction across all view files.
-
-`export` retrieves no newer facts and applies no annotation-file edits. Git
-history and release assets retain previous observations; keep their snapshot
-identity when intentionally using historical data. After a source refresh or a
-merge involving generated files, regenerate the example paths too. The
-[complete recovery sequence](cli.md#recover-after-a-refresh-or-merge) keeps the
-manifest, views, and all four paths together.
+For a historical plan, retain a complete context bundle or checkout whose active
+manifest matches that plan. The [optional CLI reference](cli.md#interpret-success-warnings-and-errors)
+explains how the checker resolves versions. The
+[maintenance guide](maintenance.md#publish-and-recover-a-snapshot) preserves the
+publication and recovery details, including the limits of file replacement.
 
 ## Code and proof routes
 
-| You are changing… | Owning source | Check the guarantee with… |
-| --- | --- | --- |
-| Domain values or lifecycle | [domain.rs](../tools/conference-data/src/domain.rs) | Constructors and compile-fail rustdoc |
-| Fetching, robots, or extraction | [collect.rs](../tools/conference-data/src/collect.rs) | Synthetic HTML and malformed-layout tests |
-| Publication or integrity | [export.rs](../tools/conference-data/src/export.rs) | Digest, recovery, and failed-publication integration tests |
-| Itinerary decisions | [itinerary.rs](../tools/conference-data/src/itinerary.rs) | Availability, stale-snapshot, overlap, and profile scenarios |
-| Public document routing | [navigation.rs](../tools/conference-data/src/navigation.rs) | Link checks and historical/private dependency fixtures |
-
-Use the evidence for the claim you are making: a checked dataset, remote CI,
-published release, confirmed booking, and observed conference lesson each need
-their own proof. Find the current routes in the [task index](README.md).
+For collection, schema, export, or documentation-tool changes, use the
+[maintainer task map](maintenance.md#find-the-owning-file).
+The [validation receipts](validation.md) record executed checks at specific
+revisions. A checked dataset, confirmed booking, and observed conference lesson
+each need evidence appropriate to that claim.

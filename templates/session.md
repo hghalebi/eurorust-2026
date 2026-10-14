@@ -1,4 +1,4 @@
-# [Session title]: the idea I want to test
+# [Session title]: questions, notes, and next steps
 
 Context: [preparation / attended / watched recording / community interpretation].
 Session ID: [ID]. Official source: [URL]. Speaker: [name].
@@ -19,8 +19,9 @@ claims. Label your interpretation and anything you actually measured.
 List open questions, assumptions, and missing evidence. For preparation, write
 the question you want to bring to the session.
 
-## The next experiment
+## What I'll do with this
 
-Describe one thing to try. Link the source or code, state the platform and
-expected result, and record the check when you run it. Keep conclusions within
-the evidence you have.
+Describe one useful next step: a question to investigate, a decision to revisit,
+something to read, or an experiment to try. Link the relevant sources. If you
+run an experiment, state the environment, expected result, and actual outcome.
+Keep conclusions within the evidence you have.

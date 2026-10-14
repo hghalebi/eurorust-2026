@@ -1,36 +1,45 @@
-# Find the right file and the check that matters
+# Find your way around the collection
 
-Choose your task below. Read the linked guide's relevant section, then the owning
-source or data and its check. Expand the search when that evidence leaves a
-question open.
+Start with the material you want to use. Plans, notes, guides, and conference
+data are readable on GitHub; you can copy them into your own notes or provide
+them to your agent.
 
-| I want to… | Start here | Owning source or data | Check before claiming success |
-| --- | --- | --- | --- |
-| Follow the owner's path | [Learning goals](../my-conference/README.md) | [Proposed itinerary](../my-conference/itinerary.md) | Official session links, source dates, and unresolved access |
-| Choose sessions in a browser | [Planning guide](planning-guide.md) | [Readable schedule](../exports/schedule.md) | Availability, prerequisites, and conflicts |
-| Build a first local itinerary | [Quick start](quickstart.md) | [Backend profile](../community/paths/backend-profile.json), [CLI](../tools/conference-data/src/main.rs) | Generated JSON/Markdown and `check-itinerary` |
-| Understand inputs or scoring | [CLI reference](cli.md) | [Profile schema](../schema/profile.schema.json), [selection code](../tools/conference-data/src/itinerary.rs) | Match fields, warnings, and the supplied snapshot |
-| Plan with a participant's agent | [Agent guide](agent-guide.md) | [Manifest](../data/manifest.json), [conference pack](../exports/conference-pack.md) | Same-snapshot `check-itinerary` |
-| Refresh official facts | [Refresh guide](data-guide.md#source-discovery-and-refresh) | [Collector](../tools/conference-data/src/collect.rs), [parser fixture](../tools/conference-data/tests/fixtures/schedule.html) | Parser failures, then `validate` |
-| Change a schema or domain check | [Dataset contract](data-guide.md#contract) | [Domain types](../tools/conference-data/src/domain.rs) | Constructors and compile-fail cases |
-| Change export or recovery | [Publication protocol](data-guide.md#snapshots-and-recovery) | [Exporter](../tools/conference-data/src/export.rs) | Digest checks and failed-publication recovery |
-| Correct or annotate a session | [Contribution routes](../CONTRIBUTING.md#where-to-contribute) | [Annotations](../community/annotations/sessions.json), official source | Source evidence, then refresh |
-| Share a note or learning path | [Contribution guide](../CONTRIBUTING.md) | [Note template](../templates/session.md), [example paths](../community/paths/README.md) | Attribution, session references, and itinerary feasibility |
-| Change a documentation route | [Documentation checks](../CONTRIBUTING.md#checks) | [Document inventory](document-map.json), [navigation checker](../tools/conference-data/src/navigation.rs) | `check-docs` and historical/private-route fixtures |
-| Recover a command that cannot start | [Runtime troubleshooting](../CONTRIBUTING.md#runtime-troubleshooting) | Harness installation, running version, and process owner | A fresh successful read-only command |
+## Read, choose, and prepare
 
-## Current evidence pointers
+| I want to… | Start here |
+| --- | --- |
+| Follow the owner's learning path | [Learning goals](../my-conference/README.md), then the [proposed itinerary](../my-conference/itinerary.md) |
+| Choose my own talks and workshops | [Planning guide](planning-guide.md), with the [schedule](../exports/schedule.md) open alongside it |
+| Keep my choices and questions together | [Itinerary template](../templates/itinerary.md) and [session note template](../templates/session.md) |
+| Prepare for a topic | [Preparation notes](../notes/README.md) and [further reading](../resources/README.md) |
+| Compare other learning goals | [Example paths](../community/paths/README.md) |
+| Follow actual observations | [Journal](../journal/README.md) and [retrospective](../retrospective.md) |
 
-Use the source that can establish the particular result you need.
+## Use the data with your agent
 
-| You need evidence of… | Open this | Read it with this limit |
-| --- | --- | --- |
-| Source retrieval and dataset coverage | [Manifest](../data/manifest.json) and per-record provenance | Retrieval time does not establish attendance, live access, or a booking |
-| Snapshot and export integrity | The manifest's immutable path and file hashes | `validate` checks both active and immutable views |
-| Recorded verification | [Validation receipt](validation.md) | Results apply to the stated time, revision, and environment |
-| Remote CI | [GitHub Actions](https://github.com/hghalebi/eurorust-2026/actions) | Match the exact commit and completed jobs |
-| A published release | [Releases](https://github.com/hghalebi/eurorust-2026/releases) | Match the tag, commit, build identity, and downloaded hashes |
-| Conference observations | [Journal](../journal/README.md), [retrospective](../retrospective.md) | Preparation and actual participation carry different evidence |
+[The agent guide](agent-guide.md) explains which files to supply and how to ask
+for a plan. The [copyable prompt](../prompts/choose-my-path.md) helps you add your
+goals and constraints. The [data guide](data-guide.md) explains the available
+formats, source dates, review status, and recorded dataset versions.
 
-The [document inventory](document-map.json) owns classification. When a guide is
-superseded, update its current routes and label retained historical references.
+## Contribute to the collection
+
+[Share a correction, note, translation, or learning path](../CONTRIBUTING.md).
+Use the [source and reuse policy](source-and-reuse-policy.md) to check attribution
+and what is suitable to publish. An issue or a Markdown contribution is enough
+to start.
+
+## Optional tools and deeper references
+
+| When you need… | Open this |
+| --- | --- |
+| A draft from the local itinerary helper | [Optional CLI walkthrough](quickstart.md) |
+| Exact inputs, scoring rules, warnings, or recovery | [CLI reference](cli.md) |
+| A small code example related to a session question | [Rust experiments](../experiments/README.md) |
+| To refresh data or maintain the repository | [Maintenance guide](maintenance.md) |
+| Evidence of previously executed checks | [Dated validation receipts](validation.md) |
+
+For current conference details, follow the official session links. For the
+version of the data in this collection, read the [manifest](../data/manifest.json)
+and source retrieval dates. These answer different questions: a recorded dataset
+or successful check cannot establish a booking or actual attendance.

@@ -1,96 +1,92 @@
-# EuroRust 2026: a conference plan you can reuse
+# My EuroRust 2026: plans, notes, and shared conference data
 
-**My Rust learning path, a schedule you can browse, and a CLI that builds checked starting itineraries for attendees and their agents.**
+**My conference plan and preparation notes, with reusable EuroRust data for fellow attendees and the agents helping them choose.**
 
-I'm planning around production autonomous agents, Rust's type system,
-infrastructure, and robotics. Start with [my proposed path](my-conference/itinerary.md),
-then adapt the same conference context to your own goals.
+I'm exploring what Rust can teach me about better autonomous agents in
+production: type systems, reliable workers, infrastructure configuration, and
+robotics. This collection connects those interests to sessions, questions to
+bring, and ideas to follow up on.
 
-1. **Follow my plan:** [learning goals and preparation](my-conference/README.md).
-2. **Choose your sessions:** [browse the schedule](exports/schedule.md) and use
-   the [browser planning guide](docs/planning-guide.md). No installation needed.
-3. **Plan with your agent:** give it the [conference pack](exports/conference-pack.md)
-   and [copyable prompt](prompts/choose-my-path.md). Use your own harness.
+Start wherever it helps you:
 
-The event dates are **October 14–17, 2026**, in Barcelona. Session times use
+1. **Follow my path:** read [my learning goals](my-conference/README.md),
+   [proposed itinerary](my-conference/itinerary.md), and [preparation notes](notes/README.md).
+2. **Make your own plan:** [browse the schedule](exports/schedule.md), compare
+   sessions, and use the [planning guide](docs/planning-guide.md).
+3. **Use your agent:** give it the [conference pack](exports/conference-pack.md)
+   and your goals, following [the agent guide](docs/agent-guide.md).
+
+You can read and use the collection directly on GitHub. No installation is
+needed to browse, copy a template, or share the conference context with an agent.
+
+## How to use this collection
+
+Open [my proposed itinerary](my-conference/itinerary.md) to see how my interests
+translate into choices and alternatives. Borrow the reasoning that fits you,
+then use the [schedule](exports/schedule.md) and official session descriptions
+to make your own choices.
+
+Copy the [itinerary template](templates/itinerary.md) into your own notes. Add
+your available time, choose one session for each slot, and write down why it
+matters to you. Keep an alternative and a question to bring. The
+[planning guide](docs/planning-guide.md) walks through the decisions.
+
+The conference dates are **October 14–17, 2026**, in Barcelona. Session times use
 **Europe/Madrid**. Check the [official schedule](https://eurorust.eu/schedule/)
-for current times, tickets, prerequisites, and access to individual sessions.
+for current times, registration, prerequisites, and session access.
 
-## Quick start: generate a plan
+## How your agent can help
 
-**Prerequisites:** Git and a current stable Rust toolchain. Cloning needs network
-access, and the first build may download dependencies. The planning commands read the local snapshot
-and require no model provider, account, or API key.
+Use an agent you already work with to compare sessions against your goals.
+Give it the [conference pack](exports/conference-pack.md), the
+[dataset version and coverage](data/manifest.json), and the
+[planning prompt](prompts/choose-my-path.md). Add your dates, experience, and
+confirmed workshop bookings. Keep those personal details in your own workspace.
 
-```sh
-git clone https://github.com/hghalebi/eurorust-2026.git
-cd eurorust-2026
-cargo build --release --locked --package conference-data
-mkdir -p .cache/quickstart
-./target/release/conference-data validate
-./target/release/conference-data recommend \
-  --profile community/paths/backend-profile.json \
-  --output .cache/quickstart/itinerary.json \
-  --markdown .cache/quickstart/itinerary.md
-./target/release/conference-data check-itinerary \
-  --itinerary .cache/quickstart/itinerary.json
-```
+If your agent cannot open repository links, provide the files or paste their
+contents. Ask for a plan with reasons, alternatives, preparation needs, and
+official links. The [agent guide](docs/agent-guide.md) explains what to provide
+and how to review the result; the [data guide](docs/data-guide.md) covers JSON
+and other formats for your own tools.
 
-Open `.cache/quickstart/itinerary.md` to see times, reasons, official links,
-preparation, and alternatives. The final check prints:
+## What you'll find here
 
-```text
-Schedule feasibility checked; no booking or attendance claim
-```
+| Resource | What it helps you do |
+| --- | --- |
+| [My conference plan](my-conference/README.md) | Follow the questions behind my session choices |
+| [Schedule](exports/schedule.md) and [conference pack](exports/conference-pack.md) | Compare times, venues, topics, preparation needs, and official sources |
+| [Preparation notes](notes/README.md) and [resources](resources/README.md) | Arrive with a useful question and find further reading |
+| [Example paths](community/paths/README.md) and [templates](templates/itinerary.md) | Adapt a plan to different goals and keep your choices together |
+| [Journal](journal/README.md) and [retrospective](retrospective.md) | Follow observations and lessons as they become available |
+| [Small Rust experiments](experiments/README.md) | Explore two optional code examples connected to the learning goals |
 
-Warnings identify decisions that still need confirmation. The fictional backend
-profile covers October 15–16. [Make it your own](docs/quickstart.md#use-your-own-profile)
-by editing a local profile's topics, availability, and confirmed registrations.
-The CLI uses topic matching; an agent can interpret your broader goals.
+My itinerary is a proposal. Availability, bookings, attendance mode, and
+readiness remain unconfirmed. Preparation notes describe questions and source
+material; the journal records actual observations when they exist.
 
-See the [complete walkthrough](docs/quickstart.md) for verified example output,
-platform evidence, downloads, and troubleshooting.
+## Share something useful
 
-## What makes a plan traceable?
+A corrected detail, a preparation tip, a session note, or a path for another
+kind of attendee can help the next person choose.
+[CONTRIBUTING](CONTRIBUTING.md) explains how to share each one, including through
+a GitHub issue. You can contribute useful content without setting up the tools.
 
-The [manifest](data/manifest.json) identifies the dataset snapshot, generator
-fingerprint, coverage, and file hashes. Each session retains its official URL and
-retrieval date. Original community summaries carry attribution, a checked source
-hash, and a review status. Validation checks internal consistency; it does not
-establish live booking, access, or prerequisite readiness.
+If you share the collection, link the note, guide, or dataset that helped you.
 
-Use [JSON](data/catalog.json), [JSONL](exports/sessions.jsonl), or
-[Markdown](exports/conference-pack.md). The [data guide](docs/data-guide.md)
-explains the schema, collection rules, immutable snapshots, and recovery.
-The [CLI reference](docs/cli.md) explains exactly how selection and checks work.
+## Sources, reuse, and supporting tools
 
-## Turn a choice into something you can try
+The data includes official URLs and retrieval dates. Community summaries are
+attributed and show their review status. A snapshot is a recorded version of
+the dataset; it helps you explain which information your plan used. Read the
+[data guide](docs/data-guide.md) for formats, dates, and limitations.
 
-[Preparation notes](notes/README.md) connect session descriptions to questions
-about tool contracts, workers, infrastructure, and robotics. Two
-[small Rust experiments](experiments/README.md) exercise checked tool inputs and
-owned retry budgets. They are local learning examples with explicit limits.
+An optional local helper can generate a starting itinerary or check a JSON
+plan. Its [walkthrough](docs/quickstart.md) and [reference](docs/cli.md) are for
+readers who want those features. For all reading routes, see the
+[guide index](docs/README.md); for updating the collection, see
+[maintenance](docs/maintenance.md).
 
-My itinerary is conditional: availability, bookings, attendance mode, and
-readiness remain unconfirmed. The [journal](journal/README.md) and
-[retrospective](retrospective.md) separate preparation from actual observations.
-
-## Help the next attendee choose
-
-[Report a source discrepancy](community/corrections/README.md),
-[share a learning path](community/paths/README.md), or add an original session
-note. [CONTRIBUTING](CONTRIBUTING.md) shows the owning files and relevant checks;
-[starter issues](https://github.com/hghalebi/eurorust-2026/issues) offer focused ways in.
-If you share the project, link the guide, example, or experiment that helped you.
-
-## Build and check the tools
-
-The quick start uses the compiled executable in `target/release/`. For reusable
-`bin/` commands, follow [the installation steps](docs/quickstart.md#install-a-reusable-binary).
-Use the [task index](docs/README.md) for source and check routes and the
-[validation receipt](docs/validation.md) for dated evidence. Native downloads
-are available in [releases](https://github.com/hghalebi/eurorust-2026/releases).
-
-This is an independent attendee project. Code uses [MIT](LICENSE); original prose
-and annotations use [CC BY 4.0](LICENSES/README.md). Third-party materials retain
-their own terms. Read the [source and reuse policy](docs/source-and-reuse-policy.md).
+This is an independent attendee project. Original prose and annotations use
+[CC BY 4.0](LICENSES/README.md); supporting code uses [MIT](LICENSE).
+Third-party material retains its own terms. Read the
+[source and reuse policy](docs/source-and-reuse-policy.md).

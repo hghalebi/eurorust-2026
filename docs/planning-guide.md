@@ -1,11 +1,13 @@
 # Choose the EuroRust that fits you
 
 Start with what you want to understand, build, or improve when you get home.
-Then use that goal to choose your sessions. This guide works in a browser.
+Then use that goal to choose your sessions. Keep the
+[schedule](../exports/schedule.md) open alongside this guide and save your choices
+in your own notes. Everything here works in a browser.
 
 ## 1. Give your plan a purpose
 
-Copy the [itinerary template](../templates/itinerary.md) into your own files.
+Copy the [itinerary template](../templates/itinerary.md) into your own notes.
 Write down your learning goals, Rust experience, available time, attendance mode,
 booked workshops, and equipment constraints. A question such as “How should my
 worker recover after a failed tool call?” is easier to plan around than “learn
@@ -56,6 +58,6 @@ Before each session, bring one question. Afterward, record one idea to test and
 what you actually observed. Revisit the plan when the schedule or your priorities
 change.
 
-Want help comparing options? Use the [agent guide](agent-guide.md) with your own
-harness. Found something another attendee should know? [Share a correction or
+Want help comparing options? Use the [agent guide](agent-guide.md) with an agent
+you already work with. Found something another attendee should know? [Share a correction or
 note](../CONTRIBUTING.md).

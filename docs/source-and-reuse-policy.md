@@ -8,11 +8,11 @@ to crawl does not establish a license to redistribute a page or its assets.
 
 ## What this repository publishes
 
-The collector publishes factual metadata, source URLs, retrieval observations,
+The shared dataset contains factual metadata, source URLs, retrieval dates,
 and separately attributed original short summaries. Follow the official source
-for complete abstracts. Full source HTML, speaker biographies, photographs,
-slides, and transcripts are excluded from collector exports. Review access rules
-and reuse terms before adding a source.
+for complete abstracts. The collection tools exclude full source HTML, speaker
+biographies, photographs, slides, and transcripts from their exports. Review
+access rules and reuse terms before adding a source.
 
 ## What contributors can share
 

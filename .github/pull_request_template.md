@@ -1,7 +1,7 @@
-## What does this help a reader or tool do?
+## Who does this help, and what becomes clearer or more useful?
 
-Describe the problem and the resulting improvement. For a behavior change, give
-a concrete before-and-after example.
+Describe the reader's question or the detail that needs correcting. For a tool
+change, include a concrete example of the affected behavior.
 
 ## What supports the change?
 

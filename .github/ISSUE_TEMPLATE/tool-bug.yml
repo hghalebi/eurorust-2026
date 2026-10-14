@@ -1,5 +1,5 @@
-name: 'Report a tool problem'
-description: 'Help reproduce a collection, export, validation, or itinerary failure.'
+name: 'Report a problem with an optional tool'
+description: 'Help reproduce a failure in the local data or itinerary helpers.'
 labels: [bug]
 body:
   - type: textarea

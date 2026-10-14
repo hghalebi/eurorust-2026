@@ -12,9 +12,10 @@ assumption, the new evidence, and the tradeoff you now see.
 
 ## What did I try?
 
-Link the experiment or implementation, state the environment, and record the
-result. Keep a speaker's claim, your interpretation, and a measured outcome
-clearly attributed.
+Describe what you applied: a changed decision, a different way of working, or
+an experiment. Link the relevant notes or implementation and record the result.
+For a measured experiment, include the environment. Keep a speaker's claim,
+your interpretation, and an observed outcome clearly attributed.
 
 ## What still needs work?
 

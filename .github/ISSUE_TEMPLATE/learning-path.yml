@@ -6,7 +6,7 @@ body:
     id: proposal
     attributes:
       label: 'Who will this help, and what will they learn?'
-      description: 'Describe the audience and goal. Include session IDs, the snapshot, and your proposed path or note. Use fictional or intentionally shared assumptions; keep private logistics local.'
+      description: 'Describe the audience, goal, and proposed path or note. Include official session links, with session IDs and the dataset version if known. Use fictional or intentionally shared assumptions; keep private logistics local.'
     validations:
       required: true
   - type: textarea

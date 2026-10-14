@@ -1,7 +1,10 @@
-# CLI reference: inputs, choices, checks, and recovery
+# Optional CLI reference: inputs, choices, checks, and recovery
 
-Use the [quick start](quickstart.md) for a first itinerary. This reference explains
-what each command proves and which decisions remain with the participant.
+This reference is for the local helper that supports the conference collection.
+Use the [optional walkthrough](quickstart.md) for its setup and a complete example.
+For reading the collection or planning with your own agent, use the
+[guide index](README.md). The sections below explain what each command proves
+and which decisions remain with the participant.
 Run examples from the repository root after [installing `bin/conference-data`](quickstart.md#install-a-reusable-binary).
 
 ## Commands and paths
@@ -127,7 +130,7 @@ For a source update, `refresh` retrieves official pages and applies
 `community/annotations/sessions.json`; then regenerate and check the paths as
 above. A removal stops refresh unless reviewed and explicitly accepted with
 `--accept-removals`. Review orphaned annotations too. Read the
-[data guide](data-guide.md#source-discovery-and-refresh) before live collection.
+[maintenance guide](maintenance.md#refresh-official-data) before live collection.
 
 ## Implementation and evidence
 
@@ -143,4 +146,4 @@ above. A removal stops refresh unless reviewed and explicitly accepted with
   recovery, stale annotations, and rejected publication preserving the manifest.
 
 Use the [validation receipt](validation.md) for executed checks and the
-[task index](README.md) for the next owning source.
+[maintainer task map](maintenance.md#find-the-owning-file) for the next owning source.

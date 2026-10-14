@@ -3,7 +3,7 @@
     "path": ".github/pull_request_template.md",
     "class": "current",
     "owner": "repository maintainers",
-    "purpose": "Describe the reader problem, supporting evidence, and checks in a pull request",
+    "purpose": "Explain who a contribution helps and its sources, context, and checks",
     "scope": "EuroRust 2026 public repository",
     "replacement": null
   },
@@ -11,7 +11,7 @@
     "path": "AGENTS.md",
     "class": "current",
     "owner": "repository maintainers",
-    "purpose": "Route repository agents from task scope to owning source and observable proof",
+    "purpose": "Preserve the content-first identity and route edits to owning inputs and relevant checks",
     "scope": "EuroRust 2026 public repository",
     "replacement": null
   },
@@ -27,7 +27,7 @@
     "path": "CONTRIBUTING.md",
     "class": "current",
     "owner": "repository maintainers",
-    "purpose": "Choose a contribution, find its owning input, and supply reviewable evidence",
+    "purpose": "Share sourced corrections, notes, translations, and learning paths with or without local tooling",
     "scope": "EuroRust 2026 public repository",
     "replacement": null
   },
@@ -43,7 +43,7 @@
     "path": "README.md",
     "class": "current",
     "owner": "repository maintainers",
-    "purpose": "Introduce the personal learning goal and route attendees, agents, and contributors",
+    "purpose": "Introduce the personal conference collection and route readers to plans, notes, data, and agent use",
     "scope": "EuroRust 2026 public repository",
     "replacement": null
   },
@@ -59,7 +59,7 @@
     "path": "community/paths/README.md",
     "class": "example",
     "owner": "repository maintainers",
-    "purpose": "Compare fictional participant paths and contribute a shareable alternative",
+    "purpose": "Read, adapt, and contribute learning paths; reuse fictional profile and itinerary data",
     "scope": "EuroRust 2026 public repository",
     "replacement": null
   },
@@ -67,7 +67,7 @@
     "path": "docs/README.md",
     "class": "current",
     "owner": "repository maintainers",
-    "purpose": "Find the owning guide, source, check, and current evidence for a task",
+    "purpose": "Help readers find plans, preparation, agent context, contributions, and optional supporting tools",
     "scope": "EuroRust 2026 public repository",
     "replacement": null
   },
@@ -75,7 +75,7 @@
     "path": "docs/agent-guide.md",
     "class": "current",
     "owner": "repository maintainers",
-    "purpose": "Build a participant-specific itinerary with traceable choices and checked constraints",
+    "purpose": "Explain which context to give an agent, how to personalize the request, and how to review its plan",
     "scope": "EuroRust 2026 public repository",
     "replacement": null
   },
@@ -83,7 +83,7 @@
     "path": "docs/data-guide.md",
     "class": "current",
     "owner": "repository maintainers",
-    "purpose": "Interpret, refresh, validate, and recover the manifest-bound dataset",
+    "purpose": "Choose, obtain, interpret, and reuse a recorded version of the conference data",
     "scope": "EuroRust 2026 public repository",
     "replacement": null
   },
@@ -99,7 +99,7 @@
     "path": "docs/source-and-reuse-policy.md",
     "class": "current",
     "owner": "repository maintainers",
-    "purpose": "Keep publication, attribution, and evidence boundaries explicit",
+    "purpose": "Explain attribution, shared content, and source reuse boundaries",
     "scope": "EuroRust 2026 public repository",
     "replacement": null
   },
@@ -115,7 +115,7 @@
     "path": "experiments/README.md",
     "class": "example",
     "owner": "repository maintainers",
-    "purpose": "Choose a small Rust experiment and understand the contract it tests",
+    "purpose": "Explore optional Rust examples connected to the conference learning questions",
     "scope": "EuroRust 2026 public repository",
     "replacement": null
   },
@@ -155,7 +155,7 @@
     "path": "my-conference/README.md",
     "class": "example",
     "owner": "repository maintainers",
-    "purpose": "Explain the owner learning goals and route to choices, preparation, and experiments",
+    "purpose": "Explain the owner learning goals and help readers adapt the proposed path and preparation",
     "scope": "EuroRust 2026 public repository",
     "replacement": null
   },
@@ -171,7 +171,7 @@
     "path": "notes/README.md",
     "class": "reference",
     "owner": "repository maintainers",
-    "purpose": "Choose source-based preparation questions by learning goal",
+    "purpose": "Borrow preparation questions and connect them to notes, decisions, and follow-up ideas",
     "scope": "EuroRust 2026 public repository",
     "replacement": null
   },
@@ -219,7 +219,7 @@
     "path": "prompts/choose-my-path.md",
     "class": "current",
     "owner": "repository maintainers",
-    "purpose": "Supply participant goals and require a source-linked, constraint-aware agent plan",
+    "purpose": "Personalize a portable agent request for a readable, source-linked conference plan",
     "scope": "EuroRust 2026 public repository",
     "replacement": null
   },
@@ -235,7 +235,7 @@
     "path": "retrospective.md",
     "class": "reference",
     "owner": "repository maintainers",
-    "purpose": "Guide future evidence-based reflection after actual conference participation",
+    "purpose": "Reflect on observed lessons, changed decisions, and follow-up after participation",
     "scope": "EuroRust 2026 public repository",
     "replacement": null
   },
@@ -275,16 +275,24 @@
     "path": "docs/quickstart.md",
     "class": "current",
     "owner": "repository maintainers",
-    "purpose": "Build and check a first local itinerary, adapt a profile, and resolve setup failures",
-    "scope": "EuroRust 2026 participant CLI onboarding",
+    "purpose": "Optionally build the local itinerary helper, generate a draft, and check JSON plans",
+    "scope": "Optional local helper for EuroRust 2026 itinerary drafts and checks",
     "replacement": null
   },
   {
     "path": "docs/cli.md",
     "class": "current",
     "owner": "repository maintainers",
-    "purpose": "Explain command semantics, profile inputs, deterministic selection, warnings, and snapshot recovery",
+    "purpose": "Provide the optional helper command contract, scoring rules, warnings, and recovery procedure",
     "scope": "EuroRust 2026 compiled CLI contract",
+    "replacement": null
+  },
+  {
+    "path": "docs/maintenance.md",
+    "class": "current",
+    "owner": "repository maintainers",
+    "purpose": "Maintain the collection, refresh and recover data, and find supporting source files and checks",
+    "scope": "EuroRust 2026 collection maintenance and optional tooling",
     "replacement": null
   }
 ]

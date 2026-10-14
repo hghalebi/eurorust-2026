@@ -5,9 +5,9 @@ body:
   - type: input
     id: session
     attributes:
-      label: 'Which session and snapshot?'
-      description: 'Copy the session ID from the schedule and the snapshot ID from its heading or manifest.'
-      placeholder: 'Session ID; snapshot ID'
+      label: 'Which session or page needs a correction?'
+      description: 'Give the session name or official URL. Add its session ID and snapshot (dataset version) if you have them; maintainers can help locate the record.'
+      placeholder: 'Session name or URL; session ID and snapshot if known'
     validations:
       required: true
   - type: input
