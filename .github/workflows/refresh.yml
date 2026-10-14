@@ -43,12 +43,13 @@ jobs:
           for profile in community/paths/*-profile.json; do
             target/release/conference-data recommend --profile "$profile" --output "${profile%-profile.json}-itinerary.json"
           done
+          target/release/conference-data recommend --profile my-conference/profile.json --output my-conference/itinerary.json --markdown my-conference/itinerary.md
           cargo fmt --all --check
           cargo clippy --workspace --all-targets --locked -- -D warnings
           cargo test --workspace --locked
           target/release/conference-data validate
           target/release/conference-data check-docs
-          for path in community/paths/*-itinerary.json; do
+          for path in community/paths/*-itinerary.json my-conference/itinerary.json; do
             target/release/conference-data check-itinerary --itinerary "$path"
           done
       - name: Propose the checked snapshot for review
@@ -57,7 +58,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
-          git add -- data exports schema community/paths/*-itinerary.json
+          git add -- data exports schema community/paths/*-itinerary.json my-conference/itinerary.json my-conference/itinerary.md
           if git diff --cached --quiet; then
             exit 0
           fi

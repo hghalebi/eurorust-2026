@@ -105,10 +105,45 @@ impl From<ContentHash> for String {
     }
 }
 impl ContentHash {
+    pub fn from_content(bytes: &[u8]) -> Self {
+        use sha2::{Digest, Sha256};
+        Self(format!("{:x}", Sha256::digest(bytes)))
+    }
     pub fn as_str(&self) -> &str {
         &self.0
     }
 }
+impl std::fmt::Display for ContentHash {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        self.0.fmt(f)
+    }
+}
+
+macro_rules! count_value {
+    ($($name:ident),+ $(,)?) => {$(
+        #[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
+        #[serde(transparent)]
+        pub struct $name(usize);
+        impl From<usize> for $name {
+            fn from(value: usize) -> Self { Self(value) }
+        }
+        impl std::fmt::Display for $name {
+            fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result { self.0.fmt(f) }
+        }
+    )+};
+}
+/// Counts retain their meaning across publication APIs and JSON round trips.
+/// ```
+/// use conference_data::domain::SessionCount;
+/// let count = SessionCount::from(3);
+/// assert_eq!(serde_json::to_string(&count).unwrap(), "3");
+/// ```
+/// ```compile_fail
+/// use conference_data::domain::{SessionCount, DetailCount};
+/// let sessions: SessionCount = DetailCount::from(3);
+/// ```
+pub fn count_contract() {}
+count_value!(SessionCount, DetailCount);
 
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize, JsonSchema)]
 #[serde(try_from = "String", into = "String")]
@@ -383,6 +418,18 @@ impl DraftSnapshot {
                 return Err(crate::Error::Validation(
                     "annotation source or identity mismatch".into(),
                 ));
+            }
+            if let Some(annotation) = &session.annotation {
+                let detail = session.detail_source.as_ref().ok_or_else(|| {
+                    crate::Error::Validation("annotation requires detail-source evidence".into())
+                })?;
+                if annotation.source_content_sha256 != detail.content_sha256
+                    && annotation.review_status != AnnotationReview::SourceChanged
+                {
+                    return Err(crate::Error::Validation(
+                        "annotation hash differs from detail source; mark source_changed and review".into(),
+                    ));
+                }
             }
         }
         Ok(ValidatedSnapshot { catalog })

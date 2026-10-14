@@ -4,7 +4,12 @@ use crate::{
     domain::*,
 };
 use serde::{Deserialize, Serialize};
-use std::{collections::BTreeMap, fs, io::Write, path::Path};
+use std::{
+    collections::BTreeMap,
+    fs,
+    io::Write,
+    path::{Component, Path, PathBuf},
+};
 
 #[derive(Debug, Serialize, Deserialize)]
 #[serde(deny_unknown_fields)]
@@ -14,23 +19,23 @@ pub struct Manifest {
     pub generator_version: GeneratorVersion,
     pub generator_source_sha256: ContentHash,
     pub validated_at: Timestamp,
-    pub authoritative_catalog: String,
-    pub session_count: usize,
-    pub detail_count: usize,
-    pub files: BTreeMap<String, String>,
+    pub authoritative_catalog: PathBuf,
+    pub session_count: SessionCount,
+    pub detail_count: DetailCount,
+    pub files: BTreeMap<PathBuf, ContentHash>,
 }
 
 pub fn snapshot_id(catalog: &Catalog) -> Result<SnapshotId> {
     snapshot_id_with_generator(catalog, &generator_fingerprint())
 }
 
-fn snapshot_id_with_generator(catalog: &Catalog, generator: &str) -> Result<SnapshotId> {
+fn snapshot_id_with_generator(catalog: &Catalog, generator: &ContentHash) -> Result<SnapshotId> {
     let mut identity = serde_json::to_vec(catalog)?;
-    identity.extend_from_slice(generator.as_bytes());
-    format!("eurorust-2026-{}", &digest(&identity)[..20]).try_into()
+    identity.extend_from_slice(generator.as_str().as_bytes());
+    format!("eurorust-2026-{}", &digest(&identity).as_str()[..20]).try_into()
 }
 
-fn generator_fingerprint() -> String {
+fn generator_fingerprint() -> ContentHash {
     digest(
         concat!(
             include_str!("domain.rs"),
@@ -66,7 +71,7 @@ pub fn markdown(catalog: &Catalog, pack: bool) -> Result<String> {
             out.push_str(&format!("\n## {day}\n\n"));
             if !pack {
                 out.push_str(
-                    "| Start | End | Session | Stage | ID |\n| --- | --- | --- | --- | --- |\n",
+                    "| Start | End | Session | Stage | Venue | Prerequisites / setup | ID |\n| --- | --- | --- | --- | --- | --- | --- |\n",
                 );
             }
         }
@@ -77,11 +82,29 @@ pub fn markdown(catalog: &Catalog, pack: bool) -> Result<String> {
             .map(|t| t.datetime().format("%H:%M").to_string())
             .unwrap_or_else(|| "unknown".into());
         if !pack {
+            let venue = session
+                .venue_id
+                .as_ref()
+                .and_then(|id| catalog.venues.iter().find(|v| &v.id == id))
+                .map_or("unknown; check source", |v| v.name.as_str());
+            let preparation = match &session.annotation {
+                Some(a) if a.review_status != AnnotationReview::SourceChanged => format!(
+                    "Prerequisites: {}; setup: {}",
+                    a.prerequisites
+                        .as_ref()
+                        .map_or("unknown", Prerequisite::as_str),
+                    a.setup.as_ref().map_or("unknown", SetupRequirement::as_str)
+                ),
+                Some(_) => "Source changed; recheck official prerequisites and setup".into(),
+                None => "Unknown; check official page".into(),
+            };
             out.push_str(&format!(
-                "| {start} | {end} | [{}]({}) | {} | `{}` |\n",
+                "| {start} | {end} | [{}]({}) | {} | {} | {} | `{}` |\n",
                 cell(session.title.as_str()),
                 session.official_url.as_str(),
                 session.stage.as_ref().map_or("unknown", StageName::as_str),
+                cell(venue),
+                cell(&preparation),
                 session.id.as_str()
             ));
             continue;
@@ -123,33 +146,39 @@ fn atomic_write(path: &Path, bytes: &[u8]) -> Result<()> {
 pub fn publish(snapshot: ValidatedSnapshot, root: &Path) -> Result<Manifest> {
     let catalog = snapshot.catalog();
     let id = snapshot_id(catalog)?;
-    let mut files = BTreeMap::new();
-    files.insert("data/catalog.json".to_owned(), pretty(catalog)?);
+    let mut files: BTreeMap<PathBuf, Vec<u8>> = BTreeMap::new();
+    files.insert(PathBuf::from("data/catalog.json"), pretty(catalog)?);
     files.insert(
-        "data/conference.json".to_owned(),
+        PathBuf::from("data/conference.json"),
         pretty(&catalog.conference)?,
     );
-    files.insert("data/sessions.json".to_owned(), pretty(&catalog.sessions)?);
-    files.insert("data/speakers.json".to_owned(), pretty(&catalog.speakers)?);
-    files.insert("data/venues.json".to_owned(), pretty(&catalog.venues)?);
     files.insert(
-        "schema/catalog.schema.json".to_owned(),
+        PathBuf::from("data/sessions.json"),
+        pretty(&catalog.sessions)?,
+    );
+    files.insert(
+        PathBuf::from("data/speakers.json"),
+        pretty(&catalog.speakers)?,
+    );
+    files.insert(PathBuf::from("data/venues.json"), pretty(&catalog.venues)?);
+    files.insert(
+        PathBuf::from("schema/catalog.schema.json"),
         pretty(&schemars::schema_for!(Catalog))?,
     );
     files.insert(
-        "schema/profile.schema.json".to_owned(),
+        PathBuf::from("schema/profile.schema.json"),
         pretty(&schemars::schema_for!(crate::itinerary::Profile))?,
     );
     files.insert(
-        "schema/itinerary.schema.json".to_owned(),
+        PathBuf::from("schema/itinerary.schema.json"),
         pretty(&schemars::schema_for!(crate::itinerary::Itinerary))?,
     );
     files.insert(
-        "exports/schedule.md".to_owned(),
+        PathBuf::from("exports/schedule.md"),
         markdown(catalog, false)?.into_bytes(),
     );
     files.insert(
-        "exports/conference-pack.md".to_owned(),
+        PathBuf::from("exports/conference-pack.md"),
         markdown(catalog, true)?.into_bytes(),
     );
     let mut jsonl = Vec::new();
@@ -157,20 +186,25 @@ pub fn publish(snapshot: ValidatedSnapshot, root: &Path) -> Result<Manifest> {
         serde_json::to_writer(&mut jsonl, session)?;
         jsonl.push(b'\n');
     }
-    files.insert("exports/sessions.jsonl".to_owned(), jsonl);
+    files.insert(PathBuf::from("exports/sessions.jsonl"), jsonl);
     let manifest = Manifest {
         snapshot_id: id.clone(),
         schema_version: catalog.schema_version.clone(),
         generator_version: env!("CARGO_PKG_VERSION").to_owned().try_into()?,
-        generator_source_sha256: generator_fingerprint().try_into()?,
+        generator_source_sha256: generator_fingerprint(),
         validated_at: Timestamp::now(),
-        authoritative_catalog: format!("data/snapshots/{}/data/catalog.json", id.as_str()),
-        session_count: catalog.sessions.len(),
-        detail_count: catalog
-            .sessions
-            .iter()
-            .filter(|s| s.detail_source.is_some())
-            .count(),
+        authoritative_catalog: PathBuf::from(format!(
+            "data/snapshots/{}/data/catalog.json",
+            id.as_str()
+        )),
+        session_count: SessionCount::from(catalog.sessions.len()),
+        detail_count: DetailCount::from(
+            catalog
+                .sessions
+                .iter()
+                .filter(|s| s.detail_source.is_some())
+                .count(),
+        ),
         files: files
             .iter()
             .map(|(path, bytes)| (path.clone(), digest(bytes)))
@@ -225,33 +259,33 @@ pub fn verify(root: &Path) -> Result<VerifiedBundle> {
     if manifest.files.len() != required.len()
         || required
             .iter()
-            .any(|path| !manifest.files.contains_key(*path))
+            .any(|path| !manifest.files.contains_key(Path::new(path)))
     {
         return Err(Error::Validation(
             "manifest must cover every published data/schema/export view".into(),
         ));
     }
     let authoritative = root.join(&manifest.authoritative_catalog);
-    if manifest.authoritative_catalog
-        != format!(
-            "data/snapshots/{}/data/catalog.json",
-            manifest.snapshot_id.as_str()
-        )
-    {
+    let expected_catalog = format!(
+        "data/snapshots/{}/data/catalog.json",
+        manifest.snapshot_id.as_str()
+    );
+    if manifest.authoritative_catalog != Path::new(&expected_catalog) {
         return Err(Error::Validation("invalid snapshot path".into()));
     }
     let checked = load(&authoritative)?;
-    if snapshot_id_with_generator(checked.catalog(), manifest.generator_source_sha256.as_str())?
+    if snapshot_id_with_generator(checked.catalog(), &manifest.generator_source_sha256)?
         != manifest.snapshot_id
-        || checked.catalog().sessions.len() != manifest.session_count
+        || SessionCount::from(checked.catalog().sessions.len()) != manifest.session_count
         || checked.catalog().schema_version != manifest.schema_version
-        || checked
-            .catalog()
-            .sessions
-            .iter()
-            .filter(|s| s.detail_source.is_some())
-            .count()
-            != manifest.detail_count
+        || DetailCount::from(
+            checked
+                .catalog()
+                .sessions
+                .iter()
+                .filter(|s| s.detail_source.is_some())
+                .count(),
+        ) != manifest.detail_count
     {
         return Err(Error::Validation("manifest identity/count mismatch".into()));
     }
@@ -260,17 +294,20 @@ pub fn verify(root: &Path) -> Result<VerifiedBundle> {
         .and_then(Path::parent)
         .ok_or_else(|| Error::Validation("snapshot parent missing".into()))?;
     for (path, hash) in &manifest.files {
-        if path.contains("..") || Path::new(path).is_absolute() {
+        if path.components().any(|part| part == Component::ParentDir) || path.is_absolute() {
             return Err(Error::Validation("invalid manifest file path".into()));
         }
         if digest(&fs::read(root.join(path))?) != *hash
             || digest(&fs::read(snapshot_root.join(path))?) != *hash
         {
-            return Err(Error::Validation(format!("export digest mismatch: {path}")));
+            return Err(Error::Validation(format!(
+                "export digest mismatch: {}",
+                path.display()
+            )));
         }
     }
     let live = load(&root.join("data/catalog.json"))?;
-    if snapshot_id_with_generator(live.catalog(), manifest.generator_source_sha256.as_str())?
+    if snapshot_id_with_generator(live.catalog(), &manifest.generator_source_sha256)?
         != manifest.snapshot_id
     {
         return Err(Error::Validation(

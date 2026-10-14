@@ -163,7 +163,7 @@
     "path": "my-conference/itinerary.md",
     "class": "example",
     "owner": "repository maintainers",
-    "purpose": "itinerary documentation",
+    "purpose": "Generated exact-slot shareable learning path with conditional logistics",
     "scope": "EuroRust 2026 public repository",
     "replacement": null
   },

@@ -2,13 +2,12 @@ use crate::{Error, Result, domain::*, invalid};
 use reqwest::{blocking::Client, header};
 use scraper::{Html, Selector};
 use serde::{Deserialize, Serialize};
-use sha2::{Digest, Sha256};
 use std::{collections::BTreeMap, fs, path::Path, thread, time::Duration};
 
 pub const ORIGIN: &str = "https://eurorust.eu";
 pub const SCHEDULE: &str = "https://eurorust.eu/schedule/";
-pub fn digest(bytes: &[u8]) -> String {
-    format!("{:x}", Sha256::digest(bytes))
+pub fn digest(bytes: &[u8]) -> ContentHash {
+    ContentHash::from_content(bytes)
 }
 pub fn selector(value: &str) -> Selector {
     Selector::parse(value).expect("static CSS selector")
@@ -136,7 +135,7 @@ impl SourceClient {
                 source_url: url.clone(),
                 retrieved_at: Timestamp::now(),
                 source_updated_at,
-                content_sha256: digest(body.as_bytes()).try_into()?,
+                content_sha256: digest(body.as_bytes()),
             };
             let page = CachedPage {
                 body,
@@ -294,7 +293,10 @@ pub fn parse_schedule(body: &str, source: Provenance) -> Result<DraftSnapshot> {
                 (slug(href), SourceUrl::try_from(format!("{ORIGIN}{href}"))?)
             }
             Some(href) if kind == SessionKind::SideActivity && href.starts_with("https://") => (
-                format!("activities-external-{}", &digest(href.as_bytes())[..16]),
+                format!(
+                    "activities-external-{}",
+                    &digest(href.as_bytes()).as_str()[..16]
+                ),
                 SourceUrl::try_from(href.to_owned())?,
             ),
             Some(_) => return Err(Error::Layout("unexpected external session link".into())),
@@ -313,9 +315,12 @@ pub fn parse_schedule(body: &str, source: Provenance) -> Result<DraftSnapshot> {
                 .map(str::trim)
                 .filter(|s| !s.is_empty())
             {
-                let id: SpeakerId =
-                    format!("speaker-{}-{}", slug(name), &digest(name.as_bytes())[..8])
-                        .try_into()?;
+                let id: SpeakerId = format!(
+                    "speaker-{}-{}",
+                    slug(name),
+                    &digest(name.as_bytes()).as_str()[..8]
+                )
+                .try_into()?;
                 speakers.entry(id.clone()).or_insert(Speaker {
                     id: id.clone(),
                     name: name.to_owned().try_into()?,
@@ -505,7 +510,7 @@ mod tests {
             source_url: SCHEDULE.to_owned().try_into().unwrap(),
             retrieved_at: Timestamp::now(),
             source_updated_at: None,
-            content_sha256: digest(b"fixture").try_into().unwrap(),
+            content_sha256: digest(b"fixture"),
         }
     }
     #[test]
