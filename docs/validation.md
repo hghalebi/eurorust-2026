@@ -27,3 +27,21 @@ completed; a local result alone establishes none of those outcomes.
 
 Use [the checks](../CONTRIBUTING.md#checks) to reproduce verification. Do not infer
 remote publication, tickets, or attendance from a local check.
+
+## Public delivery evidence
+
+The reviewed implementation commit `82e6ca4625c5263a3957086a37ec95e4cdfdef2a`
+passed [remote CI](https://github.com/hghalebi/eurorust-2026/actions/runs/38583741040).
+A fresh clone of the public GitHub repository passed formatting, strict lint,
+tests, release build, dataset validation, public document checks, and all four
+published paths using its own compiled executables. It contained no private
+planning folder. An independently supplied fictional one-day participant profile
+produced 8 checked selections, different from the owner's 18-selection example;
+optional workshops respected that profile's availability.
+
+The repository is public, and GitHub's implementation commit matches local Git.
+The remote tree contains no private planning, source cache, build output or local
+executables. Starter [contribution issues](https://github.com/hghalebi/eurorust-2026/issues)
+are published. For later changes, inspect the exact current commit in
+[Actions](https://github.com/hghalebi/eurorust-2026/actions) and match a release's
+build identity and download digests; the dated receipt above is historical evidence.
