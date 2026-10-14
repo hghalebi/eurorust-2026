@@ -218,6 +218,47 @@ fn readable_outputs_preserve_venue_preparation_and_exact_itinerary_evidence() {
 }
 
 #[test]
+fn readable_optional_workshops_respect_participant_availability() {
+    let directory = tempfile::tempdir().unwrap();
+    let mut catalog = fixture_catalog();
+    let mut workshop = catalog.sessions[0].clone();
+    workshop.id = "workshops-fixture".to_owned().try_into().unwrap();
+    workshop.kind = SessionKind::Workshop;
+    workshop.slot = Slot::new(
+        "2026-10-14T10:00:00+02:00".to_owned().try_into().unwrap(),
+        Some("2026-10-14T16:00:00+02:00".to_owned().try_into().unwrap()),
+    )
+    .unwrap();
+    workshop.annotation = None;
+    workshop.detail_source = None;
+    catalog.sessions.push(workshop);
+    export::publish(
+        DraftSnapshot::new(catalog).validate().unwrap(),
+        directory.path(),
+    )
+    .unwrap();
+    let checked = export::verify(directory.path()).unwrap();
+    let unconstrained = itinerary::recommend(&checked, profile("async")).unwrap();
+    assert!(
+        itinerary::markdown(&checked, &unconstrained)
+            .unwrap()
+            .contains("workshops-fixture")
+    );
+    let mut constrained = profile("async");
+    constrained.available_windows = vec![
+        Slot::new(
+            "2026-10-15T10:00:00+02:00".to_owned().try_into().unwrap(),
+            Some("2026-10-15T18:00:00+02:00".to_owned().try_into().unwrap()),
+        )
+        .unwrap(),
+    ];
+    let plan = itinerary::recommend(&checked, constrained).unwrap();
+    let text = itinerary::markdown(&checked, &plan).unwrap();
+    assert!(!text.contains("workshops-fixture"));
+    assert!(!text.contains("October 17"));
+}
+
+#[test]
 fn modified_view_is_detected_and_offline_export_recovers() {
     let directory = tempfile::tempdir().unwrap();
     let checked = bundle(directory.path());

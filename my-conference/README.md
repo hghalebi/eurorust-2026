@@ -23,3 +23,7 @@ bin/conference-data recommend --profile my-conference/profile.json --output my-c
 
 Personal logistics stay outside the published examples. Other participants
 should choose their own path from their goals and constraints.
+
+For my follow-up, October 17 impl Day is a conditional opportunity to test a
+small tool or worker contract and its failure behavior. Confirm participation
+and prepare the environment before treating this as a commitment.

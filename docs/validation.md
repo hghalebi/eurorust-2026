@@ -3,7 +3,7 @@
 Local verification on 2026-10-14, macOS arm64, Rust/Cargo 1.98.0:
 
 - Formatting and Clippy with warnings denied passed for the workspace.
-- 16 unit/integration tests and 9 rustdoc cases passed, including 5 compile-fail
+- 17 unit/integration tests and 9 rustdoc cases passed, including 5 compile-fail
   cases. Negative cases include malformed source layout, invalid constructors,
   broken references, overlap, stale itinerary identity, corrupt exports, failed
   input preserving the last snapshot, and active-to-history/private doc routes.

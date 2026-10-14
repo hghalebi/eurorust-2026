@@ -92,13 +92,17 @@ pub fn markdown(snapshot: &export::VerifiedBundle, plan: &Itinerary) -> Result<S
             ));
         }
     }
-    if plan.profile.registered_workshops.is_empty() {
+    let workshops: Vec<_> = catalog
+        .sessions
+        .iter()
+        .filter(|s| {
+            s.kind == SessionKind::Workshop
+                && within_availability(s, &plan.profile.available_windows)
+        })
+        .collect();
+    if plan.profile.registered_workshops.is_empty() && !workshops.is_empty() {
         out.push_str("\n## Conditional workshop choices\n\nNo workshop booking is recorded, so none is selected. October 14 may already have started or passed when you read this. Check availability and prerequisites before choosing one:\n\n");
-        for session in catalog
-            .sessions
-            .iter()
-            .filter(|s| s.kind == SessionKind::Workshop)
-        {
+        for session in workshops {
             out.push_str(&format!(
                 "- [{}]({}) — {} (`{}`).\n",
                 session.title.as_str(),
@@ -108,7 +112,7 @@ pub fn markdown(snapshot: &export::VerifiedBundle, plan: &Itinerary) -> Result<S
             ));
         }
     }
-    out.push_str("\n## Capture and apply\n\nBefore each session, write one question. After attending, record one concrete follow-up and label actual observations separately. Use October 17 impl Day conditionally to test a small tool or worker contract and its failure behavior.\n");
+    out.push_str("\n## Capture and apply\n\nBefore each session, write one question. After attending, record one concrete follow-up connected to your goals and label actual observations separately.\n");
     Ok(out)
 }
 
@@ -121,17 +125,7 @@ pub fn recommend(snapshot: &export::VerifiedBundle, profile: Profile) -> Result<
         {
             continue;
         }
-        if !profile.available_windows.is_empty()
-            && !profile.available_windows.iter().any(|w| {
-                w.start() <= session.slot.start()
-                    && w.end().is_some_and(|end| {
-                        session
-                            .slot
-                            .end()
-                            .is_some_and(|session_end| session_end <= end)
-                    })
-            })
-        {
+        if !within_availability(session, &profile.available_windows) {
             continue;
         }
         let mut score = 0;
@@ -262,13 +256,7 @@ pub fn check(snapshot: &export::VerifiedBundle, itinerary: &Itinerary) -> Result
                 session.id.as_str()
             )));
         }
-        if !itinerary.profile.available_windows.is_empty()
-            && !itinerary.profile.available_windows.iter().any(|w| {
-                w.start() <= session.slot.start()
-                    && w.end()
-                        .is_some_and(|e| session.slot.end().is_some_and(|end| end <= e))
-            })
-        {
+        if !within_availability(session, &itinerary.profile.available_windows) {
             return Err(Error::Validation(
                 "selection outside participant availability".into(),
             ));
@@ -307,6 +295,19 @@ pub fn check(snapshot: &export::VerifiedBundle, itinerary: &Itinerary) -> Result
         }
     }
     Ok(warnings)
+}
+
+fn within_availability(session: &Session, windows: &[Slot]) -> bool {
+    windows.is_empty()
+        || windows.iter().any(|w| {
+            w.start() <= session.slot.start()
+                && w.end().is_some_and(|end| {
+                    session
+                        .slot
+                        .end()
+                        .is_some_and(|session_end| session_end <= end)
+                })
+        })
 }
 
 fn validate_profile(catalog: &Catalog, profile: &Profile) -> Result<()> {
