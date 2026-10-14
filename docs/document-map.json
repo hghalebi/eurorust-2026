@@ -1,0 +1,274 @@
+[
+  {
+    "path": ".github/pull_request_template.md",
+    "class": "current",
+    "owner": "repository maintainers",
+    "purpose": "pull_request_template documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "AGENTS.md",
+    "class": "current",
+    "owner": "repository maintainers",
+    "purpose": "AGENTS documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "CODE_OF_CONDUCT.md",
+    "class": "current",
+    "owner": "repository maintainers",
+    "purpose": "CODE_OF_CONDUCT documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "class": "current",
+    "owner": "repository maintainers",
+    "purpose": "CONTRIBUTING documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "LICENSES/README.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "README documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "README.md",
+    "class": "current",
+    "owner": "repository maintainers",
+    "purpose": "README documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "community/corrections/README.md",
+    "class": "current",
+    "owner": "repository maintainers",
+    "purpose": "README documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "community/paths/README.md",
+    "class": "example",
+    "owner": "repository maintainers",
+    "purpose": "README documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "docs/README.md",
+    "class": "current",
+    "owner": "repository maintainers",
+    "purpose": "README documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "docs/agent-guide.md",
+    "class": "current",
+    "owner": "repository maintainers",
+    "purpose": "agent guide documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "docs/data-guide.md",
+    "class": "current",
+    "owner": "repository maintainers",
+    "purpose": "data guide documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "docs/planning-guide.md",
+    "class": "current",
+    "owner": "repository maintainers",
+    "purpose": "planning guide documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "docs/source-and-reuse-policy.md",
+    "class": "current",
+    "owner": "repository maintainers",
+    "purpose": "source and reuse policy documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "docs/validation.md",
+    "class": "current",
+    "owner": "repository maintainers",
+    "purpose": "validation documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "experiments/README.md",
+    "class": "example",
+    "owner": "repository maintainers",
+    "purpose": "README documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "experiments/checked-tool-input.md",
+    "class": "example",
+    "owner": "repository maintainers",
+    "purpose": "checked tool input documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "experiments/owned-retry-budget.md",
+    "class": "example",
+    "owner": "repository maintainers",
+    "purpose": "owned retry budget documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "journal/2026-10-14.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "2026 10 14 documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "journal/README.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "README documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "my-conference/README.md",
+    "class": "example",
+    "owner": "repository maintainers",
+    "purpose": "README documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "my-conference/itinerary.md",
+    "class": "example",
+    "owner": "repository maintainers",
+    "purpose": "itinerary documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "notes/README.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "README documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "notes/talks/background-workers.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "background workers documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "notes/talks/compile-time-contracts.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "compile time contracts documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "notes/talks/compiled-infrastructure.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "compiled infrastructure documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "notes/talks/streaming-state-machines.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "streaming state machines documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "notes/workshops/robotics-integration.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "robotics integration documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "prompts/choose-my-path.md",
+    "class": "current",
+    "owner": "repository maintainers",
+    "purpose": "choose my path documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "resources/README.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "README documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "retrospective.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "retrospective documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "templates/itinerary.md",
+    "class": "example",
+    "owner": "repository maintainers",
+    "purpose": "itinerary documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "templates/session.md",
+    "class": "example",
+    "owner": "repository maintainers",
+    "purpose": "session documentation",
+    "scope": "EuroRust 2026 public repository",
+    "replacement": null
+  },
+  {
+    "path": "exports/schedule.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Generated conference view",
+    "scope": "Manifest-bound EuroRust snapshot",
+    "replacement": null
+  },
+  {
+    "path": "exports/conference-pack.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Generated conference view",
+    "scope": "Manifest-bound EuroRust snapshot",
+    "replacement": null
+  }
+]

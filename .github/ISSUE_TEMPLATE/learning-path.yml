@@ -1,0 +1,17 @@
+name: Learning path or note
+description: Share a reusable path, preparation note, or observed lesson
+labels: [community]
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Audience, goals, session IDs, snapshot, and proposed contribution
+      description: Use fictional or intentionally shared profiles; keep private logistics out.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sources, attendance context, and verification
+    validations:
+      required: true

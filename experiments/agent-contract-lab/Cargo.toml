@@ -1,0 +1,12 @@
+[package]
+name = "agent-contract-lab"
+version = "0.1.0"
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Small experiments in checked tool requests and owned local retry budgets"
+
+[dependencies]
+clap.workspace = true
+thiserror.workspace = true

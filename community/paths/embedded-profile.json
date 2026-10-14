@@ -1,0 +1,23 @@
+{
+  "name": "Fictional embedded participant",
+  "goals": [
+    "Explore Rust hardware integration and robotics"
+  ],
+  "topics": [
+    "embedded",
+    "robotics",
+    "hardware"
+  ],
+  "available_windows": [
+    {
+      "start": "2026-10-15T10:00:00+02:00",
+      "end": "2026-10-15T18:30:00+02:00"
+    },
+    {
+      "start": "2026-10-16T10:00:00+02:00",
+      "end": "2026-10-16T18:30:00+02:00"
+    }
+  ],
+  "registered_workshops": [],
+  "attendance_mode": "in_person"
+}

@@ -1,0 +1,11 @@
+name: Tool bug
+description: Report collection, validation, export, or planning behavior
+labels: [bug]
+body:
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Commands, expected behavior, actual output, and platform
+      description: Include the tool version and snapshot; omit credentials and private profiles.
+    validations:
+      required: true

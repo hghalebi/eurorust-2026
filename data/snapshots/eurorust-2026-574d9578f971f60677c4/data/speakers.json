@@ -1,0 +1,217 @@
+[
+  {
+    "id": "speaker-albert-lockett-d55dabb1",
+    "name": "Albert Lockett",
+    "source_url": "https://eurorust.eu/talks/building-a-high-performance-thread-per-core-zero-copy-opentelemetry-engine-in-rust/"
+  },
+  {
+    "id": "speaker-alex-read-65ccc9bf",
+    "name": "Alex Read",
+    "source_url": "https://eurorust.eu/workshops/rust-in-action/"
+  },
+  {
+    "id": "speaker-amos-wenger-94826399",
+    "name": "Amos Wenger",
+    "source_url": "https://eurorust.eu/talks/game-show/"
+  },
+  {
+    "id": "speaker-andr-eriksson-d633058c",
+    "name": "André Eriksson",
+    "source_url": "https://eurorust.eu/talks/your-infrastructure-should-compile-too/"
+  },
+  {
+    "id": "speaker-andre-bogus-93bc0bec",
+    "name": "Andre Bogus",
+    "source_url": "https://eurorust.eu/talks/from-deref-into-borrow-a-primer-on-standard-library-traits/"
+  },
+  {
+    "id": "speaker-arthur-cohen-e46114d6",
+    "name": "Arthur Cohen",
+    "source_url": "https://eurorust.eu/talks/compiling-the-linux-kernel-with-gccrs/"
+  },
+  {
+    "id": "speaker-arya-dradjica-79529315",
+    "name": "Arya Dradjica",
+    "source_url": "https://eurorust.eu/talks/building-a-query-system/"
+  },
+  {
+    "id": "speaker-benedikt-wiethof-71f96ff9",
+    "name": "Benedikt Wiethof",
+    "source_url": "https://eurorust.eu/talks/the-future-of-unmanned-systems-is-built-on-rust/"
+  },
+  {
+    "id": "speaker-bj-rn-barwinski-77b0809c",
+    "name": "Björn Barwinski",
+    "source_url": "https://eurorust.eu/workshops/hands-on-embedded-rust/"
+  },
+  {
+    "id": "speaker-connor-tsui-9bcb3f5a",
+    "name": "Connor Tsui",
+    "source_url": "https://eurorust.eu/talks/vortex-one-format-for-any-shape/"
+  },
+  {
+    "id": "speaker-cristi-n-maureira-fredes-842ad79e",
+    "name": "Cristián Maureira-Fredes",
+    "source_url": "https://eurorust.eu/talks/rust-s-influence-on-c-and-python-shaping-the-future-of-three-communities/"
+  },
+  {
+    "id": "speaker-daniel-rodriguez-e9c644c7",
+    "name": "Daniel Rodriguez",
+    "source_url": "https://eurorust.eu/talks/blastbeat-when-a-decade-of-c-meets-rust-and-io-uring/"
+  },
+  {
+    "id": "speaker-domenic-quirl-ffc9c850",
+    "name": "Domenic Quirl",
+    "source_url": "https://eurorust.eu/workshops/hands-on-embedded-rust/"
+  },
+  {
+    "id": "speaker-filip-petkovski-da6fe955",
+    "name": "Filip Petkovski",
+    "source_url": "https://eurorust.eu/talks/running-safely-with-scissors-lock-free-concurrency-for-maximum-throughput/"
+  },
+  {
+    "id": "speaker-francois-mockers-a962584a",
+    "name": "Francois Mockers",
+    "source_url": "https://eurorust.eu/talks/supply-chain-attacks-and-how-to-protect-ourselves/"
+  },
+  {
+    "id": "speaker-frank-lyaruu-f7e1af9c",
+    "name": "Frank Lyaruu",
+    "source_url": "https://eurorust.eu/talks/from-hardware-to-human-interface-building-hid-devices-in-rust/"
+  },
+  {
+    "id": "speaker-giacomo-bagnoli-1f228113",
+    "name": "Giacomo Bagnoli",
+    "source_url": "https://eurorust.eu/talks/blastbeat-when-a-decade-of-c-meets-rust-and-io-uring/"
+  },
+  {
+    "id": "speaker-jake-lishman-fc953dbc",
+    "name": "Jake Lishman",
+    "source_url": "https://eurorust.eu/talks/moving-a-quantum-compiler-from-python-to-rust/"
+  },
+  {
+    "id": "speaker-jana-d-nszelmann-f6d22cc4",
+    "name": "Jana Dönszelmann",
+    "source_url": "https://eurorust.eu/talks/optimizing-the-new-rust-trait-solver/"
+  },
+  {
+    "id": "speaker-johan-rosengren-9db45c0a",
+    "name": "Johan Rosengren",
+    "source_url": "https://eurorust.eu/talks/image-codecs-rustification-in-chromium/"
+  },
+  {
+    "id": "speaker-johan-sannemo-951eac7a",
+    "name": "Johan Sannemo",
+    "source_url": "https://eurorust.eu/workshops/building-a-virtual-machine-monitor-in-rust/"
+  },
+  {
+    "id": "speaker-jonas-kruckenberg-ef661ef6",
+    "name": "Jonas Kruckenberg",
+    "source_url": "https://eurorust.eu/workshops/containers-are-dead/"
+  },
+  {
+    "id": "speaker-jonathan-pallant-b53eabe6",
+    "name": "Jonathan Pallant",
+    "source_url": "https://eurorust.eu/talks/tales-from-the-embedded-rust-frontier-bootstrapping-a-brand-new-ecosystem/"
+  },
+  {
+    "id": "speaker-juli-n-montes-de-oca-a60f5276",
+    "name": "Julián Montes de Oca",
+    "source_url": "https://eurorust.eu/workshops/beyond-p99-observing-async-rust/"
+  },
+  {
+    "id": "speaker-lcnr-078d4d35",
+    "name": "lcnr",
+    "source_url": "https://eurorust.eu/talks/what-s-next-for-rust-s-type-system/"
+  },
+  {
+    "id": "speaker-magnus-markling-56ebb7b6",
+    "name": "Magnus Markling",
+    "source_url": "https://eurorust.eu/workshops/c-to-rust/"
+  },
+  {
+    "id": "speaker-martin-ombura-jr-ea73724e",
+    "name": "Martin Ombura Jr.",
+    "source_url": "https://eurorust.eu/talks/atomic-design-patterns-in-rust-from-orderings-to-code/"
+  },
+  {
+    "id": "speaker-massimiliano-mantione-558069e0",
+    "name": "Massimiliano Mantione",
+    "source_url": "https://eurorust.eu/workshops/programming-a-line-follower-robot/"
+  },
+  {
+    "id": "speaker-matthias-rauter-bb3ef338",
+    "name": "Matthias Rauter",
+    "source_url": "https://eurorust.eu/talks/qt-bridges-bringing-a-mature-c-ui-framework-to-rust/"
+  },
+  {
+    "id": "speaker-melih-elibol-37eec552",
+    "name": "Melih Elibol",
+    "source_url": "https://eurorust.eu/talks/fearless-concurrency-on-the-gpu/"
+  },
+  {
+    "id": "speaker-michele-mantione-1f899898",
+    "name": "Michele Mantione",
+    "source_url": "https://eurorust.eu/workshops/programming-a-line-follower-robot/"
+  },
+  {
+    "id": "speaker-njuguna-mureithi-8c221de5",
+    "name": "Njuguna Mureithi",
+    "source_url": "https://eurorust.eu/talks/lessons-from-building-a-background-task-processing-library/"
+  },
+  {
+    "id": "speaker-oli-scherer-6776d5b3",
+    "name": "Oli Scherer",
+    "source_url": "https://eurorust.eu/talks/move-your-problems/"
+  },
+  {
+    "id": "speaker-pawe-urbanek-2efd100e",
+    "name": "Paweł Urbanek",
+    "source_url": "https://eurorust.eu/talks/beyond-flamegraphs-precise-rust-profiling-with-hotpath-rs/"
+  },
+  {
+    "id": "speaker-philipp-schuster-4c5a38c3",
+    "name": "Philipp Schuster",
+    "source_url": "https://eurorust.eu/talks/inside-cloud-hypervisor-from-kvm-to-a-running-vm/"
+  },
+  {
+    "id": "speaker-pierre-emmanuel-patry-7b17e8dc",
+    "name": "Pierre-Emmanuel Patry",
+    "source_url": "https://eurorust.eu/talks/compiling-the-linux-kernel-with-gccrs/"
+  },
+  {
+    "id": "speaker-sanskar-jaiswal-8ee6ee06",
+    "name": "Sanskar Jaiswal",
+    "source_url": "https://eurorust.eu/talks/designing-state-machines-for-streaming-proxies-in-rust/"
+  },
+  {
+    "id": "speaker-sergio-gonzalez-martin-e884f1e6",
+    "name": "Sergio Gonzalez Martin",
+    "source_url": "https://eurorust.eu/talks/image-codecs-rustification-in-chromium/"
+  },
+  {
+    "id": "speaker-shane-carr-0bec0260",
+    "name": "Shane Carr",
+    "source_url": "https://eurorust.eu/talks/shipping-temporal-how-the-rust-ecosystem-built-chrome-s-newest-web-api/"
+  },
+  {
+    "id": "speaker-theophil-spiegeler-casta-eda-c32dc8b4",
+    "name": "Theophil Spiegeler Castañeda",
+    "source_url": "https://eurorust.eu/talks/the-future-of-unmanned-systems-is-built-on-rust/"
+  },
+  {
+    "id": "speaker-timo-bachmann-19b767eb",
+    "name": "Timo Bachmann",
+    "source_url": "https://eurorust.eu/talks/rebuilding-the-tower-of-babel-write-your-own-language-server-with-tree-sitter/"
+  },
+  {
+    "id": "speaker-tris-oaten-942da9da",
+    "name": "Tris Oaten",
+    "source_url": "https://eurorust.eu/talks/game-show/"
+  },
+  {
+    "id": "speaker-uwe-pachler-75b7f916",
+    "name": "Uwe Pachler",
+    "source_url": "https://eurorust.eu/talks/the-lamp/"
+  }
+]
