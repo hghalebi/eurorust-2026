@@ -20,6 +20,8 @@ For repository edits, follow this route:
 If commands fail before execution, follow [runtime troubleshooting](CONTRIBUTING.md#runtime-troubleshooting)
 and establish recovery with a fresh read-only probe.
 
+Write short, natural commit messages that explain what changed.
+
 Keep participant profiles, raw caches, credentials, and internal plans outside
 public changes. Stage explicit paths and inspect the index before committing.
 Regenerate data through the compiled collector/exporter and review the diff.
