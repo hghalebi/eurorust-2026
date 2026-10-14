@@ -1,22 +1,27 @@
-name: Data correction
-description: Report an official-source discrepancy or extraction issue
+name: 'Correct a conference detail'
+description: 'Help someone avoid a wrong time, missing prerequisite, or misleading session detail.'
 labels: [data]
 body:
   - type: input
     id: session
     attributes:
-      label: Session ID and snapshot
+      label: 'Which session and snapshot?'
+      description: 'Copy the session ID from the schedule and the snapshot ID from its heading or manifest.'
+      placeholder: 'Session ID; snapshot ID'
     validations:
       required: true
   - type: input
     id: source
     attributes:
-      label: Official source URL and observation time
+      label: 'Where did you check, and when?'
+      description: 'Link the official page and include the date and time you observed the detail.'
+      placeholder: 'Official URL; date and time with timezone'
     validations:
       required: true
   - type: textarea
     id: correction
     attributes:
-      label: Published value, proposed correction, and supporting evidence
+      label: 'What should change?'
+      description: 'Show the published value, your proposed correction, and the supporting evidence. If sources disagree, include both.'
     validations:
       required: true

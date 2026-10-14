@@ -1,8 +1,11 @@
-# Conference journal
+# From the plan to what actually happened
 
-[October 14 planning entry](2026-10-14.md) records preparation only. No session
-attendance, conversations, or workshop outcome has been recorded yet. Subsequent
-entries should identify their date, participation context, and verified lessons.
+The journal follows conference preparation, participation, and follow-up as those
+observations become available. The [October 14 entry](2026-10-14.md) records
+preparation only. No attendance, participant conversation, or workshop outcome
+has been recorded here yet.
 
-Use [the note template](../templates/session.md). Public entries contain only
-material the contributor intends to share.
+For a new entry, include the date and participation context, then capture a
+question, an observation, and a next step. Use the [session note template](../templates/session.md)
+when an idea deserves a fuller explanation. Share only material you intend to
+publish and have authority to share.

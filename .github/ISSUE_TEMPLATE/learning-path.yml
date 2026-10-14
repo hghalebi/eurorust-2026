@@ -1,17 +1,18 @@
-name: Learning path or note
-description: Share a reusable path, preparation note, or observed lesson
+name: 'Share a path or lesson'
+description: 'Help another attendee choose, prepare, or apply an idea.'
 labels: [community]
 body:
   - type: textarea
     id: proposal
     attributes:
-      label: Audience, goals, session IDs, snapshot, and proposed contribution
-      description: Use fictional or intentionally shared profiles; keep private logistics out.
+      label: 'Who will this help, and what will they learn?'
+      description: 'Describe the audience and goal. Include session IDs, the snapshot, and your proposed path or note. Use fictional or intentionally shared assumptions; keep private logistics local.'
     validations:
       required: true
   - type: textarea
     id: evidence
     attributes:
-      label: Sources, attendance context, and verification
+      label: 'What can a reader verify?'
+      description: 'Link your sources. State whether this is preparation, attendance, a recording, or interpretation, and identify any checks or open questions.'
     validations:
       required: true

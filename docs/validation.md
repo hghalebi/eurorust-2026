@@ -1,4 +1,12 @@
-# Validation receipt
+# Validation evidence
+
+For the active dataset, read the [manifest](../data/manifest.json) and per-record
+provenance. For the current code revision, inspect its completed
+[GitHub Actions run](https://github.com/hghalebi/eurorust-2026/actions). The receipts
+below record checks at specific times and revisions. Use
+[the contribution checks](../CONTRIBUTING.md#checks) to reproduce them.
+
+## Recorded checks — 2026-10-14
 
 Local verification on 2026-10-14, macOS arm64, Rust/Cargo 1.98.0:
 

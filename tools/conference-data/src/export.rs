@@ -59,8 +59,13 @@ fn cell(value: &str) -> String {
 pub fn markdown(catalog: &Catalog, pack: bool) -> Result<String> {
     let snapshot = snapshot_id(catalog)?;
     let mut out = format!(
-        "# EuroRust 2026 {}\n\nGenerated from official schedule facts. Snapshot: `{}`.\nAll times are Europe/Madrid with explicit offsets (+02:00 during the event).\nUnknown prerequisites, remote access, tickets and recording availability remain unknown.\nRecheck official pages before attending. Community summaries are attributed interpretations.\n\n",
+        "# EuroRust 2026 {}\n\n{}\n\nSnapshot: `{}`. Schedule times use Europe/Madrid (+02:00 during the event); retrieval timestamps retain their recorded offsets.\n\nConfirm session access, tickets, recordings, and unlisted prerequisites on the official pages. Community notes are attributed interpretations; their review status and source dates show what still needs checking.\n\n",
         if pack { "conference pack" } else { "schedule" },
+        if pack {
+            "Conference facts and community notes for choosing your path. Use the session IDs, official links, and source dates to make each recommendation traceable to this snapshot."
+        } else {
+            "Compare times, venues, and preparation needs, then choose the sessions that fit your goals. Follow a session link for its full official description."
+        },
         snapshot.as_str()
     );
     let mut day = String::new();
@@ -116,15 +121,15 @@ pub fn markdown(catalog: &Catalog, pack: bool) -> Result<String> {
             .filter_map(|id| catalog.speakers.iter().find(|s| &s.id == id))
             .map(|s| s.name.as_str())
             .collect();
-        out.push_str(&format!("- Speakers: {}\n- Venue: {}\n- Individual remote access: {}\n- Booking status: unknown; check official registration\n", if names.is_empty() { "not listed".into() } else { names.join(", ") }, session.venue_id.as_ref().and_then(|id|catalog.venues.iter().find(|v|&v.id==id)).map_or("unknown; check source", |v| v.name.as_str()), session.remote_access.as_ref().map_or("unknown", AccessNote::as_str)));
+        out.push_str(&format!("- Speakers: {}\n- Venue: {}\n- Remote access for this session: {}\n- Booking status: unknown; confirm through official registration\n", if names.is_empty() { "not listed".into() } else { names.join(", ") }, session.venue_id.as_ref().and_then(|id|catalog.venues.iter().find(|v|&v.id==id)).map_or("unknown; check source", |v| v.name.as_str()), session.remote_access.as_ref().map_or("unknown", AccessNote::as_str)));
         if let Some(annotation) = &session.annotation {
-            out.push_str(&format!("- Annotation status: {:?}\n- Annotation source checked: {}\n- Annotation source SHA-256: `{}`\n",annotation.review_status,annotation.source_checked_at.as_rfc3339(),annotation.source_content_sha256.as_str()));
+            out.push_str(&format!("- Annotation status: {}\n- Annotation source checked: {}\n- Annotation source SHA-256: `{}`\n",annotation.review_status,annotation.source_checked_at.as_rfc3339(),annotation.source_content_sha256.as_str()));
             if annotation.review_status == AnnotationReview::SourceChanged {
-                out.push_str("\n**The source changed after this annotation. The following interpretation and setup/prerequisite text are historical; verify the current official page before using them.**\n\n");
+                out.push_str("\n**Review required:** The source changed after this annotation was checked. Treat the summary, prerequisites, and setup below as historical notes until you verify them against the current official page.\n\n");
             }
-            out.push_str(&format!("- Topics (community): {}\n- Prerequisites (source-based paraphrase): {}\n- Setup (source-based paraphrase): {}\n\n{}\n\nAttribution: {}; method: {}; source: {}\n", annotation.topics.iter().map(Topic::as_str).collect::<Vec<_>>().join(", "), annotation.prerequisites.as_ref().map_or("unknown", Prerequisite::as_str), annotation.setup.as_ref().map_or("unknown", SetupRequirement::as_str), annotation.summary.as_str(), annotation.author.as_str(), annotation.method.as_str(), annotation.source_url.as_str()));
+            out.push_str(&format!("- Community topics: {}\n- Prerequisites (community paraphrase): {}\n- Setup (community paraphrase): {}\n\n{}\n\nAttribution: {}; method: {}; source: {}\n", annotation.topics.iter().map(Topic::as_str).collect::<Vec<_>>().join(", "), annotation.prerequisites.as_ref().map_or("unknown", Prerequisite::as_str), annotation.setup.as_ref().map_or("unknown", SetupRequirement::as_str), annotation.summary.as_str(), annotation.author.as_str(), annotation.method.as_str(), annotation.source_url.as_str()));
         } else {
-            out.push_str("\nSummary and prerequisites: unknown; follow the official source.\n");
+            out.push_str("\nNo community summary or prerequisites are recorded. Follow the official page to check what you need to prepare.\n");
         }
     }
     Ok(out)
