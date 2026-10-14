@@ -1,6 +1,6 @@
 # EuroRust 2026 conference pack
 
-Generated from official schedule facts. Snapshot: `eurorust-2026-574d9578f971f60677c4`.
+Generated from official schedule facts. Snapshot: `eurorust-2026-c19dca1f5dc486613643`.
 All times are Europe/Madrid with explicit offsets (+02:00 during the event).
 Unknown prerequisites, remote access, tickets and recording availability remain unknown.
 Recheck official pages before attending. Community summaries are attributed interpretations.

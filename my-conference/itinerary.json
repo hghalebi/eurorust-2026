@@ -1,0 +1,139 @@
+{
+  "snapshot_id": "eurorust-2026-c19dca1f5dc486613643",
+  "profile": {
+    "name": "Shared production agents and Rust learning path",
+    "goals": [
+      "Build better autonomous agents in production through reliable tool and worker contracts",
+      "Deepen Rust type-system design",
+      "Explore infrastructure configuration with Rust and robotics"
+    ],
+    "topics": [
+      "types",
+      "production-reliability",
+      "async",
+      "infrastructure",
+      "robotics"
+    ],
+    "available_windows": [],
+    "registered_workshops": [],
+    "attendance_mode": null
+  },
+  "selections": [
+    {
+      "session_id": "talks-move-your-problems",
+      "rationale": "Matches requested topics: types",
+      "alternatives": []
+    },
+    {
+      "session_id": "talks-the-future-of-unmanned-systems-is-built-on-rust",
+      "rationale": "Matches requested topics: production-reliability, async, infrastructure, robotics",
+      "alternatives": [
+        "talks-compiling-the-linux-kernel-with-gccrs"
+      ]
+    },
+    {
+      "session_id": "talks-optimizing-the-new-rust-trait-solver",
+      "rationale": "Matches requested topics: types",
+      "alternatives": [
+        "talks-shipping-temporal-how-the-rust-ecosystem-built-chrome-s-newest-web-api"
+      ]
+    },
+    {
+      "session_id": "talks-tales-from-the-embedded-rust-frontier-bootstrapping-a-brand-new-ecosystem",
+      "rationale": "Matches requested topics: robotics",
+      "alternatives": [
+        "talks-building-a-query-system"
+      ]
+    },
+    {
+      "session_id": "talks-from-hardware-to-human-interface-building-hid-devices-in-rust",
+      "rationale": "Matches requested topics: robotics",
+      "alternatives": [
+        "talks-rebuilding-the-tower-of-babel-write-your-own-language-server-with-tree-sitter"
+      ]
+    },
+    {
+      "session_id": "talks-lessons-from-building-a-background-task-processing-library",
+      "rationale": "Matches requested topics: production-reliability, async",
+      "alternatives": [
+        "talks-running-safely-with-scissors-lock-free-concurrency-for-maximum-throughput"
+      ]
+    },
+    {
+      "session_id": "talks-game-show",
+      "rationale": "Shared session or no stronger topic match; review its official abstract",
+      "alternatives": []
+    },
+    {
+      "session_id": "talks-inside-cloud-hypervisor-from-kvm-to-a-running-vm",
+      "rationale": "Matches requested topics: production-reliability, infrastructure",
+      "alternatives": [
+        "talks-what-s-next-for-rust-s-type-system"
+      ]
+    },
+    {
+      "session_id": "talks-image-codecs-rustification-in-chromium",
+      "rationale": "Matches requested topics: production-reliability",
+      "alternatives": []
+    },
+    {
+      "session_id": "talks-rust-s-influence-on-c-and-python-shaping-the-future-of-three-communities",
+      "rationale": "Shared session or no stronger topic match; review its official abstract",
+      "alternatives": []
+    },
+    {
+      "session_id": "talks-designing-state-machines-for-streaming-proxies-in-rust",
+      "rationale": "Matches requested topics: types, production-reliability, async",
+      "alternatives": [
+        "talks-blastbeat-when-a-decade-of-c-meets-rust-and-io-uring"
+      ]
+    },
+    {
+      "session_id": "talks-supply-chain-attacks-and-how-to-protect-ourselves",
+      "rationale": "Matches requested topics: production-reliability, infrastructure",
+      "alternatives": [
+        "talks-qt-bridges-bringing-a-mature-c-ui-framework-to-rust"
+      ]
+    },
+    {
+      "session_id": "talks-build-systems-when-your-systems-need-systems-to-build",
+      "rationale": "Matches requested topics: production-reliability, infrastructure",
+      "alternatives": [
+        "talks-vortex-one-format-for-any-shape"
+      ]
+    },
+    {
+      "session_id": "talks-atomic-design-patterns-in-rust-from-orderings-to-code",
+      "rationale": "Matches requested topics: types, production-reliability",
+      "alternatives": [
+        "talks-moving-a-quantum-compiler-from-python-to-rust"
+      ]
+    },
+    {
+      "session_id": "talks-building-a-high-performance-thread-per-core-zero-copy-opentelemetry-engine-in-rust",
+      "rationale": "Matches requested topics: types, async",
+      "alternatives": [
+        "talks-your-infrastructure-should-compile-too"
+      ]
+    },
+    {
+      "session_id": "talks-fearless-concurrency-on-the-gpu",
+      "rationale": "Matches requested topics: types",
+      "alternatives": [
+        "talks-from-deref-into-borrow-a-primer-on-standard-library-traits"
+      ]
+    },
+    {
+      "session_id": "talks-beyond-flamegraphs-precise-rust-profiling-with-hotpath-rs",
+      "rationale": "Matches requested topics: async",
+      "alternatives": [
+        "talks-the-lamp"
+      ]
+    },
+    {
+      "session_id": "talks-beyond-cargo-build",
+      "rationale": "Matches requested topics: production-reliability, infrastructure",
+      "alternatives": []
+    }
+  ]
+}

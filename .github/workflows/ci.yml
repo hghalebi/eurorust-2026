@@ -26,7 +26,7 @@ jobs:
       - name: Check participant paths
         shell: bash
         run: |
-          for path in community/paths/*-itinerary.json; do
+          for path in community/paths/*-itinerary.json my-conference/itinerary.json; do
             target/release/conference-data check-itinerary --itinerary "$path"
           done
       - name: Verify installed-example behavior

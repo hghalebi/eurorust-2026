@@ -1,0 +1,340 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Catalog",
+  "type": "object",
+  "properties": {
+    "conference": {
+      "$ref": "#/$defs/Conference"
+    },
+    "schema_version": {
+      "type": "string"
+    },
+    "sessions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Session"
+      }
+    },
+    "speakers": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Speaker"
+      }
+    },
+    "venues": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Venue"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "conference",
+    "sessions",
+    "speakers",
+    "venues"
+  ],
+  "$defs": {
+    "Annotation": {
+      "type": "object",
+      "properties": {
+        "author": {
+          "type": "string"
+        },
+        "method": {
+          "type": "string"
+        },
+        "prerequisites": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "review_status": {
+          "$ref": "#/$defs/AnnotationReview"
+        },
+        "session_id": {
+          "type": "string"
+        },
+        "setup": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_checked_at": {
+          "type": "string"
+        },
+        "source_content_sha256": {
+          "type": "string"
+        },
+        "source_url": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "topics": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "session_id",
+        "summary",
+        "topics",
+        "author",
+        "method",
+        "review_status",
+        "source_checked_at",
+        "source_content_sha256",
+        "source_url"
+      ]
+    },
+    "AnnotationReview": {
+      "type": "string",
+      "enum": [
+        "source_checked_draft",
+        "community_reviewed",
+        "source_changed"
+      ]
+    },
+    "Conference": {
+      "type": "object",
+      "properties": {
+        "ends_at": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "schedule_url": {
+          "type": "string"
+        },
+        "source_url": {
+          "type": "string"
+        },
+        "starts_at": {
+          "type": "string"
+        },
+        "timezone": {
+          "$ref": "#/$defs/ConferenceTimezone"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "timezone",
+        "source_url",
+        "schedule_url",
+        "starts_at",
+        "ends_at"
+      ]
+    },
+    "ConferenceTimezone": {
+      "type": "string",
+      "enum": [
+        "Europe/Madrid"
+      ]
+    },
+    "Provenance": {
+      "type": "object",
+      "properties": {
+        "content_sha256": {
+          "type": "string"
+        },
+        "retrieved_at": {
+          "type": "string"
+        },
+        "source_updated_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_url": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "source_url",
+        "retrieved_at",
+        "content_sha256"
+      ]
+    },
+    "Session": {
+      "type": "object",
+      "properties": {
+        "annotation": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Annotation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "detail_source": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Provenance"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "id": {
+          "type": "string"
+        },
+        "kind": {
+          "$ref": "#/$defs/SessionKind"
+        },
+        "official_url": {
+          "type": "string"
+        },
+        "recording_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "registration_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "remote_access": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "slot": {
+          "$ref": "#/$defs/Slot"
+        },
+        "source": {
+          "$ref": "#/$defs/Provenance"
+        },
+        "speaker_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "stage": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ticket_requirement": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "title": {
+          "type": "string"
+        },
+        "venue_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "official_url",
+        "kind",
+        "slot",
+        "speaker_ids",
+        "source"
+      ]
+    },
+    "SessionKind": {
+      "type": "string",
+      "enum": [
+        "talk",
+        "workshop",
+        "side_activity",
+        "service"
+      ]
+    },
+    "Slot": {
+      "type": "object",
+      "properties": {
+        "end": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "start": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "start"
+      ]
+    },
+    "Speaker": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "source_url": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "source_url"
+      ]
+    },
+    "Venue": {
+      "type": "object",
+      "properties": {
+        "address": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "source_url": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "source_url"
+      ]
+    }
+  }
+}

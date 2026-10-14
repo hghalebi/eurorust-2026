@@ -44,6 +44,9 @@ bin/conference-data recommend --profile community/paths/backend-profile.json --o
 bin/conference-data check-itinerary --itinerary /tmp/my-itinerary.json
 ```
 
+Add `--markdown /tmp/my-itinerary.md` to generate a readable view with exact
+slots, source dates, preparation details, and same-slot alternatives.
+
 The deterministic baseline scores matching annotated topics, chooses one talk per
 slot, and includes a workshop only when listed in the profile's registrations.
 It is a starting point, not a model of prerequisite readiness or live access.

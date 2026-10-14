@@ -35,6 +35,9 @@ enum Command {
         profile: PathBuf,
         #[arg(long)]
         output: PathBuf,
+        /// Also render a source-linked readable itinerary.
+        #[arg(long)]
+        markdown: Option<PathBuf>,
     },
     /// Check an agent's or participant's itinerary against its source snapshot.
     CheckItinerary {
@@ -81,10 +84,17 @@ fn run(args: Args) -> Result<()> {
             export::publish(checked, &args.root)?;
             println!("Exports regenerated from checked catalog");
         }
-        Command::Recommend { profile, output } => {
+        Command::Recommend {
+            profile,
+            output,
+            markdown,
+        } => {
             let checked = export::verify(&args.root)?;
             let profile = serde_json::from_slice(&fs::read(profile)?)?;
             let plan = itinerary::recommend(&checked, profile)?;
+            if let Some(path) = markdown {
+                fs::write(path, itinerary::markdown(&checked, &plan)?)?;
+            }
             fs::write(
                 &output,
                 format!("{}\n", serde_json::to_string_pretty(&plan)?),

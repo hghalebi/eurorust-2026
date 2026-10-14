@@ -34,6 +34,84 @@ pub struct Itinerary {
     pub selections: Vec<Selection>,
 }
 
+/// Render only a checked itinerary, retaining source links and conditional logistics.
+pub fn markdown(snapshot: &export::VerifiedBundle, plan: &Itinerary) -> Result<String> {
+    let warnings = check(snapshot, plan)?;
+    let catalog = snapshot.catalog();
+    let cell = |s: &str| s.replace('|', "\\|").replace(['\r', '\n'], " ");
+    let mut out = format!(
+        "# Proposed learning path\n\nProfile: {}. Snapshot: `{}`.\n\nThis is a conditional preparation plan. All times use Europe/Madrid with explicit offsets.\nIt records no booking, attendance, or prerequisite readiness. Keep breaks and confirm travel time.\nThe deterministic topic matcher provides a starting point; compare the alternatives with the official abstracts.\n\n",
+        cell(plan.profile.name.as_str()),
+        plan.snapshot_id.as_str()
+    );
+    out.push_str("Goals:\n\n");
+    for goal in &plan.profile.goals {
+        out.push_str(&format!("- {}\n", goal.as_str()));
+    }
+    out.push_str("\nConditions to resolve:\n\n");
+    for warning in warnings {
+        out.push_str(&format!("- {warning}\n"));
+    }
+    for selection in &plan.selections {
+        let session = catalog
+            .sessions
+            .iter()
+            .find(|s| s.id == selection.session_id)
+            .ok_or_else(|| Error::Validation("selection disappeared during rendering".into()))?;
+        out.push_str(&format!(
+            "\n## {} — {}\n\n- Session: [{}]({})\n- ID: `{}`\n- End: {}\n- Rationale: {}\n- Stage: {}\n- Venue: {}\n- Schedule retrieved: {}\n",
+            session.slot.start().as_rfc3339(), session.title.as_str(),
+            session.title.as_str(), session.official_url.as_str(), session.id.as_str(),
+            session.slot.end().map(Timestamp::as_rfc3339).unwrap_or_else(|| "unknown".into()),
+            selection.rationale.as_str(), session.stage.as_ref().map_or("unknown", StageName::as_str),
+            session.venue_id.as_ref().and_then(|id| catalog.venues.iter().find(|v| &v.id == id)).map_or("unknown", |v| v.name.as_str()),
+            session.source.retrieved_at.as_rfc3339()
+        ));
+        if let Some(a) = &session.annotation {
+            if a.review_status == AnnotationReview::SourceChanged {
+                out.push_str(
+                    "- Source changed: recheck the official abstract, prerequisites and setup.\n",
+                );
+            } else {
+                out.push_str(&format!("- Preparation: prerequisites: {}; setup: {}\n- Community annotation: {:?}; source checked {}\n", a.prerequisites.as_ref().map_or("unknown", Prerequisite::as_str), a.setup.as_ref().map_or("unknown", SetupRequirement::as_str), a.review_status, a.source_checked_at.as_rfc3339()));
+            }
+        }
+        for id in &selection.alternatives {
+            let alternative = catalog
+                .sessions
+                .iter()
+                .find(|s| &s.id == id)
+                .ok_or_else(|| {
+                    Error::Validation("alternative disappeared during rendering".into())
+                })?;
+            out.push_str(&format!(
+                "- Same-slot alternative: [{}]({}) (`{}`); choose one.\n",
+                alternative.title.as_str(),
+                alternative.official_url.as_str(),
+                alternative.id.as_str()
+            ));
+        }
+    }
+    if plan.profile.registered_workshops.is_empty() {
+        out.push_str("\n## Conditional workshop choices\n\nNo workshop booking is recorded, so none is selected. October 14 may already have started or passed when you read this. Check availability and prerequisites before choosing one:\n\n");
+        for session in catalog
+            .sessions
+            .iter()
+            .filter(|s| s.kind == SessionKind::Workshop)
+        {
+            out.push_str(&format!(
+                "- [{}]({}) — {} (`{}`).\n",
+                session.title.as_str(),
+                session.official_url.as_str(),
+                session.slot.start().as_rfc3339(),
+                session.id.as_str()
+            ));
+        }
+    }
+    out.push_str("\n## Capture and apply\n\nBefore each session, write one question. After attending, record one concrete follow-up and label actual observations separately. Use October 17 impl Day conditionally to test a small tool or worker contract and its failure behavior.\n");
+    Ok(out)
+}
+
 pub fn recommend(snapshot: &export::VerifiedBundle, profile: Profile) -> Result<Itinerary> {
     let catalog = snapshot.catalog();
     validate_profile(catalog, &profile)?;
