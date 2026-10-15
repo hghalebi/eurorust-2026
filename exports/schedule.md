@@ -2,7 +2,7 @@
 
 Compare times, venues, and preparation needs, then choose the sessions that fit your goals. Follow a session link for its full official description.
 
-Snapshot: `eurorust-2026-bd9ff3d15e58a1b2d39f`. Schedule times use Europe/Madrid (+02:00 during the event); retrieval timestamps retain their recorded offsets.
+Snapshot: `eurorust-2026-9f0d15775591df8eee91`. Schedule times use Europe/Madrid (+02:00 during the event); retrieval timestamps retain their recorded offsets.
 
 Confirm session access, tickets, recordings, and unlisted prerequisites on the official pages. Community notes are attributed interpretations; their review status and source dates show what still needs checking.
 
