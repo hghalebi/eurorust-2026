@@ -11,6 +11,7 @@ and [LinkedIn](https://www.linkedin.com/in/hamze/).
 
 [October 14–17, 2026 · Barcelona](https://eurorust.eu/).
 All times here use **Europe/Madrid**.
+Check [venues, entrances, and room details](docs/time-and-place.md).
 
 ## Start here
 

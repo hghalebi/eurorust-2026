@@ -15,7 +15,7 @@
     "venue_id": "workshops",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -25,7 +25,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/workshops/beyond-p99-observing-async-rust/",
-      "retrieved_at": "2026-10-14T14:50:15.816144710+00:00",
+      "retrieved_at": "2026-10-15T12:30:24.204988+00:00",
       "source_updated_at": null,
       "content_sha256": "a451c3737f647f5248ca15121e75fc1f8fde55e3ae416aa43aee0f7fd261a131"
     },
@@ -63,7 +63,7 @@
     "venue_id": "workshops",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -73,7 +73,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/workshops/building-a-virtual-machine-monitor-in-rust/",
-      "retrieved_at": "2026-10-14T14:50:16.698550585+00:00",
+      "retrieved_at": "2026-10-15T12:30:25.204380+00:00",
       "source_updated_at": null,
       "content_sha256": "68f0bbfebd1c96ba1f5e45bca266f589c43f35a2de97b923e01e44eb6b6d0d55"
     },
@@ -111,7 +111,7 @@
     "venue_id": "workshops",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -121,7 +121,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/workshops/c-to-rust/",
-      "retrieved_at": "2026-10-14T14:50:17.849088438+00:00",
+      "retrieved_at": "2026-10-15T12:30:26.214681+00:00",
       "source_updated_at": null,
       "content_sha256": "bd768b937bb3b014acf78424ac3c02d5afb8ff46305f3a2f2cc9bd4eb504ef5c"
     },
@@ -159,7 +159,7 @@
     "venue_id": "workshops",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -169,7 +169,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/workshops/containers-are-dead/",
-      "retrieved_at": "2026-10-14T14:50:18.851393307+00:00",
+      "retrieved_at": "2026-10-15T12:30:27.209909+00:00",
       "source_updated_at": null,
       "content_sha256": "c2fe35403e2a1002731367b974e1c9daccc0e3bb355dd240939a041badad4ac3"
     },
@@ -208,7 +208,7 @@
     "venue_id": "workshops",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -218,7 +218,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/workshops/hands-on-embedded-rust/",
-      "retrieved_at": "2026-10-14T14:50:19.860011150+00:00",
+      "retrieved_at": "2026-10-15T12:30:28.222677+00:00",
       "source_updated_at": null,
       "content_sha256": "4028103de8314deccd0a15535c2b7b5b2d7d000dfc426b0941a170f1dd6d3063"
     },
@@ -258,7 +258,7 @@
     "venue_id": "workshops",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -268,7 +268,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/workshops/programming-a-line-follower-robot/",
-      "retrieved_at": "2026-10-14T14:50:20.802561591+00:00",
+      "retrieved_at": "2026-10-15T12:30:29.232+00:00",
       "source_updated_at": null,
       "content_sha256": "7fbcd640532c27f9306abd5d085ed462719a5a372b7b5cc35bbb913388e50ce2"
     },
@@ -307,7 +307,7 @@
     "venue_id": "workshops",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -317,7 +317,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/workshops/rust-in-action/",
-      "retrieved_at": "2026-10-14T14:50:21.848084125+00:00",
+      "retrieved_at": "2026-10-15T12:30:30.225535+00:00",
       "source_updated_at": null,
       "content_sha256": "cdb4a068b58a1062fb589659257125f2fa93c19176de3462da04559b4609fcf3"
     },
@@ -353,7 +353,7 @@
     "venue_id": "workshops",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -363,7 +363,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/workshops/rust-on-the-field-integrating-real-autonomous-systems/",
-      "retrieved_at": "2026-10-14T14:50:22.819744809+00:00",
+      "retrieved_at": "2026-10-15T12:30:31.234027+00:00",
       "source_updated_at": null,
       "content_sha256": "5046427e8f71b0d49a4cd9065d45a59c4aeafe58de055196434e344cfb2255a0"
     },
@@ -400,7 +400,7 @@
     "venue_id": null,
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -410,7 +410,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/activities/bike-tour/",
-      "retrieved_at": "2026-10-14T14:50:23.800770778+00:00",
+      "retrieved_at": "2026-10-15T12:30:32.487398+00:00",
       "source_updated_at": null,
       "content_sha256": "c0b8444d31716c081ea303d6b3f742e51cf40d8c43608c499e20a831fcb5170f"
     },
@@ -430,7 +430,7 @@
     "venue_id": null,
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -440,7 +440,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/activities/meetup/",
-      "retrieved_at": "2026-10-14T14:50:24.792111963+00:00",
+      "retrieved_at": "2026-10-15T12:30:33.516384+00:00",
       "source_updated_at": null,
       "content_sha256": "292422e1a20a2e44666b928089eda1ecb9751a07c4adbd73892405d81b2e6051"
     },
@@ -460,7 +460,7 @@
     "venue_id": null,
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -470,7 +470,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/activities/boat-tour/",
-      "retrieved_at": "2026-10-14T14:50:25.808101670+00:00",
+      "retrieved_at": "2026-10-15T12:30:34.490135+00:00",
       "source_updated_at": null,
       "content_sha256": "a89d7f6db2f722283ee5c0a1ae05a97254f569c8ba02a3bd9e0439eddc688f9e"
     },
@@ -490,7 +490,7 @@
     "venue_id": null,
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -500,7 +500,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/activities/wine-tasting/",
-      "retrieved_at": "2026-10-14T14:50:26.810462520+00:00",
+      "retrieved_at": "2026-10-15T12:30:35.694843+00:00",
       "source_updated_at": null,
       "content_sha256": "d3b69c6a279ce3d4458ea43fc1a324fd6a617883e6ac289b980e527cfd2b2a57"
     },
@@ -520,7 +520,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -547,7 +547,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -557,7 +557,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/move-your-problems/",
-      "retrieved_at": "2026-10-14T14:50:27.862825130+00:00",
+      "retrieved_at": "2026-10-15T12:30:36.262465+00:00",
       "source_updated_at": null,
       "content_sha256": "308e44caa530383dd773c4568baf30f07e63f84807a7adf40b6b79f561bfd76e"
     },
@@ -596,7 +596,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -606,7 +606,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/compiling-the-linux-kernel-with-gccrs/",
-      "retrieved_at": "2026-10-14T14:50:28.811287841+00:00",
+      "retrieved_at": "2026-10-15T12:30:37.637036+00:00",
       "source_updated_at": null,
       "content_sha256": "3fbaa38ff29fc654a66c2c5425beeb17443a795805df245e62d879cef98f3cbb"
     },
@@ -645,7 +645,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -655,7 +655,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/the-future-of-unmanned-systems-is-built-on-rust/",
-      "retrieved_at": "2026-10-14T14:50:29.820039224+00:00",
+      "retrieved_at": "2026-10-15T12:30:38.409162+00:00",
       "source_updated_at": null,
       "content_sha256": "074ac57501ac45f6bb274b07a42a73ef08485da74d6f9344129c07d5a293eebd"
     },
@@ -694,7 +694,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -704,7 +704,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/optimizing-the-new-rust-trait-solver/",
-      "retrieved_at": "2026-10-14T14:50:30.725575228+00:00",
+      "retrieved_at": "2026-10-15T12:30:39.284342+00:00",
       "source_updated_at": null,
       "content_sha256": "bb74200a82c8db4b25ab493abd2a431e4b294fe6b1bd229c84463afcc58e3216"
     },
@@ -742,7 +742,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -752,7 +752,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/shipping-temporal-how-the-rust-ecosystem-built-chrome-s-newest-web-api/",
-      "retrieved_at": "2026-10-14T14:50:31.790334230+00:00",
+      "retrieved_at": "2026-10-15T12:30:40.495596+00:00",
       "source_updated_at": null,
       "content_sha256": "f0709e2961f079087281639acf5e5bcfc5109cf96a2f840c9a33ef45dbbfee93"
     },
@@ -788,7 +788,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -815,7 +815,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -825,7 +825,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/building-a-query-system/",
-      "retrieved_at": "2026-10-14T14:50:32.701114158+00:00",
+      "retrieved_at": "2026-10-15T12:30:41.290064+00:00",
       "source_updated_at": null,
       "content_sha256": "220b2d3c812dee708f1f6625edcb95e38b48f3977f63f2a02287cca0400a73dd"
     },
@@ -864,7 +864,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -874,7 +874,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/tales-from-the-embedded-rust-frontier-bootstrapping-a-brand-new-ecosystem/",
-      "retrieved_at": "2026-10-14T14:50:33.703379825+00:00",
+      "retrieved_at": "2026-10-15T12:30:42.528645+00:00",
       "source_updated_at": null,
       "content_sha256": "8ed1d96753bc1728fead8e21a54d4a05e9de6eceb67de1bf845f75744d911cbc"
     },
@@ -912,7 +912,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -922,7 +922,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/from-hardware-to-human-interface-building-hid-devices-in-rust/",
-      "retrieved_at": "2026-10-14T14:50:34.846739319+00:00",
+      "retrieved_at": "2026-10-15T12:30:43.517522+00:00",
       "source_updated_at": null,
       "content_sha256": "bec8dd3f067eae1ea3ab4fb89076f7b3868d3595de704e7b70e8a2993143d8c3"
     },
@@ -960,7 +960,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -970,7 +970,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/rebuilding-the-tower-of-babel-write-your-own-language-server-with-tree-sitter/",
-      "retrieved_at": "2026-10-14T14:50:35.814399795+00:00",
+      "retrieved_at": "2026-10-15T12:30:44.430468+00:00",
       "source_updated_at": null,
       "content_sha256": "461652b4e4cb819bb1ab9a2fd7743f31d66dd1d4c963f3b810cb688929e1d851"
     },
@@ -1008,7 +1008,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -1018,7 +1018,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/lessons-from-building-a-background-task-processing-library/",
-      "retrieved_at": "2026-10-14T14:50:36.838475021+00:00",
+      "retrieved_at": "2026-10-15T12:30:45.479540+00:00",
       "source_updated_at": null,
       "content_sha256": "b1c9b1ffaae82ff59e93604ef702964f752a84b1be8b00414721ad398974a86a"
     },
@@ -1056,7 +1056,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -1066,7 +1066,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/running-safely-with-scissors-lock-free-concurrency-for-maximum-throughput/",
-      "retrieved_at": "2026-10-14T14:50:37.873064384+00:00",
+      "retrieved_at": "2026-10-15T12:30:46.551632+00:00",
       "source_updated_at": null,
       "content_sha256": "e14d1061d9557ac182578595298e7dcf63869d5c6454468c775fdfe193bae90d"
     },
@@ -1103,7 +1103,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -1131,7 +1131,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -1141,7 +1141,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/game-show/",
-      "retrieved_at": "2026-10-14T14:50:38.814906033+00:00",
+      "retrieved_at": "2026-10-15T12:30:47.336637+00:00",
       "source_updated_at": null,
       "content_sha256": "86e34fa98896b23d288ca6dd7adc80b0ba37687769f9617b4a30618763157c61"
     },
@@ -1177,7 +1177,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -1187,7 +1187,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/inside-cloud-hypervisor-from-kvm-to-a-running-vm/",
-      "retrieved_at": "2026-10-14T14:50:39.910687696+00:00",
+      "retrieved_at": "2026-10-15T12:30:48.562740+00:00",
       "source_updated_at": null,
       "content_sha256": "11275e9c8a2c539caf95553c8a249e427ee5baa80dbb144bf52ef540b4b6c443"
     },
@@ -1225,7 +1225,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -1235,7 +1235,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/what-s-next-for-rust-s-type-system/",
-      "retrieved_at": "2026-10-14T14:50:40.813520060+00:00",
+      "retrieved_at": "2026-10-15T12:30:49.660475+00:00",
       "source_updated_at": null,
       "content_sha256": "ae4802ae94c6f98656d6ee22fba0087dee5f942c043150d3e88dd31b9f82def2"
     },
@@ -1274,7 +1274,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -1284,7 +1284,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/image-codecs-rustification-in-chromium/",
-      "retrieved_at": "2026-10-14T14:50:41.808914660+00:00",
+      "retrieved_at": "2026-10-15T12:30:50.357765+00:00",
       "source_updated_at": null,
       "content_sha256": "433a9fe0d8f9833e80d02133cb739c0fa75668242309844cb36bb2385d9c322a"
     },
@@ -1320,7 +1320,7 @@
     "venue_id": null,
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -1330,7 +1330,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/activities/group-dinner/",
-      "retrieved_at": "2026-10-14T14:50:42.707513753+00:00",
+      "retrieved_at": "2026-10-15T12:30:51.466142+00:00",
       "source_updated_at": null,
       "content_sha256": "b52bff2e237548c5f52de8b6aa4f7c8de5f5b33bf47873fd4eb8c146aaf0be8b"
     },
@@ -1350,7 +1350,7 @@
     "venue_id": null,
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -1360,7 +1360,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/activities/karaoke/",
-      "retrieved_at": "2026-10-14T14:50:43.839555034+00:00",
+      "retrieved_at": "2026-10-15T12:30:52.603093+00:00",
       "source_updated_at": null,
       "content_sha256": "87e956743b2aeb5255ba832004a6d06eafae31a08dd5c0af67cee616639b9cae"
     },
@@ -1382,7 +1382,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -1392,7 +1392,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/rust-s-influence-on-c-and-python-shaping-the-future-of-three-communities/",
-      "retrieved_at": "2026-10-14T14:50:44.802057966+00:00",
+      "retrieved_at": "2026-10-15T12:30:53.383274+00:00",
       "source_updated_at": null,
       "content_sha256": "b267d01a463a03ec2342b4e689a9d6a1ec5e4521491e9318056979ca33584d1f"
     },
@@ -1431,7 +1431,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -1441,7 +1441,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/blastbeat-when-a-decade-of-c-meets-rust-and-io-uring/",
-      "retrieved_at": "2026-10-14T14:50:45.832568164+00:00",
+      "retrieved_at": "2026-10-15T12:30:54.615516+00:00",
       "source_updated_at": null,
       "content_sha256": "85d3185f2b17034bb0116f3bcd3f851dd2945036306321f99d6f768b5cd2143e"
     },
@@ -1480,7 +1480,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -1490,7 +1490,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/designing-state-machines-for-streaming-proxies-in-rust/",
-      "retrieved_at": "2026-10-14T14:50:46.862626022+00:00",
+      "retrieved_at": "2026-10-15T12:30:55.641113+00:00",
       "source_updated_at": null,
       "content_sha256": "9f422ad2ca912d5ef86222db7251a61d0eae404a404225db9f59b81fcb914898"
     },
@@ -1529,7 +1529,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -1539,7 +1539,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/qt-bridges-bringing-a-mature-c-ui-framework-to-rust/",
-      "retrieved_at": "2026-10-14T14:50:47.894333018+00:00",
+      "retrieved_at": "2026-10-15T12:30:56.596194+00:00",
       "source_updated_at": null,
       "content_sha256": "b9fb943419c71dbf1fd5975855fc691cc96676e7a548440ef55d66718017579b"
     },
@@ -1576,7 +1576,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -1586,7 +1586,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/supply-chain-attacks-and-how-to-protect-ourselves/",
-      "retrieved_at": "2026-10-14T14:50:48.816601542+00:00",
+      "retrieved_at": "2026-10-15T12:30:57.723049+00:00",
       "source_updated_at": null,
       "content_sha256": "08d1e7547520caddb5fd99d937d7dbcea32ed1766bef729ab872576ba0cc9ae3"
     },
@@ -1622,7 +1622,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -1649,7 +1649,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -1659,7 +1659,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/build-systems-when-your-systems-need-systems-to-build/",
-      "retrieved_at": "2026-10-14T14:50:49.798283390+00:00",
+      "retrieved_at": "2026-10-15T12:30:58.738541+00:00",
       "source_updated_at": null,
       "content_sha256": "00a6854e05926ec7541bfa0041faca93c14eb3865b6844bb44af8938982402e2"
     },
@@ -1697,7 +1697,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -1707,7 +1707,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/vortex-one-format-for-any-shape/",
-      "retrieved_at": "2026-10-14T14:50:50.862648257+00:00",
+      "retrieved_at": "2026-10-15T12:30:59.649468+00:00",
       "source_updated_at": null,
       "content_sha256": "0fa1bce56a12c94a125174e6862a5e87e38a0c1054cb6f3ee34ffb75ea5698e6"
     },
@@ -1745,7 +1745,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -1755,7 +1755,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/atomic-design-patterns-in-rust-from-orderings-to-code/",
-      "retrieved_at": "2026-10-14T14:50:51.859749554+00:00",
+      "retrieved_at": "2026-10-15T12:31:00.658080+00:00",
       "source_updated_at": null,
       "content_sha256": "513c44ffb47e3b99534898a411802b92042967ce2dbee826f40831fef91cf994"
     },
@@ -1793,7 +1793,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -1803,7 +1803,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/moving-a-quantum-compiler-from-python-to-rust/",
-      "retrieved_at": "2026-10-14T14:50:52.806181715+00:00",
+      "retrieved_at": "2026-10-15T12:31:01.668184+00:00",
       "source_updated_at": null,
       "content_sha256": "b1afd9f63acfe92646d3adb1768fe5ad012b92688ffaf2d6dd968508bb730691"
     },
@@ -1841,7 +1841,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -1851,7 +1851,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/building-a-high-performance-thread-per-core-zero-copy-opentelemetry-engine-in-rust/",
-      "retrieved_at": "2026-10-14T14:50:53.836748024+00:00",
+      "retrieved_at": "2026-10-15T12:31:02.685488+00:00",
       "source_updated_at": null,
       "content_sha256": "0dfae44dbd2a34345e9994451412ce70f09ab789269c2cac61c49e04930df44d"
     },
@@ -1890,7 +1890,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -1900,7 +1900,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/your-infrastructure-should-compile-too/",
-      "retrieved_at": "2026-10-14T14:50:54.853830870+00:00",
+      "retrieved_at": "2026-10-15T12:31:03.678562+00:00",
       "source_updated_at": null,
       "content_sha256": "bc75fa548dd3e5d1696448de22d3016c6ea0275174be13091b48b3ed2f8fc224"
     },
@@ -1936,7 +1936,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -1963,7 +1963,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -1973,7 +1973,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/fearless-concurrency-on-the-gpu/",
-      "retrieved_at": "2026-10-14T14:50:55.819515828+00:00",
+      "retrieved_at": "2026-10-15T12:31:04.839137+00:00",
       "source_updated_at": null,
       "content_sha256": "3b1c1c9de816fb144761aa713e9b5c1cbf69d39bb524d36ab9a2e0ce68340c14"
     },
@@ -2011,7 +2011,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -2021,7 +2021,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/from-deref-into-borrow-a-primer-on-standard-library-traits/",
-      "retrieved_at": "2026-10-14T14:50:56.813654148+00:00",
+      "retrieved_at": "2026-10-15T12:31:05.779644+00:00",
       "source_updated_at": null,
       "content_sha256": "b53b7de78bf7b989ecb73bd26b949595ded8d8dab351bc948c8c85db1072f267"
     },
@@ -2058,7 +2058,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -2068,7 +2068,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/beyond-flamegraphs-precise-rust-profiling-with-hotpath-rs/",
-      "retrieved_at": "2026-10-14T14:50:57.849466502+00:00",
+      "retrieved_at": "2026-10-15T12:31:06.889968+00:00",
       "source_updated_at": null,
       "content_sha256": "9ea85f022038e0bc83fe2620163f2ea40120a84bad993c29e0564e7615702b4d"
     },
@@ -2106,7 +2106,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -2116,7 +2116,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/the-lamp/",
-      "retrieved_at": "2026-10-14T14:50:58.855475468+00:00",
+      "retrieved_at": "2026-10-15T12:31:07.845332+00:00",
       "source_updated_at": null,
       "content_sha256": "a169929a2fa047728728c427a8ff6eebe6b07b1417dcc2a0fa18a2d906460ccc"
     },
@@ -2154,7 +2154,7 @@
     "venue_id": "conference",
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -2164,7 +2164,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/talks/beyond-cargo-build/",
-      "retrieved_at": "2026-10-14T14:50:59.832083136+00:00",
+      "retrieved_at": "2026-10-15T12:31:08.481244+00:00",
       "source_updated_at": null,
       "content_sha256": "a17756d2f7e362b1c46b6ac019c4e02700ac2773e8b8a6ccf612d440ef5cc4af"
     },
@@ -2200,7 +2200,7 @@
     "venue_id": null,
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -2225,7 +2225,7 @@
     "venue_id": null,
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -2235,7 +2235,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/activities/impl-day/",
-      "retrieved_at": "2026-10-14T14:51:00.833418082+00:00",
+      "retrieved_at": "2026-10-15T12:31:09.608842+00:00",
       "source_updated_at": null,
       "content_sha256": "347e7f56b86860390a6162633efc3da7c87179ead3d61e32a5d99fe6a8899519"
     },
@@ -2255,7 +2255,7 @@
     "venue_id": null,
     "source": {
       "source_url": "https://eurorust.eu/schedule/",
-      "retrieved_at": "2026-10-14T14:50:15.013173793+00:00",
+      "retrieved_at": "2026-10-15T12:30:23.466704+00:00",
       "source_updated_at": null,
       "content_sha256": "baa88200e12578c94fb1253ff1f06113d2cdb979b1d75e2cf04c2940dedb3de2"
     },
@@ -2265,7 +2265,7 @@
     "recording_url": null,
     "detail_source": {
       "source_url": "https://eurorust.eu/activities/museum-tour/",
-      "retrieved_at": "2026-10-14T14:51:01.816038703+00:00",
+      "retrieved_at": "2026-10-15T12:31:10.838231+00:00",
       "source_updated_at": null,
       "content_sha256": "05fa50a5a74a13aadb72fa6fbd3d6a493b42b58419fc4dc9e293f1445fdb88c4"
     },

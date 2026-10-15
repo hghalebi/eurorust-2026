@@ -38,6 +38,12 @@ Copy the prompt and replace the brackets. Keep personal details in your workspac
 
 See the [agent guide](../docs/agent-guide.md) for file choices and review steps.
 
+## Add checked places
+
+Supply the [logistics check](../community/session-logistics.json) with a matching
+`catalog_snapshot_id`. Ask the agent to preserve source conflicts and unknown
+rooms. Stage labels do not establish physical halls.
+
 ## Add speaker reading
 
 With the [speaker profiles](../community/speaker-profiles.json), append:

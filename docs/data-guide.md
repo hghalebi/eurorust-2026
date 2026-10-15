@@ -10,6 +10,7 @@ Choose a format for your task. Keep its sources and dates with anything you make
 | Read session context or give it to an agent | [Conference pack](../exports/conference-pack.md) |
 | Use structured conference, session, speaker, and venue records | [Catalog JSON](../data/catalog.json) |
 | Process one session per line | [Sessions JSONL](../exports/sessions.jsonl) |
+| Check venues, rooms, and source conflicts | [Venue guide](time-and-place.md) · [Logistics JSON](../community/session-logistics.json) |
 | Explore speakers' work | [Speaker directory](../resources/speakers/README.md) · [Profiles JSON](../community/speaker-profiles.json) |
 | Check version and coverage | [Manifest](../data/manifest.json) |
 | Check expected structure | [Catalog schema](../schema/catalog.schema.json) · [Participant preferences](../schema/profile.schema.json) · [Itinerary](../schema/itinerary.schema.json) |
@@ -76,6 +77,26 @@ Notes distinguish coauthorship, maintenance, contribution, future appearances,
 and access limits. A listed account does not imply recent activity.
 Profiles support reading suggestions, not schedule authority, bookings, or
 permission to contact someone. [Suggest a correction](../CONTRIBUTING.md#speaker-profile-corrections).
+
+## Session logistics check
+
+[Logistics JSON](../community/session-logistics.json), format 1.0.0, records a
+dated check of all 53 entries. It adds venue addresses, arrival details, missing
+rooms, and source conflicts. The [venue guide](time-and-place.md) is its readable summary.
+
+Join `sessions[].session_id` to the catalog and `venue_key` to `venues[].key`.
+These venue keys belong to the companion; they are not additional catalog records.
+`slot` and `stage` copy the checked catalog. `room: null` means no room assignment
+was found in the checked sources. Keep location status and notes with each choice.
+
+`source_ids` reference `sources`, which records URLs, retrieval times, and hashes.
+`issues` preserves conflicts and excluded pages. The source-checked draft awaits
+community and organizer review; it confirms neither bookings nor attendance.
+
+Require a matching `catalog_snapshot_id` before combining it with a schedule.
+It sits outside catalog schemas and manifest hashes. Keep `checked_at` and the
+Git revision. Refresh/export do not update it; recheck sources before changing
+its date or snapshot. Earlier release bundles may omit it.
 
 ## Contract
 

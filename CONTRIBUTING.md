@@ -9,6 +9,7 @@ with a source, or edit a page and propose a pull request. No local tools are nee
 | Contribution | Start here | Include |
 | --- | --- | --- |
 | Incorrect detail | [Corrections](community/corrections/README.md) | Page or session, source, correction, checked date |
+| Time, venue, or room | [Venue guide](docs/time-and-place.md) | Official assignment, session ID, source date; preserve unknowns |
 | Learning path | [Example paths](community/paths/README.md) | Audience, goals, availability, choices, alternatives |
 | Preparation or session note | [Note template](templates/session.md) | Sources, participation context, observation or question, next step |
 | Translation or clearer wording | [Planning guide](docs/planning-guide.md) or [agent prompt](prompts/choose-my-path.md) | Language, translator, original page, working links |
@@ -50,6 +51,13 @@ For direct edits, keep the profile page and
 speaker IDs. Change a research date only after rechecking the sources, and state
 what you reviewed. Omit uncertain claims. The
 [data guide](docs/data-guide.md#speaker-research-companion) explains the format.
+
+## Timing and venue corrections
+
+Keep [logistics JSON](community/session-logistics.json) and the venue guide
+consistent. Match the catalog snapshot and session IDs, retain source evidence,
+and change dates only after rechecking. Stage labels do not establish physical
+rooms. Follow the [format reference](docs/data-guide.md#session-logistics-check).
 
 ## Checks
 

@@ -40,7 +40,7 @@ An online conference option does not guarantee that a workshop is streamed.
 Ask the organizer before joining a workshop already underway.
 
 Keep breaks and allow travel time between venues. An unknown end time prevents
-a complete overlap check.
+a complete overlap check. Check [venues, entrances, and room details](time-and-place.md).
 
 ## 5. Record the next step
 

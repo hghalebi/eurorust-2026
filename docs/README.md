@@ -8,6 +8,7 @@ Read on GitHub, copy into your notes, or give the files to your agent.
 | --- | --- |
 | Follow my path | [Learning goals](../my-conference/README.md) and [proposed itinerary](../my-conference/itinerary.md) |
 | Choose sessions | [Planning guide](planning-guide.md) and [schedule](../exports/schedule.md) |
+| Find the venue or room | [Times, places, and known gaps](time-and-place.md) |
 | Record choices and questions | [Itinerary template](../templates/itinerary.md) and [session notes](../templates/session.md) |
 | Prepare for a topic | [Questions to bring](../notes/README.md) and [further reading](../resources/README.md) |
 | Explore a speaker's work | [Speaker directory](../resources/speakers/README.md) |

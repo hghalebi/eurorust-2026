@@ -15,6 +15,7 @@ Read the relevant source and focused checks before expanding the scope.
 | --- | --- | --- |
 | Correct a session | [Annotations](../community/annotations/sessions.json) and official page | [Source policy](source-and-reuse-policy.md), evidence, then refresh |
 | Update speaker research | [Profiles JSON](../community/speaker-profiles.json) and [pages](../resources/speakers/README.md) | [Attribution rules](../CONTRIBUTING.md#speaker-profile-corrections); consistent views and catalog joins |
+| Check times and places | [Logistics JSON](../community/session-logistics.json) and [venue guide](time-and-place.md) | Compare official pages, snapshot, session IDs, times, and sources; preserve unknown rooms |
 | Add or move a guide | [Inventory](document-map.json) and [navigation checker](../tools/conference-data/src/navigation.rs) | Incoming links, `check-docs`, historical/private-route fixtures |
 | Change collection | [Collector](../tools/conference-data/src/collect.rs) and [fixture](../tools/conference-data/tests/fixtures/schedule.html) | Valid/malformed input, failed publication, `validate` |
 | Change schema or lifecycle | [Domain types](../tools/conference-data/src/domain.rs) | Constructor tests; valid and compile-fail rustdoc pairs |
@@ -57,6 +58,10 @@ merging it automatically.
 After roster changes, check speaker/session IDs, research additions, and review
 coverage and `roster_snapshot_id`. Change profile research dates only when
 rechecking the underlying work.
+
+The [logistics check](data-guide.md#session-logistics-check) is also maintained
+separately. Recheck it after a schedule refresh before updating its snapshot or
+date. Keep the venue guide consistent and never infer rooms from track labels.
 
 ## Publish and recover a snapshot
 

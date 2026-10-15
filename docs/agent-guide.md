@@ -67,6 +67,11 @@ Check dates, overlaps, end times, bookings, travel, and per-session remote acces
 against official sources. Ask what the agent verified and what needs your
 decision. Use the [planning guide](planning-guide.md) for the review.
 
+For places, supply the [logistics check](../community/session-logistics.json)
+with a matching `catalog_snapshot_id`. It adds venues, arrival details, and
+source conflicts. A stage label is not a physical room; preserve `room: null`.
+See the [format and limits](data-guide.md#session-logistics-check).
+
 ## Instructions for the agent
 
 Separate official facts, community annotations, and your reasoning. Rank against

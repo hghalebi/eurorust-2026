@@ -662,5 +662,13 @@
     "purpose": "Find attributed public work and preparation resources for Paweł Urbanek",
     "scope": "Independent speaker research checked on 2026-10-14",
     "replacement": null
+  },
+  {
+    "path": "docs/time-and-place.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Check session times, venues, arrival details, room gaps, and source conflicts",
+    "scope": "EuroRust 2026 logistics checked on October 15, 2026",
+    "replacement": null
   }
 ]
