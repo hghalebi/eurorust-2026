@@ -2,11 +2,9 @@
 
 gccrs compiler development, language tooling, and the path toward building Rust kernel code with GCC.
 
-At EuroRust 2026:
+EuroRust sessions (check official pages for details and access):
 
 - [Compiling the Linux kernel with gccrs](https://eurorust.eu/talks/compiling-the-linux-kernel-with-gccrs/)
-
-Follow the official page for the current session description and access details.
 
 ## Talks and teaching
 
@@ -27,10 +25,8 @@ Follow the official page for the current session description and access details.
 
 No personal blog, authored book, or scholarly publication was verified. Articles reporting on Patry's talks were not attributed to him as authored work.
 
-Identity and attribution references: [eurorust.eu](https://eurorust.eu/talks/compiling-the-linux-kernel-with-gccrs/), [2025.rustweek.org](https://2025.rustweek.org/talks/arthurcohen/).
+Sources: [eurorust.eu](https://eurorust.eu/talks/compiling-the-linux-kernel-with-gccrs/), [2025.rustweek.org](https://2025.rustweek.org/talks/arthurcohen/).
 
-Researched on **2026-10-14**. This is a Codex-assisted, source-checked draft;
-community and speaker review are pending. A missing item means it was not
-verified in this search. See the [research method](README.md#how-to-read-these-profiles).
+Source-checked **2026-10-14**. Codex-assisted draft; community and speaker review pending.
 
-[Browse all speakers](README.md) · [Use the structured profiles](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)
+[Research method](README.md#how-to-read-these-profiles) · [All speakers](README.md) · [Profiles JSON](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)

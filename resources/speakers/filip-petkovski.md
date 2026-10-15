@@ -2,11 +2,9 @@
 
 Observability, PromQL execution, and concurrent systems.
 
-At EuroRust 2026:
+EuroRust sessions (check official pages for details and access):
 
 - [Running Safely with Scissors: Lock-free Concurrency for Maximum Throughput](https://eurorust.eu/talks/running-safely-with-scissors-lock-free-concurrency-for-maximum-throughput/)
-
-Follow the official page for the current session description and access details.
 
 ## Talks and teaching
 
@@ -28,10 +26,8 @@ No authored book or scholarly paper verified.
 
 An unrelated same-name academic and their books were excluded.
 
-Identity and attribution references: [eurorust.eu](https://eurorust.eu/talks/running-safely-with-scissors-lock-free-concurrency-for-maximum-throughput/), [github.com](https://github.com/fpetkovski).
+Sources: [eurorust.eu](https://eurorust.eu/talks/running-safely-with-scissors-lock-free-concurrency-for-maximum-throughput/), [github.com](https://github.com/fpetkovski).
 
-Researched on **2026-10-14**. This is a Codex-assisted, source-checked draft;
-community and speaker review are pending. A missing item means it was not
-verified in this search. See the [research method](README.md#how-to-read-these-profiles).
+Source-checked **2026-10-14**. Codex-assisted draft; community and speaker review pending.
 
-[Browse all speakers](README.md) · [Use the structured profiles](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)
+[Research method](README.md#how-to-read-these-profiles) · [All speakers](README.md) · [Profiles JSON](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)

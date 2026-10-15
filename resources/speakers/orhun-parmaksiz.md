@@ -2,11 +2,9 @@
 
 Ratatui, terminal interfaces, and the Rust tools around an open-source maintainer's daily work.
 
-At EuroRust 2026:
+EuroRust sessions (check official pages for details and access):
 
 - [BcnRust Barcelona Meetup — meetup speaker](https://eurorust.eu/activities/meetup/)
-
-Follow the official page for the current session description and access details.
 
 ## Talks and teaching
 
@@ -33,10 +31,8 @@ Follow the official page for the current session description and access details.
 
 No standalone authored book or scholarly publication was verified. The official EuroRust meetup names him, but the current structured dataset has no individual speaker record for that activity.
 
-Identity and attribution references: [eurorust.eu](https://eurorust.eu/activities/meetup/), [orhun.dev](https://orhun.dev/), [github.com](https://github.com/orhun).
+Sources: [eurorust.eu](https://eurorust.eu/activities/meetup/), [orhun.dev](https://orhun.dev/), [github.com](https://github.com/orhun).
 
-Researched on **2026-10-14**. This is a Codex-assisted, source-checked draft;
-community and speaker review are pending. A missing item means it was not
-verified in this search. See the [research method](README.md#how-to-read-these-profiles).
+Source-checked **2026-10-14**. Codex-assisted draft; community and speaker review pending.
 
-[Browse all speakers](README.md) · [Use the structured profiles](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)
+[Research method](README.md#how-to-read-these-profiles) · [All speakers](README.md) · [Profiles JSON](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)

@@ -1,17 +1,16 @@
-## Who does this help, and what becomes clearer or more useful?
+## Who does this help?
 
-Describe the reader's question or the detail that needs correcting. For a tool
-change, include a concrete example of the affected behavior.
+Describe the reader's question or needed correction.
+For tools, give an example of the affected behavior.
 
-## What supports the change?
+## What supports it?
 
-Link the official sources and affected session IDs or snapshot. For notes, state
-the participation context and distinguish observations from interpretation.
+Link official sources and session IDs or snapshot.
+For notes, state participation context and separate observation from interpretation.
 
 ## What did you check?
 
-List checks actually run and their results. Explain remaining unknowns,
-compatibility effects, or follow-up work.
+List executed checks and results. Note unknowns, compatibility effects, and follow-up.
 
-For new, moved, or reclassified guides, update the document inventory and task
-routes. Regenerate outputs from their owning inputs and keep personal data local.
+Update inventory and links for new, moved, or reclassified guides.
+Regenerate outputs from their inputs. Keep personal data local.

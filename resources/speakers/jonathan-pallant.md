@@ -2,11 +2,9 @@
 
 Embedded Rust, real-time systems, retrocomputing, and Rust training.
 
-At EuroRust 2026:
+EuroRust sessions (check official pages for details and access):
 
 - [Tales from the Embedded Rust Frontier: Bootstrapping a brand new ecosystem](https://eurorust.eu/talks/tales-from-the-embedded-rust-frontier-bootstrapping-a-brand-new-ecosystem/)
-
-Follow the official page for the current session description and access details.
 
 ## Articles and research
 
@@ -35,10 +33,8 @@ No scholarly paper or sole-authored commercial book verified; the Neotron manual
 
 Some repositories are moving to Codeberg, so follow the project's own current links before cloning.
 
-Identity and attribution references: [eurorust.eu](https://eurorust.eu/talks/tales-from-the-embedded-rust-frontier-bootstrapping-a-brand-new-ecosystem/), [onevariable.com](https://onevariable.com/blog/cwj-ep017-on-the-road/), [github.com](https://github.com/thejpster).
+Sources: [eurorust.eu](https://eurorust.eu/talks/tales-from-the-embedded-rust-frontier-bootstrapping-a-brand-new-ecosystem/), [onevariable.com](https://onevariable.com/blog/cwj-ep017-on-the-road/), [github.com](https://github.com/thejpster).
 
-Researched on **2026-10-14**. This is a Codex-assisted, source-checked draft;
-community and speaker review are pending. A missing item means it was not
-verified in this search. See the [research method](README.md#how-to-read-these-profiles).
+Source-checked **2026-10-14**. Codex-assisted draft; community and speaker review pending.
 
-[Browse all speakers](README.md) · [Use the structured profiles](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)
+[Research method](README.md#how-to-read-these-profiles) · [All speakers](README.md) · [Profiles JSON](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)

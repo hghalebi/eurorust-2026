@@ -1,93 +1,73 @@
-# Help someone make a better conference choice
+# Share something useful
 
-A contribution can be one corrected detail, a preparation tip, a useful
-question, or a clear account of what you learned. Start with the smallest
-improvement you can explain and support with a source.
+A correction, preparation tip, question, or session note can help another
+attendee. [Open an issue](https://github.com/hghalebi/eurorust-2026/issues/new/choose)
+with a source, or edit a page and propose a pull request. No local tools are needed.
 
 ## Where to contribute
 
-| You can help with… | Start here | What to include |
+| Contribution | Start here | Include |
 | --- | --- | --- |
-| An incorrect or conflicting detail | [Correction guide](community/corrections/README.md) | Session or page, official source, proposed correction, and when you checked |
-| A useful route through the conference | [Learning paths](community/paths/README.md) | Who it helps, goals, availability assumptions, session choices, and alternatives |
-| A preparation or session note | [Session note template](templates/session.md) | Source attribution, participation context, useful questions or observations, and a next step |
-| A translation or clearer explanation | [Planning guide](docs/planning-guide.md) or [agent prompt](prompts/choose-my-path.md) | Language, translator, original page, and working links |
-| A summary, topic, or prerequisite | [Session annotations](community/annotations/sessions.json) | Original wording and official source; maintainers can help with the structured fields |
-| A speaker's work or public account | [Speaker directory](resources/speakers/README.md) | Profile, resource, evidence connecting it to the speaker, and when you checked |
-| An optional code example or tool improvement | [Maintenance guide](docs/maintenance.md) | The learning goal or failure, reproducible steps, relevant checks, and limits |
+| Incorrect detail | [Corrections](community/corrections/README.md) | Page or session, source, correction, checked date |
+| Learning path | [Example paths](community/paths/README.md) | Audience, goals, availability, choices, alternatives |
+| Preparation or session note | [Note template](templates/session.md) | Sources, participation context, observation or question, next step |
+| Translation or clearer wording | [Planning guide](docs/planning-guide.md) or [agent prompt](prompts/choose-my-path.md) | Language, translator, original page, working links |
+| Summary, topic, or prerequisite | [Session annotations](community/annotations/sessions.json) | Original wording and official source |
+| Speaker resource or account | [Speaker directory](resources/speakers/README.md) | Resource, identity evidence, checked date |
+| Code example or tool change | [Maintenance guide](docs/maintenance.md) | Goal or failure, reproduction steps, checks, limits |
 
-## Share an issue or edit a page
+Unsure where to edit? Include the official URL and the page you were reading
+in an issue. Maintainers can route it.
 
-You can [open an issue](https://github.com/hghalebi/eurorust-2026/issues/new/choose)
-with the note or correction in plain language. For a written change, edit the
-relevant Markdown page or copy a template and propose a pull request. You do not
-need to install the local tools to contribute content.
+## Make the evidence clear
 
-A learning path can be a Markdown table. JSON is optional for paths intended for
-structured reuse. If you are unsure where a correction belongs, include the
-session's official URL and the page you were reading; maintainers can route it.
+Use your own words. Separate source facts, interpretation, and observations.
+State whether you prepared, attended, or watched a recording. Mark unknowns;
+use `null` in structured data.
 
-## Make your change easy to trust
+Annotations need an author, method, source URL, checked date, and source hash.
+Maintainers can help and apply changes through a data refresh. Correct the
+owning source: manual edits to generated exports will be replaced.
 
-Write summaries in your own words and link the official session. Distinguish
-source facts, community interpretation, and your own observations. Record
-preparation, attendance, and watching a recording as different contexts. Mark
-missing information as unknown; use `null` in structured data where appropriate.
-
-For annotations, include the author, method, source URL, checked date, and source
-hash. You can propose the wording and source in an issue if you need help with
-those fields. Maintainers apply annotation changes through a data refresh.
-Generated schedules and exports are rebuilt from their inputs, so report the
-underlying correction instead of relying on a manual edit to a generated view.
-
-Share only material you have authority to publish. Keep personal participant
-profiles, source caches, credentials, attendee contact lists, and unlicensed
-slide decks out of public changes. Follow the
-[source policy](docs/source-and-reuse-policy.md) and
-[community conduct](CODE_OF_CONDUCT.md).
+Publish only material you may share. Keep personal participant profiles,
+contact lists, caches, credentials, and unlicensed slide decks local. Follow
+the [source policy](docs/source-and-reuse-policy.md) and
+[code of conduct](CODE_OF_CONDUCT.md).
 
 ## Speaker profile corrections
 
-A speaker profile can begin with one useful resource. Link a project, book,
-article, talk, publication, or public professional account and explain what an
-attendee can learn from it. Establish the connection through the speaker's own
-site, an organizer, a publisher, an institution, or a credited contribution.
-A matching name alone is insufficient.
+Link a useful work or public professional account. Connect it to the speaker
+through their site, an organizer, publisher, institution, or credited project
+contribution. A matching name is insufficient.
 
-Identify the actual relationship: author, coauthor, maintainer, contributor,
-presenter, or instructor. Label preprints, upcoming talks, archived projects,
-and restricted access accurately. Link to original work and write a short
-annotation; do not copy biographies, papers, slides, or personal contact details.
+State the role: author, coauthor, maintainer, contributor, presenter, or
+instructor. Label preprints, future talks, archived projects, and restricted
+access. Link original work; do not copy biographies, papers, slides, or private
+contact details.
 
-An issue with the source is enough. For a direct edit, keep the relevant
-`resources/speakers/` page and its record in
+For direct edits, keep the profile page and
 [speaker-profiles.json](community/speaker-profiles.json) consistent. Preserve
-the catalog speaker ID, update the checked date only for research actually
-rechecked, and explain the extent of your review. Keep uncertain claims out
-of the public profile until attribution is established. The
-[data guide](docs/data-guide.md#speaker-research-companion) documents the fields.
+speaker IDs. Change a research date only after rechecking the sources, and state
+what you reviewed. Omit uncertain claims. The
+[data guide](docs/data-guide.md#speaker-research-companion) explains the format.
 
 ## Checks
 
-For a note or guide, check the links, names, session references, attribution,
-and participation context. Read it as someone choosing a session: can they tell
-what it helps with and what remains unknown? Say which checks you performed;
-maintainers and repository CI handle the technical checks where needed.
+Check names, links, session references, sources, and participation context.
+Can a reader see what is useful and what remains unknown?
 
-For new, moved, or reclassified guides, maintainers also update the
-[document inventory](docs/document-map.json) and incoming links. Rust, dataset,
-and JSON itinerary changes follow the [maintenance checks](docs/maintenance.md#checks-for-maintainers).
-Historical observations and immutable snapshots retain their original scope.
+Update the [document inventory](docs/document-map.json) and incoming links for
+new, moved, or reclassified guides. Use the [maintenance checks](docs/maintenance.md#checks-for-maintainers)
+for Rust, dataset, or JSON itinerary changes. Preserve dated observations and
+immutable snapshots.
 
 ## Pull requests
 
-Explain who the change helps and what becomes clearer or more useful. Include
-the supporting source, affected sessions and dataset version when relevant,
-checks actually performed, and any open questions. A reviewer should be able to
-follow your explanation back to the material you used.
+State who benefits, what changed, sources, affected sessions or snapshot,
+checks performed, and open questions. Maintainers and CI handle technical checks
+where needed.
 
 ## Runtime troubleshooting
 
-If you are working on the optional tools and commands fail, use
-[maintainer troubleshooting](docs/maintenance.md#runtime-troubleshooting).
-Content corrections and notes can still be proposed through an issue.
+For tool failures, use [maintenance troubleshooting](docs/maintenance.md#runtime-troubleshooting).
+You can still submit content corrections through an issue.

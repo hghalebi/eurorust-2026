@@ -1,46 +1,40 @@
 # Meet the work behind the talks
 
-A session is one way into a speaker's work. Use these profiles to find an
-earlier talk, read an article, explore a project, or choose a book before you
-decide what to ask at EuroRust.
+Find a speaker's earlier talks, articles, projects, books, and public accounts.
+Choose one work and bring a question it raises.
 
-Each profile connects an official conference appearance to independently
-researched public work. The collection covers **43 speakers in the recorded
-dataset and two speakers named on the official meetup page**. Research was
-checked on **October 14, 2026**; the Codex-assisted drafts await community and
-speaker review.
+These profiles cover **43 catalog speakers and two named meetup speakers**.
+Research was checked on **October 14, 2026**. The Codex-assisted drafts await
+community and speaker review.
 
 ## Start with a question
 
-These are editorial starting points, based on the linked work. They are not
-conference tracks or claims about what a session will deliver.
+These are independent reading suggestions. Check official pages for each
+session's advertised topic.
 
 | Your interest | Work to explore |
 | --- | --- |
-| Building and reviewing production agents | [Njuguna Mureithi](njuguna-mureithi.md) on background jobs; [Melih Elibol](melih-elibol.md) on GPU programming and agent-assisted translation; [Shane Carr](shane-carr.md) on accountability in AI-assisted engineering |
-| Understanding Rust's type system | [lcnr](lcnr.md) on trait solving; [Jana Dönszelmann](jana-donszelmann.md) on compiler development; [Jon Gjengset](jon-gjengset.md) on API design and concurrency |
-| Configuring and operating infrastructure | [André Eriksson](andre-eriksson.md) on deriving infrastructure from code; [Philipp Schuster](philipp-schuster.md) on virtualization and Nix; [Sanskar Jaiswal](sanskar-jaiswal.md) on progressive delivery |
-| Working with robots and embedded systems | [Timo Bachmann](timo-bachmann.md) on task planning and skill adaptation; [Massimiliano Mantione](massimiliano-mantione.md) and [Michele Mantione](michele-mantione.md) on robotics workshops; [Björn Barwinski](bjorn-barwinski.md) on Embassy |
-| Moving Rust into an existing system | [Jonas Kruckenberg](jonas-kruckenberg.md) on C-to-Rust migration; [Sergio Gonzalez Martin](sergio-gonzalez-martin.md) on browser codecs; [Jake Lishman](jake-lishman.md) on Python and Rust in Qiskit |
+| Production agents | [Njuguna Mureithi](njuguna-mureithi.md): background jobs; [Melih Elibol](melih-elibol.md): GPUs and agent-assisted translation; [Shane Carr](shane-carr.md): AI engineering accountability |
+| Rust's type system | [lcnr](lcnr.md): trait solving; [Jana Dönszelmann](jana-donszelmann.md): compilers; [Jon Gjengset](jon-gjengset.md): APIs and concurrency |
+| Infrastructure | [André Eriksson](andre-eriksson.md): infrastructure from code; [Philipp Schuster](philipp-schuster.md): virtualization and Nix; [Sanskar Jaiswal](sanskar-jaiswal.md): progressive delivery |
+| Robotics and embedded systems | [Timo Bachmann](timo-bachmann.md): task planning and skill adaptation; [Massimiliano Mantione](massimiliano-mantione.md) and [Michele Mantione](michele-mantione.md): robotics workshops; [Björn Barwinski](bjorn-barwinski.md): Embassy |
+| Adopting Rust | [Jonas Kruckenberg](jonas-kruckenberg.md): C-to-Rust migration; [Sergio Gonzalez Martin](sergio-gonzalez-martin.md): browser codecs; [Jake Lishman](jake-lishman.md): Python and Rust in Qiskit |
 
-Choose one work, note the assumption or design decision you want to understand,
-and bring that question to the session. The [session note template](../../templates/session.md)
-helps separate preparation from what you later observe.
+Use the [session note template](../../templates/session.md) to separate
+preparation questions from later observations.
 
 ## Books to spend more time with
 
-- [Jon Gjengset: *Rust for Rustaceans*](jon-gjengset.md#books) — an intermediate Rust book, with a publisher sample and author-maintained errata.
-- [Jonas Kruckenberg: *The C to Rust Migration Book*](jonas-kruckenberg.md#books) — an online book with migration exercises.
-- [Johan Sannemo: *Principles of Algorithmic Problem Solving*](johan-sannemo.md#books) — an author-hosted textbook on algorithms and competitive programming.
-- [Paweł Urbanek: Heroku PostgreSQL to AWS RDS migration guide](pawel-urbanek.md#books) — a commercial operations ebook, outside his Rust profiling topic; check current provider documentation before applying it.
+- [Jon Gjengset: *Rust for Rustaceans*](jon-gjengset.md#books) — intermediate Rust, with a sample and errata.
+- [Jonas Kruckenberg and Artur Jakubiec: *The C to Rust Migration Book*](jonas-kruckenberg.md#books) — an online book with exercises.
+- [Johan Sannemo: *Principles of Algorithmic Problem Solving*](johan-sannemo.md#books) — algorithms and competitive programming.
+- [Paweł Urbanek: Heroku PostgreSQL to AWS RDS migration guide](pawel-urbanek.md#books) — a commercial ebook outside his Rust topic. Check current provider documentation before use.
 
-These are the authored books verified in this research. Research chapters and
-project manuals appear under their actual formats in the relevant profiles.
+These books were verified in this search. Profiles label chapters and manuals separately.
 
 ## Find a speaker by name
 
-Names follow the conference roster. The descriptions below identify entry
-points into verified work; each profile includes the sources and any gaps.
+Names follow the conference roster. Profiles include sources and research gaps.
 
 ### A–I
 
@@ -102,9 +96,8 @@ points into verified work; each profile includes the sources and any gaps.
 
 ### Speakers named on the meetup page
 
-The [official Barcelona meetup page](https://eurorust.eu/activities/meetup/) names
-these speakers. The catalog records the meetup as one activity, without
-individual speaker IDs or talk slots.
+The [official meetup page](https://eurorust.eu/activities/meetup/) names these
+speakers. The catalog has one meetup activity, without individual IDs or talk slots.
 
 | Speaker | Reading and project context |
 | --- | --- |
@@ -113,41 +106,32 @@ individual speaker IDs or talk slots.
 
 ## How to read these profiles
 
-This is an independent selection of professional work, researched one person
-at a time. The 43-person roster comes from [the recorded speaker dataset](../../data/speakers.json);
-the two additional meetup names come from its linked official activity page.
-The directory does not attempt to catalogue organizers, moderators, or unnamed
-participants.
+Coverage follows the [recorded roster](../../data/speakers.json) and the named
+meetup speakers. Organizers, moderators, and unnamed participants are outside scope.
 
-Attribution uses the speaker's own site or account, organizer records,
-publishers, research institutions, and credited project contributions. Links
-labelled **Attribution** explain a connection when the work itself is not enough.
-Profiles distinguish authorship, coauthorship, maintenance, and contribution.
-They identify preprints, slides, upcoming appearances, historical work, and
-restricted access where relevant. Some identity links were checked through
-indexed primary pages when direct access was unavailable. An attributed account
-does not imply that it is active today.
+Sources include personal sites, organizer records, publishers, research
+institutions, and credited contributions. **Attribution** links explain identity
+or authorship. Profiles distinguish authors, coauthors, maintainers, and
+contributors, and label formats, future appearances, historical work, and access
+limits. Where direct access failed, some checks used indexed primary pages.
+Account activity was not verified.
 
-The notes are original Codex-assisted drafts checked against sources, with
-`source_checked_draft` status. They are not approved biographies or speaker
-endorsements. Gaps mean that this search could not verify an item; they do not
-mean that no such work exists. A link to a project establishes neither a
-recommendation for production use nor what its contributor will discuss here.
+The `source_checked_draft` notes are Codex-assisted, not speaker-approved.
+Gaps mean unverified in this search, not nonexistent. Project links imply neither
+production suitability nor session content.
 
-The profiles link to original material and preserve its attribution. Third-party
-works retain their own terms; repository licenses cover our original annotations.
-For current times, registration, and session access, follow the official pages.
+Third-party works keep their own terms; repository licenses cover our annotations.
+Official pages govern current times, registration, and access.
 
 ## Use a profile with your agent
 
-Give your agent a selected page or the [structured profiles](../../community/speaker-profiles.json)
-alongside the conference catalog. Ask for one relevant earlier work and a
-question to bring to the session. The [agent guide](../../docs/agent-guide.md#add-speaker-background-when-it-helps)
-explains how to preserve sources and dates; the [data guide](../../docs/data-guide.md#speaker-research-companion)
-documents the join keys and format. This companion is maintained separately
-from the official-source dataset and its immutable snapshots.
+Supply a profile or the [profiles JSON](../../community/speaker-profiles.json)
+with the catalog. Ask for one earlier work and a question to bring. See the
+[agent instructions](../../docs/agent-guide.md#add-speaker-background-when-it-helps)
+and [format reference](../../docs/data-guide.md#speaker-research-companion).
+This research is separate from the conference dataset and its immutable snapshots.
 
-Found a missing work or an incorrect attribution? [Suggest a profile correction](../../CONTRIBUTING.md#speaker-profile-corrections)
-with a primary source. Speakers can use the same route to clarify their own work.
+[Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections) with a
+primary source. Speakers are welcome to clarify their own work.
 
 [Back to further reading](../README.md) · [Compare conference sessions](../../exports/schedule.md)

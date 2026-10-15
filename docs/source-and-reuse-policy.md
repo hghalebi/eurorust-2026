@@ -1,39 +1,34 @@
-# Share useful context with clear attribution
+# Sources and reuse
 
-The official [schedule](https://eurorust.eu/schedule/), session pages, and
-[event site](https://eurorust.eu/) are the source for conference announcements.
-The [imprint](https://eurorust.eu/imprint/) identifies the organizer. Check
-[robots.txt](https://eurorust.eu/robots.txt) for current crawler rules. Permission
-to crawl does not establish a license to redistribute a page or its assets.
+The [official schedule](https://eurorust.eu/schedule/), session pages, and
+[event site](https://eurorust.eu/) provide conference facts. The
+[imprint](https://eurorust.eu/imprint/) identifies the organizer. Check
+[robots.txt](https://eurorust.eu/robots.txt) before crawling. Crawl permission
+does not grant republication rights.
 
-## What this repository publishes
+## What we publish
 
-The shared dataset contains factual metadata, source URLs, retrieval dates,
-and separately attributed original short summaries. Follow the official source
-for complete abstracts. The collection tools exclude full source HTML, speaker
-biographies, photographs, slides, and transcripts from their exports. Review
-access rules and reuse terms before adding a source.
+The dataset contains factual metadata, source URLs, retrieval dates, and
+attributed original summaries. Exports exclude full HTML, biographies, photos,
+slides, and transcripts. Follow the source for full abstracts.
 
-The [speaker directory](../resources/speakers/README.md) is a separate community
-collection of public professional links and original short annotations. It
-records attribution, research dates, and unresolved gaps. It links to works
-and accounts without reproducing biographies, photographs, papers, or private
-contact details. These profiles are independent drafts, not speaker endorsements.
+The [speaker directory](../resources/speakers/README.md) adds public professional
+links and original notes, with research dates, attribution, and gaps.
+Profiles are independent drafts, not speaker endorsements.
 
-## What contributors can share
+## What you can share
 
-Share material you have authority to publish and identify its upstream sources.
-Original repository prose and annotations use [CC BY 4.0](../LICENSES/README.md);
-software uses [MIT](../LICENSE). Those licenses cover our original contributions.
-Third-party material retains its own rights and terms.
+Share material you have permission to publish. Original prose and annotations
+use [CC BY 4.0](../LICENSES/README.md); code uses [MIT](../LICENSE).
+Third-party works retain their own rights and terms.
 
-Get the people involved comfortable with publication before sharing informal
-conversation notes or identifiable photographs. Keep participant profiles and
-internal records local.
+Get consent before publishing informal conversation notes or identifiable
+photos. Keep personal participant profiles, contact details, caches, and
+internal records local. Review source access rules and reuse terms.
 
-## Help readers judge the evidence
+## Label the evidence
 
-Label official facts, community interpretation, generated suggestions, and
-personal observations clearly. Record preparation separately from attendance.
-When sources disagree, document both values and the evidence so a correction
-can be reviewed. Use the [contribution guide](../CONTRIBUTING.md) for the right route.
+Separate official facts, community interpretation, generated suggestions, and
+personal observations. Distinguish preparation from attendance. If sources
+disagree, record both values and supporting links.
+[Propose a correction](../CONTRIBUTING.md).

@@ -2,11 +2,9 @@
 
 Qt graphics and Rust integration, with a research background in numerical flow simulation.
 
-At EuroRust 2026:
+EuroRust sessions (check official pages for details and access):
 
 - [Qt Bridges: Bringing a mature C++ UI framework to Rust](https://eurorust.eu/talks/qt-bridges-bringing-a-mature-c-ui-framework-to-rust/)
-
-Follow the official page for the current session description and access details.
 
 ## Articles and research
 
@@ -31,10 +29,8 @@ Follow the official page for the current session description and access details.
 
 No authored book or independently confirmed personal GitHub account verified. A similarly named Porsche professional is a different profile and is excluded.
 
-Identity and attribution references: [eurorust.eu](https://eurorust.eu/talks/qt-bridges-bringing-a-mature-c-ui-framework-to-rust/), [no.linkedin.com](https://no.linkedin.com/in/matti-rauter), [qt.io](https://www.qt.io/blog/author/matthias-rauter).
+Sources: [eurorust.eu](https://eurorust.eu/talks/qt-bridges-bringing-a-mature-c-ui-framework-to-rust/), [no.linkedin.com](https://no.linkedin.com/in/matti-rauter), [qt.io](https://www.qt.io/blog/author/matthias-rauter).
 
-Researched on **2026-10-14**. This is a Codex-assisted, source-checked draft;
-community and speaker review are pending. A missing item means it was not
-verified in this search. See the [research method](README.md#how-to-read-these-profiles).
+Source-checked **2026-10-14**. Codex-assisted draft; community and speaker review pending.
 
-[Browse all speakers](README.md) · [Use the structured profiles](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)
+[Research method](README.md#how-to-read-these-profiles) · [All speakers](README.md) · [Profiles JSON](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)

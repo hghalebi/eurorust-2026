@@ -2,11 +2,9 @@
 
 C-to-Rust migration, Rust education, and application engineering.
 
-At EuroRust 2026:
+EuroRust sessions (check official pages for details and access):
 
 - [C→Rust, Beyond the Basics](https://eurorust.eu/workshops/c-to-rust/)
-
-Follow the official page for the current session description and access details.
 
 ## Talks and teaching
 
@@ -28,10 +26,8 @@ Follow the official page for the current session description and access details.
 
 No authored book or scholarly paper verified. The C to Rust Migration Book mentioned in related Mainmatter material is credited to Jonas Kruckenberg.
 
-Identity and attribution references: [eurorust.eu](https://eurorust.eu/workshops/c-to-rust/), [github.com](https://github.com/memark).
+Sources: [eurorust.eu](https://eurorust.eu/workshops/c-to-rust/), [github.com](https://github.com/memark).
 
-Researched on **2026-10-14**. This is a Codex-assisted, source-checked draft;
-community and speaker review are pending. A missing item means it was not
-verified in this search. See the [research method](README.md#how-to-read-these-profiles).
+Source-checked **2026-10-14**. Codex-assisted draft; community and speaker review pending.
 
-[Browse all speakers](README.md) · [Use the structured profiles](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)
+[Research method](README.md#how-to-read-these-profiles) · [All speakers](README.md) · [Profiles JSON](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)

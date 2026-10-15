@@ -1,107 +1,100 @@
-# Optional CLI reference: inputs, choices, checks, and recovery
+# Optional CLI reference
 
-This reference is for the local helper that supports the conference collection.
-Use the [optional walkthrough](quickstart.md) for its setup and a complete example.
-For reading the collection or planning with your own agent, use the
-[guide index](README.md). The sections below explain what each command proves
-and which decisions remain with the participant.
-Run examples from the repository root after [installing `bin/conference-data`](quickstart.md#install-a-reusable-binary).
+For setup and an example, use the [walkthrough](quickstart.md).
+Run commands from the repository root after
+[installing `bin/conference-data`](quickstart.md#install-a-reusable-binary).
+For reading and agent-assisted planning, start with the [guides](README.md).
 
 ## Commands and paths
 
-| Command | Reads or does | Result |
+| Command | Action | Result |
 | --- | --- | --- |
-| `validate` | Loads the active manifest and catalog; checks domain rules, identity, coverage, references, and hashes | Rejects inconsistent active or immutable files |
-| `recommend --profile PATH --output PATH` | Validates the active bundle and profile, then selects a deterministic starting path | Writes itinerary JSON; optional `--markdown PATH` adds the readable view |
-| `check-itinerary --itinerary PATH` | Checks a supplied plan against the active verified bundle | Rejects identity, reference, availability, and overlap errors; prints external-fact warnings |
-| `export` | Loads the active catalog, validates it, and regenerates a bundle offline | Updates generated views and manifest; may add an immutable snapshot |
-| `export --catalog PATH` | Uses an explicitly selected checked catalog | Same publication path; useful for recovery |
-| `refresh` | Fetches official sources, applies annotations, validates, and publishes | Retrieves newer facts and updates generated files |
-| `check-docs` | Checks public Markdown, local links, anchors, classification, and private-path boundaries | Reports structural navigation failures |
+| `validate` | Check the active bundle's rules, identity, coverage, references, and hashes | Reject inconsistent active or immutable files |
+| `recommend --profile PATH --output PATH` | Validate the bundle and profile; select a deterministic draft | Write itinerary JSON; `--markdown PATH` adds a readable copy |
+| `check-itinerary --itinerary PATH` | Check a plan against the verified active bundle | Reject identity, reference, availability, and overlap errors; warn about external facts |
+| `export` | Validate the active catalog and regenerate offline | Update views and manifest; possibly add a snapshot |
+| `export --catalog PATH` | Use a chosen valid catalog | Same publication process; useful for recovery |
+| `refresh` | Fetch official sources, apply annotations, validate, and publish | Update facts and generated files |
+| `check-docs` | Check public Markdown, links, anchors, classification, and private boundaries | Report navigation failures |
 
-`--root PATH` is global and selects the dataset/repository root. Profile, itinerary,
-output, and explicit `--catalog` paths remain relative to the shell's working
-directory unless absolute. The refresh cache defaults to `.cache/http` under the
-selected root; `--cache PATH` changes that location. Output directories must exist.
+Global `--root PATH` selects the dataset root. Profile, itinerary, output, and
+explicit `--catalog` paths remain relative to the working directory unless
+absolute. The cache defaults to `.cache/http` under the root; override it with
+`--cache PATH`. Create output directories first.
 
-Use `bin/conference-data --help` or append `--help` to a subcommand for exact flags.
-The tool reports version `0.1.0` at the audited revision.
+Use `--help` on the binary or a subcommand for flags.
+The audited tool version is `0.1.0`.
 
 ## Profile fields
 
-The [profile schema](../schema/profile.schema.json) defines JSON shape; runtime
-checks enforce additional constraints. Start with a complete
-[example profile](../community/paths/backend-profile.json).
+Start with an [example](../community/paths/backend-profile.json).
+The [schema](../schema/profile.schema.json) defines structure; runtime checks
+enforce further constraints.
 
-| Field | Meaning and behavior |
+| Field | Meaning |
 | --- | --- |
-| `name` | A nonempty label for the profile |
-| `goals` | Descriptive strings for people and agents; the deterministic CLI does not interpret them |
-| `topics` | Nonempty strings used for ranking. Use existing annotation tags such as `async`, `types`, `robotics`, or `infrastructure` |
-| `available_windows` | RFC 3339 start/end pairs. Each window needs a known end after its start; `[]` means availability is unknown |
-| `registered_workshops` | Distinct known workshop IDs the participant reports as registered. `[]` causes the baseline to select no workshops |
-| `attendance_mode` | `in_person`, `remote`, or `null`. Unknown mode and unconfirmed remote access produce warnings |
+| `name` | Nonempty profile label |
+| `goals` | Prose for people and agents; the CLI does not interpret it |
+| `topics` | Nonempty ranking strings, such as `async`, `types`, `robotics`, or `infrastructure` |
+| `available_windows` | RFC 3339 start/end pairs, with end after start; `[]` means unknown |
+| `registered_workshops` | Distinct known workshop IDs reported as booked; `[]` selects no workshops |
+| `attendance_mode` | `in_person`, `remote`, or `null`; unknown mode and unconfirmed remote access produce warnings |
 
-An entered workshop ID records the participant's assertion; the tool cannot check
-a purchase or reserve a seat. Use explicit timezone offsets. These guides use
-Europe/Madrid, `+02:00` during the event. Real profiles belong in local files.
+Workshop IDs record your assertion; the tool cannot verify purchases or reserve
+seats. Use explicit offsets: Europe/Madrid is `+02:00` during the event.
+Keep real profiles local.
 
 ## How the baseline chooses
 
-The implementation is in [itinerary.rs](../tools/conference-data/src/itinerary.rs).
-It performs these steps:
+[itinerary.rs](../tools/conference-data/src/itinerary.rs) follows four steps:
 
-1. Consider talks and workshop IDs listed as registered. Keep sessions wholly
-   inside a supplied availability window; unknown availability remains conditional.
-2. Give one point per requested topic when it exactly matches an annotation tag
-   whose status is not `source_changed`, or appears in the title ignoring case.
-   Annotation tag matching itself is case-sensitive.
-3. Group candidates by start time. Choose the highest score; break ties by
-   session ID. Keep the other candidates as same-slot alternatives.
-4. Move forward through slots. Skip a group if its best candidate overlaps the
-   previous choice or has no known end. Validate the resulting itinerary.
+1. Consider talks and registered workshops wholly inside an availability window.
+   Unknown availability remains conditional.
+2. Award one point per topic matching an annotation tag, except
+   `source_changed` tags, or appearing in the title. Tag matching is
+   case-sensitive; title matching ignores case.
+3. Group by start time. Choose the highest score, breaking ties by session ID.
+   Keep other candidates as same-slot alternatives.
+4. Skip a group if its best candidate overlaps the previous choice or lacks an
+   end time. Validate the result.
 
-This is a greedy baseline, not a global optimizer. Unmatched slots can still get
-a selection and a fallback rationale. Prose goals, skill level, prerequisite
-readiness, seat availability, and travel durations do not influence scoring.
-Lunch, breaks, side activities, and impl Day are not automatically selected.
-Markdown can list conditional workshop candidates without selecting them.
+This greedy method does not find a global optimum. Slots without topic matches
+may still get a choice and fallback reason. Scoring ignores prose goals,
+experience, readiness, seats, and travel. Lunch, breaks, side activities, and
+impl Day are not selected automatically. Markdown may list conditional workshops
+without selecting them.
 
-An agent can use the same source data to reason more broadly, then submit its
-JSON to `check-itinerary`. The [agent guide](agent-guide.md) defines that contract.
+An agent can reason more broadly and submit JSON to `check-itinerary`.
+See the [agent guide](agent-guide.md).
 
 ## Interpret success, warnings, and errors
 
-`check-itinerary` checks the plan's snapshot, session references, distinct
-selections, same-start alternatives, availability, known end times, and overlap.
-It warns about unknown availability or mode, unconfirmed workshop registration,
-remote access, changed annotations, and venue transfers as applicable.
+`check-itinerary` checks snapshot identity, session references, distinct
+selections, same-start alternatives, availability, end times, and overlaps.
+It warns about unknown availability or mode, unconfirmed bookings or remote
+access, changed annotations, and venue transfers.
 
-A successful command exits 0. Validation, parsing, and filesystem errors exit 1;
-CLI argument/usage errors are handled by Clap and exit 2. Warnings can accompany
-exit 0. They are unresolved participant decisions, not successful bookings.
-
-The final message is deliberately narrow:
+Exit codes: **0** success, **1** validation/parsing/filesystem failure, **2** CLI
+usage error from Clap. Exit 0 can include warnings; resolve them before attending.
 
 ```text
 Schedule feasibility checked; no booking or attendance claim
 ```
 
-For a historical itinerary, use a complete retained checkout or release context
-whose active manifest matches its snapshot. `check-itinerary` always checks the
-selected root's active bundle; it has no flag to choose a snapshot ID directly.
-An immutable folder has its manifest at its own root, while an active context
-expects `data/manifest.json`, so `--root` cannot simply point at that folder.
+For historical plans, use a complete retained checkout or release context with
+a matching active manifest. The checker always uses the root's active bundle;
+there is no snapshot-ID flag. An immutable folder has a root-level manifest,
+while active contexts expect `data/manifest.json`. Pointing `--root` directly
+at that folder will not work.
 
 ## Recover after a refresh or merge
 
-Generated views, their manifest, and example paths must describe the same
-snapshot. A merge that combines generations can fail digest checks even when the
-individual files parse. Preserve immutable history and decide which catalog
-contains the reviewed facts before regenerating.
+Views, manifest, and example paths must share a snapshot. Mixed generations can
+fail digest checks even when files parse. Preserve immutable history and choose
+the catalog with the reviewed facts.
 
-The following local commands rewrite generated files. Use a working copy and
-review the diff. If `data/catalog.json` is the intended valid catalog:
+These commands rewrite generated files. Use a working copy and review the diff.
+If `data/catalog.json` is the intended valid catalog:
 
 ```sh
 bin/conference-data export --catalog data/catalog.json
@@ -121,29 +114,23 @@ done
 bin/conference-data check-docs
 ```
 
-If the active catalog is damaged, use the immutable catalog path from the last
-intact manifest with `export --catalog PATH`. Current generator code can produce
-a new snapshot identity from the same facts, so regenerate the paths afterward.
-Offline export applies no annotation-file edits and retrieves no newer facts.
+For a damaged active catalog, use the immutable catalog named by the last intact
+manifest with `export --catalog PATH`. A newer generator may create a new
+snapshot ID from the same facts; regenerate paths afterward. Offline export
+neither applies annotation-file edits nor fetches newer facts.
 
-For a source update, `refresh` retrieves official pages and applies
-`community/annotations/sessions.json`; then regenerate and check the paths as
-above. A removal stops refresh unless reviewed and explicitly accepted with
-`--accept-removals`. Review orphaned annotations too. Read the
-[maintenance guide](maintenance.md#refresh-official-data) before live collection.
+For new sources, `refresh` fetches official pages and applies
+`community/annotations/sessions.json`. Then regenerate and check paths as above.
+Removals stop refresh unless reviewed and accepted with `--accept-removals`.
+Review orphaned annotations. Read the
+[refresh procedure](maintenance.md#refresh-official-data) first.
 
 ## Implementation and evidence
 
-- [CLI dispatch](../tools/conference-data/src/main.rs) owns flags, path handling,
-  output, and exit behavior.
-- [Domain validation](../tools/conference-data/src/domain.rs) checks constructed
-  values, references, intervals, and annotation evidence.
-- [Bundle verification](../tools/conference-data/src/export.rs) checks active and
-  immutable file digests and manifest identity. Hash consistency authenticates
-  no external conference announcement.
-- [Integration tests](../tools/conference-data/tests/end_to_end.rs) exercise
-  distinct profiles, stale identity, overlaps, unavailable windows, corrupt views,
-  recovery, stale annotations, and rejected publication preserving the manifest.
+- [CLI dispatch](../tools/conference-data/src/main.rs): flags, paths, output, exit codes.
+- [Domain validation](../tools/conference-data/src/domain.rs): values, references, intervals, annotation evidence.
+- [Bundle verification](../tools/conference-data/src/export.rs): active and immutable hashes and identity. Hashes do not authenticate external announcements.
+- [Integration tests](../tools/conference-data/tests/end_to_end.rs): distinct profiles, stale identity, overlaps, unavailable windows, corruption, recovery, stale annotations, and failed publication preserving the manifest.
 
-Use the [validation receipt](validation.md) for executed checks and the
-[maintainer task map](maintenance.md#find-the-owning-file) for the next owning source.
+See [executed checks](validation.md) and the
+[maintainer task map](maintenance.md#find-the-owning-file).

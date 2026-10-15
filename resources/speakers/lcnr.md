@@ -2,11 +2,9 @@
 
 Rust's type system, trait solving, const generics, and compiler soundness.
 
-At EuroRust 2026:
+EuroRust sessions (check official pages for details and access):
 
 - [What's next for Rust's type system](https://eurorust.eu/talks/what-s-next-for-rust-s-type-system/)
-
-Follow the official page for the current session description and access details.
 
 ## Articles and research
 
@@ -30,10 +28,8 @@ Follow the official page for the current session description and access details.
 
 No authored book, scholarly paper, or additional public social-network account verified; the profile retains the speaker's published name, lcnr.
 
-Identity and attribution references: [lcnr.de](https://lcnr.de/about/), [rust-lang.org](https://rust-lang.org/governance/people/lcnr/).
+Sources: [lcnr.de](https://lcnr.de/about/), [rust-lang.org](https://rust-lang.org/governance/people/lcnr/).
 
-Researched on **2026-10-14**. This is a Codex-assisted, source-checked draft;
-community and speaker review are pending. A missing item means it was not
-verified in this search. See the [research method](README.md#how-to-read-these-profiles).
+Source-checked **2026-10-14**. Codex-assisted draft; community and speaker review pending.
 
-[Browse all speakers](README.md) · [Use the structured profiles](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)
+[Research method](README.md#how-to-read-these-profiles) · [All speakers](README.md) · [Profiles JSON](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)

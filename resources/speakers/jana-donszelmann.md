@@ -2,11 +2,9 @@
 
 Rust compiler maintenance, trait solving, diagnostics, and teaching.
 
-At EuroRust 2026:
+EuroRust sessions (check official pages for details and access):
 
 - [Optimizing rustc's Next Trait Solver](https://eurorust.eu/talks/optimizing-the-new-rust-trait-solver/)
-
-Follow the official page for the current session description and access details.
 
 ## Articles and research
 
@@ -33,10 +31,8 @@ No authored book or scholarly paper verified. Teaching materials and compiler ar
 
 No social-network account beyond the linked GitHub identity was verified.
 
-Identity and attribution references: [donsz.nl](https://donsz.nl/), [rustnl.org](https://rustnl.org/maintainers/).
+Sources: [donsz.nl](https://donsz.nl/), [rustnl.org](https://rustnl.org/maintainers/).
 
-Researched on **2026-10-14**. This is a Codex-assisted, source-checked draft;
-community and speaker review are pending. A missing item means it was not
-verified in this search. See the [research method](README.md#how-to-read-these-profiles).
+Source-checked **2026-10-14**. Codex-assisted draft; community and speaker review pending.
 
-[Browse all speakers](README.md) · [Use the structured profiles](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)
+[Research method](README.md#how-to-read-these-profiles) · [All speakers](README.md) · [Profiles JSON](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)

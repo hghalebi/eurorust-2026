@@ -2,11 +2,9 @@
 
 Applied Rust, computer vision, control, and deployed AI systems.
 
-At EuroRust 2026:
+EuroRust sessions (check official pages for details and access):
 
 - [Rust in Action - Applications of Computer Vision and Control](https://eurorust.eu/workshops/rust-in-action/)
-
-Follow the official page for the current session description and access details.
 
 ## Projects and professional work
 
@@ -22,10 +20,8 @@ No personal website, blog, authored book, scholarly publication, additional talk
 
 Searches returned several namesakes; their accounts and publications are omitted.
 
-Identity and attribution references: [eurorust.eu](https://eurorust.eu/workshops/rust-in-action/), [uk.linkedin.com](https://uk.linkedin.com/in/alexmarcelread).
+Sources: [eurorust.eu](https://eurorust.eu/workshops/rust-in-action/), [uk.linkedin.com](https://uk.linkedin.com/in/alexmarcelread).
 
-Researched on **2026-10-14**. This is a Codex-assisted, source-checked draft;
-community and speaker review are pending. A missing item means it was not
-verified in this search. See the [research method](README.md#how-to-read-these-profiles).
+Source-checked **2026-10-14**. Codex-assisted draft; community and speaker review pending.
 
-[Browse all speakers](README.md) · [Use the structured profiles](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)
+[Research method](README.md#how-to-read-these-profiles) · [All speakers](README.md) · [Profiles JSON](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)

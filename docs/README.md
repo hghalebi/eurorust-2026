@@ -1,48 +1,40 @@
-# Find your way around the collection
+# Find what you need
 
-Start with the material you want to use. Plans, notes, guides, and conference
-data are readable on GitHub; you can copy them into your own notes or provide
-them to your agent.
+Read on GitHub, copy into your notes, or give the files to your agent.
 
-## Read, choose, and prepare
+## Plan and prepare
 
-| I want to… | Start here |
+| Your goal | Open |
 | --- | --- |
-| Follow the owner's learning path | [Learning goals](../my-conference/README.md), then the [proposed itinerary](../my-conference/itinerary.md) |
-| Choose my own talks and workshops | [Planning guide](planning-guide.md), with the [schedule](../exports/schedule.md) open alongside it |
-| Keep my choices and questions together | [Itinerary template](../templates/itinerary.md) and [session note template](../templates/session.md) |
-| Prepare for a topic | [Preparation notes](../notes/README.md) and [further reading](../resources/README.md) |
-| Explore a speaker's work | [Speaker directory](../resources/speakers/README.md), with books, projects, writing, talks, and public accounts |
-| Compare other learning goals | [Example paths](../community/paths/README.md) |
-| Follow actual observations | [Journal](../journal/README.md) and [retrospective](../retrospective.md) |
+| Follow my path | [Learning goals](../my-conference/README.md) and [proposed itinerary](../my-conference/itinerary.md) |
+| Choose sessions | [Planning guide](planning-guide.md) and [schedule](../exports/schedule.md) |
+| Record choices and questions | [Itinerary template](../templates/itinerary.md) and [session notes](../templates/session.md) |
+| Prepare for a topic | [Questions to bring](../notes/README.md) and [further reading](../resources/README.md) |
+| Explore a speaker's work | [Speaker directory](../resources/speakers/README.md) |
+| Compare learning goals | [Example paths](../community/paths/README.md) |
+| Follow preparation and later observations | [Journal](../journal/README.md) and [retrospective](../retrospective.md) |
 
-## Use the data with your agent
+## Plan with an agent
 
-[The agent guide](agent-guide.md) explains which files to supply and how to ask
-for a plan. The [copyable prompt](../prompts/choose-my-path.md) helps you add your
-goals and constraints. The [data guide](data-guide.md) explains the available
-formats, source dates, review status, and recorded dataset versions.
-For a reading list tied to your sessions, add the separately curated
-[speaker profiles](../community/speaker-profiles.json).
+Use the [agent guide](agent-guide.md) and [planning prompt](../prompts/choose-my-path.md).
+The [data guide](data-guide.md) explains formats, source dates, and versions.
+Add [speaker profiles](../community/speaker-profiles.json) for a reading list.
 
-## Contribute to the collection
+## Contribute
 
-[Share a correction, note, translation, or learning path](../CONTRIBUTING.md).
-Use the [source and reuse policy](source-and-reuse-policy.md) to check attribution
-and what is suitable to publish. An issue or a Markdown contribution is enough
-to start.
+[Share a correction, note, translation, or path](../CONTRIBUTING.md).
+An issue with a source is enough. Follow the [source and reuse policy](source-and-reuse-policy.md).
 
-## Optional tools and deeper references
+## Optional tools and references
 
-| When you need… | Open this |
+| Task | Guide |
 | --- | --- |
-| A draft from the local itinerary helper | [Optional CLI walkthrough](quickstart.md) |
-| Exact inputs, scoring rules, warnings, or recovery | [CLI reference](cli.md) |
-| A small code example related to a session question | [Rust experiments](../experiments/README.md) |
-| To refresh data or maintain the repository | [Maintenance guide](maintenance.md) |
-| Evidence of previously executed checks | [Dated validation receipts](validation.md) |
+| Generate or check an itinerary locally | [CLI walkthrough](quickstart.md) |
+| Check inputs, scoring, warnings, or recovery | [CLI reference](cli.md) |
+| Try a small code example | [Rust experiments](../experiments/README.md) |
+| Update data or tools | [Maintenance](maintenance.md) |
+| Read past check results | [Validation records](validation.md) |
 
-For current conference details, follow the official session links. For the
-version of the data in this collection, read the [manifest](../data/manifest.json)
-and source retrieval dates. These answer different questions: a recorded dataset
-or successful check cannot establish a booking or actual attendance.
+Follow official session links for current details. The [manifest](../data/manifest.json)
+and retrieval dates identify this collection's data; they cannot confirm bookings
+or attendance.

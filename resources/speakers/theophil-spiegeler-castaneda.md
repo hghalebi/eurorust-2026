@@ -2,11 +2,9 @@
 
 Robotics software, autonomous-system infrastructure, and earlier research on prosthetic mechanisms and sensing.
 
-At EuroRust 2026:
+EuroRust sessions (check official pages for details and access):
 
 - [The Future of Unmanned Systems Is Built on Rust](https://eurorust.eu/talks/the-future-of-unmanned-systems-is-built-on-rust/)
-
-Follow the official page for the current session description and access details.
 
 ## Articles and research
 
@@ -26,10 +24,8 @@ Follow the official page for the current session description and access details.
 
 No independently verified personal social account, blog, standalone authored book, or public code project was found. The confirmed book contribution is a coauthored proceedings chapter.
 
-Identity and attribution references: [eurorust.eu](https://eurorust.eu/talks/the-future-of-unmanned-systems-is-built-on-rust/), [research.tudelft.nl](https://research.tudelft.nl/en/publications/bicep-a-bio-inspired-compliant-elbow-prosthesis/).
+Sources: [eurorust.eu](https://eurorust.eu/talks/the-future-of-unmanned-systems-is-built-on-rust/), [research.tudelft.nl](https://research.tudelft.nl/en/publications/bicep-a-bio-inspired-compliant-elbow-prosthesis/).
 
-Researched on **2026-10-14**. This is a Codex-assisted, source-checked draft;
-community and speaker review are pending. A missing item means it was not
-verified in this search. See the [research method](README.md#how-to-read-these-profiles).
+Source-checked **2026-10-14**. Codex-assisted draft; community and speaker review pending.
 
-[Browse all speakers](README.md) · [Use the structured profiles](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)
+[Research method](README.md#how-to-read-these-profiles) · [All speakers](README.md) · [Profiles JSON](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)

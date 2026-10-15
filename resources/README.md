@@ -1,27 +1,18 @@
-# Follow the question beyond the session
+# Read further
 
-Use these sources to prepare, check an API contract, or turn a session idea into
-an experiment. For books, earlier talks, research, projects, and public accounts
-from the people on the programme, [explore the speaker directory](speakers/README.md).
-Choose one work that connects to your goals and write down a question before
-the session.
+Choose a question, then a source. The [speaker directory](speakers/README.md)
+links books, blogs, talks, research, projects, and public accounts.
 
-## References for a technical question
+| Question | Source |
+| --- | --- |
+| Has a session changed? | [Official schedule](https://eurorust.eu/schedule/) — details, access, and speaker materials |
+| How do ownership, traits, and types work? | [The Rust Book](https://doc.rust-lang.org/book/) |
+| What does a standard-library API guarantee? | [Rust API docs](https://doc.rust-lang.org/std/) — bounds and failure behavior |
+| How does an async task behave? | [Tokio docs](https://docs.rs/tokio/latest/tokio/) |
+| What should I know before an embedded workshop? | [The Embedded Rust Book](https://docs.rust-embedded.org/book/) — compare with workshop requirements |
+| Which session fits my goal? | [Conference pack](../exports/conference-pack.md) — sourced facts and community summaries |
 
-Each link has a job:
+Check each work's date and version. A speaker's earlier work provides background;
+the official session page describes the conference topic and materials.
 
-| When you need to… | Open this | What to look for |
-| --- | --- | --- |
-| Confirm a session or schedule change | [Official schedule](https://eurorust.eu/schedule/) | Current details, access information, and speaker material links |
-| Revisit ownership, traits, or types | [The Rust Book](https://doc.rust-lang.org/book/) | Foundations behind the API you want to design |
-| Check an exact standard-library contract | [Rust standard-library docs](https://doc.rust-lang.org/std/) | Required traits, guarantees, and documented failure behavior |
-| Understand async runtime APIs | [Tokio documentation](https://docs.rs/tokio/latest/tokio/) | Task and runtime behavior relevant to a worker design |
-| Prepare for hardware-facing Rust | [The Embedded Rust Book](https://docs.rust-embedded.org/book/) | Embedded concepts to compare with workshop requirements |
-| Compare conference options | [The conference pack](../exports/conference-pack.md) | Source-linked facts and attributed community summaries |
-
-For current session materials, follow the official session page. The speaker
-profiles supply separately researched background, with attribution and a
-checked date; they do not establish what a speaker will cover at EuroRust.
-
-When contributing a resource, explain what question it helps answer and identify
-relevant versions or limits. A short, useful list is easier to return to.
+When adding a resource, explain the question it helps answer and any limits.

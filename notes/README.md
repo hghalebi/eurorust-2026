@@ -1,19 +1,16 @@
-# Bring a better question
+# Bring a useful question
 
-These notes connect published session descriptions to the work I want to do with
-Rust. Each one gives a reason to care, questions to bring, and a possible next
-step. Their status is **preparation**; they record no attendance or session outcome.
+These notes connect published sessions to my Rust goals. They are
+**preparation**, with no attendance or session results recorded.
 
-| I want to understand… | Read this preparation note |
+| Question | Note |
 | --- | --- |
-| How types can reject invalid tool inputs | [Compile-time contracts](talks/compile-time-contracts.md) |
-| What reliable agent workers need around a task loop | [Background-worker design](talks/background-workers.md) |
-| How ownership interacts with partial progress and cancellation | [Streaming state machines](talks/streaming-state-machines.md) |
-| Which infrastructure assumptions compilation can check | [Compiled infrastructure](talks/compiled-infrastructure.md) |
-| How Rust connects software to autonomous systems | [Robotics integration](workshops/robotics-integration.md) |
+| Can types reject invalid tool inputs? | [Compile-time contracts](talks/compile-time-contracts.md) |
+| What makes a worker reliable? | [Background workers](talks/background-workers.md) |
+| What survives partial progress or cancellation? | [Streaming state machines](talks/streaming-state-machines.md) |
+| Which infrastructure assumptions can compilation check? | [Compiled infrastructure](talks/compiled-infrastructure.md) |
+| How does Rust connect to autonomous systems? | [Robotics integration](workshops/robotics-integration.md) |
 
-Borrow a question for your own plan, or give a relevant note to your agent to
-explain what you want to learn. After participating, use the
-[session note template](../templates/session.md) to add attributed observations,
-decisions, and follow-up ideas. Keep preparation and observed results clearly
-labeled so the next reader knows what they can rely on.
+Borrow a question or give a note to your agent. After participating, use the
+[session template](../templates/session.md) to add sourced observations,
+decisions, and follow-up work. Label preparation and observed results separately.

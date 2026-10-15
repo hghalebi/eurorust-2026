@@ -2,11 +2,9 @@
 
 Virtualization infrastructure, competitive programming, and algorithmic problem solving.
 
-At EuroRust 2026:
+EuroRust sessions (check official pages for details and access):
 
 - [Building a virtual machine monitor in Rust](https://eurorust.eu/workshops/building-a-virtual-machine-monitor-in-rust/)
-
-Follow the official page for the current session description and access details.
 
 ## Books
 
@@ -27,10 +25,8 @@ Follow the official page for the current session description and access details.
 
 No separate earlier talk or scholarly paper was confidently verified in this search.
 
-Identity and attribution references: [eurorust.eu](https://eurorust.eu/workshops/building-a-virtual-machine-monitor-in-rust/), [se.linkedin.com](https://se.linkedin.com/in/jsannemo), [jsannemo.se](https://jsannemo.se/latest.pdf).
+Sources: [eurorust.eu](https://eurorust.eu/workshops/building-a-virtual-machine-monitor-in-rust/), [se.linkedin.com](https://se.linkedin.com/in/jsannemo), [jsannemo.se](https://jsannemo.se/latest.pdf).
 
-Researched on **2026-10-14**. This is a Codex-assisted, source-checked draft;
-community and speaker review are pending. A missing item means it was not
-verified in this search. See the [research method](README.md#how-to-read-these-profiles).
+Source-checked **2026-10-14**. Codex-assisted draft; community and speaker review pending.
 
-[Browse all speakers](README.md) · [Use the structured profiles](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)
+[Research method](README.md#how-to-read-these-profiles) · [All speakers](README.md) · [Profiles JSON](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)

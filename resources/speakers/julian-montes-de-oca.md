@@ -2,11 +2,9 @@
 
 Async Rust observability, profiling, telemetry, and cross-platform user interfaces.
 
-At EuroRust 2026:
+EuroRust sessions (check official pages for details and access):
 
 - [Beyond p99: Observing Async Rust](https://eurorust.eu/workshops/beyond-p99-observing-async-rust/)
-
-Follow the official page for the current session description and access details.
 
 ## Talks and teaching
 
@@ -29,10 +27,8 @@ No personal weblog, authored book, scholarly paper, or additional social-network
 
 A WyeWorks article acknowledges his discussion contributions but has another author; it is not listed as his publication.
 
-Identity and attribution references: [eurorust.eu](https://eurorust.eu/workshops/beyond-p99-observing-async-rust/), [github.com](https://github.com/jv1i), [china2024.gosim.org](https://china2024.gosim.org/speakers.html).
+Sources: [eurorust.eu](https://eurorust.eu/workshops/beyond-p99-observing-async-rust/), [github.com](https://github.com/jv1i), [china2024.gosim.org](https://china2024.gosim.org/speakers.html).
 
-Researched on **2026-10-14**. This is a Codex-assisted, source-checked draft;
-community and speaker review are pending. A missing item means it was not
-verified in this search. See the [research method](README.md#how-to-read-these-profiles).
+Source-checked **2026-10-14**. Codex-assisted draft; community and speaker review pending.
 
-[Browse all speakers](README.md) · [Use the structured profiles](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)
+[Research method](README.md#how-to-read-these-profiles) · [All speakers](README.md) · [Profiles JSON](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)

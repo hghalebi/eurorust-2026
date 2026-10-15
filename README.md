@@ -1,108 +1,74 @@
-# EuroRust 2026: a conference guide for curious Rust engineers
+# EuroRust 2026: choose your path
 
-Choose sessions around what you want to learn, and arrive with questions worth
-asking.
+Plan your sessions and bring better questions.
 
-I'm using EuroRust to explore how Rust can help me build better autonomous
-agents in production. This independent attendee collection shares my proposed
-path, preparation notes, speaker reading profiles, and reusable conference data
-so you can build a path of your own.
+I'm exploring Rust for production agents: types, reliable workers, infrastructure,
+and robotics. This independent attendee guide shares my plan, preparation notes,
+speaker research, and conference data for you and your agent.
 
 Find me on [X](https://x.com/Hamzeml), [GitHub](https://github.com/hghalebi),
 and [LinkedIn](https://www.linkedin.com/in/hamze/).
 
-[EuroRust takes place October 14–17, 2026, in Barcelona](https://eurorust.eu/).
-Times in this collection use **Europe/Madrid**.
+[October 14–17, 2026 · Barcelona](https://eurorust.eu/).
+All times here use **Europe/Madrid**.
 
-## Choose your starting point
+## Start here
 
-| You want to… | Start here |
+| Your goal | Open |
 | --- | --- |
-| Follow my path | Read [my learning goals](my-conference/README.md) and [proposed itinerary](my-conference/itinerary.md), with choices, reasons, and alternatives |
-| Plan your own conference | [Compare the sessions](exports/schedule.md), then use the [planning guide](docs/planning-guide.md) to choose around your goals |
-| Plan with your agent | Follow the [agent guide](docs/agent-guide.md) to supply conference context and review its suggestions |
+| Follow my path | [Learning goals](my-conference/README.md) and [proposed itinerary](my-conference/itinerary.md) |
+| Make your own plan | [Schedule](exports/schedule.md), [planning guide](docs/planning-guide.md), and [example paths](community/paths/README.md) |
+| Plan with your agent | [Agent guide](docs/agent-guide.md) and [copyable prompt](prompts/choose-my-path.md) |
 
-For a first step, copy the [itinerary template](templates/itinerary.md) into your
-notes. Pick one session, explain why it matters to you, and keep an alternative.
-The [backend, embedded, and Rust foundations examples](community/paths/README.md)
-offer other starting points. These reading and planning routes work directly in
-your browser.
+Copy the [itinerary template](templates/itinerary.md). Choose one session, give a
+reason, and keep an alternative. You can do this in your browser.
 
-## Follow the questions behind my path
+## Questions behind my plan
 
-My interests run from Rust's type system to reliable workers, infrastructure
-configuration, and robotics. The preparation notes connect those interests to
-published session descriptions:
+- [Which tool contracts can Rust check?](notes/talks/compile-time-contracts.md)
+- [What does a reliable worker need?](notes/talks/background-workers.md)
+- [What survives a cancelled stream?](notes/talks/streaming-state-machines.md)
+- [Which infrastructure errors can compilation catch?](notes/talks/compiled-infrastructure.md)
+- [How should software handle unreliable hardware links?](notes/workshops/robotics-integration.md)
 
-- **Types:** [Which tool contracts can the compiler check?](notes/talks/compile-time-contracts.md)
-- **Workers:** [What happens around the worker loop?](notes/talks/background-workers.md)
-- **Streaming:** [What survives when a stream stops halfway?](notes/talks/streaming-state-machines.md)
-- **Infrastructure:** [Which integration assumptions can compilation catch?](notes/talks/compiled-infrastructure.md)
-- **Robotics:** [How should typed software handle unreliable transport?](notes/workshops/robotics-integration.md)
+These are preparation questions. Their connection to agent engineering is my
+interpretation. Explore [further reading](resources/README.md) or
+[two small Rust experiments](experiments/README.md).
 
-Each note offers questions to investigate; the connections to agent engineering
-are my interpretation. Follow them into [further reading](resources/README.md)
-or [two small Rust experiments on checked inputs and retry budgets](experiments/README.md).
+My plan is provisional: availability, attendance mode, bookings, and readiness
+are unconfirmed. The [journal](journal/README.md) records preparation;
+the [retrospective](retrospective.md) awaits observations.
 
-My itinerary is provisional: availability, bookings, attendance mode, and
-readiness remain unconfirmed. The [journal](journal/README.md) records preparation
-so far; the [retrospective](retrospective.md) awaits observations after participation.
+## Explore the speakers' work
 
-## Meet the work behind the talks
+The [speaker directory](resources/speakers/README.md) links books, blogs,
+projects, earlier talks, research, and public accounts. It covers 43 catalog
+speakers and two named meetup speakers. Each profile records sources, a research
+date, and gaps.
 
-The [speaker directory](resources/speakers/README.md) connects conference sessions
-to public projects, blogs, books, earlier talks, research, and professional
-accounts. Browse by name or start with a technical interest:
+Choose one earlier work and bring a question it raises.
 
-- [Njuguna Mureithi and Apalis](resources/speakers/njuguna-mureithi.md) for background jobs.
-- [lcnr's trait-system writing](resources/speakers/lcnr.md) for the compiler questions behind an API.
-- [Philipp Schuster's virtualization and Nix work](resources/speakers/philipp-schuster.md) for infrastructure.
-- [Timo Bachmann's robotics research](resources/speakers/timo-bachmann.md) for task planning and skill adaptation.
+## Give your agent useful context
 
-These independently researched profiles cover the recorded speaker roster and
-two speakers named on the official meetup page. Each records sources, a research
-date, and gaps; the drafts await community and speaker review. Open one earlier
-work and bring a question it raises to the session.
+Supply the [conference pack](exports/conference-pack.md),
+[manifest](data/manifest.json), and [prompt](prompts/choose-my-path.md) from one
+checkout or bundle. Add your goals, available time, and confirmed bookings.
 
-## Plan with your agent
+For a reading list, add the [speaker profiles JSON](community/speaker-profiles.json).
+The [data guide](docs/data-guide.md) explains formats and versions. Review the
+agent's choices, alternatives, and access assumptions before deciding.
 
-Provide the [conference pack](exports/conference-pack.md),
-[dataset manifest](data/manifest.json), and [planning prompt](prompts/choose-my-path.md)
-from the same checkout or context bundle. Add your goals, available time, and
-confirmed workshop bookings in your own workspace.
+## Check sources and share what helps
 
-Ask for choices with reasons, alternatives, preparation needs, and official
-links. Review the result against your actual availability, prerequisites, and
-session access before deciding. For structured input, use the
-[catalog JSON](data/catalog.json) or [session JSONL](exports/sessions.jsonl).
-The [data guide](docs/data-guide.md) explains formats, schemas, and recorded versions.
-Add the [speaker profiles JSON](community/speaker-profiles.json) when you want
-a reading list connected to the speakers in your plan.
+Community summaries and speaker profiles are Codex-assisted drafts awaiting
+review. Check source dates: validation does not mean a page was recently fetched.
+Use the [official schedule](https://eurorust.eu/schedule/) to confirm times and access.
 
-## Know the sources behind your plan
+[Contribute a correction, note, or path](CONTRIBUTING.md), with a source.
+Use the [session note template](templates/session.md) to separate preparation
+from observations. Share the page that helped you.
 
-The exported data records official URLs, retrieval dates, and a snapshot ID that
-identifies the recorded dataset version. Community summaries are attributed,
-Codex-assisted drafts awaiting community review. Check each record's source date
-and review status; a recent validation does not mean the source was recently
-retrieved.
+[All guides and optional tools](docs/README.md) · [Source policy](docs/source-and-reuse-policy.md)
 
-Use the [official schedule](https://eurorust.eu/schedule/) and linked session pages
-to confirm current times, registration, prerequisites, and access. The
-[source and reuse policy](docs/source-and-reuse-policy.md) explains how facts,
-interpretation, and original contributions are kept distinct.
-
-## Share what helps the next attendee
-
-A corrected detail, a useful preparation tip, or a different learning path can
-help someone make a better choice. [Contribute a note, correction, or path](CONTRIBUTING.md);
-a GitHub issue with a supporting source is enough to start. Use the
-[session note template](templates/session.md) to distinguish preparation from
-what you observed. When sharing the collection, link the specific guide or note
-that helped you.
-
-The [guide index](docs/README.md) also leads to optional itinerary tools and
-dataset maintenance instructions.
-
-Original prose and annotations use [CC BY 4.0](LICENSES/README.md); supporting
-code uses [MIT](LICENSE). Third-party material retains its own terms.
+Original prose: [CC BY 4.0](LICENSES/README.md). Code: [MIT](LICENSE).
+Third-party works keep their own terms.

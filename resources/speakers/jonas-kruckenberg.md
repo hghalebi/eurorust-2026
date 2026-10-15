@@ -2,12 +2,10 @@
 
 WebAssembly systems, operating systems, build tooling, and C-to-Rust migration.
 
-At EuroRust 2026:
+EuroRust sessions (check official pages for details and access):
 
 - [Containers Are Dead: Long Live WebAssembly](https://eurorust.eu/workshops/containers-are-dead/)
 - [Build systems: when your systems need systems to build](https://eurorust.eu/talks/build-systems-when-your-systems-need-systems-to-build/)
-
-Follow the official page for the current session description and access details.
 
 ## Books
 
@@ -39,10 +37,8 @@ Follow the official page for the current session description and access details.
 
 No scholarly paper verified; the book and technical essay are identified separately.
 
-Identity and attribution references: [jonaskruckenberg.de](https://jonaskruckenberg.de/), [github.com](https://github.com/JonasKruckenberg), [mainmatter.com](https://mainmatter.com/c-to-rust-migration-book/).
+Sources: [jonaskruckenberg.de](https://jonaskruckenberg.de/), [github.com](https://github.com/JonasKruckenberg), [mainmatter.com](https://mainmatter.com/c-to-rust-migration-book/).
 
-Researched on **2026-10-14**. This is a Codex-assisted, source-checked draft;
-community and speaker review are pending. A missing item means it was not
-verified in this search. See the [research method](README.md#how-to-read-these-profiles).
+Source-checked **2026-10-14**. Codex-assisted draft; community and speaker review pending.
 
-[Browse all speakers](README.md) · [Use the structured profiles](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)
+[Research method](README.md#how-to-read-these-profiles) · [All speakers](README.md) · [Profiles JSON](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)

@@ -2,11 +2,9 @@
 
 Compiler frontends, gccrs, macro expansion, and name resolution.
 
-At EuroRust 2026:
+EuroRust sessions (check official pages for details and access):
 
 - [Compiling the Linux kernel with gccrs](https://eurorust.eu/talks/compiling-the-linux-kernel-with-gccrs/)
-
-Follow the official page for the current session description and access details.
 
 ## Articles and research
 
@@ -34,10 +32,8 @@ No authored book or scholarly paper verified.
 
 Conference and GitHub biographies show different employer affiliations; no current employer is asserted here.
 
-Identity and attribution references: [cohenarthur.github.io](https://cohenarthur.github.io/), [eurorust.eu](https://eurorust.eu/talks/compiling-the-linux-kernel-with-gccrs/).
+Sources: [cohenarthur.github.io](https://cohenarthur.github.io/), [eurorust.eu](https://eurorust.eu/talks/compiling-the-linux-kernel-with-gccrs/).
 
-Researched on **2026-10-14**. This is a Codex-assisted, source-checked draft;
-community and speaker review are pending. A missing item means it was not
-verified in this search. See the [research method](README.md#how-to-read-these-profiles).
+Source-checked **2026-10-14**. Codex-assisted draft; community and speaker review pending.
 
-[Browse all speakers](README.md) · [Use the structured profiles](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)
+[Research method](README.md#how-to-read-these-profiles) · [All speakers](README.md) · [Profiles JSON](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)

@@ -1,27 +1,25 @@
-# [Session title]: questions, notes, and next steps
+# [Session title]: notes and next steps
 
 Context: [preparation / attended / watched recording / community interpretation].
 Session ID: [ID]. Official source: [URL]. Speaker: [name].
-Session date: [date]. Source snapshot and retrieval date: [details].
+Session date: [date]. Snapshot and source retrieval date: [details].
 
 ## The problem
 
-What problem does this session address, and why does it matter to your work?
-Use your own words.
+What problem does the session address? Why does it matter to your work?
 
 ## The idea and its tradeoffs
 
-Record the useful idea, when it applies, and what it costs. Attribute speaker
-claims. Label your interpretation and anything you actually measured.
+Explain the idea, where it applies, and its costs.
+Separate speaker claims, your interpretation, and measurements.
 
-## What I still need to check
+## What I need to check
 
-List open questions, assumptions, and missing evidence. For preparation, write
-the question you want to bring to the session.
+List questions, assumptions, and missing evidence.
+For preparation, choose a question to bring.
 
-## What I'll do with this
+## My next step
 
-Describe one useful next step: a question to investigate, a decision to revisit,
-something to read, or an experiment to try. Link the relevant sources. If you
-run an experiment, state the environment, expected result, and actual outcome.
-Keep conclusions within the evidence you have.
+Name a question, decision, reading, or experiment. Link sources.
+For experiments, record the environment, expected result, and observed outcome.
+Keep conclusions within the evidence.

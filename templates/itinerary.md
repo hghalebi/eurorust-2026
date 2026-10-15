@@ -1,33 +1,32 @@
 # My EuroRust plan
 
-Status: personal draft. Source snapshot and retrieval date: [record here].
-Schedule timezone: Europe/Madrid.
+Status: personal draft. Snapshot and source retrieval date: [record here].
+Timezone: Europe/Madrid.
 
-## What I want from this conference
+## My goals and constraints
 
 - What I want to build, understand, or improve:
-- My Rust experience and relevant background:
+- Rust experience and background:
 - Available dates and time windows:
 - Attendance mode:
-- Confirmed workshop registrations:
-- Prerequisites, equipment, and setup to check:
-- Travel buffer between venues:
-- Questions I need to resolve:
+- Confirmed workshop bookings:
+- Prerequisites, equipment, and setup:
+- Travel buffer:
+- Open questions:
 
 ## My choices
 
-| Day and time | Primary session ID and official link | Why it fits my goal | Same-slot alternative | Preparation and access to confirm |
+| Day and time | Session ID and official link | Reason | Same-slot alternative | Preparation and access to confirm |
 | --- | --- | --- | --- | --- |
 
-Keep lunch and breaks. Choose one session per slot, allow for travel, and check
-official times and access before attending. Mark unknowns so they stay visible.
+Choose one session per slot. Keep meals, breaks, and travel time.
+Confirm official times and access; mark unknowns.
 
 ## What changed
 
-Record the date, the choice you changed, and why. Keep intended attendance
-separate from actual participation.
+Record the date, changed choice, and reason. Separate plans from participation.
 
 ## What I'll try afterward
 
-Capture one useful question before a session and one concrete follow-up after it.
-Link observations or experiments when they exist.
+Bring one question to each session. Record a follow-up afterward.
+Link observations or experiments when available.

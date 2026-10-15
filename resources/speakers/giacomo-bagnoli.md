@@ -2,11 +2,9 @@
 
 Production network monitoring, low-latency systems, and infrastructure engineering.
 
-At EuroRust 2026:
+EuroRust sessions (check official pages for details and access):
 
 - [Blastbeat: When a Decade of C++ Meets Rust and io_uring](https://eurorust.eu/talks/blastbeat-when-a-decade-of-c-meets-rust-and-io-uring/)
-
-Follow the official page for the current session description and access details.
 
 ## Articles and research
 
@@ -31,10 +29,8 @@ A Tumblr blog linked from his professional profile could not be retrieved during
 
 No authored book verified.
 
-Identity and attribution references: [eurorust.eu](https://eurorust.eu/talks/blastbeat-when-a-decade-of-c-meets-rust-and-io-uring/), [es.linkedin.com](https://es.linkedin.com/in/giacomobagnoli), [devopsdays.org](https://devopsdays.org/events/2020-madrid/program/giacomo-bagnoli/).
+Sources: [eurorust.eu](https://eurorust.eu/talks/blastbeat-when-a-decade-of-c-meets-rust-and-io-uring/), [es.linkedin.com](https://es.linkedin.com/in/giacomobagnoli), [devopsdays.org](https://devopsdays.org/events/2020-madrid/program/giacomo-bagnoli/).
 
-Researched on **2026-10-14**. This is a Codex-assisted, source-checked draft;
-community and speaker review are pending. A missing item means it was not
-verified in this search. See the [research method](README.md#how-to-read-these-profiles).
+Source-checked **2026-10-14**. Codex-assisted draft; community and speaker review pending.
 
-[Browse all speakers](README.md) · [Use the structured profiles](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)
+[Research method](README.md#how-to-read-these-profiles) · [All speakers](README.md) · [Profiles JSON](../../community/speaker-profiles.json) · [Suggest a correction](../../CONTRIBUTING.md#speaker-profile-corrections)

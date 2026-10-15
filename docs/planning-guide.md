@@ -1,63 +1,51 @@
-# Choose the EuroRust that fits you
+# Choose sessions for your goals
 
-Start with what you want to understand, build, or improve when you get home.
-Then use that goal to choose your sessions. Keep the
-[schedule](../exports/schedule.md) open alongside this guide and save your choices
-in your own notes. Everything here works in a browser.
+Keep the [schedule](../exports/schedule.md) open and copy the
+[itinerary template](../templates/itinerary.md) into your notes. You can plan
+in your browser.
 
-## 1. Give your plan a purpose
+## 1. Name your goal
 
-Copy the [itinerary template](../templates/itinerary.md) into your own notes.
-Write down your learning goals, Rust experience, available time, attendance mode,
-booked workshops, and equipment constraints. A question such as “How should my
-worker recover after a failed tool call?” is easier to plan around than “learn
-more Rust.”
+Record your Rust experience, available time, attendance mode, booked workshops,
+equipment, and learning goals. Make the goal specific: “How should my worker
+recover after a failed tool call?”
 
-## 2. Find your candidates
+## 2. Find relevant sessions
 
-Open the [readable schedule](../exports/schedule.md). Note its snapshot and check
-for updates on the [official schedule](https://eurorust.eu/schedule/). All event
-times use Europe/Madrid.
+Browse the schedule and follow official links for full descriptions. The
+[conference pack](../exports/conference-pack.md) adds community summaries, topics,
+and preparation needs. Check unknown prerequisites before choosing.
 
-Choose sessions that could move you toward your goal. Follow their official
-links for the full descriptions; use the [conference pack](../exports/conference-pack.md)
-to compare community summaries, topics, and known preparation needs. An unknown
-prerequisite needs checking before you commit.
+Note the snapshot and check the [official schedule](https://eurorust.eu/schedule/)
+for changes. Times use Europe/Madrid.
 
-## 3. Make the tradeoff
+## 3. Choose and keep an alternative
 
-Pick one primary session per slot and keep an alternative. Write one sentence
-explaining each choice. If two talks overlap, decide which question matters more
-to you. Use a recording as a fallback once one has actually been published.
+Filter by your available time. Pick one session per slot and explain why.
+Keep an alternative; rely on a recording only once it is published.
 
-Need a starting point? Compare [my path](../my-conference/itinerary.md) with the
+For example, the October 14 snapshot lists two talks on October 15,
+11:00–11:30: [unmanned systems](https://eurorust.eu/talks/the-future-of-unmanned-systems-is-built-on-rust/)
+and [gccrs and the Linux kernel](https://eurorust.eu/talks/compiling-the-linux-kernel-with-gccrs/).
+A robotics-focused attendee could choose the first and keep the second as an
+alternative. Save the session ID and a question; recheck official times.
+
+Compare [my plan](../my-conference/itinerary.md) or the
 [backend, embedded, and foundations examples](../community/paths/README.md).
-For a half-day or a single day, filter by your availability before ranking talks.
 
-A concrete example from the recorded October 14 snapshot: on October 15,
-11:00–11:30 in Europe/Madrid, [The Future of Unmanned Systems Is Built on Rust](https://eurorust.eu/talks/the-future-of-unmanned-systems-is-built-on-rust/)
-and [Compiling the Linux kernel with gccrs](https://eurorust.eu/talks/compiling-the-linux-kernel-with-gccrs/)
-overlap. A participant exploring robotics could choose the first and retain the
-second as an alternative. Record the chosen session's ID, your reason, and the
-question you want answered. Recheck the official pages before attending.
+## 4. Confirm access
 
-## 4. Check that you can attend
+Check registration, prerequisites, equipment, setup, and access for each session.
+An online conference option does not guarantee that a workshop is streamed.
+Ask the organizer before joining a workshop already underway.
 
-Confirm workshop registration, prerequisites, setup, and session access. For
-remote participation, check each session's availability; an event's online option
-does not establish that a particular workshop is streamed. Ask the organizer
-about joining a workshop already underway.
+Keep breaks and allow travel time between venues. An unknown end time prevents
+a complete overlap check.
 
-Keep lunch and coffee breaks. Add your own travel buffer between venues. An
-unknown session end prevents a complete overlap check.
+## 5. Record the next step
 
-## 5. Leave with a next step
+Save session IDs, official links, and the source snapshot. Bring a question;
+afterward, record an observation and one idea to test. Update the plan when
+the schedule or your priorities change.
 
-Save your choices with their session IDs, official links, and source snapshot.
-Before each session, bring one question. Afterward, record one idea to test and
-what you actually observed. Revisit the plan when the schedule or your priorities
-change.
-
-Want help comparing options? Use the [agent guide](agent-guide.md) with an agent
-you already work with. Found something another attendee should know? [Share a correction or
-note](../CONTRIBUTING.md).
+[Plan with your agent](agent-guide.md) · [Share a correction or note](../CONTRIBUTING.md)
