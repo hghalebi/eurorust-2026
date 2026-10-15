@@ -10,7 +10,7 @@ Speakers and their work: [Daniel Rodriguez](../speakers/daniel-rodriguez.md), [G
 
 ### [Lessons learned from monitoring a large production network](https://devopsdays.org/events/2020-madrid/program/giacomo-bagnoli/)
 
-Talk · Giacomo Bagnoli · open access
+Talk · Giacomo Bagnoli · public source page
 
 **Preparation.** Compare the speaker's earlier network-health monitoring problems with the later Blastbeat rewrite.
 

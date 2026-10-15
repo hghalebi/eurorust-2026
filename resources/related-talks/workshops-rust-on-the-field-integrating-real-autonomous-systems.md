@@ -4,7 +4,7 @@
 
 Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.
 
-Speakers and their work: .
+No individual speaker is named in this catalog.
 
 ## Related talks and workshops
 

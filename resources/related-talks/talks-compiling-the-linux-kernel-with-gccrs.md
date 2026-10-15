@@ -10,7 +10,7 @@ Speakers and their work: [Arthur Cohen](../speakers/arthur-cohen.md), [Pierre-Em
 
 ### [Compiling the Linux Kernel with gccrs](https://rustconf2026.sched.com/event/2KHyD)
 
-Talk · Arthur Cohen, Pierre-Emmanuel Patry · open access
+Talk · Arthur Cohen, Pierre-Emmanuel Patry · public source page
 
 **Repeat appearance.** Lists an earlier 2026 appearance with the same title and speaker.
 
@@ -22,7 +22,7 @@ Listing checked: 2026-10-15. Evidence: [rustconf.com](https://rustconf.com/speak
 
 ### [Inching ever closer to the Rust standard library with gccrs](https://2025.rustweek.org/talks/arthurcohen/)
 
-Talk · Arthur Cohen, Pierre-Emmanuel Patry · open access
+Talk · Arthur Cohen, Pierre-Emmanuel Patry · public source page
 
 **Project evolution.** Shows the compiler’s earlier standard-library milestone before the kernel-focused session.
 

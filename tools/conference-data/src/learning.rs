@@ -412,13 +412,20 @@ fn render_resource(resource: &Resource) -> String {
         .map(|a| md(a.as_str()))
         .collect::<Vec<_>>()
         .join(", ");
+    // A public programme or source page does not establish media or event access.
+    let access = match (resource.kind, resource.access) {
+        (ResourceKind::ConferenceTalk | ResourceKind::Workshop, Access::Open) => {
+            "public source page"
+        }
+        (_, access) => access.label(),
+    };
     let mut body = format!(
         "### [{}]({})\n\n{} · {} · {}\n\n**{}.** {}\n",
         md(resource.title.as_str()),
         destination(&resource.url),
         resource.kind.label(),
         authors,
-        resource.access.label(),
+        access,
         resource.relation.label(),
         md(resource.why.as_str())
     );
@@ -472,7 +479,7 @@ impl CheckedLearning {
         let snapshot = &self.bundle.manifest().snapshot_id;
         let mut views = BTreeMap::new();
         let mut index = String::from(
-            "# Find resources for your session\n\nChoose a talk or workshop, then one useful source. Each page explains the connection\nand links books, articles, papers, videos, or working projects.\n\nThese are curated suggestions. Source-page checks do not mean a whole work was\nreviewed or a video played. Upcoming sessions are labelled **Announced**.\n\n[Follow a topic](../topics/README.md) · [Browse conference archives](../conferences/README.md) · [Explore speakers](../speakers/README.md)\n\n| EuroRust session | Resources |\n| --- | ---: |\n",
+            "# Find resources for your session\n\nChoose a talk or workshop, then one useful source. Each page explains the connection\nand links books, articles, papers, videos, or projects.\n\nThese are curated suggestions. Source-page checks do not mean a whole work was\nreviewed, a video played, or a project run. Upcoming sessions are labelled **Announced**.\n\n[Choose a first source](../learning-paths.md) · [Browse topics](../topics/README.md) · [Conference archives](../conferences/README.md) · [Speakers](../speakers/README.md)\n\n| EuroRust session | Resources |\n| --- | ---: |\n",
         );
         let mut pack = format!(
             "# EuroRust learning resources\n\nCatalog snapshot: `{}`. Format: `1.0.0`.\n\nCurated source-checked drafts, with community review pending. Use source dates and\naccess notes; a listing does not prove attendance or a published recording.\n\n",
@@ -512,7 +519,11 @@ impl CheckedLearning {
                 })
                 .collect::<Result<Vec<_>>>()?
                 .join(", ");
-            body.push_str(&format!("Speakers and their work: {speakers}.\n\n"));
+            if speakers.is_empty() {
+                body.push_str("No individual speaker is named in this catalog.\n\n");
+            } else {
+                body.push_str(&format!("Speakers and their work: {speakers}.\n\n"));
+            }
             body.push_str("## Related talks and workshops\n\n");
             let related: Vec<_> = set.resources.iter().filter(|r| r.event.is_some()).collect();
             if related.is_empty() {
@@ -570,7 +581,7 @@ impl CheckedLearning {
         pack.push('\n');
         views.insert("exports/archive/learning-pack.md".into(), pack.into_bytes());
         let mut topic_index = String::from(
-            "# Follow a Rust topic\n\nStart with [types](types.md), [infrastructure](infrastructure.md),\n[production reliability](production-reliability.md), or [robotics](robotics.md).\nThese paths connect EuroRust sessions to selected source material. Tags reflect\ncommunity interpretation, not a promise about the speaker's coverage.\n\n| Topic | Sessions |\n| --- | ---: |\n",
+            "# Browse Rust topics\n\nThese indexes group EuroRust session reading lists by topic. For a suggested\nstarting order, use [four engineering questions](../learning-paths.md). Tags reflect\ncommunity interpretation, not a promise about the speaker's coverage.\n\n| Topic | Sessions |\n| --- | ---: |\n",
         );
         for (topic, sessions) in topics {
             let mut name = topic.as_str().replace('-', " ");
@@ -584,7 +595,7 @@ impl CheckedLearning {
                 name = "GPU".into();
             }
             let mut body = format!(
-                "# {}\n\nChoose a session and follow its source-linked reading list. The list separates\nearlier material from announced future sessions.\n\n",
+                "# {}\n\nChoose a session to open its reading list. Each session page distinguishes\nearlier material from announced future sessions. For a starting recommendation,\nsee [four engineering questions](../learning-paths.md).\n\n",
                 md(&name)
             );
             for session in &sessions {

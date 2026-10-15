@@ -4,12 +4,14 @@ Choose a [EuroRust session](../resources/related-talks/README.md), follow a
 [topic](../resources/topics/README.md), or browse the
 [conference archive](../resources/conferences/README.md).
 Each recommendation explains what to learn and links its evidence.
+For a suggested starting order, use [four engineering questions](../resources/learning-paths.md).
 
 ## Choose one useful source
 
 Start with a short article or talk. Use a book, paper, or project when you want
 more depth. Read the access note: some books require purchase and upcoming
-workshops may need a ticket. A free programme page does not grant event access.
+workshops may need a ticket. **Public source page** describes access to a linked
+talk or workshop page; it promises neither a recording nor event admission.
 
 Related talks can offer preparation, another approach, or a suggested next step.
 These connections are editorial judgments. A repeated title does not establish
@@ -47,6 +49,8 @@ Each resource stores its title, format, author or organization, URL, access,
 relationship, reason, evidence URLs, check date, and optional event context.
 `published_on` concerns the linked work; `event.starts_on` concerns the event.
 Unknown dates stay `null`.
+For talk and workshop entries, `access: open` refers to the linked page.
+Use the caveat and temporal status to establish whether the work is available.
 
 Session pages link to the existing speaker profiles by catalog identity. Shared,
 missing, or unknown profile routes fail validation.

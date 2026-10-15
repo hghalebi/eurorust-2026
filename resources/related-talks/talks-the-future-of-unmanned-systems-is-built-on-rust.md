@@ -10,7 +10,7 @@ Speakers and their work: [Benedikt Wiethof](../speakers/benedikt-wiethof.md), [T
 
 ### [Rust as the Foundation for Future Unmanned Systems](https://oxidizeconf.com/sessions/keynote_rust_as_the-foundation_for_future_unmanned-systems)
 
-Talk · Sebastian Rietzscher, Sebastian Haas · open access
+Talk · Sebastian Rietzscher, Sebastian Haas · public source page
 
 **Same topic.** Provides an earlier account of MOSAIC’s architecture, Rust migration and legacy integration.
 

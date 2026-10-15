@@ -1398,5 +1398,13 @@
     "purpose": "types",
     "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
     "replacement": null
+  },
+  {
+    "path": "resources/learning-paths.md",
+    "class": "current",
+    "owner": "repository maintainers",
+    "purpose": "Connect four engineering goals to a first source, relevant session, and question to investigate",
+    "scope": "EuroRust 2026 preparation and further study; editorial suggestions",
+    "replacement": null
   }
 ]

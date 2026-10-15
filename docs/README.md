@@ -10,8 +10,8 @@ Read on GitHub, copy into your notes, or give the files to your agent.
 | Choose sessions | [Planning guide](planning-guide.md) and [schedule](../exports/schedule.md) |
 | Find the venue or room | [Times, places, and known gaps](time-and-place.md) |
 | Record choices and questions | [Itinerary template](../templates/itinerary.md) and [session notes](../templates/session.md) |
-| Prepare for a topic | [Questions to bring](../notes/README.md) and [further reading](../resources/README.md) |
-| Read beyond a session | [Session resources](../resources/related-talks/README.md) and [topic paths](../resources/topics/README.md) |
+| Choose a first source | [Four engineering questions](../resources/learning-paths.md), with reading and questions to bring |
+| Read beyond a session | [Session resources](../resources/related-talks/README.md) and [topic indexes](../resources/topics/README.md) |
 | Explore other conferences | [Conference archives](../resources/conferences/README.md), with programme and recording coverage |
 | Explore a speaker's work | [Speaker directory](../resources/speakers/README.md) |
 | Compare learning goals | [Example paths](../community/paths/README.md) |

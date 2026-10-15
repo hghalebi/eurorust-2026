@@ -10,7 +10,7 @@ Speakers and their work: [Oli Scherer](../speakers/oli-scherer.md).
 
 ### [Misusing Const for Fn and Profit](https://eurorust.eu/2025/talks/misusing-const/)
 
-Talk · Tris Oaten · open access
+Talk · Tris Oaten · public source page
 
 **Same topic.** Offers an earlier conference perspective on moving useful work into Rust’s compile-time evaluation.
 

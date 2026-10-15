@@ -10,7 +10,7 @@ Speakers and their work: [Shane Carr](../speakers/shane-carr.md).
 
 ### [Beyond ICU4X 2.0: ZeroVec, Diplomat, Yoke, and Unicode’s Contributions to the Rust Ecosystem](https://2025.rustweek.org/talks/shane/)
 
-Talk · Shane Carr · open access
+Talk · Shane Carr · public source page
 
 **Preparation.** Introduces Unicode’s Rust libraries and bindings work behind cross-language integration.
 

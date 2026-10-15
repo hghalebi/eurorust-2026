@@ -1,7 +1,8 @@
 # API design
 
-Choose a session and follow its source-linked reading list. The list separates
-earlier material from announced future sessions.
+Choose a session to open its reading list. Each session page distinguishes
+earlier material from announced future sessions. For a starting recommendation,
+see [four engineering questions](../learning-paths.md).
 
 - [Move your problems to compile-time and get new capabilities out of it](../related-talks/talks-move-your-problems.md)
 - [Shipping Temporal: How the Rust Ecosystem Built Chrome’s Newest Web API](../related-talks/talks-shipping-temporal-how-the-rust-ecosystem-built-chrome-s-newest-web-api.md)

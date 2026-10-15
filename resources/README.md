@@ -2,10 +2,13 @@
 
 Choose a session, a topic, or a speaker. Follow one useful source before adding more.
 
+Unsure where to begin? [Four engineering questions](learning-paths.md) connect
+types, workers, infrastructure, and robotics to a first source and a question.
+
 | Start with | What you can explore |
 | --- | --- |
 | [Your EuroRust session](related-talks/README.md) | Related talks, books, articles, papers, videos, and projects, with a reason for each choice |
-| [A Rust topic](topics/README.md) | Sessions and reading paths through types, infrastructure, robotics, and other interests |
+| [A Rust topic](topics/README.md) | Session reading lists grouped by types, infrastructure, robotics, and other interests |
 | [Conference archives](conferences/README.md) | Programmes, speakers, recordings, and known gaps across events and years |
 | [A speaker](speakers/README.md) | Their work, public accounts, and sources supporting attribution |
 | [Your agent](../docs/learning-resources.md) | Portable learning packs, JSON, and a prompt for a short reading list |

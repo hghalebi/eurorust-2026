@@ -1,7 +1,8 @@
 # Tooling
 
-Choose a session and follow its source-linked reading list. The list separates
-earlier material from announced future sessions.
+Choose a session to open its reading list. Each session page distinguishes
+earlier material from announced future sessions. For a starting recommendation,
+see [four engineering questions](../learning-paths.md).
 
 - [Building a Query System](../related-talks/talks-building-a-query-system.md)
 - [Rebuilding the Tower of Babel – Write Your Own Language Server with Tree-sitter](../related-talks/talks-rebuilding-the-tower-of-babel-write-your-own-language-server-with-tree-sitter.md)

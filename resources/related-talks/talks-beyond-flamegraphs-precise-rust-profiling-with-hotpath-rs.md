@@ -22,7 +22,7 @@ Listing checked: 2026-10-15. Evidence: [hotpath.rs](https://hotpath.rs/blog/rust
 
 ### [Tango: Precise Performance Measurement through Direct Comparison](https://2025.rustweek.org/talks/denis/)
 
-Talk · Denis Bazhenov · open access
+Talk · Denis Bazhenov · public source page
 
 **Suggested next step.** Follow profiling with paired benchmarks that reduce noise when comparing candidate changes.
 

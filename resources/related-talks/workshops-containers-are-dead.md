@@ -10,7 +10,7 @@ Speakers and their work: [Jonas Kruckenberg](../speakers/jonas-kruckenberg.md).
 
 ### [Containers Are Dead: Long Live WebAssembly](https://eurorust.eu/2025/workshops/long-live-webassembly/)
 
-Workshop · Jonas Kruckenberg · open access
+Workshop · Jonas Kruckenberg · public source page
 
 **Repeat appearance.** Lets readers compare the previous syllabus for Rust HTTP services, WASM deployment and diagnostics.
 

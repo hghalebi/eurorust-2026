@@ -1,8 +1,7 @@
-# Follow a Rust topic
+# Browse Rust topics
 
-Start with [types](types.md), [infrastructure](infrastructure.md),
-[production reliability](production-reliability.md), or [robotics](robotics.md).
-These paths connect EuroRust sessions to selected source material. Tags reflect
+These indexes group EuroRust session reading lists by topic. For a suggested
+starting order, use [four engineering questions](../learning-paths.md). Tags reflect
 community interpretation, not a promise about the speaker's coverage.
 
 | Topic | Sessions |

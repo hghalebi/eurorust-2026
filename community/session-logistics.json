@@ -1,6 +1,6 @@
 {
   "format_version": "1.0.0",
-  "catalog_snapshot_id": "eurorust-2026-09ef1844f8dfdb34b2f8",
+  "catalog_snapshot_id": "eurorust-2026-71f2ee4aea59a1589532",
   "checked_at": "2026-10-15T14:35:47.756757+02:00",
   "timezone": "Europe/Madrid",
   "review_status": "source_checked_draft",
@@ -9,7 +9,8 @@
     "method": "Fresh official-source collection, independent HTML comparison, and review of public venue and registration pages.",
     "review": "Community and organizer review are pending.",
     "scope": "Time, stage, venue, arrival address, published room details, and public source conflicts; not bookings or attendance.",
-    "room_policy": "Keep physical rooms null when checked sources publish only stage labels or venue names."
+    "room_policy": "Keep physical rooms null when checked sources publish only stage labels or venue names.",
+    "catalog_rebind_note": "Rebound after the October 15 editorial correction and export layout change. Official session fields and source retrieval dates are identical; this is not a new logistics-source check."
   },
   "coverage": {
     "schedule_entries": 53,

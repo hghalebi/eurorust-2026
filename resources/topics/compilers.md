@@ -1,7 +1,8 @@
 # Compilers
 
-Choose a session and follow its source-linked reading list. The list separates
-earlier material from announced future sessions.
+Choose a session to open its reading list. Each session page distinguishes
+earlier material from announced future sessions. For a starting recommendation,
+see [four engineering questions](../learning-paths.md).
 
 - [Move your problems to compile-time and get new capabilities out of it](../related-talks/talks-move-your-problems.md)
 - [Compiling the Linux kernel with gccrs](../related-talks/talks-compiling-the-linux-kernel-with-gccrs.md)

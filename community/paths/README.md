@@ -1,6 +1,6 @@
 # Find a path for your goals
 
-See [my itinerary](../../my-conference/itinerary.md) for choices and alternatives.
+See [my priorities and choices](../../my-conference/README.md) for a personal route.
 Build yours with the [template](../../templates/itinerary.md) and
 [planning guide](../../docs/planning-guide.md).
 
@@ -21,6 +21,20 @@ the [optional helper walkthrough](../../docs/quickstart.md).
 
 These drafts use topic matches. Confirm prerequisites, access, and bookings.
 Keep personal logistics in your own files.
+
+## Compare one choice
+
+In these examples, the backend and embedded profiles choose
+[unmanned systems](https://eurorust.eu/talks/the-future-of-unmanned-systems-is-built-on-rust/)
+in the October 15, 11:00 slot. The foundations profile chooses
+[gccrs and the Linux kernel](https://eurorust.eu/talks/compiling-the-linux-kernel-with-gccrs/).
+The other talk remains a same-slot alternative. Times use Europe/Madrid;
+confirm the [official schedule](https://eurorust.eu/schedule/).
+
+The match alone is a starting point. A backend reader might ask about unreliable
+transport, an embedded reader about connecting hardware, and a foundations reader
+about compiler compatibility. Those are suggested questions, not promised coverage.
+Use [the first-source guide](../../resources/learning-paths.md) to prepare.
 
 ## Share a useful path
 

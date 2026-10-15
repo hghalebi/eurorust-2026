@@ -23,3 +23,5 @@ it provides no restart-safe job execution. Use the session to examine the
 persistence and recovery requirements around that smaller contract.
 
 Add actual lessons and measured outcomes after observing them.
+
+[Read about Apalis, shutdown, retries, and recovery](../../resources/related-talks/talks-lessons-from-building-a-background-task-processing-library.md).

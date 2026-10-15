@@ -1,0 +1,23 @@
+{
+  "snapshot_id": "eurorust-2026-71f2ee4aea59a1589532",
+  "schema_version": "1.0.0",
+  "generator_version": "0.1.0",
+  "generator_source_sha256": "217033924dfaf0451fa3e0d8abce63f6cf81e37f40ec06d222c8a2385f51efa9",
+  "validated_at": "2026-10-15T19:34:18.577220+00:00",
+  "authoritative_catalog": "data/snapshots/eurorust-2026-71f2ee4aea59a1589532/data/catalog.json",
+  "session_count": 53,
+  "detail_count": 47,
+  "files": {
+    "data/catalog.json": "d7795cffd61ff653a9ac4544cfe4b2254d6937c36576dc8961c7e325d60f5d0e",
+    "data/conference.json": "8beb6000bd0416e45d608b095d7adbe4c6b85827775225a04be20bd04b4f2ac8",
+    "data/sessions.json": "52f73a0865e012b9f480e512e3785f5dc8a4deb59d41fc87b4f9583249ef40e1",
+    "data/speakers.json": "5a1d0af05eb3b8ddd9d7c4aa526497b5011c82c3f4c3f3dcb9cb0ff78179ebf3",
+    "data/venues.json": "6ff326b50802cdc0e918c0fd85fe93509e5106769ad9468065b65784246c72a8",
+    "exports/conference-pack.md": "c6298e922df281e4ad2397bc4778d57dad93b713e08bb2165f1476cdd141d168",
+    "exports/schedule.md": "bfa5d712f59cf621450eea272197ea367076cb4e707819a4671fc2140b0ce75d",
+    "exports/sessions.jsonl": "9e6f591cb55b20838e0b07b8722e387eef86dae8fa2fc4a1a3c5a815475cbac3",
+    "schema/catalog.schema.json": "b295945a6e6e6ee9b95a7cf5a1e3b9994c2eed7dc15437593be82851e4d509cc",
+    "schema/itinerary.schema.json": "e8eea69173f4b48c094a7b214d4711564a69343b95a5f6232706118cd269a3c7",
+    "schema/profile.schema.json": "656e808894c073c2f3f79f0a1af4f8c3094b789667c7a2f160a5302820176032"
+  }
+}

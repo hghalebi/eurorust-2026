@@ -22,3 +22,5 @@ existing-Rust example; it does not implement the session's future proposals.
 
 After attending or watching a published recording, add attributed answers and
 code checked on a named toolchain.
+
+[Explore const evaluation, reflection, and related work](../../resources/related-talks/talks-move-your-problems.md).

@@ -16,8 +16,14 @@ Timezone: Europe/Madrid.
 
 ## My choices
 
-| Day and time | Session ID and official link | Reason | Same-slot alternative | Preparation and access to confirm |
-| --- | --- | --- | --- | --- |
+Copy this block for each choice:
+
+- Day and time:
+- Session ID and official link:
+- Why it fits my goal:
+- Question to bring:
+- Same-slot alternative:
+- Preparation and access to confirm:
 
 Choose one session per slot. Keep meals, breaks, and travel time.
 Confirm official times and access; mark unknowns.

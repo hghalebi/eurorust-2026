@@ -10,7 +10,7 @@ Speakers and their work: [André Eriksson](../speakers/andre-eriksson.md).
 
 ### [Why I Needed Rust: Finally, Infrastructure Automation I can sleep on](https://www.rustikon.dev/talk/why-i-needed-rust-finally-infrastructure-automation-i-can-sleep-on)
 
-Talk · Jesús Pérez · open access
+Talk · Jesús Pérez · public source page
 
 **Same topic.** Compare another engineer's use of type safety to address drift and failed infrastructure deployments.
 

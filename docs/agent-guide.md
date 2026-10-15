@@ -46,6 +46,8 @@ Supply the [learning pack](../exports/archive/learning-pack.md) or
 [manifest](../exports/archive/manifest.json). Match `catalog_snapshot_id` and
 join on `session_id`. Use the [learning prompt](../prompts/explore-a-topic.md)
 to select a few sources for your goals and available time.
+The [four-question guide](../resources/learning-paths.md) shows a short reading
+route; use its structure with your own goals.
 
 The [format guide](learning-resources.md) explains evidence, access, and archive
 coverage. Keep future announcements distinct from published material. A page

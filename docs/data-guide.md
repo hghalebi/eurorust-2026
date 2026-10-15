@@ -74,6 +74,8 @@ Items contain `kind`, `label`, `url`, `note`, and an attribution `evidence`
 URL. Publications also specify `format`: `article`, `paper`, `preprint`,
 `slides`, `thesis_record`, or `proceedings_chapter`. A paper link may lead to
 an author's manuscript; check its publication page for venue and version.
+An item's optional `checked_on` records a later source check without changing
+the review date for the whole profile.
 
 Notes distinguish coauthorship, maintenance, contribution, future appearances,
 and access limits. A listed account does not imply recent activity.

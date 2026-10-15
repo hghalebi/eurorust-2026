@@ -2,7 +2,9 @@
 
 Compare times, venues, and preparation needs, then choose the sessions that fit your goals. Follow a session link for its full official description.
 
-Snapshot: `eurorust-2026-09ef1844f8dfdb34b2f8`. Schedule times use Europe/Madrid (+02:00 during the event); retrieval timestamps retain their recorded offsets.
+For a vertical layout, use the [session-by-session view](conference-pack.md).
+
+Snapshot: `eurorust-2026-71f2ee4aea59a1589532`. Schedule times use Europe/Madrid (+02:00 during the event); retrieval timestamps retain their recorded offsets.
 
 Confirm session access, tickets, recordings, and unlisted prerequisites on the official pages. Community notes are attributed interpretations; their review status and source dates show what still needs checking.
 
@@ -18,7 +20,7 @@ Confirm session access, tickets, recordings, and unlisted prerequisites on the o
 | 10:00 | 16:00 | [Hands-On Embedded Rust](https://eurorust.eu/workshops/hands-on-embedded-rust/) | Workshop | WeWork Glories Barcelona | Prerequisites: Rust familiarity; awareness of async Rust helps, but embedded or async experience is not required.; setup: Bring a laptop with two USB-A connections or suitable adapters; check the emailed setup guide. | `workshops-hands-on-embedded-rust` |
 | 10:00 | 16:00 | [Programming a Line Follower Robot](https://eurorust.eu/workshops/programming-a-line-follower-robot/) | Workshop | WeWork Glories Barcelona | Prerequisites: Basic Rust familiarity; prior embedded experience is unnecessary and async knowledge is optional.; setup: Bring a Rust development laptop with rustup, Git, and an editor; exercises use simulation. | `workshops-programming-a-line-follower-robot` |
 | 10:00 | 16:00 | [Rust in Action - Applications of Computer Vision and Control](https://eurorust.eu/workshops/rust-in-action/) | Workshop | WeWork Glories Barcelona | Prerequisites: unknown; setup: Confirm workshop access and team setup; the page describes supplied vehicles and a Rust SDK. | `workshops-rust-in-action` |
-| 10:00 | 16:00 | [Rust on the Field: Integrating Real Autonomous Systems](https://eurorust.eu/workshops/rust-on-the-field-integrating-real-autonomous-systems/) | Workshop | WeWork Glories Barcelona | Prerequisites: Comfort with async Rust and Tokio; previous robotics or protocol experience is not required.; setup: Bring a stable-Rust development laptop; the source describes provided hardware and emailed setup instructions. | `workshops-rust-on-the-field-integrating-real-autonomous-systems` |
+| 10:00 | 16:00 | [Rust on the Field: Integrating Real Autonomous Systems](https://eurorust.eu/workshops/rust-on-the-field-integrating-real-autonomous-systems/) | Workshop | WeWork Glories Barcelona | Prerequisites: Comfort with async Rust and Tokio; previous robotics or protocol experience is not required.; setup: Bring a stable-Rust development laptop; hardware is provided and setup instructions are sent before the workshop. | `workshops-rust-on-the-field-integrating-real-autonomous-systems` |
 | 14:30 | 17:30 | [Barcelona Bike Tour](https://eurorust.eu/activities/bike-tour/) | Side activity | unknown; check source | Unknown; check official page | `activities-bike-tour` |
 | 18:00 | 21:30 | [BcnRust Barcelona Meetup](https://eurorust.eu/activities/meetup/) | Side activity | unknown; check source | Unknown; check official page | `activities-meetup` |
 | 18:30 | 20:00 | [Barcelona Sunset Catamaran Tour](https://eurorust.eu/activities/boat-tour/) | Side activity | unknown; check source | Unknown; check official page | `activities-boat-tour` |

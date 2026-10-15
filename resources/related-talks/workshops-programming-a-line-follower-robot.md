@@ -10,7 +10,7 @@ Speakers and their work: [Massimiliano Mantione](../speakers/massimiliano-mantio
 
 ### [Programming a line follower robot](https://rustlab.it/talks/programming-a-line-follower-robot)
 
-Workshop · Massimiliano Mantione, Michele Mantione · open access
+Workshop · Massimiliano Mantione, Michele Mantione · public source page
 
 **Repeat appearance.** Shows an earlier workshop by the same mentors on simulated robots, PID control and telemetry.
 

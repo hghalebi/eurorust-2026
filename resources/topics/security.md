@@ -1,7 +1,8 @@
 # Security
 
-Choose a session and follow its source-linked reading list. The list separates
-earlier material from announced future sessions.
+Choose a session to open its reading list. Each session page distinguishes
+earlier material from announced future sessions. For a starting recommendation,
+see [four engineering questions](../learning-paths.md).
 
 - [Containers Are Dead: Long Live WebAssembly](../related-talks/workshops-containers-are-dead.md)
 - [Image codecs rustification in Chromium](../related-talks/talks-image-codecs-rustification-in-chromium.md)

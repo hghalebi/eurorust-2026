@@ -10,7 +10,7 @@ Speakers and their work: [Jana Dönszelmann](../speakers/jana-donszelmann.md).
 
 ### [-Znext-solver: what, why, and when](https://eurorust.eu/2025/talks/znext-solver/)
 
-Talk · lcnr · open access
+Talk · lcnr · public source page
 
 **Project evolution.** Explains the correctness and performance problems that motivated replacing the previous solver.
 

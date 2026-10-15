@@ -2,7 +2,7 @@
 
 Conference facts and community notes for choosing your path. Use the session IDs, official links, and source dates to make each recommendation traceable to this snapshot.
 
-Snapshot: `eurorust-2026-09ef1844f8dfdb34b2f8`. Schedule times use Europe/Madrid (+02:00 during the event); retrieval timestamps retain their recorded offsets.
+Snapshot: `eurorust-2026-71f2ee4aea59a1589532`. Schedule times use Europe/Madrid (+02:00 during the event); retrieval timestamps retain their recorded offsets.
 
 Confirm session access, tickets, recordings, and unlisted prerequisites on the official pages. Community notes are attributed interpretations; their review status and source dates show what still needs checking.
 
@@ -184,11 +184,11 @@ Attribution: Codex-assisted initial repository curation; method: Original paraph
 - Remote access for this session: unknown
 - Booking status: unknown; confirm through official registration
 - Annotation status: Draft checked against source; community review pending
-- Annotation source checked: 2026-10-14T14:17:21.425881+00:00
+- Annotation source checked: 2026-10-15T19:33:47.572404+00:00
 - Annotation source SHA-256: `5046427e8f71b0d49a4cd9065d45a59c4aeafe58de055196434e344cfb2255a0`
 - Community topics: robotics, async, production-reliability, infrastructure
 - Prerequisites (community paraphrase): Comfort with async Rust and Tokio; previous robotics or protocol experience is not required.
-- Setup (community paraphrase): Bring a stable-Rust development laptop; the source describes provided hardware and emailed setup instructions.
+- Setup (community paraphrase): Bring a stable-Rust development laptop; hardware is provided and setup instructions are sent before the workshop.
 
 Integrate vehicle and field-data protocols into a Rust orchestration platform while handling unreliable transport and heterogeneous system models.
 

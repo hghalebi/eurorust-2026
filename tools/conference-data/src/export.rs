@@ -64,7 +64,7 @@ pub fn markdown(catalog: &Catalog, pack: bool) -> Result<String> {
         if pack {
             "Conference facts and community notes for choosing your path. Use the session IDs, official links, and source dates to make each recommendation traceable to this snapshot."
         } else {
-            "Compare times, venues, and preparation needs, then choose the sessions that fit your goals. Follow a session link for its full official description."
+            "Compare times, venues, and preparation needs, then choose the sessions that fit your goals. Follow a session link for its full official description.\n\nFor a vertical layout, use the [session-by-session view](conference-pack.md)."
         },
         snapshot.as_str()
     );

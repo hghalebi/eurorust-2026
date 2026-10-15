@@ -8,8 +8,8 @@ For reading tied to a specific talk or workshop, use the
 EuroRust reading lists; those lists also include work by other authors.
 
 These profiles cover **43 catalog speakers and two named meetup speakers**.
-Research was checked on **October 14, 2026**. The Codex-assisted drafts await
-community and speaker review.
+The initial source review was on **October 14, 2026**; individual entries record
+later checks. The Codex-assisted drafts await community and speaker review.
 
 ## Start with a question
 
@@ -34,7 +34,8 @@ preparation questions from later observations.
 - [Johan Sannemo: *Principles of Algorithmic Problem Solving*](johan-sannemo.md#books) — algorithms and competitive programming.
 - [Paweł Urbanek: Heroku PostgreSQL to AWS RDS migration guide](pawel-urbanek.md#books) — a commercial ebook outside his Rust topic. Check current provider documentation before use.
 
-These books were verified in this search. Profiles label chapters and manuals separately.
+Source pages establish these titles and author links; this is not a review of
+each full book. Profiles label chapters and manuals separately.
 
 ## Find a speaker by name
 

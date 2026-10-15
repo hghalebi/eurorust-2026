@@ -9,7 +9,7 @@ EuroRust sessions (check official pages for details and access):
 ## Articles and research
 
 - [Planning robotic workcell layouts](https://elib.dlr.de/146499/) (Research paper). A coauthored ICRA 2021 paper about layout optimization under task-sequence constraints. DLR provides a public record, while its PDF is restricted.
-- [MOMO: multimodal robot skill adaptation](https://arxiv.org/abs/2604.20468) (Preprint). A coauthored 2026 preprint combining physical, verbal, and graphical interaction. Its tool-based LLM component selects predefined functions; this is research evidence, not a general production-safety guarantee.
+- [MOMO: multimodal robot skill adaptation](https://arxiv.org/abs/2604.20468) (Research paper; arXiv version). A coauthored 2026 paper combining physical, verbal, and graphical interaction. The arXiv record lists publication in IEEE Robotics and Automation Practice and DOI `10.1109/RAP.2026.3724466`; the publisher page was not verified. Its LLM selects predefined functions; this does not establish a general production-safety guarantee. Publication record rechecked on October 15, 2026.
 
 ## Projects and professional work
 

@@ -1,12 +1,12 @@
 # Find resources for your session
 
 Choose a talk or workshop, then one useful source. Each page explains the connection
-and links books, articles, papers, videos, or working projects.
+and links books, articles, papers, videos, or projects.
 
 These are curated suggestions. Source-page checks do not mean a whole work was
-reviewed or a video played. Upcoming sessions are labelled **Announced**.
+reviewed, a video played, or a project run. Upcoming sessions are labelled **Announced**.
 
-[Follow a topic](../topics/README.md) · [Browse conference archives](../conferences/README.md) · [Explore speakers](../speakers/README.md)
+[Choose a first source](../learning-paths.md) · [Browse topics](../topics/README.md) · [Conference archives](../conferences/README.md) · [Speakers](../speakers/README.md)
 
 | EuroRust session | Resources |
 | --- | ---: |

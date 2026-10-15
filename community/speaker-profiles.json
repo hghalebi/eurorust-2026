@@ -3298,9 +3298,10 @@
           "kind": "publication",
           "label": "MOMO: multimodal robot skill adaptation",
           "url": "https://arxiv.org/abs/2604.20468",
-          "note": "A coauthored 2026 preprint combining physical, verbal, and graphical interaction. Its tool-based LLM component selects predefined functions; this is research evidence, not a general production-safety guarantee.",
+          "note": "A coauthored 2026 paper combining physical, verbal, and graphical interaction. The arXiv record lists publication in IEEE Robotics and Automation Practice and DOI 10.1109/RAP.2026.3724466; the publisher page was not verified. Its LLM selects predefined functions; this does not establish a general production-safety guarantee.",
           "evidence": "https://arxiv.org/abs/2604.20468",
-          "format": "preprint"
+          "format": "paper",
+          "checked_on": "2026-10-15"
         }
       ],
       "gaps": [

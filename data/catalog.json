@@ -387,11 +387,11 @@
           "infrastructure"
         ],
         "prerequisites": "Comfort with async Rust and Tokio; previous robotics or protocol experience is not required.",
-        "setup": "Bring a stable-Rust development laptop; the source describes provided hardware and emailed setup instructions.",
+        "setup": "Bring a stable-Rust development laptop; hardware is provided and setup instructions are sent before the workshop.",
         "author": "Codex-assisted initial repository curation",
         "method": "Original paraphrase and topic interpretation after reading the official page; human community review remains open",
         "review_status": "source_checked_draft",
-        "source_checked_at": "2026-10-14T14:17:21.425881+00:00",
+        "source_checked_at": "2026-10-15T19:33:47.572404+00:00",
         "source_content_sha256": "5046427e8f71b0d49a4cd9065d45a59c4aeafe58de055196434e344cfb2255a0",
         "source_url": "https://eurorust.eu/workshops/rust-on-the-field-integrating-real-autonomous-systems/"
       }

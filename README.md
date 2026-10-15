@@ -1,13 +1,11 @@
 # EuroRust 2026: choose your path
 
-Plan your sessions and bring better questions.
+Choose sessions, prepare questions, and follow the ideas beyond the conference.
 
 I'm exploring Rust for production agents: types, reliable workers, infrastructure,
-and robotics. This independent attendee guide shares my plan, preparation notes,
-speaker research, and conference data for you and your agent.
-
-Find me on [X](https://x.com/Hamzeml), [GitHub](https://github.com/hghalebi),
-and [LinkedIn](https://www.linkedin.com/in/hamze/).
+and robotics. This independent attendee guide connects those questions to
+sessions, speakers' work, and further reading. Use it to shape your own path
+or give the sourced data to your agent.
 
 [October 14–17, 2026 · Barcelona](https://eurorust.eu/).
 EuroRust times use **Europe/Madrid**.
@@ -17,25 +15,25 @@ Check [venues, entrances, and room details](docs/time-and-place.md).
 
 | Your goal | Open |
 | --- | --- |
-| Follow my path | [Learning goals](my-conference/README.md) and [proposed itinerary](my-conference/itinerary.md) |
-| Make your own plan | [Schedule](exports/schedule.md), [planning guide](docs/planning-guide.md), and [example paths](community/paths/README.md) |
-| Read beyond a session | [Session resources](resources/related-talks/README.md), [topic paths](resources/topics/README.md), and [conference archives](resources/conferences/README.md) |
+| Follow my path | [Goals and choices](my-conference/README.md) and [proposed itinerary](my-conference/itinerary.md) |
+| Make your own plan | [Planning guide](docs/planning-guide.md), [schedule table](exports/schedule.md), or [session-by-session view](exports/conference-pack.md) |
+| Choose something to learn | [Four engineering questions](resources/learning-paths.md), [talk and workshop reading lists](resources/related-talks/README.md), and [conference archives](resources/conferences/README.md) |
 | Plan with your agent | [Agent guide](docs/agent-guide.md) and [copyable prompt](prompts/choose-my-path.md) |
 
-Copy the [itinerary template](templates/itinerary.md). Choose one session, give a
-reason, and keep an alternative. You can do this in your browser.
+For a first step, open the [background-worker reading list](resources/related-talks/talks-lessons-from-building-a-background-task-processing-library.md).
+Start with its Tokio shutdown guide, then ask: **what happens to accepted work
+if the process stops?** The list connects that question to retries and recovery.
 
-## Questions behind my plan
+## Build a path around your questions
 
-- [Which tool contracts can Rust check?](notes/talks/compile-time-contracts.md)
-- [What does a reliable worker need?](notes/talks/background-workers.md)
-- [What survives a cancelled stream?](notes/talks/streaming-state-machines.md)
-- [Which infrastructure errors can compilation catch?](notes/talks/compiled-infrastructure.md)
-- [How should software handle unreliable hardware links?](notes/workshops/robotics-integration.md)
+Each talk and workshop has reading suggestions with reasons, access notes,
+and source dates. Browse [topic indexes](resources/topics/README.md) to explore
+beyond your first choice.
 
-These are preparation questions. Their connection to agent engineering is my
-interpretation. Explore [further reading](resources/README.md) or
-[two small Rust experiments](experiments/README.md).
+Copy the [itinerary template](templates/itinerary.md), choose one session, and
+keep an alternative. The [preparation notes](notes/README.md) and
+[two small Rust experiments](experiments/README.md) explore my agent-engineering
+questions. Those connections are my interpretation.
 
 My plan is provisional: availability, attendance mode, bookings, and readiness
 are unconfirmed. The [journal](journal/README.md) records preparation;
@@ -69,11 +67,15 @@ Community summaries and speaker profiles are Codex-assisted drafts awaiting
 review. Check source dates: validation does not mean a page was recently fetched.
 Use the [official schedule](https://eurorust.eu/schedule/) to confirm times and access.
 
-[Contribute a correction, note, or path](CONTRIBUTING.md), with a source.
+[Contribute a correction, note, or path](CONTRIBUTING.md). One source link and
+the question it helps answer are a useful start.
 Use the [session note template](templates/session.md) to separate preparation
 from observations. Share the page that helped you.
 
 [All guides and optional tools](docs/README.md) · [Source policy](docs/source-and-reuse-policy.md)
+
+Find me on [X](https://x.com/Hamzeml), [GitHub](https://github.com/hghalebi),
+and [LinkedIn](https://www.linkedin.com/in/hamze/).
 
 Original prose: [CC BY 4.0](LICENSES/README.md). Code: [MIT](LICENSE).
 Third-party works keep their own terms.

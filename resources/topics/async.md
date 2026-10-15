@@ -1,7 +1,8 @@
 # Async
 
-Choose a session and follow its source-linked reading list. The list separates
-earlier material from announced future sessions.
+Choose a session to open its reading list. Each session page distinguishes
+earlier material from announced future sessions. For a starting recommendation,
+see [four engineering questions](../learning-paths.md).
 
 - [Beyond p99: Observing Async Rust](../related-talks/workshops-beyond-p99-observing-async-rust.md)
 - [Hands-On Embedded Rust](../related-talks/workshops-hands-on-embedded-rust.md)

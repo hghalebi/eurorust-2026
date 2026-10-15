@@ -1,8 +1,9 @@
 # Choose sessions for your goals
 
-Keep the [schedule](../exports/schedule.md) open and copy the
-[itinerary template](../templates/itinerary.md) into your notes. You can plan
-in your browser.
+Open the [schedule table](../exports/schedule.md) or
+[session-by-session view](../exports/conference-pack.md), then copy the
+[itinerary template](../templates/itinerary.md) into your notes. The second view
+keeps details in a vertical list, useful on a small screen.
 
 ## 1. Name your goal
 
@@ -30,8 +31,9 @@ and [gccrs and the Linux kernel](https://eurorust.eu/talks/compiling-the-linux-k
 A robotics-focused attendee could choose the first and keep the second as an
 alternative. Save the session ID and a question; recheck official times.
 
-Compare [my plan](../my-conference/itinerary.md) or the
+Compare [my priorities and trade-offs](../my-conference/README.md) or the
 [backend, embedded, and foundations examples](../community/paths/README.md).
+For preparation, choose a source from [four engineering questions](../resources/learning-paths.md).
 
 ## 4. Confirm access
 

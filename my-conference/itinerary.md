@@ -1,6 +1,6 @@
 # Your EuroRust starting path
 
-Profile: Shared production agents and Rust learning path. Snapshot: `eurorust-2026-09ef1844f8dfdb34b2f8`.
+Profile: Shared production agents and Rust learning path. Snapshot: `eurorust-2026-71f2ee4aea59a1589532`.
 
 Use these choices to decide where to go, what to prepare, and which questions to bring. This is a conditional plan generated from topic matches; compare each choice and alternative with the official description.
 

@@ -20,3 +20,5 @@ A typed state can restrict an operation. It cannot force completion or establish
 that an external resource is still healthy. After the session, choose one
 observed pattern and test its fit for an agent worker, including the failure
 path. Record where proxy-specific assumptions stop applying.
+
+[Read about state machines, Pingora, and async cancellation](../../resources/related-talks/talks-designing-state-machines-for-streaming-proxies-in-rust.md).

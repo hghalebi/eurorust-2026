@@ -1,7 +1,8 @@
 # Systems
 
-Choose a session and follow its source-linked reading list. The list separates
-earlier material from announced future sessions.
+Choose a session to open its reading list. Each session page distinguishes
+earlier material from announced future sessions. For a starting recommendation,
+see [four engineering questions](../learning-paths.md).
 
 - [Building a virtual machine monitor in Rust](../related-talks/workshops-building-a-virtual-machine-monitor-in-rust.md)
 - [C→Rust, Beyond the Basics](../related-talks/workshops-c-to-rust.md)

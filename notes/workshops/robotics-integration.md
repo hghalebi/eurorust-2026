@@ -4,11 +4,11 @@
 `workshops-rust-on-the-field-integrating-real-autonomous-systems`.
 [Read the official description](https://eurorust.eu/workshops/rust-on-the-field-integrating-real-autonomous-systems/).
 
-The captured description covers Rust connectors for heterogeneous systems and
-unreliable transport. It asks for comfort with async Rust and Tokio; previous
-robotics or protocol experience is not required. It describes provided hardware
-and laptop setup instructions sent by email. Confirm current access and logistics
-with the organizer before making a commitment.
+The Quantum Systems-sponsored workshop uses MOSAIC-UXS to explore Rust connectors
+for heterogeneous systems and unreliable transport. It asks for comfort with
+async Rust and Tokio; previous robotics or protocol experience is not required.
+It describes provided hardware and laptop setup instructions sent before the
+workshop. Confirm current access and logistics with the organizer.
 
 ## Questions to bring
 
@@ -25,3 +25,5 @@ time on the official pages.
 
 Keep simulation results and physical-system validation separate. Local type
 safety does not establish the state of hardware outside the process.
+
+[Read about protocols, shutdown, and retries](../../resources/related-talks/workshops-rust-on-the-field-integrating-real-autonomous-systems.md).

@@ -6,6 +6,33 @@ provenance. For the current code revision, inspect its completed
 below record checks at specific times and revisions. Use
 [the contribution checks](../CONTRIBUTING.md#checks) to reproduce them.
 
+## Reading routes and editorial corrections — 2026-10-15
+
+Local verification on macOS arm64, Rust/Cargo 1.98.0, for the revision based on
+`567c9f73ca5d4599e890e2d92c7a67871b6c88a9`:
+
+- Formatting, Clippy with warnings denied, 26 unit/integration tests, and 11
+  rustdoc cases passed, including six compile-fail cases.
+- The installed release helper passed catalog, learning, archive, documentation,
+  and all four itinerary checks. The documentation check covered 192 public
+  Markdown files, local paths, anchors, and classification.
+- A clean checkout of the staged public files built successfully. Its installed
+  executable passed the same data, generated-view, document, and itinerary
+  checks without private plans or caches.
+- GitHub's Markdown API rendered the README, new reading guide, itinerary
+  template, and edition inventory. A secondary checker's RustWeek anchor warning
+  was checked against GitHub's rendered HTML: the existing anchor is correct.
+- The new snapshot, `eurorust-2026-71f2ee4aea59a1589532`, corrects one community
+  setup annotation and adds a schedule navigation link. Official session fields,
+  retrieval dates, and existing immutable snapshots are unchanged. Companion
+  check dates retain their original scope.
+
+Five simulated editorial reviews found no remaining major defect in their
+inspected scope. This is not human community approval or exhaustive source
+verification. External source pages were sampled; full books, video playback,
+mobile layout, and assistive technology were not tested. Match this revision to
+its completed Actions run for remote CI evidence.
+
 ## Conference archives and reading lists — 2026-10-15
 
 Local verification on macOS arm64, Rust/Cargo 1.98.0, for the archive addition

@@ -1,6 +1,6 @@
 # EuroRust learning resources
 
-Catalog snapshot: `eurorust-2026-09ef1844f8dfdb34b2f8`. Format: `1.0.0`.
+Catalog snapshot: `eurorust-2026-71f2ee4aea59a1589532`. Format: `1.0.0`.
 
 Curated source-checked drafts, with community review pending. Use source dates and
 access notes; a listing does not prove attendance or a published recording.
@@ -139,7 +139,7 @@ Curated from primary pages, abstracts and project descriptions. Books, recording
 
 ### [Containers Are Dead: Long Live WebAssembly](https://eurorust.eu/2025/workshops/long-live-webassembly/)
 
-Workshop · Jonas Kruckenberg · open access
+Workshop · Jonas Kruckenberg · public source page
 
 **Repeat appearance.** Lets readers compare the previous syllabus for Rust HTTP services, WASM deployment and diagnostics.
 
@@ -215,7 +215,7 @@ Curated from primary pages, abstracts and project descriptions. Books, recording
 
 ### [Programming a line follower robot](https://rustlab.it/talks/programming-a-line-follower-robot)
 
-Workshop · Massimiliano Mantione, Michele Mantione · open access
+Workshop · Massimiliano Mantione, Michele Mantione · public source page
 
 **Repeat appearance.** Shows an earlier workshop by the same mentors on simulated robots, PID control and telemetry.
 
@@ -381,7 +381,7 @@ Source page checked: 2026-10-15. Evidence: [goals.rust-lang.org](https://goals.r
 
 ### [Misusing Const for Fn and Profit](https://eurorust.eu/2025/talks/misusing-const/)
 
-Talk · Tris Oaten · open access
+Talk · Tris Oaten · public source page
 
 **Same topic.** Offers an earlier conference perspective on moving useful work into Rust’s compile-time evaluation.
 
@@ -399,7 +399,7 @@ Curated from primary pages, abstracts and project descriptions. Books, recording
 
 ### [Compiling the Linux Kernel with gccrs](https://rustconf2026.sched.com/event/2KHyD)
 
-Talk · Arthur Cohen, Pierre-Emmanuel Patry · open access
+Talk · Arthur Cohen, Pierre-Emmanuel Patry · public source page
 
 **Repeat appearance.** Lists an earlier 2026 appearance with the same title and speaker.
 
@@ -421,7 +421,7 @@ Source page checked: 2026-10-15. Evidence: [blog.rust-lang.org](https://blog.rus
 
 ### [Inching ever closer to the Rust standard library with gccrs](https://2025.rustweek.org/talks/arthurcohen/)
 
-Talk · Arthur Cohen, Pierre-Emmanuel Patry · open access
+Talk · Arthur Cohen, Pierre-Emmanuel Patry · public source page
 
 **Project evolution.** Shows the compiler’s earlier standard-library milestone before the kernel-focused session.
 
@@ -449,7 +449,7 @@ Curated from primary pages, abstracts and project descriptions. Books, recording
 
 ### [Rust as the Foundation for Future Unmanned Systems](https://oxidizeconf.com/sessions/keynote_rust_as_the-foundation_for_future_unmanned-systems)
 
-Talk · Sebastian Rietzscher, Sebastian Haas · open access
+Talk · Sebastian Rietzscher, Sebastian Haas · public source page
 
 **Same topic.** Provides an earlier account of MOSAIC’s architecture, Rust migration and legacy integration.
 
@@ -519,7 +519,7 @@ Source page checked: 2026-10-15. Evidence: [rustc-dev-guide.rust-lang.org](https
 
 ### [-Znext-solver: what, why, and when](https://eurorust.eu/2025/talks/znext-solver/)
 
-Talk · lcnr · open access
+Talk · lcnr · public source page
 
 **Project evolution.** Explains the correctness and performance problems that motivated replacing the previous solver.
 
@@ -577,7 +577,7 @@ Source page checked: 2026-10-15. Evidence: [tc39.es](https://tc39.es/proposal-te
 
 ### [Beyond ICU4X 2.0: ZeroVec, Diplomat, Yoke, and Unicode’s Contributions to the Rust Ecosystem](https://2025.rustweek.org/talks/shane/)
 
-Talk · Shane Carr · open access
+Talk · Shane Carr · public source page
 
 **Preparation.** Introduces Unicode’s Rust libraries and bindings work behind cross-language integration.
 
@@ -925,7 +925,7 @@ Selected for this session after checking primary source pages. Connections are e
 
 ### [-Znext-solver: what, why, and when](https://eurorust.eu/2025/talks/znext-solver/)
 
-Talk · lcnr · open access
+Talk · lcnr · public source page
 
 **Preparation.** Read the earlier motivation and design challenges behind the new trait solver.
 
@@ -1079,7 +1079,7 @@ Source page checked: 2026-10-15. Evidence: [tokio.rs](https://tokio.rs/blog/2021
 
 ### [Lessons learned from monitoring a large production network](https://devopsdays.org/events/2020-madrid/program/giacomo-bagnoli/)
 
-Talk · Giacomo Bagnoli · open access
+Talk · Giacomo Bagnoli · public source page
 
 **Preparation.** Compare the speaker's earlier network-health monitoring problems with the later Blastbeat rewrite.
 
@@ -1499,7 +1499,7 @@ Source page checked: 2026-10-15. Evidence: [encore.dev](https://encore.dev/blog/
 
 ### [Why I Needed Rust: Finally, Infrastructure Automation I can sleep on](https://www.rustikon.dev/talk/why-i-needed-rust-finally-infrastructure-automation-i-can-sleep-on)
 
-Talk · Jesús Pérez · open access
+Talk · Jesús Pérez · public source page
 
 **Same topic.** Compare another engineer's use of type safety to address drift and failed infrastructure deployments.
 
@@ -1649,7 +1649,7 @@ Source page checked: 2026-10-15. Evidence: [nnethercote.github.io](https://nneth
 
 ### [Tango: Precise Performance Measurement through Direct Comparison](https://2025.rustweek.org/talks/denis/)
 
-Talk · Denis Bazhenov · open access
+Talk · Denis Bazhenov · public source page
 
 **Suggested next step.** Follow profiling with paired benchmarks that reduce noise when comparing candidate changes.
 

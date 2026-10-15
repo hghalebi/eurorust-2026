@@ -10,7 +10,7 @@ Speakers and their work: [lcnr](../speakers/lcnr.md).
 
 ### [-Znext-solver: what, why, and when](https://eurorust.eu/2025/talks/znext-solver/)
 
-Talk · lcnr · open access
+Talk · lcnr · public source page
 
 **Preparation.** Read the earlier motivation and design challenges behind the new trait solver.
 
