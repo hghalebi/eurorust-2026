@@ -25,6 +25,12 @@ EuroRust sessions (check official pages for details and access):
 - [GitHub: eandre](https://github.com/eandre). Development profile under André Eriksson's name.
 - [X / Twitter: _eandre](https://twitter.com/_eandre). Handle identified in the author's GopherCon UK slides; posting activity was not checked. [Attribution](https://encore.dev/assets/slides/gophercon-uk-2022.pdf).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Your Infrastructure Should Compile, Too](../related-talks/talks-your-infrastructure-should-compile-too.md)
+
 ## Scope and sources
 
 No authored book or scholarly paper verified.

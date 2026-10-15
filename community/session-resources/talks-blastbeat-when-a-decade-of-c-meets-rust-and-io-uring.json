@@ -1,0 +1,102 @@
+{
+  "session_id": "talks-blastbeat-when-a-decade-of-c-meets-rust-and-io-uring",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+  "resources": [
+    {
+      "id": "tokio-uring-announcement",
+      "title": "Announcing tokio-uring: io-uring support for Tokio",
+      "kind": "article",
+      "url": "https://tokio.rs/blog/2021-07-tokio-uring",
+      "authors": [
+        "Tokio contributors"
+      ],
+      "published_on": "2021-07-19",
+      "access": "open",
+      "relation": "preparation",
+      "why": "Understand why completion-based I/O owns buffers differently from readiness-based async I/O.",
+      "evidence_urls": [
+        "https://tokio.rs/blog/2021-07-tokio-uring"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Historical design introduction; its initial release API is not current setup guidance."
+    },
+    {
+      "id": "bagnoli-network-monitoring-devopsdays-2020",
+      "title": "Lessons learned from monitoring a large production network",
+      "kind": "conference_talk",
+      "url": "https://devopsdays.org/events/2020-madrid/program/giacomo-bagnoli/",
+      "authors": [
+        "Giacomo Bagnoli"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Compare the speaker's earlier network-health monitoring problems with the later Blastbeat rewrite.",
+      "evidence_urls": [
+        "https://devopsdays.org/events/2020-madrid/program/giacomo-bagnoli/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "unknown",
+      "event": {
+        "name": "devopsdays Madrid",
+        "edition": "2020",
+        "starts_on": null,
+        "source_url": "https://devopsdays.org/events/2020-madrid/program/giacomo-bagnoli/"
+      },
+      "caveat": "The archived programme describes monitoring practices, not the Rust implementation; recording availability was not verified."
+    },
+    {
+      "id": "sre-canarying-releases",
+      "title": "Canarying Releases",
+      "kind": "book",
+      "url": "https://sre.google/workbook/canarying-releases/",
+      "authors": [
+        "Google SRE contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Plan rollout signals and failure checks for replacing an agent across a server fleet.",
+      "evidence_urls": [
+        "https://sre.google/workbook/canarying-releases/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "blastbeat-rustlab-2026",
+      "title": "Blastbeat: Replacing 10 Years of C++ with Rust and io_uring",
+      "kind": "conference_talk",
+      "url": "https://rustlab.it/talks/blastbeat-replacing-10-years-of-c-with-rust-and-iouring",
+      "authors": [
+        "Giacomo Bagnoli"
+      ],
+      "published_on": null,
+      "access": "registration",
+      "relation": "repeat_appearance",
+      "why": "Follow the announced RustLab appearance on the same network-observability rewrite.",
+      "evidence_urls": [
+        "https://rustlab.it/talks/blastbeat-replacing-10-years-of-c-with-rust-and-iouring"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "announced",
+      "event": {
+        "name": "RustLab",
+        "edition": "2026",
+        "starts_on": "2026-11-03",
+        "source_url": "https://rustlab.it/talks/blastbeat-replacing-10-years-of-c-with-rust-and-iouring"
+      },
+      "caveat": "The same project and one EuroRust speaker; presentation details may differ and no future recording is promised."
+    }
+  ]
+}

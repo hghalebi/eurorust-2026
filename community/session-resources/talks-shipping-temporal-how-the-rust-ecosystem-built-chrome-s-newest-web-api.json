@@ -1,0 +1,97 @@
+{
+  "session_id": "talks-shipping-temporal-how-the-rust-ecosystem-built-chrome-s-newest-web-api",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. Temporal here is JavaScript’s date-and-time API, not the workflow engine. No verified future conference match is included in this pass.",
+  "resources": [
+    {
+      "id": "temporal-rs-release",
+      "title": "Temporal_rs is here! The datetime library powering Temporal in Boa, Kiesel, and V8",
+      "kind": "article",
+      "url": "https://boajs.dev/blog/2025/09/24/temporal-release",
+      "authors": [
+        "Temporal_rs developers"
+      ],
+      "published_on": "2025-09-24",
+      "access": "open",
+      "relation": "project_evolution",
+      "why": "Explains the library’s design, FFI boundary and adoption by JavaScript engines.",
+      "evidence_urls": [
+        "https://boajs.dev/blog/2025/09/24/temporal-release"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Historical release article; its browser and standards forecasts describe September 2025."
+    },
+    {
+      "id": "temporal-implementation",
+      "title": "Implementing Temporal, the new date/time API for JavaScript (and Rust!)",
+      "kind": "article",
+      "url": "https://boajs.dev/blog/2025/06/15/temporal-impl-1",
+      "authors": [
+        "Boa developers"
+      ],
+      "published_on": "2025-06-15",
+      "access": "open",
+      "relation": "preparation",
+      "why": "Explains implementation choices behind calendar and time-zone behavior in Rust.",
+      "evidence_urls": [
+        "https://boajs.dev/blog/2025/06/15/temporal-impl-1"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "tc39-temporal-docs",
+      "title": "Temporal documentation",
+      "kind": "documentation",
+      "url": "https://tc39.es/proposal-temporal/docs/",
+      "authors": [
+        "TC39 Temporal contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Defines the date-and-time API that the Rust implementation must expose.",
+      "evidence_urls": [
+        "https://tc39.es/proposal-temporal/docs/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "rustweek-2025-icu4x",
+      "title": "Beyond ICU4X 2.0: ZeroVec, Diplomat, Yoke, and Unicode’s Contributions to the Rust Ecosystem",
+      "kind": "conference_talk",
+      "url": "https://2025.rustweek.org/talks/shane/",
+      "authors": [
+        "Shane Carr"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Introduces Unicode’s Rust libraries and bindings work behind cross-language integration.",
+      "evidence_urls": [
+        "https://2025.rustweek.org/talks/shane/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "unknown",
+      "event": {
+        "name": "RustWeek",
+        "edition": "2025",
+        "starts_on": null,
+        "source_url": "https://2025.rustweek.org/talks/shane/"
+      },
+      "caveat": "Related library background, not the same Temporal talk. Official description checked; delivery and recording are unverified."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "session_id": "talks-build-systems-when-your-systems-need-systems-to-build",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+  "resources": [
+    {
+      "id": "build-systems-a-la-carte",
+      "title": "Build systems à la carte",
+      "kind": "paper",
+      "url": "https://www.microsoft.com/en-us/research/publication/build-systems-la-carte/",
+      "authors": [
+        "Andrey Mokhov",
+        "Neil Mitchell",
+        "Simon Peyton Jones"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Compare dependency discovery, scheduling, and rebuilding as separate build-system design choices.",
+      "evidence_urls": [
+        "https://www.microsoft.com/en-us/research/publication/build-systems-la-carte/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": {
+        "name": "ICFP",
+        "edition": "2018",
+        "starts_on": null,
+        "source_url": "https://www.microsoft.com/en-us/research/publication/build-systems-la-carte/"
+      },
+      "caveat": "Research landing page and summary checked; the full paper was not reviewed."
+    },
+    {
+      "id": "bazel-hermeticity",
+      "title": "Hermeticity",
+      "kind": "documentation",
+      "url": "https://bazel.build/basics/hermeticity",
+      "authors": [
+        "Bazel contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Understand why declared inputs and controlled environments matter for reliable caching.",
+      "evidence_urls": [
+        "https://bazel.build/basics/hermeticity"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "cargo-build-scripts",
+      "title": "Build Scripts",
+      "kind": "documentation",
+      "url": "https://doc.rust-lang.org/cargo/reference/build-scripts.html",
+      "authors": [
+        "Cargo contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Review Cargo's input tracking and native-build interface before adding another build layer.",
+      "evidence_urls": [
+        "https://doc.rust-lang.org/cargo/reference/build-scripts.html"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "cargo-ci-rustconf-2026",
+      "title": "Tips for Speeding Up Cargo Build in CI",
+      "kind": "conference_talk",
+      "url": "https://rustconf2026.sched.com/event/2KHtV",
+      "authors": [
+        "Kaitlin Seng"
+      ],
+      "published_on": null,
+      "access": "unknown",
+      "relation": "same_topic",
+      "why": "Compare CI-focused build improvements with broader build-system design.",
+      "evidence_urls": [
+        "https://rustconf.com/speakers/",
+        "https://rustconf2026.sched.com/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "unknown",
+      "event": {
+        "name": "RustConf",
+        "edition": "2026",
+        "starts_on": "2026-09-09",
+        "source_url": "https://rustconf2026.sched.com/"
+      },
+      "caveat": "Official timetable and speaker roster checked. Detail-page access was inconsistent; delivery and recording remain unverified."
+    }
+  ]
+}

@@ -28,6 +28,12 @@ EuroRust sessions (check official pages for details and access):
 - [Bluesky](https://bsky.app/profile/sffc.bsky.social). Linked from the speaker's GitHub profile. [Attribution](https://github.com/sffc).
 - [X / Twitter](https://twitter.com/_sffc). Linked from the speaker's GitHub profile. [Attribution](https://github.com/sffc).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Shipping Temporal: How the Rust Ecosystem Built Chrome’s Newest Web API](../related-talks/talks-shipping-temporal-how-the-rust-ecosystem-built-chrome-s-newest-web-api.md)
+
 ## Scope and sources
 
 No authored book was verified. The personal homepage linked by GitHub was unavailable during research; the technical blog was accessible.

@@ -22,6 +22,12 @@ EuroRust sessions (check official pages for details and access):
 - [GitHub: upachler](https://github.com/upachler). The named profile and public Matter/ESP32 integration reports match the conference's embedded project context. [Attribution](https://github.com/sysgrok/rs-matter-embassy/issues/33).
 - [LinkedIn](https://de.linkedin.com/in/uwepachler). The engineering profile matches the conference's Stuttgart-area background and the Almato speaking programme. [Attribution](https://devcon.almato.com/hubfs/Almato-DevCon-2025-Programm-1-7.pdf).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [The Lämp](../related-talks/talks-the-lamp.md)
+
 ## Scope and sources
 
 No personal blog, authored book, or scholarly publication was verified. A public repository for the EuroRust lamp itself was not found.

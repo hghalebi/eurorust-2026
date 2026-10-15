@@ -1,0 +1,97 @@
+{
+  "session_id": "talks-from-hardware-to-human-interface-building-hid-devices-in-rust",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed.",
+  "resources": [
+    {
+      "id": "usb-hid-specification",
+      "title": "Device Class Definition for HID 1.11",
+      "kind": "documentation",
+      "url": "https://usb.org/document-library/device-class-definition-hid-111",
+      "authors": [
+        "USB Implementers Forum"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Defines the descriptors and reports that let input devices work with standard host drivers.",
+      "evidence_urls": [
+        "https://usb.org/document-library/device-class-definition-hid-111"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "usbd-hid",
+      "title": "usbd-hid",
+      "kind": "documentation",
+      "url": "https://docs.rs/usbd-hid/latest/usbd_hid/",
+      "authors": [
+        "usbd-hid contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Documents Rust support for HID report descriptors, input reports and USB communication.",
+      "evidence_urls": [
+        "https://docs.rs/usbd-hid/latest/usbd_hid/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "usb-complete-fifth-edition",
+      "title": "USB Complete: The Developer’s Guide, fifth edition",
+      "kind": "book",
+      "url": "https://www.ipgbook.com/usb-complete-products-9781931448284.php",
+      "authors": [
+        "Jan Axelson"
+      ],
+      "published_on": null,
+      "access": "purchase",
+      "relation": "preparation",
+      "why": "Explains USB device classes, host drivers and debugging beyond a particular Rust library.",
+      "evidence_urls": [
+        "https://www.ipgbook.com/usb-complete-products-9781931448284.php"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Publisher-distributor overview checked; 2015 edition, with examples outside Rust."
+    },
+    {
+      "id": "rustlab-2026-hid-devices",
+      "title": "From hardware to Human Interface: buiding HID devices in Rust",
+      "kind": "conference_talk",
+      "url": "https://rustlab.it/talks/from-hardware-to-huma-interface-buiding-hid-devices-in-rust",
+      "authors": [
+        "Frank Lyaruu"
+      ],
+      "published_on": null,
+      "access": "registration",
+      "relation": "repeat_appearance",
+      "why": "Offers another announced appearance of the same speaker, topic and abstract.",
+      "evidence_urls": [
+        "https://rustlab.it/talks/from-hardware-to-huma-interface-buiding-hid-devices-in-rust"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "announced",
+      "event": {
+        "name": "RustLab",
+        "edition": "2026",
+        "starts_on": "2026-11-02",
+        "source_url": "https://rustlab.it/talks/from-hardware-to-huma-interface-buiding-hid-devices-in-rust"
+      },
+      "caveat": "Announced for November 2, 2026; the organizer’s title contains a typo, and content may change."
+    }
+  ]
+}

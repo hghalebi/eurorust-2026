@@ -20,6 +20,12 @@ EuroRust sessions (check official pages for details and access):
 
 - [MOSAIC backend work](https://eurorust.eu/talks/the-future-of-unmanned-systems-is-built-on-rust/). The conference biography identifies the speaker's backend leadership at Quantum Systems and previous robotics research at TUM. This is professional work; no public source repository was verified.
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [The Future of Unmanned Systems Is Built on Rust](../related-talks/talks-the-future-of-unmanned-systems-is-built-on-rust.md)
+
 ## Scope and sources
 
 No independently verified personal social account, blog, standalone authored book, or public code project was found. The confirmed book contribution is a coauthored proceedings chapter.

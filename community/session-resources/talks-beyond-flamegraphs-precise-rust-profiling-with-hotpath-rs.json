@@ -1,0 +1,104 @@
+{
+  "session_id": "talks-beyond-flamegraphs-precise-rust-profiling-with-hotpath-rs",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+  "resources": [
+    {
+      "id": "hotpath-rustikon-2026-video",
+      "title": "Rust Performance Profiling using hotpath-rs",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=ir1WC_rO2Fk",
+      "authors": [
+        "Paweł Urbanek"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Watch the speaker's earlier profiling explanation and Zed instrumentation demonstration.",
+      "evidence_urls": [
+        "https://hotpath.rs/blog/rust-hotpath-rustikon",
+        "https://www.rustikon.dev/talk/improving-rust-performance-debugging-workflow-with-tuis-and-llms"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "published",
+      "event": {
+        "name": "Rustikon",
+        "edition": "2026",
+        "starts_on": "2026-03-20",
+        "source_url": "https://www.rustikon.dev/talk/improving-rust-performance-debugging-workflow-with-tuis-and-llms"
+      },
+      "caveat": "The speaker links the recording; the organizer dates the related hotpath session March 20, 2026. YouTube playback was not checked."
+    },
+    {
+      "id": "hotpath-profiler-lessons",
+      "title": "Lessons Learned Building High-Performance Rust Profiler",
+      "kind": "article",
+      "url": "https://hotpath.rs/blog/rust-performance-profiling",
+      "authors": [
+        "Paweł Urbanek"
+      ],
+      "published_on": "2026-05-12",
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Read the implementation tradeoffs around instrumentation overhead, cache contention, and async futures.",
+      "evidence_urls": [
+        "https://hotpath.rs/blog/rust-performance-profiling"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "rust-performance-book-profiling",
+      "title": "The Rust Performance Book: Profiling",
+      "kind": "book",
+      "url": "https://nnethercote.github.io/perf-book/profiling.html",
+      "authors": [
+        "Nicholas Nethercote",
+        "The Rust Performance Book contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "alternative_approach",
+      "why": "Compare sampling and instrumentation tools before choosing what to measure.",
+      "evidence_urls": [
+        "https://nnethercote.github.io/perf-book/profiling.html"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "tango-rustweek-2025",
+      "title": "Tango: Precise Performance Measurement through Direct Comparison",
+      "kind": "conference_talk",
+      "url": "https://2025.rustweek.org/talks/denis/",
+      "authors": [
+        "Denis Bazhenov"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Follow profiling with paired benchmarks that reduce noise when comparing candidate changes.",
+      "evidence_urls": [
+        "https://2025.rustweek.org/talks/denis/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "unknown",
+      "event": {
+        "name": "RustWeek",
+        "edition": "2025",
+        "starts_on": null,
+        "source_url": "https://2025.rustweek.org/talks/denis/"
+      },
+      "caveat": "The official abstract describes benchmarking, a complementary task rather than profiling; recording not checked."
+    }
+  ]
+}

@@ -22,6 +22,8 @@ jobs:
       - run: cargo test --workspace --locked
       - run: cargo build --release --locked
       - run: target/release/conference-data validate
+      - run: target/release/conference-data check-learning
+      - run: target/release/conference-data check-archive
       - run: target/release/conference-data check-docs
       - name: Check participant paths
         shell: bash

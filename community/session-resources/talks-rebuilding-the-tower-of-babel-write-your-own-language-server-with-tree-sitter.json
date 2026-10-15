@@ -1,0 +1,71 @@
+{
+  "session_id": "talks-rebuilding-the-tower-of-babel-write-your-own-language-server-with-tree-sitter",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+  "resources": [
+    {
+      "id": "tree-sitter-guide",
+      "title": "Tree-sitter documentation",
+      "kind": "documentation",
+      "url": "https://tree-sitter.github.io/tree-sitter/",
+      "authors": [
+        "Tree-sitter contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Explains incremental parsing and grammar construction for editor tooling.",
+      "evidence_urls": [
+        "https://tree-sitter.github.io/tree-sitter/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "language-server-protocol-317",
+      "title": "Language Server Protocol 3.17 specification",
+      "kind": "documentation",
+      "url": "https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/",
+      "authors": [
+        "Microsoft and LSP contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Defines document synchronization, diagnostics and completion messages for an editor connection.",
+      "evidence_urls": [
+        "https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "crafting-interpreters",
+      "title": "Crafting Interpreters",
+      "kind": "book",
+      "url": "https://craftinginterpreters.com/contents.html",
+      "authors": [
+        "Robert Nystrom"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Builds the syntax-tree and parsing foundations needed when designing a language grammar.",
+      "evidence_urls": [
+        "https://craftinginterpreters.com/contents.html"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "The book uses Java and C; it teaches language implementation rather than Tree-sitter or LSP APIs."
+    }
+  ]
+}

@@ -670,5 +670,733 @@
     "purpose": "Check session times, venues, arrival details, room gaps, and source conflicts",
     "scope": "EuroRust 2026 logistics checked on October 15, 2026",
     "replacement": null
+  },
+  {
+    "path": "community/conference-archive/README.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Conference archive data",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "community/session-resources/README.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Curated session resources",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "docs/learning-resources.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Read beyond a session",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "exports/archive/learning-pack.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "EuroRust learning resources",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "prompts/explore-a-topic.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Follow a topic with your agent",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/README.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Browse Rust conference archives",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/editions.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Conference editions and coverage",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/eurorust/2022.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "EuroRust 2022",
+    "scope": "Curated Rust conference programme, sources and known coverage gaps; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/eurorust/2023.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "EuroRust 2023",
+    "scope": "Curated Rust conference programme, sources and known coverage gaps; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/eurorust/2024.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "EuroRust 2024",
+    "scope": "Curated Rust conference programme, sources and known coverage gaps; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/eurorust/2025.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "EuroRust 2025",
+    "scope": "Curated Rust conference programme, sources and known coverage gaps; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/fosdem-rust/2026.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "FOSDEM Rust devroom 2026",
+    "scope": "Curated Rust conference programme, sources and known coverage gaps; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/oxidize/2026.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Oxidize 2026",
+    "scope": "Curated Rust conference programme, sources and known coverage gaps; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/rustchinaconf/2026.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "RustChinaConf 2026",
+    "scope": "Curated Rust conference programme, sources and known coverage gaps; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/rustconf/2026.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "RustConf 2026",
+    "scope": "Curated Rust conference programme, sources and known coverage gaps; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/rustfest/zurich-2017.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "RustFest Zurich 2017",
+    "scope": "Curated Rust conference programme, sources and known coverage gaps; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/rustforge/2025.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Rust Forge 2025",
+    "scope": "Curated Rust conference programme, sources and known coverage gaps; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/rustikon/2026.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Rustikon 2026",
+    "scope": "Curated Rust conference programme, sources and known coverage gaps; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/rustlab/2019.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "RustLab 2019",
+    "scope": "Curated Rust conference programme, sources and known coverage gaps; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/rustlab/2020.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "RustLab 2020",
+    "scope": "Curated Rust conference programme, sources and known coverage gaps; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/rustlab/2021.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "RustLab 2021",
+    "scope": "Curated Rust conference programme, sources and known coverage gaps; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/rustlab/2022.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "RustLab 2022",
+    "scope": "Curated Rust conference programme, sources and known coverage gaps; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/rustlab/2023.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "RustLab 2023",
+    "scope": "Curated Rust conference programme, sources and known coverage gaps; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/rustlab/2024.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "RustLab 2024",
+    "scope": "Curated Rust conference programme, sources and known coverage gaps; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/rustlab/2025.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "RustLab 2025",
+    "scope": "Curated Rust conference programme, sources and known coverage gaps; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/rustlab/2026.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "RustLab 2026",
+    "scope": "Curated Rust conference programme, sources and known coverage gaps; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/rustlatam/2019.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Rust Latam 2019",
+    "scope": "Curated Rust conference programme, sources and known coverage gaps; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/rustweek/2025.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "RustWeek 2025",
+    "scope": "Curated Rust conference programme, sources and known coverage gaps; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/rustweek/2026.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "RustWeek 2026",
+    "scope": "Curated Rust conference programme, sources and known coverage gaps; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/rustweek/rustnl-2023.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "RustNL 2023",
+    "scope": "Curated Rust conference programme, sources and known coverage gaps; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/rustweek/rustnl-2024.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "RustNL 2024",
+    "scope": "Curated Rust conference programme, sources and known coverage gaps; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/tokioconf/2026.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "TokioConf 2026",
+    "scope": "Curated Rust conference programme, sources and known coverage gaps; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/README.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Find resources for your session",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-atomic-design-patterns-in-rust-from-orderings-to-code.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Atomic Design Patterns in Rust: From Orderings to Code",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-beyond-cargo-build.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Beyond cargo build",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-beyond-flamegraphs-precise-rust-profiling-with-hotpath-rs.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Beyond Flamegraphs: Precise Rust Profiling with hotpath-rs",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-blastbeat-when-a-decade-of-c-meets-rust-and-io-uring.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Blastbeat: When a Decade of C++ Meets Rust and io\\_uring",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-build-systems-when-your-systems-need-systems-to-build.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Build systems: when your systems need systems to build",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-building-a-high-performance-thread-per-core-zero-copy-opentelemetry-engine-in-rust.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Building a high performance, thread-per-core, zero-copy OpenTelemetry engine in Rust",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-building-a-query-system.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Building a Query System",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-compiling-the-linux-kernel-with-gccrs.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Compiling the Linux kernel with gccrs",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-designing-state-machines-for-streaming-proxies-in-rust.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Designing State Machines for Streaming Proxies in Rust",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-fearless-concurrency-on-the-gpu.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Fearless Concurrency on the GPU",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-from-deref-into-borrow-a-primer-on-standard-library-traits.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "From Deref Into Borrow, a Primer on Standard Library Traits",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-from-hardware-to-human-interface-building-hid-devices-in-rust.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "From Hardware to Human Interface: Building HID Devices in Rust",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-game-show.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Game Show",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-image-codecs-rustification-in-chromium.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Image codecs rustification in Chromium",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-inside-cloud-hypervisor-from-kvm-to-a-running-vm.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Inside Cloud Hypervisor: From KVM to a Running VM",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-lessons-from-building-a-background-task-processing-library.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Lessons from building a background task processing library",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-move-your-problems.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Move your problems to compile-time and get new capabilities out of it",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-moving-a-quantum-compiler-from-python-to-rust.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Moving a quantum compiler from Python to Rust",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-optimizing-the-new-rust-trait-solver.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Optimizing rustc's Next Trait Solver",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-qt-bridges-bringing-a-mature-c-ui-framework-to-rust.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Qt Bridges: Bringing a mature C++ UI framework to Rust",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-rebuilding-the-tower-of-babel-write-your-own-language-server-with-tree-sitter.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Rebuilding the Tower of Babel – Write Your Own Language Server with Tree-sitter",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-running-safely-with-scissors-lock-free-concurrency-for-maximum-throughput.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Running Safely with Scissors: Lock-free Concurrency for Maximum Throughput",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-rust-s-influence-on-c-and-python-shaping-the-future-of-three-communities.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Rust's Influence on C++ and Python: Shaping the Future of Three Communities",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-shipping-temporal-how-the-rust-ecosystem-built-chrome-s-newest-web-api.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Shipping Temporal: How the Rust Ecosystem Built Chrome’s Newest Web API",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-supply-chain-attacks-and-how-to-protect-ourselves.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Supply Chain Attacks, and how to protect ourselves",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-tales-from-the-embedded-rust-frontier-bootstrapping-a-brand-new-ecosystem.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Tales from the Embedded Rust Frontier: Bootstrapping a brand new ecosystem",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-the-future-of-unmanned-systems-is-built-on-rust.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "The Future of Unmanned Systems Is Built on Rust",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-the-lamp.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "The Lämp",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-vortex-one-format-for-any-shape.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Vortex: One Format for Any Shape",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-what-s-next-for-rust-s-type-system.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "What's next for Rust's type system",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/talks-your-infrastructure-should-compile-too.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Your Infrastructure Should Compile, Too",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/workshops-beyond-p99-observing-async-rust.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Beyond p99: Observing Async Rust",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/workshops-building-a-virtual-machine-monitor-in-rust.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Building a virtual machine monitor in Rust",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/workshops-c-to-rust.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "C→Rust, Beyond the Basics",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/workshops-containers-are-dead.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Containers Are Dead: Long Live WebAssembly",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/workshops-hands-on-embedded-rust.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Hands-On Embedded Rust",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/workshops-programming-a-line-follower-robot.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Programming a Line Follower Robot",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/workshops-rust-in-action.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Rust in Action - Applications of Computer Vision and Control",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/related-talks/workshops-rust-on-the-field-integrating-real-autonomous-systems.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Rust on the Field: Integrating Real Autonomous Systems",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/topics/README.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "Follow a Rust topic",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/topics/api-design.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "api design",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/topics/async.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "async",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/topics/community.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "community",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/topics/compilers.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "compilers",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/topics/data.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "data",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/topics/embedded.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "embedded",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/topics/gpu.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "gpu",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/topics/hardware.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "hardware",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/topics/infrastructure.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "infrastructure",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/topics/interop.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "interop",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/topics/observability.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "observability",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/topics/performance.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "performance",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/topics/production-reliability.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "production reliability",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/topics/robotics.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "robotics",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/topics/security.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "security",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/topics/systems.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "systems",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/topics/tooling.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "tooling",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
+  },
+  {
+    "path": "resources/topics/types.md",
+    "class": "generated",
+    "owner": "conference-data generator",
+    "purpose": "types",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "replacement": null
   }
 ]

@@ -16,6 +16,10 @@ For reading and agent-assisted planning, start with the [guides](README.md).
 | `export --catalog PATH` | Use a chosen valid catalog | Same publication process; useful for recovery |
 | `refresh` | Fetch official sources, apply annotations, validate, and publish | Update facts and generated files |
 | `check-docs` | Check public Markdown, links, anchors, classification, and private boundaries | Report navigation failures |
+| `build-learning` | Check curated resource inputs, then render session/topic pages, schema, and portable exports offline | Preserve official catalog; rerun after interrupted output |
+| `check-learning` | Check exact talk/workshop coverage, references, evidence fields, dates, snapshot join, and generated views | Reject missing resources or stale views; does not refresh sources |
+| `rebind-learning` | Compare the reviewed session-content fingerprint with the active catalog, then update its snapshot join | Allows retrieval/schedule-only refreshes; content changes require review; research dates stay intact |
+| `check-archive` | Check series/edition/session references, date bounds, and programme coverage counts | Reject inconsistent inventory; does not prove global completeness or playable recordings |
 
 Global `--root PATH` selects the dataset root. Profile, itinerary, output, and
 explicit `--catalog` paths remain relative to the working directory unless

@@ -1,0 +1,98 @@
+{
+  "session_id": "talks-supply-chain-attacks-and-how-to-protect-ourselves",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+  "resources": [
+    {
+      "id": "rustsec-advisory-database",
+      "title": "RustSec Advisory Database",
+      "kind": "documentation",
+      "url": "https://rustsec.org/",
+      "authors": [
+        "Rust Secure Code Working Group"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Find published crate advisories and understand the inputs used by dependency audit tools.",
+      "evidence_urls": [
+        "https://rustsec.org/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "cargo-vet-guide",
+      "title": "Cargo Vet guide",
+      "kind": "documentation",
+      "url": "https://mozilla.github.io/cargo-vet/",
+      "authors": [
+        "Cargo Vet contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Learn how reviewed versions and audit records can support dependency policy.",
+      "evidence_urls": [
+        "https://mozilla.github.io/cargo-vet/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Review evidence and advisory checks cover different risks; neither proves a dependency harmless."
+    },
+    {
+      "id": "rust-targeted-attacks-2026",
+      "title": "Be alert: targeted attacks on prominent Rustaceans",
+      "kind": "article",
+      "url": "https://blog.rust-lang.org/2026/09/17/targeted-attacks/",
+      "authors": [
+        "Adam Harvey",
+        "crates.io team",
+        "Rust Security Response Working Group"
+      ],
+      "published_on": "2026-09-17",
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Connect account compromise and social engineering to the path malicious releases can take.",
+      "evidence_urls": [
+        "https://blog.rust-lang.org/2026/09/17/targeted-attacks/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "auditing-rust-crates-effectively",
+      "title": "Auditing Rust Crates Effectively",
+      "kind": "paper",
+      "url": "https://arxiv.org/abs/2602.06466",
+      "authors": [
+        "Lydia Zoghbi",
+        "David Thien",
+        "Ranjit Jhala",
+        "Deian Stefan",
+        "Caleb Stanford"
+      ],
+      "published_on": "2026-02-06",
+      "access": "open",
+      "relation": "next_step",
+      "why": "Explore effect analysis that narrows the code requiring manual dependency review.",
+      "evidence_urls": [
+        "https://arxiv.org/abs/2602.06466"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Research preprint; metadata and abstract checked, with no independent validation of its evaluation."
+    }
+  ]
+}

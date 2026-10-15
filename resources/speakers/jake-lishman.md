@@ -22,6 +22,12 @@ EuroRust sessions (check official pages for details and access):
 - [GitHub: jakelishman](https://github.com/jakelishman). Development profile links back to his personal site and identifies his Qiskit work.
 - [LinkedIn](https://uk.linkedin.com/in/jakelishman). Professional profile matches the Qiskit and OpenQASM work described on his site.
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Moving a quantum compiler from Python to Rust](../related-talks/talks-moving-a-quantum-compiler-from-python-to-rust.md)
+
 ## Scope and sources
 
 No authored book or separately attributable recording of another talk verified in this search.

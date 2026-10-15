@@ -14,6 +14,12 @@ EuroRust sessions (check official pages for details and access):
 
 - [LinkedIn](https://uk.linkedin.com/in/alexmarcelread). Professional profile matches the conference's Helsing affiliation.
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Rust in Action - Applications of Computer Vision and Control](../related-talks/workshops-rust-in-action.md)
+
 ## Scope and sources
 
 No personal website, blog, authored book, scholarly publication, additional talk, or attributable open-source repository verified.

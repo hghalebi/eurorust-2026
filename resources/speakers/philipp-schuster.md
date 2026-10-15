@@ -28,6 +28,12 @@ EuroRust sessions (check official pages for details and access):
 - [LinkedIn](https://de.linkedin.com/in/phip1611). The profile matches the GitHub handle, Cyberus role, and systems projects.
 - [Reddit: phip1611](https://www.reddit.com/user/phip1611/). A public handle explicitly supplied in the speaker's 2025 JUG Saxony slides. [Attribution](https://jugsaxony.org/downloads/events/slides/20251106_OS-Loader-in-Rust-schreiben-mit-uefi-rs.pdf).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Inside Cloud Hypervisor: From KVM to a Running VM](../related-talks/talks-inside-cloud-hypervisor-from-kvm-to-a-running-vm.md)
+
 ## Scope and sources
 
 No authored book or peer-reviewed paper was verified. The linked thesis implementation is identified separately.

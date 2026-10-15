@@ -1,0 +1,93 @@
+{
+  "session_id": "talks-tales-from-the-embedded-rust-frontier-bootstrapping-a-brand-new-ecosystem",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+  "resources": [
+    {
+      "id": "rust-cortex-r52",
+      "title": "Rust on Cortex-R52",
+      "kind": "article",
+      "url": "https://ferrous-systems.com/blog/rust-cortex-r52/",
+      "authors": [
+        "Ferrous Systems"
+      ],
+      "published_on": "2025-03-11",
+      "access": "open",
+      "relation": "project_evolution",
+      "why": "Documents the libraries and examples released for the intermediate Arm processors discussed in the talk.",
+      "evidence_urls": [
+        "https://ferrous-systems.com/blog/rust-cortex-r52/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "aarch32-project",
+      "title": "aarch32: Rust support for Arm Cortex-R and Cortex-A",
+      "kind": "project",
+      "url": "https://github.com/rust-embedded/aarch32",
+      "authors": [
+        "Rust Embedded Devices Working Group"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Provides low-level processor access and runtime support to inspect after the ecosystem overview.",
+      "evidence_urls": [
+        "https://github.com/rust-embedded/aarch32",
+        "https://ferrous-systems.com/blog/rust-cortex-r52/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "rust-threadx",
+      "title": "Rust and ThreadX",
+      "kind": "article",
+      "url": "https://ferrous-systems.com/blog/rust-and-threadx/",
+      "authors": [
+        "Jonathan Pallant"
+      ],
+      "published_on": "2023-12-07",
+      "access": "open",
+      "relation": "preparation",
+      "why": "Explains why integrating Rust with an existing real-time operating system can be useful.",
+      "evidence_urls": [
+        "https://ferrous-systems.com/blog/rust-and-threadx/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Historical integration example; certification statements are tied to its publication date."
+    },
+    {
+      "id": "embedded-rust-book",
+      "title": "The Embedded Rust Book",
+      "kind": "book",
+      "url": "https://docs.rust-embedded.org/book/",
+      "authors": [
+        "Rust Embedded Devices Working Group"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Builds the no_std and peripheral vocabulary needed to compare embedded ecosystems.",
+      "evidence_urls": [
+        "https://docs.rust-embedded.org/book/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Introductory examples focus on microcontrollers rather than covering every Cortex-A or Cortex-R target."
+    }
+  ]
+}

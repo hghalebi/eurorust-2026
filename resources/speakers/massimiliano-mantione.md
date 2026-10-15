@@ -22,6 +22,12 @@ EuroRust sessions (check official pages for details and access):
 - [LinkedIn](https://it.linkedin.com/in/massimilianomantione). Professional profile includes his RustFest robotics appearance.
 - [X / Twitter](https://twitter.com/M_a_s_s_i). Historical speaker account linked by the ReactJS Day 2015 programme; recent activity was not verified. [Attribution](https://2015.reactjsday.it/).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Programming a Line Follower Robot](../related-talks/workshops-programming-a-line-follower-robot.md)
+
 ## Scope and sources
 
 No authored book or scholarly paper verified. The HSSA material is a slide presentation.

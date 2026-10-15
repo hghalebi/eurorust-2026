@@ -1,0 +1,72 @@
+{
+  "session_id": "talks-designing-state-machines-for-streaming-proxies-in-rust",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+  "resources": [
+    {
+      "id": "hoverbear-state-machine-patterns",
+      "title": "Pretty State Machine Patterns in Rust",
+      "kind": "article",
+      "url": "https://hoverbear.org/blog/rust-state-machine-pattern/",
+      "authors": [
+        "Hoverbear"
+      ],
+      "published_on": "2016-10-12",
+      "access": "open",
+      "relation": "preparation",
+      "why": "Compare enums and owned transitions for representing valid protocol states.",
+      "evidence_urls": [
+        "https://hoverbear.org/blog/rust-state-machine-pattern/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "A historical design article; examples were not compiled against current Rust."
+    },
+    {
+      "id": "cloudflare-pingora-design",
+      "title": "How we built Pingora, the proxy that connects Cloudflare to the Internet",
+      "kind": "article",
+      "url": "https://blog.cloudflare.com/how-we-built-pingora-the-proxy-that-connects-cloudflare-to-the-internet/",
+      "authors": [
+        "Yuchen Wu",
+        "Andrew Hauck"
+      ],
+      "published_on": "2022-09-14",
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Study a production Rust proxy's architecture and connection reuse decisions.",
+      "evidence_urls": [
+        "https://blog.cloudflare.com/how-we-built-pingora-the-proxy-that-connects-cloudflare-to-the-internet/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "A separate proxy implementation; its design is not attributed to the EuroRust speaker."
+    },
+    {
+      "id": "tokio-select-cancellation",
+      "title": "Tokio tutorial: Select",
+      "kind": "documentation",
+      "url": "https://tokio.rs/tokio/tutorial/select",
+      "authors": [
+        "Tokio contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Understand what happens to unfinished futures when another stream or cancellation branch wins.",
+      "evidence_urls": [
+        "https://tokio.rs/tokio/tutorial/select"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    }
+  ]
+}

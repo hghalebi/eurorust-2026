@@ -21,6 +21,12 @@ EuroRust sessions (check official pages for details and access):
 - [GitHub: P-E-P](https://github.com/P-E-P). Attribution connects the account to a signed gccrs contribution by Patry. [Attribution](https://github.com/Rust-GCC/gccrs/commit/1d7f6a0f16a8541bc5dcd159d6698ac9a4e14909).
 - [LinkedIn](https://fr.linkedin.com/in/pierre-emmanuel-patry/fr). The profile identifies the gccrs project and EPITA teaching background, matching the conference biography.
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Compiling the Linux kernel with gccrs](../related-talks/talks-compiling-the-linux-kernel-with-gccrs.md)
+
 ## Scope and sources
 
 No personal blog, authored book, or scholarly publication was verified. Articles reporting on Patry's talks were not attributed to him as authored work.

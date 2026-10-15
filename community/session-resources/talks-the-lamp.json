@@ -1,0 +1,94 @@
+{
+  "session_id": "talks-the-lamp",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+  "resources": [
+    {
+      "id": "rust-on-esp-book",
+      "title": "The Rust on ESP Book",
+      "kind": "book",
+      "url": "https://docs.espressif.com/projects/rust/book/",
+      "authors": [
+        "Espressif",
+        "esp-rs contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Learn the toolchains and embedded Rust options used around ESP devices.",
+      "evidence_urls": [
+        "https://docs.espressif.com/projects/rust/book/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Hardware background, not the lamp's build instructions; match the target chip and current support."
+    },
+    {
+      "id": "rs-matter-embassy-project",
+      "title": "rs-matter-embassy",
+      "kind": "project",
+      "url": "https://github.com/sysgrok/rs-matter-embassy",
+      "authors": [
+        "rs-matter-embassy contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Explore Matter integration with Embassy for microcontroller-based home automation.",
+      "evidence_urls": [
+        "https://github.com/sysgrok/rs-matter-embassy"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "pachler-matter-integration-report",
+      "title": "ESP32C6 and IKEA Dirigera integration report",
+      "kind": "project",
+      "url": "https://github.com/sysgrok/rs-matter-embassy/issues/33",
+      "authors": [
+        "Uwe Pachler",
+        "rs-matter-embassy contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Read a concrete protocol-integration problem reported by the speaker.",
+      "evidence_urls": [
+        "https://github.com/sysgrok/rs-matter-embassy/issues/33"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "A public issue report, not complete lamp source code or a reviewed hardware guide."
+    },
+    {
+      "id": "embedded-rust-book",
+      "title": "The Embedded Rust Book",
+      "kind": "book",
+      "url": "https://docs.rust-embedded.org/book/",
+      "authors": [
+        "Rust Embedded Devices Working Group"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Review hardware access, peripherals, and embedded concurrency before following the lamp's firmware choices.",
+      "evidence_urls": [
+        "https://docs.rust-embedded.org/book/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    }
+  ]
+}

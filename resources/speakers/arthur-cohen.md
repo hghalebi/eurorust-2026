@@ -26,6 +26,12 @@ EuroRust sessions (check official pages for details and access):
 - [Mastodon: @cohenarthur@hachyderm.io](https://hachyderm.io/@cohenarthur). Linked from the personal site; account activity not checked. [Attribution](https://cohenarthur.github.io/).
 - [X / Twitter: CohenArthurDev](https://twitter.com/CohenArthurDev). Linked from the personal site. [Attribution](https://cohenarthur.github.io/).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Compiling the Linux kernel with gccrs](../related-talks/talks-compiling-the-linux-kernel-with-gccrs.md)
+
 ## Scope and sources
 
 No authored book or scholarly paper verified.

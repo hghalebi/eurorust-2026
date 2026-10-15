@@ -1,5 +1,5 @@
 use clap::{Parser, Subcommand};
-use conference_data::{Result, collect, export, itinerary, navigation};
+use conference_data::{Result, archive, collect, export, itinerary, learning, navigation};
 use std::{fs, path::PathBuf};
 
 #[derive(Parser)]
@@ -46,6 +46,14 @@ enum Command {
     },
     /// Check public Markdown links, document classes, and private-path boundaries.
     CheckDocs,
+    /// Validate curated session resources and regenerate their pages and exports offline.
+    BuildLearning,
+    /// Check resource coverage, attribution, dates, and generated views offline.
+    CheckLearning,
+    /// Update the learning snapshot join only when reviewed session content matches.
+    RebindLearning,
+    /// Check conference archive identities, references, dates, and coverage counts offline.
+    CheckArchive,
 }
 fn run(args: Args) -> Result<()> {
     match args.command {
@@ -114,6 +122,14 @@ fn run(args: Args) -> Result<()> {
             println!("Schedule feasibility checked; no booking or attendance claim");
         }
         Command::CheckDocs => navigation::check(&args.root)?,
+        Command::BuildLearning => {
+            let checked = learning::load(&args.root)?;
+            checked.render(&args.root)?;
+            checked.verify(&args.root)?;
+        }
+        Command::CheckLearning => learning::load(&args.root)?.verify(&args.root)?,
+        Command::RebindLearning => learning::rebind(&args.root)?,
+        Command::CheckArchive => archive::check(&args.root)?,
     }
     Ok(())
 }

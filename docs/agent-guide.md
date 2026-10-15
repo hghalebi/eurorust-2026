@@ -39,6 +39,18 @@ attribution, publication formats, draft status, and gaps. See the
 [field reference](data-guide.md#speaker-research-companion).
 Speaker review is pending; earlier work does not establish a session's scope or access.
 
+### Add related talks and further study
+
+Supply the [learning pack](../exports/archive/learning-pack.md) or
+[resources JSON](../exports/archive/session-resources.json) and its
+[manifest](../exports/archive/manifest.json). Match `catalog_snapshot_id` and
+join on `session_id`. Use the [learning prompt](../prompts/explore-a-topic.md)
+to select a few sources for your goals and available time.
+
+The [format guide](learning-resources.md) explains evidence, access, and archive
+coverage. Keep future announcements distinct from published material. A page
+check does not establish video playback or a full reading of a book or paper.
+
 ## 2. Add your constraints
 
 Fill in the [prompt](../prompts/choose-my-path.md): goals, Rust experience,

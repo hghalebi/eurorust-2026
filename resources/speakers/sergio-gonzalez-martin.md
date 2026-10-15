@@ -21,6 +21,12 @@ EuroRust sessions (check official pages for details and access):
 - [GitHub: telecos](https://github.com/telecos). The named profile identifies work on Microsoft Edge and links Rust imaging repositories.
 - [LinkedIn](https://www.linkedin.com/in/sergio-gonzalez-840a4610). Linked from the verified GitHub profile. The profile page itself could not be retrieved during this review. [Attribution](https://github.com/telecos).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Image codecs rustification in Chromium](../related-talks/talks-image-codecs-rustification-in-chromium.md)
+
 ## Scope and sources
 
 No personal blog, authored book, or earlier talk was verified. Same-name academic records were found, but their connection to this speaker was not established strongly enough to include.

@@ -25,6 +25,12 @@ EuroRust sessions (check official pages for details and access):
 - [LinkedIn](https://no.linkedin.com/in/matti-rauter). Qt professional profile also documents the civil-engineering research and OpenFOAM work.
 - [ResearchGate](https://www.researchgate.net/profile/Matthias-Rauter). Research profile identifies the Qt role and provides a broader bibliography; individual research claims here use the paper record.
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Qt Bridges: Bringing a mature C++ UI framework to Rust](../related-talks/talks-qt-bridges-bringing-a-mature-c-ui-framework-to-rust.md)
+
 ## Scope and sources
 
 No authored book or independently confirmed personal GitHub account verified. A similarly named Porsche professional is a different profile and is excluded.

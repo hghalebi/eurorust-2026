@@ -32,6 +32,12 @@ EuroRust sessions (check official pages for details and access):
 - [X](https://x.com/pawelurbanekcom). Linked from the author's GitHub profile. [Attribution](https://github.com/pawurb).
 - [LinkedIn](https://www.linkedin.com/in/pawel-urbanek-6225b2330/). The account discusses the author's hotpath-rs and rails-pg-extras projects. [Attribution](https://www.linkedin.com/posts/pawel-urbanek-6225b2330_in-just-4-months-hotpath-rs-surpassed-pg-extras-activity-7409275396455759872-wFug).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Beyond Flamegraphs: Precise Rust Profiling with hotpath-rs](../related-talks/talks-beyond-flamegraphs-precise-rust-profiling-with-hotpath-rs.md)
+
 ## Scope and sources
 
 No scholarly publication was verified. The linked ebook is a database operations guide, not a Rust book.

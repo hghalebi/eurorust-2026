@@ -23,6 +23,12 @@ EuroRust sessions (check official pages for details and access):
 - [GitHub: gbagnoli](https://github.com/gbagnoli). Development profile under the speaker's name, including systems and Rust projects.
 - [LinkedIn](https://es.linkedin.com/in/giacomobagnoli). Professional profile connects his production-engineering work and research publication.
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Blastbeat: When a Decade of C++ Meets Rust and io_uring](../related-talks/talks-blastbeat-when-a-decade-of-c-meets-rust-and-io-uring.md)
+
 ## Scope and sources
 
 A Tumblr blog linked from his professional profile could not be retrieved during this check; it is omitted from the reading recommendations.

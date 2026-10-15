@@ -1,0 +1,98 @@
+{
+  "session_id": "talks-building-a-high-performance-thread-per-core-zero-copy-opentelemetry-engine-in-rust",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+  "resources": [
+    {
+      "id": "otel-arrow-phase-two",
+      "title": "OTel-Arrow Phase 2: From Efficient Transport to Efficient Telemetry Pipelines",
+      "kind": "article",
+      "url": "https://opentelemetry.io/blog/2026/otel-arrow-phase-2/",
+      "authors": [
+        "Laurent Querel",
+        "Joshua MacDonald",
+        "Reiley Yang",
+        "Albert Lockett",
+        "Cijo Thomas",
+        "Drew Relmas",
+        "Jake Dern"
+      ],
+      "published_on": "2026-06-12",
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Read the coauthored account of bounded pipelines, thread-per-core execution, and columnar telemetry.",
+      "evidence_urls": [
+        "https://opentelemetry.io/blog/2026/otel-arrow-phase-2/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Reported benchmark results apply to the documented hardware and configurations."
+    },
+    {
+      "id": "otel-arrow-project",
+      "title": "OpenTelemetry Arrow",
+      "kind": "project",
+      "url": "https://github.com/open-telemetry/otel-arrow",
+      "authors": [
+        "OpenTelemetry Arrow contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Inspect the protocol, dataflow engine, and benchmark material behind the architecture.",
+      "evidence_urls": [
+        "https://github.com/open-telemetry/otel-arrow"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "apache-arrow-columnar-format",
+      "title": "Arrow Columnar Format",
+      "kind": "documentation",
+      "url": "https://arrow.apache.org/docs/format/Columnar.html",
+      "authors": [
+        "Apache Arrow contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Understand the columnar buffers that make direct telemetry processing possible.",
+      "evidence_urls": [
+        "https://arrow.apache.org/docs/format/Columnar.html"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "seastar-shared-nothing",
+      "title": "Shared-nothing Design",
+      "kind": "article",
+      "url": "https://seastar.io/shared-nothing/",
+      "authors": [
+        "Seastar contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Compare per-core ownership and explicit message passing with shared-state concurrency.",
+      "evidence_urls": [
+        "https://seastar.io/shared-nothing/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Seastar's examples are C++; this is architectural background, not an OTel Rust API guide."
+    }
+  ]
+}

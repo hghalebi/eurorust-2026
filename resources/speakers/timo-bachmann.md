@@ -24,6 +24,12 @@ EuroRust sessions (check official pages for details and access):
 - [LinkedIn](https://de.linkedin.com/in/tfachmann). The speaker announced this EuroRust language-server session from this account. [Attribution](https://www.linkedin.com/posts/tfachmann_looking-forward-to-giving-a-talk-at-eurorust-activity-7500937659662639104-nFDK).
 - [ORCID](https://orcid.org/0009-0007-3451-0833). Researcher identifier linked by both the GitHub profile and DLR publication record. [Attribution](https://elib.dlr.de/146499/).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Rebuilding the Tower of Babel – Write Your Own Language Server with Tree-sitter](../related-talks/talks-rebuilding-the-tower-of-babel-write-your-own-language-server-with-tree-sitter.md)
+
 ## Scope and sources
 
 No authored book or independently verified earlier talk recording was found. A standalone public repository for the EuroRust language-server demonstration was not verified.

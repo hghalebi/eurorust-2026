@@ -1,0 +1,102 @@
+{
+  "session_id": "talks-your-infrastructure-should-compile-too",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+  "resources": [
+    {
+      "id": "encore-infrastructure-planner",
+      "title": "Designing an algorithmic cloud infrastructure provisioning system",
+      "kind": "article",
+      "url": "https://dev.to/encore/designing-an-algorithmic-cloud-infrastructure-provisioning-system-kde",
+      "authors": [
+        "André Eriksson"
+      ],
+      "published_on": "2022-10-24",
+      "access": "open",
+      "relation": "preparation",
+      "why": "Read how the speaker connects application analysis, infrastructure dependencies, and deployment constraints.",
+      "evidence_urls": [
+        "https://dev.to/encore/designing-an-algorithmic-cloud-infrastructure-provisioning-system-kde"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "A dated architecture article; product behavior may have changed."
+    },
+    {
+      "id": "encore-for-rust-preview",
+      "title": "Encore for Rust",
+      "kind": "article",
+      "url": "https://encore.dev/blog/encore-rs",
+      "authors": [
+        "Ivan Cernja"
+      ],
+      "published_on": "2026-09-22",
+      "access": "open",
+      "relation": "project_evolution",
+      "why": "See how the announced Rust integration expresses application resource requirements in code.",
+      "evidence_urls": [
+        "https://encore.dev/blog/encore-rs"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "The article is published, but describes a pre-beta preview; it does not establish general availability."
+    },
+    {
+      "id": "infrastructure-rustikon-2026",
+      "title": "Why I Needed Rust: Finally, Infrastructure Automation I can sleep on",
+      "kind": "conference_talk",
+      "url": "https://www.rustikon.dev/talk/why-i-needed-rust-finally-infrastructure-automation-i-can-sleep-on",
+      "authors": [
+        "Jesús Pérez"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Compare another engineer's use of type safety to address drift and failed infrastructure deployments.",
+      "evidence_urls": [
+        "https://www.rustikon.dev/talk/why-i-needed-rust-finally-infrastructure-automation-i-can-sleep-on"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "unknown",
+      "event": {
+        "name": "Rustikon",
+        "edition": "2026",
+        "starts_on": "2026-03-19",
+        "source_url": "https://www.rustikon.dev/talk/why-i-needed-rust-finally-infrastructure-automation-i-can-sleep-on"
+      },
+      "caveat": "Programme checked; a recording was not verified."
+    },
+    {
+      "id": "infrastructure-contracts-rustlab-2026",
+      "title": "From Scripts to Contracts: what Rust's type system taught me about infrastructure composition",
+      "kind": "conference_talk",
+      "url": "https://rustlab.it/talks/from-scripts-to-contracts-what-rusts-type-system-taught-me-about-infrastructure-c",
+      "authors": [
+        "Jesús Pérez"
+      ],
+      "published_on": null,
+      "access": "registration",
+      "relation": "next_step",
+      "why": "Explore an announced design for typed deployment composition, recovery, and agent access to infrastructure.",
+      "evidence_urls": [
+        "https://rustlab.it/talks/from-scripts-to-contracts-what-rusts-type-system-taught-me-about-infrastructure-c"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "announced",
+      "event": {
+        "name": "RustLab",
+        "edition": "2026",
+        "starts_on": "2026-11-03",
+        "source_url": "https://rustlab.it/talks/from-scripts-to-contracts-what-rusts-type-system-taught-me-about-infrastructure-c"
+      },
+      "caveat": "Future session; the abstract's system guarantees have not been independently evaluated."
+    }
+  ]
+}

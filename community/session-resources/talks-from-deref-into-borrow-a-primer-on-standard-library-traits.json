@@ -1,0 +1,92 @@
+{
+  "session_id": "talks-from-deref-into-borrow-a-primer-on-standard-library-traits",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+  "resources": [
+    {
+      "id": "rust-book-deref",
+      "title": "The Rust Programming Language: Treating Smart Pointers Like Regular References",
+      "kind": "book",
+      "url": "https://doc.rust-lang.org/book/ch15-02-deref.html",
+      "authors": [
+        "The Rust Programming Language contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Work through Deref and deref coercion before comparing reference and conversion traits.",
+      "evidence_urls": [
+        "https://doc.rust-lang.org/book/ch15-02-deref.html"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "rust-api-guidelines-interoperability",
+      "title": "Rust API Guidelines: Interoperability",
+      "kind": "documentation",
+      "url": "https://rust-lang.github.io/api-guidelines/interoperability.html",
+      "authors": [
+        "Rust API Guidelines contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Apply the conversion and common-trait conventions when reviewing a public API.",
+      "evidence_urls": [
+        "https://rust-lang.github.io/api-guidelines/interoperability.html"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "rust-borrow-trait",
+      "title": "Borrow trait reference",
+      "kind": "documentation",
+      "url": "https://doc.rust-lang.org/std/borrow/trait.Borrow.html",
+      "authors": [
+        "Rust project contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Check the equality, ordering, and hashing obligations that distinguish Borrow from a simple reference conversion.",
+      "evidence_urls": [
+        "https://doc.rust-lang.org/std/borrow/trait.Borrow.html"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "rust-conversion-traits",
+      "title": "Standard library conversion traits",
+      "kind": "documentation",
+      "url": "https://doc.rust-lang.org/std/convert/index.html",
+      "authors": [
+        "Rust project contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Compare AsRef, From, Into, and fallible conversions alongside Deref and Borrow.",
+      "evidence_urls": [
+        "https://doc.rust-lang.org/std/convert/index.html"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    }
+  ]
+}

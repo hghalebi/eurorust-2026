@@ -3,6 +3,10 @@
 Find a speaker's earlier talks, articles, projects, books, and public accounts.
 Choose one work and bring a question it raises.
 
+For reading tied to a specific talk or workshop, use the
+[session resources](../related-talks/README.md). Each speaker page links its
+EuroRust reading lists; those lists also include work by other authors.
+
 These profiles cover **43 catalog speakers and two named meetup speakers**.
 Research was checked on **October 14, 2026**. The Codex-assisted drafts await
 community and speaker review.

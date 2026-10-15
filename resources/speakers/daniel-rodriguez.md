@@ -14,6 +14,12 @@ EuroRust sessions (check official pages for details and access):
 
 - [Blastbeat](https://eurorust.eu/talks/blastbeat-when-a-decade-of-c-meets-rust-and-io-uring/). Conference account of a network-observability rewrite with Giacomo Bagnoli. No public repository or independently reproduced benchmark was verified.
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Blastbeat: When a Decade of C++ Meets Rust and io_uring](../related-talks/talks-blastbeat-when-a-decade-of-c-meets-rust-and-io-uring.md)
+
 ## Scope and sources
 
 No personal website, social account, authored book, scholarly publication, or open-source project could be reliably attributed to this speaker.

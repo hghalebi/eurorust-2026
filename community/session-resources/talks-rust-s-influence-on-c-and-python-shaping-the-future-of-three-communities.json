@@ -1,0 +1,103 @@
+{
+  "session_id": "talks-rust-s-influence-on-c-and-python-shaping-the-future-of-three-communities",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+  "resources": [
+    {
+      "id": "maureira-python-ecosystem-europython-2025",
+      "title": "What comes after Rust in the Python ecosystem?",
+      "kind": "video",
+      "url": "https://www.youtube.com/watch?v=yJPX7n0tMfo",
+      "authors": [
+        "Cristián Maureira-Fredes"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Compare the speaker's earlier account of Rust and other compiled languages extending Python.",
+      "evidence_urls": [
+        "https://maureira.dev/speaking/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "published",
+      "event": {
+        "name": "EuroPython",
+        "edition": "2025",
+        "starts_on": null,
+        "source_url": "https://maureira.dev/speaking/"
+      },
+      "caveat": "The speaker links this July 2025 recording; YouTube retrieval was throttled and playback was not checked."
+    },
+    {
+      "id": "maureira-python-ecosystem-pycones-2026",
+      "title": "¿Qué viene después de Rust en el ecosistema Python?",
+      "kind": "conference_talk",
+      "url": "https://pretalx.com/pycones-2026/talk/GXFMUV/",
+      "authors": [
+        "Cristián Maureira-Fredes"
+      ],
+      "published_on": null,
+      "access": "unknown",
+      "relation": "next_step",
+      "why": "Follow the speaker's announced comparison of Rust, C++, and other language extensions for Python.",
+      "evidence_urls": [
+        "https://pretalx.com/pycones-2026/talk/GXFMUV/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "announced",
+      "event": {
+        "name": "PyConES",
+        "edition": "2026",
+        "starts_on": "2026-11-07",
+        "source_url": "https://pretalx.com/pycones-2026/talk/GXFMUV/"
+      },
+      "caveat": "Spanish session; programme verified, attendance requirements and future recording availability not checked."
+    },
+    {
+      "id": "pyo3-user-guide",
+      "title": "PyO3 user guide",
+      "kind": "documentation",
+      "url": "https://pyo3.rs/",
+      "authors": [
+        "PyO3 contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Study Rust extension modules, Python object ownership, and conversion across the language boundary.",
+      "evidence_urls": [
+        "https://pyo3.rs/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "The root URL follows the current version; match documentation to your dependency version."
+    },
+    {
+      "id": "cxx-guide",
+      "title": "CXX: Rust and C++ interoperability",
+      "kind": "documentation",
+      "url": "https://cxx.rs/",
+      "authors": [
+        "David Tolnay",
+        "CXX contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Compare the concrete Rust/C++ bridge model with Python's Rust extension model.",
+      "evidence_urls": [
+        "https://cxx.rs/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    }
+  ]
+}

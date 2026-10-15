@@ -20,6 +20,12 @@ EuroRust sessions (check official pages for details and access):
 - [GitHub: connortsui20](https://github.com/connortsui20). Development account linked from the professional profile. [Attribution](https://www.linkedin.com/in/connortsui).
 - [LinkedIn](https://www.linkedin.com/in/connortsui). Professional profile identifies work on Vortex at Spiral.
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Vortex: One Format for Any Shape](../related-talks/talks-vortex-one-format-for-any-shape.md)
+
 ## Scope and sources
 
 No personal blog, authored book, scholarly publication, or additional conference talk verified.

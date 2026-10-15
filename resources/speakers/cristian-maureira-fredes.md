@@ -28,6 +28,12 @@ EuroRust sessions (check official pages for details and access):
 - [Bluesky: cmaureir](https://bsky.app/profile/cmaureir.bsky.social). Linked from the author's development profile. [Attribution](https://github.com/cmaureir).
 - [LinkedIn](https://www.linkedin.com/in/cmaureir). Professional account linked from the personal site. [Attribution](https://maureira.dev/).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Rust's Influence on C++ and Python: Shaping the Future of Three Communities](../related-talks/talks-rust-s-influence-on-c-and-python-shaping-the-future-of-three-communities.md)
+
 ## Scope and sources
 
 No authored book verified.

@@ -11,6 +11,8 @@ Read on GitHub, copy into your notes, or give the files to your agent.
 | Find the venue or room | [Times, places, and known gaps](time-and-place.md) |
 | Record choices and questions | [Itinerary template](../templates/itinerary.md) and [session notes](../templates/session.md) |
 | Prepare for a topic | [Questions to bring](../notes/README.md) and [further reading](../resources/README.md) |
+| Read beyond a session | [Session resources](../resources/related-talks/README.md) and [topic paths](../resources/topics/README.md) |
+| Explore other conferences | [Conference archives](../resources/conferences/README.md), with programme and recording coverage |
 | Explore a speaker's work | [Speaker directory](../resources/speakers/README.md) |
 | Compare learning goals | [Example paths](../community/paths/README.md) |
 | Follow preparation and later observations | [Journal](../journal/README.md) and [retrospective](../retrospective.md) |
@@ -20,6 +22,7 @@ Read on GitHub, copy into your notes, or give the files to your agent.
 Use the [agent guide](agent-guide.md) and [planning prompt](../prompts/choose-my-path.md).
 The [data guide](data-guide.md) explains formats, source dates, and versions.
 Add [speaker profiles](../community/speaker-profiles.json) for a reading list.
+Use the [learning collection](learning-resources.md) for related talks and additional sources.
 
 ## Contribute
 

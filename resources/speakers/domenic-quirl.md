@@ -24,6 +24,12 @@ EuroRust sessions (check official pages for details and access):
 - [Quirl](https://domenicquirl.github.io/blog/). Personal articles on Rust parsing, language implementation, and zero-copy handlers.
 - [GitHub: domenicquirl](https://github.com/domenicquirl). Development profile with the blog source and embedded-Rust teaching material.
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Hands-On Embedded Rust](../related-talks/workshops-hands-on-embedded-rust.md)
+
 ## Scope and sources
 
 No authored book, independently attributed scholarly paper, or additional social-network account verified.

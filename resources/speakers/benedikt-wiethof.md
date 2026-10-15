@@ -10,6 +10,12 @@ EuroRust sessions (check official pages for details and access):
 
 - [MOSAIC architecture](https://eurorust.eu/talks/the-future-of-unmanned-systems-is-built-on-rust/). The official biography credits work on ground-station trust and multi-user architecture at Quantum Systems; no public source-code release is established.
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [The Future of Unmanned Systems Is Built on Rust](../related-talks/talks-the-future-of-unmanned-systems-is-built-on-rust.md)
+
 ## Scope and sources
 
 No personal blog, public social account, authored book, scholarly publication, additional talk, or independently attributable open-source project was verified.

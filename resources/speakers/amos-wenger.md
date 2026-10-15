@@ -28,6 +28,13 @@ EuroRust sessions (check official pages for details and access):
 - [GitHub: fasterthanlime](https://github.com/fasterthanlime). Author's development profile.
 - [Bluesky: fasterthanli.me](https://bsky.app/profile/fasterthanli.me). Linked from the author's own About page. [Attribution](https://fasterthanli.me/about).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Game Show](../related-talks/talks-game-show.md)
+- [Beyond cargo build](../related-talks/talks-beyond-cargo-build.md)
+
 ## Scope and sources
 
 No authored print book or scholarly paper verified; the selected publications are technical articles.

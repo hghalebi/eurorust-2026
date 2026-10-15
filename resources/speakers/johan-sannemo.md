@@ -21,6 +21,12 @@ EuroRust sessions (check official pages for details and access):
 - [LinkedIn](https://se.linkedin.com/in/jsannemo). Professional profile explicitly links his EuroRust virtualization workshop.
 - [GitHub: jsannemo](https://github.com/jsannemo). Development account for the Omogen judging system and algorithmic programming work. [Attribution](https://github.com/jsannemo/omogenjudge).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Building a virtual machine monitor in Rust](../related-talks/workshops-building-a-virtual-machine-monitor-in-rust.md)
+
 ## Scope and sources
 
 No separate earlier talk or scholarly paper was confidently verified in this search.

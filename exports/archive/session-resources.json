@@ -1,0 +1,3716 @@
+{
+  "catalog_snapshot_id": "eurorust-2026-09ef1844f8dfdb34b2f8",
+  "curation": "Codex-assisted source-checked drafts; community review pending",
+  "format_version": "1.0.0",
+  "sessions": [
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Mara Bos"
+          ],
+          "caveat": "The author provides the full book online; print and commercial ebook editions are separate.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://mara.nl/atomics/"
+          ],
+          "id": "rust-atomics-and-locks",
+          "kind": "book",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Rust Atomics and Locks",
+          "url": "https://mara.nl/atomics/",
+          "verification": "source_content_checked",
+          "why": "Work through memory ordering and the construction of locks and other synchronization primitives."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Rust project contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://doc.rust-lang.org/std/sync/atomic/index.html"
+          ],
+          "id": "rust-atomic-memory-model",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Rust atomic types and memory ordering",
+          "url": "https://doc.rust-lang.org/std/sync/atomic/index.html",
+          "verification": "source_content_checked",
+          "why": "Check the standard library's ordering guarantees and restrictions before judging an atomic pattern."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Loom contributors"
+          ],
+          "caveat": "Model checking applies within the tested model and bounds; it does not replace a correctness argument.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://github.com/tokio-rs/loom"
+          ],
+          "id": "loom-concurrency-testing",
+          "kind": "project",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "Loom",
+          "url": "https://github.com/tokio-rs/loom",
+          "verification": "source_content_checked",
+          "why": "Explore small concurrent tests across possible thread and memory-model interleavings."
+        },
+        {
+          "access": "unknown",
+          "authors": [
+            "Martin Ombura Jr."
+          ],
+          "caveat": "Official timetable and speaker roster checked. Detail-page access was inconsistent; delivery and recording remain unverified.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2026",
+            "name": "RustConf",
+            "source_url": "https://rustconf2026.sched.com/",
+            "starts_on": "2026-09-10"
+          },
+          "evidence_urls": [
+            "https://rustconf.com/speakers/",
+            "https://rustconf2026.sched.com/"
+          ],
+          "id": "atomic-patterns-rustconf-2026",
+          "kind": "conference_talk",
+          "published_on": null,
+          "relation": "same_topic",
+          "temporal_status": "unknown",
+          "title": "Rust Atomics in the Wild: Memory Ordering Design Patterns from Popular Crates",
+          "url": "https://rustconf2026.sched.com/event/2KHth",
+          "verification": "listing_checked",
+          "why": "Follow the same speaker's earlier session on atomic patterns found in Rust crates."
+        },
+        {
+          "access": "registration",
+          "authors": [
+            "Arya Dradjica"
+          ],
+          "caveat": "Future programme entry; concurrent memory reclamation is a follow-up topic, not a repeat of the EuroRust talk.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2026",
+            "name": "RustLab",
+            "source_url": "https://rustlab.it/talks/talking-to-ghosts",
+            "starts_on": "2026-11-03"
+          },
+          "evidence_urls": [
+            "https://rustlab.it/talks/talking-to-ghosts"
+          ],
+          "id": "talking-to-ghosts-rustlab-2026",
+          "kind": "conference_talk",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "announced",
+          "title": "Talking to ghosts",
+          "url": "https://rustlab.it/talks/talking-to-ghosts",
+          "verification": "listing_checked",
+          "why": "Extend atomic coordination into the harder problem of reclaiming memory while other threads may still read it."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-atomic-design-patterns-in-rust-from-orderings-to-code"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Amos Wenger"
+          ],
+          "caveat": "A historical investigation; its compiler regressions and timings do not describe current Rust.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://fasterthanli.me/articles/why-is-my-rust-build-so-slow"
+          ],
+          "id": "amos-rust-build-slow",
+          "kind": "article",
+          "published_on": "2021-12-30",
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Why is my Rust build so slow?",
+          "url": "https://fasterthanli.me/articles/why-is-my-rust-build-so-slow",
+          "verification": "source_content_checked",
+          "why": "Follow the speaker's investigation of build steps, incremental work, and compiler cost."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Andrey Mokhov",
+            "Neil Mitchell",
+            "Simon Peyton Jones"
+          ],
+          "caveat": "Research landing page and summary checked; the full paper was not reviewed.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2018",
+            "name": "ICFP",
+            "source_url": "https://www.microsoft.com/en-us/research/publication/build-systems-la-carte/",
+            "starts_on": null
+          },
+          "evidence_urls": [
+            "https://www.microsoft.com/en-us/research/publication/build-systems-la-carte/"
+          ],
+          "id": "build-systems-a-la-carte",
+          "kind": "paper",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Build systems à la carte",
+          "url": "https://www.microsoft.com/en-us/research/publication/build-systems-la-carte/",
+          "verification": "source_content_checked",
+          "why": "Use a research framework to assess dynamic dependencies, caching, and remote builds."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Bazel contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://bazel.build/basics/hermeticity"
+          ],
+          "id": "bazel-hermeticity",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Hermeticity",
+          "url": "https://bazel.build/basics/hermeticity",
+          "verification": "source_content_checked",
+          "why": "Learn the reproducibility conditions behind sharing cached or remotely executed build outputs."
+        },
+        {
+          "access": "unknown",
+          "authors": [
+            "Kaitlin Seng"
+          ],
+          "caveat": "Official timetable and speaker roster checked. Detail-page access was inconsistent; delivery and recording remain unverified.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2026",
+            "name": "RustConf",
+            "source_url": "https://rustconf2026.sched.com/",
+            "starts_on": "2026-09-09"
+          },
+          "evidence_urls": [
+            "https://rustconf.com/speakers/",
+            "https://rustconf2026.sched.com/"
+          ],
+          "id": "cargo-ci-rustconf-2026",
+          "kind": "conference_talk",
+          "published_on": null,
+          "relation": "same_topic",
+          "temporal_status": "unknown",
+          "title": "Tips for Speeding Up Cargo Build in CI",
+          "url": "https://rustconf2026.sched.com/event/2KHtV",
+          "verification": "listing_checked",
+          "why": "Compare earlier practical CI build advice with the session's broader build-system proposal."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-beyond-cargo-build"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Paweł Urbanek"
+          ],
+          "caveat": "The speaker links the recording; the organizer dates the related hotpath session March 20, 2026. YouTube playback was not checked.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2026",
+            "name": "Rustikon",
+            "source_url": "https://www.rustikon.dev/talk/improving-rust-performance-debugging-workflow-with-tuis-and-llms",
+            "starts_on": "2026-03-20"
+          },
+          "evidence_urls": [
+            "https://hotpath.rs/blog/rust-hotpath-rustikon",
+            "https://www.rustikon.dev/talk/improving-rust-performance-debugging-workflow-with-tuis-and-llms"
+          ],
+          "id": "hotpath-rustikon-2026-video",
+          "kind": "video",
+          "published_on": null,
+          "relation": "same_topic",
+          "temporal_status": "published",
+          "title": "Rust Performance Profiling using hotpath-rs",
+          "url": "https://www.youtube.com/watch?v=ir1WC_rO2Fk",
+          "verification": "listing_checked",
+          "why": "Watch the speaker's earlier profiling explanation and Zed instrumentation demonstration."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Paweł Urbanek"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://hotpath.rs/blog/rust-performance-profiling"
+          ],
+          "id": "hotpath-profiler-lessons",
+          "kind": "article",
+          "published_on": "2026-05-12",
+          "relation": "same_topic",
+          "temporal_status": "published",
+          "title": "Lessons Learned Building High-Performance Rust Profiler",
+          "url": "https://hotpath.rs/blog/rust-performance-profiling",
+          "verification": "source_content_checked",
+          "why": "Read the implementation tradeoffs around instrumentation overhead, cache contention, and async futures."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Nicholas Nethercote",
+            "The Rust Performance Book contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://nnethercote.github.io/perf-book/profiling.html"
+          ],
+          "id": "rust-performance-book-profiling",
+          "kind": "book",
+          "published_on": null,
+          "relation": "alternative_approach",
+          "temporal_status": "published",
+          "title": "The Rust Performance Book: Profiling",
+          "url": "https://nnethercote.github.io/perf-book/profiling.html",
+          "verification": "source_content_checked",
+          "why": "Compare sampling and instrumentation tools before choosing what to measure."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Denis Bazhenov"
+          ],
+          "caveat": "The official abstract describes benchmarking, a complementary task rather than profiling; recording not checked.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2025",
+            "name": "RustWeek",
+            "source_url": "https://2025.rustweek.org/talks/denis/",
+            "starts_on": null
+          },
+          "evidence_urls": [
+            "https://2025.rustweek.org/talks/denis/"
+          ],
+          "id": "tango-rustweek-2025",
+          "kind": "conference_talk",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "unknown",
+          "title": "Tango: Precise Performance Measurement through Direct Comparison",
+          "url": "https://2025.rustweek.org/talks/denis/",
+          "verification": "listing_checked",
+          "why": "Follow profiling with paired benchmarks that reduce noise when comparing candidate changes."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-beyond-flamegraphs-precise-rust-profiling-with-hotpath-rs"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Tokio contributors"
+          ],
+          "caveat": "Historical design introduction; its initial release API is not current setup guidance.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://tokio.rs/blog/2021-07-tokio-uring"
+          ],
+          "id": "tokio-uring-announcement",
+          "kind": "article",
+          "published_on": "2021-07-19",
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Announcing tokio-uring: io-uring support for Tokio",
+          "url": "https://tokio.rs/blog/2021-07-tokio-uring",
+          "verification": "source_content_checked",
+          "why": "Understand why completion-based I/O owns buffers differently from readiness-based async I/O."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Giacomo Bagnoli"
+          ],
+          "caveat": "The archived programme describes monitoring practices, not the Rust implementation; recording availability was not verified.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2020",
+            "name": "devopsdays Madrid",
+            "source_url": "https://devopsdays.org/events/2020-madrid/program/giacomo-bagnoli/",
+            "starts_on": null
+          },
+          "evidence_urls": [
+            "https://devopsdays.org/events/2020-madrid/program/giacomo-bagnoli/"
+          ],
+          "id": "bagnoli-network-monitoring-devopsdays-2020",
+          "kind": "conference_talk",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "unknown",
+          "title": "Lessons learned from monitoring a large production network",
+          "url": "https://devopsdays.org/events/2020-madrid/program/giacomo-bagnoli/",
+          "verification": "listing_checked",
+          "why": "Compare the speaker's earlier network-health monitoring problems with the later Blastbeat rewrite."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Google SRE contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://sre.google/workbook/canarying-releases/"
+          ],
+          "id": "sre-canarying-releases",
+          "kind": "book",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "Canarying Releases",
+          "url": "https://sre.google/workbook/canarying-releases/",
+          "verification": "source_content_checked",
+          "why": "Plan rollout signals and failure checks for replacing an agent across a server fleet."
+        },
+        {
+          "access": "registration",
+          "authors": [
+            "Giacomo Bagnoli"
+          ],
+          "caveat": "The same project and one EuroRust speaker; presentation details may differ and no future recording is promised.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2026",
+            "name": "RustLab",
+            "source_url": "https://rustlab.it/talks/blastbeat-replacing-10-years-of-c-with-rust-and-iouring",
+            "starts_on": "2026-11-03"
+          },
+          "evidence_urls": [
+            "https://rustlab.it/talks/blastbeat-replacing-10-years-of-c-with-rust-and-iouring"
+          ],
+          "id": "blastbeat-rustlab-2026",
+          "kind": "conference_talk",
+          "published_on": null,
+          "relation": "repeat_appearance",
+          "temporal_status": "announced",
+          "title": "Blastbeat: Replacing 10 Years of C++ with Rust and io_uring",
+          "url": "https://rustlab.it/talks/blastbeat-replacing-10-years-of-c-with-rust-and-iouring",
+          "verification": "listing_checked",
+          "why": "Follow the announced RustLab appearance on the same network-observability rewrite."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-blastbeat-when-a-decade-of-c-meets-rust-and-io-uring"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Andrey Mokhov",
+            "Neil Mitchell",
+            "Simon Peyton Jones"
+          ],
+          "caveat": "Research landing page and summary checked; the full paper was not reviewed.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2018",
+            "name": "ICFP",
+            "source_url": "https://www.microsoft.com/en-us/research/publication/build-systems-la-carte/",
+            "starts_on": null
+          },
+          "evidence_urls": [
+            "https://www.microsoft.com/en-us/research/publication/build-systems-la-carte/"
+          ],
+          "id": "build-systems-a-la-carte",
+          "kind": "paper",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Build systems à la carte",
+          "url": "https://www.microsoft.com/en-us/research/publication/build-systems-la-carte/",
+          "verification": "source_content_checked",
+          "why": "Compare dependency discovery, scheduling, and rebuilding as separate build-system design choices."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Bazel contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://bazel.build/basics/hermeticity"
+          ],
+          "id": "bazel-hermeticity",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Hermeticity",
+          "url": "https://bazel.build/basics/hermeticity",
+          "verification": "source_content_checked",
+          "why": "Understand why declared inputs and controlled environments matter for reliable caching."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Cargo contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://doc.rust-lang.org/cargo/reference/build-scripts.html"
+          ],
+          "id": "cargo-build-scripts",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "Build Scripts",
+          "url": "https://doc.rust-lang.org/cargo/reference/build-scripts.html",
+          "verification": "source_content_checked",
+          "why": "Review Cargo's input tracking and native-build interface before adding another build layer."
+        },
+        {
+          "access": "unknown",
+          "authors": [
+            "Kaitlin Seng"
+          ],
+          "caveat": "Official timetable and speaker roster checked. Detail-page access was inconsistent; delivery and recording remain unverified.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2026",
+            "name": "RustConf",
+            "source_url": "https://rustconf2026.sched.com/",
+            "starts_on": "2026-09-09"
+          },
+          "evidence_urls": [
+            "https://rustconf.com/speakers/",
+            "https://rustconf2026.sched.com/"
+          ],
+          "id": "cargo-ci-rustconf-2026",
+          "kind": "conference_talk",
+          "published_on": null,
+          "relation": "same_topic",
+          "temporal_status": "unknown",
+          "title": "Tips for Speeding Up Cargo Build in CI",
+          "url": "https://rustconf2026.sched.com/event/2KHtV",
+          "verification": "listing_checked",
+          "why": "Compare CI-focused build improvements with broader build-system design."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-build-systems-when-your-systems-need-systems-to-build"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Laurent Querel",
+            "Joshua MacDonald",
+            "Reiley Yang",
+            "Albert Lockett",
+            "Cijo Thomas",
+            "Drew Relmas",
+            "Jake Dern"
+          ],
+          "caveat": "Reported benchmark results apply to the documented hardware and configurations.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://opentelemetry.io/blog/2026/otel-arrow-phase-2/"
+          ],
+          "id": "otel-arrow-phase-two",
+          "kind": "article",
+          "published_on": "2026-06-12",
+          "relation": "same_topic",
+          "temporal_status": "published",
+          "title": "OTel-Arrow Phase 2: From Efficient Transport to Efficient Telemetry Pipelines",
+          "url": "https://opentelemetry.io/blog/2026/otel-arrow-phase-2/",
+          "verification": "source_content_checked",
+          "why": "Read the coauthored account of bounded pipelines, thread-per-core execution, and columnar telemetry."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "OpenTelemetry Arrow contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://github.com/open-telemetry/otel-arrow"
+          ],
+          "id": "otel-arrow-project",
+          "kind": "project",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "OpenTelemetry Arrow",
+          "url": "https://github.com/open-telemetry/otel-arrow",
+          "verification": "source_content_checked",
+          "why": "Inspect the protocol, dataflow engine, and benchmark material behind the architecture."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Apache Arrow contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://arrow.apache.org/docs/format/Columnar.html"
+          ],
+          "id": "apache-arrow-columnar-format",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Arrow Columnar Format",
+          "url": "https://arrow.apache.org/docs/format/Columnar.html",
+          "verification": "source_content_checked",
+          "why": "Understand the columnar buffers that make direct telemetry processing possible."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Seastar contributors"
+          ],
+          "caveat": "Seastar's examples are C++; this is architectural background, not an OTel Rust API guide.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://seastar.io/shared-nothing/"
+          ],
+          "id": "seastar-shared-nothing",
+          "kind": "article",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Shared-nothing Design",
+          "url": "https://seastar.io/shared-nothing/",
+          "verification": "source_content_checked",
+          "why": "Compare per-core ownership and explicit message passing with shared-state concurrency."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-building-a-high-performance-thread-per-core-zero-copy-opentelemetry-engine-in-rust"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Rust compiler contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://rustc-dev-guide.rust-lang.org/query.html"
+          ],
+          "id": "rustc-query-guide",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Queries: demand-driven compilation",
+          "url": "https://rustc-dev-guide.rust-lang.org/query.html",
+          "verification": "source_content_checked",
+          "why": "Explains memoized queries, providers and dependency tracking in rustc."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Salsa contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://salsa-rs.github.io/salsa/"
+          ],
+          "id": "salsa-book",
+          "kind": "book",
+          "published_on": null,
+          "relation": "same_topic",
+          "temporal_status": "published",
+          "title": "The Salsa Book",
+          "url": "https://salsa-rs.github.io/salsa/",
+          "verification": "listing_checked",
+          "why": "Shows an incremental computation model and a small language tutorial for comparison."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Andrey Mokhov",
+            "Neil Mitchell",
+            "Simon Peyton Jones"
+          ],
+          "caveat": "2018 ICFP paper with Haskell examples; concepts transfer to Rust query systems.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://www.microsoft.com/en-us/research/publication/build-systems-la-carte/"
+          ],
+          "id": "build-systems-a-la-carte",
+          "kind": "paper",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Build systems à la carte",
+          "url": "https://www.microsoft.com/en-us/research/publication/build-systems-la-carte/",
+          "verification": "listing_checked",
+          "why": "Provides a framework for reasoning about dependencies, cached results and rebuild decisions."
+        },
+        {
+          "access": "registration",
+          "authors": [
+            "Arya Dradjica"
+          ],
+          "caveat": "An announced follow-up topic, not a repeat of the query-system talk.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2026",
+            "name": "RustLab",
+            "source_url": "https://rustlab.it/talks/talking-to-ghosts",
+            "starts_on": "2026-11-03"
+          },
+          "evidence_urls": [
+            "https://rustlab.it/talks/talking-to-ghosts"
+          ],
+          "id": "rustlab-2026-talking-to-ghosts",
+          "kind": "conference_talk",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "announced",
+          "title": "Talking to ghosts",
+          "url": "https://rustlab.it/talks/talking-to-ghosts",
+          "verification": "listing_checked",
+          "why": "Continues the speaker’s compiler work through concurrent data structures and memory reclamation."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-building-a-query-system"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Arthur Cohen",
+            "Pierre-Emmanuel Patry"
+          ],
+          "caveat": "Official timetable and speaker roster checked. Detail-page access was inconsistent; delivery and recording remain unverified.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2026",
+            "name": "RustConf",
+            "source_url": "https://rustconf2026.sched.com/",
+            "starts_on": "2026-09-09"
+          },
+          "evidence_urls": [
+            "https://rustconf.com/speakers/",
+            "https://rustconf2026.sched.com/"
+          ],
+          "id": "rustconf-2026-gccrs",
+          "kind": "conference_talk",
+          "published_on": null,
+          "relation": "repeat_appearance",
+          "temporal_status": "unknown",
+          "title": "Compiling the Linux Kernel with gccrs",
+          "url": "https://rustconf2026.sched.com/event/2KHyD",
+          "verification": "listing_checked",
+          "why": "Lists an earlier 2026 appearance with the same title and speaker."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Arthur Cohen"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://blog.rust-lang.org/2024/11/07/gccrs-an-alternative-compiler-for-rust/"
+          ],
+          "id": "gccrs-rust-blog-2024",
+          "kind": "article",
+          "published_on": "2024-11-07",
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "gccrs: An alternative compiler for Rust",
+          "url": "https://blog.rust-lang.org/2024/11/07/gccrs-an-alternative-compiler-for-rust/",
+          "verification": "source_content_checked",
+          "why": "Explains gccrs goals and its relationship to rustc and the wider Rust Project."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Arthur Cohen",
+            "Pierre-Emmanuel Patry"
+          ],
+          "caveat": "Official session description checked; delivery and recording are unverified.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2025",
+            "name": "RustWeek",
+            "source_url": "https://2025.rustweek.org/talks/arthurcohen/",
+            "starts_on": null
+          },
+          "evidence_urls": [
+            "https://2025.rustweek.org/talks/arthurcohen/"
+          ],
+          "id": "rustweek-2025-gccrs-stdlib",
+          "kind": "conference_talk",
+          "published_on": null,
+          "relation": "project_evolution",
+          "temporal_status": "unknown",
+          "title": "Inching ever closer to the Rust standard library with gccrs",
+          "url": "https://2025.rustweek.org/talks/arthurcohen/",
+          "verification": "listing_checked",
+          "why": "Shows the compiler’s earlier standard-library milestone before the kernel-focused session."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "gccrs contributors"
+          ],
+          "caveat": "The project describes gccrs as experimental; the talk title is not proof that it can build the Linux kernel.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://github.com/Rust-GCC/gccrs"
+          ],
+          "id": "gccrs-project",
+          "kind": "project",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "gccrs",
+          "url": "https://github.com/Rust-GCC/gccrs",
+          "verification": "source_content_checked",
+          "why": "Provides the compiler source and current development limitations behind the talk."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-compiling-the-linux-kernel-with-gccrs"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Hoverbear"
+          ],
+          "caveat": "A historical design article; examples were not compiled against current Rust.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://hoverbear.org/blog/rust-state-machine-pattern/"
+          ],
+          "id": "hoverbear-state-machine-patterns",
+          "kind": "article",
+          "published_on": "2016-10-12",
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Pretty State Machine Patterns in Rust",
+          "url": "https://hoverbear.org/blog/rust-state-machine-pattern/",
+          "verification": "source_content_checked",
+          "why": "Compare enums and owned transitions for representing valid protocol states."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Yuchen Wu",
+            "Andrew Hauck"
+          ],
+          "caveat": "A separate proxy implementation; its design is not attributed to the EuroRust speaker.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://blog.cloudflare.com/how-we-built-pingora-the-proxy-that-connects-cloudflare-to-the-internet/"
+          ],
+          "id": "cloudflare-pingora-design",
+          "kind": "article",
+          "published_on": "2022-09-14",
+          "relation": "same_topic",
+          "temporal_status": "published",
+          "title": "How we built Pingora, the proxy that connects Cloudflare to the Internet",
+          "url": "https://blog.cloudflare.com/how-we-built-pingora-the-proxy-that-connects-cloudflare-to-the-internet/",
+          "verification": "source_content_checked",
+          "why": "Study a production Rust proxy's architecture and connection reuse decisions."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Tokio contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://tokio.rs/tokio/tutorial/select"
+          ],
+          "id": "tokio-select-cancellation",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Tokio tutorial: Select",
+          "url": "https://tokio.rs/tokio/tutorial/select",
+          "verification": "source_content_checked",
+          "why": "Understand what happens to unfinished futures when another stream or cancellation branch wins."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-designing-state-machines-for-streaming-proxies-in-rust"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Melih Elibol",
+            "Jared Roesch",
+            "Isaac Gelado",
+            "Eric Buehler",
+            "Michael Garland"
+          ],
+          "caveat": "Preprint first posted June 14 and revised September 17, 2026; abstract and metadata checked, not the full proof.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://arxiv.org/abs/2606.15991"
+          ],
+          "id": "fearless-gpu-paper",
+          "kind": "paper",
+          "published_on": "2026-06-14",
+          "relation": "same_topic",
+          "temporal_status": "published",
+          "title": "Fearless Concurrency on the GPU",
+          "url": "https://arxiv.org/abs/2606.15991",
+          "verification": "source_content_checked",
+          "why": "Read the ownership model behind safe tile kernels and the limits that still require runtime checks."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "NVIDIA Research",
+            "cuTile Rust contributors"
+          ],
+          "caveat": "An early research project; hardware support, API stability, and safety assumptions need checking before use.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://github.com/NVlabs/cutile-rs"
+          ],
+          "id": "cutile-rust-project",
+          "kind": "project",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "cuTile Rust",
+          "url": "https://github.com/NVlabs/cutile-rs",
+          "verification": "source_content_checked",
+          "why": "Explore the GPU kernel examples and host-side ownership API discussed in the session."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Yinuo Liu",
+            "Melih Elibol",
+            "Dheemanth Manur"
+          ],
+          "caveat": "The authors' workflow and benchmarks cover their stated kernel set and hardware.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai/"
+          ],
+          "id": "nvidia-agentic-cuda-rust",
+          "kind": "article",
+          "published_on": "2026-09-16",
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "Translating CUDA Tile Operations from Python to Rust Using Agentic AI",
+          "url": "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai/",
+          "verification": "source_content_checked",
+          "why": "Study an agent-assisted porting workflow that checks intermediate representation, correctness, and performance."
+        },
+        {
+          "access": "unknown",
+          "authors": [
+            "Melih Elibol"
+          ],
+          "caveat": "Official timetable and speaker roster checked. Detail-page access was inconsistent; delivery and recording remain unverified.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2026",
+            "name": "RustConf",
+            "source_url": "https://rustconf2026.sched.com/",
+            "starts_on": "2026-09-09"
+          },
+          "evidence_urls": [
+            "https://rustconf.com/speakers/",
+            "https://rustconf2026.sched.com/"
+          ],
+          "id": "fearless-gpu-rustconf-2026",
+          "kind": "conference_talk",
+          "published_on": null,
+          "relation": "repeat_appearance",
+          "temporal_status": "unknown",
+          "title": "Fearless Concurrency on the GPU",
+          "url": "https://rustconf2026.sched.com/event/2KHsv",
+          "verification": "listing_checked",
+          "why": "Find the same speaker and title in the earlier RustConf programme."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-fearless-concurrency-on-the-gpu"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "The Rust Programming Language contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://doc.rust-lang.org/book/ch15-02-deref.html"
+          ],
+          "id": "rust-book-deref",
+          "kind": "book",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "The Rust Programming Language: Treating Smart Pointers Like Regular References",
+          "url": "https://doc.rust-lang.org/book/ch15-02-deref.html",
+          "verification": "source_content_checked",
+          "why": "Work through Deref and deref coercion before comparing reference and conversion traits."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Rust API Guidelines contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://rust-lang.github.io/api-guidelines/interoperability.html"
+          ],
+          "id": "rust-api-guidelines-interoperability",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "Rust API Guidelines: Interoperability",
+          "url": "https://rust-lang.github.io/api-guidelines/interoperability.html",
+          "verification": "source_content_checked",
+          "why": "Apply the conversion and common-trait conventions when reviewing a public API."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Rust project contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://doc.rust-lang.org/std/borrow/trait.Borrow.html"
+          ],
+          "id": "rust-borrow-trait",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "same_topic",
+          "temporal_status": "published",
+          "title": "Borrow trait reference",
+          "url": "https://doc.rust-lang.org/std/borrow/trait.Borrow.html",
+          "verification": "source_content_checked",
+          "why": "Check the equality, ordering, and hashing obligations that distinguish Borrow from a simple reference conversion."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Rust project contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://doc.rust-lang.org/std/convert/index.html"
+          ],
+          "id": "rust-conversion-traits",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "same_topic",
+          "temporal_status": "published",
+          "title": "Standard library conversion traits",
+          "url": "https://doc.rust-lang.org/std/convert/index.html",
+          "verification": "source_content_checked",
+          "why": "Compare AsRef, From, Into, and fallible conversions alongside Deref and Borrow."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-from-deref-into-borrow-a-primer-on-standard-library-traits"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "USB Implementers Forum"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://usb.org/document-library/device-class-definition-hid-111"
+          ],
+          "id": "usb-hid-specification",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Device Class Definition for HID 1.11",
+          "url": "https://usb.org/document-library/device-class-definition-hid-111",
+          "verification": "listing_checked",
+          "why": "Defines the descriptors and reports that let input devices work with standard host drivers."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "usbd-hid contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://docs.rs/usbd-hid/latest/usbd_hid/"
+          ],
+          "id": "usbd-hid",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "same_topic",
+          "temporal_status": "published",
+          "title": "usbd-hid",
+          "url": "https://docs.rs/usbd-hid/latest/usbd_hid/",
+          "verification": "source_content_checked",
+          "why": "Documents Rust support for HID report descriptors, input reports and USB communication."
+        },
+        {
+          "access": "purchase",
+          "authors": [
+            "Jan Axelson"
+          ],
+          "caveat": "Publisher-distributor overview checked; 2015 edition, with examples outside Rust.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://www.ipgbook.com/usb-complete-products-9781931448284.php"
+          ],
+          "id": "usb-complete-fifth-edition",
+          "kind": "book",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "USB Complete: The Developer’s Guide, fifth edition",
+          "url": "https://www.ipgbook.com/usb-complete-products-9781931448284.php",
+          "verification": "listing_checked",
+          "why": "Explains USB device classes, host drivers and debugging beyond a particular Rust library."
+        },
+        {
+          "access": "registration",
+          "authors": [
+            "Frank Lyaruu"
+          ],
+          "caveat": "Announced for November 2, 2026; the organizer’s title contains a typo, and content may change.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2026",
+            "name": "RustLab",
+            "source_url": "https://rustlab.it/talks/from-hardware-to-huma-interface-buiding-hid-devices-in-rust",
+            "starts_on": "2026-11-02"
+          },
+          "evidence_urls": [
+            "https://rustlab.it/talks/from-hardware-to-huma-interface-buiding-hid-devices-in-rust"
+          ],
+          "id": "rustlab-2026-hid-devices",
+          "kind": "conference_talk",
+          "published_on": null,
+          "relation": "repeat_appearance",
+          "temporal_status": "announced",
+          "title": "From hardware to Human Interface: buiding HID devices in Rust",
+          "url": "https://rustlab.it/talks/from-hardware-to-huma-interface-buiding-hid-devices-in-rust",
+          "verification": "listing_checked",
+          "why": "Offers another announced appearance of the same speaker, topic and abstract."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-from-hardware-to-human-interface-building-hid-devices-in-rust"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. These are optional background links; no game-show syllabus is assumed. No verified future conference match is included in this pass.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Amos Wenger"
+          ],
+          "caveat": "Optional background; it does not reveal or verify the 2026 game-show questions.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://fasterthanli.me/articles/engineering-a-rust-optimization-quiz"
+          ],
+          "id": "engineering-rust-optimization-quiz",
+          "kind": "article",
+          "published_on": "2025-11-01",
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Engineering a Rust optimization quiz",
+          "url": "https://fasterthanli.me/articles/engineering-a-rust-optimization-quiz",
+          "verification": "source_content_checked",
+          "why": "Shows how one host built an earlier Rust quiz and chose questions about compiler behavior."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "David Tolnay"
+          ],
+          "caveat": "Independent optional practice, not official game-show preparation.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://dtolnay.github.io/rust-quiz/"
+          ],
+          "id": "rust-quiz",
+          "kind": "course",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Rust Quiz",
+          "url": "https://dtolnay.github.io/rust-quiz/",
+          "verification": "source_content_checked",
+          "why": "Offers short code puzzles with explanations for practicing careful Rust code reading."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Rustlings contributors"
+          ],
+          "caveat": "Broad optional practice; the game show has no published technical syllabus.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://rustlings.rust-lang.org/"
+          ],
+          "id": "rustlings",
+          "kind": "course",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Rustlings",
+          "url": "https://rustlings.rust-lang.org/",
+          "verification": "source_content_checked",
+          "why": "Offers small exercises for refreshing syntax and compiler-error reading before a code-based activity."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-game-show"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Sergio Gonzalez Martin"
+          ],
+          "caveat": "Codec status and performance results describe the author's dated evaluation.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://microsoftedge.github.io/edgevr/posts/Rustifying-Image-Codecs-in-Chromium/"
+          ],
+          "id": "edge-rustifying-image-codecs",
+          "kind": "article",
+          "published_on": "2026-07-17",
+          "relation": "same_topic",
+          "temporal_status": "published",
+          "title": "Rustifying Image Codecs in Chromium",
+          "url": "https://microsoftedge.github.io/edgevr/posts/Rustifying-Image-Codecs-in-Chromium/",
+          "verification": "source_content_checked",
+          "why": "Read the speaker's account of codec migration, streaming compatibility, upstream work, and staged rollout."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Shnatsel"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://blog.image-rs.org/2026/06/18/png-adoption.html"
+          ],
+          "id": "image-png-adoption-2026",
+          "kind": "article",
+          "published_on": "2026-06-18",
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Rust PNG crate gets even faster, used by GNOME and Chromium",
+          "url": "https://blog.image-rs.org/2026/06/18/png-adoption.html",
+          "verification": "source_content_checked",
+          "why": "See the upstream PNG work on partial decoding, compatibility, fuzzing, and browser integration."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "image-rs contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://github.com/image-rs/image"
+          ],
+          "id": "image-rs-image",
+          "kind": "project",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "image: encoding and decoding images in Rust",
+          "url": "https://github.com/image-rs/image",
+          "verification": "source_content_checked",
+          "why": "Inspect the upstream decoder APIs and supported formats used in the browser migration."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "David Tolnay",
+            "CXX contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://cxx.rs/"
+          ],
+          "id": "cxx-guide",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "CXX: Rust and C++ interoperability",
+          "url": "https://cxx.rs/",
+          "verification": "source_content_checked",
+          "why": "Understand the Rust and C++ boundary needed when replacing codecs inside an existing browser."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-image-codecs-rustification-in-chromium"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Philipp Schuster"
+          ],
+          "caveat": "The example uses Nix; commands were not executed during this resource review.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://phip1611.de/blog/quickly-boot-a-minimal-linux-kernel-initrd-in-cloud-hypervisor-or-qemu/"
+          ],
+          "id": "schuster-minimal-linux-boot",
+          "kind": "article",
+          "published_on": "2025-03-18",
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Quickly Boot a Minimal Linux Kernel + Initrd in Cloud Hypervisor or QEMU",
+          "url": "https://phip1611.de/blog/quickly-boot-a-minimal-linux-kernel-initrd-in-cloud-hypervisor-or-qemu/",
+          "verification": "source_content_checked",
+          "why": "Build the kernel and initrd inputs needed to follow the session's VM boot sequence."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Linux kernel contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://docs.kernel.org/virt/kvm/api.html"
+          ],
+          "id": "linux-kvm-api",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "The KVM API",
+          "url": "https://docs.kernel.org/virt/kvm/api.html",
+          "verification": "source_content_checked",
+          "why": "Look up the kernel interfaces behind guest memory, virtual CPUs, and VM execution."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Alexandru Agache",
+            "Marc Brooker",
+            "Andreea Florescu",
+            "Alexandra Iordache",
+            "Anthony Liguori",
+            "Rolf Neugebauer",
+            "Phil Piwonka",
+            "Diana-Maria Popa"
+          ],
+          "caveat": "The proceedings page links the paper, slides, and recording; the full paper and video were not reviewed.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2020",
+            "name": "USENIX NSDI",
+            "source_url": "https://www.usenix.org/conference/nsdi20/presentation/agache",
+            "starts_on": null
+          },
+          "evidence_urls": [
+            "https://www.usenix.org/conference/nsdi20/presentation/agache"
+          ],
+          "id": "firecracker-nsdi-2020",
+          "kind": "paper",
+          "published_on": null,
+          "relation": "alternative_approach",
+          "temporal_status": "published",
+          "title": "Firecracker: Lightweight Virtualization for Serverless Applications",
+          "url": "https://www.usenix.org/conference/nsdi20/presentation/agache",
+          "verification": "source_content_checked",
+          "why": "Compare a serverless VMM's isolation and device choices with Cloud Hypervisor."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Cloud Hypervisor contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://github.com/cloud-hypervisor/cloud-hypervisor"
+          ],
+          "id": "cloud-hypervisor-project",
+          "kind": "project",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "Cloud Hypervisor",
+          "url": "https://github.com/cloud-hypervisor/cloud-hypervisor",
+          "verification": "source_content_checked",
+          "why": "Follow the VM monitor's current architecture, guest boot instructions, and device support."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-inside-cloud-hypervisor-from-kvm-to-a-running-vm"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Njuguna Mureithi",
+            "Apalis contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://apalis.dev/"
+          ],
+          "id": "apalis",
+          "kind": "project",
+          "published_on": null,
+          "relation": "same_topic",
+          "temporal_status": "published",
+          "title": "Apalis",
+          "url": "https://apalis.dev/",
+          "verification": "source_content_checked",
+          "why": "Provides the worker API, storage backends and shutdown behavior behind the speaker’s library."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Njuguna Mureithi"
+          ],
+          "caveat": "Historical article; examples may use older APIs than current Apalis.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://mureithi.me/blog/background-job-processing-with-rust-actix-redis"
+          ],
+          "id": "mureithi-background-jobs",
+          "kind": "article",
+          "published_on": null,
+          "relation": "project_evolution",
+          "temporal_status": "published",
+          "title": "Background job processing with Rust using Actix and Redis",
+          "url": "https://mureithi.me/blog/background-job-processing-with-rust-actix-redis",
+          "verification": "source_content_checked",
+          "why": "Shows an earlier design for separating request handling from background job execution."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Tokio contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://tokio.rs/tokio/topics/shutdown"
+          ],
+          "id": "tokio-graceful-shutdown",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Graceful Shutdown",
+          "url": "https://tokio.rs/tokio/topics/shutdown",
+          "verification": "source_content_checked",
+          "why": "Explains cancellation and task completion when workers stop or restart."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Amazon Builders’ Library"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/"
+          ],
+          "id": "timeouts-retries-jitter",
+          "kind": "article",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "Timeouts, retries, and backoff with jitter",
+          "url": "https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/",
+          "verification": "source_content_checked",
+          "why": "Explains retry budgets and backoff choices that keep background workers from multiplying failures."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-lessons-from-building-a-background-task-processing-library"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Rust Project contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://doc.rust-lang.org/reference/const_eval.html"
+          ],
+          "id": "rust-constant-evaluation",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Constant evaluation — The Rust Reference",
+          "url": "https://doc.rust-lang.org/reference/const_eval.html",
+          "verification": "source_content_checked",
+          "why": "Defines what Rust can evaluate during compilation and where const contexts apply."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "The const generics project group"
+          ],
+          "caveat": "Historical Rust 1.51 announcement. Use the current Rust Reference for present language rules.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://blog.rust-lang.org/2021/02/26/const-generics-mvp-beta/"
+          ],
+          "id": "const-generics-mvp-beta",
+          "kind": "article",
+          "published_on": "2021-02-26",
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Const generics MVP hits beta!",
+          "url": "https://blog.rust-lang.org/2021/02/26/const-generics-mvp-beta/",
+          "verification": "source_content_checked",
+          "why": "Introduces value parameters in types and explains why evaluating generic expressions at compile time needs extra rules."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Oli Scherer",
+            "Rust Project"
+          ],
+          "caveat": "A project goal and experiment; acceptance does not mean the feature is stable Rust.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://goals.rust-lang.org/2026/reflection-and-comptime.html"
+          ],
+          "id": "rust-reflection-comptime-goal",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "project_evolution",
+          "temporal_status": "published",
+          "title": "Rust reflection and comptime project goal",
+          "url": "https://goals.rust-lang.org/2026/reflection-and-comptime.html",
+          "verification": "source_content_checked",
+          "why": "Explains the speaker’s proposed reflection work and the design questions still being explored."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Tris Oaten"
+          ],
+          "caveat": "Official session description checked; delivery and recording are unverified.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2025",
+            "name": "EuroRust",
+            "source_url": "https://eurorust.eu/2025/talks/misusing-const/",
+            "starts_on": null
+          },
+          "evidence_urls": [
+            "https://eurorust.eu/2025/talks/misusing-const/"
+          ],
+          "id": "eurorust-2025-misusing-const",
+          "kind": "conference_talk",
+          "published_on": null,
+          "relation": "same_topic",
+          "temporal_status": "unknown",
+          "title": "Misusing Const for Fn and Profit",
+          "url": "https://eurorust.eu/2025/talks/misusing-const/",
+          "verification": "listing_checked",
+          "why": "Offers an earlier conference perspective on moving useful work into Rust’s compile-time evaluation."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-move-your-problems"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Henry Zou",
+            "Matthew Treinish",
+            "Kevin Hartman",
+            "Alexander Ivrii",
+            "Jake Lishman"
+          ],
+          "caveat": "Preprint abstract and metadata checked; performance figures belong to the paper's specific comparisons.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://arxiv.org/abs/2409.08368"
+          ],
+          "id": "lightsabre-paper",
+          "kind": "paper",
+          "published_on": "2024-09-12",
+          "relation": "same_topic",
+          "temporal_status": "published",
+          "title": "LightSABRE: A Lightweight and Enhanced SABRE Algorithm",
+          "url": "https://arxiv.org/abs/2409.08368",
+          "verification": "source_content_checked",
+          "why": "Study a concrete Qiskit routing algorithm developed mainly in Rust during the compiler migration."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Qiskit Team"
+          ],
+          "caveat": "A historical release report; consult current documentation for supported APIs.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://www.ibm.com/quantum/blog/qiskit-2-0-release-summary"
+          ],
+          "id": "qiskit-2-release",
+          "kind": "article",
+          "published_on": "2025-04-03",
+          "relation": "project_evolution",
+          "temporal_status": "published",
+          "title": "Release News: Qiskit SDK v2.0 is here!",
+          "url": "https://www.ibm.com/quantum/blog/qiskit-2-0-release-summary",
+          "verification": "source_content_checked",
+          "why": "Follow the Rust data-model changes and C interface introduced during Qiskit's migration."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "PyO3 contributors"
+          ],
+          "caveat": "The root URL follows the current version; match documentation to your dependency version.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://pyo3.rs/"
+          ],
+          "id": "pyo3-user-guide",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "PyO3 user guide",
+          "url": "https://pyo3.rs/",
+          "verification": "source_content_checked",
+          "why": "Understand the Python/Rust ownership boundary used when accelerating an existing Python library."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "IBM Quantum contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://quantum.cloud.ibm.com/docs/en/guides/transpile"
+          ],
+          "id": "qiskit-transpilation-guide",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Introduction to transpilation",
+          "url": "https://quantum.cloud.ibm.com/docs/en/guides/transpile",
+          "verification": "source_content_checked",
+          "why": "Learn why quantum circuits need routing and transformation for the target hardware."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-moving-a-quantum-compiler-from-python-to-rust"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Rust compiler contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://rustc-dev-guide.rust-lang.org/solve/trait-solving.html"
+          ],
+          "id": "next-trait-solver-guide",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Next-gen trait solving",
+          "url": "https://rustc-dev-guide.rust-lang.org/solve/trait-solving.html",
+          "verification": "source_content_checked",
+          "why": "Introduces goals, responses and the structure of rustc’s next trait solver."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "lcnr"
+          ],
+          "caveat": "Official session description checked; delivery and recording are unverified.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2025",
+            "name": "EuroRust",
+            "source_url": "https://eurorust.eu/2025/talks/znext-solver/",
+            "starts_on": "2025-10-09"
+          },
+          "evidence_urls": [
+            "https://eurorust.eu/2025/talks/znext-solver/"
+          ],
+          "id": "eurorust-2025-next-solver",
+          "kind": "conference_talk",
+          "published_on": null,
+          "relation": "project_evolution",
+          "temporal_status": "unknown",
+          "title": "-Znext-solver: what, why, and when",
+          "url": "https://eurorust.eu/2025/talks/znext-solver/",
+          "verification": "listing_checked",
+          "why": "Explains the correctness and performance problems that motivated replacing the previous solver."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Chalk contributors"
+          ],
+          "caveat": "Chalk is useful background; it is not the implementation of rustc’s next trait solver.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://rust-lang.github.io/chalk/book/"
+          ],
+          "id": "chalk-book",
+          "kind": "book",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "The Chalk Book",
+          "url": "https://rust-lang.github.io/chalk/book/",
+          "verification": "listing_checked",
+          "why": "Explains logical goals, unification and canonical queries behind Rust trait reasoning."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-optimizing-the-new-rust-trait-solver"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Matthias Rauter"
+          ],
+          "caveat": "This describes a beta version; check current APIs before using its migration advice.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://www.qt.io/blog/qt-bridge-for-rust-0.3-cxx-qt-compatibility-and-soundness"
+          ],
+          "id": "qt-bridge-rust-03-soundness",
+          "kind": "article",
+          "published_on": "2026-09-23",
+          "relation": "same_topic",
+          "temporal_status": "published",
+          "title": "Qt Bridge for Rust 0.3 Beta: CXX-Qt Compatibility and Soundness",
+          "url": "https://www.qt.io/blog/qt-bridge-for-rust-0.3-cxx-qt-compatibility-and-soundness",
+          "verification": "source_content_checked",
+          "why": "Read the speaker's explanation of ownership changes and soundness fixes at the QML boundary."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "KDAB",
+            "CXX-Qt contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://kdab.github.io/cxx-qt/book/"
+          ],
+          "id": "cxx-qt-book",
+          "kind": "book",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "CXX-Qt documentation",
+          "url": "https://kdab.github.io/cxx-qt/book/",
+          "verification": "source_content_checked",
+          "why": "Follow QObject, QML, type conversion, and build-system integration in a related Qt bridge."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "David Tolnay",
+            "CXX contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://cxx.rs/"
+          ],
+          "id": "cxx-guide",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "CXX: Rust and C++ interoperability",
+          "url": "https://cxx.rs/",
+          "verification": "source_content_checked",
+          "why": "Understand the CXX layer that supports Rust and C++ types crossing the Qt boundary."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-qt-bridges-bringing-a-mature-c-ui-framework-to-rust"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Tree-sitter contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://tree-sitter.github.io/tree-sitter/"
+          ],
+          "id": "tree-sitter-guide",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Tree-sitter documentation",
+          "url": "https://tree-sitter.github.io/tree-sitter/",
+          "verification": "source_content_checked",
+          "why": "Explains incremental parsing and grammar construction for editor tooling."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Microsoft and LSP contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/"
+          ],
+          "id": "language-server-protocol-317",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "same_topic",
+          "temporal_status": "published",
+          "title": "Language Server Protocol 3.17 specification",
+          "url": "https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/",
+          "verification": "listing_checked",
+          "why": "Defines document synchronization, diagnostics and completion messages for an editor connection."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Robert Nystrom"
+          ],
+          "caveat": "The book uses Java and C; it teaches language implementation rather than Tree-sitter or LSP APIs.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://craftinginterpreters.com/contents.html"
+          ],
+          "id": "crafting-interpreters",
+          "kind": "book",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Crafting Interpreters",
+          "url": "https://craftinginterpreters.com/contents.html",
+          "verification": "listing_checked",
+          "why": "Builds the syntax-tree and parsing foundations needed when designing a language grammar."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-rebuilding-the-tower-of-babel-write-your-own-language-server-with-tree-sitter"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Mara Bos"
+          ],
+          "caveat": "Free online edition; the book’s introduction and contents were checked.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://mara.nl/atomics/"
+          ],
+          "id": "rust-atomics-and-locks",
+          "kind": "book",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Rust Atomics and Locks",
+          "url": "https://mara.nl/atomics/",
+          "verification": "listing_checked",
+          "why": "Builds the memory-ordering and synchronization knowledge needed to assess lock-free code."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Aaron Turon"
+          ],
+          "caveat": "Historical Crossbeam design article; current library APIs and benchmark results may differ.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://aturon.github.io/blog/2015/08/27/epoch/"
+          ],
+          "id": "lock-freedom-without-gc",
+          "kind": "article",
+          "published_on": "2015-08-27",
+          "relation": "same_topic",
+          "temporal_status": "published",
+          "title": "Lock-freedom without garbage collection",
+          "url": "https://aturon.github.io/blog/2015/08/27/epoch/",
+          "verification": "source_content_checked",
+          "why": "Explains epoch-based reclamation and how Rust types can protect concurrent data-structure APIs."
+        },
+        {
+          "access": "registration",
+          "authors": [
+            "Arya Dradjica"
+          ],
+          "caveat": "Announced session on November 3, 2026; no recording is claimed.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2026",
+            "name": "RustLab",
+            "source_url": "https://rustlab.it/talks/talking-to-ghosts",
+            "starts_on": "2026-11-03"
+          },
+          "evidence_urls": [
+            "https://rustlab.it/talks/talking-to-ghosts"
+          ],
+          "id": "rustlab-2026-talking-to-ghosts",
+          "kind": "conference_talk",
+          "published_on": null,
+          "relation": "same_topic",
+          "temporal_status": "announced",
+          "title": "Talking to ghosts",
+          "url": "https://rustlab.it/talks/talking-to-ghosts",
+          "verification": "listing_checked",
+          "why": "Offers another treatment of concurrent memory reclamation and its API tradeoffs."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-running-safely-with-scissors-lock-free-concurrency-for-maximum-throughput"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Cristián Maureira-Fredes"
+          ],
+          "caveat": "The speaker links this July 2025 recording; YouTube retrieval was throttled and playback was not checked.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2025",
+            "name": "EuroPython",
+            "source_url": "https://maureira.dev/speaking/",
+            "starts_on": null
+          },
+          "evidence_urls": [
+            "https://maureira.dev/speaking/"
+          ],
+          "id": "maureira-python-ecosystem-europython-2025",
+          "kind": "video",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "What comes after Rust in the Python ecosystem?",
+          "url": "https://www.youtube.com/watch?v=yJPX7n0tMfo",
+          "verification": "listing_checked",
+          "why": "Compare the speaker's earlier account of Rust and other compiled languages extending Python."
+        },
+        {
+          "access": "unknown",
+          "authors": [
+            "Cristián Maureira-Fredes"
+          ],
+          "caveat": "Spanish session; programme verified, attendance requirements and future recording availability not checked.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2026",
+            "name": "PyConES",
+            "source_url": "https://pretalx.com/pycones-2026/talk/GXFMUV/",
+            "starts_on": "2026-11-07"
+          },
+          "evidence_urls": [
+            "https://pretalx.com/pycones-2026/talk/GXFMUV/"
+          ],
+          "id": "maureira-python-ecosystem-pycones-2026",
+          "kind": "conference_talk",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "announced",
+          "title": "¿Qué viene después de Rust en el ecosistema Python?",
+          "url": "https://pretalx.com/pycones-2026/talk/GXFMUV/",
+          "verification": "listing_checked",
+          "why": "Follow the speaker's announced comparison of Rust, C++, and other language extensions for Python."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "PyO3 contributors"
+          ],
+          "caveat": "The root URL follows the current version; match documentation to your dependency version.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://pyo3.rs/"
+          ],
+          "id": "pyo3-user-guide",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "PyO3 user guide",
+          "url": "https://pyo3.rs/",
+          "verification": "source_content_checked",
+          "why": "Study Rust extension modules, Python object ownership, and conversion across the language boundary."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "David Tolnay",
+            "CXX contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://cxx.rs/"
+          ],
+          "id": "cxx-guide",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "CXX: Rust and C++ interoperability",
+          "url": "https://cxx.rs/",
+          "verification": "source_content_checked",
+          "why": "Compare the concrete Rust/C++ bridge model with Python's Rust extension model."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-rust-s-influence-on-c-and-python-shaping-the-future-of-three-communities"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. Temporal here is JavaScript’s date-and-time API, not the workflow engine. No verified future conference match is included in this pass.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Temporal_rs developers"
+          ],
+          "caveat": "Historical release article; its browser and standards forecasts describe September 2025.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://boajs.dev/blog/2025/09/24/temporal-release"
+          ],
+          "id": "temporal-rs-release",
+          "kind": "article",
+          "published_on": "2025-09-24",
+          "relation": "project_evolution",
+          "temporal_status": "published",
+          "title": "Temporal_rs is here! The datetime library powering Temporal in Boa, Kiesel, and V8",
+          "url": "https://boajs.dev/blog/2025/09/24/temporal-release",
+          "verification": "source_content_checked",
+          "why": "Explains the library’s design, FFI boundary and adoption by JavaScript engines."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Boa developers"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://boajs.dev/blog/2025/06/15/temporal-impl-1"
+          ],
+          "id": "temporal-implementation",
+          "kind": "article",
+          "published_on": "2025-06-15",
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Implementing Temporal, the new date/time API for JavaScript (and Rust!)",
+          "url": "https://boajs.dev/blog/2025/06/15/temporal-impl-1",
+          "verification": "source_content_checked",
+          "why": "Explains implementation choices behind calendar and time-zone behavior in Rust."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "TC39 Temporal contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://tc39.es/proposal-temporal/docs/"
+          ],
+          "id": "tc39-temporal-docs",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Temporal documentation",
+          "url": "https://tc39.es/proposal-temporal/docs/",
+          "verification": "source_content_checked",
+          "why": "Defines the date-and-time API that the Rust implementation must expose."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Shane Carr"
+          ],
+          "caveat": "Related library background, not the same Temporal talk. Official description checked; delivery and recording are unverified.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2025",
+            "name": "RustWeek",
+            "source_url": "https://2025.rustweek.org/talks/shane/",
+            "starts_on": null
+          },
+          "evidence_urls": [
+            "https://2025.rustweek.org/talks/shane/"
+          ],
+          "id": "rustweek-2025-icu4x",
+          "kind": "conference_talk",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "unknown",
+          "title": "Beyond ICU4X 2.0: ZeroVec, Diplomat, Yoke, and Unicode’s Contributions to the Rust Ecosystem",
+          "url": "https://2025.rustweek.org/talks/shane/",
+          "verification": "listing_checked",
+          "why": "Introduces Unicode’s Rust libraries and bindings work behind cross-language integration."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-shipping-temporal-how-the-rust-ecosystem-built-chrome-s-newest-web-api"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Rust Secure Code Working Group"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://rustsec.org/"
+          ],
+          "id": "rustsec-advisory-database",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "RustSec Advisory Database",
+          "url": "https://rustsec.org/",
+          "verification": "source_content_checked",
+          "why": "Find published crate advisories and understand the inputs used by dependency audit tools."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Cargo Vet contributors"
+          ],
+          "caveat": "Review evidence and advisory checks cover different risks; neither proves a dependency harmless.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://mozilla.github.io/cargo-vet/"
+          ],
+          "id": "cargo-vet-guide",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "Cargo Vet guide",
+          "url": "https://mozilla.github.io/cargo-vet/",
+          "verification": "source_content_checked",
+          "why": "Learn how reviewed versions and audit records can support dependency policy."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Adam Harvey",
+            "crates.io team",
+            "Rust Security Response Working Group"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://blog.rust-lang.org/2026/09/17/targeted-attacks/"
+          ],
+          "id": "rust-targeted-attacks-2026",
+          "kind": "article",
+          "published_on": "2026-09-17",
+          "relation": "same_topic",
+          "temporal_status": "published",
+          "title": "Be alert: targeted attacks on prominent Rustaceans",
+          "url": "https://blog.rust-lang.org/2026/09/17/targeted-attacks/",
+          "verification": "source_content_checked",
+          "why": "Connect account compromise and social engineering to the path malicious releases can take."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Lydia Zoghbi",
+            "David Thien",
+            "Ranjit Jhala",
+            "Deian Stefan",
+            "Caleb Stanford"
+          ],
+          "caveat": "Research preprint; metadata and abstract checked, with no independent validation of its evaluation.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://arxiv.org/abs/2602.06466"
+          ],
+          "id": "auditing-rust-crates-effectively",
+          "kind": "paper",
+          "published_on": "2026-02-06",
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "Auditing Rust Crates Effectively",
+          "url": "https://arxiv.org/abs/2602.06466",
+          "verification": "source_content_checked",
+          "why": "Explore effect analysis that narrows the code requiring manual dependency review."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-supply-chain-attacks-and-how-to-protect-ourselves"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Ferrous Systems"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://ferrous-systems.com/blog/rust-cortex-r52/"
+          ],
+          "id": "rust-cortex-r52",
+          "kind": "article",
+          "published_on": "2025-03-11",
+          "relation": "project_evolution",
+          "temporal_status": "published",
+          "title": "Rust on Cortex-R52",
+          "url": "https://ferrous-systems.com/blog/rust-cortex-r52/",
+          "verification": "source_content_checked",
+          "why": "Documents the libraries and examples released for the intermediate Arm processors discussed in the talk."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Rust Embedded Devices Working Group"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://github.com/rust-embedded/aarch32",
+            "https://ferrous-systems.com/blog/rust-cortex-r52/"
+          ],
+          "id": "aarch32-project",
+          "kind": "project",
+          "published_on": null,
+          "relation": "same_topic",
+          "temporal_status": "published",
+          "title": "aarch32: Rust support for Arm Cortex-R and Cortex-A",
+          "url": "https://github.com/rust-embedded/aarch32",
+          "verification": "source_content_checked",
+          "why": "Provides low-level processor access and runtime support to inspect after the ecosystem overview."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Jonathan Pallant"
+          ],
+          "caveat": "Historical integration example; certification statements are tied to its publication date.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://ferrous-systems.com/blog/rust-and-threadx/"
+          ],
+          "id": "rust-threadx",
+          "kind": "article",
+          "published_on": "2023-12-07",
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Rust and ThreadX",
+          "url": "https://ferrous-systems.com/blog/rust-and-threadx/",
+          "verification": "source_content_checked",
+          "why": "Explains why integrating Rust with an existing real-time operating system can be useful."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Rust Embedded Devices Working Group"
+          ],
+          "caveat": "Introductory examples focus on microcontrollers rather than covering every Cortex-A or Cortex-R target.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://docs.rust-embedded.org/book/"
+          ],
+          "id": "embedded-rust-book",
+          "kind": "book",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "The Embedded Rust Book",
+          "url": "https://docs.rust-embedded.org/book/",
+          "verification": "listing_checked",
+          "why": "Builds the no_std and peripheral vocabulary needed to compare embedded ecosystems."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-tales-from-the-embedded-rust-frontier-bootstrapping-a-brand-new-ecosystem"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Sebastian Rietzscher",
+            "Sebastian Haas"
+          ],
+          "caveat": "Official programme checked; different speakers from EuroRust, and no delivery or recording is verified.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2026",
+            "name": "Oxidize",
+            "source_url": "https://oxidizeconf.com/sessions/keynote_rust_as_the-foundation_for_future_unmanned-systems",
+            "starts_on": "2026-09-15"
+          },
+          "evidence_urls": [
+            "https://oxidizeconf.com/sessions/keynote_rust_as_the-foundation_for_future_unmanned-systems"
+          ],
+          "id": "oxidize-2026-mosaic",
+          "kind": "conference_talk",
+          "published_on": null,
+          "relation": "same_topic",
+          "temporal_status": "unknown",
+          "title": "Rust as the Foundation for Future Unmanned Systems",
+          "url": "https://oxidizeconf.com/sessions/keynote_rust_as_the-foundation_for_future_unmanned-systems",
+          "verification": "listing_checked",
+          "why": "Provides an earlier account of MOSAIC’s architecture, Rust migration and legacy integration."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Jiaqiang Zhang",
+            "Xianjia Yu",
+            "Sier Ha",
+            "Jorge Pena Queralta",
+            "Tomi Westerlund"
+          ],
+          "caveat": "Abstract and publication record checked; experiments are specific to the paper’s ROS 2 setup, not MOSAIC.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://arxiv.org/abs/2309.07496"
+          ],
+          "id": "distributed-ros2-middleware-comparison",
+          "kind": "paper",
+          "published_on": "2023-09-14",
+          "relation": "alternative_approach",
+          "temporal_status": "published",
+          "title": "Comparison of Middlewares in Edge-to-Edge and Edge-to-Cloud Communication for Distributed ROS2 Systems",
+          "url": "https://arxiv.org/abs/2309.07496",
+          "verification": "listing_checked",
+          "why": "Compares communication tradeoffs under different networks for distributed robotic systems."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Eclipse Zenoh contributors"
+          ],
+          "caveat": "Comparison material; the EuroRust abstract does not say that MOSAIC uses Zenoh.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://zenoh.io/docs/overview/what-is-zenoh/"
+          ],
+          "id": "zenoh-overview",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "alternative_approach",
+          "temporal_status": "published",
+          "title": "What is Zenoh?",
+          "url": "https://zenoh.io/docs/overview/what-is-zenoh/",
+          "verification": "source_content_checked",
+          "why": "Introduces another approach to moving data across distributed and constrained systems."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "ROS 2 Rust contributors"
+          ],
+          "caveat": "Independent alternative; no claim that the speakers use this project.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://github.com/ros2-rust/ros2_rust"
+          ],
+          "id": "ros2-rust",
+          "kind": "project",
+          "published_on": null,
+          "relation": "alternative_approach",
+          "temporal_status": "published",
+          "title": "Rust bindings for ROS 2",
+          "url": "https://github.com/ros2-rust/ros2_rust",
+          "verification": "source_content_checked",
+          "why": "Shows how Rust can participate in an existing robotics middleware ecosystem."
+        },
+        {
+          "access": "registration",
+          "authors": [
+            "Guillaume Binet"
+          ],
+          "caveat": "Announced session on November 2, 2026; the title is the organizer’s wording, not a repository endorsement.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2026",
+            "name": "RustLab",
+            "source_url": "https://rustlab.it/talks/bridging-robotics-and-systems-programming-why-copper-is-a-game-changer",
+            "starts_on": "2026-11-02"
+          },
+          "evidence_urls": [
+            "https://rustlab.it/talks/bridging-robotics-and-systems-programming-why-copper-is-a-game-changer"
+          ],
+          "id": "rustlab-2026-copper",
+          "kind": "conference_talk",
+          "published_on": null,
+          "relation": "alternative_approach",
+          "temporal_status": "announced",
+          "title": "Bridging robotics and systems programming: why Copper is a game changer",
+          "url": "https://rustlab.it/talks/bridging-robotics-and-systems-programming-why-copper-is-a-game-changer",
+          "verification": "listing_checked",
+          "why": "Offers a future comparison of Rust runtime design for robot integration and concurrent execution."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-the-future-of-unmanned-systems-is-built-on-rust"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Espressif",
+            "esp-rs contributors"
+          ],
+          "caveat": "Hardware background, not the lamp's build instructions; match the target chip and current support.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://docs.espressif.com/projects/rust/book/"
+          ],
+          "id": "rust-on-esp-book",
+          "kind": "book",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "The Rust on ESP Book",
+          "url": "https://docs.espressif.com/projects/rust/book/",
+          "verification": "source_content_checked",
+          "why": "Learn the toolchains and embedded Rust options used around ESP devices."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "rs-matter-embassy contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://github.com/sysgrok/rs-matter-embassy"
+          ],
+          "id": "rs-matter-embassy-project",
+          "kind": "project",
+          "published_on": null,
+          "relation": "same_topic",
+          "temporal_status": "published",
+          "title": "rs-matter-embassy",
+          "url": "https://github.com/sysgrok/rs-matter-embassy",
+          "verification": "source_content_checked",
+          "why": "Explore Matter integration with Embassy for microcontroller-based home automation."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Uwe Pachler",
+            "rs-matter-embassy contributors"
+          ],
+          "caveat": "A public issue report, not complete lamp source code or a reviewed hardware guide.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://github.com/sysgrok/rs-matter-embassy/issues/33"
+          ],
+          "id": "pachler-matter-integration-report",
+          "kind": "project",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "ESP32C6 and IKEA Dirigera integration report",
+          "url": "https://github.com/sysgrok/rs-matter-embassy/issues/33",
+          "verification": "source_content_checked",
+          "why": "Read a concrete protocol-integration problem reported by the speaker."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Rust Embedded Devices Working Group"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://docs.rust-embedded.org/book/"
+          ],
+          "id": "embedded-rust-book",
+          "kind": "book",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "The Embedded Rust Book",
+          "url": "https://docs.rust-embedded.org/book/",
+          "verification": "source_content_checked",
+          "why": "Review hardware access, peripherals, and embedded concurrency before following the lamp's firmware choices."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-the-lamp"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Connor Tsui"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://spiraldb.com/blog/vortex-one-format-for-any-shape"
+          ],
+          "id": "vortex-any-shape-companion",
+          "kind": "article",
+          "published_on": "2026-09-16",
+          "relation": "same_topic",
+          "temporal_status": "published",
+          "title": "Vortex: One Format for Any Shape",
+          "url": "https://spiraldb.com/blog/vortex-one-format-for-any-shape",
+          "verification": "source_content_checked",
+          "why": "Read the speaker's longer explanation of extensible logical types, encodings, and storage layouts."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Vortex contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://github.com/vortex-data/vortex"
+          ],
+          "id": "vortex-project",
+          "kind": "project",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "Vortex",
+          "url": "https://github.com/vortex-data/vortex",
+          "verification": "source_content_checked",
+          "why": "Inspect the format, compression implementations, and examples behind the session."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Apache Arrow contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://arrow.apache.org/docs/format/Columnar.html"
+          ],
+          "id": "apache-arrow-columnar-format",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Arrow Columnar Format",
+          "url": "https://arrow.apache.org/docs/format/Columnar.html",
+          "verification": "source_content_checked",
+          "why": "Learn the buffer layouts, nested types, and extension types behind columnar data interchange."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Maximilian Kuschewski",
+            "David Sauerwein",
+            "Adnan Alhomssi",
+            "Viktor Leis"
+          ],
+          "caveat": "Research artifact and authors checked; the linked paper and recording were not reviewed in full.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2023",
+            "name": "ACM SIGMOD",
+            "source_url": "https://github.com/maxi-k/btrblocks",
+            "starts_on": null
+          },
+          "evidence_urls": [
+            "https://github.com/maxi-k/btrblocks",
+            "https://zenodo.org/records/7936448"
+          ],
+          "id": "btrblocks-research-artifact",
+          "kind": "project",
+          "published_on": null,
+          "relation": "alternative_approach",
+          "temporal_status": "published",
+          "title": "BtrBlocks: Efficient Columnar Compression for Data Lakes",
+          "url": "https://github.com/maxi-k/btrblocks",
+          "verification": "source_content_checked",
+          "why": "Compare another columnar compression design through its research code, paper, and SIGMOD presentation links."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-vortex-one-format-for-any-shape"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "lcnr"
+          ],
+          "caveat": "Official session description checked; no recording is linked here.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2025",
+            "name": "EuroRust",
+            "source_url": "https://eurorust.eu/2025/talks/znext-solver/",
+            "starts_on": "2025-10-09"
+          },
+          "evidence_urls": [
+            "https://eurorust.eu/2025/talks/znext-solver/"
+          ],
+          "id": "lcnr-next-solver-eurorust-2025",
+          "kind": "conference_talk",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "unknown",
+          "title": "-Znext-solver: what, why, and when",
+          "url": "https://eurorust.eu/2025/talks/znext-solver/",
+          "verification": "listing_checked",
+          "why": "Read the earlier motivation and design challenges behind the new trait solver."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "lcnr",
+            "Rustc Trait System Refactor Initiative"
+          ],
+          "caveat": "A dated nightly rollout report; planned stabilization is not a stable-release guarantee.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/"
+          ],
+          "id": "next-solver-nightly-2026",
+          "kind": "article",
+          "published_on": "2026-08-21",
+          "relation": "project_evolution",
+          "temporal_status": "published",
+          "title": "Enabling the next-generation trait solver on nightly",
+          "url": "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/",
+          "verification": "source_content_checked",
+          "why": "Connect the solver redesign to inference changes, compatibility tests, and future language work."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Rust compiler contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://rustc-dev-guide.rust-lang.org/solve/trait-solving.html"
+          ],
+          "id": "rustc-next-trait-solver-guide",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "Next-gen trait solving",
+          "url": "https://rustc-dev-guide.rust-lang.org/solve/trait-solving.html",
+          "verification": "source_content_checked",
+          "why": "Learn how goals, candidates, and constraints turn trait bounds into compiler decisions."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "lcnr"
+          ],
+          "caveat": "Historical analysis with an author correction; check the linked issue for current status.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://lcnr.de/blog/2022/02/05/diving-deep-implied-bounds-and-variance.html"
+          ],
+          "id": "lcnr-implied-bounds-variance",
+          "kind": "article",
+          "published_on": "2022-02-05",
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Diving Deep: implied bounds and variance",
+          "url": "https://lcnr.de/blog/2022/02/05/diving-deep-implied-bounds-and-variance.html",
+          "verification": "source_content_checked",
+          "why": "Work through a concrete soundness problem involving lifetime bounds and variance."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-what-s-next-for-rust-s-type-system"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "André Eriksson"
+          ],
+          "caveat": "A dated architecture article; product behavior may have changed.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://dev.to/encore/designing-an-algorithmic-cloud-infrastructure-provisioning-system-kde"
+          ],
+          "id": "encore-infrastructure-planner",
+          "kind": "article",
+          "published_on": "2022-10-24",
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Designing an algorithmic cloud infrastructure provisioning system",
+          "url": "https://dev.to/encore/designing-an-algorithmic-cloud-infrastructure-provisioning-system-kde",
+          "verification": "source_content_checked",
+          "why": "Read how the speaker connects application analysis, infrastructure dependencies, and deployment constraints."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Ivan Cernja"
+          ],
+          "caveat": "The article is published, but describes a pre-beta preview; it does not establish general availability.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://encore.dev/blog/encore-rs"
+          ],
+          "id": "encore-for-rust-preview",
+          "kind": "article",
+          "published_on": "2026-09-22",
+          "relation": "project_evolution",
+          "temporal_status": "published",
+          "title": "Encore for Rust",
+          "url": "https://encore.dev/blog/encore-rs",
+          "verification": "source_content_checked",
+          "why": "See how the announced Rust integration expresses application resource requirements in code."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Jesús Pérez"
+          ],
+          "caveat": "Programme checked; a recording was not verified.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2026",
+            "name": "Rustikon",
+            "source_url": "https://www.rustikon.dev/talk/why-i-needed-rust-finally-infrastructure-automation-i-can-sleep-on",
+            "starts_on": "2026-03-19"
+          },
+          "evidence_urls": [
+            "https://www.rustikon.dev/talk/why-i-needed-rust-finally-infrastructure-automation-i-can-sleep-on"
+          ],
+          "id": "infrastructure-rustikon-2026",
+          "kind": "conference_talk",
+          "published_on": null,
+          "relation": "same_topic",
+          "temporal_status": "unknown",
+          "title": "Why I Needed Rust: Finally, Infrastructure Automation I can sleep on",
+          "url": "https://www.rustikon.dev/talk/why-i-needed-rust-finally-infrastructure-automation-i-can-sleep-on",
+          "verification": "listing_checked",
+          "why": "Compare another engineer's use of type safety to address drift and failed infrastructure deployments."
+        },
+        {
+          "access": "registration",
+          "authors": [
+            "Jesús Pérez"
+          ],
+          "caveat": "Future session; the abstract's system guarantees have not been independently evaluated.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2026",
+            "name": "RustLab",
+            "source_url": "https://rustlab.it/talks/from-scripts-to-contracts-what-rusts-type-system-taught-me-about-infrastructure-c",
+            "starts_on": "2026-11-03"
+          },
+          "evidence_urls": [
+            "https://rustlab.it/talks/from-scripts-to-contracts-what-rusts-type-system-taught-me-about-infrastructure-c"
+          ],
+          "id": "infrastructure-contracts-rustlab-2026",
+          "kind": "conference_talk",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "announced",
+          "title": "From Scripts to Contracts: what Rust's type system taught me about infrastructure composition",
+          "url": "https://rustlab.it/talks/from-scripts-to-contracts-what-rusts-type-system-taught-me-about-infrastructure-c",
+          "verification": "listing_checked",
+          "why": "Explore an announced design for typed deployment composition, recovery, and agent access to infrastructure."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "talks-your-infrastructure-should-compile-too"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Tokio team"
+          ],
+          "caveat": "Historical introduction; use current project documentation for setup.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://tokio.rs/blog/2021-12-announcing-tokio-console"
+          ],
+          "id": "tokio-console-announcement",
+          "kind": "article",
+          "published_on": "2021-12-17",
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Announcing Tokio Console 0.1",
+          "url": "https://tokio.rs/blog/2021-12-announcing-tokio-console",
+          "verification": "source_content_checked",
+          "why": "Explains task states and why aggregate logs hide async runtime behavior."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Tokio contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://tokio.rs/tokio/topics/tracing"
+          ],
+          "id": "tokio-tracing-introduction",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Getting started with Tracing",
+          "url": "https://tokio.rs/tokio/topics/tracing",
+          "verification": "source_content_checked",
+          "why": "Introduces spans and events for following one request across async tasks."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "dial9 contributors"
+          ],
+          "caveat": "Project documentation checked; no profiling run was performed.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://github.com/dial9-rs/dial9"
+          ],
+          "id": "dial9-profiler",
+          "kind": "project",
+          "published_on": null,
+          "relation": "same_topic",
+          "temporal_status": "published",
+          "title": "dial9",
+          "url": "https://github.com/dial9-rs/dial9",
+          "verification": "source_content_checked",
+          "why": "Provides the workshop speaker’s profiling project for inspecting task scheduling and CPU activity."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Metrique contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://github.com/awslabs/metrique"
+          ],
+          "id": "metrique-wide-events",
+          "kind": "project",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "Metrique",
+          "url": "https://github.com/awslabs/metrique",
+          "verification": "source_content_checked",
+          "why": "Shows how structured records retain the context behind individual slow requests."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "workshops-beyond-p99-observing-async-rust"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Alexandru Agache",
+            "Marc Brooker",
+            "Andreea Florescu",
+            "Alexandra Iordache",
+            "Anthony Liguori",
+            "Rolf Neugebauer",
+            "Phil Piwonka",
+            "Diana-Maria Popa"
+          ],
+          "caveat": "The publisher page includes the paper, slides and a recording; results describe the 2020 system.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2020",
+            "name": "USENIX NSDI",
+            "source_url": "https://www.usenix.org/conference/nsdi20/presentation/agache",
+            "starts_on": null
+          },
+          "evidence_urls": [
+            "https://www.usenix.org/conference/nsdi20/presentation/agache"
+          ],
+          "id": "firecracker-nsdi-2020",
+          "kind": "paper",
+          "published_on": null,
+          "relation": "same_topic",
+          "temporal_status": "published",
+          "title": "Firecracker: Lightweight Virtualization for Serverless Applications",
+          "url": "https://www.usenix.org/conference/nsdi20/presentation/agache",
+          "verification": "listing_checked",
+          "why": "Explains the device, isolation and overhead choices behind a production microVM monitor."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Linux kernel contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://docs.kernel.org/virt/kvm/api.html"
+          ],
+          "id": "kvm-api",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "The KVM API",
+          "url": "https://docs.kernel.org/virt/kvm/api.html",
+          "verification": "source_content_checked",
+          "why": "Defines the VM, vCPU and memory interfaces used when building a Linux VMM."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "rust-vmm contributors"
+          ],
+          "caveat": "Reference implementation; no build or guest boot was performed.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://github.com/rust-vmm/vmm-reference"
+          ],
+          "id": "rust-vmm-reference",
+          "kind": "project",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "rust-vmm reference VMM",
+          "url": "https://github.com/rust-vmm/vmm-reference",
+          "verification": "source_content_checked",
+          "why": "Shows how reusable Rust virtualization components fit together in a small VMM."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "workshops-building-a-virtual-machine-monitor-in-rust"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Jonas Kruckenberg"
+          ],
+          "caveat": "Overview and contents checked; exercise solutions were not run.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://mainmatter.com/c-to-rust-migration-book/"
+          ],
+          "id": "c-to-rust-migration-book",
+          "kind": "book",
+          "published_on": null,
+          "relation": "same_topic",
+          "temporal_status": "published",
+          "title": "The C to Rust Migration Book",
+          "url": "https://mainmatter.com/c-to-rust-migration-book/",
+          "verification": "listing_checked",
+          "why": "Covers mixed-language APIs, ownership across FFI and incremental migration exercises."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Rust Project contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://doc.rust-lang.org/nomicon/ffi.html"
+          ],
+          "id": "rustonomicon-ffi",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Foreign Function Interface — The Rustonomicon",
+          "url": "https://doc.rust-lang.org/nomicon/ffi.html",
+          "verification": "source_content_checked",
+          "why": "Explains calling conventions, callbacks and unsafe boundaries when Rust and C share data."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Immunant and C2Rust contributors"
+          ],
+          "caveat": "The project states that translated output remains unsafe and needs further migration work.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://github.com/immunant/c2rust"
+          ],
+          "id": "c2rust",
+          "kind": "project",
+          "published_on": null,
+          "relation": "alternative_approach",
+          "temporal_status": "published",
+          "title": "C2Rust",
+          "url": "https://github.com/immunant/c2rust",
+          "verification": "source_content_checked",
+          "why": "Shows automated C translation as a starting point for comparison with manual migration."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Jonathan Pallant"
+          ],
+          "caveat": "Historical integration example; certification statements are tied to its publication date.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://ferrous-systems.com/blog/rust-and-threadx/"
+          ],
+          "id": "rust-threadx-interop",
+          "kind": "article",
+          "published_on": "2023-12-07",
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "Rust and ThreadX",
+          "url": "https://ferrous-systems.com/blog/rust-and-threadx/",
+          "verification": "source_content_checked",
+          "why": "Provides an embedded example of combining Rust with an existing C real-time operating system."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "workshops-c-to-rust"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Jonas Kruckenberg"
+          ],
+          "caveat": "Earlier programme with the same title and mentor; no recording or identical 2026 syllabus is claimed.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2025",
+            "name": "EuroRust",
+            "source_url": "https://eurorust.eu/2025/workshops/long-live-webassembly/",
+            "starts_on": "2025-10-08"
+          },
+          "evidence_urls": [
+            "https://eurorust.eu/2025/workshops/long-live-webassembly/"
+          ],
+          "id": "eurorust-2025-webassembly",
+          "kind": "workshop",
+          "published_on": null,
+          "relation": "repeat_appearance",
+          "temporal_status": "unknown",
+          "title": "Containers Are Dead: Long Live WebAssembly",
+          "url": "https://eurorust.eu/2025/workshops/long-live-webassembly/",
+          "verification": "listing_checked",
+          "why": "Lets readers compare the previous syllabus for Rust HTTP services, WASM deployment and diagnostics."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Bytecode Alliance contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://component-model.bytecodealliance.org/"
+          ],
+          "id": "webassembly-component-model",
+          "kind": "book",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "The WebAssembly Component Model",
+          "url": "https://component-model.bytecodealliance.org/",
+          "verification": "listing_checked",
+          "why": "Introduces components, interfaces and WASI before comparing service deployment models."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Wasmtime contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://docs.wasmtime.dev/security.html"
+          ],
+          "id": "wasmtime-security",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "same_topic",
+          "temporal_status": "published",
+          "title": "Wasmtime security model",
+          "url": "https://docs.wasmtime.dev/security.html",
+          "verification": "source_content_checked",
+          "why": "Explains sandboxing and capability-based filesystem access so isolation claims can be assessed."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Andreas Haas",
+            "Andreas Rossberg",
+            "Derek L. Schuff",
+            "Ben L. Titzer",
+            "Michael Holman",
+            "Dan Gohman",
+            "Luke Wagner",
+            "Alon Zakai",
+            "JF Bastien"
+          ],
+          "caveat": "2017 research paper; its original runtime results do not describe current WASI deployments.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://css.csail.mit.edu/6.5660/2024/readings/wasm.pdf",
+            "https://webassembly.org/community/events/"
+          ],
+          "id": "webassembly-pldi-2017",
+          "kind": "paper",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Bringing the Web up to Speed with WebAssembly",
+          "url": "https://css.csail.mit.edu/6.5660/2024/readings/wasm.pdf",
+          "verification": "listing_checked",
+          "why": "Explains WebAssembly’s portable execution model, validation and original design constraints."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "workshops-containers-are-dead"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Rust Embedded Devices Working Group"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://docs.rust-embedded.org/book/"
+          ],
+          "id": "embedded-rust-book",
+          "kind": "book",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "The Embedded Rust Book",
+          "url": "https://docs.rust-embedded.org/book/",
+          "verification": "listing_checked",
+          "why": "Introduces no_std programs, peripherals and the embedded development workflow."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Embassy contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://embassy.dev/book/"
+          ],
+          "id": "embassy-book",
+          "kind": "book",
+          "published_on": null,
+          "relation": "same_topic",
+          "temporal_status": "published",
+          "title": "Embassy Book",
+          "url": "https://embassy.dev/book/",
+          "verification": "listing_checked",
+          "why": "Explains the async executor and hardware abstractions used in the workshop."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Domenic Quirl"
+          ],
+          "caveat": "Repository description checked; exercises and hardware compatibility were not tested.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://github.com/domenicquirl/rust-embedded-intro"
+          ],
+          "id": "domenic-embedded-intro",
+          "kind": "project",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Introductory Presentation for Embedded Rust",
+          "url": "https://github.com/domenicquirl/rust-embedded-intro",
+          "verification": "listing_checked",
+          "why": "Offers introductory material from one of the workshop mentors."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "workshops-hands-on-embedded-rust"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Massimiliano Mantione",
+            "Michele Mantione"
+          ],
+          "caveat": "Date comes from the page’s embedded event data; current site branding says 2026. Delivery and recording are unverified.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2025",
+            "name": "RustLab",
+            "source_url": "https://rustlab.it/talks/programming-a-line-follower-robot",
+            "starts_on": "2025-11-02"
+          },
+          "evidence_urls": [
+            "https://rustlab.it/talks/programming-a-line-follower-robot"
+          ],
+          "id": "rustlab-2025-line-follower",
+          "kind": "workshop",
+          "published_on": null,
+          "relation": "repeat_appearance",
+          "temporal_status": "unknown",
+          "title": "Programming a line follower robot",
+          "url": "https://rustlab.it/talks/programming-a-line-follower-robot",
+          "verification": "listing_checked",
+          "why": "Shows an earlier workshop by the same mentors on simulated robots, PID control and telemetry."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Kevin M. Lynch",
+            "Frank C. Park"
+          ],
+          "caveat": "University description and transcript checked; video playback was not tested.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://modernrobotics.northwestern.edu/nu-gm-book-resource/11-3-motion-control-with-velocity-inputs-part-2-of-3/"
+          ],
+          "id": "modern-robotics-pi-control",
+          "kind": "video",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Motion Control with Velocity Inputs, Part 2",
+          "url": "https://modernrobotics.northwestern.edu/nu-gm-book-resource/11-3-motion-control-with-velocity-inputs-part-2-of-3/",
+          "verification": "source_content_checked",
+          "why": "Explains how integral feedback reduces tracking error before tuning a line follower."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Massimiliano Mantione"
+          ],
+          "caveat": "Earlier hardware-based workshop; this EuroRust workshop uses simulated line followers.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://github.com/massimiliano-mantione/rustlab-2023-robotic-sumo"
+          ],
+          "id": "robotic-sumo-rustlab-2023",
+          "kind": "project",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "RustLab 2023 Robotic Sumo workshop code",
+          "url": "https://github.com/massimiliano-mantione/rustlab-2023-robotic-sumo",
+          "verification": "source_content_checked",
+          "why": "Provides earlier robot-control exercises from a workshop mentor."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Kevin M. Lynch",
+            "Frank C. Park"
+          ],
+          "caveat": "The authors provide a free preprint; the printed book is sold separately.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://hades.mech.northwestern.edu/index.php/Modern_Robotics"
+          ],
+          "id": "modern-robotics-book",
+          "kind": "book",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "Modern Robotics: Mechanics, Planning, and Control",
+          "url": "https://hades.mech.northwestern.edu/index.php/Modern_Robotics",
+          "verification": "listing_checked",
+          "why": "Develops the motion and feedback-control foundations behind more advanced robot behavior."
+        },
+        {
+          "access": "registration",
+          "authors": [
+            "Massimiliano Mantione",
+            "Michele Mantione"
+          ],
+          "caveat": "Announced workshop on November 1, 2026; no recording is claimed.",
+          "checked_on": "2026-10-15",
+          "event": {
+            "edition": "2026",
+            "name": "RustLab",
+            "source_url": "https://rustlab.it/talks/accurate-robot-simulations-with-bevy-and-wasm-workshop",
+            "starts_on": "2026-11-01"
+          },
+          "evidence_urls": [
+            "https://rustlab.it/talks/accurate-robot-simulations-with-bevy-and-wasm-workshop"
+          ],
+          "id": "rustlab-2026-robot-simulation",
+          "kind": "workshop",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "announced",
+          "title": "Accurate Robot Simulations with Bevy and WASM",
+          "url": "https://rustlab.it/talks/accurate-robot-simulations-with-bevy-and-wasm-workshop",
+          "verification": "listing_checked",
+          "why": "Extends line-follower control into deterministic simulation, telemetry and separate WASM robot logic."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "workshops-programming-a-line-follower-robot"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "Kevin M. Lynch",
+            "Frank C. Park"
+          ],
+          "caveat": "The authors provide a free preprint; examples are not specific to the workshop SDK.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://hades.mech.northwestern.edu/index.php/Modern_Robotics"
+          ],
+          "id": "modern-robotics-book",
+          "kind": "book",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Modern Robotics: Mechanics, Planning, and Control",
+          "url": "https://hades.mech.northwestern.edu/index.php/Modern_Robotics",
+          "verification": "listing_checked",
+          "why": "Introduces the coordinate frames, motion and feedback control needed to connect perception to movement."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Kevin M. Lynch",
+            "Frank C. Park"
+          ],
+          "caveat": "University description and transcript checked; video playback was not tested.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://modernrobotics.northwestern.edu/nu-gm-book-resource/11-3-motion-control-with-velocity-inputs-part-2-of-3/"
+          ],
+          "id": "modern-robotics-pi-control",
+          "kind": "video",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Motion Control with Velocity Inputs, Part 2",
+          "url": "https://modernrobotics.northwestern.edu/nu-gm-book-resource/11-3-motion-control-with-velocity-inputs-part-2-of-3/",
+          "verification": "source_content_checked",
+          "why": "Gives a focused introduction to tracking a target with feedforward and PI feedback."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "OpenCV contributors"
+          ],
+          "caveat": "Independent background material; the workshop page does not say that its SDK uses OpenCV.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://docs.opencv.org/4.x/d9/df8/tutorial_root.html"
+          ],
+          "id": "opencv-tutorials",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "OpenCV tutorials",
+          "url": "https://docs.opencv.org/4.x/d9/df8/tutorial_root.html",
+          "verification": "listing_checked",
+          "why": "Provides camera calibration and image-processing background for interpreting vehicle camera data."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "workshops-rust-in-action"
+    },
+    {
+      "checked_on": "2026-10-15",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+      "resources": [
+        {
+          "access": "open",
+          "authors": [
+            "MAVLink contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://mavlink.io/en/"
+          ],
+          "id": "mavlink-guide",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "MAVLink Developer Guide",
+          "url": "https://mavlink.io/en/",
+          "verification": "source_content_checked",
+          "why": "Explains the message, heartbeat and routing concepts behind the workshop’s MAVLink connector."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "rust-mavlink contributors"
+          ],
+          "caveat": "A learning reference; no vehicle connection or hardware command was executed.",
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://github.com/mavlink/rust-mavlink"
+          ],
+          "id": "rust-mavlink",
+          "kind": "project",
+          "published_on": null,
+          "relation": "same_topic",
+          "temporal_status": "published",
+          "title": "rust-mavlink",
+          "url": "https://github.com/mavlink/rust-mavlink",
+          "verification": "source_content_checked",
+          "why": "Provides Rust bindings and examples for exchanging MAVLink messages."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Amazon Builders’ Library"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/"
+          ],
+          "id": "timeouts-retries-jitter",
+          "kind": "article",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Timeouts, retries, and backoff with jitter",
+          "url": "https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/",
+          "verification": "source_content_checked",
+          "why": "Explains timeout budgets, retry amplification and jitter before handling unreliable transport."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Tokio contributors"
+          ],
+          "caveat": null,
+          "checked_on": "2026-10-15",
+          "event": null,
+          "evidence_urls": [
+            "https://tokio.rs/tokio/topics/shutdown"
+          ],
+          "id": "tokio-graceful-shutdown",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "Graceful Shutdown",
+          "url": "https://tokio.rs/tokio/topics/shutdown",
+          "verification": "source_content_checked",
+          "why": "Shows how to cancel connector tasks and wait for cleanup when a service stops."
+        }
+      ],
+      "review_status": "source_checked_draft",
+      "session_id": "workshops-rust-on-the-field-integrating-real-autonomous-systems"
+    }
+  ]
+}

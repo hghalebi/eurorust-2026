@@ -27,6 +27,12 @@ EuroRust sessions (check official pages for details and access):
 - [GitHub: martinomburajr](https://github.com/martinomburajr). Named development profile with public programming projects.
 - [LinkedIn](https://www.linkedin.com/in/martinomburajr). Professional profile whose posts explicitly identify his RustConf appearance. [Attribution](https://www.linkedin.com/posts/martinomburajr_i-have-the-awesome-opportunity-to-speak-at-activity-7470250782769074176-4QC2).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Atomic Design Patterns in Rust: From Orderings to Code](../related-talks/talks-atomic-design-patterns-in-rust-from-orderings-to-code.md)
+
 ## Scope and sources
 
 No authored book verified. The university work is a master's thesis, not presented here as a peer-reviewed journal paper.

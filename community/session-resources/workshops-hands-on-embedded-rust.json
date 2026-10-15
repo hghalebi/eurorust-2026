@@ -1,0 +1,71 @@
+{
+  "session_id": "workshops-hands-on-embedded-rust",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+  "resources": [
+    {
+      "id": "embedded-rust-book",
+      "title": "The Embedded Rust Book",
+      "kind": "book",
+      "url": "https://docs.rust-embedded.org/book/",
+      "authors": [
+        "Rust Embedded Devices Working Group"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Introduces no_std programs, peripherals and the embedded development workflow.",
+      "evidence_urls": [
+        "https://docs.rust-embedded.org/book/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "embassy-book",
+      "title": "Embassy Book",
+      "kind": "book",
+      "url": "https://embassy.dev/book/",
+      "authors": [
+        "Embassy contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Explains the async executor and hardware abstractions used in the workshop.",
+      "evidence_urls": [
+        "https://embassy.dev/book/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "domenic-embedded-intro",
+      "title": "Introductory Presentation for Embedded Rust",
+      "kind": "project",
+      "url": "https://github.com/domenicquirl/rust-embedded-intro",
+      "authors": [
+        "Domenic Quirl"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Offers introductory material from one of the workshop mentors.",
+      "evidence_urls": [
+        "https://github.com/domenicquirl/rust-embedded-intro"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Repository description checked; exercises and hardware compatibility were not tested."
+    }
+  ]
+}

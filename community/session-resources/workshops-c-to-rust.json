@@ -1,0 +1,92 @@
+{
+  "session_id": "workshops-c-to-rust",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+  "resources": [
+    {
+      "id": "c-to-rust-migration-book",
+      "title": "The C to Rust Migration Book",
+      "kind": "book",
+      "url": "https://mainmatter.com/c-to-rust-migration-book/",
+      "authors": [
+        "Jonas Kruckenberg"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Covers mixed-language APIs, ownership across FFI and incremental migration exercises.",
+      "evidence_urls": [
+        "https://mainmatter.com/c-to-rust-migration-book/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Overview and contents checked; exercise solutions were not run."
+    },
+    {
+      "id": "rustonomicon-ffi",
+      "title": "Foreign Function Interface — The Rustonomicon",
+      "kind": "documentation",
+      "url": "https://doc.rust-lang.org/nomicon/ffi.html",
+      "authors": [
+        "Rust Project contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Explains calling conventions, callbacks and unsafe boundaries when Rust and C share data.",
+      "evidence_urls": [
+        "https://doc.rust-lang.org/nomicon/ffi.html"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "c2rust",
+      "title": "C2Rust",
+      "kind": "project",
+      "url": "https://github.com/immunant/c2rust",
+      "authors": [
+        "Immunant and C2Rust contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "alternative_approach",
+      "why": "Shows automated C translation as a starting point for comparison with manual migration.",
+      "evidence_urls": [
+        "https://github.com/immunant/c2rust"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "The project states that translated output remains unsafe and needs further migration work."
+    },
+    {
+      "id": "rust-threadx-interop",
+      "title": "Rust and ThreadX",
+      "kind": "article",
+      "url": "https://ferrous-systems.com/blog/rust-and-threadx/",
+      "authors": [
+        "Jonathan Pallant"
+      ],
+      "published_on": "2023-12-07",
+      "access": "open",
+      "relation": "next_step",
+      "why": "Provides an embedded example of combining Rust with an existing C real-time operating system.",
+      "evidence_urls": [
+        "https://ferrous-systems.com/blog/rust-and-threadx/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Historical integration example; certification statements are tied to its publication date."
+    }
+  ]
+}

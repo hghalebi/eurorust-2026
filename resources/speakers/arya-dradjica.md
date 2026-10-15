@@ -24,6 +24,12 @@ EuroRust sessions (check official pages for details and access):
 - [Compiler and optimization writing](https://bal-e.org/). Personal blog; indexed articles were available, but direct retrieval was blocked by robots rules during this review. [Attribution](https://bal-e.org/speed/krabby/2026/a-year/).
 - [SourceHut: bal-e](https://git.sr.ht/~bal-e). Development account identified by the author's published crate metadata. [Attribution](https://docs.rs/crate/takeaway/0.1.0/source/Cargo.toml).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Building a Query System](../related-talks/talks-building-a-query-system.md)
+
 ## Scope and sources
 
 No authored book, scholarly paper, or independently verified social-network account recorded.

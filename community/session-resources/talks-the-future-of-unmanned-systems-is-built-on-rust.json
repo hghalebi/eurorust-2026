@@ -1,0 +1,128 @@
+{
+  "session_id": "talks-the-future-of-unmanned-systems-is-built-on-rust",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed.",
+  "resources": [
+    {
+      "id": "oxidize-2026-mosaic",
+      "title": "Rust as the Foundation for Future Unmanned Systems",
+      "kind": "conference_talk",
+      "url": "https://oxidizeconf.com/sessions/keynote_rust_as_the-foundation_for_future_unmanned-systems",
+      "authors": [
+        "Sebastian Rietzscher",
+        "Sebastian Haas"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Provides an earlier account of MOSAIC’s architecture, Rust migration and legacy integration.",
+      "evidence_urls": [
+        "https://oxidizeconf.com/sessions/keynote_rust_as_the-foundation_for_future_unmanned-systems"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "unknown",
+      "event": {
+        "name": "Oxidize",
+        "edition": "2026",
+        "starts_on": "2026-09-15",
+        "source_url": "https://oxidizeconf.com/sessions/keynote_rust_as_the-foundation_for_future_unmanned-systems"
+      },
+      "caveat": "Official programme checked; different speakers from EuroRust, and no delivery or recording is verified."
+    },
+    {
+      "id": "distributed-ros2-middleware-comparison",
+      "title": "Comparison of Middlewares in Edge-to-Edge and Edge-to-Cloud Communication for Distributed ROS2 Systems",
+      "kind": "paper",
+      "url": "https://arxiv.org/abs/2309.07496",
+      "authors": [
+        "Jiaqiang Zhang",
+        "Xianjia Yu",
+        "Sier Ha",
+        "Jorge Pena Queralta",
+        "Tomi Westerlund"
+      ],
+      "published_on": "2023-09-14",
+      "access": "open",
+      "relation": "alternative_approach",
+      "why": "Compares communication tradeoffs under different networks for distributed robotic systems.",
+      "evidence_urls": [
+        "https://arxiv.org/abs/2309.07496"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Abstract and publication record checked; experiments are specific to the paper’s ROS 2 setup, not MOSAIC."
+    },
+    {
+      "id": "zenoh-overview",
+      "title": "What is Zenoh?",
+      "kind": "documentation",
+      "url": "https://zenoh.io/docs/overview/what-is-zenoh/",
+      "authors": [
+        "Eclipse Zenoh contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "alternative_approach",
+      "why": "Introduces another approach to moving data across distributed and constrained systems.",
+      "evidence_urls": [
+        "https://zenoh.io/docs/overview/what-is-zenoh/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Comparison material; the EuroRust abstract does not say that MOSAIC uses Zenoh."
+    },
+    {
+      "id": "ros2-rust",
+      "title": "Rust bindings for ROS 2",
+      "kind": "project",
+      "url": "https://github.com/ros2-rust/ros2_rust",
+      "authors": [
+        "ROS 2 Rust contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "alternative_approach",
+      "why": "Shows how Rust can participate in an existing robotics middleware ecosystem.",
+      "evidence_urls": [
+        "https://github.com/ros2-rust/ros2_rust"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Independent alternative; no claim that the speakers use this project."
+    },
+    {
+      "id": "rustlab-2026-copper",
+      "title": "Bridging robotics and systems programming: why Copper is a game changer",
+      "kind": "conference_talk",
+      "url": "https://rustlab.it/talks/bridging-robotics-and-systems-programming-why-copper-is-a-game-changer",
+      "authors": [
+        "Guillaume Binet"
+      ],
+      "published_on": null,
+      "access": "registration",
+      "relation": "alternative_approach",
+      "why": "Offers a future comparison of Rust runtime design for robot integration and concurrent execution.",
+      "evidence_urls": [
+        "https://rustlab.it/talks/bridging-robotics-and-systems-programming-why-copper-is-a-game-changer"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "announced",
+      "event": {
+        "name": "RustLab",
+        "edition": "2026",
+        "starts_on": "2026-11-02",
+        "source_url": "https://rustlab.it/talks/bridging-robotics-and-systems-programming-why-copper-is-a-game-changer"
+      },
+      "caveat": "Announced session on November 2, 2026; the title is the organizer’s wording, not a repository endorsement."
+    }
+  ]
+}

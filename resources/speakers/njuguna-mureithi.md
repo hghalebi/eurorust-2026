@@ -23,6 +23,12 @@ EuroRust sessions (check official pages for details and access):
 - [LinkedIn](https://www.linkedin.com/in/njuguna-m-152b4ba4/). Account linked from his personal site; the destination blocked automated retrieval. [Attribution](https://mureithi.me/).
 - [X / Twitter link from his website](https://twitter.com/tweetofnjuguna). Site-published account link, also used in the 2022 article. Current handle and activity could not be checked. [Attribution](https://mureithi.me/blog/background-job-processing-with-rust-actix-redis).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Lessons from building a background task processing library](../related-talks/talks-lessons-from-building-a-background-task-processing-library.md)
+
 ## Scope and sources
 
 No authored book, scholarly paper, or independently verified earlier conference talk found in this search.

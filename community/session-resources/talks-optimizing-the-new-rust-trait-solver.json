@@ -1,0 +1,76 @@
+{
+  "session_id": "talks-optimizing-the-new-rust-trait-solver",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+  "resources": [
+    {
+      "id": "next-trait-solver-guide",
+      "title": "Next-gen trait solving",
+      "kind": "documentation",
+      "url": "https://rustc-dev-guide.rust-lang.org/solve/trait-solving.html",
+      "authors": [
+        "Rust compiler contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Introduces goals, responses and the structure of rustc’s next trait solver.",
+      "evidence_urls": [
+        "https://rustc-dev-guide.rust-lang.org/solve/trait-solving.html"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "eurorust-2025-next-solver",
+      "title": "-Znext-solver: what, why, and when",
+      "kind": "conference_talk",
+      "url": "https://eurorust.eu/2025/talks/znext-solver/",
+      "authors": [
+        "lcnr"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "project_evolution",
+      "why": "Explains the correctness and performance problems that motivated replacing the previous solver.",
+      "evidence_urls": [
+        "https://eurorust.eu/2025/talks/znext-solver/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "unknown",
+      "event": {
+        "name": "EuroRust",
+        "edition": "2025",
+        "starts_on": "2025-10-09",
+        "source_url": "https://eurorust.eu/2025/talks/znext-solver/"
+      },
+      "caveat": "Official session description checked; delivery and recording are unverified."
+    },
+    {
+      "id": "chalk-book",
+      "title": "The Chalk Book",
+      "kind": "book",
+      "url": "https://rust-lang.github.io/chalk/book/",
+      "authors": [
+        "Chalk contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Explains logical goals, unification and canonical queries behind Rust trait reasoning.",
+      "evidence_urls": [
+        "https://rust-lang.github.io/chalk/book/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Chalk is useful background; it is not the implementation of rustc’s next trait solver."
+    }
+  ]
+}

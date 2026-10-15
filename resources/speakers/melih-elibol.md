@@ -27,6 +27,12 @@ EuroRust sessions (check official pages for details and access):
 - [GitHub: elibol](https://github.com/elibol). Development profile links directly to his NVIDIA research biography.
 - [LinkedIn](https://www.linkedin.com/in/elibol/). Professional identity associated with his own RustConf announcement. [Attribution](https://www.linkedin.com/posts/elibol_rustconf-rustconf26-rustlang-activity-7498832815288070144-C6jD).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Fearless Concurrency on the GPU](../related-talks/talks-fearless-concurrency-on-the-gpu.md)
+
 ## Scope and sources
 
 No authored book verified. The 2026 GPU paper is identified as a preprint; the Ray paper has a published conference record.

@@ -23,6 +23,12 @@ EuroRust sessions (check official pages for details and access):
 - [GitHub: aryan9600](https://github.com/aryan9600). The profile links the speaker's Kong role, personal site, and Flux projects.
 - [X / Twitter](https://twitter.com/aryan9600_). Handle linked from the personal site's About page; current posting activity was not verified. [Attribution](https://sanskarjaiswal.net/about/).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Designing State Machines for Streaming Proxies in Rust](../related-talks/talks-designing-state-machines-for-streaming-proxies-in-rust.md)
+
 ## Scope and sources
 
 No authored book or scholarly paper was verified. Same-name academic, marketing, and other developer profiles could not be connected to this speaker and were excluded.

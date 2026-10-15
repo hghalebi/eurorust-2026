@@ -1,0 +1,76 @@
+{
+  "session_id": "talks-running-safely-with-scissors-lock-free-concurrency-for-maximum-throughput",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed.",
+  "resources": [
+    {
+      "id": "rust-atomics-and-locks",
+      "title": "Rust Atomics and Locks",
+      "kind": "book",
+      "url": "https://mara.nl/atomics/",
+      "authors": [
+        "Mara Bos"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Builds the memory-ordering and synchronization knowledge needed to assess lock-free code.",
+      "evidence_urls": [
+        "https://mara.nl/atomics/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Free online edition; the book’s introduction and contents were checked."
+    },
+    {
+      "id": "lock-freedom-without-gc",
+      "title": "Lock-freedom without garbage collection",
+      "kind": "article",
+      "url": "https://aturon.github.io/blog/2015/08/27/epoch/",
+      "authors": [
+        "Aaron Turon"
+      ],
+      "published_on": "2015-08-27",
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Explains epoch-based reclamation and how Rust types can protect concurrent data-structure APIs.",
+      "evidence_urls": [
+        "https://aturon.github.io/blog/2015/08/27/epoch/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Historical Crossbeam design article; current library APIs and benchmark results may differ."
+    },
+    {
+      "id": "rustlab-2026-talking-to-ghosts",
+      "title": "Talking to ghosts",
+      "kind": "conference_talk",
+      "url": "https://rustlab.it/talks/talking-to-ghosts",
+      "authors": [
+        "Arya Dradjica"
+      ],
+      "published_on": null,
+      "access": "registration",
+      "relation": "same_topic",
+      "why": "Offers another treatment of concurrent memory reclamation and its API tradeoffs.",
+      "evidence_urls": [
+        "https://rustlab.it/talks/talking-to-ghosts"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "announced",
+      "event": {
+        "name": "RustLab",
+        "edition": "2026",
+        "starts_on": "2026-11-03",
+        "source_url": "https://rustlab.it/talks/talking-to-ghosts"
+      },
+      "caveat": "Announced session on November 3, 2026; no recording is claimed."
+    }
+  ]
+}

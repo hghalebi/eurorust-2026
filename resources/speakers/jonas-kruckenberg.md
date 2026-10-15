@@ -33,6 +33,13 @@ EuroRust sessions (check official pages for details and access):
 - [Mastodon](https://m.webtoo.ls/@unsafe). Account linked from his GitHub profile. [Attribution](https://github.com/JonasKruckenberg).
 - [X / Twitter](https://twitter.com/jonaskruckie). Account linked by GitHub and the GitNation speaker page. [Attribution](https://gitnation.com/person/jonas_kruckenberg).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Containers Are Dead: Long Live WebAssembly](../related-talks/workshops-containers-are-dead.md)
+- [Build systems: when your systems need systems to build](../related-talks/talks-build-systems-when-your-systems-need-systems-to-build.md)
+
 ## Scope and sources
 
 No scholarly paper verified; the book and technical essay are identified separately.

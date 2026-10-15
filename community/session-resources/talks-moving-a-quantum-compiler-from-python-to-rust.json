@@ -1,0 +1,96 @@
+{
+  "session_id": "talks-moving-a-quantum-compiler-from-python-to-rust",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+  "resources": [
+    {
+      "id": "lightsabre-paper",
+      "title": "LightSABRE: A Lightweight and Enhanced SABRE Algorithm",
+      "kind": "paper",
+      "url": "https://arxiv.org/abs/2409.08368",
+      "authors": [
+        "Henry Zou",
+        "Matthew Treinish",
+        "Kevin Hartman",
+        "Alexander Ivrii",
+        "Jake Lishman"
+      ],
+      "published_on": "2024-09-12",
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Study a concrete Qiskit routing algorithm developed mainly in Rust during the compiler migration.",
+      "evidence_urls": [
+        "https://arxiv.org/abs/2409.08368"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Preprint abstract and metadata checked; performance figures belong to the paper's specific comparisons."
+    },
+    {
+      "id": "qiskit-2-release",
+      "title": "Release News: Qiskit SDK v2.0 is here!",
+      "kind": "article",
+      "url": "https://www.ibm.com/quantum/blog/qiskit-2-0-release-summary",
+      "authors": [
+        "Qiskit Team"
+      ],
+      "published_on": "2025-04-03",
+      "access": "open",
+      "relation": "project_evolution",
+      "why": "Follow the Rust data-model changes and C interface introduced during Qiskit's migration.",
+      "evidence_urls": [
+        "https://www.ibm.com/quantum/blog/qiskit-2-0-release-summary"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "A historical release report; consult current documentation for supported APIs."
+    },
+    {
+      "id": "pyo3-user-guide",
+      "title": "PyO3 user guide",
+      "kind": "documentation",
+      "url": "https://pyo3.rs/",
+      "authors": [
+        "PyO3 contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Understand the Python/Rust ownership boundary used when accelerating an existing Python library.",
+      "evidence_urls": [
+        "https://pyo3.rs/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "The root URL follows the current version; match documentation to your dependency version."
+    },
+    {
+      "id": "qiskit-transpilation-guide",
+      "title": "Introduction to transpilation",
+      "kind": "documentation",
+      "url": "https://quantum.cloud.ibm.com/docs/en/guides/transpile",
+      "authors": [
+        "IBM Quantum contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Learn why quantum circuits need routing and transformation for the target hardware.",
+      "evidence_urls": [
+        "https://quantum.cloud.ibm.com/docs/en/guides/transpile"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    }
+  ]
+}

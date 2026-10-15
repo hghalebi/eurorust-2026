@@ -1,0 +1,73 @@
+{
+  "session_id": "talks-qt-bridges-bringing-a-mature-c-ui-framework-to-rust",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+  "resources": [
+    {
+      "id": "qt-bridge-rust-03-soundness",
+      "title": "Qt Bridge for Rust 0.3 Beta: CXX-Qt Compatibility and Soundness",
+      "kind": "article",
+      "url": "https://www.qt.io/blog/qt-bridge-for-rust-0.3-cxx-qt-compatibility-and-soundness",
+      "authors": [
+        "Matthias Rauter"
+      ],
+      "published_on": "2026-09-23",
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Read the speaker's explanation of ownership changes and soundness fixes at the QML boundary.",
+      "evidence_urls": [
+        "https://www.qt.io/blog/qt-bridge-for-rust-0.3-cxx-qt-compatibility-and-soundness"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "This describes a beta version; check current APIs before using its migration advice."
+    },
+    {
+      "id": "cxx-qt-book",
+      "title": "CXX-Qt documentation",
+      "kind": "book",
+      "url": "https://kdab.github.io/cxx-qt/book/",
+      "authors": [
+        "KDAB",
+        "CXX-Qt contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Follow QObject, QML, type conversion, and build-system integration in a related Qt bridge.",
+      "evidence_urls": [
+        "https://kdab.github.io/cxx-qt/book/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "cxx-guide",
+      "title": "CXX: Rust and C++ interoperability",
+      "kind": "documentation",
+      "url": "https://cxx.rs/",
+      "authors": [
+        "David Tolnay",
+        "CXX contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Understand the CXX layer that supports Rust and C++ types crossing the Qt boundary.",
+      "evidence_urls": [
+        "https://cxx.rs/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    }
+  ]
+}

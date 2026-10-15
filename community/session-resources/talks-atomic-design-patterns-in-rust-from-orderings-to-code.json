@@ -1,0 +1,124 @@
+{
+  "session_id": "talks-atomic-design-patterns-in-rust-from-orderings-to-code",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+  "resources": [
+    {
+      "id": "rust-atomics-and-locks",
+      "title": "Rust Atomics and Locks",
+      "kind": "book",
+      "url": "https://mara.nl/atomics/",
+      "authors": [
+        "Mara Bos"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Work through memory ordering and the construction of locks and other synchronization primitives.",
+      "evidence_urls": [
+        "https://mara.nl/atomics/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "The author provides the full book online; print and commercial ebook editions are separate."
+    },
+    {
+      "id": "rust-atomic-memory-model",
+      "title": "Rust atomic types and memory ordering",
+      "kind": "documentation",
+      "url": "https://doc.rust-lang.org/std/sync/atomic/index.html",
+      "authors": [
+        "Rust project contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Check the standard library's ordering guarantees and restrictions before judging an atomic pattern.",
+      "evidence_urls": [
+        "https://doc.rust-lang.org/std/sync/atomic/index.html"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "loom-concurrency-testing",
+      "title": "Loom",
+      "kind": "project",
+      "url": "https://github.com/tokio-rs/loom",
+      "authors": [
+        "Loom contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Explore small concurrent tests across possible thread and memory-model interleavings.",
+      "evidence_urls": [
+        "https://github.com/tokio-rs/loom"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Model checking applies within the tested model and bounds; it does not replace a correctness argument."
+    },
+    {
+      "id": "atomic-patterns-rustconf-2026",
+      "title": "Rust Atomics in the Wild: Memory Ordering Design Patterns from Popular Crates",
+      "kind": "conference_talk",
+      "url": "https://rustconf2026.sched.com/event/2KHth",
+      "authors": [
+        "Martin Ombura Jr."
+      ],
+      "published_on": null,
+      "access": "unknown",
+      "relation": "same_topic",
+      "why": "Follow the same speaker's earlier session on atomic patterns found in Rust crates.",
+      "evidence_urls": [
+        "https://rustconf.com/speakers/",
+        "https://rustconf2026.sched.com/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "unknown",
+      "event": {
+        "name": "RustConf",
+        "edition": "2026",
+        "starts_on": "2026-09-10",
+        "source_url": "https://rustconf2026.sched.com/"
+      },
+      "caveat": "Official timetable and speaker roster checked. Detail-page access was inconsistent; delivery and recording remain unverified."
+    },
+    {
+      "id": "talking-to-ghosts-rustlab-2026",
+      "title": "Talking to ghosts",
+      "kind": "conference_talk",
+      "url": "https://rustlab.it/talks/talking-to-ghosts",
+      "authors": [
+        "Arya Dradjica"
+      ],
+      "published_on": null,
+      "access": "registration",
+      "relation": "next_step",
+      "why": "Extend atomic coordination into the harder problem of reclaiming memory while other threads may still read it.",
+      "evidence_urls": [
+        "https://rustlab.it/talks/talking-to-ghosts"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "announced",
+      "event": {
+        "name": "RustLab",
+        "edition": "2026",
+        "starts_on": "2026-11-03",
+        "source_url": "https://rustlab.it/talks/talking-to-ghosts"
+      },
+      "caveat": "Future programme entry; concurrent memory reclamation is a follow-up topic, not a repeat of the EuroRust talk."
+    }
+  ]
+}

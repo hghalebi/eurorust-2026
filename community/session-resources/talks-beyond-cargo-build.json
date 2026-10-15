@@ -1,0 +1,105 @@
+{
+  "session_id": "talks-beyond-cargo-build",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+  "resources": [
+    {
+      "id": "amos-rust-build-slow",
+      "title": "Why is my Rust build so slow?",
+      "kind": "article",
+      "url": "https://fasterthanli.me/articles/why-is-my-rust-build-so-slow",
+      "authors": [
+        "Amos Wenger"
+      ],
+      "published_on": "2021-12-30",
+      "access": "open",
+      "relation": "preparation",
+      "why": "Follow the speaker's investigation of build steps, incremental work, and compiler cost.",
+      "evidence_urls": [
+        "https://fasterthanli.me/articles/why-is-my-rust-build-so-slow"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "A historical investigation; its compiler regressions and timings do not describe current Rust."
+    },
+    {
+      "id": "build-systems-a-la-carte",
+      "title": "Build systems à la carte",
+      "kind": "paper",
+      "url": "https://www.microsoft.com/en-us/research/publication/build-systems-la-carte/",
+      "authors": [
+        "Andrey Mokhov",
+        "Neil Mitchell",
+        "Simon Peyton Jones"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Use a research framework to assess dynamic dependencies, caching, and remote builds.",
+      "evidence_urls": [
+        "https://www.microsoft.com/en-us/research/publication/build-systems-la-carte/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": {
+        "name": "ICFP",
+        "edition": "2018",
+        "starts_on": null,
+        "source_url": "https://www.microsoft.com/en-us/research/publication/build-systems-la-carte/"
+      },
+      "caveat": "Research landing page and summary checked; the full paper was not reviewed."
+    },
+    {
+      "id": "bazel-hermeticity",
+      "title": "Hermeticity",
+      "kind": "documentation",
+      "url": "https://bazel.build/basics/hermeticity",
+      "authors": [
+        "Bazel contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Learn the reproducibility conditions behind sharing cached or remotely executed build outputs.",
+      "evidence_urls": [
+        "https://bazel.build/basics/hermeticity"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "cargo-ci-rustconf-2026",
+      "title": "Tips for Speeding Up Cargo Build in CI",
+      "kind": "conference_talk",
+      "url": "https://rustconf2026.sched.com/event/2KHtV",
+      "authors": [
+        "Kaitlin Seng"
+      ],
+      "published_on": null,
+      "access": "unknown",
+      "relation": "same_topic",
+      "why": "Compare earlier practical CI build advice with the session's broader build-system proposal.",
+      "evidence_urls": [
+        "https://rustconf.com/speakers/",
+        "https://rustconf2026.sched.com/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "unknown",
+      "event": {
+        "name": "RustConf",
+        "edition": "2026",
+        "starts_on": "2026-09-09",
+        "source_url": "https://rustconf2026.sched.com/"
+      },
+      "caveat": "Official timetable and speaker roster checked. Detail-page access was inconsistent; delivery and recording remain unverified."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "session_id": "workshops-rust-on-the-field-integrating-real-autonomous-systems",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+  "resources": [
+    {
+      "id": "mavlink-guide",
+      "title": "MAVLink Developer Guide",
+      "kind": "documentation",
+      "url": "https://mavlink.io/en/",
+      "authors": [
+        "MAVLink contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Explains the message, heartbeat and routing concepts behind the workshop’s MAVLink connector.",
+      "evidence_urls": [
+        "https://mavlink.io/en/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "rust-mavlink",
+      "title": "rust-mavlink",
+      "kind": "project",
+      "url": "https://github.com/mavlink/rust-mavlink",
+      "authors": [
+        "rust-mavlink contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Provides Rust bindings and examples for exchanging MAVLink messages.",
+      "evidence_urls": [
+        "https://github.com/mavlink/rust-mavlink"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "A learning reference; no vehicle connection or hardware command was executed."
+    },
+    {
+      "id": "timeouts-retries-jitter",
+      "title": "Timeouts, retries, and backoff with jitter",
+      "kind": "article",
+      "url": "https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/",
+      "authors": [
+        "Amazon Builders’ Library"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Explains timeout budgets, retry amplification and jitter before handling unreliable transport.",
+      "evidence_urls": [
+        "https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "tokio-graceful-shutdown",
+      "title": "Graceful Shutdown",
+      "kind": "documentation",
+      "url": "https://tokio.rs/tokio/topics/shutdown",
+      "authors": [
+        "Tokio contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Shows how to cancel connector tasks and wait for cleanup when a service stops.",
+      "evidence_urls": [
+        "https://tokio.rs/tokio/topics/shutdown"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    }
+  ]
+}

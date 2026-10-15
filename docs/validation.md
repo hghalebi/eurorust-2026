@@ -6,6 +6,43 @@ provenance. For the current code revision, inspect its completed
 below record checks at specific times and revisions. Use
 [the contribution checks](../CONTRIBUTING.md#checks) to reproduce them.
 
+## Conference archives and reading lists — 2026-10-15
+
+Local verification on macOS arm64, Rust/Cargo 1.98.0, for the archive addition
+based on `24fffd4f8286aa452ccc05d9daf9a13404b51733`:
+
+- All 39 EuroRust talks and workshops have checked resource inputs: 150
+  recommendations linking to 128 distinct destinations. Each session includes
+  a book, article, paper, or video, alongside other relevant formats.
+- Archive references, date bounds, speaker attribution, and programme counts
+  passed: 21 series or tracks, 59 editions, and 651 indexed entries. A separate
+  reconciliation matched the coverage ledger's 226 material links and 589
+  speaker-profile references. These are link counts, not unique works or people.
+- Workspace formatting, Clippy with warnings denied, 26 unit/integration tests,
+  and 11 rustdoc cases passed, including six compile-fail cases. The release
+  executable was installed locally and exercised. Generated views and hashes,
+  the official dataset, 189 public Markdown files, and all four published
+  itineraries passed their checks.
+- Failure checks cover missing resource evidence, stale generated pages,
+  incorrect speaker routes, misspelled archive fields, inconsistent dates,
+  changed source content during refresh, and invalid input preserving output.
+- A fresh public source checkout contained no private plan, cache, local binary,
+  or build output. It built successfully, and its installed executable passed
+  data, learning, archive, document, and all four itinerary checks. Both workflow
+  YAML files and their embedded Bash passed syntax checks.
+
+The official EuroRust catalog and immutable snapshots are unchanged. Source
+inspection does not establish full-book review or video playback. The
+[archive source ledger](../community/conference-archive/sources.json) distinguishes
+543 fetched URLs, 555 source-linked URLs, and three access failures. The latter
+are RUSTAsia's HTTP 503 response and two Rust Belt Rust TLS failures. Two RustConf
+detail-page requests also timed out during resource link checks; its main
+timetable was retrieved and used to reconcile dates. Coverage remains explicit
+in the [edition inventory](../resources/conferences/editions.md).
+
+This receipt records local checks. Match the exact published revision to its
+completed Actions run for remote CI evidence.
+
 ## Documentation walkthrough — 2026-10-14
 
 The revised [quick start](quickstart.md) was reproduced from a fresh public clone

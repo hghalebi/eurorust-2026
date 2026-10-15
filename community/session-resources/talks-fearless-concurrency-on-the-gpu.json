@@ -1,0 +1,105 @@
+{
+  "session_id": "talks-fearless-concurrency-on-the-gpu",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+  "resources": [
+    {
+      "id": "fearless-gpu-paper",
+      "title": "Fearless Concurrency on the GPU",
+      "kind": "paper",
+      "url": "https://arxiv.org/abs/2606.15991",
+      "authors": [
+        "Melih Elibol",
+        "Jared Roesch",
+        "Isaac Gelado",
+        "Eric Buehler",
+        "Michael Garland"
+      ],
+      "published_on": "2026-06-14",
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Read the ownership model behind safe tile kernels and the limits that still require runtime checks.",
+      "evidence_urls": [
+        "https://arxiv.org/abs/2606.15991"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Preprint first posted June 14 and revised September 17, 2026; abstract and metadata checked, not the full proof."
+    },
+    {
+      "id": "cutile-rust-project",
+      "title": "cuTile Rust",
+      "kind": "project",
+      "url": "https://github.com/NVlabs/cutile-rs",
+      "authors": [
+        "NVIDIA Research",
+        "cuTile Rust contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Explore the GPU kernel examples and host-side ownership API discussed in the session.",
+      "evidence_urls": [
+        "https://github.com/NVlabs/cutile-rs"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "An early research project; hardware support, API stability, and safety assumptions need checking before use."
+    },
+    {
+      "id": "nvidia-agentic-cuda-rust",
+      "title": "Translating CUDA Tile Operations from Python to Rust Using Agentic AI",
+      "kind": "article",
+      "url": "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai/",
+      "authors": [
+        "Yinuo Liu",
+        "Melih Elibol",
+        "Dheemanth Manur"
+      ],
+      "published_on": "2026-09-16",
+      "access": "open",
+      "relation": "next_step",
+      "why": "Study an agent-assisted porting workflow that checks intermediate representation, correctness, and performance.",
+      "evidence_urls": [
+        "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "The authors' workflow and benchmarks cover their stated kernel set and hardware."
+    },
+    {
+      "id": "fearless-gpu-rustconf-2026",
+      "title": "Fearless Concurrency on the GPU",
+      "kind": "conference_talk",
+      "url": "https://rustconf2026.sched.com/event/2KHsv",
+      "authors": [
+        "Melih Elibol"
+      ],
+      "published_on": null,
+      "access": "unknown",
+      "relation": "repeat_appearance",
+      "why": "Find the same speaker and title in the earlier RustConf programme.",
+      "evidence_urls": [
+        "https://rustconf.com/speakers/",
+        "https://rustconf2026.sched.com/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "unknown",
+      "event": {
+        "name": "RustConf",
+        "edition": "2026",
+        "starts_on": "2026-09-09",
+        "source_url": "https://rustconf2026.sched.com/"
+      },
+      "caveat": "Official timetable and speaker roster checked. Detail-page access was inconsistent; delivery and recording remain unverified."
+    }
+  ]
+}

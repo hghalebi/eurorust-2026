@@ -27,6 +27,12 @@ EuroRust sessions (check official pages for details and access):
 - [Mastodon: Tris](https://namtao.com/@tris). The current account linked by the creator; GitHub explicitly describes the previous mastodon.social account as a former address. [Attribution](https://github.com/0atman).
 - [Mastodon: No Boilerplate](https://namtao.com/@noboilerplate). The show's update account, linked from the official show website. [Attribution](https://noboilerplate.org/).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Game Show](../related-talks/talks-game-show.md)
+
 ## Scope and sources
 
 No technical book or scholarly publication was verified. The selected written publication is an engineering manifesto, not a research paper.

@@ -15,6 +15,12 @@ EuroRust sessions (check official pages for details and access):
 
 - [RustLab speaker profile](https://rustlab.it/speakers/mickmantione). Organizer profile matches EuroRust's software-engineering and robotics biography.
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Programming a Line Follower Robot](../related-talks/workshops-programming-a-line-follower-robot.md)
+
 ## Scope and sources
 
 No personal weblog, social account, authored book, scholarly paper, or personally attributable open-source repository was confidently verified.

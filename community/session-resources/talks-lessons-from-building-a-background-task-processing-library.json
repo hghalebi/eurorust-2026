@@ -1,0 +1,93 @@
+{
+  "session_id": "talks-lessons-from-building-a-background-task-processing-library",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+  "resources": [
+    {
+      "id": "apalis",
+      "title": "Apalis",
+      "kind": "project",
+      "url": "https://apalis.dev/",
+      "authors": [
+        "Njuguna Mureithi",
+        "Apalis contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Provides the worker API, storage backends and shutdown behavior behind the speaker’s library.",
+      "evidence_urls": [
+        "https://apalis.dev/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "mureithi-background-jobs",
+      "title": "Background job processing with Rust using Actix and Redis",
+      "kind": "article",
+      "url": "https://mureithi.me/blog/background-job-processing-with-rust-actix-redis",
+      "authors": [
+        "Njuguna Mureithi"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "project_evolution",
+      "why": "Shows an earlier design for separating request handling from background job execution.",
+      "evidence_urls": [
+        "https://mureithi.me/blog/background-job-processing-with-rust-actix-redis"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Historical article; examples may use older APIs than current Apalis."
+    },
+    {
+      "id": "tokio-graceful-shutdown",
+      "title": "Graceful Shutdown",
+      "kind": "documentation",
+      "url": "https://tokio.rs/tokio/topics/shutdown",
+      "authors": [
+        "Tokio contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Explains cancellation and task completion when workers stop or restart.",
+      "evidence_urls": [
+        "https://tokio.rs/tokio/topics/shutdown"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "timeouts-retries-jitter",
+      "title": "Timeouts, retries, and backoff with jitter",
+      "kind": "article",
+      "url": "https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/",
+      "authors": [
+        "Amazon Builders’ Library"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Explains retry budgets and backoff choices that keep background workers from multiplying failures.",
+      "evidence_urls": [
+        "https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    }
+  ]
+}

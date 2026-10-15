@@ -25,6 +25,12 @@ EuroRust sessions (check official pages for details and access):
 - [GitHub: llogiq](https://github.com/llogiq). Handle confirmed by the Rust project's team directory. [Attribution](https://rust-lang.org/governance/teams/moderation/).
 - [X / Twitter: llogiq](https://twitter.com/llogiq). Public handle listed in the Rust mentoring directory; recent activity not checked. [Attribution](https://github.com/RustBeginners/awesome-rust-mentors/blob/master/_includes/mentors.md).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [From Deref Into Borrow, a Primer on Standard Library Traits](../related-talks/talks-from-deref-into-borrow-a-primer-on-standard-library-traits.md)
+
 ## Scope and sources
 
 No authored book or scholarly paper verified.

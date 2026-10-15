@@ -1,0 +1,93 @@
+{
+  "session_id": "talks-image-codecs-rustification-in-chromium",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+  "resources": [
+    {
+      "id": "edge-rustifying-image-codecs",
+      "title": "Rustifying Image Codecs in Chromium",
+      "kind": "article",
+      "url": "https://microsoftedge.github.io/edgevr/posts/Rustifying-Image-Codecs-in-Chromium/",
+      "authors": [
+        "Sergio Gonzalez Martin"
+      ],
+      "published_on": "2026-07-17",
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Read the speaker's account of codec migration, streaming compatibility, upstream work, and staged rollout.",
+      "evidence_urls": [
+        "https://microsoftedge.github.io/edgevr/posts/Rustifying-Image-Codecs-in-Chromium/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Codec status and performance results describe the author's dated evaluation."
+    },
+    {
+      "id": "image-png-adoption-2026",
+      "title": "Rust PNG crate gets even faster, used by GNOME and Chromium",
+      "kind": "article",
+      "url": "https://blog.image-rs.org/2026/06/18/png-adoption.html",
+      "authors": [
+        "Shnatsel"
+      ],
+      "published_on": "2026-06-18",
+      "access": "open",
+      "relation": "preparation",
+      "why": "See the upstream PNG work on partial decoding, compatibility, fuzzing, and browser integration.",
+      "evidence_urls": [
+        "https://blog.image-rs.org/2026/06/18/png-adoption.html"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "image-rs-image",
+      "title": "image: encoding and decoding images in Rust",
+      "kind": "project",
+      "url": "https://github.com/image-rs/image",
+      "authors": [
+        "image-rs contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Inspect the upstream decoder APIs and supported formats used in the browser migration.",
+      "evidence_urls": [
+        "https://github.com/image-rs/image"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "cxx-guide",
+      "title": "CXX: Rust and C++ interoperability",
+      "kind": "documentation",
+      "url": "https://cxx.rs/",
+      "authors": [
+        "David Tolnay",
+        "CXX contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Understand the Rust and C++ boundary needed when replacing codecs inside an existing browser.",
+      "evidence_urls": [
+        "https://cxx.rs/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    }
+  ]
+}

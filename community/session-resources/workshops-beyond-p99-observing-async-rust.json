@@ -1,0 +1,92 @@
+{
+  "session_id": "workshops-beyond-p99-observing-async-rust",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+  "resources": [
+    {
+      "id": "tokio-console-announcement",
+      "title": "Announcing Tokio Console 0.1",
+      "kind": "article",
+      "url": "https://tokio.rs/blog/2021-12-announcing-tokio-console",
+      "authors": [
+        "Tokio team"
+      ],
+      "published_on": "2021-12-17",
+      "access": "open",
+      "relation": "preparation",
+      "why": "Explains task states and why aggregate logs hide async runtime behavior.",
+      "evidence_urls": [
+        "https://tokio.rs/blog/2021-12-announcing-tokio-console"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Historical introduction; use current project documentation for setup."
+    },
+    {
+      "id": "tokio-tracing-introduction",
+      "title": "Getting started with Tracing",
+      "kind": "documentation",
+      "url": "https://tokio.rs/tokio/topics/tracing",
+      "authors": [
+        "Tokio contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Introduces spans and events for following one request across async tasks.",
+      "evidence_urls": [
+        "https://tokio.rs/tokio/topics/tracing"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "dial9-profiler",
+      "title": "dial9",
+      "kind": "project",
+      "url": "https://github.com/dial9-rs/dial9",
+      "authors": [
+        "dial9 contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Provides the workshop speaker’s profiling project for inspecting task scheduling and CPU activity.",
+      "evidence_urls": [
+        "https://github.com/dial9-rs/dial9"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Project documentation checked; no profiling run was performed."
+    },
+    {
+      "id": "metrique-wide-events",
+      "title": "Metrique",
+      "kind": "project",
+      "url": "https://github.com/awslabs/metrique",
+      "authors": [
+        "Metrique contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Shows how structured records retain the context behind individual slow requests.",
+      "evidence_urls": [
+        "https://github.com/awslabs/metrique"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    }
+  ]
+}

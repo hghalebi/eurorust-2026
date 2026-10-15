@@ -1,0 +1,206 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ResourceSet",
+  "type": "object",
+  "properties": {
+    "checked_on": {
+      "type": "string",
+      "format": "date"
+    },
+    "research_note": {
+      "type": "string"
+    },
+    "resources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Resource"
+      }
+    },
+    "review_status": {
+      "$ref": "#/$defs/AnnotationReview"
+    },
+    "session_id": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "session_id",
+    "checked_on",
+    "review_status",
+    "research_note",
+    "resources"
+  ],
+  "$defs": {
+    "Access": {
+      "type": "string",
+      "enum": [
+        "open",
+        "purchase",
+        "registration",
+        "unknown"
+      ]
+    },
+    "AnnotationReview": {
+      "type": "string",
+      "enum": [
+        "source_checked_draft",
+        "community_reviewed",
+        "source_changed"
+      ]
+    },
+    "EventContext": {
+      "type": "object",
+      "properties": {
+        "edition": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "source_url": {
+          "type": "string"
+        },
+        "starts_on": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "edition",
+        "source_url"
+      ]
+    },
+    "Relation": {
+      "type": "string",
+      "enum": [
+        "preparation",
+        "same_topic",
+        "alternative_approach",
+        "next_step",
+        "project_evolution",
+        "repeat_appearance"
+      ]
+    },
+    "Resource": {
+      "type": "object",
+      "properties": {
+        "access": {
+          "$ref": "#/$defs/Access"
+        },
+        "authors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "caveat": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "checked_on": {
+          "type": "string",
+          "format": "date"
+        },
+        "event": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/EventContext"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "evidence_urls": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "id": {
+          "type": "string"
+        },
+        "kind": {
+          "$ref": "#/$defs/ResourceKind"
+        },
+        "published_on": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "relation": {
+          "$ref": "#/$defs/Relation"
+        },
+        "temporal_status": {
+          "$ref": "#/$defs/TemporalStatus"
+        },
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "verification": {
+          "$ref": "#/$defs/Verification"
+        },
+        "why": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "kind",
+        "url",
+        "authors",
+        "access",
+        "relation",
+        "why",
+        "evidence_urls",
+        "checked_on",
+        "verification",
+        "temporal_status"
+      ]
+    },
+    "ResourceKind": {
+      "type": "string",
+      "enum": [
+        "book",
+        "article",
+        "paper",
+        "video",
+        "documentation",
+        "project",
+        "course",
+        "conference_talk",
+        "workshop"
+      ]
+    },
+    "TemporalStatus": {
+      "type": "string",
+      "enum": [
+        "published",
+        "announced",
+        "unknown"
+      ]
+    },
+    "Verification": {
+      "type": "string",
+      "enum": [
+        "source_content_checked",
+        "listing_checked"
+      ]
+    }
+  }
+}

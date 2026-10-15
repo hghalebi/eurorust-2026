@@ -1,0 +1,285 @@
+{
+  "format_version": "1.0.0",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "eurorust_snapshot_id": "eurorust-2026-09ef1844f8dfdb34b2f8",
+  "series": [
+    {
+      "id": "eurorust",
+      "name": "EuroRust",
+      "kind": "conference",
+      "url": "https://eurorust.eu/",
+      "region": "Europe",
+      "editions": [
+        "eurorust-2022",
+        "eurorust-2023",
+        "eurorust-2024",
+        "eurorust-2025",
+        "eurorust-2026"
+      ],
+      "notes": []
+    },
+    {
+      "id": "rustconf",
+      "name": "RustConf",
+      "kind": "conference",
+      "url": "https://rustconf.com/",
+      "region": "North America",
+      "editions": [
+        "rustconf-2019",
+        "rustconf-2024",
+        "rustconf-2026"
+      ],
+      "notes": []
+    },
+    {
+      "id": "rustweek",
+      "name": "RustWeek / RustNL",
+      "kind": "conference",
+      "url": "https://rustnl.org/events/",
+      "region": "Europe",
+      "editions": [
+        "rustnl-2023",
+        "rustnl-2024",
+        "rustweek-2025",
+        "rustweek-2026",
+        "rustweek-2027"
+      ],
+      "notes": [
+        "RustNL 2023 and 2024 precede the RustWeek name used from 2025."
+      ]
+    },
+    {
+      "id": "rustnation",
+      "name": "Rust Nation UK",
+      "kind": "conference",
+      "url": "https://www.rustnationuk.com/",
+      "region": "Europe",
+      "editions": [
+        "rustnation-2023",
+        "rustnation-2024",
+        "rustnation-2025",
+        "rustnation-2026",
+        "rustnation-2027"
+      ],
+      "notes": []
+    },
+    {
+      "id": "oxidize",
+      "name": "Oxidize",
+      "kind": "conference",
+      "url": "https://oxidizeconf.com/",
+      "region": "Europe",
+      "editions": [
+        "oxidize-2019",
+        "oxidize-2026"
+      ],
+      "notes": []
+    },
+    {
+      "id": "rustlab",
+      "name": "RustLab",
+      "kind": "conference",
+      "url": "https://rustlab.it/",
+      "region": "Europe",
+      "editions": [
+        "rustlab-2019",
+        "rustlab-2020",
+        "rustlab-2021",
+        "rustlab-2022",
+        "rustlab-2023",
+        "rustlab-2024",
+        "rustlab-2025",
+        "rustlab-2026"
+      ],
+      "notes": []
+    },
+    {
+      "id": "rustikon",
+      "name": "Rustikon",
+      "kind": "conference",
+      "url": "https://www.rustikon.dev/",
+      "region": "Europe",
+      "editions": [
+        "rustikon-2026"
+      ],
+      "notes": []
+    },
+    {
+      "id": "rustfest",
+      "name": "RustFest",
+      "kind": "conference",
+      "url": "https://rustfest.global/",
+      "region": "Europe / online",
+      "editions": [
+        "rustfest-berlin-2016",
+        "rustfest-kyiv-2017",
+        "rustfest-zurich-2017",
+        "rustfest-barcelona-2019",
+        "rustfest-arts-2021",
+        "rustfest-latam-2022",
+        "rustfest-emea-2022",
+        "rustfest-apac-2021"
+      ],
+      "notes": [
+        "Global 2021 season branding also contains events dated 2022. Preserve dates independently from the season name."
+      ]
+    },
+    {
+      "id": "rustlatam",
+      "name": "Rust Latam",
+      "kind": "conference",
+      "url": "https://2019.rustlatam.org/",
+      "region": "Latin America",
+      "editions": [
+        "rustlatam-2019"
+      ],
+      "notes": []
+    },
+    {
+      "id": "rustchinaconf",
+      "name": "RustChinaConf",
+      "kind": "conference",
+      "url": "https://rustchinaconf.org/",
+      "region": "Asia",
+      "editions": [
+        "rustchinaconf-2025",
+        "rustchinaconf-2026"
+      ],
+      "notes": []
+    },
+    {
+      "id": "rustasia",
+      "name": "RUSTAsia",
+      "kind": "conference",
+      "url": "https://www.rustasiaconf.com/",
+      "region": "Asia",
+      "editions": [
+        "rustasia-2025"
+      ],
+      "notes": [
+        "Separate series from RustCon Asia 2019."
+      ]
+    },
+    {
+      "id": "rustforge",
+      "name": "Rust Forge",
+      "kind": "conference",
+      "url": "https://rustforgeconf.com/",
+      "region": "Oceania",
+      "editions": [
+        "rustforge-2025"
+      ],
+      "notes": []
+    },
+    {
+      "id": "rustbelt",
+      "name": "Rust Belt Rust",
+      "kind": "conference",
+      "url": "https://www.rust-belt-rust.com/",
+      "region": "North America",
+      "editions": [
+        "rustbelt-2016",
+        "rustbelt-2019"
+      ],
+      "notes": []
+    },
+    {
+      "id": "rustparis",
+      "name": "Rust Paris",
+      "kind": "conference",
+      "url": "https://rustparis.fr/",
+      "region": "Europe",
+      "editions": [
+        "rustparis-2024",
+        "rustparis-2025",
+        "rustparis-2026"
+      ],
+      "notes": []
+    },
+    {
+      "id": "fosdem-rust",
+      "name": "FOSDEM Rust devroom",
+      "kind": "track",
+      "url": "https://archive.fosdem.org/2026/schedule/track/rust/",
+      "region": "Europe",
+      "editions": [
+        "fosdem-rust-2026"
+      ],
+      "notes": []
+    },
+    {
+      "id": "rustconasia",
+      "name": "RustCon Asia",
+      "kind": "conference",
+      "url": "https://rustcon.asia/",
+      "region": "Asia",
+      "editions": [
+        "rustconasia-2019"
+      ],
+      "notes": [
+        "Separate from RUSTAsia in Hong Kong."
+      ]
+    },
+    {
+      "id": "rust-tokyo",
+      "name": "Rust.Tokyo",
+      "kind": "conference",
+      "url": "https://rust.tokyo/en",
+      "region": "Asia",
+      "editions": [
+        "rust-tokyo-2019",
+        "rust-tokyo-2021",
+        "rust-tokyo-2022",
+        "rust-tokyo-2023",
+        "rust-tokyo-2024"
+      ],
+      "notes": []
+    },
+    {
+      "id": "rustindia",
+      "name": "Rust India Conference",
+      "kind": "conference",
+      "url": "https://rustindia.org/",
+      "region": "Asia",
+      "editions": [
+        "rustindia-2026"
+      ],
+      "notes": []
+    },
+    {
+      "id": "tokioconf",
+      "name": "TokioConf",
+      "kind": "conference",
+      "url": "https://tokioconf.com/",
+      "region": "North America",
+      "editions": [
+        "tokioconf-2026",
+        "tokioconf-2027"
+      ],
+      "notes": []
+    },
+    {
+      "id": "conf42-rustlang",
+      "name": "Conf42 Rustlang",
+      "kind": "conference",
+      "url": "https://www.conf42.com/rustlang2025",
+      "region": "Online",
+      "editions": [
+        "conf42-rustlang-2025"
+      ],
+      "notes": []
+    },
+    {
+      "id": "rustrush",
+      "name": "RustRush",
+      "kind": "conference",
+      "url": "https://web.archive.org/web/20190517105107/https://rustrush.ru/",
+      "region": "Europe / Asia",
+      "editions": [
+        "rustrush-2018"
+      ],
+      "notes": []
+    }
+  ]
+}

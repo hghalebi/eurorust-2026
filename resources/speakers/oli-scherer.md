@@ -25,6 +25,12 @@ EuroRust sessions (check official pages for details and access):
 - [Personal homepage](https://oli-obk.de/). A personal site with project history and a GitHub identity link. Its employment information is old; use it as a historical introduction.
 - [GitHub: oli-obk](https://github.com/oli-obk). Linked from the Rust project's contributor directory. [Attribution](https://rust-lang.org/governance/people/oli-obk/).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Move your problems to compile-time and get new capabilities out of it](../related-talks/talks-move-your-problems.md)
+
 ## Scope and sources
 
 No authored book or current social account beyond GitHub was verified. The historical homepage's Twitter link was not treated as evidence of a current handle.

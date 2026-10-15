@@ -27,6 +27,12 @@ EuroRust sessions (check official pages for details and access):
 - [Bluesky](https://bsky.app/profile/thejpster.org.uk). Account linked from his personal GitHub profile. [Attribution](https://github.com/thejpster).
 - [Mastodon](https://hachyderm.io/@thejpster). Account linked from his personal GitHub profile. [Attribution](https://github.com/thejpster).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Tales from the Embedded Rust Frontier: Bootstrapping a brand new ecosystem](../related-talks/talks-tales-from-the-embedded-rust-frontier-bootstrapping-a-brand-new-ecosystem.md)
+
 ## Scope and sources
 
 No scholarly paper or sole-authored commercial book verified; the Neotron manual is listed as project documentation.

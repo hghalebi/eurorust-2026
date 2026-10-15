@@ -26,6 +26,12 @@ EuroRust sessions (check official pages for details and access):
 - [Mastodon: FrancoisMockers](https://hachyderm.io/@FrancoisMockers). Account linked from GitHub. [Attribution](https://github.com/mockersf).
 - [Bluesky: francois.mock.rs](https://bsky.app/profile/francois.mock.rs). Account linked from GitHub. [Attribution](https://github.com/mockersf).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Supply Chain Attacks, and how to protect ourselves](../related-talks/talks-supply-chain-attacks-and-how-to-protect-ourselves.md)
+
 ## Scope and sources
 
 No authored book or scholarly paper verified.

@@ -12,6 +12,8 @@ Choose a format for your task. Keep its sources and dates with anything you make
 | Process one session per line | [Sessions JSONL](../exports/sessions.jsonl) |
 | Check venues, rooms, and source conflicts | [Venue guide](time-and-place.md) · [Logistics JSON](../community/session-logistics.json) |
 | Explore speakers' work | [Speaker directory](../resources/speakers/README.md) · [Profiles JSON](../community/speaker-profiles.json) |
+| Read related talks and additional sources | [Session resources](../resources/related-talks/README.md) · [Learning data guide](learning-resources.md) |
+| Explore other editions | [Conference archive](../resources/conferences/README.md) · [Edition data](../community/conference-archive/editions.json) |
 | Check version and coverage | [Manifest](../data/manifest.json) |
 | Check expected structure | [Catalog schema](../schema/catalog.schema.json) · [Participant preferences](../schema/profile.schema.json) · [Itinerary](../schema/itinerary.schema.json) |
 

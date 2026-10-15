@@ -14,6 +14,12 @@ EuroRust sessions (check official pages for details and access):
 
 - [LinkedIn](https://de.linkedin.com/in/bj%C3%B6rn-barwinski-6b2a10358). Profile shares the Rust Dortmund embedded workshop and Embassy talk associated with this instructor.
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Hands-On Embedded Rust](../related-talks/workshops-hands-on-embedded-rust.md)
+
 ## Scope and sources
 
 No personal website/blog, authored book, or scholarly publication verified.

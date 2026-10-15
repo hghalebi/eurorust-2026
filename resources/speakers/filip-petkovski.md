@@ -20,6 +20,12 @@ EuroRust sessions (check official pages for details and access):
 - [Personal engineering blog](https://fpetkovski.github.io/). Articles on Kubernetes abstractions, monitoring, and external metrics.
 - [GitHub: fpetkovski](https://github.com/fpetkovski). Development profile for the Thanos and Prometheus contributor.
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Running Safely with Scissors: Lock-free Concurrency for Maximum Throughput](../related-talks/talks-running-safely-with-scissors-lock-free-concurrency-for-maximum-throughput.md)
+
 ## Scope and sources
 
 No authored book or scholarly paper verified.

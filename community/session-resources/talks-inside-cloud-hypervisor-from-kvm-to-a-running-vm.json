@@ -1,0 +1,104 @@
+{
+  "session_id": "talks-inside-cloud-hypervisor-from-kvm-to-a-running-vm",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+  "resources": [
+    {
+      "id": "schuster-minimal-linux-boot",
+      "title": "Quickly Boot a Minimal Linux Kernel + Initrd in Cloud Hypervisor or QEMU",
+      "kind": "article",
+      "url": "https://phip1611.de/blog/quickly-boot-a-minimal-linux-kernel-initrd-in-cloud-hypervisor-or-qemu/",
+      "authors": [
+        "Philipp Schuster"
+      ],
+      "published_on": "2025-03-18",
+      "access": "open",
+      "relation": "preparation",
+      "why": "Build the kernel and initrd inputs needed to follow the session's VM boot sequence.",
+      "evidence_urls": [
+        "https://phip1611.de/blog/quickly-boot-a-minimal-linux-kernel-initrd-in-cloud-hypervisor-or-qemu/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "The example uses Nix; commands were not executed during this resource review."
+    },
+    {
+      "id": "linux-kvm-api",
+      "title": "The KVM API",
+      "kind": "documentation",
+      "url": "https://docs.kernel.org/virt/kvm/api.html",
+      "authors": [
+        "Linux kernel contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Look up the kernel interfaces behind guest memory, virtual CPUs, and VM execution.",
+      "evidence_urls": [
+        "https://docs.kernel.org/virt/kvm/api.html"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "firecracker-nsdi-2020",
+      "title": "Firecracker: Lightweight Virtualization for Serverless Applications",
+      "kind": "paper",
+      "url": "https://www.usenix.org/conference/nsdi20/presentation/agache",
+      "authors": [
+        "Alexandru Agache",
+        "Marc Brooker",
+        "Andreea Florescu",
+        "Alexandra Iordache",
+        "Anthony Liguori",
+        "Rolf Neugebauer",
+        "Phil Piwonka",
+        "Diana-Maria Popa"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "alternative_approach",
+      "why": "Compare a serverless VMM's isolation and device choices with Cloud Hypervisor.",
+      "evidence_urls": [
+        "https://www.usenix.org/conference/nsdi20/presentation/agache"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": {
+        "name": "USENIX NSDI",
+        "edition": "2020",
+        "starts_on": null,
+        "source_url": "https://www.usenix.org/conference/nsdi20/presentation/agache"
+      },
+      "caveat": "The proceedings page links the paper, slides, and recording; the full paper and video were not reviewed."
+    },
+    {
+      "id": "cloud-hypervisor-project",
+      "title": "Cloud Hypervisor",
+      "kind": "project",
+      "url": "https://github.com/cloud-hypervisor/cloud-hypervisor",
+      "authors": [
+        "Cloud Hypervisor contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Follow the VM monitor's current architecture, guest boot instructions, and device support.",
+      "evidence_urls": [
+        "https://github.com/cloud-hypervisor/cloud-hypervisor"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    }
+  ]
+}

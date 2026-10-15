@@ -1,8 +1,10 @@
 //! Official facts, checked snapshots, portable exports, and itinerary checks.
+pub mod archive;
 pub mod collect;
 pub mod domain;
 pub mod export;
 pub mod itinerary;
+pub mod learning;
 pub mod navigation;
 
 pub type Result<T> = std::result::Result<T, Error>;

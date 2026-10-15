@@ -25,6 +25,12 @@ EuroRust sessions (check official pages for details and access):
 - [Jana's blog](https://donsz.nl/blog). Compiler-development articles, including a detailed account of optimizing the new trait solver.
 - [GitHub: jdonszelmann](https://github.com/jdonszelmann). Author account linked by her own blog. [Attribution](https://donsz.nl/blog).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Optimizing rustc's Next Trait Solver](../related-talks/talks-optimizing-the-new-rust-trait-solver.md)
+
 ## Scope and sources
 
 No authored book or scholarly paper verified. Teaching materials and compiler articles are listed by their actual format.

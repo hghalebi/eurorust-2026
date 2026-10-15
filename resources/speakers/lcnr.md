@@ -24,6 +24,12 @@ EuroRust sessions (check official pages for details and access):
 - [lcnr's technical blog](https://lcnr.de/). Detailed writing on trait solving, implied bounds, variance, and compiler internals.
 - [GitHub: lcnr](https://github.com/lcnr). Development account linked from the author's own site and the Rust team directory. [Attribution](https://lcnr.de/about/).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [What's next for Rust's type system](../related-talks/talks-what-s-next-for-rust-s-type-system.md)
+
 ## Scope and sources
 
 No authored book, scholarly paper, or additional public social-network account verified; the profile retains the speaker's published name, lcnr.

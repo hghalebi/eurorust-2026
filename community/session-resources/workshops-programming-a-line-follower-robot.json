@@ -1,0 +1,127 @@
+{
+  "session_id": "workshops-programming-a-line-follower-robot",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed.",
+  "resources": [
+    {
+      "id": "rustlab-2025-line-follower",
+      "title": "Programming a line follower robot",
+      "kind": "workshop",
+      "url": "https://rustlab.it/talks/programming-a-line-follower-robot",
+      "authors": [
+        "Massimiliano Mantione",
+        "Michele Mantione"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "repeat_appearance",
+      "why": "Shows an earlier workshop by the same mentors on simulated robots, PID control and telemetry.",
+      "evidence_urls": [
+        "https://rustlab.it/talks/programming-a-line-follower-robot"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "unknown",
+      "event": {
+        "name": "RustLab",
+        "edition": "2025",
+        "starts_on": "2025-11-02",
+        "source_url": "https://rustlab.it/talks/programming-a-line-follower-robot"
+      },
+      "caveat": "Date comes from the page’s embedded event data; current site branding says 2026. Delivery and recording are unverified."
+    },
+    {
+      "id": "modern-robotics-pi-control",
+      "title": "Motion Control with Velocity Inputs, Part 2",
+      "kind": "video",
+      "url": "https://modernrobotics.northwestern.edu/nu-gm-book-resource/11-3-motion-control-with-velocity-inputs-part-2-of-3/",
+      "authors": [
+        "Kevin M. Lynch",
+        "Frank C. Park"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Explains how integral feedback reduces tracking error before tuning a line follower.",
+      "evidence_urls": [
+        "https://modernrobotics.northwestern.edu/nu-gm-book-resource/11-3-motion-control-with-velocity-inputs-part-2-of-3/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "University description and transcript checked; video playback was not tested."
+    },
+    {
+      "id": "robotic-sumo-rustlab-2023",
+      "title": "RustLab 2023 Robotic Sumo workshop code",
+      "kind": "project",
+      "url": "https://github.com/massimiliano-mantione/rustlab-2023-robotic-sumo",
+      "authors": [
+        "Massimiliano Mantione"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Provides earlier robot-control exercises from a workshop mentor.",
+      "evidence_urls": [
+        "https://github.com/massimiliano-mantione/rustlab-2023-robotic-sumo"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Earlier hardware-based workshop; this EuroRust workshop uses simulated line followers."
+    },
+    {
+      "id": "modern-robotics-book",
+      "title": "Modern Robotics: Mechanics, Planning, and Control",
+      "kind": "book",
+      "url": "https://hades.mech.northwestern.edu/index.php/Modern_Robotics",
+      "authors": [
+        "Kevin M. Lynch",
+        "Frank C. Park"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Develops the motion and feedback-control foundations behind more advanced robot behavior.",
+      "evidence_urls": [
+        "https://hades.mech.northwestern.edu/index.php/Modern_Robotics"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "The authors provide a free preprint; the printed book is sold separately."
+    },
+    {
+      "id": "rustlab-2026-robot-simulation",
+      "title": "Accurate Robot Simulations with Bevy and WASM",
+      "kind": "workshop",
+      "url": "https://rustlab.it/talks/accurate-robot-simulations-with-bevy-and-wasm-workshop",
+      "authors": [
+        "Massimiliano Mantione",
+        "Michele Mantione"
+      ],
+      "published_on": null,
+      "access": "registration",
+      "relation": "next_step",
+      "why": "Extends line-follower control into deterministic simulation, telemetry and separate WASM robot logic.",
+      "evidence_urls": [
+        "https://rustlab.it/talks/accurate-robot-simulations-with-bevy-and-wasm-workshop"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "announced",
+      "event": {
+        "name": "RustLab",
+        "edition": "2026",
+        "starts_on": "2026-11-01",
+        "source_url": "https://rustlab.it/talks/accurate-robot-simulations-with-bevy-and-wasm-workshop"
+      },
+      "caveat": "Announced workshop on November 1, 2026; no recording is claimed."
+    }
+  ]
+}

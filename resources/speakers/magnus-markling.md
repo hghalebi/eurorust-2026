@@ -22,6 +22,12 @@ EuroRust sessions (check official pages for details and access):
 - [GitHub: memark](https://github.com/memark). Named profile matches the Mainmatter and Redis work described for his workshop.
 - [LinkedIn](https://www.linkedin.com/in/magnusmarkling/). Professional profile linked as the preferred current information source from GitHub. [Attribution](https://github.com/memark).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [C→Rust, Beyond the Basics](../related-talks/workshops-c-to-rust.md)
+
 ## Scope and sources
 
 No authored book or scholarly paper verified. The C to Rust Migration Book mentioned in related Mainmatter material is credited to Jonas Kruckenberg.

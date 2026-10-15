@@ -21,6 +21,12 @@ EuroRust sessions (check official pages for details and access):
 
 - [GitHub: jv1i](https://github.com/jv1i). Named development profile matches the conference's WyeWorks affiliation and Rust projects.
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Beyond p99: Observing Async Rust](../related-talks/workshops-beyond-p99-observing-async-rust.md)
+
 ## Scope and sources
 
 No personal weblog, authored book, scholarly paper, or additional social-network account was confidently verified.

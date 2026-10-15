@@ -10,7 +10,7 @@ Find me on [X](https://x.com/Hamzeml), [GitHub](https://github.com/hghalebi),
 and [LinkedIn](https://www.linkedin.com/in/hamze/).
 
 [October 14–17, 2026 · Barcelona](https://eurorust.eu/).
-All times here use **Europe/Madrid**.
+EuroRust times use **Europe/Madrid**.
 Check [venues, entrances, and room details](docs/time-and-place.md).
 
 ## Start here
@@ -19,6 +19,7 @@ Check [venues, entrances, and room details](docs/time-and-place.md).
 | --- | --- |
 | Follow my path | [Learning goals](my-conference/README.md) and [proposed itinerary](my-conference/itinerary.md) |
 | Make your own plan | [Schedule](exports/schedule.md), [planning guide](docs/planning-guide.md), and [example paths](community/paths/README.md) |
+| Read beyond a session | [Session resources](resources/related-talks/README.md), [topic paths](resources/topics/README.md), and [conference archives](resources/conferences/README.md) |
 | Plan with your agent | [Agent guide](docs/agent-guide.md) and [copyable prompt](prompts/choose-my-path.md) |
 
 Copy the [itinerary template](templates/itinerary.md). Choose one session, give a
@@ -55,7 +56,10 @@ Supply the [conference pack](exports/conference-pack.md),
 [manifest](data/manifest.json), and [prompt](prompts/choose-my-path.md) from one
 checkout or bundle. Add your goals, available time, and confirmed bookings.
 
-For a reading list, add the [speaker profiles JSON](community/speaker-profiles.json).
+For a reading list, add the [learning pack](exports/archive/learning-pack.md) or
+[structured resources](exports/archive/session-resources.json), with its
+[manifest](exports/archive/manifest.json). Add [speaker profiles](community/speaker-profiles.json)
+for background and public accounts.
 The [data guide](docs/data-guide.md) explains formats and versions. Review the
 agent's choices, alternatives, and access assumptions before deciding.
 

@@ -24,6 +24,12 @@ EuroRust sessions (check official pages for details and access):
 - [LinkedIn](https://ca.linkedin.com/in/albertlockett). Professional profile linked to the same F5 work and personal blog.
 - [Programming and data engineering blog](https://albertlockett.wordpress.com/). Personal blog linked from the professional profile. [Attribution](https://ca.linkedin.com/in/albertlockett).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [Building a high performance, thread-per-core, zero-copy OpenTelemetry engine in Rust](../related-talks/talks-building-a-high-performance-thread-per-core-zero-copy-opentelemetry-engine-in-rust.md)
+
 ## Scope and sources
 
 No authored book verified.

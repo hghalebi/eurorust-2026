@@ -1,0 +1,1727 @@
+{
+  "format_version": "1.0.0",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "eurorust_snapshot_id": "eurorust-2026-09ef1844f8dfdb34b2f8",
+  "editions": [
+    {
+      "id": "eurorust-2022",
+      "series_id": "eurorust",
+      "name": "EuroRust 2022",
+      "year": 2022,
+      "starts_on": "2022-10-13",
+      "ends_on": "2022-10-14",
+      "status": "past_programme",
+      "programme_url": "https://eurorust.eu/2022/schedule/",
+      "speakers_url": null,
+      "recordings_url": "https://www.youtube.com/@eurorust",
+      "source_urls": [
+        "https://eurorust.eu/2022/schedule/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "indexed",
+        "programme_session_count": 18,
+        "indexed_session_count": 18,
+        "gaps": [
+          "Individual recordings are not matched; use the organizer channel."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": [],
+      "page": "resources/conferences/eurorust/2022.md"
+    },
+    {
+      "id": "eurorust-2023",
+      "series_id": "eurorust",
+      "name": "EuroRust 2023",
+      "year": 2023,
+      "starts_on": "2023-10-11",
+      "ends_on": "2023-10-13",
+      "status": "past_programme",
+      "programme_url": "https://eurorust.eu/2023/",
+      "speakers_url": null,
+      "recordings_url": "https://www.youtube.com/@eurorust",
+      "source_urls": [
+        "https://eurorust.eu/2023/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "partial",
+        "programme_session_count": null,
+        "indexed_session_count": 18,
+        "gaps": [
+          "Individual recordings are not matched; use the organizer channel.",
+          "Workshop detail pages are not indexed; this inventory covers the conference talk tables only."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": [],
+      "page": "resources/conferences/eurorust/2023.md"
+    },
+    {
+      "id": "eurorust-2024",
+      "series_id": "eurorust",
+      "name": "EuroRust 2024",
+      "year": 2024,
+      "starts_on": "2024-10-09",
+      "ends_on": "2024-10-12",
+      "status": "past_programme",
+      "programme_url": "https://eurorust.eu/2024/",
+      "speakers_url": null,
+      "recordings_url": "https://www.youtube.com/@eurorust",
+      "source_urls": [
+        "https://eurorust.eu/2024/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "indexed",
+        "programme_session_count": 31,
+        "indexed_session_count": 31,
+        "gaps": [
+          "Individual recordings are not matched; use the organizer channel."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": [],
+      "page": "resources/conferences/eurorust/2024.md"
+    },
+    {
+      "id": "eurorust-2025",
+      "series_id": "eurorust",
+      "name": "EuroRust 2025",
+      "year": 2025,
+      "starts_on": "2025-10-08",
+      "ends_on": "2025-10-11",
+      "status": "past_programme",
+      "programme_url": "https://eurorust.eu/2025/schedule/",
+      "speakers_url": null,
+      "recordings_url": "https://www.youtube.com/@eurorust",
+      "source_urls": [
+        "https://eurorust.eu/2025/schedule/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "indexed",
+        "programme_session_count": 41,
+        "indexed_session_count": 41,
+        "gaps": [
+          "Individual recordings are not matched; use the organizer channel."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": [],
+      "page": "resources/conferences/eurorust/2025.md"
+    },
+    {
+      "id": "eurorust-2026",
+      "series_id": "eurorust",
+      "name": "EuroRust 2026",
+      "year": 2026,
+      "starts_on": "2026-10-14",
+      "ends_on": "2026-10-17",
+      "status": "current_programme",
+      "programme_url": "https://eurorust.eu/schedule/",
+      "speakers_url": null,
+      "recordings_url": null,
+      "source_urls": [
+        "https://eurorust.eu/schedule/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": 39,
+        "indexed_session_count": 0,
+        "gaps": [
+          "The current 39 talks/workshops remain in data/catalog.json; this archive does not duplicate that canonical catalog."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": [
+        "Use the main conference pack and session reading guides for 2026."
+      ]
+    },
+    {
+      "id": "rustconf-2019",
+      "series_id": "rustconf",
+      "name": "RustConf 2019",
+      "year": 2019,
+      "starts_on": "2019-08-22",
+      "ends_on": "2019-08-23",
+      "status": "past_programme",
+      "programme_url": "https://2019.rustconf.com/schedule/",
+      "speakers_url": "https://2019.rustconf.com/speakers/",
+      "recordings_url": null,
+      "source_urls": [
+        "https://2019.rustconf.com/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "Schedule and media are not yet indexed."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "rustconf-2024",
+      "series_id": "rustconf",
+      "name": "RustConf 2024",
+      "year": 2024,
+      "starts_on": "2024-09-10",
+      "ends_on": "2024-09-13",
+      "status": "past_programme",
+      "programme_url": "https://2024.rustconf.com/schedule/",
+      "speakers_url": "https://2024.rustconf.com/speakers/",
+      "recordings_url": null,
+      "source_urls": [
+        "https://2024.rustconf.com/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "Schedule and media are not yet indexed."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "rustconf-2026",
+      "series_id": "rustconf",
+      "name": "RustConf 2026",
+      "year": 2026,
+      "starts_on": "2026-09-08",
+      "ends_on": "2026-09-11",
+      "status": "past_programme",
+      "programme_url": "https://rustconf2026.sched.com/",
+      "speakers_url": "https://rustconf.com/speakers/",
+      "recordings_url": null,
+      "source_urls": [
+        "https://rustconf.com/speakers/",
+        "https://rustconf.com/schedule/",
+        "https://rustconf2026.sched.com/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "partial",
+        "programme_session_count": null,
+        "indexed_session_count": 50,
+        "gaps": [
+          "The 50 speaker-roster presentations are reconciled with timetable dates. Rust Global sessions, side events and the second Linux-driver workshop slot are not separate records.",
+          "Individual recordings are not matched."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": [
+        "The website title says 2027; the speaker roster and timetable identify this edition as 2026."
+      ],
+      "page": "resources/conferences/rustconf/2026.md"
+    },
+    {
+      "id": "rustnl-2023",
+      "series_id": "rustweek",
+      "name": "RustNL 2023",
+      "year": 2023,
+      "starts_on": "2023-05-10",
+      "ends_on": "2023-05-10",
+      "status": "past_programme",
+      "programme_url": "https://2023.rustnl.org/",
+      "speakers_url": "https://2023.rustnl.org/speakers.html",
+      "recordings_url": "https://www.youtube.com/playlist?list=PL8Q1w7Ff68DCM_fsMM4v9m473sYLvJwHS",
+      "source_urls": [
+        "https://2023.rustnl.org/",
+        "https://rustnl.org/events/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "indexed",
+        "programme_session_count": 10,
+        "indexed_session_count": 10,
+        "gaps": [
+          "Recording collections are linked; individual videos are not matched."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": [],
+      "page": "resources/conferences/rustweek/rustnl-2023.md"
+    },
+    {
+      "id": "rustnl-2024",
+      "series_id": "rustweek",
+      "name": "RustNL 2024",
+      "year": 2024,
+      "starts_on": "2024-05-07",
+      "ends_on": "2024-05-08",
+      "status": "past_programme",
+      "programme_url": "https://2024.rustnl.org/schedule",
+      "speakers_url": "https://2024.rustnl.org/speakers",
+      "recordings_url": "https://2024.rustnl.org/live",
+      "source_urls": [
+        "https://2024.rustnl.org/schedule",
+        "https://rustnl.org/events/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "partial",
+        "programme_session_count": 16,
+        "indexed_session_count": 16,
+        "gaps": [
+          "Recording collections are linked; individual videos are not matched.",
+          "Two archived talk titles remain “To Be Announced” and “Secret!”; supplementary workshops/unconference are not indexed."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": [],
+      "page": "resources/conferences/rustweek/rustnl-2024.md"
+    },
+    {
+      "id": "rustweek-2025",
+      "series_id": "rustweek",
+      "name": "RustWeek 2025",
+      "year": 2025,
+      "starts_on": "2025-05-13",
+      "ends_on": "2025-05-17",
+      "status": "past_programme",
+      "programme_url": "https://2025.rustweek.org/schedule/tuesday",
+      "speakers_url": "https://2025.rustweek.org/speakers",
+      "recordings_url": "https://www.youtube.com/playlist?list=PL8Q1w7Ff68DCEXiGidlM0DMn8ztjlUlez",
+      "source_urls": [
+        "https://2025.rustweek.org/schedule/tuesday",
+        "https://rustnl.org/events/",
+        "https://2025.rustweek.org/schedule/wednesday",
+        "https://2025.rustweek.org/workshops/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "indexed",
+        "programme_session_count": 60,
+        "indexed_session_count": 60,
+        "gaps": [
+          "Recording collections are linked; individual videos are not matched.",
+          "All-Hands, unconference and separate side-event sessions are outside this programme inventory."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": [],
+      "page": "resources/conferences/rustweek/2025.md"
+    },
+    {
+      "id": "rustweek-2026",
+      "series_id": "rustweek",
+      "name": "RustWeek 2026",
+      "year": 2026,
+      "starts_on": "2026-05-18",
+      "ends_on": "2026-05-23",
+      "status": "past_programme",
+      "programme_url": "https://2026.rustweek.org/schedule/tuesday",
+      "speakers_url": "https://2026.rustweek.org/speakers",
+      "recordings_url": "https://www.youtube.com/playlist?list=PL8Q1w7Ff68DBpmF38rcIAf8Z9Gj2TnlgM",
+      "source_urls": [
+        "https://2026.rustweek.org/schedule/tuesday",
+        "https://rustnl.org/events/",
+        "https://2026.rustweek.org/schedule/wednesday",
+        "https://2026.rustweek.org/workshops/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "indexed",
+        "programme_session_count": 59,
+        "indexed_session_count": 59,
+        "gaps": [
+          "Recording collections are linked; individual videos are not matched.",
+          "All-Hands, unconference and separate side-event sessions are outside this programme inventory."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": [],
+      "page": "resources/conferences/rustweek/2026.md"
+    },
+    {
+      "id": "rustweek-2027",
+      "series_id": "rustweek",
+      "name": "RustWeek 2027",
+      "year": 2027,
+      "starts_on": "2027-05-24",
+      "ends_on": "2027-05-29",
+      "status": "announced",
+      "programme_url": "https://2027.rustweek.org/",
+      "speakers_url": null,
+      "recordings_url": null,
+      "source_urls": [
+        "https://rustnl.org/events/",
+        "https://2027.rustweek.org/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "Event announced; no accepted-talk inventory has been collected."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "rustnation-2023",
+      "series_id": "rustnation",
+      "name": "Rust Nation UK 2023",
+      "year": 2023,
+      "starts_on": null,
+      "ends_on": null,
+      "status": "past_programme",
+      "programme_url": "https://www.rustnationuk.com/speakers",
+      "speakers_url": null,
+      "recordings_url": "https://www.youtube.com/channel/UCLksRXfBiEITZMUo2ssjSdA",
+      "source_urls": [
+        "https://www.rustnationuk.com/speakers"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "Organizer confirms past recordings across 2023–2026; edition programmes, dates and individual video matches are not reconstructed."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "rustnation-2024",
+      "series_id": "rustnation",
+      "name": "Rust Nation UK 2024",
+      "year": 2024,
+      "starts_on": null,
+      "ends_on": null,
+      "status": "past_programme",
+      "programme_url": "https://www.rustnationuk.com/speakers",
+      "speakers_url": null,
+      "recordings_url": "https://www.youtube.com/channel/UCLksRXfBiEITZMUo2ssjSdA",
+      "source_urls": [
+        "https://www.rustnationuk.com/speakers"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "Organizer confirms past recordings across 2023–2026; edition programmes, dates and individual video matches are not reconstructed."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "rustnation-2025",
+      "series_id": "rustnation",
+      "name": "Rust Nation UK 2025",
+      "year": 2025,
+      "starts_on": null,
+      "ends_on": null,
+      "status": "past_programme",
+      "programme_url": "https://www.rustnationuk.com/speakers",
+      "speakers_url": null,
+      "recordings_url": "https://www.youtube.com/channel/UCLksRXfBiEITZMUo2ssjSdA",
+      "source_urls": [
+        "https://www.rustnationuk.com/speakers"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "Organizer confirms past recordings across 2023–2026; edition programmes, dates and individual video matches are not reconstructed."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "rustnation-2026",
+      "series_id": "rustnation",
+      "name": "Rust Nation UK 2026",
+      "year": 2026,
+      "starts_on": null,
+      "ends_on": null,
+      "status": "past_programme",
+      "programme_url": "https://www.rustnationuk.com/speakers",
+      "speakers_url": null,
+      "recordings_url": "https://www.youtube.com/channel/UCLksRXfBiEITZMUo2ssjSdA",
+      "source_urls": [
+        "https://www.rustnationuk.com/speakers"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "Organizer confirms past recordings across 2023–2026; edition programmes, dates and individual video matches are not reconstructed."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "rustnation-2027",
+      "series_id": "rustnation",
+      "name": "Rust Nation UK 2027",
+      "year": 2027,
+      "starts_on": "2027-02-18",
+      "ends_on": "2027-02-18",
+      "status": "announced",
+      "programme_url": "https://www.rustnationuk.com/",
+      "speakers_url": "https://www.rustnationuk.com/speakers",
+      "recordings_url": null,
+      "source_urls": [
+        "https://www.rustnationuk.com/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "The 2027 speaker lineup is not announced. A separate workshop day is planned, not included in these confirmed conference dates."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "oxidize-2019",
+      "series_id": "oxidize",
+      "name": "Oxidize 2019",
+      "year": 2019,
+      "starts_on": "2019-04-26",
+      "ends_on": "2019-04-29",
+      "status": "past_programme",
+      "programme_url": "https://blog.rust-lang.org/2019/05/20/The-2019-Rust-Event-Lineup/",
+      "speakers_url": null,
+      "recordings_url": "https://www.youtube.com/playlist?list=PLXajQV_H-DxJPiJQK8gvou4SUZ8Zfvgm6",
+      "source_urls": [
+        "https://blog.rust-lang.org/2019/05/20/The-2019-Rust-Event-Lineup/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "Historical programme not recovered; official Rust event roundup links the recordings."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "oxidize-2026",
+      "series_id": "oxidize",
+      "name": "Oxidize 2026",
+      "year": 2026,
+      "starts_on": "2026-09-14",
+      "ends_on": "2026-09-16",
+      "status": "past_programme",
+      "programme_url": "https://oxidizeconf.com/",
+      "speakers_url": null,
+      "recordings_url": "https://www.youtube.com/@OxidizeConf",
+      "source_urls": [
+        "https://oxidizeconf.com/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "indexed",
+        "programme_session_count": 23,
+        "indexed_session_count": 23,
+        "gaps": [
+          "Individual 2026 recordings are not matched.",
+          "26 speaker occurrences have no separate profile URL captured; use their programme source. Names have not been merged across conferences."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": [],
+      "page": "resources/conferences/oxidize/2026.md"
+    },
+    {
+      "id": "rustlab-2019",
+      "series_id": "rustlab",
+      "name": "RustLab 2019",
+      "year": 2019,
+      "starts_on": "2019-06-28",
+      "ends_on": "2019-06-29",
+      "status": "past_programme",
+      "programme_url": "https://rustlab.it/past-editions/2019",
+      "speakers_url": null,
+      "recordings_url": "https://www.youtube.com/@rustlabconference3671",
+      "source_urls": [
+        "https://rustlab.it/past-editions/2019"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "indexed",
+        "programme_session_count": 20,
+        "indexed_session_count": 20,
+        "gaps": []
+      },
+      "checked_on": "2026-10-15",
+      "notes": [],
+      "page": "resources/conferences/rustlab/2019.md"
+    },
+    {
+      "id": "rustlab-2020",
+      "series_id": "rustlab",
+      "name": "RustLab 2020",
+      "year": 2020,
+      "starts_on": "2020-10-12",
+      "ends_on": "2020-10-17",
+      "status": "past_programme",
+      "programme_url": "https://rustlab.it/past-editions/2020",
+      "speakers_url": null,
+      "recordings_url": "https://www.youtube.com/@rustlabconference3671",
+      "source_urls": [
+        "https://rustlab.it/past-editions/2020"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "indexed",
+        "programme_session_count": 16,
+        "indexed_session_count": 16,
+        "gaps": []
+      },
+      "checked_on": "2026-10-15",
+      "notes": [],
+      "page": "resources/conferences/rustlab/2020.md"
+    },
+    {
+      "id": "rustlab-2021",
+      "series_id": "rustlab",
+      "name": "RustLab 2021",
+      "year": 2021,
+      "starts_on": "2021-03-18",
+      "ends_on": "2021-09-23",
+      "status": "past_programme",
+      "programme_url": "https://rustlab.it/past-editions/2021",
+      "speakers_url": null,
+      "recordings_url": "https://www.youtube.com/@rustlabconference3671",
+      "source_urls": [
+        "https://rustlab.it/past-editions/2021"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "indexed",
+        "programme_session_count": 5,
+        "indexed_session_count": 5,
+        "gaps": []
+      },
+      "checked_on": "2026-10-15",
+      "notes": [
+        "The 2021 archive lists separate online events across the year; the date range is not one continuous conference."
+      ],
+      "page": "resources/conferences/rustlab/2021.md"
+    },
+    {
+      "id": "rustlab-2022",
+      "series_id": "rustlab",
+      "name": "RustLab 2022",
+      "year": 2022,
+      "starts_on": "2022-10-02",
+      "ends_on": "2022-10-04",
+      "status": "past_programme",
+      "programme_url": "https://rustlab.it/past-editions/2022",
+      "speakers_url": null,
+      "recordings_url": "https://www.youtube.com/@rustlabconference3671",
+      "source_urls": [
+        "https://rustlab.it/past-editions/2022"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "indexed",
+        "programme_session_count": 14,
+        "indexed_session_count": 14,
+        "gaps": []
+      },
+      "checked_on": "2026-10-15",
+      "notes": [],
+      "page": "resources/conferences/rustlab/2022.md"
+    },
+    {
+      "id": "rustlab-2023",
+      "series_id": "rustlab",
+      "name": "RustLab 2023",
+      "year": 2023,
+      "starts_on": "2023-11-19",
+      "ends_on": "2023-11-21",
+      "status": "past_programme",
+      "programme_url": "https://rustlab.it/past-editions/2023",
+      "speakers_url": null,
+      "recordings_url": "https://www.youtube.com/@rustlabconference3671",
+      "source_urls": [
+        "https://rustlab.it/past-editions/2023"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "indexed",
+        "programme_session_count": 33,
+        "indexed_session_count": 33,
+        "gaps": []
+      },
+      "checked_on": "2026-10-15",
+      "notes": [],
+      "page": "resources/conferences/rustlab/2023.md"
+    },
+    {
+      "id": "rustlab-2024",
+      "series_id": "rustlab",
+      "name": "RustLab 2024",
+      "year": 2024,
+      "starts_on": "2024-11-09",
+      "ends_on": "2024-11-11",
+      "status": "past_programme",
+      "programme_url": "https://rustlab.it/past-editions/2024",
+      "speakers_url": null,
+      "recordings_url": "https://www.youtube.com/@rustlabconference3671",
+      "source_urls": [
+        "https://rustlab.it/past-editions/2024"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "indexed",
+        "programme_session_count": 31,
+        "indexed_session_count": 31,
+        "gaps": []
+      },
+      "checked_on": "2026-10-15",
+      "notes": [],
+      "page": "resources/conferences/rustlab/2024.md"
+    },
+    {
+      "id": "rustlab-2025",
+      "series_id": "rustlab",
+      "name": "RustLab 2025",
+      "year": 2025,
+      "starts_on": "2025-11-02",
+      "ends_on": "2025-11-04",
+      "status": "past_programme",
+      "programme_url": "https://rustlab.it/past-editions/rustlab-2025",
+      "speakers_url": null,
+      "recordings_url": "https://www.youtube.com/@rustlabconference3671",
+      "source_urls": [
+        "https://rustlab.it/past-editions/rustlab-2025"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "indexed",
+        "programme_session_count": 22,
+        "indexed_session_count": 22,
+        "gaps": [
+          "The source day-3 date and hero end date disagree with its November 4 heading and individual session timestamps. Individual timestamps are used.",
+          "The November 3 lightning block is one published programme entry; its six short talks are not separate appearance records."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": [],
+      "page": "resources/conferences/rustlab/2025.md"
+    },
+    {
+      "id": "rustlab-2026",
+      "series_id": "rustlab",
+      "name": "RustLab 2026",
+      "year": 2026,
+      "starts_on": "2026-11-01",
+      "ends_on": "2026-11-03",
+      "status": "announced",
+      "programme_url": "https://rustlab.it/schedule",
+      "speakers_url": "https://rustlab.it/speakers",
+      "recordings_url": null,
+      "source_urls": [
+        "https://rustlab.it/schedule"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "indexed",
+        "programme_session_count": 34,
+        "indexed_session_count": 34,
+        "gaps": [
+          "Announced programme can change. Recordings are not matched for these future appearances."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": [],
+      "page": "resources/conferences/rustlab/2026.md"
+    },
+    {
+      "id": "rustikon-2026",
+      "series_id": "rustikon",
+      "name": "Rustikon 2026",
+      "year": 2026,
+      "starts_on": "2026-03-19",
+      "ends_on": "2026-03-20",
+      "status": "past_programme",
+      "programme_url": "https://www.rustikon.dev/agenda",
+      "speakers_url": null,
+      "recordings_url": "https://www.youtube.com/c/SoftwareMillCom/playlists?view=50&sort=dd&shelf_id=6",
+      "source_urls": [
+        "https://www.rustikon.dev/agenda"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "indexed",
+        "programme_session_count": 26,
+        "indexed_session_count": 26,
+        "gaps": [
+          "Two Exein lightning slots do not name presenters.",
+          "The pre-conference blockchain meetup is not included in the 26 conference talk slots.",
+          "Individual recordings are not matched."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": [],
+      "page": "resources/conferences/rustikon/2026.md"
+    },
+    {
+      "id": "rustfest-berlin-2016",
+      "series_id": "rustfest",
+      "name": "RustFest Berlin 2016",
+      "year": 2016,
+      "starts_on": null,
+      "ends_on": null,
+      "status": "past_programme",
+      "programme_url": "http://2016.rustfest.eu/",
+      "speakers_url": null,
+      "recordings_url": null,
+      "source_urls": [
+        "https://zurich.rustfest.eu/talks/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "Edition linked by the organizer; programme and media not indexed."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "rustfest-kyiv-2017",
+      "series_id": "rustfest",
+      "name": "RustFest Kyiv 2017",
+      "year": 2017,
+      "starts_on": null,
+      "ends_on": null,
+      "status": "past_programme",
+      "programme_url": "http://2017.rustfest.eu/",
+      "speakers_url": null,
+      "recordings_url": null,
+      "source_urls": [
+        "https://zurich.rustfest.eu/talks/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "Edition linked by the organizer; programme and media not indexed."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "rustfest-zurich-2017",
+      "series_id": "rustfest",
+      "name": "RustFest Zurich 2017",
+      "year": 2017,
+      "starts_on": null,
+      "ends_on": null,
+      "status": "past_programme",
+      "programme_url": "https://zurich.rustfest.eu/talks/",
+      "speakers_url": null,
+      "recordings_url": null,
+      "source_urls": [
+        "https://zurich.rustfest.eu/talks/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "partial",
+        "programme_session_count": null,
+        "indexed_session_count": 16,
+        "gaps": [
+          "The 16 talk descriptions are indexed; exact dates, workshops and media are not reconciled.",
+          "16 speaker occurrences have no separate profile URL captured; use their programme source. Names have not been merged across conferences."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": [],
+      "page": "resources/conferences/rustfest/zurich-2017.md"
+    },
+    {
+      "id": "rustfest-barcelona-2019",
+      "series_id": "rustfest",
+      "name": "RustFest Barcelona 2019",
+      "year": 2019,
+      "starts_on": "2019-11-09",
+      "ends_on": "2019-11-12",
+      "status": "past_programme",
+      "programme_url": "https://barcelona.rustfest.eu/",
+      "speakers_url": null,
+      "recordings_url": null,
+      "source_urls": [
+        "https://barcelona.rustfest.eu/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "Programme, workshop and individual media inventory pending."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "rustfest-arts-2021",
+      "series_id": "rustfest",
+      "name": "RustFest Global: Rust in Arts",
+      "year": 2021,
+      "starts_on": "2021-11-20",
+      "ends_on": "2021-11-20",
+      "status": "past_programme",
+      "programme_url": "https://rustfest.global/2021/editions/",
+      "speakers_url": null,
+      "recordings_url": null,
+      "source_urls": [
+        "https://rustfest.global/2021/editions/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "Dates are historical announcements; delivery and the full session inventory are not established."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "rustfest-latam-2022",
+      "series_id": "rustfest",
+      "name": "RustFest Global: LATAM",
+      "year": 2022,
+      "starts_on": "2022-02-26",
+      "ends_on": "2022-02-26",
+      "status": "past_programme",
+      "programme_url": "https://rustfest.global/2021/editions/",
+      "speakers_url": null,
+      "recordings_url": null,
+      "source_urls": [
+        "https://rustfest.global/2021/editions/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "Dates are historical announcements; delivery and the full session inventory are not established."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "rustfest-emea-2022",
+      "series_id": "rustfest",
+      "name": "RustFest Global: EMEA",
+      "year": 2022,
+      "starts_on": "2022-04-23",
+      "ends_on": "2022-04-23",
+      "status": "past_programme",
+      "programme_url": "https://rustfest.global/2021/editions/",
+      "speakers_url": null,
+      "recordings_url": null,
+      "source_urls": [
+        "https://rustfest.global/2021/editions/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "Dates are historical announcements; delivery and the full session inventory are not established."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "rustfest-apac-2021",
+      "series_id": "rustfest",
+      "name": "RustFest Global: APAC (cancelled)",
+      "year": 2021,
+      "starts_on": null,
+      "ends_on": null,
+      "status": "unknown",
+      "programme_url": "https://rustfest.global/2021/editions/",
+      "speakers_url": null,
+      "recordings_url": null,
+      "source_urls": [
+        "https://rustfest.global/2021/editions/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "Organizer explicitly cancelled this edition; no sessions are represented."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": [],
+      "cancelled": true
+    },
+    {
+      "id": "rustlatam-2019",
+      "series_id": "rustlatam",
+      "name": "Rust Latam 2019",
+      "year": 2019,
+      "starts_on": "2019-03-29",
+      "ends_on": "2019-03-30",
+      "status": "past_programme",
+      "programme_url": "https://2019.rustlatam.org/",
+      "speakers_url": "https://2019.rustlatam.org/",
+      "recordings_url": "https://www.youtube.com/playlist?list=PL85XCvVPmGQjuWUNeFCgl8X2EOC_aAq5N",
+      "source_urls": [
+        "https://2019.rustlatam.org/"
+      ],
+      "language": [
+        "en",
+        "es"
+      ],
+      "coverage": {
+        "status": "indexed",
+        "programme_session_count": 14,
+        "indexed_session_count": 14,
+        "gaps": [
+          "The organizer slide list and recording collection are linked; per-talk materials are only partly matched.",
+          "1 speaker occurrences have no separate profile URL captured; use their programme source. Names have not been merged across conferences."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": [],
+      "page": "resources/conferences/rustlatam/2019.md"
+    },
+    {
+      "id": "rustchinaconf-2025",
+      "series_id": "rustchinaconf",
+      "name": "RustChinaConf 2025",
+      "year": 2025,
+      "starts_on": "2025-09-13",
+      "ends_on": "2025-09-14",
+      "status": "past_programme",
+      "programme_url": "https://rustcc.cn/2025conf/schedule.html",
+      "speakers_url": null,
+      "recordings_url": null,
+      "source_urls": [
+        "https://rustcc.cn/2025conf/schedule.html"
+      ],
+      "language": [
+        "zh",
+        "en"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "Bilingual programme located; session records and media not yet indexed."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "rustchinaconf-2026",
+      "series_id": "rustchinaconf",
+      "name": "RustChinaConf 2026",
+      "year": 2026,
+      "starts_on": "2026-10-15",
+      "ends_on": "2026-10-17",
+      "status": "current_programme",
+      "programme_url": "https://rustchinaconf.org/schedule/",
+      "speakers_url": null,
+      "recordings_url": null,
+      "source_urls": [
+        "https://rustchinaconf.org/schedule/"
+      ],
+      "language": [
+        "zh",
+        "en"
+      ],
+      "coverage": {
+        "status": "partial",
+        "programme_session_count": null,
+        "indexed_session_count": 39,
+        "gaps": [
+          "Only named speaker sessions are indexed. Workshop entries without named presenters, community slots and open-call placeholders are excluded.",
+          "Chinese source titles and organizer English translations are preserved; audio language and delivery are not verified.",
+          "40 speaker occurrences have no separate profile URL captured; use their programme source. Names have not been merged across conferences."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": [],
+      "page": "resources/conferences/rustchinaconf/2026.md"
+    },
+    {
+      "id": "rustasia-2025",
+      "series_id": "rustasia",
+      "name": "RUSTAsia 2025",
+      "year": 2025,
+      "starts_on": null,
+      "ends_on": null,
+      "status": "unknown",
+      "programme_url": "https://www.rustasiaconf.com/",
+      "speakers_url": null,
+      "recordings_url": null,
+      "source_urls": [
+        "https://www.rustasiaconf.com/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "blocked",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "Source returned HTTP 503; programme, speakers, dates and media could not be checked in this pass."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "rustforge-2025",
+      "series_id": "rustforge",
+      "name": "Rust Forge 2025",
+      "year": 2025,
+      "starts_on": "2025-08-27",
+      "ends_on": "2025-08-30",
+      "status": "past_programme",
+      "programme_url": "https://rustforgeconf.com/talks",
+      "speakers_url": "https://rustforgeconf.com/speakers",
+      "recordings_url": null,
+      "source_urls": [
+        "https://rustforgeconf.com/",
+        "https://rustforgeconf.com/talks"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "partial",
+        "programme_session_count": null,
+        "indexed_session_count": 21,
+        "gaps": [
+          "Conference talks are indexed. Workshops, tours and individual recordings are not yet indexed.",
+          "21 speaker occurrences have no separate profile URL captured; use their programme source. Names have not been merged across conferences."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": [],
+      "page": "resources/conferences/rustforge/2025.md"
+    },
+    {
+      "id": "rustbelt-2016",
+      "series_id": "rustbelt",
+      "name": "Rust Belt Rust 2016",
+      "year": 2016,
+      "starts_on": null,
+      "ends_on": null,
+      "status": "unknown",
+      "programme_url": "https://conf2016.rust-belt-rust.com/sessions/",
+      "speakers_url": null,
+      "recordings_url": null,
+      "source_urls": [
+        "https://conf2016.rust-belt-rust.com/sessions/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "blocked",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "TLS hostname validation failed; no programme was retrieved."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "rustbelt-2019",
+      "series_id": "rustbelt",
+      "name": "Rust Belt Rust 2019",
+      "year": 2019,
+      "starts_on": null,
+      "ends_on": null,
+      "status": "past_programme",
+      "programme_url": "https://www.rust-belt-rust.com/",
+      "speakers_url": null,
+      "recordings_url": null,
+      "source_urls": [
+        "https://www.rust-belt-rust.com/",
+        "https://blog.rust-lang.org/2019/05/20/The-2019-Rust-Event-Lineup/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "blocked",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "TLS certificate expired; the historical official Rust event roundup confirms the edition, but programme and media are not indexed."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "rustparis-2024",
+      "series_id": "rustparis",
+      "name": "Rust Paris 2024",
+      "year": 2024,
+      "starts_on": null,
+      "ends_on": null,
+      "status": "past_programme",
+      "programme_url": "https://systematic-paris-region.org/retour-sur-rust-paris-2024/",
+      "speakers_url": "https://systematic-paris-region.org/retour-sur-rust-paris-2024/",
+      "recordings_url": null,
+      "source_urls": [
+        "https://rustparis.fr/"
+      ],
+      "language": [
+        "fr"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "French programme and organizer recap are linked; individual sessions and media are not indexed."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "rustparis-2025",
+      "series_id": "rustparis",
+      "name": "Rust Paris 2025",
+      "year": 2025,
+      "starts_on": null,
+      "ends_on": null,
+      "status": "past_programme",
+      "programme_url": "https://systematic-paris-region.org/minisite/rustparis/rust-2025/",
+      "speakers_url": "https://systematic-paris-region.org/minisite/rustparis/rust-2025/",
+      "recordings_url": null,
+      "source_urls": [
+        "https://rustparis.fr/"
+      ],
+      "language": [
+        "fr"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "French programme and organizer recap are linked; individual sessions and media are not indexed."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "rustparis-2026",
+      "series_id": "rustparis",
+      "name": "Rust Paris 2026",
+      "year": 2026,
+      "starts_on": "2026-06-09",
+      "ends_on": "2026-06-09",
+      "status": "past_programme",
+      "programme_url": "https://rustparis.fr/",
+      "speakers_url": "https://rustparis.fr/",
+      "recordings_url": null,
+      "source_urls": [
+        "https://rustparis.fr/"
+      ],
+      "language": [
+        "fr"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "French programme and organizer recap are linked; individual sessions and media are not indexed."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": [],
+      "material_urls": [
+        {
+          "kind": "slides",
+          "url": "https://systematic-paris-region.org/wp-content/uploads/2026/08/Presentation_Rust-Paris-2026.pdf",
+          "title": "Conference slide bundle"
+        }
+      ]
+    },
+    {
+      "id": "fosdem-rust-2026",
+      "series_id": "fosdem-rust",
+      "name": "FOSDEM Rust devroom 2026",
+      "year": 2026,
+      "starts_on": "2026-02-01",
+      "ends_on": "2026-02-01",
+      "status": "past_programme",
+      "programme_url": "https://archive.fosdem.org/2026/schedule/track/rust/",
+      "speakers_url": null,
+      "recordings_url": null,
+      "source_urls": [
+        "https://archive.fosdem.org/2026/schedule/track/rust/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "indexed",
+        "programme_session_count": 16,
+        "indexed_session_count": 16,
+        "gaps": [
+          "This is the Rust devroom only; Rust-related talks in other FOSDEM tracks are outside this inventory."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": [],
+      "page": "resources/conferences/fosdem-rust/2026.md"
+    },
+    {
+      "id": "rustconasia-2019",
+      "series_id": "rustconasia",
+      "name": "RustCon Asia 2019",
+      "year": 2019,
+      "starts_on": "2019-04-20",
+      "ends_on": "2019-04-23",
+      "status": "past_programme",
+      "programme_url": "https://rustcon.asia/schedule/",
+      "speakers_url": null,
+      "recordings_url": "https://www.youtube.com/playlist?list=PL85XCvVPmGQjPvweRqkBgnh_HKE5MBB8x",
+      "source_urls": [
+        "https://rustcon.asia/schedule/",
+        "https://rustcon.asia/blog/hello-asia/",
+        "https://blog.rust-lang.org/2019/05/20/The-2019-Rust-Event-Lineup/"
+      ],
+      "language": [
+        "en",
+        "zh"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "Bilingual programme and recording collection located; per-session records are not yet indexed."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "rust-tokyo-2019",
+      "series_id": "rust-tokyo",
+      "name": "Rust.Tokyo 2019",
+      "year": 2019,
+      "starts_on": null,
+      "ends_on": null,
+      "status": "past_programme",
+      "programme_url": "https://rust.tokyo/2019/en/",
+      "speakers_url": null,
+      "recordings_url": null,
+      "source_urls": [
+        "https://rust.tokyo/en"
+      ],
+      "language": [
+        "ja",
+        "en"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "Official edition page located; programme and media records not yet indexed."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "rust-tokyo-2021",
+      "series_id": "rust-tokyo",
+      "name": "Rust.Tokyo 2021",
+      "year": 2021,
+      "starts_on": null,
+      "ends_on": null,
+      "status": "past_programme",
+      "programme_url": "https://rust.tokyo/2021/en/",
+      "speakers_url": null,
+      "recordings_url": null,
+      "source_urls": [
+        "https://rust.tokyo/en"
+      ],
+      "language": [
+        "ja",
+        "en"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "Official edition page located; programme and media records not yet indexed."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "rust-tokyo-2022",
+      "series_id": "rust-tokyo",
+      "name": "Rust.Tokyo 2022",
+      "year": 2022,
+      "starts_on": null,
+      "ends_on": null,
+      "status": "past_programme",
+      "programme_url": "https://rust.tokyo/2022/en/",
+      "speakers_url": null,
+      "recordings_url": null,
+      "source_urls": [
+        "https://rust.tokyo/en"
+      ],
+      "language": [
+        "ja",
+        "en"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "Official edition page located; programme and media records not yet indexed."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "rust-tokyo-2023",
+      "series_id": "rust-tokyo",
+      "name": "Rust.Tokyo 2023",
+      "year": 2023,
+      "starts_on": null,
+      "ends_on": null,
+      "status": "past_programme",
+      "programme_url": "https://rust.tokyo/2023/en/",
+      "speakers_url": null,
+      "recordings_url": null,
+      "source_urls": [
+        "https://rust.tokyo/en"
+      ],
+      "language": [
+        "ja",
+        "en"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "Official edition page located; programme and media records not yet indexed."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "rust-tokyo-2024",
+      "series_id": "rust-tokyo",
+      "name": "Rust.Tokyo 2024",
+      "year": 2024,
+      "starts_on": "2024-11-30",
+      "ends_on": "2024-11-30",
+      "status": "past_programme",
+      "programme_url": "https://rust.tokyo/en",
+      "speakers_url": null,
+      "recordings_url": null,
+      "source_urls": [
+        "https://rust.tokyo/en"
+      ],
+      "language": [
+        "ja",
+        "en"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "Official edition page located; programme and media records not yet indexed."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "rustindia-2026",
+      "series_id": "rustindia",
+      "name": "Rust India Conference 2026",
+      "year": 2026,
+      "starts_on": "2026-04-17",
+      "ends_on": "2026-04-18",
+      "status": "past_programme",
+      "programme_url": "https://hasgeek.com/rustbangalore/rust-india-conference-2026/schedule",
+      "speakers_url": null,
+      "recordings_url": "https://hasgeek.com/rustbangalore/rust-india-conference-2026/videos",
+      "source_urls": [
+        "https://hasgeek.com/rustbangalore/rust-india-conference-2026/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "Organizer schedule and videos are linked. The dynamic timetable is not yet parsed; submissions are not treated as accepted talks."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "tokioconf-2026",
+      "series_id": "tokioconf",
+      "name": "TokioConf 2026",
+      "year": 2026,
+      "starts_on": "2026-04-21",
+      "ends_on": "2026-04-22",
+      "status": "past_programme",
+      "programme_url": "https://tokioconf.com/2026/schedule",
+      "speakers_url": "https://tokioconf.com/2026/speakers",
+      "recordings_url": "https://youtube.com/playlist?list=PLgVIJ9TpEgOmHj0ADDpf-qGckYEJs4QCE",
+      "source_urls": [
+        "https://tokioconf.com/2026/schedule",
+        "https://tokioconf.com/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "indexed",
+        "programme_session_count": 18,
+        "indexed_session_count": 18,
+        "gaps": [
+          "Individual videos are not matched; use the organizer playlist."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": [],
+      "page": "resources/conferences/tokioconf/2026.md"
+    },
+    {
+      "id": "tokioconf-2027",
+      "series_id": "tokioconf",
+      "name": "TokioConf 2027",
+      "year": 2027,
+      "starts_on": "2027-04-26",
+      "ends_on": "2027-04-27",
+      "status": "announced",
+      "programme_url": "https://tokioconf.com/",
+      "speakers_url": null,
+      "recordings_url": null,
+      "source_urls": [
+        "https://tokioconf.com/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "Call for proposals is open; no accepted-talk inventory has been collected."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "conf42-rustlang-2025",
+      "series_id": "conf42-rustlang",
+      "name": "Conf42 Rustlang 2025",
+      "year": 2025,
+      "starts_on": null,
+      "ends_on": null,
+      "status": "past_programme",
+      "programme_url": "https://www.conf42.com/rustlang2025",
+      "speakers_url": null,
+      "recordings_url": null,
+      "source_urls": [
+        "https://www.conf42.com/rustlang2025"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "Organizer talk directory located; individual records, dates and recording links are not indexed."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    },
+    {
+      "id": "rustrush-2018",
+      "series_id": "rustrush",
+      "name": "RustRush 2018",
+      "year": 2018,
+      "starts_on": "2018-12-15",
+      "ends_on": "2018-12-16",
+      "status": "past_programme",
+      "programme_url": "https://web.archive.org/web/20190517105107/https://rustrush.ru/",
+      "speakers_url": null,
+      "recordings_url": "https://www.youtube.com/playlist?list=PLTooeo4dmVkQ_1lHJEY99ZTH_oP5ksIUL",
+      "source_urls": [
+        "https://blog.rust-lang.org/2019/05/20/The-2019-Rust-Event-Lineup/"
+      ],
+      "language": [
+        "ru",
+        "en"
+      ],
+      "coverage": {
+        "status": "source_only",
+        "programme_session_count": null,
+        "indexed_session_count": 0,
+        "gaps": [
+          "Official Rust event roundup supplies dates and recording collection. Its linked Wayback capture is a historical fallback; programme not indexed."
+        ]
+      },
+      "checked_on": "2026-10-15",
+      "notes": []
+    }
+  ]
+}

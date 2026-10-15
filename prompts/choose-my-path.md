@@ -53,3 +53,7 @@ With the [speaker profiles](../community/speaker-profiles.json), append:
 > Preserve publication format, research date, and draft status. Distinguish
 > earlier work from the EuroRust topic. State gaps without inventing resources.
 > Add a question to bring for each suggestion.
+
+For wider preparation, attach the [learning pack](../exports/archive/learning-pack.md)
+and use the [topic prompt](explore-a-topic.md). It links related conference talks
+and additional sources to each EuroRust session.

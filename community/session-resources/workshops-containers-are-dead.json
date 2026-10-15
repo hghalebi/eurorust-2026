@@ -1,0 +1,106 @@
+{
+  "session_id": "workshops-containers-are-dead",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+  "resources": [
+    {
+      "id": "eurorust-2025-webassembly",
+      "title": "Containers Are Dead: Long Live WebAssembly",
+      "kind": "workshop",
+      "url": "https://eurorust.eu/2025/workshops/long-live-webassembly/",
+      "authors": [
+        "Jonas Kruckenberg"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "repeat_appearance",
+      "why": "Lets readers compare the previous syllabus for Rust HTTP services, WASM deployment and diagnostics.",
+      "evidence_urls": [
+        "https://eurorust.eu/2025/workshops/long-live-webassembly/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "unknown",
+      "event": {
+        "name": "EuroRust",
+        "edition": "2025",
+        "starts_on": "2025-10-08",
+        "source_url": "https://eurorust.eu/2025/workshops/long-live-webassembly/"
+      },
+      "caveat": "Earlier programme with the same title and mentor; no recording or identical 2026 syllabus is claimed."
+    },
+    {
+      "id": "webassembly-component-model",
+      "title": "The WebAssembly Component Model",
+      "kind": "book",
+      "url": "https://component-model.bytecodealliance.org/",
+      "authors": [
+        "Bytecode Alliance contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Introduces components, interfaces and WASI before comparing service deployment models.",
+      "evidence_urls": [
+        "https://component-model.bytecodealliance.org/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "wasmtime-security",
+      "title": "Wasmtime security model",
+      "kind": "documentation",
+      "url": "https://docs.wasmtime.dev/security.html",
+      "authors": [
+        "Wasmtime contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Explains sandboxing and capability-based filesystem access so isolation claims can be assessed.",
+      "evidence_urls": [
+        "https://docs.wasmtime.dev/security.html"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "webassembly-pldi-2017",
+      "title": "Bringing the Web up to Speed with WebAssembly",
+      "kind": "paper",
+      "url": "https://css.csail.mit.edu/6.5660/2024/readings/wasm.pdf",
+      "authors": [
+        "Andreas Haas",
+        "Andreas Rossberg",
+        "Derek L. Schuff",
+        "Ben L. Titzer",
+        "Michael Holman",
+        "Dan Gohman",
+        "Luke Wagner",
+        "Alon Zakai",
+        "JF Bastien"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Explains WebAssembly’s portable execution model, validation and original design constraints.",
+      "evidence_urls": [
+        "https://css.csail.mit.edu/6.5660/2024/readings/wasm.pdf",
+        "https://webassembly.org/community/events/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "2017 research paper; its original runtime results do not describe current WASI deployments."
+    }
+  ]
+}

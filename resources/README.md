@@ -1,7 +1,16 @@
 # Read further
 
-Choose a question, then a source. The [speaker directory](speakers/README.md)
-links books, blogs, talks, research, projects, and public accounts.
+Choose a session, a topic, or a speaker. Follow one useful source before adding more.
+
+| Start with | What you can explore |
+| --- | --- |
+| [Your EuroRust session](related-talks/README.md) | Related talks, books, articles, papers, videos, and projects, with a reason for each choice |
+| [A Rust topic](topics/README.md) | Sessions and reading paths through types, infrastructure, robotics, and other interests |
+| [Conference archives](conferences/README.md) | Programmes, speakers, recordings, and known gaps across events and years |
+| [A speaker](speakers/README.md) | Their work, public accounts, and sources supporting attribution |
+| [Your agent](../docs/learning-resources.md) | Portable learning packs, JSON, and a prompt for a short reading list |
+
+## Useful references
 
 | Question | Source |
 | --- | --- |

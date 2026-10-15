@@ -15,6 +15,8 @@ Read the relevant source and focused checks before expanding the scope.
 | --- | --- | --- |
 | Correct a session | [Annotations](../community/annotations/sessions.json) and official page | [Source policy](source-and-reuse-policy.md), evidence, then refresh |
 | Update speaker research | [Profiles JSON](../community/speaker-profiles.json) and [pages](../resources/speakers/README.md) | [Attribution rules](../CONTRIBUTING.md#speaker-profile-corrections); consistent views and catalog joins |
+| Add session learning resources | [Curated JSON](../community/session-resources/) and [format guide](learning-resources.md) | `build-learning`, `check-learning`, and source evidence |
+| Extend conference archives | [Registry and inventory](../community/conference-archive/) and [directory](../resources/conferences/README.md) | `check-archive`, source links, edition identity, programme counts, and coverage gaps |
 | Check times and places | [Logistics JSON](../community/session-logistics.json) and [venue guide](time-and-place.md) | Compare official pages, snapshot, session IDs, times, and sources; preserve unknown rooms |
 | Add or move a guide | [Inventory](document-map.json) and [navigation checker](../tools/conference-data/src/navigation.rs) | Incoming links, `check-docs`, historical/private-route fixtures |
 | Change collection | [Collector](../tools/conference-data/src/collect.rs) and [fixture](../tools/conference-data/tests/fixtures/schedule.html) | Valid/malformed input, failed publication, `validate` |
@@ -63,6 +65,14 @@ The [logistics check](data-guide.md#session-logistics-check) is also maintained
 separately. Recheck it after a schedule refresh before updating its snapshot or
 date. Keep the venue guide consistent and never infer rooms from track labels.
 
+Learning resources also pin their reviewed catalog in
+`community/learning-manifest.json`. After a changed snapshot, review session
+joins and source changes before running `rebind-learning` and `build-learning`.
+The rebind command accepts changed retrieval dates or scheduling when the
+session content fingerprint matches. It stops for changed titles, speakers,
+full detail-page hashes, or annotations; those require editorial review. Existing
+source check dates stay intact. See the [learning guide](learning-resources.md).
+
 ## Publish and recover a snapshot
 
 Publication builds the immutable bundle, then atomically renames its directory.
@@ -105,6 +115,8 @@ cargo clippy --workspace --all-targets --locked -- -D warnings
 cargo test --workspace --locked
 cargo build --release --locked
 target/release/conference-data validate
+target/release/conference-data check-learning
+target/release/conference-data check-archive
 target/release/conference-data check-docs
 ```
 

@@ -1,0 +1,105 @@
+{
+  "session_id": "talks-compiling-the-linux-kernel-with-gccrs",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+  "resources": [
+    {
+      "id": "rustconf-2026-gccrs",
+      "title": "Compiling the Linux Kernel with gccrs",
+      "kind": "conference_talk",
+      "url": "https://rustconf2026.sched.com/event/2KHyD",
+      "authors": [
+        "Arthur Cohen",
+        "Pierre-Emmanuel Patry"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "repeat_appearance",
+      "why": "Lists an earlier 2026 appearance with the same title and speaker.",
+      "evidence_urls": [
+        "https://rustconf.com/speakers/",
+        "https://rustconf2026.sched.com/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "unknown",
+      "event": {
+        "name": "RustConf",
+        "edition": "2026",
+        "starts_on": "2026-09-09",
+        "source_url": "https://rustconf2026.sched.com/"
+      },
+      "caveat": "Official timetable and speaker roster checked. Detail-page access was inconsistent; delivery and recording remain unverified."
+    },
+    {
+      "id": "gccrs-rust-blog-2024",
+      "title": "gccrs: An alternative compiler for Rust",
+      "kind": "article",
+      "url": "https://blog.rust-lang.org/2024/11/07/gccrs-an-alternative-compiler-for-rust/",
+      "authors": [
+        "Arthur Cohen"
+      ],
+      "published_on": "2024-11-07",
+      "access": "open",
+      "relation": "preparation",
+      "why": "Explains gccrs goals and its relationship to rustc and the wider Rust Project.",
+      "evidence_urls": [
+        "https://blog.rust-lang.org/2024/11/07/gccrs-an-alternative-compiler-for-rust/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "rustweek-2025-gccrs-stdlib",
+      "title": "Inching ever closer to the Rust standard library with gccrs",
+      "kind": "conference_talk",
+      "url": "https://2025.rustweek.org/talks/arthurcohen/",
+      "authors": [
+        "Arthur Cohen",
+        "Pierre-Emmanuel Patry"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "project_evolution",
+      "why": "Shows the compiler’s earlier standard-library milestone before the kernel-focused session.",
+      "evidence_urls": [
+        "https://2025.rustweek.org/talks/arthurcohen/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "unknown",
+      "event": {
+        "name": "RustWeek",
+        "edition": "2025",
+        "starts_on": null,
+        "source_url": "https://2025.rustweek.org/talks/arthurcohen/"
+      },
+      "caveat": "Official session description checked; delivery and recording are unverified."
+    },
+    {
+      "id": "gccrs-project",
+      "title": "gccrs",
+      "kind": "project",
+      "url": "https://github.com/Rust-GCC/gccrs",
+      "authors": [
+        "gccrs contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Provides the compiler source and current development limitations behind the talk.",
+      "evidence_urls": [
+        "https://github.com/Rust-GCC/gccrs"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "The project describes gccrs as experimental; the talk title is not proof that it can build the Linux kernel."
+    }
+  ]
+}

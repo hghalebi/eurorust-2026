@@ -1,0 +1,83 @@
+{
+  "session_id": "workshops-building-a-virtual-machine-monitor-in-rust",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+  "resources": [
+    {
+      "id": "firecracker-nsdi-2020",
+      "title": "Firecracker: Lightweight Virtualization for Serverless Applications",
+      "kind": "paper",
+      "url": "https://www.usenix.org/conference/nsdi20/presentation/agache",
+      "authors": [
+        "Alexandru Agache",
+        "Marc Brooker",
+        "Andreea Florescu",
+        "Alexandra Iordache",
+        "Anthony Liguori",
+        "Rolf Neugebauer",
+        "Phil Piwonka",
+        "Diana-Maria Popa"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Explains the device, isolation and overhead choices behind a production microVM monitor.",
+      "evidence_urls": [
+        "https://www.usenix.org/conference/nsdi20/presentation/agache"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "published",
+      "event": {
+        "name": "USENIX NSDI",
+        "edition": "2020",
+        "starts_on": null,
+        "source_url": "https://www.usenix.org/conference/nsdi20/presentation/agache"
+      },
+      "caveat": "The publisher page includes the paper, slides and a recording; results describe the 2020 system."
+    },
+    {
+      "id": "kvm-api",
+      "title": "The KVM API",
+      "kind": "documentation",
+      "url": "https://docs.kernel.org/virt/kvm/api.html",
+      "authors": [
+        "Linux kernel contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Defines the VM, vCPU and memory interfaces used when building a Linux VMM.",
+      "evidence_urls": [
+        "https://docs.kernel.org/virt/kvm/api.html"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "rust-vmm-reference",
+      "title": "rust-vmm reference VMM",
+      "kind": "project",
+      "url": "https://github.com/rust-vmm/vmm-reference",
+      "authors": [
+        "rust-vmm contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Shows how reusable Rust virtualization components fit together in a small VMM.",
+      "evidence_urls": [
+        "https://github.com/rust-vmm/vmm-reference"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Reference implementation; no build or guest boot was performed."
+    }
+  ]
+}

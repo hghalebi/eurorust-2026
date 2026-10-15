@@ -1,0 +1,95 @@
+{
+  "format_version": "1.0.0",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "eurorust_snapshot_id": "eurorust-2026-09ef1844f8dfdb34b2f8",
+  "coverage": {
+    "global_completeness": "not_claimed",
+    "counts": {
+      "series": 21,
+      "editions": 59,
+      "appearances": 651,
+      "editions_with_appearances": 25,
+      "material_links": 226,
+      "speaker_profile_links": 589
+    },
+    "counting_rules": [
+      "An appearance is a programme entry at one edition. A repeated presentation at another event remains separate.",
+      "Published lightning blocks remain one entry unless their sub-talks are separately indexed.",
+      "Breaks, registration and most social activities are omitted. Named introduction sessions retain kind other.",
+      "Indexed means the selected programme scope was reconciled with source entries; it does not mean media are complete or playable.",
+      "Programme date is not proof of delivery. Publication and retrieval dates are separate.",
+      "Edition language lists describe available source languages; they do not promise recording or subtitle languages."
+    ],
+    "research_regions": [
+      {
+        "region": "Europe",
+        "languages": [
+          "en",
+          "fr"
+        ],
+        "result": "Multiple programmes indexed; other historical editions remain source only."
+      },
+      {
+        "region": "North America",
+        "languages": [
+          "en"
+        ],
+        "result": "RustConf roster and TokioConf programme indexed; Rust Belt Rust blocked by TLS errors."
+      },
+      {
+        "region": "Asia",
+        "languages": [
+          "en",
+          "zh",
+          "ja"
+        ],
+        "result": "RustChinaConf named 2026 sessions indexed; RustCon Asia, Rust.Tokyo, Rust India and RUSTAsia retain source or access gaps."
+      },
+      {
+        "region": "Latin America",
+        "languages": [
+          "en",
+          "es",
+          "pt"
+        ],
+        "result": "Rust Latam 2019 indexed. Rust Brasil community event listings were searched; meetups were not recast as a conference archive.",
+        "sources": [
+          "https://www.rustlang.com.br/eventos/"
+        ]
+      },
+      {
+        "region": "Oceania",
+        "languages": [
+          "en"
+        ],
+        "result": "Rust Forge 2025 conference talks indexed; its workshops and tours are not yet indexed."
+      },
+      {
+        "region": "Africa",
+        "languages": [
+          "en"
+        ],
+        "result": "Rust Africa community and campus events were searched; no separate conference programme was verified in this pass. This is a search gap, not evidence that none exists.",
+        "sources": [
+          "https://rustafrica.org/tag/rust/",
+          "https://rustafrica.org/the-rust-africa-campus-tour/"
+        ]
+      }
+    ],
+    "limits": [
+      "An initial source-checked draft; community and speaker review is pending.",
+      "No complete world conference, speaker bibliography or recording-availability claim.",
+      "No video playback, transcript accuracy or full-paper reading is asserted.",
+      "Original materials keep their own rights; this collection links metadata and does not relicense them.",
+      "Missing dates, authors and profiles remain null or explicit gaps.",
+      "Current EuroRust data and immutable snapshots remain separate.",
+      "No archive refresh is scheduled."
+    ],
+    "maintenance": {
+      "future_programmes": "Recheck after programme announcements and near the event.",
+      "historical_archives": "Check changed or reported links before editing records.",
+      "contributions": "Submit an edition, missing material or correction with its primary source."
+    }
+  }
+}

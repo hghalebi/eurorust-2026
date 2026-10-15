@@ -1,0 +1,98 @@
+{
+  "session_id": "talks-move-your-problems",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+  "resources": [
+    {
+      "id": "rust-constant-evaluation",
+      "title": "Constant evaluation — The Rust Reference",
+      "kind": "documentation",
+      "url": "https://doc.rust-lang.org/reference/const_eval.html",
+      "authors": [
+        "Rust Project contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Defines what Rust can evaluate during compilation and where const contexts apply.",
+      "evidence_urls": [
+        "https://doc.rust-lang.org/reference/const_eval.html"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "const-generics-mvp-beta",
+      "title": "Const generics MVP hits beta!",
+      "kind": "article",
+      "url": "https://blog.rust-lang.org/2021/02/26/const-generics-mvp-beta/",
+      "authors": [
+        "The const generics project group"
+      ],
+      "published_on": "2021-02-26",
+      "access": "open",
+      "relation": "preparation",
+      "why": "Introduces value parameters in types and explains why evaluating generic expressions at compile time needs extra rules.",
+      "evidence_urls": [
+        "https://blog.rust-lang.org/2021/02/26/const-generics-mvp-beta/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Historical Rust 1.51 announcement. Use the current Rust Reference for present language rules."
+    },
+    {
+      "id": "rust-reflection-comptime-goal",
+      "title": "Rust reflection and comptime project goal",
+      "kind": "documentation",
+      "url": "https://goals.rust-lang.org/2026/reflection-and-comptime.html",
+      "authors": [
+        "Oli Scherer",
+        "Rust Project"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "project_evolution",
+      "why": "Explains the speaker’s proposed reflection work and the design questions still being explored.",
+      "evidence_urls": [
+        "https://goals.rust-lang.org/2026/reflection-and-comptime.html"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "A project goal and experiment; acceptance does not mean the feature is stable Rust."
+    },
+    {
+      "id": "eurorust-2025-misusing-const",
+      "title": "Misusing Const for Fn and Profit",
+      "kind": "conference_talk",
+      "url": "https://eurorust.eu/2025/talks/misusing-const/",
+      "authors": [
+        "Tris Oaten"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Offers an earlier conference perspective on moving useful work into Rust’s compile-time evaluation.",
+      "evidence_urls": [
+        "https://eurorust.eu/2025/talks/misusing-const/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "unknown",
+      "event": {
+        "name": "EuroRust",
+        "edition": "2025",
+        "starts_on": null,
+        "source_url": "https://eurorust.eu/2025/talks/misusing-const/"
+      },
+      "caveat": "Official session description checked; delivery and recording are unverified."
+    }
+  ]
+}

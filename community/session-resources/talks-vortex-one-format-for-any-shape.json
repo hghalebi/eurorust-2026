@@ -1,0 +1,101 @@
+{
+  "session_id": "talks-vortex-one-format-for-any-shape",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+  "resources": [
+    {
+      "id": "vortex-any-shape-companion",
+      "title": "Vortex: One Format for Any Shape",
+      "kind": "article",
+      "url": "https://spiraldb.com/blog/vortex-one-format-for-any-shape",
+      "authors": [
+        "Connor Tsui"
+      ],
+      "published_on": "2026-09-16",
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Read the speaker's longer explanation of extensible logical types, encodings, and storage layouts.",
+      "evidence_urls": [
+        "https://spiraldb.com/blog/vortex-one-format-for-any-shape"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "vortex-project",
+      "title": "Vortex",
+      "kind": "project",
+      "url": "https://github.com/vortex-data/vortex",
+      "authors": [
+        "Vortex contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Inspect the format, compression implementations, and examples behind the session.",
+      "evidence_urls": [
+        "https://github.com/vortex-data/vortex"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "apache-arrow-columnar-format",
+      "title": "Arrow Columnar Format",
+      "kind": "documentation",
+      "url": "https://arrow.apache.org/docs/format/Columnar.html",
+      "authors": [
+        "Apache Arrow contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Learn the buffer layouts, nested types, and extension types behind columnar data interchange.",
+      "evidence_urls": [
+        "https://arrow.apache.org/docs/format/Columnar.html"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "btrblocks-research-artifact",
+      "title": "BtrBlocks: Efficient Columnar Compression for Data Lakes",
+      "kind": "project",
+      "url": "https://github.com/maxi-k/btrblocks",
+      "authors": [
+        "Maximilian Kuschewski",
+        "David Sauerwein",
+        "Adnan Alhomssi",
+        "Viktor Leis"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "alternative_approach",
+      "why": "Compare another columnar compression design through its research code, paper, and SIGMOD presentation links.",
+      "evidence_urls": [
+        "https://github.com/maxi-k/btrblocks",
+        "https://zenodo.org/records/7936448"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": {
+        "name": "ACM SIGMOD",
+        "edition": "2023",
+        "starts_on": null,
+        "source_url": "https://github.com/maxi-k/btrblocks"
+      },
+      "caveat": "Research artifact and authors checked; the linked paper and recording were not reviewed in full."
+    }
+  ]
+}

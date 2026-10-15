@@ -15,6 +15,8 @@ with a source, or edit a page and propose a pull request. No local tools are nee
 | Translation or clearer wording | [Planning guide](docs/planning-guide.md) or [agent prompt](prompts/choose-my-path.md) | Language, translator, original page, working links |
 | Summary, topic, or prerequisite | [Session annotations](community/annotations/sessions.json) | Original wording and official source |
 | Speaker resource or account | [Speaker directory](resources/speakers/README.md) | Resource, identity evidence, checked date |
+| Related talk or learning resource | [Session resources](resources/related-talks/README.md) | Session ID, original source, specific connection, format, access, checked date |
+| Conference or missing archive | [Conference directory](resources/conferences/README.md) | Series, edition, official programme, material links, known gaps |
 | Code example or tool change | [Maintenance guide](docs/maintenance.md) | Goal or failure, reproduction steps, checks, limits |
 
 Unsure where to edit? Include the official URL and the page you were reading
@@ -51,6 +53,23 @@ For direct edits, keep the profile page and
 speaker IDs. Change a research date only after rechecking the sources, and state
 what you reviewed. Omit uncertain claims. The
 [data guide](docs/data-guide.md#speaker-research-companion) explains the format.
+
+## Learning resources and archives
+
+An issue with a source is enough. Explain what a reader can learn and which
+session or topic it supports. Prefer the author, organizer, project, publisher,
+or research institution. Do not force a book or paper into an unrelated topic.
+
+For direct edits, update `community/session-resources/<session-id>.json` and
+regenerate the views using the [learning guide](docs/learning-resources.md).
+Keep evidence, access limits, review dates, and the distinction between event
+dates and publication dates. Mark future appearances as announced; a shared
+title alone does not prove identical content.
+
+For archives, update the records under `community/conference-archive/` and their
+conference pages. Report programme coverage separately from recordings. Keep
+missing, blocked, and unknown material visible. Link to original content rather
+than copying slides, transcripts, books, or full abstracts.
 
 ## Timing and venue corrections
 

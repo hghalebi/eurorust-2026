@@ -1,0 +1,73 @@
+{
+  "session_id": "workshops-rust-in-action",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+  "resources": [
+    {
+      "id": "modern-robotics-book",
+      "title": "Modern Robotics: Mechanics, Planning, and Control",
+      "kind": "book",
+      "url": "https://hades.mech.northwestern.edu/index.php/Modern_Robotics",
+      "authors": [
+        "Kevin M. Lynch",
+        "Frank C. Park"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Introduces the coordinate frames, motion and feedback control needed to connect perception to movement.",
+      "evidence_urls": [
+        "https://hades.mech.northwestern.edu/index.php/Modern_Robotics"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "The authors provide a free preprint; examples are not specific to the workshop SDK."
+    },
+    {
+      "id": "modern-robotics-pi-control",
+      "title": "Motion Control with Velocity Inputs, Part 2",
+      "kind": "video",
+      "url": "https://modernrobotics.northwestern.edu/nu-gm-book-resource/11-3-motion-control-with-velocity-inputs-part-2-of-3/",
+      "authors": [
+        "Kevin M. Lynch",
+        "Frank C. Park"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Gives a focused introduction to tracking a target with feedforward and PI feedback.",
+      "evidence_urls": [
+        "https://modernrobotics.northwestern.edu/nu-gm-book-resource/11-3-motion-control-with-velocity-inputs-part-2-of-3/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "University description and transcript checked; video playback was not tested."
+    },
+    {
+      "id": "opencv-tutorials",
+      "title": "OpenCV tutorials",
+      "kind": "documentation",
+      "url": "https://docs.opencv.org/4.x/d9/df8/tutorial_root.html",
+      "authors": [
+        "OpenCV contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Provides camera calibration and image-processing background for interpreting vehicle camera data.",
+      "evidence_urls": [
+        "https://docs.opencv.org/4.x/d9/df8/tutorial_root.html"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Independent background material; the workshop page does not say that its SDK uses OpenCV."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "session_id": "talks-what-s-next-for-rust-s-type-system",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+  "resources": [
+    {
+      "id": "lcnr-next-solver-eurorust-2025",
+      "title": "-Znext-solver: what, why, and when",
+      "kind": "conference_talk",
+      "url": "https://eurorust.eu/2025/talks/znext-solver/",
+      "authors": [
+        "lcnr"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Read the earlier motivation and design challenges behind the new trait solver.",
+      "evidence_urls": [
+        "https://eurorust.eu/2025/talks/znext-solver/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "listing_checked",
+      "temporal_status": "unknown",
+      "event": {
+        "name": "EuroRust",
+        "edition": "2025",
+        "starts_on": "2025-10-09",
+        "source_url": "https://eurorust.eu/2025/talks/znext-solver/"
+      },
+      "caveat": "Official session description checked; no recording is linked here."
+    },
+    {
+      "id": "next-solver-nightly-2026",
+      "title": "Enabling the next-generation trait solver on nightly",
+      "kind": "article",
+      "url": "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/",
+      "authors": [
+        "lcnr",
+        "Rustc Trait System Refactor Initiative"
+      ],
+      "published_on": "2026-08-21",
+      "access": "open",
+      "relation": "project_evolution",
+      "why": "Connect the solver redesign to inference changes, compatibility tests, and future language work.",
+      "evidence_urls": [
+        "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "A dated nightly rollout report; planned stabilization is not a stable-release guarantee."
+    },
+    {
+      "id": "rustc-next-trait-solver-guide",
+      "title": "Next-gen trait solving",
+      "kind": "documentation",
+      "url": "https://rustc-dev-guide.rust-lang.org/solve/trait-solving.html",
+      "authors": [
+        "Rust compiler contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Learn how goals, candidates, and constraints turn trait bounds into compiler decisions.",
+      "evidence_urls": [
+        "https://rustc-dev-guide.rust-lang.org/solve/trait-solving.html"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": null
+    },
+    {
+      "id": "lcnr-implied-bounds-variance",
+      "title": "Diving Deep: implied bounds and variance",
+      "kind": "article",
+      "url": "https://lcnr.de/blog/2022/02/05/diving-deep-implied-bounds-and-variance.html",
+      "authors": [
+        "lcnr"
+      ],
+      "published_on": "2022-02-05",
+      "access": "open",
+      "relation": "preparation",
+      "why": "Work through a concrete soundness problem involving lifetime bounds and variance.",
+      "evidence_urls": [
+        "https://lcnr.de/blog/2022/02/05/diving-deep-implied-bounds-and-variance.html"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Historical analysis with an author correction; check the linked issue for current status."
+    }
+  ]
+}

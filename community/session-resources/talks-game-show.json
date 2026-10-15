@@ -1,0 +1,71 @@
+{
+  "session_id": "talks-game-show",
+  "checked_on": "2026-10-15",
+  "review_status": "source_checked_draft",
+  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. These are optional background links; no game-show syllabus is assumed. No verified future conference match is included in this pass.",
+  "resources": [
+    {
+      "id": "engineering-rust-optimization-quiz",
+      "title": "Engineering a Rust optimization quiz",
+      "kind": "article",
+      "url": "https://fasterthanli.me/articles/engineering-a-rust-optimization-quiz",
+      "authors": [
+        "Amos Wenger"
+      ],
+      "published_on": "2025-11-01",
+      "access": "open",
+      "relation": "preparation",
+      "why": "Shows how one host built an earlier Rust quiz and chose questions about compiler behavior.",
+      "evidence_urls": [
+        "https://fasterthanli.me/articles/engineering-a-rust-optimization-quiz"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Optional background; it does not reveal or verify the 2026 game-show questions."
+    },
+    {
+      "id": "rust-quiz",
+      "title": "Rust Quiz",
+      "kind": "course",
+      "url": "https://dtolnay.github.io/rust-quiz/",
+      "authors": [
+        "David Tolnay"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Offers short code puzzles with explanations for practicing careful Rust code reading.",
+      "evidence_urls": [
+        "https://dtolnay.github.io/rust-quiz/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Independent optional practice, not official game-show preparation."
+    },
+    {
+      "id": "rustlings",
+      "title": "Rustlings",
+      "kind": "course",
+      "url": "https://rustlings.rust-lang.org/",
+      "authors": [
+        "Rustlings contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Offers small exercises for refreshing syntax and compiler-error reading before a code-based activity.",
+      "evidence_urls": [
+        "https://rustlings.rust-lang.org/"
+      ],
+      "checked_on": "2026-10-15",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Broad optional practice; the game show has no published technical syllabus."
+    }
+  ]
+}

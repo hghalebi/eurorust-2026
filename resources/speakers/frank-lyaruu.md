@@ -21,6 +21,12 @@ EuroRust sessions (check official pages for details and access):
 - [GitHub: flyaruu](https://github.com/flyaruu). Development profile under the speaker's name.
 - [LinkedIn](https://nl.linkedin.com/in/lyaruu). Professional profile matches the HighTech Innovators conference affiliation. [Attribution](https://www.rustikon.dev/talk/no-cars-were-harmed-for-this-talk-automotive-rust-amateur-style).
 
+## Read around the EuroRust session
+
+These lists include related talks and useful work by other authors.
+
+- [From Hardware to Human Interface: Building HID Devices in Rust](../related-talks/talks-from-hardware-to-human-interface-building-hid-devices-in-rust.md)
+
 ## Scope and sources
 
 No authored book or scholarly paper verified; blog posts and talks are listed separately.
