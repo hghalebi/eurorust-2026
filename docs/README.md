@@ -13,6 +13,7 @@ Read on GitHub, copy into your notes, or give the files to your agent.
 | Choose a first source | [Four engineering questions](../resources/learning-paths.md), with reading and questions to bring |
 | Read beyond a session | [Session resources](../resources/related-talks/README.md) and [topic indexes](../resources/topics/README.md) |
 | Explore other conferences | [Conference archives](../resources/conferences/README.md), with programme and recording coverage |
+| Follow new Rust work | [Future events, podcasts, newsletters, and feeds](../resources/stay-current/README.md) |
 | Explore a speaker's work | [Speaker directory](../resources/speakers/README.md) |
 | Compare learning goals | [Example paths](../community/paths/README.md) |
 | Follow preparation and later observations | [Journal](../journal/README.md) and [retrospective](../retrospective.md) |

@@ -2,6 +2,8 @@
 
 Follow an idea across conferences, years and speakers. Start with a programme below, then open its talks, speaker profiles and available materials.
 
+Planning another event? Use the [announced dates and events to watch](../stay-current/conferences.md).
+
 Checked **2026-10-15**: **21 series and tracks**, **59 editions**, **651 indexed programme entries**. Coverage is uneven and shown explicitly.
 
 [All editions and coverage](editions.md) · [EuroRust 2026 reading guides](../related-talks/README.md) · [Speaker profiles and works](../speakers/README.md) · [Data for agents](../../community/conference-archive/README.md)

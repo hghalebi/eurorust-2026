@@ -1,0 +1,1701 @@
+{
+  "format_version": 1,
+  "checked_on": "2026-10-15",
+  "reference_date": "2026-10-15",
+  "review_status": "Codex-assisted curation; community review pending",
+  "scope": "Rust programming-language conferences, selected workshops, podcasts, newsletters, technical publications, and discovery routes. A researched directory, not an exhaustive or continuously monitored calendar.",
+  "selection": "Organizer and publisher sources; concrete learning value for production Rust, types, infrastructure, and embedded systems. Broader engineering sources are labelled.",
+  "limits": [
+    "Event status is relative to reference_date. Recheck official dates and access before making plans.",
+    "Publication observations concern the inspected listing or feed, not every distribution platform.",
+    "Linked page language does not guarantee spoken language or captions.",
+    "No recording playback, subscription delivery, ticket availability, or registration was tested.",
+    "This companion is separate from the EuroRust catalog and export manifests. Pin its Git revision and checked_on date."
+  ],
+  "events": [
+    {
+      "id": "rustlab-2026",
+      "name": "RustLab 2026",
+      "kind": "conference",
+      "status": "announced",
+      "starts_on": "2026-11-01",
+      "ends_on": "2026-11-03",
+      "location": "Bologna, Italy",
+      "venue": "Savoia Regency Hotel",
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://rustlab.it/",
+      "why_follow": "Compare practical Rust talks and workshops.",
+      "notes": [
+        "Workshops 1 November; talks 2–3 November."
+      ],
+      "evidence_urls": [
+        "https://rustlab.it/"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "bettercode-rust-2026",
+      "name": "betterCode() Rust 2026",
+      "kind": "conference",
+      "status": "announced",
+      "starts_on": "2026-11-26",
+      "ends_on": "2026-11-26",
+      "location": "Online",
+      "venue": null,
+      "source_languages": [
+        "de"
+      ],
+      "url": "https://rust.bettercode.eu/",
+      "why_follow": "Explore Rust, AI agents, and engineering feedback.",
+      "notes": [
+        "German programme page; check each session language. Workshop on 2 December is a separate event."
+      ],
+      "evidence_urls": [
+        "https://rust.bettercode.eu/"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "bettercode-rust-workshop-2026",
+      "name": "Agent-Ready Rust workshop",
+      "kind": "workshop",
+      "status": "announced",
+      "starts_on": "2026-12-02",
+      "ends_on": "2026-12-02",
+      "location": "Online",
+      "venue": null,
+      "source_languages": [
+        "de"
+      ],
+      "url": "https://rust.bettercode.eu/veranstaltung-89714-se-0-agent-ready-rust-harness-engineering-fuer-ai-coding-agents.html",
+      "why_follow": "Study compiler, test, and tool feedback for coding agents.",
+      "notes": [
+        "Rainer Stropek. The page gives 09:00–16:00 without an explicit timezone; confirm it before scheduling."
+      ],
+      "evidence_urls": [
+        "https://rust.bettercode.eu/",
+        "https://rust.bettercode.eu/veranstaltung-89714-se-0-agent-ready-rust-harness-engineering-fuer-ai-coding-agents.html"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "rustcon-2026",
+      "name": "RustCon 2026",
+      "kind": "conference",
+      "status": "announced",
+      "starts_on": "2026-12-04",
+      "ends_on": "2026-12-04",
+      "location": "Moscow, Russia",
+      "venue": "Loft Prostranstvo VESNA, Spartakovsky pereulok 2s1, entrance 7",
+      "source_languages": [
+        "ru"
+      ],
+      "url": "https://rustcon.ru/",
+      "why_follow": "Follow the Russian-language Rust conference.",
+      "notes": [
+        "The visible programme is labelled 2025; do not treat it as the 2026 lineup. Online participation is advertised; verify its current terms."
+      ],
+      "evidence_urls": [
+        "https://rustcon.ru/"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "rustnation-2027",
+      "name": "Rust Nation UK 2027",
+      "kind": "conference",
+      "status": "announced",
+      "starts_on": "2027-02-18",
+      "ends_on": "2027-02-18",
+      "location": "London, UK",
+      "venue": "1 Basinghall Avenue, London EC2V 5DD",
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.rustnationuk.com/",
+      "why_follow": "Follow talks across the Rust ecosystem.",
+      "notes": [
+        "The 2027 lineup is being selected. The proposed 17 February workshop day is unconfirmed."
+      ],
+      "evidence_urls": [
+        "https://www.rustnationuk.com/"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "tokioconf-2027",
+      "name": "TokioConf 2027",
+      "kind": "conference",
+      "status": "announced",
+      "starts_on": "2027-04-26",
+      "ends_on": "2027-04-27",
+      "location": "Portland, Oregon, USA",
+      "venue": "The Armory",
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://tokioconf.com/",
+      "why_follow": "Go deeper into async Rust, networking, and production use.",
+      "notes": [
+        "Tickets were not yet on sale when checked; follow organizer updates."
+      ],
+      "evidence_urls": [
+        "https://tokioconf.com/"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "rustweek-2027",
+      "name": "RustWeek 2027",
+      "kind": "conference",
+      "status": "announced",
+      "starts_on": "2027-05-24",
+      "ends_on": "2027-05-29",
+      "location": "Utrecht, Netherlands",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://2027.rustweek.org/",
+      "why_follow": "Combine talks, workshops, and community activities.",
+      "notes": [
+        "These dates cover the full week, not six talk days. Rust Project All Hands and the unconference are invitation only. Venues vary by activity."
+      ],
+      "evidence_urls": [
+        "https://2027.rustweek.org/",
+        "https://rustnl.org/events/"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "rustconf-2027",
+      "name": "RustConf 2027",
+      "kind": "conference",
+      "status": "announced",
+      "starts_on": "2027-09-07",
+      "ends_on": "2027-09-10",
+      "location": "Vancouver, Canada, and online",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://rustconf.com/",
+      "why_follow": "Follow the Rust Foundation-hosted conference.",
+      "notes": [
+        "The 2027 announcement in the page body gives these dates and city. The page title still says Montreal and 8–11 September; the FAQ describes 2026. The 2027 programme and venue are not established here."
+      ],
+      "evidence_urls": [
+        "https://rustconf.com/",
+        "https://rustconf.com/faq/"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "rustcon-2027",
+      "name": "RustCon 2027",
+      "kind": "conference",
+      "status": "announced",
+      "starts_on": "2027-12-03",
+      "ends_on": "2027-12-03",
+      "location": "Moscow, Russia",
+      "venue": null,
+      "source_languages": [
+        "ru"
+      ],
+      "url": "https://speach.io/",
+      "why_follow": "Track the organizer’s next RustCon date.",
+      "notes": [
+        "Listed on the organizer’s 2027 calendar. The conference site still describes 2026; no 2027 venue or programme is established here."
+      ],
+      "evidence_urls": [
+        "https://speach.io/",
+        "https://rustcon.ru/"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "eurorust-2026",
+      "name": "EuroRust 2026",
+      "kind": "conference",
+      "status": "ongoing",
+      "starts_on": "2026-10-14",
+      "ends_on": "2026-10-17",
+      "location": "Barcelona, Spain, and online",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://eurorust.eu/",
+      "why_follow": "Use this repository’s session guides and conference data.",
+      "notes": [
+        "Talk days are 15–16 October. Workshops and side activities have different venues and access; use docs/time-and-place.md. No 2027 date was established."
+      ],
+      "evidence_urls": [
+        "https://eurorust.eu/"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "rustchinaconf-2026",
+      "name": "RustChinaConf 2026",
+      "kind": "conference",
+      "status": "ongoing",
+      "starts_on": "2026-10-15",
+      "ends_on": "2026-10-17",
+      "location": "Shenzhen, China",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://rustchinaconf.org/",
+      "why_follow": "Explore the announced Rust and AI programme.",
+      "notes": [
+        "Co-located with GOSIM. This event starts on the reference date; later delivery and recordings are unverified. No next-edition date was established."
+      ],
+      "evidence_urls": [
+        "https://rustchinaconf.org/"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "rustikon-next",
+      "name": "Rustikon",
+      "kind": "conference",
+      "status": "next_date_unconfirmed",
+      "starts_on": null,
+      "ends_on": null,
+      "location": "Warsaw, Poland",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.rustikon.dev/",
+      "why_follow": "Watch for a new organizer announcement.",
+      "notes": [
+        "Page shows 19–20 March 2026; no next date established.",
+        "Location describes the series or last known edition, not a confirmed future venue."
+      ],
+      "evidence_urls": [
+        "https://www.rustikon.dev/"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "oxidize-next",
+      "name": "Oxidize",
+      "kind": "conference",
+      "status": "next_date_unconfirmed",
+      "starts_on": null,
+      "ends_on": null,
+      "location": "Berlin, Germany",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://oxidizeconf.com/",
+      "why_follow": "Watch for a new organizer announcement.",
+      "notes": [
+        "Page shows 14–16 September 2026; useful for applied and embedded Rust. No next date established.",
+        "Location describes the series or last known edition, not a confirmed future venue."
+      ],
+      "evidence_urls": [
+        "https://oxidizeconf.com/"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "rustparis-next",
+      "name": "Rust Paris",
+      "kind": "conference",
+      "status": "next_date_unconfirmed",
+      "starts_on": null,
+      "ends_on": null,
+      "location": "Paris, France",
+      "venue": null,
+      "source_languages": [
+        "fr"
+      ],
+      "url": "https://rustparis.fr/",
+      "why_follow": "Watch for a new organizer announcement.",
+      "notes": [
+        "Page contains the 9 June 2026 programme and retrospective; no next date established.",
+        "Location describes the series or last known edition, not a confirmed future venue."
+      ],
+      "evidence_urls": [
+        "https://rustparis.fr/"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "rustforge-next",
+      "name": "Rust Forge",
+      "kind": "conference",
+      "status": "next_date_unconfirmed",
+      "starts_on": null,
+      "ends_on": null,
+      "location": "New Zealand",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://rustforgeconf.com/",
+      "why_follow": "Watch for a new organizer announcement.",
+      "notes": [
+        "Page still describes 2025; no next date established.",
+        "Location describes the series or last known edition, not a confirmed future venue."
+      ],
+      "evidence_urls": [
+        "https://rustforgeconf.com/"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "rust-tokyo-next",
+      "name": "Rust.Tokyo",
+      "kind": "conference",
+      "status": "next_date_unconfirmed",
+      "starts_on": null,
+      "ends_on": null,
+      "location": "Japan",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://rust.tokyo/en",
+      "why_follow": "Watch for a new organizer announcement.",
+      "notes": [
+        "The inspected English site still describes 2024; no next date established.",
+        "Location describes the series or last known edition, not a confirmed future venue."
+      ],
+      "evidence_urls": [
+        "https://rust.tokyo/en"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "rustindia-next",
+      "name": "Rust India Conference",
+      "kind": "conference",
+      "status": "next_date_unconfirmed",
+      "starts_on": null,
+      "ends_on": null,
+      "location": "India",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://rustindia.org/",
+      "why_follow": "Watch for a new organizer announcement.",
+      "notes": [
+        "Organizer lists no upcoming event and links its April 2026 recap.",
+        "Location describes the series or last known edition, not a confirmed future venue."
+      ],
+      "evidence_urls": [
+        "https://rustindia.org/"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "rustfest-next",
+      "name": "RustFest",
+      "kind": "conference",
+      "status": "next_date_unconfirmed",
+      "starts_on": null,
+      "ends_on": null,
+      "location": "International / online",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://rustfest.global/",
+      "why_follow": "Watch for a new organizer announcement.",
+      "notes": [
+        "Site preserves the 2021 season and regional events; no new date established.",
+        "Location describes the series or last known edition, not a confirmed future venue."
+      ],
+      "evidence_urls": [
+        "https://rustfest.global/"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "rustasia-next",
+      "name": "RUSTAsia",
+      "kind": "conference",
+      "status": "next_date_unconfirmed",
+      "starts_on": null,
+      "ends_on": null,
+      "location": "Hong Kong, previous edition",
+      "venue": null,
+      "source_languages": [],
+      "url": "https://www.rustasiaconf.com/",
+      "why_follow": "Watch for a new organizer announcement.",
+      "notes": [
+        "Source returned HTTP 503. Next edition remains unverified; see the existing archive for 2025.",
+        "Location describes the series or last known edition, not a confirmed future venue."
+      ],
+      "evidence_urls": [
+        "https://www.rustasiaconf.com/"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "unavailable",
+      "parent_event": null
+    },
+    {
+      "id": "conf42-rustlang-next",
+      "name": "Conf42 Rustlang",
+      "kind": "conference",
+      "status": "next_date_unconfirmed",
+      "starts_on": null,
+      "ends_on": null,
+      "location": "Online",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.conf42.com/",
+      "why_follow": "Watch for a new organizer announcement.",
+      "notes": [
+        "No future Rustlang edition found in the inspected event list; the archive has 2025.",
+        "Location describes the series or last known edition, not a confirmed future venue."
+      ],
+      "evidence_urls": [
+        "https://www.conf42.com/"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "rustnation-workshops-2027",
+      "name": "Rust Nation workshop day",
+      "kind": "workshop",
+      "status": "tentative",
+      "starts_on": "2027-02-17",
+      "ends_on": "2027-02-17",
+      "location": "London, UK",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.rustnationuk.com/",
+      "why_follow": "Watch for workshop details.",
+      "notes": [
+        "Organizer explicitly says this date is being planned and is not confirmed."
+      ],
+      "evidence_urls": [
+        "https://www.rustnationuk.com/"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "fosdem-rust-2027",
+      "name": "FOSDEM Rust devroom",
+      "kind": "track",
+      "status": "next_date_unconfirmed",
+      "starts_on": null,
+      "ends_on": null,
+      "location": "Brussels, Belgium",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://fosdem.org/2027/",
+      "why_follow": "Watch for a Rust track announcement.",
+      "notes": [
+        "FOSDEM itself is announced for 30–31 January 2027. A Rust devroom and its date were not confirmed in the inspected page; do not create Rust session dates from the parent event."
+      ],
+      "evidence_urls": [
+        "https://fosdem.org/2027/"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked",
+      "parent_event": {
+        "name": "FOSDEM 2027",
+        "starts_on": "2027-01-30",
+        "ends_on": "2027-01-31"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "rust-in-production",
+      "name": "Rust in Production",
+      "kind": "podcast",
+      "publisher": "corrode / Matthias Endler",
+      "url": "https://corrode.dev/podcast/",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "production",
+        "infrastructure",
+        "robotics"
+      ],
+      "why_follow": "Engineering interviews about running Rust in companies.",
+      "activity": "publication_observed",
+      "latest_observed": {
+        "title": "RustRover with Orhun Parmaksız",
+        "published_on": "2026-07-30",
+        "published_at": "2026-07-30T18:00:00+02:00",
+        "url": "https://corrode.dev/podcast/s06e09-jetbrains/",
+        "evidence_url": "https://letscast.fm/podcasts/rust-in-production-82281512/feed",
+        "basis": "feed_metadata"
+      },
+      "feed_url": "https://letscast.fm/podcasts/rust-in-production-82281512/feed",
+      "feed_type": "rss",
+      "feed_checked_on": "2026-10-15",
+      "notes": [
+        "Published in seasons; the observed date does not predict the next episode."
+      ],
+      "evidence_urls": [
+        "https://corrode.dev/podcast/",
+        "https://letscast.fm/podcasts/rust-in-production-82281512/feed"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_and_feed_checked"
+    },
+    {
+      "id": "rustacean-station",
+      "name": "Rustacean Station",
+      "kind": "podcast",
+      "publisher": "Rustacean Station community",
+      "url": "https://rustacean-station.org/",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "ecosystem",
+        "language",
+        "production"
+      ],
+      "why_follow": "Project interviews and Rust release discussions.",
+      "activity": "publication_observed",
+      "latest_observed": {
+        "title": "Hopp with Costa Alexoglou and Iason Paraskevopoulos",
+        "published_on": "2026-02-27",
+        "published_at": "2026-02-27T11:25:00+00:00",
+        "url": "https://rustacean-station.org/episode/hopp/",
+        "evidence_url": "https://rustacean-station.org/podcast.rss",
+        "basis": "feed_metadata"
+      },
+      "feed_url": "https://rustacean-station.org/podcast.rss",
+      "feed_type": "rss",
+      "feed_checked_on": "2026-10-15",
+      "notes": [],
+      "evidence_urls": [
+        "https://rustacean-station.org/",
+        "https://rustacean-station.org/podcast.rss"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_and_feed_checked"
+    },
+    {
+      "id": "self-directed-research",
+      "name": "Self-Directed Research",
+      "kind": "podcast",
+      "publisher": "Amos Wenger and James Munns",
+      "url": "https://sdr-podcast.com/",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "embedded",
+        "systems",
+        "web"
+      ],
+      "why_follow": "Follow experiments in Rust, embedded systems, and web software.",
+      "activity": "publication_observed",
+      "latest_observed": {
+        "title": "Intrusive lists for fun and profit",
+        "published_on": "2025-08-13",
+        "published_at": "2025-08-13T08:00:00+00:00",
+        "url": "https://sdr-podcast.com/episodes/intrusive-lists-for-fun-and-profit/",
+        "evidence_url": "https://sdr-podcast.com/podcast-feed-m4a.xml",
+        "basis": "feed_metadata"
+      },
+      "feed_url": "https://sdr-podcast.com/podcast-feed-m4a.xml",
+      "feed_type": "rss",
+      "feed_checked_on": "2026-10-15",
+      "notes": [
+        "The homepage advertises weekly episodes; the newest item observed in this feed is from August 2025. New publication cadence is unconfirmed."
+      ],
+      "evidence_urls": [
+        "https://sdr-podcast.com/",
+        "https://sdr-podcast.com/podcast-feed-m4a.xml"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_and_feed_checked"
+    },
+    {
+      "id": "oxide-and-friends",
+      "name": "Oxide and Friends",
+      "kind": "podcast",
+      "publisher": "Oxide Computer Company",
+      "url": "https://oxide-and-friends.transistor.fm/",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "infrastructure",
+        "systems",
+        "hardware"
+      ],
+      "why_follow": "Study systems engineering, hardware, and operating infrastructure.",
+      "activity": "publication_observed",
+      "latest_observed": {
+        "title": "For Want of a Resistor",
+        "published_on": "2026-09-16",
+        "published_at": "2026-09-16T07:00:00-07:00",
+        "url": "https://share.transistor.fm/s/27f44a32",
+        "evidence_url": "https://feeds.transistor.fm/oxide-and-friends",
+        "basis": "feed_metadata"
+      },
+      "feed_url": "https://feeds.transistor.fm/oxide-and-friends",
+      "feed_type": "rss",
+      "feed_checked_on": "2026-10-15",
+      "notes": [
+        "Covers wider engineering topics, not only Rust."
+      ],
+      "evidence_urls": [
+        "https://oxide.computer/podcasts/oxide-and-friends",
+        "https://oxide-and-friends.transistor.fm/",
+        "https://oxide-and-friends.transistor.fm/subscribe",
+        "https://feeds.transistor.fm/oxide-and-friends"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_and_feed_checked"
+    },
+    {
+      "id": "rustship",
+      "name": "RustShip",
+      "kind": "podcast",
+      "publisher": "Marco Ieni",
+      "url": "https://creators.spotify.com/pod/profile/marco-ieni",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "ecosystem",
+        "learning",
+        "tooling"
+      ],
+      "why_follow": "Hear developers explain Rust projects and engineering choices.",
+      "activity": "publication_observed",
+      "latest_observed": {
+        "title": "Teaching and Learning Rust with Tim McNamara — RustShip #10",
+        "published_on": "2024-12-14",
+        "published_at": null,
+        "url": "https://creators.spotify.com/pod/profile/marco-ieni",
+        "evidence_url": "https://creators.spotify.com/pod/profile/marco-ieni",
+        "basis": "publisher_listing"
+      },
+      "feed_url": null,
+      "feed_type": null,
+      "feed_checked_on": null,
+      "notes": [
+        "An older interview collection; no new schedule verified."
+      ],
+      "evidence_urls": [
+        "https://www.marcoieni.com/2023/08/rustship-a-new-rust-podcast/",
+        "https://creators.spotify.com/pod/profile/marco-ieni"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked"
+    },
+    {
+      "id": "chats-with-james",
+      "name": "Chats with James",
+      "kind": "podcast",
+      "publisher": "James Munns",
+      "url": "https://jamesmunns.com/podcast/",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "embedded",
+        "hardware",
+        "community"
+      ],
+      "why_follow": "Explore embedded engineering and Rust community interviews.",
+      "activity": "publication_observed",
+      "latest_observed": {
+        "title": "017 - On the Road: RustNL & Oxidize",
+        "published_on": "2024-07-10",
+        "published_at": "2024-07-10T08:00:00+00:00",
+        "url": "https://jamesmunns.com/podcast/017-on-the-road/",
+        "evidence_url": "https://jamesmunns.com/podcast-feed-mp3.xml",
+        "basis": "feed_metadata"
+      },
+      "feed_url": "https://jamesmunns.com/podcast-feed-mp3.xml",
+      "feed_type": "rss",
+      "feed_checked_on": "2026-10-15",
+      "notes": [
+        "An older interview collection; no new schedule verified."
+      ],
+      "evidence_urls": [
+        "https://jamesmunns.com/podcast/",
+        "https://jamesmunns.com/podcast-feed-mp3.xml"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_and_feed_checked"
+    },
+    {
+      "id": "rust-workshop-podcast",
+      "name": "The Rust Workshop Podcast",
+      "kind": "podcast",
+      "publisher": "Tim Abell",
+      "url": "https://rustworkshop.co/podcast/",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "learning",
+        "production"
+      ],
+      "why_follow": "Interviews and notes on learning and using Rust.",
+      "activity": "publication_observed",
+      "latest_observed": {
+        "title": "AI Summary of This Week In Rust 615",
+        "published_on": "2025-09-05",
+        "published_at": "2025-09-05T15:52:17-07:00",
+        "url": "https://share.transistor.fm/s/7dbb4681",
+        "evidence_url": "https://feeds.transistor.fm/the-rust-workshop-podcast",
+        "basis": "feed_metadata"
+      },
+      "feed_url": "https://feeds.transistor.fm/the-rust-workshop-podcast",
+      "feed_type": "rss",
+      "feed_checked_on": "2026-10-15",
+      "notes": [
+        "The two latest items are labelled AI summaries of This Week in Rust. These are generated summaries, not interviews."
+      ],
+      "evidence_urls": [
+        "https://rustworkshop.co/podcast/",
+        "https://feeds.transistor.fm/the-rust-workshop-podcast"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_and_feed_checked"
+    },
+    {
+      "id": "rust-review",
+      "name": "Rust Review",
+      "kind": "podcast",
+      "publisher": "Brandon Konkle",
+      "url": "https://deterministic.dev/rust-review",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "ecosystem",
+        "tooling"
+      ],
+      "why_follow": "Browse commentary on Rust articles and tools.",
+      "activity": "date_unverified",
+      "latest_observed": null,
+      "feed_url": null,
+      "feed_type": null,
+      "feed_checked_on": null,
+      "notes": [
+        "The page advertises a weekly show but highlights older material. A current release date and direct feed were not established."
+      ],
+      "evidence_urls": [
+        "https://deterministic.dev/rust-review"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked"
+    },
+    {
+      "id": "new-rustacean",
+      "name": "New Rustacean",
+      "kind": "podcast",
+      "publisher": "Chris Krycho",
+      "url": "https://newrustacean.com/",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "learning",
+        "language"
+      ],
+      "why_follow": "Learn concepts from a completed introductory audio series.",
+      "activity": "ended",
+      "latest_observed": {
+        "title": "Meta 3: Happy Coding",
+        "published_on": "2019-05-27",
+        "published_at": "2019-05-27T09:15:00-06:00",
+        "url": "https://newrustacean.com/show_notes/meta/_3/",
+        "evidence_url": "https://newrustacean.com/feed.xml",
+        "basis": "feed_metadata"
+      },
+      "feed_url": "https://newrustacean.com/feed.xml",
+      "feed_type": "rss",
+      "feed_checked_on": "2026-10-15",
+      "notes": [
+        "The author identifies 27 May 2019 as the final episode. Examples and tooling reflect older Rust."
+      ],
+      "evidence_urls": [
+        "https://newrustacean.com/",
+        "https://newrustacean.com/show_notes/meta/_3/",
+        "https://newrustacean.com/feed.xml"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_and_feed_checked"
+    },
+    {
+      "id": "this-week-in-rust",
+      "name": "This Week in Rust",
+      "kind": "newsletter",
+      "publisher": "This Week in Rust contributors",
+      "url": "https://this-week-in-rust.org/",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "ecosystem",
+        "events",
+        "contributing"
+      ],
+      "why_follow": "Scan community articles, releases, events, and contribution opportunities.",
+      "activity": "publication_observed",
+      "latest_observed": {
+        "title": "This Week in Rust 672",
+        "published_on": "2026-10-07",
+        "published_at": "2026-10-07T00:00:00-04:00",
+        "url": "https://this-week-in-rust.org/blog/2026/10/07/this-week-in-rust-672/",
+        "evidence_url": "https://this-week-in-rust.org/rss.xml",
+        "basis": "feed_metadata"
+      },
+      "feed_url": "https://this-week-in-rust.org/rss.xml",
+      "feed_type": "rss",
+      "feed_checked_on": "2026-10-15",
+      "notes": [],
+      "evidence_urls": [
+        "https://this-week-in-rust.org/",
+        "https://this-week-in-rust.org/rss.xml"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_and_feed_checked"
+    },
+    {
+      "id": "rust-trends",
+      "name": "Rust Trends",
+      "kind": "newsletter",
+      "publisher": "Rust Trends",
+      "url": "https://rust-trends.com/",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "ecosystem",
+        "production"
+      ],
+      "why_follow": "Read a short editorial digest of ecosystem developments.",
+      "activity": "publication_observed",
+      "latest_observed": {
+        "title": "84 - Google Puts Agents on the Rust Rewrite",
+        "published_on": "2026-10-04",
+        "published_at": "2026-10-04T00:00:00+00:00",
+        "url": "https://rust-trends.com/newsletter/google-puts-agents-on-the-rust-rewrite/",
+        "evidence_url": "https://rust-trends.com/newsletter/rss.xml",
+        "basis": "feed_metadata"
+      },
+      "feed_url": "https://rust-trends.com/newsletter/rss.xml",
+      "feed_type": "rss",
+      "feed_checked_on": "2026-10-15",
+      "notes": [
+        "Follow the linked originals before relying on technical or performance claims."
+      ],
+      "evidence_urls": [
+        "https://rust-trends.com/",
+        "https://rust-trends.com/newsletter/rss.xml"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_and_feed_checked"
+    },
+    {
+      "id": "embedded-rustacean",
+      "name": "The Embedded Rustacean",
+      "kind": "newsletter",
+      "publisher": "The Embedded Rustacean",
+      "url": "https://www.theembeddedrustacean.com/",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "embedded",
+        "robotics",
+        "hardware"
+      ],
+      "why_follow": "Follow embedded projects, hardware, and learning material.",
+      "activity": "publication_observed",
+      "latest_observed": {
+        "title": "The Embedded Rustacean Issue #82",
+        "published_on": "2026-10-09",
+        "published_at": "2026-10-09T10:30:00+00:00",
+        "url": "https://www.theembeddedrustacean.com/p/the-embedded-rustacean-issue-82",
+        "evidence_url": "https://rss.beehiiv.com/feeds/LyzGmG4pKl.xml",
+        "basis": "feed_metadata"
+      },
+      "feed_url": "https://rss.beehiiv.com/feeds/LyzGmG4pKl.xml",
+      "feed_type": "rss",
+      "feed_checked_on": "2026-10-15",
+      "notes": [
+        "The site also sells books and hardware; the newsletter and those products are separate."
+      ],
+      "evidence_urls": [
+        "https://www.theembeddedrustacean.com/",
+        "https://rss.beehiiv.com/feeds/LyzGmG4pKl.xml"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_and_feed_checked"
+    },
+    {
+      "id": "rust-bytes",
+      "name": "Rust Bytes",
+      "kind": "newsletter",
+      "publisher": "Rust Bytes",
+      "url": "https://weeklyrust.substack.com/",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "ecosystem",
+        "learning"
+      ],
+      "why_follow": "Browse Rust news, project links, and coding challenges.",
+      "activity": "publication_observed",
+      "latest_observed": {
+        "title": "🦀 Never Bet Against Rust",
+        "published_on": "2026-10-13",
+        "published_at": "2026-10-13T06:31:41+00:00",
+        "url": "https://weeklyrust.substack.com/p/never-bet-against-rust",
+        "evidence_url": "https://weeklyrust.substack.com/feed",
+        "basis": "feed_metadata"
+      },
+      "feed_url": "https://weeklyrust.substack.com/feed",
+      "feed_type": "rss",
+      "feed_checked_on": "2026-10-15",
+      "notes": [],
+      "evidence_urls": [
+        "https://weeklyrust.substack.com/",
+        "https://weeklyrust.substack.com/about",
+        "https://weeklyrust.substack.com/feed"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_and_feed_checked"
+    },
+    {
+      "id": "rust-osdev",
+      "name": "This Month in Rust OSDev",
+      "kind": "newsletter",
+      "publisher": "Rust OSDev contributors",
+      "url": "https://rust-osdev.com/",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "systems",
+        "embedded",
+        "operating-systems"
+      ],
+      "why_follow": "Track operating-system libraries and low-level Rust work.",
+      "activity": "publication_observed",
+      "latest_observed": {
+        "title": "This Month in Rust OSDev: September 2026",
+        "published_on": "2026-10-01",
+        "published_at": "2026-10-01T00:00:00+00:00",
+        "url": "https://rust-osdev.com/this-month/2026-09/",
+        "evidence_url": "https://rust-osdev.com/rss.xml",
+        "basis": "feed_metadata"
+      },
+      "feed_url": "https://rust-osdev.com/rss.xml",
+      "feed_type": "rss",
+      "feed_checked_on": "2026-10-15",
+      "notes": [
+        "The September 2026 report was published on 1 October. Report period and publication date are different."
+      ],
+      "evidence_urls": [
+        "https://rust-osdev.com/",
+        "https://rust-osdev.com/rss.xml"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_and_feed_checked"
+    },
+    {
+      "id": "awesome-rust-weekly",
+      "name": "Awesome Rust Weekly",
+      "kind": "newsletter",
+      "publisher": "LibHunt",
+      "url": "https://rust.libhunt.com/newsletter",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "ecosystem",
+        "projects"
+      ],
+      "why_follow": "Discover popular Rust projects and articles.",
+      "activity": "publication_observed",
+      "latest_observed": {
+        "title": "💻 Issue 538 - Quake ported to safe Rust, playable in browser",
+        "published_on": "2026-10-15",
+        "published_at": "2026-10-15T13:42:00-08:00",
+        "url": "https://rust.libhunt.com/newsletter/538",
+        "evidence_url": "https://rust.libhunt.com/newsletter/feed",
+        "basis": "feed_metadata"
+      },
+      "feed_url": "https://rust.libhunt.com/newsletter/feed",
+      "feed_type": "rss",
+      "feed_checked_on": "2026-10-15",
+      "notes": [
+        "Popularity-based discovery; inclusion does not verify a project’s quality or claims."
+      ],
+      "evidence_urls": [
+        "https://rust.libhunt.com/newsletter",
+        "https://rust.libhunt.com/newsletter/feed"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_and_feed_checked"
+    },
+    {
+      "id": "rust-magazine",
+      "name": "Rust Magazine",
+      "kind": "publication_archive",
+      "publisher": "Rust Magazine contributors",
+      "url": "https://rustmagazine.org/",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "systems",
+        "language",
+        "async"
+      ],
+      "why_follow": "Read articles and interviews on Rust internals and projects.",
+      "activity": "publication_observed",
+      "latest_observed": {
+        "title": "How Tokio schedule tasks: A hard Lesson learnt",
+        "published_on": "2023-08-21",
+        "published_at": "2023-08-21T00:00:00+00:00",
+        "url": "https://rustmagazine.org/issue-4/how-tokio-schedule-tasks",
+        "evidence_url": "https://rustmagazine.org/feed.xml",
+        "basis": "feed_metadata"
+      },
+      "feed_url": "https://rustmagazine.org/feed.xml",
+      "feed_type": "atom",
+      "feed_checked_on": "2026-10-15",
+      "notes": [
+        "The latest feed item observed is from 2023; no new issue schedule verified."
+      ],
+      "evidence_urls": [
+        "https://rustmagazine.org/",
+        "https://rustmagazine.org/about/",
+        "https://rustmagazine.org/feed.xml"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_and_feed_checked"
+    },
+    {
+      "id": "rust-gamedev-news",
+      "name": "This Month in Rust GameDev",
+      "kind": "publication_archive",
+      "publisher": "Rust GameDev Working Group",
+      "url": "https://github.com/rust-gamedev/rust-gamedev.github.io/tree/main/content/news",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "gamedev",
+        "graphics"
+      ],
+      "why_follow": "Browse game-development reports in the publisher’s repository.",
+      "activity": "date_unverified",
+      "latest_observed": null,
+      "feed_url": null,
+      "feed_type": null,
+      "feed_checked_on": null,
+      "notes": [
+        "gamedev.rs was unreachable during this check. Repository issue 52 is marked draft=false; issue 53 is draft=true. Do not treat the draft as a published newsletter."
+      ],
+      "evidence_urls": [
+        "https://github.com/rust-gamedev/rust-gamedev.github.io",
+        "https://github.com/rust-gamedev/rust-gamedev.github.io/blob/main/content/news/052/index.md",
+        "https://github.com/rust-gamedev/rust-gamedev.github.io/blob/main/content/news/053/index.md"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked"
+    },
+    {
+      "id": "read-rust",
+      "name": "Read Rust",
+      "kind": "publication_archive",
+      "publisher": "Wesley Moore and contributors",
+      "url": "https://readrust.net/",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "ecosystem",
+        "systems",
+        "embedded"
+      ],
+      "why_follow": "Find earlier technical articles by topic.",
+      "activity": "retired",
+      "latest_observed": null,
+      "feed_url": null,
+      "feed_type": null,
+      "feed_checked_on": null,
+      "notes": [
+        "The publisher’s About page says the service has retired and the site is a static archive."
+      ],
+      "evidence_urls": [
+        "https://readrust.net/",
+        "https://readrust.net/about"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked"
+    },
+    {
+      "id": "rust-blog",
+      "name": "Rust Blog",
+      "kind": "blog",
+      "publisher": "Rust Project teams",
+      "url": "https://blog.rust-lang.org/",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "releases",
+        "language",
+        "security"
+      ],
+      "why_follow": "Check official releases and major project announcements.",
+      "activity": "publication_observed",
+      "latest_observed": {
+        "title": "Announcing Rust 1.99.1",
+        "published_on": "2026-10-15",
+        "published_at": "2026-10-15T00:00:00+00:00",
+        "url": "https://blog.rust-lang.org/2026/10/15/Rust-1.99.1/",
+        "evidence_url": "https://blog.rust-lang.org/feed.xml",
+        "basis": "feed_metadata"
+      },
+      "feed_url": "https://blog.rust-lang.org/feed.xml",
+      "feed_type": "atom",
+      "feed_checked_on": "2026-10-15",
+      "notes": [],
+      "evidence_urls": [
+        "https://blog.rust-lang.org/",
+        "https://blog.rust-lang.org/feed.xml"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_and_feed_checked"
+    },
+    {
+      "id": "inside-rust",
+      "name": "Inside Rust",
+      "kind": "blog",
+      "publisher": "Rust Project teams and working groups",
+      "url": "https://blog.rust-lang.org/inside-rust/",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "language",
+        "types",
+        "contributing"
+      ],
+      "why_follow": "Follow design work, team reports, and calls for testing.",
+      "activity": "publication_observed",
+      "latest_observed": {
+        "title": "1.99.1 pre-release testing",
+        "published_on": "2026-10-13",
+        "published_at": "2026-10-13T00:00:00+00:00",
+        "url": "https://blog.rust-lang.org/inside-rust/2026/10/13/1.99.1-prerelease/",
+        "evidence_url": "https://blog.rust-lang.org/inside-rust/feed.xml",
+        "basis": "feed_metadata"
+      },
+      "feed_url": "https://blog.rust-lang.org/inside-rust/feed.xml",
+      "feed_type": "atom",
+      "feed_checked_on": "2026-10-15",
+      "notes": [
+        "Proposals and work in progress are not stable language guarantees."
+      ],
+      "evidence_urls": [
+        "https://blog.rust-lang.org/inside-rust/",
+        "https://blog.rust-lang.org/inside-rust/feed.xml"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_and_feed_checked"
+    },
+    {
+      "id": "rust-foundation",
+      "name": "Rust Foundation news",
+      "kind": "blog",
+      "publisher": "Rust Foundation",
+      "url": "https://rustfoundation.org/media/",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community",
+        "events",
+        "governance"
+      ],
+      "why_follow": "Follow Foundation programmes, project support, and events.",
+      "activity": "publication_observed",
+      "latest_observed": {
+        "title": "Rust Foundation Board Updates | October 2026",
+        "published_on": "2026-10-13",
+        "published_at": "2026-10-13T16:06:40+00:00",
+        "url": "https://rustfoundation.org/media/rust-foundation-board-updates-october-2026/",
+        "evidence_url": "https://rustfoundation.org/feed/",
+        "basis": "feed_metadata"
+      },
+      "feed_url": "https://rustfoundation.org/feed/",
+      "feed_type": "rss",
+      "feed_checked_on": "2026-10-15",
+      "notes": [],
+      "evidence_urls": [
+        "https://rustfoundation.org/media/",
+        "https://rustfoundation.org/feed/"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_and_feed_checked"
+    },
+    {
+      "id": "tokio-blog",
+      "name": "Tokio Blog",
+      "kind": "blog",
+      "publisher": "Tokio project",
+      "url": "https://tokio.rs/blog",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "async",
+        "production",
+        "networking"
+      ],
+      "why_follow": "Follow runtime, networking, and Tokio ecosystem announcements.",
+      "activity": "publication_observed",
+      "latest_observed": {
+        "title": "The TokioConf 2027 Call For Talk Proposals is now open",
+        "published_on": "2026-10-06",
+        "published_at": "2026-10-06T00:00:00+00:00",
+        "url": "https://tokio.rs/blog/2026-10-06-tokioconf-2027-cfp",
+        "evidence_url": "https://tokio.rs/blog/index.xml",
+        "basis": "feed_metadata"
+      },
+      "feed_url": "https://tokio.rs/blog/index.xml",
+      "feed_type": "rss",
+      "feed_checked_on": "2026-10-15",
+      "notes": [],
+      "evidence_urls": [
+        "https://tokio.rs/blog",
+        "https://tokio.rs/blog/index.xml"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_and_feed_checked"
+    },
+    {
+      "id": "baby-steps",
+      "name": "baby steps",
+      "kind": "blog",
+      "publisher": "Niko Matsakis",
+      "url": "https://smallcultfollowing.com/babysteps/",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "types",
+        "agents",
+        "language"
+      ],
+      "why_follow": "Explore types, language design, and reasoning about agents.",
+      "activity": "publication_observed",
+      "latest_observed": {
+        "title": "What agents mean for Rust (and vice versa)",
+        "published_on": "2026-10-14",
+        "published_at": "2026-10-14T06:19:44+02:00",
+        "url": "https://smallcultfollowing.com/babysteps/blog/2026/10/14/agentic-dev-and-rust/",
+        "evidence_url": "https://smallcultfollowing.com/babysteps/index.xml",
+        "basis": "feed_metadata"
+      },
+      "feed_url": "https://smallcultfollowing.com/babysteps/index.xml",
+      "feed_type": "rss",
+      "feed_checked_on": "2026-10-15",
+      "notes": [
+        "Personal design analysis and proposals; not an official Rust roadmap."
+      ],
+      "evidence_urls": [
+        "https://smallcultfollowing.com/babysteps/",
+        "https://smallcultfollowing.com/babysteps/index.xml"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_and_feed_checked"
+    },
+    {
+      "id": "without-boats",
+      "name": "Without boats, dreams dry up",
+      "kind": "blog",
+      "publisher": "Saoirse",
+      "url": "https://without.boats/",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "async",
+        "types",
+        "language"
+      ],
+      "why_follow": "Study async design, ownership, and API tradeoffs.",
+      "activity": "publication_observed",
+      "latest_observed": {
+        "title": "Generators with UnpinCell",
+        "published_on": "2024-10-25",
+        "published_at": "2024-10-25T00:00:00+00:00",
+        "url": "https://without.boats/blog/generators-with-unpin-cell/",
+        "evidence_url": "https://without.boats/index.xml",
+        "basis": "feed_metadata"
+      },
+      "feed_url": "https://without.boats/index.xml",
+      "feed_type": "rss",
+      "feed_checked_on": "2026-10-15",
+      "notes": [
+        "Personal language-design writing; proposals may differ from stable Rust. Latest feed item observed is from 2024."
+      ],
+      "evidence_urls": [
+        "https://without.boats/",
+        "https://without.boats/index.xml"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_and_feed_checked"
+    },
+    {
+      "id": "matklad",
+      "name": "matklad",
+      "kind": "blog",
+      "publisher": "Aleksey Kladov",
+      "url": "https://matklad.github.io/",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "architecture",
+        "tooling",
+        "systems"
+      ],
+      "why_follow": "Read about software architecture, tooling, and systems design.",
+      "activity": "publication_observed",
+      "latest_observed": {
+        "title": "On Git Refs",
+        "published_on": "2026-10-07",
+        "published_at": "2026-10-07T00:00:00+00:00",
+        "url": "https://matklad.github.io/2026/10/07/git-ref.html",
+        "evidence_url": "https://matklad.github.io/feed.xml",
+        "basis": "feed_metadata"
+      },
+      "feed_url": "https://matklad.github.io/feed.xml",
+      "feed_type": "atom",
+      "feed_checked_on": "2026-10-15",
+      "notes": [
+        "Covers Rust and other languages."
+      ],
+      "evidence_urls": [
+        "https://matklad.github.io/",
+        "https://matklad.github.io/feed.xml"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_and_feed_checked"
+    },
+    {
+      "id": "fasterthanlime",
+      "name": "fasterthanli.me",
+      "kind": "blog",
+      "publisher": "Amos Wenger",
+      "url": "https://fasterthanli.me/",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "systems",
+        "tooling",
+        "performance"
+      ],
+      "why_follow": "Follow technical investigations, Rust projects, and videos.",
+      "activity": "publication_observed",
+      "latest_observed": {
+        "title": "2025 Recap: so many projects",
+        "published_on": "2025-12-31",
+        "published_at": "2025-12-31T22:00:00+00:00",
+        "url": "https://fasterthanli.me/articles/2025-recap",
+        "evidence_url": "https://fasterthanli.me/index.xml",
+        "basis": "feed_metadata"
+      },
+      "feed_url": "https://fasterthanli.me/index.xml",
+      "feed_type": "atom",
+      "feed_checked_on": "2026-10-15",
+      "notes": [
+        "The article feed does not establish the latest video date. Some material has separate access terms."
+      ],
+      "evidence_urls": [
+        "https://fasterthanli.me/",
+        "https://fasterthanli.me/index.xml"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_and_feed_checked"
+    },
+    {
+      "id": "jon-gjengset-video",
+      "name": "Jon Gjengset’s Rust videos",
+      "kind": "video",
+      "publisher": "Jon Gjengset",
+      "url": "https://www.youtube.com/@jonhoo",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "types",
+        "systems",
+        "learning"
+      ],
+      "why_follow": "Explore educational Rust streams and explanations.",
+      "activity": "date_unverified",
+      "latest_observed": null,
+      "feed_url": null,
+      "feed_type": null,
+      "feed_checked_on": null,
+      "notes": [
+        "Channel identity is linked from the author’s GitHub profile. No latest upload or playback verified."
+      ],
+      "evidence_urls": [
+        "https://github.com/jonhoo",
+        "https://www.youtube.com/@jonhoo"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked"
+    },
+    {
+      "id": "rust-project-video",
+      "name": "Rust Project video channel",
+      "kind": "video",
+      "publisher": "Rust Project",
+      "url": "https://www.youtube.com/channel/UCaYhcUwRBNscFNUKTjgPFiA",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "language",
+        "community"
+      ],
+      "why_follow": "Browse Rust talks linked by the Rust Project.",
+      "activity": "date_unverified",
+      "latest_observed": null,
+      "feed_url": null,
+      "feed_type": null,
+      "feed_checked_on": null,
+      "notes": [
+        "The official Rust Blog links this channel. No latest upload or playback verified."
+      ],
+      "evidence_urls": [
+        "https://blog.rust-lang.org/"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked"
+    },
+    {
+      "id": "rust-foundation-video",
+      "name": "Rust Foundation video channel",
+      "kind": "video",
+      "publisher": "Rust Foundation",
+      "url": "https://www.youtube.com/@rustfoundation",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community",
+        "events"
+      ],
+      "why_follow": "Find Foundation videos and conference material.",
+      "activity": "date_unverified",
+      "latest_observed": null,
+      "feed_url": null,
+      "feed_type": null,
+      "feed_checked_on": null,
+      "notes": [
+        "Linked by the Foundation’s media page. No latest upload or playback verified."
+      ],
+      "evidence_urls": [
+        "https://rustfoundation.org/media/"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked"
+    },
+    {
+      "id": "rustnl-video",
+      "name": "RustNL recording directory",
+      "kind": "video",
+      "publisher": "RustNL",
+      "url": "https://rustnl.org/events/",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "events",
+        "systems"
+      ],
+      "why_follow": "Open organizer-linked RustWeek and RustNL recording playlists.",
+      "activity": "date_unverified",
+      "latest_observed": null,
+      "feed_url": null,
+      "feed_type": null,
+      "feed_checked_on": null,
+      "notes": [
+        "The directory links past editions; it does not establish recordings for future events."
+      ],
+      "evidence_urls": [
+        "https://rustnl.org/events/"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked"
+    },
+    {
+      "id": "rust-community",
+      "name": "Rust community directory",
+      "kind": "community",
+      "publisher": "Rust Project",
+      "url": "https://rust-lang.org/community/",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community",
+        "events"
+      ],
+      "why_follow": "Find user forums, local groups, and contribution channels.",
+      "activity": "date_unverified",
+      "latest_observed": null,
+      "feed_url": null,
+      "feed_type": null,
+      "feed_checked_on": null,
+      "notes": [],
+      "evidence_urls": [
+        "https://rust-lang.org/community/"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_checked"
+    },
+    {
+      "id": "rust-india",
+      "name": "Rust India community",
+      "kind": "community",
+      "publisher": "Rust India contributors",
+      "url": "https://rustindia.org/",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community",
+        "events"
+      ],
+      "why_follow": "Follow community posts and local event announcements.",
+      "activity": "publication_observed",
+      "latest_observed": {
+        "title": "Add an Event to the Site",
+        "published_on": "2026-08-09",
+        "published_at": "2026-08-09T00:00:00+00:00",
+        "url": "https://rustindia.org/blog/add-an-event/",
+        "evidence_url": "https://rustindia.org/rss.xml",
+        "basis": "feed_metadata"
+      },
+      "feed_url": "https://rustindia.org/rss.xml",
+      "feed_type": "rss",
+      "feed_checked_on": "2026-10-15",
+      "notes": [
+        "The site’s event list was empty when checked; the feed date concerns a blog post."
+      ],
+      "evidence_urls": [
+        "https://rustindia.org/",
+        "https://rustindia.org/rss.xml"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_and_feed_checked"
+    },
+    {
+      "id": "rust-africa",
+      "name": "Rust Africa",
+      "kind": "community",
+      "publisher": "Rust Africa",
+      "url": "https://rustafrica.org/",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community",
+        "events"
+      ],
+      "why_follow": "Follow regional initiatives and event announcements.",
+      "activity": "publication_observed",
+      "latest_observed": {
+        "title": "The Rust Africa Hackathon 2026",
+        "published_on": "2025-12-03",
+        "published_at": "2025-12-03T09:09:09+00:00",
+        "url": "https://rustafrica.org/the-future-is-written-in-rust-rust-africa-hackathon-2026/?utm_source=rss&utm_medium=rss&utm_campaign=the-future-is-written-in-rust-rust-africa-hackathon-2026",
+        "evidence_url": "https://rustafrica.org/feed/",
+        "basis": "feed_metadata"
+      },
+      "feed_url": "https://rustafrica.org/feed/",
+      "feed_type": "rss",
+      "feed_checked_on": "2026-10-15",
+      "notes": [
+        "The newest observed feed item announces a 2026 hackathon but was published in December 2025. Publication date is not an event date."
+      ],
+      "evidence_urls": [
+        "https://rustafrica.org/",
+        "https://rustafrica.org/feed/"
+      ],
+      "checked_on": "2026-10-15",
+      "source_review": "source_page_and_feed_checked"
+    }
+  ]
+}

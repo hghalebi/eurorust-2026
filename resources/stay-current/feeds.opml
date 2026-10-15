@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<opml version="2.0">
+  <head>
+    <title>Rust reading and listening feeds — checked 2026-10-15</title>
+  </head>
+  <body>
+    <outline text="Podcasts (older series included)" title="Podcasts (older series included)">
+      <outline type="rss" text="Rust in Production" title="Rust in Production" xmlUrl="https://letscast.fm/podcasts/rust-in-production-82281512/feed" htmlUrl="https://corrode.dev/podcast/" />
+      <outline type="rss" text="Rustacean Station" title="Rustacean Station" xmlUrl="https://rustacean-station.org/podcast.rss" htmlUrl="https://rustacean-station.org/" />
+      <outline type="rss" text="Self-Directed Research" title="Self-Directed Research" xmlUrl="https://sdr-podcast.com/podcast-feed-m4a.xml" htmlUrl="https://sdr-podcast.com/" />
+      <outline type="rss" text="Oxide and Friends" title="Oxide and Friends" xmlUrl="https://feeds.transistor.fm/oxide-and-friends" htmlUrl="https://oxide-and-friends.transistor.fm/" />
+      <outline type="rss" text="Chats with James" title="Chats with James" xmlUrl="https://jamesmunns.com/podcast-feed-mp3.xml" htmlUrl="https://jamesmunns.com/podcast/" />
+      <outline type="rss" text="The Rust Workshop Podcast" title="The Rust Workshop Podcast" xmlUrl="https://feeds.transistor.fm/the-rust-workshop-podcast" htmlUrl="https://rustworkshop.co/podcast/" />
+      <outline type="rss" text="New Rustacean" title="New Rustacean" xmlUrl="https://newrustacean.com/feed.xml" htmlUrl="https://newrustacean.com/" />
+    </outline>
+    <outline text="Newsletters" title="Newsletters">
+      <outline type="rss" text="This Week in Rust" title="This Week in Rust" xmlUrl="https://this-week-in-rust.org/rss.xml" htmlUrl="https://this-week-in-rust.org/" />
+      <outline type="rss" text="Rust Trends" title="Rust Trends" xmlUrl="https://rust-trends.com/newsletter/rss.xml" htmlUrl="https://rust-trends.com/" />
+      <outline type="rss" text="The Embedded Rustacean" title="The Embedded Rustacean" xmlUrl="https://rss.beehiiv.com/feeds/LyzGmG4pKl.xml" htmlUrl="https://www.theembeddedrustacean.com/" />
+      <outline type="rss" text="Rust Bytes" title="Rust Bytes" xmlUrl="https://weeklyrust.substack.com/feed" htmlUrl="https://weeklyrust.substack.com/" />
+      <outline type="rss" text="This Month in Rust OSDev" title="This Month in Rust OSDev" xmlUrl="https://rust-osdev.com/rss.xml" htmlUrl="https://rust-osdev.com/" />
+      <outline type="rss" text="Awesome Rust Weekly" title="Awesome Rust Weekly" xmlUrl="https://rust.libhunt.com/newsletter/feed" htmlUrl="https://rust.libhunt.com/newsletter" />
+    </outline>
+    <outline text="Publication archives" title="Publication archives">
+      <outline type="rss" text="Rust Magazine" title="Rust Magazine" xmlUrl="https://rustmagazine.org/feed.xml" htmlUrl="https://rustmagazine.org/" />
+    </outline>
+    <outline text="Blogs" title="Blogs">
+      <outline type="rss" text="Rust Blog" title="Rust Blog" xmlUrl="https://blog.rust-lang.org/feed.xml" htmlUrl="https://blog.rust-lang.org/" />
+      <outline type="rss" text="Inside Rust" title="Inside Rust" xmlUrl="https://blog.rust-lang.org/inside-rust/feed.xml" htmlUrl="https://blog.rust-lang.org/inside-rust/" />
+      <outline type="rss" text="Rust Foundation news" title="Rust Foundation news" xmlUrl="https://rustfoundation.org/feed/" htmlUrl="https://rustfoundation.org/media/" />
+      <outline type="rss" text="Tokio Blog" title="Tokio Blog" xmlUrl="https://tokio.rs/blog/index.xml" htmlUrl="https://tokio.rs/blog" />
+      <outline type="rss" text="baby steps" title="baby steps" xmlUrl="https://smallcultfollowing.com/babysteps/index.xml" htmlUrl="https://smallcultfollowing.com/babysteps/" />
+      <outline type="rss" text="Without boats, dreams dry up" title="Without boats, dreams dry up" xmlUrl="https://without.boats/index.xml" htmlUrl="https://without.boats/" />
+      <outline type="rss" text="matklad" title="matklad" xmlUrl="https://matklad.github.io/feed.xml" htmlUrl="https://matklad.github.io/" />
+      <outline type="rss" text="fasterthanli.me" title="fasterthanli.me" xmlUrl="https://fasterthanli.me/index.xml" htmlUrl="https://fasterthanli.me/" />
+    </outline>
+    <outline text="Regional community updates" title="Regional community updates">
+      <outline type="rss" text="Rust India community" title="Rust India community" xmlUrl="https://rustindia.org/rss.xml" htmlUrl="https://rustindia.org/" />
+      <outline type="rss" text="Rust Africa" title="Rust Africa" xmlUrl="https://rustafrica.org/feed/" htmlUrl="https://rustafrica.org/" />
+    </outline>
+  </body>
+</opml>

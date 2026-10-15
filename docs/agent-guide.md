@@ -53,6 +53,12 @@ The [format guide](learning-resources.md) explains evidence, access, and archive
 coverage. Keep future announcements distinct from published material. A page
 check does not establish video playback or a full reading of a book or paper.
 
+For future conferences and ongoing sources, add the
+[discovery directory JSON](../community/rust-discovery.json) and its
+[usage notes](../resources/stay-current/README.md#give-the-directory-to-your-agent).
+Recheck dated event statuses. Keep tentative dates, publication dates, and
+event dates distinct; this companion has its own check date and Git revision.
+
 ## 2. Add your constraints
 
 Fill in the [prompt](../prompts/choose-my-path.md): goals, Rust experience,

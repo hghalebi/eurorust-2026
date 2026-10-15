@@ -33,6 +33,7 @@ separate. Older Rust examples may need changes for current tools.
 | [Conference registry](../community/conference-archive/series.json) | Discover event series |
 | [Edition inventory](../community/conference-archive/editions.json) | Read programme links, dates, coverage, and gaps |
 | [Archived appearances](../community/conference-archive/appearances.json) | Find indexed talks and their source/material links |
+| [Ongoing-source directory](../community/rust-discovery.json) | Discover announced events, publications, podcasts, and feeds; [read its separate format and limits](../resources/stay-current/README.md#give-the-directory-to-your-agent) |
 
 Use [the learning prompt](../prompts/explore-a-topic.md) and state your goals and
 available reading time. Ask for a short list with reasons, sources, and a question

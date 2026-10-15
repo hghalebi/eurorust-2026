@@ -1406,5 +1406,45 @@
     "purpose": "Connect four engineering goals to a first source, relevant session, and question to investigate",
     "scope": "EuroRust 2026 preparation and further study; editorial suggestions",
     "replacement": null
+  },
+  {
+    "path": "resources/stay-current/README.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Choose ongoing Rust learning sources, import checked feeds, and reuse the dated discovery directory with an agent",
+    "scope": "Curated Rust discovery directory checked on 2026-10-15; separate from the EuroRust dataset",
+    "replacement": null
+  },
+  {
+    "path": "resources/stay-current/conferences.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Compare announced future Rust events and distinguish ongoing, tentative, and unconfirmed editions",
+    "scope": "Curated Rust discovery directory checked on 2026-10-15; separate from the EuroRust dataset",
+    "replacement": null
+  },
+  {
+    "path": "resources/stay-current/podcasts.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Choose Rust podcasts using topic relevance, observed publication dates, and checked feed links",
+    "scope": "Curated Rust discovery directory checked on 2026-10-15; separate from the EuroRust dataset",
+    "replacement": null
+  },
+  {
+    "path": "resources/stay-current/newsletters.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Choose Rust digests and project reports while preserving older, retired, and unavailable publication context",
+    "scope": "Curated Rust discovery directory checked on 2026-10-15; separate from the EuroRust dataset",
+    "replacement": null
+  },
+  {
+    "path": "resources/stay-current/blogs-and-videos.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find attributed project news, technical writing, recording directories, and regional community sources",
+    "scope": "Curated Rust discovery directory checked on 2026-10-15; separate from the EuroRust dataset",
+    "replacement": null
   }
 ]

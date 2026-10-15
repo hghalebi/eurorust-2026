@@ -18,6 +18,7 @@ Check [venues, entrances, and room details](docs/time-and-place.md).
 | Follow my path | [Goals and choices](my-conference/README.md) and [proposed itinerary](my-conference/itinerary.md) |
 | Make your own plan | [Planning guide](docs/planning-guide.md), [schedule table](exports/schedule.md), or [session-by-session view](exports/conference-pack.md) |
 | Choose something to learn | [Four engineering questions](resources/learning-paths.md), [talk and workshop reading lists](resources/related-talks/README.md), and [conference archives](resources/conferences/README.md) |
+| Keep learning after EuroRust | [Future conferences, podcasts, newsletters, and technical writing](resources/stay-current/README.md) |
 | Plan with your agent | [Agent guide](docs/agent-guide.md) and [copyable prompt](prompts/choose-my-path.md) |
 
 For a first step, open the [background-worker reading list](resources/related-talks/talks-lessons-from-building-a-background-task-processing-library.md).

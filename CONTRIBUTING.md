@@ -71,6 +71,22 @@ conference pages. Report programme coverage separately from recordings. Keep
 missing, blocked, and unknown material visible. Link to original content rather
 than copying slides, transcripts, books, or full abstracts.
 
+## Events and ongoing sources
+
+Suggest an event, podcast, newsletter, blog, or regional source through an issue.
+Link the organizer or publisher, explain who it helps, and give your check date.
+
+For direct edits, update [rust-discovery.json](community/rust-discovery.json),
+the matching [reading page](resources/stay-current/README.md), and
+[feeds.opml](resources/stay-current/feeds.opml) when a checked feed changes.
+Use stable IDs. Keep tentative dates and unknown venues explicit. A page for an
+older edition does not confirm next year's event. A feed date does not establish
+an event date, future publishing schedule, or recording playback.
+
+Fetch and parse a feed before marking it checked. Mark drafts, ended series,
+unavailable sources, and wider engineering coverage clearly. Change review dates
+only after inspecting evidence. Link to original work and preserve its terms.
+
 ## Timing and venue corrections
 
 Keep [logistics JSON](community/session-logistics.json) and the venue guide
