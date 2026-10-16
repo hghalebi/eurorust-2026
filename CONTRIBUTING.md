@@ -120,6 +120,12 @@ rooms. Follow the [format reference](docs/data-guide.md#session-logistics-check)
 
 ## Checks
 
+For speaking, organizer, or historical guides, begin with [the reader routes](docs/find-your-route.md).
+Include the task helped, original source, author, date, access limits, and what
+you inspected. Preserve historical context and mark examples as examples. An
+organizer budget projection is not final spending; a public abstract is not an
+original proposal. Real reports need attribution and permission to share.
+
 Check names, links, session references, sources, and participation context.
 Can a reader see what is useful and what remains unknown?
 

@@ -1,7 +1,34 @@
 # Plan with your agent
 
+For speaking, historical research, and organizing, use the
+[additional workflows below](#research-speaking-and-organizing).
+
 Give your agent the conference context and your goals. Ask for choices you can
 review and a plan you can keep.
+
+## Research speaking and organizing
+
+Choose the [talk-research prompt](../prompts/research-my-talk.md) or
+[event-planning prompt](../prompts/plan-an-event.md). Supply the relevant guide,
+archive and participation files from one checkout, plus your constraints.
+Keep each companion's check date and version; their sources were reviewed separately.
+
+**Example response shape, not a live agent evaluation:**
+
+> Goal: prepare a talk about Rust worker recovery. Start with the
+> [worker reading list](../resources/related-talks/talks-lessons-from-building-a-background-task-processing-library.md).
+> Compare shutdown coordination with persisted job state. Use the
+> [fictional proposal](../resources/speaking/worker-talk-example.md) as a structure;
+> its experiment is still planned. The dated
+> [event comparison](../resources/stay-current/event-comparison.md) identifies a
+> potentially relevant call. Recheck the organizer before submitting. Remote
+> access, acceptance, travel support, and your experimental results remain unknown.
+
+Accept an answer only when each recommendation links its evidence, distinguishes
+facts from editorial judgments, retains unknowns, and gives a useful next action.
+If the agent cannot browse, it must say that current calls and access were not
+rechecked. A closed or unverified call can support research, not a submission promise.
+Review the draft before contacting people, registering, or publishing anything.
 
 ## 1. Supply the context
 

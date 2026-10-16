@@ -1494,5 +1494,117 @@
     "purpose": "Ask an agent for sourced community and activity choices under personal constraints",
     "scope": "Independent Rust community participation companion; source review through 2026-10-16",
     "replacement": null
+  },
+  {
+    "path": "docs/find-your-route.md",
+    "class": "current",
+    "owner": "repository maintainers",
+    "purpose": "Find your way into Rust conferences",
+    "scope": "Independent conference resource guides; sourced examples and preparation, not attendance or event delivery",
+    "replacement": null
+  },
+  {
+    "path": "docs/attend-and-learn.md",
+    "class": "current",
+    "owner": "repository maintainers",
+    "purpose": "Choose a session and leave with a next step",
+    "scope": "Independent conference resource guides; sourced examples and preparation, not attendance or event delivery",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/history.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Follow Rust conferences and their ideas",
+    "scope": "Independent conference resource guides; sourced examples and preparation, not attendance or event delivery",
+    "replacement": null
+  },
+  {
+    "path": "resources/stay-current/event-comparison.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Compare two future conference opportunities",
+    "scope": "Independent conference resource guides; sourced examples and preparation, not attendance or event delivery",
+    "replacement": null
+  },
+  {
+    "path": "resources/speaking/worker-talk-example.md",
+    "class": "example",
+    "owner": "repository maintainers",
+    "purpose": "Example proposal: stopping a Rust worker",
+    "scope": "Independent conference resource guides; sourced examples and preparation, not attendance or event delivery",
+    "replacement": null
+  },
+  {
+    "path": "resources/speaking/README.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Turn a Rust question into a talk",
+    "scope": "Independent conference resource guides; sourced examples and preparation, not attendance or event delivery",
+    "replacement": null
+  },
+  {
+    "path": "resources/organizing/README.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Plan a Rust event people can use",
+    "scope": "Independent conference resource guides; sourced examples and preparation, not attendance or event delivery",
+    "replacement": null
+  },
+  {
+    "path": "resources/organizing/example-event.md",
+    "class": "example",
+    "owner": "repository maintainers",
+    "purpose": "Example: discuss one Rust worker failure",
+    "scope": "Independent conference resource guides; sourced examples and preparation, not attendance or event delivery",
+    "replacement": null
+  },
+  {
+    "path": "templates/talk-proposal.md",
+    "class": "example",
+    "owner": "repository maintainers",
+    "purpose": "Draft a talk or workshop proposal",
+    "scope": "Independent conference resource guides; sourced examples and preparation, not attendance or event delivery",
+    "replacement": null
+  },
+  {
+    "path": "templates/workshop-readiness.md",
+    "class": "example",
+    "owner": "repository maintainers",
+    "purpose": "Prepare for a workshop",
+    "scope": "Independent conference resource guides; sourced examples and preparation, not attendance or event delivery",
+    "replacement": null
+  },
+  {
+    "path": "templates/event-plan.md",
+    "class": "example",
+    "owner": "repository maintainers",
+    "purpose": "Plan an event",
+    "scope": "Independent conference resource guides; sourced examples and preparation, not attendance or event delivery",
+    "replacement": null
+  },
+  {
+    "path": "templates/event-retrospective.md",
+    "class": "example",
+    "owner": "repository maintainers",
+    "purpose": "Record what the next organizer should know",
+    "scope": "Independent conference resource guides; sourced examples and preparation, not attendance or event delivery",
+    "replacement": null
+  },
+  {
+    "path": "prompts/research-my-talk.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Research a talk before drafting it",
+    "scope": "Independent conference resource guides; sourced examples and preparation, not attendance or event delivery",
+    "replacement": null
+  },
+  {
+    "path": "prompts/plan-an-event.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Plan an event from evidence",
+    "scope": "Independent conference resource guides; sourced examples and preparation, not attendance or event delivery",
+    "replacement": null
   }
 ]

@@ -11,6 +11,9 @@ or give the sourced data to your agent.
 EuroRust times use **Europe/Madrid**.
 Check [venues, entrances, and room details](docs/time-and-place.md).
 
+Preparing a talk, exploring Rust conference history, or organizing an event?
+[Choose a route through the collection](docs/find-your-route.md).
+
 ## Start here
 
 | Your goal | Open |
@@ -22,7 +25,7 @@ Check [venues, entrances, and room details](docs/time-and-place.md).
 | Find people and a next step | [Communities, contributions, and open calls](community/README.md) |
 | Plan with your agent | [Agent guide](docs/agent-guide.md) and [copyable prompt](prompts/choose-my-path.md) |
 
-For a first step, open the [background-worker reading list](resources/related-talks/talks-lessons-from-building-a-background-task-processing-library.md).
+For my worker-recovery question, I start with the [background-worker reading list](resources/related-talks/talks-lessons-from-building-a-background-task-processing-library.md).
 Start with its Tokio shutdown guide, then ask: **what happens to accepted work
 if the process stops?** The list connects that question to retries and recovery.
 

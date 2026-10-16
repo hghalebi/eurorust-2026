@@ -2,6 +2,9 @@
 
 Read on GitHub, copy into your notes, or give the files to your agent.
 
+[Choose a route](find-your-route.md) for speaking, conference history, attending,
+organizing, community participation, or agent-assisted research.
+
 ## Plan and prepare
 
 | Your goal | Open |

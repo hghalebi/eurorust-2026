@@ -5,6 +5,8 @@ question, one exercise, or one small correction.
 
 ## Choose the kind of help you need
 
+For a specific role, use [the participation routes below](#choose-a-role).
+
 | Your goal | A useful first step |
 | --- | --- |
 | Solve a Rust problem | Search the [Rust Users Forum](communities.md#rust-users-forum). If needed, prepare a small example, expected behavior, and exact error. |
@@ -17,6 +19,44 @@ question, one exercise, or one small correction.
 
 For production agents, types, infrastructure, or robotics, follow the
 [four session-to-community paths](../../community/README.md).
+
+## Choose a role
+
+These are routes to investigate. Confirm a current opening, requirements, and
+participation rules before offering time or making commitments.
+
+| Role | Preparation and first action |
+| --- | --- |
+| Attendee or remote learner | Choose a question and use the [learning guide](../../docs/attend-and-learn.md) |
+| Speaker | Research earlier talks and draft a [proposal](../speaking/README.md) |
+| Workshop teacher | Define one exercise and its [setup requirements](../../templates/workshop-readiness.md) |
+| Volunteer | Read an event's published roles; ask its public organizer route about a specific unfilled task |
+| Program reviewer | Check the organizer's recruitment route, selection criteria, time needs, and conflicts policy; no reviewer opening is asserted here |
+| Mentor | Use a community's stated mentoring process; confirm scope and availability with participants |
+| Code or documentation contributor | Follow the project's guide and choose one reproducible issue or unclear page |
+| Translator or caption contributor | Confirm permission, terminology, review process, and where the work will be published |
+| Local host | Adapt the [small-event example](../organizing/example-event.md) and confirm people and access |
+| Sponsor or supporter | Use the organizer's published support route; record terms and keep editorial judgments independent |
+
+**Example contribution:** a learner follows a setup guide and finds an ambiguous
+step. They record the source, version, expected behavior, and actual error, then
+submit a small correction through the project's process. Until someone reports
+that work, this remains an example, not a completed contribution.
+
+## Ask a useful forum question
+
+Rust's [official community guide](https://rust-lang.org/community/) distinguishes
+general usage discussion from language/compiler development. Start with the
+Users Forum for a usage problem; read existing design discussions before posting
+to Internals. Follow each forum's own rules.
+
+Search first. Then include the goal, minimal example, toolchain/library versions,
+expected behavior, exact error, and what you tried. Remove credentials and private
+data. When solved, explain the result and link the relevant source.
+
+For example: “I expected my worker to finish its current job during shutdown.
+Here is a small reproduction and its output. Which cancellation assumption is
+wrong?” Fill those fields from an actual run; do not invent the output.
 
 ## Make a first contribution
 
