@@ -6,6 +6,50 @@ provenance. For the current code revision, inspect its completed
 below record checks at specific times and revisions. Use
 [the contribution checks](../CONTRIBUTING.md#checks) to reproduce them.
 
+## Speaking, history, and organizer routes — 2026-10-16
+
+Local verification on macOS arm64, Rust/Cargo 1.98.0, at
+`bea36b0a822d886a1428fa31fbd6da8dee17a632`:
+
+- Formatting, Clippy with warnings denied, 39 unit/integration tests, and 17
+  rustdoc cases passed, including nine compile-fail cases.
+- The installed release helper passed catalog, learning, archive, participation,
+  reader-resource, documentation, and all four itinerary checks. Navigation
+  covered 228 public Markdown files, local links, anchors, and classification.
+- A fresh local clone of that commit contained no private plans, caches,
+  binaries, or build output. It built and installed both helpers, passed the
+  same checks, reproduced the documented calendar export, and exercised the
+  Rust experiments' success and failure exits. Its tracked files stayed clean.
+- Independent JSON Schema, hash, and iCalendar checks matched 27 reader-pack
+  inputs, eight generated outputs, three 18-session calendars, and the separate
+  14-entry event/deadline calendar. Dates, offsets, escaping, UTF-8 line folding,
+  and parse/write/parse round trips passed.
+- Calendar command probes confirmed that synthetic profile names, goals, and
+  reasons are omitted. Stale snapshots, empty selections, unknown end times,
+  and overlaps failed without replacing the existing output. A filesystem
+  write failure was followed by a successful export to a valid path.
+- GitHub's Markdown API rendered the README, two reader-resource indexes, day
+  guide, and coverage table. It exposed stripped colon-fragment links; the
+  repaired format preserved all 34 source links and their matching targets.
+- Archive checks and an independent count found 22 series or tracks, 62
+  editions, 662 appearances, 230 material URLs, and 603 speaker-profile/source
+  URLs. These are indexed records and links, not unique works or people.
+
+The [day guide](../exports/day-guide.md) contains 53 entries: 48 with a named
+venue and five unconfirmed. It retains the logistics companion's original
+review date and distinguishes stage labels from physical rooms. The official
+catalog, immutable snapshots, and licenses were not changed.
+
+Five independent simulated editorial lenses approved their inspected scope
+after corrections. The six routes were walked through editorially; no human
+user study or live agent evaluation was performed. Calendar-app imports, video
+playback, mobile layout, and assistive technology remain untested. New source
+reviews do not renew older archive or logistics evidence. Coverage gaps remain
+visible in the [archive inventory](../resources/conferences/coverage.md).
+
+This receipt records local and rendered-HTML checks. Match the published commit
+to its completed Actions run for remote CI evidence.
+
 ## Reading routes and editorial corrections — 2026-10-15
 
 Local verification on macOS arm64, Rust/Cargo 1.98.0, for the revision based on
