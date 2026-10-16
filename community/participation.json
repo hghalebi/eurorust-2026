@@ -1,0 +1,2535 @@
+{
+  "schema_version": "1.0.0",
+  "reference_date": "2026-10-16",
+  "catalog_snapshot_id": "eurorust-2026-71f2ee4aea59a1589532",
+  "discovery_sha256": "7c62f8e001ee23af6ce97c47b736dc8ebc4ef8caf4bf83a9c4eab323bec1f991",
+  "review_status": "Codex-assisted curation; community review pending. Page review is not proof of access, attendance, or current availability.",
+  "communities": [
+    {
+      "id": "rust-project",
+      "name": "Rust Project community",
+      "kind": "organization",
+      "affiliation": "rust_project",
+      "region": "global",
+      "location": null,
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://rust-lang.org/community/",
+      "discovery_source_id": "rust-community",
+      "purpose": "Find official discussion and event-organizing routes.",
+      "first_step": "Choose user help, language development, or event guidance before posting.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://rust-lang.org/community/",
+        "note": "Participation information inspected; no recent activity date established."
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2027-01-14",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rust-lang.org/community/"
+        ],
+        "limits": []
+      },
+      "audience": "Rust users and event organizers",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-users",
+      "name": "Rust Users Forum",
+      "kind": "forum",
+      "affiliation": "rust_project",
+      "region": "global",
+      "location": null,
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community",
+        "api-design"
+      ],
+      "url": "https://users.rust-lang.org/",
+      "discovery_source_id": null,
+      "purpose": "Ask questions about using Rust.",
+      "first_step": "Search for your question, then prepare a small example and the result you expected.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://users.rust-lang.org/",
+        "note": "Participation information inspected; no recent activity date established."
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2027-01-14",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://users.rust-lang.org/",
+          "https://rust-lang.org/community/"
+        ],
+        "limits": [
+          "The community page establishes the forum route; individual answers are not official language guarantees."
+        ]
+      },
+      "audience": "people using Rust",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-internals",
+      "name": "Rust Internals Forum",
+      "kind": "forum",
+      "affiliation": "rust_project",
+      "region": "global",
+      "location": null,
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "types",
+        "compilers"
+      ],
+      "url": "https://internals.rust-lang.org/",
+      "discovery_source_id": null,
+      "purpose": "Follow development of Rust itself.",
+      "first_step": "Read the relevant design discussion and its context before proposing a change.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://internals.rust-lang.org/",
+        "note": "Participation information inspected; no recent activity date established."
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2027-01-14",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://internals.rust-lang.org/",
+          "https://rust-lang.org/community/"
+        ],
+        "limits": [
+          "Discussion and proposals do not establish released language behavior."
+        ]
+      },
+      "audience": "people following Rust language and compiler design",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "types-team",
+      "name": "Rust Types Team",
+      "kind": "team",
+      "affiliation": "rust_project",
+      "region": "global",
+      "location": null,
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "types",
+        "compilers"
+      ],
+      "url": "https://github.com/rust-lang/types-team",
+      "discovery_source_id": null,
+      "purpose": "Follow trait-system design and implementation.",
+      "first_step": "Read one meeting note; use the linked t-types Zulip stream for context.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://github.com/rust-lang/types-team",
+        "note": "Participation information inspected; no recent activity date established."
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2027-01-14",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://github.com/rust-lang/types-team"
+        ],
+        "limits": [
+          "The repository invites observers; current meeting time must be checked in its calendar."
+        ]
+      },
+      "audience": "readers exploring traits and type-system design",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "embedded-wg",
+      "name": "Embedded Working Group",
+      "kind": "team",
+      "affiliation": "rust_project",
+      "region": "global",
+      "location": null,
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "embedded",
+        "hardware",
+        "robotics"
+      ],
+      "url": "https://rust-embedded.org/",
+      "discovery_source_id": null,
+      "purpose": "Find embedded Rust discussions, meetings, and contribution routes.",
+      "first_step": "Open the linked agenda or help-wanted list and choose a hardware or documentation question.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://rust-embedded.org/",
+        "note": "Participation information inspected; no recent activity date established."
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2027-01-14",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rust-embedded.org/"
+        ],
+        "limits": [
+          "The page says Tuesday 20:00 CET and Berlin time; confirm the current agenda and daylight-saving interpretation."
+        ]
+      },
+      "audience": "embedded developers and documentation contributors",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "tokio",
+      "name": "Tokio contributors",
+      "kind": "project",
+      "affiliation": "project",
+      "region": "global",
+      "location": null,
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "async",
+        "production-reliability",
+        "observability"
+      ],
+      "url": "https://github.com/tokio-rs/tokio/blob/master/CONTRIBUTING.md",
+      "discovery_source_id": null,
+      "purpose": "Discuss and improve async Rust infrastructure.",
+      "first_step": "Read the contribution guide and describe one reproducible runtime or documentation problem.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://github.com/tokio-rs/tokio/blob/master/CONTRIBUTING.md",
+        "note": "Participation information inspected; no recent activity date established."
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2027-01-14",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://github.com/tokio-rs/tokio/blob/master/CONTRIBUTING.md"
+        ],
+        "limits": [
+          "The guide links Discord; no response time or currently available issue is promised."
+        ]
+      },
+      "audience": "async Rust users and contributors",
+      "contribution_url": "https://github.com/tokio-rs/tokio/blob/master/CONTRIBUTING.md",
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rig",
+      "name": "Rig community",
+      "kind": "project",
+      "affiliation": "project",
+      "region": "global",
+      "location": null,
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "production-reliability",
+        "api-design"
+      ],
+      "url": "https://rig.rs/",
+      "discovery_source_id": null,
+      "purpose": "Explore Rust libraries and examples for agents.",
+      "first_step": "Inspect an example and use the project-linked discussion route for one concrete question.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://rig.rs/",
+        "note": "Participation information inspected; no recent activity date established."
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2027-01-14",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rig.rs/"
+        ],
+        "limits": [
+          "Project descriptions are not independent evidence of production reliability."
+        ]
+      },
+      "audience": "developers exploring Rust agent applications",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "embassy",
+      "name": "Embassy",
+      "kind": "project",
+      "affiliation": "project",
+      "region": "global",
+      "location": null,
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "embedded",
+        "hardware",
+        "async"
+      ],
+      "url": "https://embassy.dev/",
+      "discovery_source_id": null,
+      "purpose": "Explore async Rust on embedded devices.",
+      "first_step": "Choose your board and read its example before asking in the linked Matrix chat.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://embassy.dev/",
+        "note": "Participation information inspected; no recent activity date established."
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2027-01-14",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://embassy.dev/"
+        ],
+        "limits": [
+          "Board support and equipment must be checked for the chosen example."
+        ]
+      },
+      "audience": "developers working with supported embedded targets",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "ros2-rust",
+      "name": "Rust bindings for ROS 2",
+      "kind": "project",
+      "affiliation": "project",
+      "region": "global",
+      "location": null,
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "robotics",
+        "interop"
+      ],
+      "url": "https://github.com/ros2-rust/ros2_rust",
+      "discovery_source_id": null,
+      "purpose": "Explore Rust integration with ROS 2.",
+      "first_step": "Check supported ROS distributions, then read Discussions or the contribution guide.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://github.com/ros2-rust/ros2_rust",
+        "note": "Participation information inspected; no recent activity date established."
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2027-01-14",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://github.com/ros2-rust/ros2_rust"
+        ],
+        "limits": [
+          "Support varies by ROS distribution; no physical robot behavior was tested."
+        ]
+      },
+      "audience": "Rust users working with ROS 2",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "nix",
+      "name": "Nix and NixOS community",
+      "kind": "organization",
+      "affiliation": "adjacent",
+      "region": "global",
+      "location": null,
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "infrastructure",
+        "tooling"
+      ],
+      "url": "https://nixos.org/community/index.html",
+      "discovery_source_id": null,
+      "purpose": "Find people working on reproducible builds and infrastructure.",
+      "first_step": "Use the official forum and event directory to find a relevant discussion.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://nixos.org/community/index.html",
+        "note": "Participation information inspected; no recent activity date established."
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2027-01-14",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://nixos.org/community/index.html"
+        ],
+        "limits": [
+          "Related infrastructure ecosystem; the inspected community page contains older conference listings."
+        ]
+      },
+      "audience": "people exploring reproducible builds and configuration",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "snix",
+      "name": "Snix",
+      "kind": "project",
+      "affiliation": "adjacent",
+      "region": "global",
+      "location": null,
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "infrastructure",
+        "systems"
+      ],
+      "url": "https://snix.dev/about/",
+      "discovery_source_id": null,
+      "purpose": "Explore Rust implementations of Nix components.",
+      "first_step": "Read the project scope and contribution route before selecting a small change.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://snix.dev/about/",
+        "note": "Participation information inspected; no recent activity date established."
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2027-01-14",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://snix.dev/about/"
+        ],
+        "limits": [
+          "The project describes early development, unstable APIs, and no full drop-in Nix replacement."
+        ]
+      },
+      "audience": "contributors interested in Rust implementations of Nix components",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-compiler",
+      "name": "Rust compiler contributors",
+      "kind": "team",
+      "affiliation": "rust_project",
+      "region": "global",
+      "location": null,
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "compilers",
+        "types",
+        "tooling"
+      ],
+      "url": "https://rustc-dev-guide.rust-lang.org/getting-started.html",
+      "discovery_source_id": null,
+      "purpose": "Find compiler contribution guidance and mentored issue searches.",
+      "first_step": "Inspect one suggested issue and its discussion; check whether someone is already working on it.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://rustc-dev-guide.rust-lang.org/getting-started.html",
+        "note": "Participation information inspected; no recent activity date established."
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2027-01-14",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rustc-dev-guide.rust-lang.org/getting-started.html"
+        ],
+        "limits": []
+      },
+      "audience": "people learning how Rust compilers are built",
+      "contribution_url": "https://rustc-dev-guide.rust-lang.org/getting-started.html",
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "exercism",
+      "name": "Exercism Rust",
+      "kind": "learning",
+      "affiliation": "independent",
+      "region": "global",
+      "location": null,
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "api-design",
+        "types"
+      ],
+      "url": "https://exercism.org/tracks/rust",
+      "discovery_source_id": null,
+      "purpose": "Practise Rust with exercises and volunteer feedback.",
+      "first_step": "Solve one exercise, explain your design, and request feedback through the track.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://exercism.org/tracks/rust",
+        "note": "Participation information inspected; no recent activity date established."
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2027-01-14",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://exercism.org/tracks/rust"
+        ],
+        "limits": [
+          "Volunteer mentoring is described; immediate availability is not established."
+        ]
+      },
+      "audience": "Rust learners seeking exercises and feedback",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rustbridge",
+      "name": "RustBridge",
+      "kind": "learning",
+      "affiliation": "independent",
+      "region": "global",
+      "location": null,
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://rustbridge.com/",
+      "discovery_source_id": null,
+      "purpose": "Find newcomer workshop material and chapter-organizing guidance.",
+      "first_step": "Read the learning material or check the linked chapter for an actual announced workshop.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://rustbridge.com/",
+        "note": "Participation information inspected; no recent activity date established."
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2027-01-14",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rustbridge.com/"
+        ],
+        "limits": [
+          "No future workshop date was established. The programme focuses on underrepresented people with prior programming experience."
+        ]
+      },
+      "audience": "learners and organizers considering the workshop model",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-edu",
+      "name": "Rust Edu",
+      "kind": "learning",
+      "affiliation": "independent",
+      "region": "global",
+      "location": null,
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://rust-edu.org/",
+      "discovery_source_id": null,
+      "purpose": "Connect Rust education with students and educators.",
+      "first_step": "Read its educational goals and use the linked Zulip to explore collaboration.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://rust-edu.org/",
+        "note": "Participation information inspected; no recent activity date established."
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2027-01-14",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rust-edu.org/"
+        ],
+        "limits": [
+          "A current student cohort, course place, or university club meeting was not verified."
+        ]
+      },
+      "audience": "educators and academic collaborators",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "bevy",
+      "name": "Bevy community",
+      "kind": "project",
+      "affiliation": "project",
+      "region": "global",
+      "location": null,
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "systems",
+        "community"
+      ],
+      "url": "https://bevy.org/community/",
+      "discovery_source_id": null,
+      "purpose": "Find game-development Q&A, community projects, and discussion.",
+      "first_step": "Open the linked Q&A or community projects; check an individual jam before planning around it.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://bevy.org/community/",
+        "note": "Participation information inspected; no recent activity date established."
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2027-01-14",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://bevy.org/community/"
+        ],
+        "limits": [
+          "No current game-jam deadline was verified."
+        ]
+      },
+      "audience": "game developers and people learning through small projects",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "bytecode-alliance",
+      "name": "Bytecode Alliance",
+      "kind": "organization",
+      "affiliation": "adjacent",
+      "region": "global",
+      "location": null,
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "systems",
+        "interop"
+      ],
+      "url": "https://bytecodealliance.org/",
+      "discovery_source_id": null,
+      "purpose": "Find WebAssembly projects and community meetup routes.",
+      "first_step": "Choose a hosted project and read its contributor guidance or public meetup material.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://bytecodealliance.org/",
+        "note": "Participation information inspected; no recent activity date established."
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2027-01-14",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://bytecodealliance.org/"
+        ],
+        "limits": [
+          "Individual participation and organizational membership are different routes; no future meetup time is listed here."
+        ]
+      },
+      "audience": "WebAssembly users and contributors",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rustsec",
+      "name": "RustSec",
+      "kind": "project",
+      "affiliation": "project",
+      "region": "global",
+      "location": null,
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "security"
+      ],
+      "url": "https://rustsec.org/",
+      "discovery_source_id": null,
+      "purpose": "Find the Rust advisory database and its project routes.",
+      "first_step": "Read the advisory format and reporting guidance before proposing a correction.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://rustsec.org/",
+        "note": "Participation information inspected; no recent activity date established."
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2027-01-14",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rustsec.org/"
+        ],
+        "limits": [
+          "Follow the project reporting process for vulnerabilities; this directory makes no security assessment."
+        ]
+      },
+      "audience": "crate maintainers and users of advisory data",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-foundation",
+      "name": "Rust Foundation support",
+      "kind": "organization",
+      "affiliation": "independent",
+      "region": "global",
+      "location": null,
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://rustfoundation.org/project-support/",
+      "discovery_source_id": null,
+      "purpose": "Understand the current maintainer-support programme.",
+      "first_step": "Read the Maintainers Fund information and distinguish supporting it from applying for a grant.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://rustfoundation.org/project-support/",
+        "note": "Participation information inspected; no recent activity date established."
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2027-01-14",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rustfoundation.org/project-support/"
+        ],
+        "limits": [
+          "The old grants URL redirects here. An open grant application was not established."
+        ]
+      },
+      "audience": "people exploring maintainer support",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-paris",
+      "name": "Rust Paris meetup",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "europe",
+      "location": "Paris, France",
+      "source_languages": [
+        "fr",
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/fr-fr/rust-paris/",
+      "discovery_source_id": null,
+      "purpose": "Meet Rust users in the Paris area.",
+      "first_step": "Check the next organizer announcement and its venue before making plans.",
+      "access": {
+        "mode": "in_person",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": "2026-09-08",
+        "evidence_url": "https://www.meetup.com/fr-fr/rust-paris/",
+        "note": "A September 2026 meeting appears in the organizer listing."
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2027-01-14",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/fr-fr/rust-paris/"
+        ],
+        "limits": [
+          "No next meeting date verified; page languages do not establish the spoken language of a future event."
+        ]
+      },
+      "audience": "people exploring this local or language community",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-london",
+      "name": "Rust London User Group",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "europe",
+      "location": "London, United Kingdom",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/rust-london-user-group/",
+      "discovery_source_id": null,
+      "purpose": "Meet Rust users through talks and community showcases.",
+      "first_step": "Read the next event listing and confirm registration requirements.",
+      "access": {
+        "mode": "in_person",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": "2026-09-24",
+        "evidence_url": "https://www.meetup.com/rust-london-user-group/",
+        "note": "A September 2026 meeting appears in the organizer listing."
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2027-01-14",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-london-user-group/"
+        ],
+        "limits": [
+          "No next meeting date verified."
+        ]
+      },
+      "audience": "people exploring this local or language community",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "bcnrust",
+      "name": "BcnRust",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "europe",
+      "location": "Barcelona, Spain",
+      "source_languages": [
+        "es"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://bcnrust.github.io/about/",
+      "discovery_source_id": null,
+      "purpose": "Find the Barcelona group and its organizer links.",
+      "first_step": "Follow the organizer link and establish recent activity before planning a visit.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://bcnrust.github.io/about/",
+        "note": "Participation information inspected; no recent activity date established."
+      },
+      "review": {
+        "checked_on": "2026-10-15",
+        "next_review_on": "2027-01-13",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://bcnrust.github.io/about/"
+        ],
+        "limits": [
+          "The inspected site lists older meetups. Current activity and chat invitations remain unverified."
+        ]
+      },
+      "audience": "people exploring this local or language community",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-india",
+      "name": "Rust India",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "asia",
+      "location": "India",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://rustindia.org/",
+      "discovery_source_id": "rust-india",
+      "purpose": "Find Indian Rust community channels and contribution routes.",
+      "first_step": "Read the community links or the guide to adding an event.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": "2026-08-09",
+        "evidence_url": "https://rustindia.org/",
+        "note": "The site lists a dated guide for contributing event information."
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2027-01-14",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rustindia.org/"
+        ],
+        "limits": [
+          "No upcoming event was listed at inspection."
+        ]
+      },
+      "audience": "people exploring this local or language community",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-africa",
+      "name": "Rust Africa",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "africa",
+      "location": "Africa",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://rustafrica.org/",
+      "discovery_source_id": "rust-africa",
+      "purpose": "Find regional learning, mentorship, and event initiatives.",
+      "first_step": "Follow a regional initiative and verify its next announcement.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": "2025-12-03",
+        "evidence_url": "https://rustafrica.org/the-future-is-written-in-rust-rust-africa-hackathon-2026/",
+        "note": "Announcement for a January 2026 hackathon; this is historical activity evidence."
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2027-01-14",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rustafrica.org/",
+          "https://rustafrica.org/the-future-is-written-in-rust-rust-africa-hackathon-2026/"
+        ],
+        "limits": [
+          "The hackathon submission deadline was January 31, 2026. A new application window was not established."
+        ]
+      },
+      "audience": "people exploring this local or language community",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-br",
+      "name": "Rust Brasil groups",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "americas",
+      "location": "Brazil",
+      "source_languages": [
+        "pt"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://github.com/rust-br/general",
+      "discovery_source_id": null,
+      "purpose": "Find organizer-maintained links to Brazilian groups.",
+      "first_step": "Choose a city group and verify its current meeting or public discussion route.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://github.com/rust-br/general",
+        "note": "Participation information inspected; no recent activity date established."
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2027-01-14",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://github.com/rust-br/general"
+        ],
+        "limits": [
+          "The directory establishes group links, not recent activity or working chat invitations."
+        ]
+      },
+      "audience": "people exploring this local or language community",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-melbourne",
+      "name": "Rust Melbourne",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "oceania",
+      "location": "Melbourne, Australia",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/rust-melbourne/",
+      "discovery_source_id": null,
+      "purpose": "Find Rust talks and community events in Melbourne.",
+      "first_step": "Check the next organizer event and access details.",
+      "access": {
+        "mode": "in_person",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": "2026-08-27",
+        "evidence_url": "https://www.meetup.com/rust-melbourne/",
+        "note": "An August 2026 meetup appears in the organizer listing."
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2027-01-14",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-melbourne/"
+        ],
+        "limits": [
+          "No next meeting date verified."
+        ]
+      },
+      "audience": "people exploring this local or language community",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-sydney",
+      "name": "Rust Sydney archive",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "oceania",
+      "location": "Sydney, Australia",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://github.com/RustAU/Sydney",
+      "discovery_source_id": null,
+      "purpose": "Read organizer-maintained Sydney meetup material.",
+      "first_step": "Use the archive to find past topics; establish a current organizer route before attending.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://github.com/RustAU/Sydney",
+        "note": "Participation information inspected; no recent activity date established."
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2027-01-14",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://github.com/RustAU/Sydney"
+        ],
+        "limits": [
+          "The Meetup landing page returned Group not found. The repository is retained as an archive route."
+        ]
+      },
+      "audience": "people exploring this local or language community",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "tokioconf-cfp",
+      "title": "TokioConf 2027 call for talks",
+      "kind": "call_for_proposals",
+      "status": "open",
+      "url": "https://sessionize.com/tokioconf-2027/",
+      "community_id": "tokio",
+      "event_id": "tokioconf-2027",
+      "deadline": {
+        "kind": "instant",
+        "at": "2026-11-30T23:59:00-08:00",
+        "timezone": "America/Los_Angeles",
+        "source_text": "30 November 2026, 11:59 PM Pacific Standard Time (UTC-08:00)"
+      },
+      "action": "Propose a practical async Rust story; the form describes flexible talk lengths.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://sessionize.com/tokioconf-2027/",
+          "https://tokioconf.com/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "id": "rustweek-cfp",
+      "title": "RustWeek 2027 call for talks",
+      "kind": "call_for_proposals",
+      "status": "open",
+      "url": "https://sessionize.com/rustweek-2027/",
+      "community_id": null,
+      "event_id": "rustweek-2027",
+      "deadline": {
+        "kind": "instant",
+        "at": "2027-01-10T23:59:00+01:00",
+        "timezone": "Europe/Amsterdam",
+        "source_text": "10 January 2027 at 23:59 CET"
+      },
+      "action": "Submit a Rust talk proposal. Workshop proposals use a separate route.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://sessionize.com/rustweek-2027/",
+          "https://2027.rustweek.org/blog/2026-10-01-cfp-opened/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "id": "rustnation-cfp",
+      "title": "Rust Nation UK call for talks",
+      "kind": "call_for_proposals",
+      "status": "open",
+      "url": "https://www.rustnationuk.com/call-for-papers",
+      "community_id": null,
+      "event_id": "rustnation-2027",
+      "deadline": null,
+      "action": "Read the call, then check the linked submission form for the deadline.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.rustnationuk.com/call-for-papers"
+        ],
+        "limits": [
+          "Organizer page says open; the submission form was inaccessible in this review. Deadline unknown. Workshop day remains tentative."
+        ]
+      }
+    },
+    {
+      "id": "fosdem-main-track-cfp",
+      "title": "FOSDEM 2027 main-track call",
+      "kind": "call_for_proposals",
+      "status": "open",
+      "url": "https://fosdem.org/2027/news/call-for-main-track/",
+      "community_id": null,
+      "event_id": null,
+      "deadline": {
+        "kind": "date",
+        "on": "2026-11-16",
+        "source_text": "16 November 2026; closing time and timezone not stated"
+      },
+      "action": "Propose a free/open-source topic suitable for the main track.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://fosdem.org/2027/news/call-for-main-track/"
+        ],
+        "limits": [
+          "This is the general main track. It does not confirm a Rust devroom. Calendar entry is a date reminder, not an exact cutoff."
+        ]
+      }
+    },
+    {
+      "id": "rustweek-hackathon",
+      "title": "RustWeek public hackathon",
+      "kind": "hackathon",
+      "status": "announced",
+      "url": "https://2027.rustweek.org/",
+      "community_id": null,
+      "event_id": "rustweek-2027",
+      "deadline": null,
+      "action": "Read the week schedule and participation details before choosing a project.",
+      "access": {
+        "mode": "in_person",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://2027.rustweek.org/"
+        ],
+        "limits": [
+          "Open to everyone according to the page; cost and registration requirements not established. Exact hackathon day/time not normalized here. All Hands and the unconference require invitations."
+        ]
+      }
+    },
+    {
+      "id": "types-meeting",
+      "title": "Observe a Types Team discussion",
+      "kind": "discussion",
+      "status": "route",
+      "url": "https://github.com/rust-lang/types-team",
+      "community_id": "types-team",
+      "event_id": null,
+      "deadline": null,
+      "action": "Read the linked minutes and calendar, then observe a relevant design discussion.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://github.com/rust-lang/types-team"
+        ],
+        "limits": [
+          "No recurring calendar entries generated; check the current meeting schedule."
+        ]
+      }
+    },
+    {
+      "id": "embedded-meeting",
+      "title": "Follow an embedded working-group meeting",
+      "kind": "discussion",
+      "status": "route",
+      "url": "https://rust-embedded.org/",
+      "community_id": "embedded-wg",
+      "event_id": null,
+      "deadline": null,
+      "action": "Read the current agenda and the linked Matrix discussion.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rust-embedded.org/"
+        ],
+        "limits": [
+          "Confirm the agenda time and daylight-saving interpretation; no recurrence inferred."
+        ]
+      }
+    },
+    {
+      "id": "compiler-first-task",
+      "title": "Find a compiler contribution",
+      "kind": "contribution",
+      "status": "route",
+      "url": "https://rustc-dev-guide.rust-lang.org/getting-started.html",
+      "community_id": "rust-compiler",
+      "event_id": null,
+      "deadline": null,
+      "action": "Use the easy/mentored issue search, read the discussion, and check whether the task is available.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": "Prerequisites depend on the selected issue.",
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rustc-dev-guide.rust-lang.org/getting-started.html"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "id": "tokio-first-task",
+      "title": "Contribute to Tokio",
+      "kind": "contribution",
+      "status": "route",
+      "url": "https://github.com/tokio-rs/tokio/blob/master/CONTRIBUTING.md",
+      "community_id": "tokio",
+      "event_id": null,
+      "deadline": null,
+      "action": "Start with a documentation correction or a reproducible issue and follow the contribution guide.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://github.com/tokio-rs/tokio/blob/master/CONTRIBUTING.md"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "id": "embedded-first-task",
+      "title": "Improve embedded documentation or tooling",
+      "kind": "contribution",
+      "status": "route",
+      "url": "https://rust-embedded.org/",
+      "community_id": "embedded-wg",
+      "event_id": null,
+      "deadline": null,
+      "action": "Inspect the help-wanted route; choose a task whose equipment requirements you can meet.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": "Some documentation tasks need no board; hardware tasks have their own requirements.",
+        "venue": null,
+        "room": null
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rust-embedded.org/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "id": "snix-contribution",
+      "title": "Explore a Snix contribution",
+      "kind": "contribution",
+      "status": "route",
+      "url": "https://snix.dev/about/",
+      "community_id": "snix",
+      "event_id": null,
+      "deadline": null,
+      "action": "Read the scope and linked contributor route; discuss a small, concrete gap.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://snix.dev/about/"
+        ],
+        "limits": [
+          "Early development and unstable APIs."
+        ]
+      }
+    },
+    {
+      "id": "exercism-feedback",
+      "title": "Practise with Exercism feedback",
+      "kind": "mentoring",
+      "status": "route",
+      "url": "https://exercism.org/tracks/rust",
+      "community_id": "exercism",
+      "event_id": null,
+      "deadline": null,
+      "action": "Complete one exercise and request feedback through the mentoring route.",
+      "access": {
+        "mode": "online",
+        "cost": "The publisher describes the Rust track and mentoring as free.",
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://exercism.org/tracks/rust"
+        ],
+        "limits": [
+          "Volunteer mentor availability and response time are unknown."
+        ]
+      }
+    },
+    {
+      "id": "rust-edu-collaboration",
+      "title": "Collaborate on Rust education",
+      "kind": "learning",
+      "status": "route",
+      "url": "https://rust-edu.org/",
+      "community_id": "rust-edu",
+      "event_id": null,
+      "deadline": null,
+      "action": "Bring a concrete curriculum or teaching question to the linked educator discussion.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rust-edu.org/"
+        ],
+        "limits": [
+          "No open student cohort or guaranteed placement verified."
+        ]
+      }
+    },
+    {
+      "id": "rustbridge-chapter",
+      "title": "Explore running a RustBridge workshop",
+      "kind": "organizing",
+      "status": "route",
+      "url": "https://rustbridge.com/",
+      "community_id": "rustbridge",
+      "event_id": null,
+      "deadline": null,
+      "action": "Read the chapter and curriculum guidance before proposing a local workshop.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rustbridge.com/"
+        ],
+        "limits": [
+          "This is organizing guidance, not an announced local event."
+        ]
+      }
+    },
+    {
+      "id": "rust-india-event",
+      "title": "Contribute an Indian Rust event listing",
+      "kind": "contribution",
+      "status": "route",
+      "url": "https://rustindia.org/",
+      "community_id": "rust-india",
+      "event_id": null,
+      "deadline": null,
+      "action": "Use the Add an Event guide and provide an organizer source.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rustindia.org/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "id": "bevy-community-project",
+      "title": "Find a Bevy project or discussion",
+      "kind": "learning",
+      "status": "route",
+      "url": "https://bevy.org/community/",
+      "community_id": "bevy",
+      "event_id": null,
+      "deadline": null,
+      "action": "Choose a community project or Q&A thread; use it to prepare a small experiment.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://bevy.org/community/"
+        ],
+        "limits": [
+          "A current jam or competition is not established by this community page."
+        ]
+      }
+    },
+    {
+      "id": "bytecode-participation",
+      "title": "Explore WebAssembly project participation",
+      "kind": "contribution",
+      "status": "route",
+      "url": "https://bytecodealliance.org/",
+      "community_id": "bytecode-alliance",
+      "event_id": null,
+      "deadline": null,
+      "action": "Choose a hosted project and follow its public contribution or meetup route.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://bytecodealliance.org/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "id": "maintainers-fund",
+      "title": "Support Rust maintainers",
+      "kind": "support",
+      "status": "route",
+      "url": "https://rustfoundation.org/project-support/",
+      "community_id": "rust-foundation",
+      "event_id": null,
+      "deadline": null,
+      "action": "Read the current Maintainers Fund information.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rustfoundation.org/project-support/"
+        ],
+        "limits": [
+          "This is a support/donation route, not a verified open grant application."
+        ]
+      }
+    },
+    {
+      "id": "rustnation-speaker-support",
+      "title": "Rust Nation speaker support",
+      "kind": "support",
+      "status": "route",
+      "url": "https://www.rustnationuk.com/call-for-papers",
+      "community_id": null,
+      "event_id": "rustnation-2027",
+      "deadline": null,
+      "action": "Read the speaker terms and raise travel needs in the submission.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": "For selected speakers; organizer says travel and accommodation help may be possible.",
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.rustnationuk.com/call-for-papers"
+        ],
+        "limits": [
+          "Support is conditional and not guaranteed."
+        ]
+      }
+    },
+    {
+      "id": "tokioconf-speaker-support",
+      "title": "TokioConf speaker travel enquiries",
+      "kind": "support",
+      "status": "route",
+      "url": "https://sessionize.com/tokioconf-2027/",
+      "community_id": "tokio",
+      "event_id": "tokioconf-2027",
+      "deadline": null,
+      "action": "Read the speaker terms if travel costs prevent you from speaking.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": "The call invites speakers to raise prohibitive travel expenses.",
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://sessionize.com/tokioconf-2027/"
+        ],
+        "limits": [
+          "No funding amount or award is guaranteed."
+        ]
+      }
+    },
+    {
+      "id": "rustconf-remote",
+      "title": "RustConf 2027 online attendance",
+      "kind": "attendance",
+      "status": "announced",
+      "url": "https://rustconf.com/",
+      "community_id": null,
+      "event_id": "rustconf-2027",
+      "deadline": null,
+      "action": "Watch the organizer page for online registration and access details.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rustconf.com/"
+        ],
+        "limits": [
+          "Online edition announced; price, captions, timetable, and registration availability unverified. Page title retains older details."
+        ]
+      }
+    },
+    {
+      "id": "rustikon-diversity-history",
+      "title": "Rustikon diversity-ticket reference",
+      "kind": "support",
+      "status": "historical",
+      "url": "https://www.rustikon.dev/diversity",
+      "community_id": null,
+      "event_id": "rustikon-next",
+      "deadline": null,
+      "action": "Use the published policy as a reference; wait for a confirmed new edition and application window.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.rustikon.dev/diversity"
+        ],
+        "limits": [
+          "The site still describes the past 2026 edition. Admission support excludes travel and accommodation; no next-edition offer verified."
+        ]
+      }
+    },
+    {
+      "id": "oxidize-access-history",
+      "title": "Oxidize accessibility reference",
+      "kind": "attendance",
+      "status": "historical",
+      "url": "https://oxidizeconf.com/accessibility/",
+      "community_id": null,
+      "event_id": "oxidize-next",
+      "deadline": null,
+      "action": "Read the policy and verify arrangements for any later edition.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://oxidizeconf.com/accessibility/"
+        ],
+        "limits": [
+          "The page describes online/offline accessibility intentions; it does not establish a future event or individual accommodation."
+        ]
+      }
+    },
+    {
+      "id": "rustchina-cfp-closed",
+      "title": "RustChinaConf 2026 call has closed",
+      "kind": "call_for_proposals",
+      "status": "closed",
+      "url": "https://rustchinaconf.org/",
+      "community_id": null,
+      "event_id": "rustchinaconf-2026",
+      "deadline": {
+        "kind": "instant",
+        "at": "2026-09-20T23:59:00+08:00",
+        "timezone": "Asia/Shanghai",
+        "source_text": "20 September 2026, 23:59 UTC+8"
+      },
+      "action": "Use the current programme; the published submission deadline has passed.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rustchinaconf.org/"
+        ],
+        "limits": []
+      }
+    }
+  ],
+  "routes": [
+    {
+      "id": "production-agents",
+      "title": "Production agents",
+      "session_ids": [
+        "talks-lessons-from-building-a-background-task-processing-library"
+      ],
+      "reading_path": "resources/related-talks/talks-lessons-from-building-a-background-task-processing-library.md",
+      "community_ids": [
+        "tokio",
+        "rig"
+      ],
+      "opportunity_ids": [
+        "tokio-first-task",
+        "tokioconf-cfp"
+      ],
+      "first_step": "Read the shutdown resource, then prepare a small example showing what happens to accepted work when a process stops.",
+      "small_step": "Read one existing Tokio discussion and record the recovery question it leaves open.",
+      "prerequisites": "Basic async Rust helps; use documentation reading before attempting a runtime change.",
+      "relationship": "editorial_suggestion"
+    },
+    {
+      "id": "types-and-contracts",
+      "title": "Types and contracts",
+      "session_ids": [
+        "talks-what-s-next-for-rust-s-type-system",
+        "talks-optimizing-the-new-rust-trait-solver"
+      ],
+      "reading_path": "resources/related-talks/talks-what-s-next-for-rust-s-type-system.md",
+      "community_ids": [
+        "types-team",
+        "rust-compiler",
+        "exercism"
+      ],
+      "opportunity_ids": [
+        "types-meeting",
+        "compiler-first-task",
+        "exercism-feedback"
+      ],
+      "first_step": "Read one linked source and one Types Team meeting note; separate stable behavior from design proposals.",
+      "small_step": "Try one Rust exercise and explain which invalid states its types prevent.",
+      "prerequisites": "Reading a design note is open to newcomers; compiler changes require issue-specific preparation.",
+      "relationship": "editorial_suggestion"
+    },
+    {
+      "id": "infrastructure",
+      "title": "Infrastructure configuration",
+      "session_ids": [
+        "talks-your-infrastructure-should-compile-too"
+      ],
+      "reading_path": "resources/related-talks/talks-your-infrastructure-should-compile-too.md",
+      "community_ids": [
+        "nix",
+        "snix"
+      ],
+      "opportunity_ids": [
+        "snix-contribution"
+      ],
+      "first_step": "Compare the session reading with Snix scope; write down one configuration error that needs a runtime check.",
+      "small_step": "Read the project limitations and one related Nix discussion before proposing a change.",
+      "prerequisites": "Nix knowledge helps with implementation. Snix describes unstable APIs and early development.",
+      "relationship": "editorial_suggestion"
+    },
+    {
+      "id": "robotics",
+      "title": "Robotics and embedded systems",
+      "session_ids": [
+        "workshops-rust-on-the-field-integrating-real-autonomous-systems",
+        "talks-the-future-of-unmanned-systems-is-built-on-rust"
+      ],
+      "reading_path": "resources/related-talks/workshops-rust-on-the-field-integrating-real-autonomous-systems.md",
+      "community_ids": [
+        "embedded-wg",
+        "embassy",
+        "ros2-rust"
+      ],
+      "opportunity_ids": [
+        "embedded-meeting",
+        "embedded-first-task"
+      ],
+      "first_step": "Read the protocol resource and prepare a question about confirming physical state after a command.",
+      "small_step": "Choose a documentation task or read an embedded meeting agenda without buying hardware.",
+      "prerequisites": "Workshop access and async Rust readiness are separate checks; hardware and ROS support depend on the exercise.",
+      "relationship": "editorial_suggestion"
+    }
+  ],
+  "event_reviews": [
+    {
+      "event_id": "rustlab-2026",
+      "note": "Landing page has ticket and programme routes; no separate verified support or volunteer application recorded.",
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-10-23",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rustlab.it/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "bettercode-rust-2026",
+      "note": "Online event stated. No caption, scholarship, or volunteer terms established.",
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rust.bettercode.eu/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "bettercode-rust-workshop-2026",
+      "note": "Online workshop page states December 2, 09:00-16:00; timezone not stated, so times are not normalized.",
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rust.bettercode.eu/veranstaltung-89714-se-0-agent-ready-rust-harness-engineering-fuer-ai-coding-agents.html"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "rustcon-2026",
+      "note": "Talk-submission route present; programme navigation still says 2025. Current deadline and support terms unknown.",
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rustcon.ru/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "rustnation-2027",
+      "note": "Open call and conditional speaker support reviewed separately; submission form inaccessible.",
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.rustnationuk.com/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "tokioconf-2027",
+      "note": "Call and speaker travel enquiry route verified; ticket sales described as coming soon.",
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://tokioconf.com/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "rustweek-2027",
+      "note": "Call and public hackathon reviewed; All Hands and unconference invitation-only.",
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://2027.rustweek.org/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "rustconf-2027",
+      "note": "Online edition announced; 2027 access details unknown. Old page-title and 2026 navigation remain.",
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rustconf.com/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "rustcon-2027",
+      "note": "Organizer listing only; no edition-specific application or access terms established.",
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://speach.io/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "eurorust-2026",
+      "note": "Barcelona and online edition; use the existing venue guide and official schedule for access and rooms.",
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-10-23",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://eurorust.eu/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "rustchinaconf-2026",
+      "note": "Published CFP deadline has passed; programme and ticket links remain.",
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-10-23",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rustchinaconf.org/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "rustikon-next",
+      "note": "Diversity-ticket policy describes the past edition. No next-edition application verified.",
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.rustikon.dev/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "oxidize-next",
+      "note": "Accessibility policy inspected; no future edition confirmed.",
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://oxidizeconf.com/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "rustparis-next",
+      "note": "Past 2026 programme and submission history; no next-edition call verified.",
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rustparis.fr/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "rustforge-next",
+      "note": "Past 2025 edition page; no future participation details established.",
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rustforgeconf.com/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "rust-tokyo-next",
+      "note": "Past 2024 edition page; no future participation details established.",
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rust.tokyo/en"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "rustindia-next",
+      "note": "No upcoming event listed. Community event-submission route exists.",
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rustindia.org/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "rustfest-next",
+      "note": "Historical global/LATAM pages; no current call established.",
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rustfest.global/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "rustasia-next",
+      "note": "Source returned HTTP 503; participation details could not be reviewed.",
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "unavailable",
+        "evidence_urls": [
+          "https://www.rustasiaconf.com/"
+        ],
+        "limits": [
+          "The source returned HTTP 503. No current participation or next-edition information was verified."
+        ]
+      }
+    },
+    {
+      "event_id": "conf42-rustlang-next",
+      "note": "General speaking route and other upcoming technology events; no new Rustlang edition verified.",
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.conf42.com/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "rustnation-workshops-2027",
+      "note": "Workshop day remains planned; no confirmed programme or booking inferred.",
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.rustnationuk.com/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "fosdem-rust-2027",
+      "note": "General main-track call verified separately. A Rust devroom is still unconfirmed.",
+      "review": {
+        "checked_on": "2026-10-16",
+        "next_review_on": "2026-11-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://fosdem.org/2027/"
+        ],
+        "limits": []
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "category": "C01",
+      "status": "partial",
+      "note": "Regional routes cover five regions; individual next meetings and university clubs remain incomplete.",
+      "area": "Regional and online groups"
+    },
+    {
+      "category": "C02",
+      "status": "covered",
+      "note": "User help, internals, project Q&A, and official chat entry points are distinguished.",
+      "area": "Questions and discussion"
+    },
+    {
+      "category": "C03",
+      "status": "covered",
+      "note": "Project routes cover the four personal goals plus security, WebAssembly, and game development.",
+      "area": "Specialist projects"
+    },
+    {
+      "category": "C04",
+      "status": "partial",
+      "note": "Types and embedded meetings and Bytecode meetup routes included; no separately verified office-hour or AMA schedule.",
+      "area": "Open meetings"
+    },
+    {
+      "category": "C05",
+      "status": "covered",
+      "note": "Compiler, Tokio, embedded, Snix, and community-documentation contribution routes included; individual issue availability must be checked.",
+      "area": "First contributions"
+    },
+    {
+      "category": "C06",
+      "status": "partial",
+      "note": "Exercism, RustBridge, and Rust Edu included. No current student cohort or guaranteed pairing place established.",
+      "area": "Mentoring and learning"
+    },
+    {
+      "category": "C07",
+      "status": "partial",
+      "note": "RustWeek public hackathon included. Current hardware labs, bug bashes, and game-jam dates remain gaps.",
+      "area": "Working events"
+    },
+    {
+      "category": "C08",
+      "status": "partial",
+      "note": "Four current calls and a closed example included. No current volunteer, poster, or reviewer application verified.",
+      "area": "Speaking and volunteering"
+    },
+    {
+      "category": "C09",
+      "status": "partial",
+      "note": "Online attendance, conditional speaker travel support, and past access policies included. Current captions, room access, and student-ticket offers remain incomplete.",
+      "area": "Attendance and access"
+    },
+    {
+      "category": "C10",
+      "status": "partial",
+      "note": "Nix, Snix, ROS 2, and Bytecode routes included. Current dedicated robotics and type-research event programmes remain gaps.",
+      "area": "Related ecosystems"
+    },
+    {
+      "category": "C11",
+      "status": "partial",
+      "note": "RustBridge chapter guidance and maintainer support included. No open grant award or organizer funding application verified.",
+      "area": "Organizer and maintainer support"
+    },
+    {
+      "category": "C12",
+      "status": "covered",
+      "note": "Six activity formats are proposals/templates; no repository-hosted event is announced.",
+      "area": "Shared practice"
+    },
+    {
+      "category": "C13",
+      "status": "covered",
+      "note": "Companion records, four routes, agent guidance, and a dated calendar support reuse; no automatic refresh.",
+      "area": "Agent and calendar reuse"
+    }
+  ],
+  "regional_gaps": [
+    "Japan: search-index listing found; live connpass page required a browser challenge.",
+    "China and RustDC: source access failed in this pass; no current group record added.",
+    "Americas: a Brazilian organizer directory was checked; North American local groups need further research.",
+    "Oceania: Melbourne activity and Sydney archive checked; current New Zealand dates not verified.",
+    "Africa and India: existing regional routes reused; individual city groups and new applications still need checks."
+  ],
+  "calendar_updated_at": "2026-10-16T06:44:02+00:00"
+}

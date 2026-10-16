@@ -5,6 +5,10 @@ as published. Recheck the event year, venue, language, and access before booking
 
 [Learning directory](README.md) · [Past programmes and recordings](../conferences/README.md) · [Structured directory](../../community/rust-discovery.json)
 
+For calls, activities, and support, use the [participation guide](opportunities.md).
+Its [downloadable calendar](opportunities.md#use-the-calendar) keeps event dates
+separate from submission deadlines and excludes unconfirmed dates.
+
 ## Announced future dates
 
 | Date | Event and official source | Place and planning note |

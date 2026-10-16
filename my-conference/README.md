@@ -43,6 +43,10 @@ I may extend them at October 17 impl Day if participation and setup are confirme
 The [journal](../journal/README.md) records preparation and later observations.
 The [retrospective](../retrospective.md) awaits lessons after participation.
 
+The [four community paths](../community/README.md) give each interest a next
+discussion, contribution route, and smaller alternative. They are suggestions
+for follow-up; I have not recorded joining these groups or completing an activity.
+
 ## Make your own path
 
 Adapt the reasons that fit your goals. Use the [planning guide](../docs/planning-guide.md)

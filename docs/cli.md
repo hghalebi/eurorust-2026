@@ -20,6 +20,8 @@ For reading and agent-assisted planning, start with the [guides](README.md).
 | `check-learning` | Check exact talk/workshop coverage, references, evidence fields, dates, snapshot join, and generated views | Reject missing resources or stale views; does not refresh sources |
 | `rebind-learning` | Compare the reviewed session-content fingerprint with the active catalog, then update its snapshot join | Allows retrieval/schedule-only refreshes; content changes require review; research dates stay intact |
 | `check-archive` | Check series/edition/session references, date bounds, and programme coverage counts | Reject inconsistent inventory; does not prove global completeness or playable recordings |
+| `build-participation` | Validate pinned discovery/catalog references and community records; generate guides, schema, and calendar offline | Rewrite generated participation views; does not refresh sources |
+| `check-participation` | Check pins, IDs, evidence fields, review dates, deadline offsets, and generated views | Reject inconsistent inputs or stale views; does not verify current access or import into an app |
 
 Global `--root PATH` selects the dataset root. Profile, itinerary, output, and
 explicit `--catalog` paths remain relative to the working directory unless

@@ -17,6 +17,7 @@ with a source, or edit a page and propose a pull request. No local tools are nee
 | Speaker resource or account | [Speaker directory](resources/speakers/README.md) | Resource, identity evidence, checked date |
 | Related talk or learning resource | [Session resources](resources/related-talks/README.md) | Session ID, original source, specific connection, format, access, checked date |
 | Conference or missing archive | [Conference directory](resources/conferences/README.md) | Series, edition, official programme, material links, known gaps |
+| Community, activity, or support offer | [Participation guide](community/README.md) | Audience, useful next step, primary source, checked date, access limits |
 | Code example or tool change | [Maintenance guide](docs/maintenance.md) | Goal or failure, reproduction steps, checks, limits |
 
 Unsure where to edit? Include the official URL and the page you were reading
@@ -86,6 +87,29 @@ an event date, future publishing schedule, or recording playback.
 Fetch and parse a feed before marking it checked. Mark drafts, ended series,
 unavailable sources, and wider engineering coverage clearly. Change review dates
 only after inspecting evidence. Link to original work and preserve its terms.
+
+## Communities and participation
+
+[Suggest a resource](https://github.com/hghalebi/eurorust-2026/issues/new?template=resource-suggestion.yml)
+with the audience, useful next step, original source, check date, and known gaps.
+Explain the connection to Rust or a learning path. Keep the original language
+and credit translations. An issue is enough; no local setup is needed.
+
+For direct edits, update [participation.json](community/participation.json).
+Keep stable IDs and reuse existing event/source IDs. Distinguish a current call,
+a general participation route, and a historical example. Record evidence for
+activity separately from the date you checked a page.
+
+Keep unknown access details as null. Do not infer mentoring availability,
+eligibility, free admission, meeting language, rooms, or equipment support.
+Preserve the original wording and timezone of a deadline. Confirm date-only
+cutoffs before adding a time.
+
+Use the [maintenance procedure](docs/maintenance.md#maintain-communities-and-opportunities)
+to review pins and rebuild the generated guides, schema, and calendar. Do not
+hand-edit those views. Propose activities with the
+[activity template](templates/community-activity.md); publish observations only
+after they occur and with appropriate consent.
 
 ## Timing and venue corrections
 

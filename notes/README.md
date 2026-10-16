@@ -14,3 +14,7 @@ These notes connect published sessions to my Rust goals. They are
 Borrow a question or give a note to your agent. After participating, use the
 [session template](../templates/session.md) to add sourced observations,
 decisions, and follow-up work. Label preparation and observed results separately.
+
+For a next step with others, use the [community paths](../community/README.md) or
+propose a reading, pairing, or demo session with the
+[activity template](../templates/community-activity.md).

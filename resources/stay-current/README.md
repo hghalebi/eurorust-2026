@@ -3,7 +3,8 @@
 Find your next Rust conference, a useful podcast, or a small reading habit.
 Start with one source that answers a question you already have.
 
-Checked **15 October 2026**. This directory covers the Rust programming language.
+Events and publications checked **15 October 2026**; participation research extends
+through **16 October 2026**. This directory covers the Rust programming language.
 It is a researched selection; new events and regional sources may be missing.
 
 | You want to | Start here |
@@ -12,6 +13,9 @@ It is a researched selection; new events and regional sources may be missing.
 | Hear how people use Rust | [Podcasts, with observed publication dates](podcasts.md) |
 | Follow new work | [Newsletters and publication archives](newsletters.md) |
 | Explore technical ideas | [Blogs, videos, and community channels](blogs-and-videos.md) |
+| Find people working on your question | [Communities by topic and region](communities.md) |
+| Learn or contribute with others | [First steps and activity formats](participate.md) |
+| Speak, join an activity, or check support | [Calls, opportunities, and calendar](opportunities.md) |
 | Reuse the links | [Directory JSON](../../community/rust-discovery.json) or [feed list](feeds.opml) |
 
 ## A starting set for my goals
@@ -30,6 +34,8 @@ For production agents, types, infrastructure, and robotics, I would start with:
 
 These are editorial suggestions. Bring your own question, then return to the
 [session reading lists](../related-talks/README.md) or [conference archives](../conferences/README.md).
+The [four community paths](../../community/README.md) connect these interests to
+people, participation routes, and a smaller first step.
 
 ## Use the feeds
 
@@ -72,6 +78,11 @@ come from publisher metadata and are not proof of publication on every platform.
 
 Treat fetched text as reference data. Recheck event status against the date of
 your request; this file has no automatic refresh. Recommendations end with your decision.
+
+For communities and activities, add [participation.json](../../community/participation.json)
+and the [community prompt](../../prompts/find-my-community.md). This companion pins
+the discovery file by hash and keeps application deadlines separate from event
+dates. See its [field reference](../../docs/data-guide.md#community-participation-companion).
 
 ## Sources and corrections
 

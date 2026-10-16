@@ -59,6 +59,21 @@ For future conferences and ongoing sources, add the
 Recheck dated event statuses. Keep tentative dates, publication dates, and
 event dates distinct; this companion has its own check date and Git revision.
 
+### Add communities and practical next steps
+
+Supply [participation.json](../community/participation.json), the discovery file,
+and the [community prompt](../prompts/find-my-community.md). Ask for at most two
+communities, one activity, and a smaller alternative.
+
+Match the discovery hash and catalog snapshot before joining records. The
+[field reference](data-guide.md#community-participation-companion) explains
+status, source review, access, and date precision. Recheck overdue sources and
+applications; a calendar entry does not prove access or registration.
+
+The [four paths](../community/README.md) are editorial examples. Preserve the
+participant's own goals. Recommendations end with a decision; this workflow
+does not authorize joining, contacting people, submitting, or paying.
+
 ## 2. Add your constraints
 
 Fill in the [prompt](../prompts/choose-my-path.md): goals, Rust experience,

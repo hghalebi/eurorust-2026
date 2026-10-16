@@ -14,6 +14,7 @@ Read on GitHub, copy into your notes, or give the files to your agent.
 | Read beyond a session | [Session resources](../resources/related-talks/README.md) and [topic indexes](../resources/topics/README.md) |
 | Explore other conferences | [Conference archives](../resources/conferences/README.md), with programme and recording coverage |
 | Follow new Rust work | [Future events, podcasts, newsletters, and feeds](../resources/stay-current/README.md) |
+| Find a community or activity | [Four learning paths and participation routes](../community/README.md) |
 | Explore a speaker's work | [Speaker directory](../resources/speakers/README.md) |
 | Compare learning goals | [Example paths](../community/paths/README.md) |
 | Follow preparation and later observations | [Journal](../journal/README.md) and [retrospective](../retrospective.md) |
@@ -24,6 +25,7 @@ Use the [agent guide](agent-guide.md) and [planning prompt](../prompts/choose-my
 The [data guide](data-guide.md) explains formats, source dates, and versions.
 Add [speaker profiles](../community/speaker-profiles.json) for a reading list.
 Use the [learning collection](learning-resources.md) for related talks and additional sources.
+Use the [community prompt](../prompts/find-my-community.md) to choose a group or activity.
 
 ## Contribute
 

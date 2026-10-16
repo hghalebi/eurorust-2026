@@ -24,6 +24,7 @@ jobs:
       - run: target/release/conference-data validate
       - run: target/release/conference-data check-learning
       - run: target/release/conference-data check-archive
+      - run: target/release/conference-data check-participation
       - run: target/release/conference-data check-docs
       - name: Check participant paths
         shell: bash

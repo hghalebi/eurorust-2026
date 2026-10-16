@@ -1,5 +1,7 @@
 use clap::{Parser, Subcommand};
-use conference_data::{Result, archive, collect, export, itinerary, learning, navigation};
+use conference_data::{
+    Result, archive, collect, export, itinerary, learning, navigation, participation,
+};
 use std::{fs, path::PathBuf};
 
 #[derive(Parser)]
@@ -54,6 +56,10 @@ enum Command {
     RebindLearning,
     /// Check conference archive identities, references, dates, and coverage counts offline.
     CheckArchive,
+    /// Validate community records and regenerate guides, schema, and calendar offline.
+    BuildParticipation,
+    /// Check community references, dates, schema, and generated views offline.
+    CheckParticipation,
 }
 fn run(args: Args) -> Result<()> {
     match args.command {
@@ -130,6 +136,12 @@ fn run(args: Args) -> Result<()> {
         Command::CheckLearning => learning::load(&args.root)?.verify(&args.root)?,
         Command::RebindLearning => learning::rebind(&args.root)?,
         Command::CheckArchive => archive::check(&args.root)?,
+        Command::BuildParticipation => {
+            let checked = participation::load(&args.root)?;
+            checked.render(&args.root)?;
+            checked.verify(&args.root)?;
+        }
+        Command::CheckParticipation => participation::load(&args.root)?.verify(&args.root)?,
     }
     Ok(())
 }

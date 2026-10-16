@@ -1,0 +1,2 @@
+# Preserve RFC 5545 CRLF and meaningful spaces at calendar fold boundaries.
+*.ics -text whitespace=cr-at-eol,-blank-at-eol

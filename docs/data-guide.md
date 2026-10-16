@@ -14,6 +14,7 @@ Choose a format for your task. Keep its sources and dates with anything you make
 | Explore speakers' work | [Speaker directory](../resources/speakers/README.md) · [Profiles JSON](../community/speaker-profiles.json) |
 | Read related talks and additional sources | [Session resources](../resources/related-talks/README.md) · [Learning data guide](learning-resources.md) |
 | Explore other editions | [Conference archive](../resources/conferences/README.md) · [Edition data](../community/conference-archive/editions.json) |
+| Find communities and activities | [Community paths](../community/README.md) · [Participation JSON](../community/participation.json) · [Calendar](../resources/stay-current/events.ics) |
 | Check version and coverage | [Manifest](../data/manifest.json) |
 | Check expected structure | [Catalog schema](../schema/catalog.schema.json) · [Participant preferences](../schema/profile.schema.json) · [Itinerary](../schema/itinerary.schema.json) |
 
@@ -101,6 +102,55 @@ Require a matching `catalog_snapshot_id` before combining it with a schedule.
 It sits outside catalog schemas and manifest hashes. Keep `checked_at` and the
 Git revision. Refresh/export do not update it; recheck sources before changing
 its date or snapshot. Earlier release bundles may omit it.
+
+## Community participation companion
+
+[Participation JSON](../community/participation.json), schema **1.0.0**, connects
+communities and activities to the existing session and discovery records.
+It sits outside the official conference manifest and immutable snapshots.
+Keep its Git revision, reference date, and source reviews with reused records.
+
+| Field | Meaning |
+| --- | --- |
+| `reference_date` | Date against which this snapshot's opportunity statuses were reviewed |
+| `catalog_snapshot_id` | Required catalog identity for session joins |
+| `discovery_sha256` | SHA-256 of the exact bytes of `community/rust-discovery.json` |
+| `calendar_updated_at` | Timestamp for this calendar edition; rebuilding offline does not advance it |
+| `communities[]` | Identity, affiliation, audience, topics, page languages, participation source, activity evidence, access, and review |
+| `opportunities[]` | Action, status, optional community/event joins, separate application deadline, access, and evidence |
+| `routes[]` | Session IDs, reading page, communities, actions, prerequisites, and a smaller step; relationships are editorial suggestions |
+| `event_reviews[]` | Participation review for each discovery event/watch record; does not replace its original date check |
+| `coverage`, `regional_gaps` | Researched areas and explicit omissions |
+
+Community and opportunity IDs are local stable keys. `event_id` joins discovery
+`events[].id`; `discovery_source_id` reuses an existing source and canonical URL.
+Topic labels link existing topic pages. Session IDs join the pinned catalog.
+
+Opportunity status is `open`, `announced`, `route`, `historical`, or `closed`.
+A `route` describes how to participate; it does not establish an available place,
+mentor, issue, or meeting. An open call without a verified cutoff keeps
+`deadline: null` and stays out of the calendar.
+
+A deadline is either `instant` with an RFC 3339 timestamp, IANA timezone, and
+original wording, or `date` with an ISO date and original wording. Date-only
+deadlines have no established cutoff time or timezone. Event dates remain in
+the discovery registry. Never copy a deadline into an event date.
+
+`review.checked_on` records page inspection or an unsuccessful access attempt;
+`source_review` distinguishes them. Evidence and limits travel with the record.
+`activity.observed_on` records dated activity evidence, not a guarantee of current
+activity. Page language does not establish spoken language. Unknown costs,
+captions, eligibility, equipment, venues, rooms, and policy links remain `null`.
+
+The [schema](../schema/participation.schema.json) describes the JSON shape.
+The optional `check-participation` command also checks pins, references, dates,
+review intervals, timezone offsets, and exact generated views. It works offline;
+it does not fetch sources, verify access, or make recommendations.
+
+The [calendar guide](../resources/stay-current/opportunities.md#use-the-calendar)
+explains date precision and replacement imports. The calendar is a snapshot,
+not a subscription. [Maintenance](maintenance.md#maintain-communities-and-opportunities)
+owns source review and regeneration.
 
 ## Contract
 

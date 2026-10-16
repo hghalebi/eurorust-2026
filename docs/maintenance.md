@@ -17,6 +17,7 @@ Read the relevant source and focused checks before expanding the scope.
 | Update speaker research | [Profiles JSON](../community/speaker-profiles.json) and [pages](../resources/speakers/README.md) | [Attribution rules](../CONTRIBUTING.md#speaker-profile-corrections); consistent views and catalog joins |
 | Add session learning resources | [Curated JSON](../community/session-resources/) and [format guide](learning-resources.md) | `build-learning`, `check-learning`, and source evidence |
 | Extend conference archives | [Registry and inventory](../community/conference-archive/) and [directory](../resources/conferences/README.md) | `check-archive`, source links, edition identity, programme counts, and coverage gaps |
+| Add communities or opportunities | [Participation JSON](../community/participation.json), [discovery JSON](../community/rust-discovery.json), and [renderer](../tools/conference-data/src/participation/mod.rs) | Source review, `build-participation`, `check-participation`, and `check-docs` |
 | Check times and places | [Logistics JSON](../community/session-logistics.json) and [venue guide](time-and-place.md) | Compare official pages, snapshot, session IDs, times, and sources; preserve unknown rooms |
 | Add or move a guide | [Inventory](document-map.json) and [navigation checker](../tools/conference-data/src/navigation.rs) | Incoming links, `check-docs`, historical/private-route fixtures |
 | Change collection | [Collector](../tools/conference-data/src/collect.rs) and [fixture](../tools/conference-data/tests/fixtures/schedule.html) | Valid/malformed input, failed publication, `validate` |
@@ -73,6 +74,64 @@ session content fingerprint matches. It stops for changed titles, speakers,
 full detail-page hashes, or annotations; those require editorial review. Existing
 source check dates stay intact. See the [learning guide](learning-resources.md).
 
+## Maintain communities and opportunities
+
+Edit [participation.json](../community/participation.json) after checking primary
+sources. Follow its [field reference](data-guide.md#community-participation-companion)
+and the [contribution rules](../CONTRIBUTING.md#communities-and-participation).
+Keep event dates in the discovery registry and application deadlines in the companion.
+
+Review the discovery diff before updating `discovery_sha256`. This command reads
+its current byte hash; it does not establish source accuracy:
+
+```sh
+shasum -a 256 community/rust-discovery.json
+```
+
+After a catalog refresh, review the four routes before changing the companion's
+`catalog_snapshot_id`. Neither pin may be advanced merely to silence a check.
+Keep earlier source dates unless those sources were inspected again. Update
+`calendar_updated_at` when publishing a revised calendar edition, including
+changed dates or cancelled items.
+
+With the [compiled helper installed](quickstart.md#install-a-reusable-binary):
+
+```sh
+bin/conference-data build-participation
+bin/conference-data check-participation
+bin/conference-data check-docs
+```
+
+The build owns `community/README.md`, the communities and opportunities pages,
+the participation schema, and `resources/stay-current/events.ics`. Edit their
+source data or renderer, not the outputs. The participation guide, prompt, and
+activity template are maintained by hand. Review wording, links, and deadlines
+after regeneration.
+
+| Record | Review interval |
+| --- | --- |
+| Event, call, or support deadline within 30 days | Weekly, and before recommending or exporting it |
+| Later announced event or deadline | Monthly, and after a reported change |
+| Community or contribution route | Within 90 days, or after a broken-link report; opportunity records currently use a shorter monthly interval |
+| Historical observation | Preserve it; append dated corrections |
+| Inaccessible or conflicting source | Keep the last supported fact and uncertainty; record the next attempt |
+
+These are editorial review dates, not an installed monitoring job. The offline
+check compares them with the snapshot reference date, not today's clock. Before
+fresh recommendations or publication, inspect overdue records and dated facts.
+Report added, changed, held, and retired entries; retain coverage gaps.
+
+Calendar generation follows [RFC 5545](https://www.rfc-editor.org/rfc/rfc5545):
+stable IDs, exclusive end dates, UTC for exact deadlines, escaped text, CRLF, and
+folded UTF-8 lines. Tests cover date changes, cancellations, daylight-saving
+offsets, duplicate identities, and invalid-input recovery. A cancelled record
+leaves the next snapshot; it does not remove an old entry from someone's calendar.
+App-specific import behavior needs a separate check.
+
+All outputs are computed before writing and each file is replaced atomically.
+A filesystem failure can leave a mixed set. Fix the cause, rebuild from reviewed
+inputs, then run the checks. No automatic refresh, delivery, or subscription is supplied.
+
 ## Publish and recover a snapshot
 
 Publication builds the immutable bundle, then atomically renames its directory.
@@ -117,6 +176,7 @@ cargo build --release --locked
 target/release/conference-data validate
 target/release/conference-data check-learning
 target/release/conference-data check-archive
+target/release/conference-data check-participation
 target/release/conference-data check-docs
 ```
 

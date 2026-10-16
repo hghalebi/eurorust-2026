@@ -6,6 +6,7 @@ pub mod export;
 pub mod itinerary;
 pub mod learning;
 pub mod navigation;
+pub mod participation;
 
 pub type Result<T> = std::result::Result<T, Error>;
 

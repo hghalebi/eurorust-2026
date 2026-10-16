@@ -18,6 +18,9 @@ For compile-time evaluation and future language ideas, use the separate
 [compile-time contracts note](../notes/talks/compile-time-contracts.md). It keeps
 stable Rust examples apart from nightly and proposed capabilities.
 
+Continue with the [types community path](../community/README.md#types-and-contracts):
+read a team discussion or inspect a small compiler task.
+
 ## Workers: what happens to accepted work when a process stops?
 
 Start with Tokio's [graceful shutdown guide](https://tokio.rs/tokio/topics/shutdown):
@@ -32,6 +35,9 @@ Graceful shutdown alone does not answer that question. The
 [worker note](../notes/talks/background-workers.md) adds questions about duplicates
 and cancellation.
 
+Continue with the [production-agent community path](../community/README.md#production-agents):
+prepare a small recovery example before asking a project-specific question.
+
 ## Infrastructure: what can be checked before deployment?
 
 Read Encore's [infrastructure planning design](https://dev.to/encore/designing-an-algorithmic-cloud-infrastructure-provisioning-system-kde).
@@ -43,6 +49,9 @@ an Encore-sponsored session. Ask: **which configuration errors can be caught
 before deployment, and which require evidence from the running environment?**
 The [preparation note](../notes/talks/compiled-infrastructure.md) covers this boundary;
 the reading list distinguishes Encore's announced Rust preview from general availability.
+
+Continue with the [infrastructure community path](../community/README.md#infrastructure-configuration):
+compare the model with Nix and Snix, while keeping their scope and maturity distinct.
 
 ## Robotics: what does a successful message tell you?
 
@@ -56,6 +65,9 @@ For a simulation-based introduction, explore the
 [line-follower workshop resources](related-talks/workshops-programming-a-line-follower-robot.md).
 The field-integration workshop asks for comfort with async Rust and Tokio;
 compare its requirements with your background. Confirm workshop access separately.
+
+Continue with the [robotics community path](../community/README.md#robotics-and-embedded-systems):
+start with a documentation or simulation task, then check hardware requirements.
 
 ## Keep one next step
 

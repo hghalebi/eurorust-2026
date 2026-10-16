@@ -1,0 +1,24 @@
+name: Suggest a Rust resource or community
+description: Share a useful source, participation route, event, or correction.
+body:
+  - type: textarea
+    id: value
+    attributes:
+      label: Who will this help?
+      description: Name the resource and explain the question, goal, or small next step it supports.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Source and check date
+      description: Link the organizer, project, author, or publisher. Give the date you checked it, its original language, and related session or existing record IDs if known.
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: Status, access, and gaps
+      description: Is this a current opportunity, general route, past example, or proposal? For dates, include the original wording and timezone. State unknown costs, eligibility, language, captions, equipment, venue, or room. Keep personal contacts and private chats out.
+    validations:
+      required: true

@@ -1,0 +1,627 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Participation",
+  "type": "object",
+  "properties": {
+    "calendar_updated_at": {
+      "type": "string"
+    },
+    "catalog_snapshot_id": {
+      "type": "string"
+    },
+    "communities": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Community"
+      }
+    },
+    "coverage": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Coverage"
+      }
+    },
+    "discovery_sha256": {
+      "type": "string"
+    },
+    "event_reviews": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/EventReview"
+      }
+    },
+    "opportunities": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Opportunity"
+      }
+    },
+    "reference_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "regional_gaps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "review_status": {
+      "type": "string"
+    },
+    "routes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Route"
+      }
+    },
+    "schema_version": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "reference_date",
+    "calendar_updated_at",
+    "catalog_snapshot_id",
+    "discovery_sha256",
+    "review_status",
+    "communities",
+    "opportunities",
+    "routes",
+    "event_reviews",
+    "coverage",
+    "regional_gaps"
+  ],
+  "$defs": {
+    "Access": {
+      "type": "object",
+      "properties": {
+        "captions": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cost": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "eligibility": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "equipment": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "mode": {
+          "$ref": "#/$defs/Mode"
+        },
+        "room": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "spoken_languages": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/$defs/LanguageCode"
+          }
+        },
+        "venue": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "mode"
+      ]
+    },
+    "Activity": {
+      "type": "object",
+      "properties": {
+        "evidence_url": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        },
+        "observed_on": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "evidence_url",
+        "note"
+      ]
+    },
+    "Affiliation": {
+      "type": "string",
+      "enum": [
+        "rust_project",
+        "independent",
+        "project",
+        "adjacent"
+      ]
+    },
+    "CategoryId": {
+      "type": "string",
+      "pattern": "^C(0[1-9]|1[0-3])$"
+    },
+    "Community": {
+      "type": "object",
+      "properties": {
+        "access": {
+          "$ref": "#/$defs/Access"
+        },
+        "activity": {
+          "$ref": "#/$defs/Activity"
+        },
+        "affiliation": {
+          "$ref": "#/$defs/Affiliation"
+        },
+        "audience": {
+          "type": "string"
+        },
+        "code_of_conduct_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "contribution_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "discovery_source_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/DiscoverySourceId"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "first_step": {
+          "type": "string"
+        },
+        "id": {
+          "$ref": "#/$defs/CommunityId"
+        },
+        "kind": {
+          "$ref": "#/$defs/CommunityKind"
+        },
+        "location": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "purpose": {
+          "type": "string"
+        },
+        "region": {
+          "$ref": "#/$defs/Region"
+        },
+        "review": {
+          "$ref": "#/$defs/Review"
+        },
+        "source_languages": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/LanguageCode"
+          }
+        },
+        "topics": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "url": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "kind",
+        "affiliation",
+        "region",
+        "source_languages",
+        "topics",
+        "url",
+        "purpose",
+        "first_step",
+        "audience",
+        "access",
+        "activity",
+        "review"
+      ]
+    },
+    "CommunityId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "CommunityKind": {
+      "type": "string",
+      "enum": [
+        "organization",
+        "forum",
+        "team",
+        "project",
+        "learning",
+        "regional"
+      ]
+    },
+    "Coverage": {
+      "type": "object",
+      "properties": {
+        "area": {
+          "type": "string"
+        },
+        "category": {
+          "$ref": "#/$defs/CategoryId"
+        },
+        "note": {
+          "type": "string"
+        },
+        "status": {
+          "$ref": "#/$defs/CoverageStatus"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "category",
+        "area",
+        "status",
+        "note"
+      ]
+    },
+    "CoverageStatus": {
+      "type": "string",
+      "enum": [
+        "covered",
+        "partial"
+      ]
+    },
+    "Deadline": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "at": {
+              "type": "string"
+            },
+            "kind": {
+              "type": "string",
+              "const": "instant"
+            },
+            "source_text": {
+              "type": "string"
+            },
+            "timezone": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "at",
+            "timezone",
+            "source_text"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "const": "date"
+            },
+            "on": {
+              "type": "string",
+              "format": "date"
+            },
+            "source_text": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "on",
+            "source_text"
+          ]
+        }
+      ]
+    },
+    "DiscoveryEventId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "DiscoverySourceId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "EventReview": {
+      "type": "object",
+      "properties": {
+        "event_id": {
+          "$ref": "#/$defs/DiscoveryEventId"
+        },
+        "note": {
+          "type": "string"
+        },
+        "review": {
+          "$ref": "#/$defs/Review"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "event_id",
+        "note",
+        "review"
+      ]
+    },
+    "LanguageCode": {
+      "type": "string",
+      "pattern": "^[a-z]{2,3}(-[A-Za-z0-9]{2,8})*$"
+    },
+    "Mode": {
+      "type": "string",
+      "enum": [
+        "online",
+        "in_person",
+        "mixed",
+        "unknown"
+      ]
+    },
+    "Opportunity": {
+      "type": "object",
+      "properties": {
+        "access": {
+          "$ref": "#/$defs/Access"
+        },
+        "action": {
+          "type": "string"
+        },
+        "community_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/CommunityId"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "deadline": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Deadline"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "event_id": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/DiscoveryEventId"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "id": {
+          "$ref": "#/$defs/OpportunityId"
+        },
+        "kind": {
+          "$ref": "#/$defs/OpportunityKind"
+        },
+        "review": {
+          "$ref": "#/$defs/Review"
+        },
+        "status": {
+          "$ref": "#/$defs/OpportunityStatus"
+        },
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "kind",
+        "status",
+        "url",
+        "action",
+        "access",
+        "review"
+      ]
+    },
+    "OpportunityId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "OpportunityKind": {
+      "type": "string",
+      "enum": [
+        "call_for_proposals",
+        "hackathon",
+        "discussion",
+        "contribution",
+        "mentoring",
+        "learning",
+        "organizing",
+        "support",
+        "attendance"
+      ]
+    },
+    "OpportunityStatus": {
+      "type": "string",
+      "enum": [
+        "open",
+        "announced",
+        "route",
+        "historical",
+        "closed"
+      ]
+    },
+    "Region": {
+      "type": "string",
+      "enum": [
+        "global",
+        "europe",
+        "africa",
+        "asia",
+        "americas",
+        "oceania"
+      ]
+    },
+    "Relationship": {
+      "type": "string",
+      "enum": [
+        "editorial_suggestion"
+      ]
+    },
+    "Review": {
+      "type": "object",
+      "properties": {
+        "checked_on": {
+          "type": "string",
+          "format": "date"
+        },
+        "evidence_urls": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "limits": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "next_review_on": {
+          "type": "string",
+          "format": "date"
+        },
+        "source_review": {
+          "$ref": "#/$defs/ReviewResult"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "checked_on",
+        "next_review_on",
+        "source_review",
+        "evidence_urls",
+        "limits"
+      ]
+    },
+    "ReviewResult": {
+      "type": "string",
+      "enum": [
+        "page_checked",
+        "unavailable"
+      ]
+    },
+    "Route": {
+      "type": "object",
+      "properties": {
+        "community_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/CommunityId"
+          }
+        },
+        "first_step": {
+          "type": "string"
+        },
+        "id": {
+          "$ref": "#/$defs/RouteId"
+        },
+        "opportunity_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/OpportunityId"
+          }
+        },
+        "prerequisites": {
+          "type": "string"
+        },
+        "reading_path": {
+          "type": "string"
+        },
+        "relationship": {
+          "$ref": "#/$defs/Relationship"
+        },
+        "session_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "small_step": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "session_ids",
+        "reading_path",
+        "community_ids",
+        "opportunity_ids",
+        "first_step",
+        "small_step",
+        "prerequisites",
+        "relationship"
+      ]
+    },
+    "RouteId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    }
+  }
+}
