@@ -1,6 +1,6 @@
 {
   "format_version": "1.0.0",
-  "checked_on": "2026-10-15",
+  "checked_on": "2026-10-16",
   "review_status": "source_checked_draft",
   "eurorust_snapshot_id": "eurorust-2026-09ef1844f8dfdb34b2f8",
   "series": [
@@ -26,6 +26,8 @@
       "url": "https://rustconf.com/",
       "region": "North America",
       "editions": [
+        "rustconf-2016",
+        "rustconf-2017",
         "rustconf-2019",
         "rustconf-2024",
         "rustconf-2026"
@@ -280,6 +282,20 @@
         "rustrush-2018"
       ],
       "notes": []
+    },
+    {
+      "id": "rustcamp",
+      "name": "RustCamp",
+      "kind": "conference",
+      "url": "https://blog.rust-lang.org/2015/08/14/Next-year/",
+      "region": "North America",
+      "editions": [
+        "rustcamp-2015"
+      ],
+      "notes": [
+        "Historical one-day event in Berkeley, California. The Rust Blog retrospective is the usable source landing page; the old event host no longer exposes a readable schedule in the checked response.",
+        "Kept separate from RustConf; no formal series rename or identity merger is asserted."
+      ]
     }
   ]
 }

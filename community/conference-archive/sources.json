@@ -1,6 +1,6 @@
 {
   "format_version": "1.0.0",
-  "checked_on": "2026-10-15",
+  "checked_on": "2026-10-16",
   "review_status": "source_checked_draft",
   "eurorust_snapshot_id": "eurorust-2026-09ef1844f8dfdb34b2f8",
   "sources": [
@@ -11013,6 +11013,286 @@
       "http_status": 200,
       "sha256": "e5e62c2ff4790b2b6613cb9cb3d1e2951e6ca76ba9ba241a8864703f3098ecfe",
       "note": "HTTP retrieval succeeded; this is not a playback or licensing check."
+    },
+    {
+      "id": "source-c60db6cfe6e99e78",
+      "url": "https://2017.rustconf.com/",
+      "resolved_url": "https://2017.rustconf.com/",
+      "checked_on": "2026-10-16",
+      "verification": "fetched",
+      "http_status": 200,
+      "sha256": "884d4af38527e212757c9a95b804bf5717e671fc5e35bfd0691eb9ed5bcf82f4",
+      "note": "HTTP retrieval succeeded; source text reviewed, not a playback or licensing check."
+    },
+    {
+      "id": "source-61fcc09902372f9e",
+      "url": "https://2017.rustconf.com/schedule.html",
+      "resolved_url": "https://2017.rustconf.com/schedule.html",
+      "checked_on": "2026-10-16",
+      "verification": "fetched",
+      "http_status": 200,
+      "sha256": "fc335eefbe21ea3b2a77705c329ce70965add7eb9fe7fc138b8f15da272113d1",
+      "note": "HTTP retrieval succeeded; source text reviewed, not a playback or licensing check."
+    },
+    {
+      "id": "source-261cf75d2bb0fe2e",
+      "url": "https://2017.rustconf.com/program.html",
+      "resolved_url": "https://2017.rustconf.com/program.html",
+      "checked_on": "2026-10-16",
+      "verification": "fetched",
+      "http_status": 200,
+      "sha256": "dcbd633c955868555c7ebaabc2f618771692d6dd657b2866c217acb7bc3608e9",
+      "note": "HTTP retrieval succeeded; source text reviewed, not a playback or licensing check."
+    },
+    {
+      "id": "source-922303bb920b4b7a",
+      "url": "https://2017.rustconf.com/program.html#keynote",
+      "resolved_url": "https://2017.rustconf.com/program.html",
+      "checked_on": "2026-10-16",
+      "verification": "fetched",
+      "http_status": 200,
+      "sha256": "dcbd633c955868555c7ebaabc2f618771692d6dd657b2866c217acb7bc3608e9",
+      "note": "Program body fetched; the official schedule links this fragment for the named talk. Program credit links establish the listed speakers; no identity merge with unrelated matching names."
+    },
+    {
+      "id": "source-81e1179763a228d3",
+      "url": "https://2017.rustconf.com/program.html#teaching",
+      "resolved_url": "https://2017.rustconf.com/program.html",
+      "checked_on": "2026-10-16",
+      "verification": "fetched",
+      "http_status": 200,
+      "sha256": "dcbd633c955868555c7ebaabc2f618771692d6dd657b2866c217acb7bc3608e9",
+      "note": "Program body fetched; the official schedule links this fragment for the named talk. Program credit links establish the listed speakers; no identity merge with unrelated matching names."
+    },
+    {
+      "id": "source-6832e8de5a3c86fc",
+      "url": "https://2017.rustconf.com/program.html#rocket",
+      "resolved_url": "https://2017.rustconf.com/program.html",
+      "checked_on": "2026-10-16",
+      "verification": "fetched",
+      "http_status": 200,
+      "sha256": "dcbd633c955868555c7ebaabc2f618771692d6dd657b2866c217acb7bc3608e9",
+      "note": "Program body fetched; the official schedule links this fragment for the named talk. Program credit links establish the listed speakers; no identity merge with unrelated matching names."
+    },
+    {
+      "id": "source-0d907ae8c2523038",
+      "url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dt4CyEKb-ywA&format=json",
+      "resolved_url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dt4CyEKb-ywA&format=json",
+      "checked_on": "2026-10-16",
+      "verification": "fetched",
+      "http_status": 200,
+      "sha256": "e5e46db1653b4225bfb21bee433d707ec2fa68be343000138f51b6ab6d6459d7",
+      "note": "YouTube oEmbed metadata fetched; matching title and Rust Programming Language publisher checked. This is not a watch-page fetch, playback, caption, or licensing check."
+    },
+    {
+      "id": "source-6151f511f7fc6b06",
+      "url": "https://www.youtube.com/watch?v=t4CyEKb-ywA",
+      "resolved_url": null,
+      "checked_on": "2026-10-16",
+      "verification": "linked",
+      "http_status": null,
+      "sha256": null,
+      "note": "Publisher recording matched by official YouTube oEmbed metadata at https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dt4CyEKb-ywA&format=json. Search-rendered publisher listing also inspected. Watch-page retrieval/playback and captions not verified."
+    },
+    {
+      "id": "source-299cd88e549ba152",
+      "url": "https://2017.rustconf.com/program.html#crate",
+      "resolved_url": "https://2017.rustconf.com/program.html",
+      "checked_on": "2026-10-16",
+      "verification": "fetched",
+      "http_status": 200,
+      "sha256": "dcbd633c955868555c7ebaabc2f618771692d6dd657b2866c217acb7bc3608e9",
+      "note": "Program body fetched; the official schedule links this fragment for the named talk. Program credit links establish the listed speakers; no identity merge with unrelated matching names."
+    },
+    {
+      "id": "source-a9896958db8e708c",
+      "url": "https://2017.rustconf.com/program.html#menhir",
+      "resolved_url": "https://2017.rustconf.com/program.html",
+      "checked_on": "2026-10-16",
+      "verification": "fetched",
+      "http_status": 200,
+      "sha256": "dcbd633c955868555c7ebaabc2f618771692d6dd657b2866c217acb7bc3608e9",
+      "note": "Program body fetched; the official schedule links this fragment for the named talk. Program credit links establish the listed speakers; no identity merge with unrelated matching names."
+    },
+    {
+      "id": "source-cb86b93703f504fd",
+      "url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwxPehGkoNOw&format=json",
+      "resolved_url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwxPehGkoNOw&format=json",
+      "checked_on": "2026-10-16",
+      "verification": "fetched",
+      "http_status": 200,
+      "sha256": "6937d3802186bbcef220233479cdfd41785c7a9ba6b1badc32f6f3c11a8dfb9b",
+      "note": "YouTube oEmbed metadata fetched; matching title and Rust Programming Language publisher checked. This is not a watch-page fetch, playback, caption, or licensing check."
+    },
+    {
+      "id": "source-c677d01f570a0c6f",
+      "url": "https://www.youtube.com/watch?v=wxPehGkoNOw",
+      "resolved_url": null,
+      "checked_on": "2026-10-16",
+      "verification": "linked",
+      "http_status": null,
+      "sha256": null,
+      "note": "Publisher recording matched by official YouTube oEmbed metadata at https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwxPehGkoNOw&format=json. Search-rendered publisher listing also inspected. Watch-page retrieval/playback and captions not verified."
+    },
+    {
+      "id": "source-7916cb5f0a8bd08f",
+      "url": "https://2017.rustconf.com/program.html#types",
+      "resolved_url": "https://2017.rustconf.com/program.html",
+      "checked_on": "2026-10-16",
+      "verification": "fetched",
+      "http_status": 200,
+      "sha256": "dcbd633c955868555c7ebaabc2f618771692d6dd657b2866c217acb7bc3608e9",
+      "note": "Program body fetched; the official schedule links this fragment for the named talk. Program credit links establish the listed speakers; no identity merge with unrelated matching names."
+    },
+    {
+      "id": "source-b1f3374bf4290e63",
+      "url": "https://2017.rustconf.com/program.html#perf",
+      "resolved_url": "https://2017.rustconf.com/program.html",
+      "checked_on": "2026-10-16",
+      "verification": "fetched",
+      "http_status": 200,
+      "sha256": "dcbd633c955868555c7ebaabc2f618771692d6dd657b2866c217acb7bc3608e9",
+      "note": "Program body fetched; the official schedule links this fragment for the named talk. Program credit links establish the listed speakers; no identity merge with unrelated matching names."
+    },
+    {
+      "id": "source-3d9825301caba6da",
+      "url": "https://2017.rustconf.com/program.html#dalek",
+      "resolved_url": "https://2017.rustconf.com/program.html",
+      "checked_on": "2026-10-16",
+      "verification": "fetched",
+      "http_status": 200,
+      "sha256": "dcbd633c955868555c7ebaabc2f618771692d6dd657b2866c217acb7bc3608e9",
+      "note": "Program body fetched; the official schedule links this fragment for the named talk. Program credit links establish the listed speakers; no identity merge with unrelated matching names."
+    },
+    {
+      "id": "source-a09d07745c5eced8",
+      "url": "https://2017.rustconf.com/program.html#closingkeynote",
+      "resolved_url": "https://2017.rustconf.com/program.html",
+      "checked_on": "2026-10-16",
+      "verification": "fetched",
+      "http_status": 200,
+      "sha256": "dcbd633c955868555c7ebaabc2f618771692d6dd657b2866c217acb7bc3608e9",
+      "note": "Program body fetched; the official schedule links this fragment for the named talk. Program credit links establish the listed speakers; no identity merge with unrelated matching names."
+    },
+    {
+      "id": "source-2ca600fae54034fe",
+      "url": "https://blog.rust-lang.org/2015/06/25/Rust-1.1/",
+      "resolved_url": "https://blog.rust-lang.org/2015/06/25/Rust-1.1/",
+      "checked_on": "2026-10-16",
+      "verification": "fetched",
+      "http_status": 200,
+      "sha256": "379abfbe1759730cc13eed9b010129492e1bcc6b51b89e20643e5237c88cac6e",
+      "note": "Official announcement read: planned August 1, 2015 RustCamp in Berkeley. Announcement evidence alone does not establish delivery."
+    },
+    {
+      "id": "source-50be29f5903f5db9",
+      "url": "https://blog.rust-lang.org/2015/08/14/Next-year/",
+      "resolved_url": "https://blog.rust-lang.org/2015/08/14/Next-year/",
+      "checked_on": "2026-10-16",
+      "verification": "fetched",
+      "http_status": 200,
+      "sha256": "def4ff89f72288f3e966f7f13028e44b715b8de77baf47178d24815684b39462",
+      "note": "Official post-event report read; confirms RustCamp occurred. Historical outbound schedule/media links have separate failed-content observations and are not recommended current destinations."
+    },
+    {
+      "id": "source-5ea547602504de60",
+      "url": "https://carol-nichols.com/2015/08/01/rustcamp-talk-notes/",
+      "resolved_url": "https://carol-nichols.com/2015/08/01/rustcamp-talk-notes/",
+      "checked_on": "2026-10-16",
+      "verification": "fetched",
+      "http_status": 200,
+      "sha256": "3b6745d4fdd44bbf07137c142e7caaa31b194884190878f5059d7a2b9ad43b13",
+      "note": "Speaker-authored post read, dated August 1, 2015; explicitly reports giving Navigating the Open Seas at RustCamp that day. Readable talk notes, not a transcript; downstream historical links not exhaustively rechecked."
+    },
+    {
+      "id": "source-f8e10cee52e0e32f",
+      "url": "https://blog.rust-lang.org/2016/07/25/conf-lineup/",
+      "resolved_url": "https://blog.rust-lang.org/2016/07/25/conf-lineup/",
+      "checked_on": "2026-10-16",
+      "verification": "fetched",
+      "http_status": 200,
+      "sha256": "6f642c561bea99dd629fa2e329abc48f831e49dd98a0fa642ab9696ffcfd0cf2",
+      "note": "Official 2016 lineup read; September 9 tutorials and September 10 main RustConf in Portland. Historical announcement, not delivery proof."
+    },
+    {
+      "id": "source-ccc2998c66830388",
+      "url": "https://blog.rust-lang.org/2016/07/25/conf-lineup.html",
+      "resolved_url": "https://blog.rust-lang.org/2016/07/25/conf-lineup.html",
+      "checked_on": "2026-10-16",
+      "verification": "fetched",
+      "http_status": 200,
+      "sha256": "d85d8aabfa690b9b1d6e064955599a3f8a3b365407160a8582e6a3d4490a7e6b",
+      "note": "Fetched HTML redirect document; its script, noscript meta refresh, and explicit link target the canonical /2016/07/25/conf-lineup/ article, which was fetched separately. This hash is the redirect body, not the article."
+    },
+    {
+      "id": "source-7ed11b761644ecbf",
+      "url": "https://blog.rust-lang.org/2017/05/15/rust-at-two-years/",
+      "resolved_url": "https://blog.rust-lang.org/2017/05/15/rust-at-two-years/",
+      "checked_on": "2026-10-16",
+      "verification": "fetched",
+      "http_status": 200,
+      "sha256": "a8951e299842cb55f9b832ea844079590018933068393e203d08a594dd78eb63",
+      "note": "Official retrospective read; lists RustConf 2016 among held conferences, September 9–10 in Portland. Does not establish delivery of every scheduled talk."
+    },
+    {
+      "id": "source-cbb26c85f3faafd6",
+      "url": "https://rustcamp.com/schedule.html",
+      "resolved_url": "https://rustcamp.com/schedule.html",
+      "checked_on": "2026-10-16",
+      "verification": "fetched",
+      "http_status": 200,
+      "sha256": "6dc9c7fc93bb488bb0520a6c780a8d3c0fb5486a4711aca49b4c53fac7393023",
+      "note": "FAILED CONTENT CHECK: HTTP 200 returned no readable program text. Retained only as historical-source evidence; do not treat fetched status as a verified program or recommend this as a working schedule."
+    },
+    {
+      "id": "source-ee43db8a587a84d5",
+      "url": "https://confreaks.tv/events/rustcamp2015",
+      "resolved_url": "https://confreaks.tv/",
+      "checked_on": "2026-10-16",
+      "verification": "fetched",
+      "http_status": 200,
+      "sha256": "d7889fb5f059b8d355b0b3c24b2862905152fe34f0cab1e505d056b367883002",
+      "note": "FAILED CONTENT IDENTITY CHECK: historical event URL redirected to the root and returned unrelated gambling content with HTTP 200. Retained only as failure/provenance evidence. Do not recommend this host as a recording archive."
+    },
+    {
+      "id": "source-feeb34ceaa987d48",
+      "url": "https://2016.rustconf.com/schedule.html",
+      "resolved_url": null,
+      "checked_on": "2026-10-16",
+      "verification": "blocked",
+      "http_status": null,
+      "sha256": null,
+      "note": "Normal TLS validation failed: hostname mismatch; certificate is not valid for 2016.rustconf.com. No program response or content hash was obtained; certificate verification was not disabled."
+    },
+    {
+      "id": "source-40d241a934580ec0",
+      "url": "https://2016.rustconf.com/program.html",
+      "resolved_url": null,
+      "checked_on": "2026-10-16",
+      "verification": "blocked",
+      "http_status": null,
+      "sha256": null,
+      "note": "Normal TLS validation failed: hostname mismatch; certificate is not valid for 2016.rustconf.com. Search-indexed official program text is only a qualified research lead, not a live retrieval."
+    },
+    {
+      "id": "source-e4a607c3cb289eb1",
+      "url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DbcrzfivXpc4&format=json",
+      "resolved_url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DbcrzfivXpc4&format=json",
+      "checked_on": "2026-10-16",
+      "verification": "fetched",
+      "http_status": 200,
+      "sha256": "741fd67bec3af8b6c7535bf8a3051ff9f47c88b1b623b9a1ca48c59501268f44",
+      "note": "Official YouTube oEmbed returned the matching RustConf 2016 Back to the Futures title, Alex Crichton credit, and Confreaks publisher. Metadata only; no playback, captions, or licensing check."
+    },
+    {
+      "id": "source-bb8b088dc732bd28",
+      "url": "https://www.youtube.com/watch?v=bcrzfivXpc4",
+      "resolved_url": null,
+      "checked_on": "2026-10-16",
+      "verification": "linked",
+      "http_status": null,
+      "sha256": null,
+      "note": "Matched from publisher metadata at https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DbcrzfivXpc4&format=json. Search-rendered publisher listing gives publication 2016-10-04 and the futures/mio topic. Watch-page retrieval/playback and captions were not verified."
     }
   ]
 }

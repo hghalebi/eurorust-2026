@@ -29,25 +29,29 @@ is separate from the event it concerns.
 
 ### [TokioConf 2027 call for talks](<https://sessionize.com/tokioconf-2027/>)
 
-call for proposals · mode unverified
+call for proposals · mode unverified · The call lists free event admission for speakers. Attendee prices are not established by this offer.
 
-Propose a practical async Rust story; the form describes flexible talk lengths.
+Propose a practical async Rust talk for any technical level. Typical talks are 25–30 minutes; explain a shorter or longer format in the submission.
 
 **Deadline:** 30 November 2026, 11:59 PM Pacific Standard Time (UTC-08:00). Timezone: America/Los_Angeles.
 
 Event: [TokioConf 2027](<https://tokioconf.com/>). See [conference dates and limits](conferences.md).
 
-page checked: 2026-10-16 · next review 2026-11-15. Further evidence: [tokioconf.com](<https://tokioconf.com/>).
+Travel support is an enquiry route if expenses prevent speaking, not a guaranteed award. Spoken language, captions, remote participation, and room access were not established.
+
+page checked: 2026-10-16 · next review 2026-11-15. Further evidence: [tokioconf.com](<https://tokioconf.com/>), [tokio.rs](<https://tokio.rs/blog/2026-10-06-tokioconf-2027-cfp>).
 
 ### [RustWeek 2027 call for talks](<https://sessionize.com/rustweek-2027/>)
 
-call for proposals · mode unverified
+call for proposals · mode unverified · The call lists free event admission for speakers. Workshop and attendee purchase terms require separate confirmation.
 
 Submit a Rust talk proposal. Workshop proposals use a separate route.
 
 **Deadline:** 10 January 2027 at 23:59 CET. Timezone: Europe/Amsterdam.
 
 Event: [RustWeek 2027](<https://2027.rustweek.org/>). See [conference dates and limits](conferences.md).
+
+Workshop proposals use a separate organizer route. Spoken language, captions, remote participation, and room access were not established.
 
 page checked: 2026-10-16 · next review 2026-11-15. Further evidence: [2027.rustweek.org](<https://2027.rustweek.org/blog/2026-10-01-cfp-opened/>).
 
@@ -307,8 +311,8 @@ confirmed event. Access applications and rooms remain unknown unless sourced.
 | [Agent-Ready Rust workshop](<https://rust.bettercode.eu/veranstaltung-89714-se-0-agent-ready-rust-harness-engineering-fuer-ai-coding-agents.html>) | Online workshop page states December 2, 09:00-16:00; timezone not stated, so times are not normalized.  (page checked) | 2026-10-16 | 2026-11-15 |
 | [RustCon 2026](<https://rustcon.ru/>) | Talk-submission route present; programme navigation still says 2025. Current deadline and support terms unknown.  (page checked) | 2026-10-16 | 2026-11-15 |
 | [Rust Nation UK 2027](<https://www.rustnationuk.com/>) | Open call and conditional speaker support reviewed separately; submission form inaccessible.  (page checked) | 2026-10-16 | 2026-11-15 |
-| [TokioConf 2027](<https://tokioconf.com/>) | Call and speaker travel enquiry route verified; ticket sales described as coming soon.  (page checked) | 2026-10-16 | 2026-11-15 |
-| [RustWeek 2027](<https://2027.rustweek.org/>) | Call and public hackathon reviewed; All Hands and unconference invitation-only.  (page checked) | 2026-10-16 | 2026-11-15 |
+| [TokioConf 2027](<https://tokioconf.com/>) | Announced April 26–27 at The Armory, Portland. The call invites 25–30 minute talks with flexible length. Attendee ticket prices, remote access, and captions were not established.  (page checked) | 2026-10-16 | 2026-11-15 |
+| [RustWeek 2027](<https://2027.rustweek.org/>) | Announced May 24–29 in Utrecht; workshops May 24 and conference talks May 25–26. All-Hands and unconference access is restricted. The ticket page has stale dates in sponsor descriptions; confirm those terms separately.  (page checked) | 2026-10-16 | 2026-11-15 |
 | [RustConf 2027](<https://rustconf.com/>) | Online edition announced; 2027 access details unknown. Old page-title and 2026 navigation remain.  (page checked) | 2026-10-16 | 2026-11-15 |
 | [RustCon 2027](<https://speach.io/>) | Organizer listing only; no edition-specific application or access terms established.  (page checked) | 2026-10-16 | 2026-11-15 |
 | [EuroRust 2026](<https://eurorust.eu/>) | Barcelona and online edition; use the existing venue guide and official schedule for access and rooms.  (page checked) | 2026-10-16 | 2026-10-23 |

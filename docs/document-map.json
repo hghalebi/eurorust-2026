@@ -1606,5 +1606,37 @@
     "purpose": "Plan an event from evidence",
     "scope": "Independent conference resource guides; sourced examples and preparation, not attendance or event delivery",
     "replacement": null
+  },
+  {
+    "path": "resources/conferences/coverage.md",
+    "class": "reference",
+    "owner": "conference archive contributors",
+    "purpose": "Choose a bounded research task from recorded archive gaps",
+    "scope": "Ledger audit dated 2026-10-16",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/rustcamp/2015.md",
+    "class": "reference",
+    "owner": "conference archive contributors",
+    "purpose": "Browse the partial RustCamp 2015 archive and its source limits",
+    "scope": "Dated historical program metadata",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/rustconf/2016.md",
+    "class": "reference",
+    "owner": "conference archive contributors",
+    "purpose": "Browse the partial RustConf 2016 archive and its source limits",
+    "scope": "Dated historical program metadata",
+    "replacement": null
+  },
+  {
+    "path": "resources/conferences/rustconf/2017.md",
+    "class": "reference",
+    "owner": "conference archive contributors",
+    "purpose": "Browse the partial RustConf 2017 archive and its source limits",
+    "scope": "Dated historical program metadata",
+    "replacement": null
   }
 ]

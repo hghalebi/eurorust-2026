@@ -1,17 +1,17 @@
 {
   "format_version": "1.0.0",
-  "checked_on": "2026-10-15",
+  "checked_on": "2026-10-16",
   "review_status": "source_checked_draft",
   "eurorust_snapshot_id": "eurorust-2026-09ef1844f8dfdb34b2f8",
   "coverage": {
     "global_completeness": "not_claimed",
     "counts": {
-      "series": 21,
-      "editions": 59,
-      "appearances": 651,
-      "editions_with_appearances": 25,
-      "material_links": 226,
-      "speaker_profile_links": 589
+      "series": 22,
+      "editions": 62,
+      "appearances": 662,
+      "editions_with_appearances": 28,
+      "material_links": 230,
+      "speaker_profile_links": 603
     },
     "counting_rules": [
       "An appearance is a programme entry at one edition. A repeated presentation at another event remains separate.",
@@ -35,7 +35,7 @@
         "languages": [
           "en"
         ],
-        "result": "RustConf roster and TokioConf programme indexed; Rust Belt Rust blocked by TLS errors."
+        "result": "RustCamp 2015 and RustConf 2016/2017 have partial historical records. RustConf 2026 and TokioConf have selected programs indexed. Rust Belt Rust retains TLS access gaps."
       },
       {
         "region": "Asia",
@@ -84,7 +84,8 @@
       "Original materials keep their own rights; this collection links metadata and does not relicense them.",
       "Missing dates, authors and profiles remain null or explicit gaps.",
       "Current EuroRust data and immutable snapshots remain separate.",
-      "No archive refresh is scheduled."
+      "No archive refresh is scheduled.",
+      "The 2026-10-16 batch adds RustCamp 2015 and RustConf 2016/2017. Other record-level review dates remain unchanged; the file date does not renew every source check."
     ],
     "maintenance": {
       "future_programmes": "Recheck after programme announcements and near the event.",

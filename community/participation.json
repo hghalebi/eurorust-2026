@@ -1308,10 +1308,10 @@
         "timezone": "America/Los_Angeles",
         "source_text": "30 November 2026, 11:59 PM Pacific Standard Time (UTC-08:00)"
       },
-      "action": "Propose a practical async Rust story; the form describes flexible talk lengths.",
+      "action": "Propose a practical async Rust talk for any technical level. Typical talks are 25–30 minutes; explain a shorter or longer format in the submission.",
       "access": {
         "mode": "unknown",
-        "cost": null,
+        "cost": "The call lists free event admission for speakers. Attendee prices are not established by this offer.",
         "spoken_languages": null,
         "captions": null,
         "eligibility": null,
@@ -1325,9 +1325,12 @@
         "source_review": "page_checked",
         "evidence_urls": [
           "https://sessionize.com/tokioconf-2027/",
-          "https://tokioconf.com/"
+          "https://tokioconf.com/",
+          "https://tokio.rs/blog/2026-10-06-tokioconf-2027-cfp"
         ],
-        "limits": []
+        "limits": [
+          "Travel support is an enquiry route if expenses prevent speaking, not a guaranteed award. Spoken language, captions, remote participation, and room access were not established."
+        ]
       }
     },
     {
@@ -1347,7 +1350,7 @@
       "action": "Submit a Rust talk proposal. Workshop proposals use a separate route.",
       "access": {
         "mode": "unknown",
-        "cost": null,
+        "cost": "The call lists free event admission for speakers. Workshop and attendee purchase terms require separate confirmation.",
         "spoken_languages": null,
         "captions": null,
         "eligibility": null,
@@ -1363,7 +1366,9 @@
           "https://sessionize.com/rustweek-2027/",
           "https://2027.rustweek.org/blog/2026-10-01-cfp-opened/"
         ],
-        "limits": []
+        "limits": [
+          "Workshop proposals use a separate organizer route. Spoken language, captions, remote participation, and room access were not established."
+        ]
       }
     },
     {
@@ -2222,7 +2227,7 @@
     },
     {
       "event_id": "tokioconf-2027",
-      "note": "Call and speaker travel enquiry route verified; ticket sales described as coming soon.",
+      "note": "Announced April 26–27 at The Armory, Portland. The call invites 25–30 minute talks with flexible length. Attendee ticket prices, remote access, and captions were not established.",
       "review": {
         "checked_on": "2026-10-16",
         "next_review_on": "2026-11-15",
@@ -2235,7 +2240,7 @@
     },
     {
       "event_id": "rustweek-2027",
-      "note": "Call and public hackathon reviewed; All Hands and unconference invitation-only.",
+      "note": "Announced May 24–29 in Utrecht; workshops May 24 and conference talks May 25–26. All-Hands and unconference access is restricted. The ticket page has stale dates in sponsor descriptions; confirm those terms separately.",
       "review": {
         "checked_on": "2026-10-16",
         "next_review_on": "2026-11-15",
@@ -2531,5 +2536,5 @@
     "Oceania: Melbourne activity and Sydney archive checked; current New Zealand dates not verified.",
     "Africa and India: existing regional routes reused; individual city groups and new applications still need checks."
   ],
-  "calendar_updated_at": "2026-10-16T06:44:02+00:00"
+  "calendar_updated_at": "2026-10-16T08:07:29+00:00"
 }

@@ -2,7 +2,7 @@
 
 [Browse conferences](README.md) · [Machine-readable editions](../../community/conference-archive/editions.json)
 
-Checked 2026-10-15. Dates describe published editions or announcements, not independently observed attendance. Missing dates stay unknown.
+Updated 2026-10-16. New early editions were checked on that date; older records retain their own review dates. Dates describe published editions or announcements, not independently observed attendance. Missing dates stay unknown.
 
 ## EuroRust
 
@@ -20,6 +20,8 @@ Checked 2026-10-15. Dates describe published editions or announcements, not inde
 
 | Edition | Published dates | Coverage | Open the source |
 | --- | --- | --- | --- |
+| [RustConf 2016](rustconf/2016.md) | 2016-09-09 → 2016-09-10 | Partial · 1 entries | [Program / surviving source](https://blog.rust-lang.org/2016/07/25/conf-lineup/) |
+| [RustConf 2017](rustconf/2017.md) | 2017-08-18 → 2017-08-19 | Partial · 9 entries | [Program / surviving source](https://2017.rustconf.com/schedule.html) |
 | RustConf 2019 | 2019-08-22 → 2019-08-23 | Source links | [Programme / edition](https://2019.rustconf.com/schedule/) |
 | RustConf 2024 | 2024-09-10 → 2024-09-13 | Source links | [Programme / edition](https://2024.rustconf.com/schedule/) |
 | [RustConf 2026](rustconf/2026.md) | 2026-09-08 → 2026-09-11 | Partial · 50 entries | [Programme / edition](https://rustconf2026.sched.com/) |
@@ -27,6 +29,14 @@ Checked 2026-10-15. Dates describe published editions or announcements, not inde
 **RustConf 2019:** Schedule and media are not yet indexed.
 
 **RustConf 2024:** Schedule and media are not yet indexed.
+
+## RustCamp
+
+| Edition | Published dates | Coverage | Open the source |
+| --- | --- | --- | --- |
+| [RustCamp 2015](rustcamp/2015.md) | 2015-08-01 → 2015-08-01 | Partial · 1 entries | [Program / surviving source](https://blog.rust-lang.org/2015/08/14/Next-year/) |
+
+The surviving source is an official retrospective; the full program has not been recovered.
 
 ## RustWeek / RustNL
 

@@ -1,6 +1,6 @@
 {
   "format_version": "1.0.0",
-  "checked_on": "2026-10-15",
+  "checked_on": "2026-10-16",
   "review_status": "source_checked_draft",
   "eurorust_snapshot_id": "eurorust-2026-09ef1844f8dfdb34b2f8",
   "appearances": [
@@ -16490,6 +16490,319 @@
       "checked_on": "2026-10-15",
       "source_urls": [
         "https://2024.rustnl.org/schedule"
+      ]
+    },
+    {
+      "id": "rustcamp-2015-navigating-the-open-seas",
+      "edition_id": "rustcamp-2015",
+      "title": "Navigating the Open Seas",
+      "kind": "talk",
+      "speakers": [
+        "Carol Nichols"
+      ],
+      "date": "2015-08-01",
+      "source_url": "https://carol-nichols.com/2015/08/01/rustcamp-talk-notes/",
+      "materials": [
+        {
+          "kind": "reading",
+          "url": "https://carol-nichols.com/2015/08/01/rustcamp-talk-notes/",
+          "title": "Rustcamp Talk Notes: Navigating the Open Seas",
+          "evidence_url": "https://carol-nichols.com/2015/08/01/rustcamp-talk-notes/",
+          "availability": "linked_by_source"
+        }
+      ],
+      "notes": "The speaker’s dated post explicitly reports giving this talk at RustCamp that day. The linked text contains her talk notes and historical research links; it is not a transcript. Older linked destinations and current compatibility of any examples were not all checked.",
+      "speaker_links": [
+        {
+          "name": "Carol Nichols",
+          "url": "https://carol-nichols.com/2015/08/01/rustcamp-talk-notes/"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "source_urls": [
+        "https://blog.rust-lang.org/2015/06/25/Rust-1.1/",
+        "https://blog.rust-lang.org/2015/08/14/Next-year/",
+        "https://carol-nichols.com/2015/08/01/rustcamp-talk-notes/"
+      ]
+    },
+    {
+      "id": "rustconf-2016-back-to-the-futures",
+      "edition_id": "rustconf-2016",
+      "title": "Back to the Futures",
+      "kind": "talk",
+      "speakers": [
+        "Alex Crichton"
+      ],
+      "date": "2016-09-10",
+      "source_url": "https://www.youtube.com/watch?v=bcrzfivXpc4",
+      "materials": [
+        {
+          "kind": "video",
+          "url": "https://www.youtube.com/watch?v=bcrzfivXpc4",
+          "title": "Back to the Futures — RustConf 2016 recording",
+          "evidence_url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DbcrzfivXpc4&format=json",
+          "availability": "linked_by_source"
+        }
+      ],
+      "notes": "Publisher title and Confreaks identity were independently matched with YouTube oEmbed metadata; playback and captions were not checked. The program day is assigned from the official lineup’s September 10 main-conference date, not a verified recording timestamp. The publisher listing gives publication 2016-10-04. The original live program remains inaccessible because of TLS hostname validation failure.",
+      "speaker_links": [
+        {
+          "name": "Alex Crichton",
+          "url": "https://www.youtube.com/watch?v=bcrzfivXpc4"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "source_urls": [
+        "https://blog.rust-lang.org/2016/07/25/conf-lineup/",
+        "https://blog.rust-lang.org/2017/05/15/rust-at-two-years/",
+        "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DbcrzfivXpc4&format=json"
+      ]
+    },
+    {
+      "id": "rustconf-2017-a-tale-of-teaching-rust",
+      "edition_id": "rustconf-2017",
+      "title": "A Tale of Teaching Rust",
+      "kind": "talk",
+      "speakers": [
+        "Andrew Brinker"
+      ],
+      "date": "2017-08-19",
+      "source_url": "https://2017.rustconf.com/program.html#teaching",
+      "materials": [],
+      "notes": "Official conference-day schedule and program checked. Delivery and individual materials have not been verified.",
+      "speaker_links": [
+        {
+          "name": "Andrew Brinker",
+          "url": "https://2017.rustconf.com/program.html#teaching"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "source_urls": [
+        "https://2017.rustconf.com/schedule.html",
+        "https://2017.rustconf.com/program.html"
+      ]
+    },
+    {
+      "id": "rustconf-2017-building-rocket",
+      "edition_id": "rustconf-2017",
+      "title": "Building Rocket",
+      "kind": "talk",
+      "speakers": [
+        "Sergio Benitez"
+      ],
+      "date": "2017-08-19",
+      "source_url": "https://2017.rustconf.com/program.html#rocket",
+      "materials": [],
+      "notes": "Official conference-day schedule and program checked. Delivery and individual materials have not been verified.",
+      "speaker_links": [
+        {
+          "name": "Sergio Benitez",
+          "url": "https://2017.rustconf.com/program.html#rocket"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "source_urls": [
+        "https://2017.rustconf.com/schedule.html",
+        "https://2017.rustconf.com/program.html"
+      ]
+    },
+    {
+      "id": "rustconf-2017-fast-safe-pure-rust-elliptic-curve-cryptography",
+      "edition_id": "rustconf-2017",
+      "title": "Fast, Safe, Pure-Rust Elliptic Curve Cryptography",
+      "kind": "talk",
+      "speakers": [
+        "Isis Lovecruft",
+        "Henry De Valence"
+      ],
+      "date": "2017-08-19",
+      "source_url": "https://2017.rustconf.com/program.html#dalek",
+      "materials": [],
+      "notes": "Official conference-day schedule and program checked. Delivery and individual materials have not been verified.",
+      "speaker_links": [
+        {
+          "name": "Isis Lovecruft",
+          "url": "https://2017.rustconf.com/program.html#dalek"
+        },
+        {
+          "name": "Henry De Valence",
+          "url": "https://2017.rustconf.com/program.html#dalek"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "source_urls": [
+        "https://2017.rustconf.com/schedule.html",
+        "https://2017.rustconf.com/program.html"
+      ]
+    },
+    {
+      "id": "rustconf-2017-improving-rust-performance-through-profiling-and-benchmarking",
+      "edition_id": "rustconf-2017",
+      "title": "Improving Rust Performance Through Profiling and Benchmarking",
+      "kind": "talk",
+      "speakers": [
+        "Steve Jenson"
+      ],
+      "date": "2017-08-19",
+      "source_url": "https://2017.rustconf.com/program.html#perf",
+      "materials": [],
+      "notes": "Official conference-day schedule and program checked. Delivery and individual materials have not been verified.",
+      "speaker_links": [
+        {
+          "name": "Steve Jenson",
+          "url": "https://2017.rustconf.com/program.html#perf"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "source_urls": [
+        "https://2017.rustconf.com/schedule.html",
+        "https://2017.rustconf.com/program.html"
+      ]
+    },
+    {
+      "id": "rustconf-2017-menhir-and-friends",
+      "edition_id": "rustconf-2017",
+      "title": "Menhir and Friends: the State of the Art of Parsing in Rust",
+      "kind": "talk",
+      "speakers": [
+        "Naomi Testard"
+      ],
+      "date": "2017-08-19",
+      "source_url": "https://2017.rustconf.com/program.html#menhir",
+      "materials": [],
+      "notes": "Official conference-day schedule and program checked. Delivery and individual materials have not been verified.",
+      "speaker_links": [
+        {
+          "name": "Naomi Testard",
+          "url": "https://2017.rustconf.com/program.html#menhir"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "source_urls": [
+        "https://2017.rustconf.com/schedule.html",
+        "https://2017.rustconf.com/program.html"
+      ]
+    },
+    {
+      "id": "rustconf-2017-opening-keynote",
+      "edition_id": "rustconf-2017",
+      "title": "Opening Keynote",
+      "kind": "talk",
+      "speakers": [
+        "Aaron Turon",
+        "Carol Nichols",
+        "Niko Matsakis"
+      ],
+      "date": "2017-08-19",
+      "source_url": "https://2017.rustconf.com/program.html#keynote",
+      "materials": [],
+      "notes": "Official conference-day schedule and program checked. Delivery and individual materials have not been verified.",
+      "speaker_links": [
+        {
+          "name": "Aaron Turon",
+          "url": "https://2017.rustconf.com/program.html#keynote"
+        },
+        {
+          "name": "Carol Nichols",
+          "url": "https://2017.rustconf.com/program.html#keynote"
+        },
+        {
+          "name": "Niko Matsakis",
+          "url": "https://2017.rustconf.com/program.html#keynote"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "source_urls": [
+        "https://2017.rustconf.com/schedule.html",
+        "https://2017.rustconf.com/program.html"
+      ]
+    },
+    {
+      "id": "rustconf-2017-safe-systems-software-and-the-future-of-computing",
+      "edition_id": "rustconf-2017",
+      "title": "Closing Keynote: Safe Systems Software and the Future of Computing",
+      "kind": "talk",
+      "speakers": [
+        "Joe Duffy"
+      ],
+      "date": "2017-08-19",
+      "source_url": "https://2017.rustconf.com/program.html#closingkeynote",
+      "materials": [],
+      "notes": "Official conference-day schedule and program checked. Delivery and individual materials have not been verified.",
+      "speaker_links": [
+        {
+          "name": "Joe Duffy",
+          "url": "https://2017.rustconf.com/program.html#closingkeynote"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "source_urls": [
+        "https://2017.rustconf.com/schedule.html",
+        "https://2017.rustconf.com/program.html"
+      ]
+    },
+    {
+      "id": "rustconf-2017-shipping-a-solid-rust-crate",
+      "edition_id": "rustconf-2017",
+      "title": "Shipping a Solid Rust Crate",
+      "kind": "talk",
+      "speakers": [
+        "Michael Gattozzi"
+      ],
+      "date": "2017-08-19",
+      "source_url": "https://2017.rustconf.com/program.html#crate",
+      "materials": [
+        {
+          "kind": "video",
+          "url": "https://www.youtube.com/watch?v=t4CyEKb-ywA",
+          "title": "Shipping a Solid Rust Crate — RustConf 2017 recording",
+          "evidence_url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dt4CyEKb-ywA&format=json",
+          "availability": "linked_by_source"
+        }
+      ],
+      "notes": "Matched to the Rust Programming Language publisher by YouTube oEmbed title and author. Publisher listing says publication 2017-09-01; conference date is separate. Metadata only: playback, captions, full content, and current compatibility of examples were not checked.",
+      "speaker_links": [
+        {
+          "name": "Michael Gattozzi",
+          "url": "https://2017.rustconf.com/program.html#crate"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "source_urls": [
+        "https://2017.rustconf.com/schedule.html",
+        "https://2017.rustconf.com/program.html"
+      ]
+    },
+    {
+      "id": "rustconf-2017-type-system-tips-for-the-real-world",
+      "edition_id": "rustconf-2017",
+      "title": "Type System Tips for the Real World",
+      "kind": "talk",
+      "speakers": [
+        "Sean Griffin"
+      ],
+      "date": "2017-08-19",
+      "source_url": "https://2017.rustconf.com/program.html#types",
+      "materials": [
+        {
+          "kind": "video",
+          "url": "https://www.youtube.com/watch?v=wxPehGkoNOw",
+          "title": "Type System Tips for the Real World — RustConf 2017 recording",
+          "evidence_url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwxPehGkoNOw&format=json",
+          "availability": "linked_by_source"
+        }
+      ],
+      "notes": "Matched to the Rust Programming Language publisher by YouTube oEmbed title and author. Publisher listing says publication 2017-09-01; conference date is separate. Metadata only: playback, captions, full content, and current compatibility of examples were not checked.",
+      "speaker_links": [
+        {
+          "name": "Sean Griffin",
+          "url": "https://2017.rustconf.com/program.html#types"
+        }
+      ],
+      "checked_on": "2026-10-16",
+      "source_urls": [
+        "https://2017.rustconf.com/schedule.html",
+        "https://2017.rustconf.com/program.html"
       ]
     }
   ]

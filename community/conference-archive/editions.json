@@ -1,6 +1,6 @@
 {
   "format_version": "1.0.0",
-  "checked_on": "2026-10-15",
+  "checked_on": "2026-10-16",
   "review_status": "source_checked_draft",
   "eurorust_snapshot_id": "eurorust-2026-09ef1844f8dfdb34b2f8",
   "editions": [
@@ -1722,6 +1722,115 @@
       },
       "checked_on": "2026-10-15",
       "notes": []
+    },
+    {
+      "id": "rustcamp-2015",
+      "series_id": "rustcamp",
+      "name": "RustCamp 2015",
+      "year": 2015,
+      "starts_on": "2015-08-01",
+      "ends_on": "2015-08-01",
+      "status": "past_programme",
+      "programme_url": "https://blog.rust-lang.org/2015/08/14/Next-year/",
+      "speakers_url": null,
+      "recordings_url": null,
+      "source_urls": [
+        "https://blog.rust-lang.org/2015/06/25/Rust-1.1/",
+        "https://blog.rust-lang.org/2015/08/14/Next-year/",
+        "https://carol-nichols.com/2015/08/01/rustcamp-talk-notes/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "partial",
+        "programme_session_count": null,
+        "indexed_session_count": 1,
+        "gaps": [
+          "Only Carol Nichols’s Navigating the Open Seas appearance is indexed from her dated post. The whole-program count and other individual appearances are not reconstructed.",
+          "The historical schedule returned HTTP 200 without readable program text. The historical Confreaks event URL redirected to unrelated content. Their responses are preserved only as failed-content evidence in the source ledger.",
+          "No video, slides, captions, transcript, exact Rust/crate version, or current example compatibility is verified for this appearance."
+        ]
+      },
+      "checked_on": "2026-10-16",
+      "notes": [
+        "The 2015-06-25 Rust Blog announcement establishes the date and Berkeley location. The 2015-08-14 retrospective confirms the event was held.",
+        "The programme_url is a surviving official retrospective used as a source landing page; it is not the recovered full program.",
+        "The speaker’s post dated 2015-08-01 explicitly reports giving the named talk that day. It supplies talk notes, not a transcript."
+      ],
+      "page": "resources/conferences/rustcamp/2015.md"
+    },
+    {
+      "id": "rustconf-2016",
+      "series_id": "rustconf",
+      "name": "RustConf 2016",
+      "year": 2016,
+      "starts_on": "2016-09-09",
+      "ends_on": "2016-09-10",
+      "status": "past_programme",
+      "programme_url": "https://blog.rust-lang.org/2016/07/25/conf-lineup/",
+      "speakers_url": null,
+      "recordings_url": null,
+      "source_urls": [
+        "https://blog.rust-lang.org/2016/07/25/conf-lineup/",
+        "https://blog.rust-lang.org/2017/05/15/rust-at-two-years/"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "partial",
+        "programme_session_count": null,
+        "indexed_session_count": 1,
+        "gaps": [
+          "Only Alex Crichton’s Back to the Futures appearance is indexed. The whole-program count, other talks, and September 9 tutorials are not reconstructed.",
+          "The original 2016 schedule and program hosts fail TLS hostname validation. Search-indexed program text is a qualified lead; no live program fetch is asserted.",
+          "The direct recording is matched by publisher metadata only. Playback, captions, slides, code, transcript, exact Rust/crate version, and current example compatibility were not checked."
+        ]
+      },
+      "checked_on": "2026-10-16",
+      "notes": [
+        "The official July 2016 lineup identifies September 9 tutorials and September 10 conference talks in Portland. The May 2017 official retrospective confirms the event was held on those dates.",
+        "The programme_url is the surviving official lineup article, not a recovered full program.",
+        "The Back to the Futures recording publisher identifies RustConf 2016 and Alex Crichton. Its listed publication date, 2016-10-04, is separate from the program date."
+      ],
+      "page": "resources/conferences/rustconf/2016.md"
+    },
+    {
+      "id": "rustconf-2017",
+      "series_id": "rustconf",
+      "name": "RustConf 2017",
+      "year": 2017,
+      "starts_on": "2017-08-18",
+      "ends_on": "2017-08-19",
+      "status": "past_programme",
+      "programme_url": "https://2017.rustconf.com/schedule.html",
+      "speakers_url": "https://2017.rustconf.com/program.html",
+      "recordings_url": null,
+      "source_urls": [
+        "https://2017.rustconf.com/",
+        "https://2017.rustconf.com/schedule.html",
+        "https://2017.rustconf.com/program.html"
+      ],
+      "language": [
+        "en"
+      ],
+      "coverage": {
+        "status": "partial",
+        "programme_session_count": null,
+        "indexed_session_count": 9,
+        "gaps": [
+          "The nine August 19 conference talks are reconciled with the official schedule. August 18 training and RustBridge are not indexed.",
+          "Two individual recording links are matched by publisher metadata. Playback and captions were not checked; recordings for the other seven talks were not researched in this pilot.",
+          "Slides, demo code, transcripts, exact Rust/crate versions, and retesting of historical examples are not established."
+        ]
+      },
+      "checked_on": "2026-10-16",
+      "notes": [
+        "The home page explicitly dates the conference to August 19, 2017 and the training day to August 18. Its sponsor footer mentions 2018; the edition date follows the explicit event description.",
+        "A scheduled appearance is not by itself proof of delivery. Recording metadata provides publication evidence only for the two matched entries."
+      ],
+      "page": "resources/conferences/rustconf/2017.md"
     }
   ]
 }

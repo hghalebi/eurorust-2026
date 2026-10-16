@@ -4,16 +4,17 @@ Follow an idea across conferences, years and speakers. Start with a programme be
 
 Planning another event? Use the [announced dates and events to watch](../stay-current/conferences.md).
 
-Checked **2026-10-15**: **21 series and tracks**, **59 editions**, **651 indexed programme entries**. Coverage is uneven and shown explicitly.
+Updated **2026-10-16**: **22 series and tracks**, **62 editions**, **662 indexed program entries**. Individual source-check dates remain in the records. Coverage is uneven and shown explicitly.
 
-[All editions and coverage](editions.md) · [EuroRust 2026 reading guides](../related-talks/README.md) · [Speaker profiles and works](../speakers/README.md) · [Data for agents](../../community/conference-archive/README.md)
+[Follow conference history](history.md) · [Research gaps](coverage.md) · [All editions and coverage](editions.md) · [EuroRust 2026 reading guides](../related-talks/README.md) · [Speaker profiles and works](../speakers/README.md) · [Data for agents](../../community/conference-archive/README.md)
 
 ## Choose a conference
 
 | Conference or track | Region | Indexed programmes | Further source links |
 | --- | --- | --- | --- |
 | [EuroRust](https://eurorust.eu/) | Europe | [2022](eurorust/2022.md) · [2023](eurorust/2023.md) · [2024](eurorust/2024.md) · [2025](eurorust/2025.md) | [5 editions](editions.md#eurorust) |
-| [RustConf](https://rustconf.com/) | North America | [2026](rustconf/2026.md) | [3 editions](editions.md#rustconf) |
+| [RustConf](https://rustconf.com/) | North America | [2016](rustconf/2016.md) · [2017](rustconf/2017.md) · [2026](rustconf/2026.md) | [5 editions](editions.md#rustconf) |
+| [RustCamp](https://blog.rust-lang.org/2015/08/14/Next-year/) | North America | [2015, partial](rustcamp/2015.md) | [1 edition](editions.md#rustcamp) |
 | [RustWeek / RustNL](https://rustnl.org/events/) | Europe | [2023](rustweek/rustnl-2023.md) · [2024](rustweek/rustnl-2024.md) · [2025](rustweek/2025.md) · [2026](rustweek/2026.md) | [5 editions](editions.md#rustweek--rustnl) |
 | [Rust Nation UK](https://www.rustnationuk.com/) | Europe | Not yet indexed | [5 editions](editions.md#rust-nation-uk) |
 | [Oxidize](https://oxidizeconf.com/) | Europe | [2026](oxidize/2026.md) | [2 editions](editions.md#oxidize) |
