@@ -4,6 +4,10 @@ Pick the problem closest to your work. Read one source, connect it to a session,
 and write a question. These are my suggestions for exploring production agents
 through Rust; they are not speaker-endorsed paths or attendance records.
 
+For more depth, the [source library](library.md) includes research on Rust types,
+async cancellation, infrastructure controllers, and systems documentation.
+Follow the source notes for dates, access, and review limits.
+
 ## Types: which transitions should be impossible?
 
 Start with Hoverbear's [Pretty State Machine Patterns in Rust](https://hoverbear.org/blog/rust-state-machine-pattern/).

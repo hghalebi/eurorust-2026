@@ -5,6 +5,8 @@ Choose a [EuroRust session](../resources/related-talks/README.md), follow a
 [conference archive](../resources/conferences/README.md).
 Each recommendation explains what to learn and links its evidence.
 For a suggested starting order, use [four engineering questions](../resources/learning-paths.md).
+For courses, research, engineering accounts, and event guidance, browse the
+[learning and event library](../resources/library.md). Each entry links its source note.
 
 ## Choose one useful source
 
@@ -30,6 +32,7 @@ separate. Older Rust examples may need changes for current tools.
 | [Resources JSON](../exports/archive/session-resources.json) | Join `sessions[].session_id` to the EuroRust catalog |
 | [Resources JSONL](../exports/archive/session-resources.jsonl) | Process one session's recommendations per line |
 | [Learning manifest](../exports/archive/manifest.json) | Check the catalog snapshot and generated-file hashes |
+| [Reader pack](../exports/guides/reader-pack.json) | Add governance, community, and event guidance; keep its [separate manifest](../exports/guides/manifest.json) and [source labels](event-resources.md#read-the-source-labels) |
 | [Conference registry](../community/conference-archive/series.json) | Discover event series |
 | [Edition inventory](../community/conference-archive/editions.json) | Read programme links, dates, coverage, and gaps |
 | [Archived appearances](../community/conference-archive/appearances.json) | Find indexed talks and their source/material links |
@@ -93,6 +96,9 @@ catalog identity, and generated content. They do not refresh web sources.
 `build-learning` checks all inputs before writing. If a filesystem error
 interrupts output, fix it and rerun; `check-learning` detects stale views.
 Add new Markdown pages to the [document inventory](document-map.json).
+Keep the [library index](../resources/library.md) linked to the owning source note.
+Broader governance, community, and event sources belong in the
+[shared reader collection](event-resources.md#maintain-a-resource).
 
 After a metadata-only catalog refresh, run `rebind-learning` before rendering.
 It accepts changed retrieval dates or scheduling only when session IDs, titles,

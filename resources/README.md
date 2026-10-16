@@ -9,6 +9,7 @@ types, workers, infrastructure, and robotics to a first source and a question.
 | --- | --- |
 | [Your EuroRust session](related-talks/README.md) | Related talks, books, articles, papers, videos, and projects, with a reason for each choice |
 | [A Rust topic](topics/README.md) | Session reading lists grouped by types, infrastructure, robotics, and other interests |
+| [The learning and event library](library.md) | Original courses, papers, engineering accounts, governance records, and organizer guidance |
 | [Conference archives](conferences/README.md) | Programmes, speakers, recordings, and known gaps across events and years |
 | [Keep learning after EuroRust](stay-current/README.md) | Announced conferences, podcasts, newsletters, blogs, and feeds, with source dates |
 | [Find a community](../community/README.md) | Groups, first contributions, activities, and calls connected to your learning goals |

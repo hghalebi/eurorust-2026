@@ -1,8 +1,8 @@
 {
   "session_id": "workshops-hands-on-embedded-rust",
-  "checked_on": "2026-10-15",
+  "checked_on": "2026-10-17",
   "review_status": "source_checked_draft",
-  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
   "resources": [
     {
       "id": "embedded-rust-book",
@@ -66,6 +66,27 @@
       "temporal_status": "published",
       "event": null,
       "caveat": "Repository description checked; exercises and hardware compatibility were not tested."
+    },
+    {
+      "id": "embassy-documentation",
+      "title": "Embassy documentation",
+      "kind": "documentation",
+      "url": "https://docs.embassy.dev/",
+      "authors": [
+        "Embassy contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "same_topic",
+      "why": "Find the executor and hardware documentation for the Embassy exercises; match the version and target to the workshop setup.",
+      "evidence_urls": [
+        "https://docs.embassy.dev/"
+      ],
+      "checked_on": "2026-10-17",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Root currently redirects to a version/target page; retain actual version when linking an API. Documentation index reviewed; examples were not executed."
     }
   ]
 }

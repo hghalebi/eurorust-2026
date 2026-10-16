@@ -1,8 +1,8 @@
 {
   "session_id": "talks-tales-from-the-embedded-rust-frontier-bootstrapping-a-brand-new-ecosystem",
-  "checked_on": "2026-10-15",
+  "checked_on": "2026-10-17",
   "review_status": "source_checked_draft",
-  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
   "resources": [
     {
       "id": "rust-cortex-r52",
@@ -88,6 +88,27 @@
       "temporal_status": "published",
       "event": null,
       "caveat": "Introductory examples focus on microcontrollers rather than covering every Cortex-A or Cortex-R target."
+    },
+    {
+      "id": "oxide-engineering-determination",
+      "title": "Engineering Determination",
+      "kind": "article",
+      "url": "https://rfd.shared.oxide.computer/rfd/0113",
+      "authors": [
+        "Oxide"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Compare one company’s embedded-system choices and rejected approaches with the work of building a new Rust platform.",
+      "evidence_urls": [
+        "https://rfd.shared.oxide.computer/rfd/0113"
+      ],
+      "checked_on": "2026-10-17",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Organizational perspective, including its own judgments. Article sections reviewed; code and reported measurements were not reproduced."
     }
   ]
 }

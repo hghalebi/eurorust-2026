@@ -2,7 +2,7 @@
 
 [Official EuroRust session](https://eurorust.eu/talks/tales-from-the-embedded-rust-frontier-bootstrapping-a-brand-new-ecosystem/) · [All session resources](README.md)
 
-Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.
+Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 Speakers and their work: [Jonathan Pallant](../speakers/jonathan-pallant.md).
 
@@ -66,6 +66,16 @@ Introductory examples focus on microcontrollers rather than covering every Corte
 
 Listing checked: 2026-10-15. Evidence: [docs.rust-embedded.org](https://docs.rust-embedded.org/book/).
 
-Source review: **2026-10-15**. Draft checked against source; community review pending. Connections are editorial suggestions.
+### [Engineering Determination](https://rfd.shared.oxide.computer/rfd/0113)
+
+Article · Oxide · open access
+
+**Suggested next step.** Compare one company’s embedded-system choices and rejected approaches with the work of building a new Rust platform.
+
+Organizational perspective, including its own judgments. Article sections reviewed; code and reported measurements were not reproduced.
+
+Source page checked: 2026-10-17. Evidence: [rfd.shared.oxide.computer](https://rfd.shared.oxide.computer/rfd/0113).
+
+Source review: **2026-10-17**. Draft checked against source; community review pending. Connections are editorial suggestions.
 
 [Sources and reuse](../../docs/source-and-reuse-policy.md) · [Suggest a correction](../../CONTRIBUTING.md#learning-resources-and-archives) · [Structured source](../../community/session-resources/talks-tales-from-the-embedded-rust-frontier-bootstrapping-a-brand-new-ecosystem.json)

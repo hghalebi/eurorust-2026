@@ -227,7 +227,7 @@
     "path": "resources/README.md",
     "class": "reference",
     "owner": "repository maintainers",
-    "purpose": "Find an official reference for a concrete preparation or implementation question",
+    "purpose": "Browse original sources, session reading lists, topic indexes, and event guidance",
     "scope": "EuroRust 2026 public repository",
     "replacement": null
   },
@@ -700,7 +700,7 @@
     "class": "generated",
     "owner": "conference-data generator",
     "purpose": "EuroRust learning resources",
-    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; individual source dates apply",
     "replacement": null
   },
   {
@@ -932,7 +932,7 @@
     "class": "generated",
     "owner": "conference-data generator",
     "purpose": "Find resources for your session",
-    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; individual source dates apply",
     "replacement": null
   },
   {
@@ -964,7 +964,7 @@
     "class": "generated",
     "owner": "conference-data generator",
     "purpose": "Blastbeat: When a Decade of C++ Meets Rust and io\\_uring",
-    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; individual source dates apply",
     "replacement": null
   },
   {
@@ -996,7 +996,7 @@
     "class": "generated",
     "owner": "conference-data generator",
     "purpose": "Compiling the Linux kernel with gccrs",
-    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; individual source dates apply",
     "replacement": null
   },
   {
@@ -1004,7 +1004,7 @@
     "class": "generated",
     "owner": "conference-data generator",
     "purpose": "Designing State Machines for Streaming Proxies in Rust",
-    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; individual source dates apply",
     "replacement": null
   },
   {
@@ -1020,7 +1020,7 @@
     "class": "generated",
     "owner": "conference-data generator",
     "purpose": "From Deref Into Borrow, a Primer on Standard Library Traits",
-    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; individual source dates apply",
     "replacement": null
   },
   {
@@ -1060,7 +1060,7 @@
     "class": "generated",
     "owner": "conference-data generator",
     "purpose": "Lessons from building a background task processing library",
-    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; individual source dates apply",
     "replacement": null
   },
   {
@@ -1076,7 +1076,7 @@
     "class": "generated",
     "owner": "conference-data generator",
     "purpose": "Moving a quantum compiler from Python to Rust",
-    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; individual source dates apply",
     "replacement": null
   },
   {
@@ -1084,7 +1084,7 @@
     "class": "generated",
     "owner": "conference-data generator",
     "purpose": "Optimizing rustc's Next Trait Solver",
-    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; individual source dates apply",
     "replacement": null
   },
   {
@@ -1132,7 +1132,7 @@
     "class": "generated",
     "owner": "conference-data generator",
     "purpose": "Supply Chain Attacks, and how to protect ourselves",
-    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; individual source dates apply",
     "replacement": null
   },
   {
@@ -1140,7 +1140,7 @@
     "class": "generated",
     "owner": "conference-data generator",
     "purpose": "Tales from the Embedded Rust Frontier: Bootstrapping a brand new ecosystem",
-    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; individual source dates apply",
     "replacement": null
   },
   {
@@ -1148,7 +1148,7 @@
     "class": "generated",
     "owner": "conference-data generator",
     "purpose": "The Future of Unmanned Systems Is Built on Rust",
-    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; individual source dates apply",
     "replacement": null
   },
   {
@@ -1172,7 +1172,7 @@
     "class": "generated",
     "owner": "conference-data generator",
     "purpose": "What's next for Rust's type system",
-    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; individual source dates apply",
     "replacement": null
   },
   {
@@ -1180,7 +1180,7 @@
     "class": "generated",
     "owner": "conference-data generator",
     "purpose": "Your Infrastructure Should Compile, Too",
-    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; individual source dates apply",
     "replacement": null
   },
   {
@@ -1196,7 +1196,7 @@
     "class": "generated",
     "owner": "conference-data generator",
     "purpose": "Building a virtual machine monitor in Rust",
-    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; individual source dates apply",
     "replacement": null
   },
   {
@@ -1204,7 +1204,7 @@
     "class": "generated",
     "owner": "conference-data generator",
     "purpose": "C→Rust, Beyond the Basics",
-    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; individual source dates apply",
     "replacement": null
   },
   {
@@ -1220,7 +1220,7 @@
     "class": "generated",
     "owner": "conference-data generator",
     "purpose": "Hands-On Embedded Rust",
-    "scope": "Curated Rust conference archives and EuroRust session learning resources; checked on 2026-10-15",
+    "scope": "Curated Rust conference archives and EuroRust session learning resources; individual source dates apply",
     "replacement": null
   },
   {
@@ -1693,6 +1693,14 @@
     "owner": "repository maintainers",
     "purpose": "Compare published EuroRust times, stages, and venues by day",
     "scope": "EuroRust case study and sourced wider conference guidance",
+    "replacement": null
+  },
+  {
+    "path": "resources/library.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Browse original technical, teaching, governance, and event resources with links to their detailed source records",
+    "scope": "Curated reading and event references; selection assembled on 2026-10-17",
     "replacement": null
   }
 ]

@@ -64,6 +64,10 @@ or research institution. Do not force a book or paper into an unrelated topic.
 
 For direct edits, update `community/session-resources/<session-id>.json` and
 regenerate the views using the [learning guide](docs/learning-resources.md).
+For governance, community, and event guidance, use the
+[shared reader collection](docs/event-resources.md#maintain-a-resource).
+Add a short entry to the [library index](resources/library.md) when it helps
+readers discover the source. Link to its existing record instead of duplicating it.
 Keep evidence, access limits, review dates, and the distinction between event
 dates and publication dates. Mark future appearances as announced; a shared
 title alone does not prove identical content.

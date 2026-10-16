@@ -2,7 +2,7 @@
 
 [Official EuroRust session](https://eurorust.eu/talks/designing-state-machines-for-streaming-proxies-in-rust/) · [All session resources](README.md)
 
-Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.
+Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 Speakers and their work: [Sanskar Jaiswal](../speakers/sanskar-jaiswal.md).
 
@@ -58,6 +58,16 @@ Documentation · Tokio contributors · open access
 
 Source page checked: 2026-10-15. Evidence: [tokio.rs](https://tokio.rs/tokio/tutorial/select).
 
-Source review: **2026-10-15**. Draft checked against source; community review pending. Connections are editorial suggestions.
+### [Resolving a request smuggling vulnerability in Pingora](https://blog.cloudflare.com/resolving-a-request-smuggling-vulnerability-in-pingora/)
+
+Article · Cloudflare · open access
+
+**Suggested next step.** Study a proxy protocol failure alongside the Pingora design account; memory safety alone does not establish protocol correctness.
+
+Historical 2025 report; old fixed versions are not current upgrade advice. Article sections reviewed; code and reported measurements were not reproduced.
+
+Source page checked: 2026-10-17. Evidence: [blog.cloudflare.com](https://blog.cloudflare.com/resolving-a-request-smuggling-vulnerability-in-pingora/).
+
+Source review: **2026-10-17**. Draft checked against source; community review pending. Connections are editorial suggestions.
 
 [Sources and reuse](../../docs/source-and-reuse-policy.md) · [Suggest a correction](../../CONTRIBUTING.md#learning-resources-and-archives) · [Structured source](../../community/session-resources/talks-designing-state-machines-for-streaming-proxies-in-rust.json)

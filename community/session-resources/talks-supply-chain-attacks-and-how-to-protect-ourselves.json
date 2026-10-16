@@ -1,8 +1,8 @@
 {
   "session_id": "talks-supply-chain-attacks-and-how-to-protect-ourselves",
-  "checked_on": "2026-10-15",
+  "checked_on": "2026-10-17",
   "review_status": "source_checked_draft",
-  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
   "resources": [
     {
       "id": "rustsec-advisory-database",
@@ -93,6 +93,48 @@
       "temporal_status": "published",
       "event": null,
       "caveat": "Research preprint; metadata and abstract checked, with no independent validation of its evaluation."
+    },
+    {
+      "id": "ostif-audit-catalog",
+      "title": "OSTIF audit catalog",
+      "kind": "documentation",
+      "url": "https://ostif.org/audits/",
+      "authors": [
+        "Open Source Technology Improvement Fund"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Find original audit reports and compare their dates and scope with the dependencies you want to assess.",
+      "evidence_urls": [
+        "https://ostif.org/audits/"
+      ],
+      "checked_on": "2026-10-17",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Catalog review only; audit findings apply to the stated scope and date. Index reviewed; linked works need separate review."
+    },
+    {
+      "id": "rustls-security-advisories",
+      "title": "rustls security advisories",
+      "kind": "documentation",
+      "url": "https://github.com/rustls/rustls/security/advisories",
+      "authors": [
+        "rustls maintainers"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Use maintainers’ advisories as an example of tracing an affected dependency version to a specific report.",
+      "evidence_urls": [
+        "https://github.com/rustls/rustls/security/advisories"
+      ],
+      "checked_on": "2026-10-17",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Index reviewed; resolve a specific version against the individual advisory."
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "session_id": "talks-moving-a-quantum-compiler-from-python-to-rust",
-  "checked_on": "2026-10-15",
+  "checked_on": "2026-10-17",
   "review_status": "source_checked_draft",
-  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
   "resources": [
     {
       "id": "lightsabre-paper",
@@ -91,6 +91,28 @@
       "temporal_status": "published",
       "event": null,
       "caveat": null
+    },
+    {
+      "id": "figma-rust-in-production-2018",
+      "title": "Rust in production at Figma",
+      "kind": "article",
+      "url": "https://www.figma.com/blog/rust-in-production-at-figma/",
+      "authors": [
+        "Evan Wallace",
+        "Figma"
+      ],
+      "published_on": "2018-05-02",
+      "access": "open",
+      "relation": "alternative_approach",
+      "why": "Compare a targeted service rewrite with a compiler migration, including the role of architectural changes in reported results.",
+      "evidence_urls": [
+        "https://www.figma.com/blog/rust-in-production-at-figma/"
+      ],
+      "checked_on": "2026-10-17",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Historical 2018 account; not a description of the whole current stack. Article sections reviewed; code and reported measurements were not reproduced."
     }
   ]
 }

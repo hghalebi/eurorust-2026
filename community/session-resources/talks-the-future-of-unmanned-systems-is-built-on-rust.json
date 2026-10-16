@@ -1,8 +1,8 @@
 {
   "session_id": "talks-the-future-of-unmanned-systems-is-built-on-rust",
-  "checked_on": "2026-10-15",
+  "checked_on": "2026-10-17",
   "review_status": "source_checked_draft",
-  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed.",
+  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
   "resources": [
     {
       "id": "oxidize-2026-mosaic",
@@ -123,6 +123,27 @@
         "source_url": "https://rustlab.it/talks/bridging-robotics-and-systems-programming-why-copper-is-a-game-changer"
       },
       "caveat": "Announced session on November 2, 2026; the title is the organizer’s wording, not a repository endorsement."
+    },
+    {
+      "id": "ferrocene-public-docs-preview",
+      "title": "Ferrocene public documentation",
+      "kind": "documentation",
+      "url": "https://public-docs.ferrocene.dev/main/",
+      "authors": [
+        "Ferrous Systems"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Inspect an example of language, safety, and qualification documentation when considering Rust in autonomous systems.",
+      "evidence_urls": [
+        "https://public-docs.ferrocene.dev/main/"
+      ],
+      "checked_on": "2026-10-17",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Explicit development preview; not evidence that a user's product is certified. Documentation index reviewed; examples were not executed."
     }
   ]
 }

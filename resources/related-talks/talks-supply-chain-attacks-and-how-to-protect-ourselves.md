@@ -2,7 +2,7 @@
 
 [Official EuroRust session](https://eurorust.eu/talks/supply-chain-attacks-and-how-to-protect-ourselves/) · [All session resources](README.md)
 
-Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.
+Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 Speakers and their work: [Francois Mockers](../speakers/francois-mockers.md).
 
@@ -66,6 +66,26 @@ Research preprint; metadata and abstract checked, with no independent validation
 
 Source page checked: 2026-10-15. Evidence: [arxiv.org](https://arxiv.org/abs/2602.06466).
 
-Source review: **2026-10-15**. Draft checked against source; community review pending. Connections are editorial suggestions.
+### [OSTIF audit catalog](https://ostif.org/audits/)
+
+Documentation · Open Source Technology Improvement Fund · open access
+
+**Suggested next step.** Find original audit reports and compare their dates and scope with the dependencies you want to assess.
+
+Catalog review only; audit findings apply to the stated scope and date. Index reviewed; linked works need separate review.
+
+Source page checked: 2026-10-17. Evidence: [ostif.org](https://ostif.org/audits/).
+
+### [rustls security advisories](https://github.com/rustls/rustls/security/advisories)
+
+Documentation · rustls maintainers · open access
+
+**Suggested next step.** Use maintainers’ advisories as an example of tracing an affected dependency version to a specific report.
+
+Index reviewed; resolve a specific version against the individual advisory.
+
+Source page checked: 2026-10-17. Evidence: [github.com](https://github.com/rustls/rustls/security/advisories).
+
+Source review: **2026-10-17**. Draft checked against source; community review pending. Connections are editorial suggestions.
 
 [Sources and reuse](../../docs/source-and-reuse-policy.md) · [Suggest a correction](../../CONTRIBUTING.md#learning-resources-and-archives) · [Structured source](../../community/session-resources/talks-supply-chain-attacks-and-how-to-protect-ourselves.json)

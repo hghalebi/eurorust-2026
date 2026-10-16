@@ -2,7 +2,7 @@
 
 [Official EuroRust session](https://eurorust.eu/workshops/building-a-virtual-machine-monitor-in-rust/) · [All session resources](README.md)
 
-Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.
+Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 Speakers and their work: [Johan Sannemo](../speakers/johan-sannemo.md).
 
@@ -54,6 +54,26 @@ Reference implementation; no build or guest boot was performed.
 
 Source page checked: 2026-10-15. Evidence: [github.com](https://github.com/rust-vmm/vmm-reference).
 
-Source review: **2026-10-15**. Draft checked against source; community review pending. Connections are editorial suggestions.
+### [CS110L: Safety in Systems Programming](https://web.stanford.edu/class/cs110l/handouts/course-material/)
+
+Course · Stanford course authors · open access
+
+**Preparation.** Find systems-programming teaching material to review ownership and concurrency before studying a virtual machine monitor.
+
+The inspected schedule is from 2022; retain its historical context.
+
+Source page checked: 2026-10-17. Evidence: [web.stanford.edu](https://web.stanford.edu/class/cs110l/handouts/course-material/).
+
+### [Rust VMM code review report](https://ostif.org/wp-content/uploads/2023/11/X41-rustvmm-final_release.pdf)
+
+Documentation · X41 D-Sec, OSTIF · open access
+
+**Suggested next step.** Read the scope and findings of a real rust-vmm audit alongside the workshop’s component and isolation choices.
+
+2023 report; title, contents, and summary inspected, not independently audited.
+
+Source page checked: 2026-10-17. Evidence: [ostif.org](https://ostif.org/wp-content/uploads/2023/11/X41-rustvmm-final_release.pdf).
+
+Source review: **2026-10-17**. Draft checked against source; community review pending. Connections are editorial suggestions.
 
 [Sources and reuse](../../docs/source-and-reuse-policy.md) · [Suggest a correction](../../CONTRIBUTING.md#learning-resources-and-archives) · [Structured source](../../community/session-resources/workshops-building-a-virtual-machine-monitor-in-rust.json)

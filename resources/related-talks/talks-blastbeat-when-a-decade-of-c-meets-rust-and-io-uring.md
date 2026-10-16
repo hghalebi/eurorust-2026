@@ -2,7 +2,7 @@
 
 [Official EuroRust session](https://eurorust.eu/talks/blastbeat-when-a-decade-of-c-meets-rust-and-io-uring/) · [All session resources](README.md)
 
-Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.
+Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 Speakers and their work: [Daniel Rodriguez](../speakers/daniel-rodriguez.md), [Giacomo Bagnoli](../speakers/giacomo-bagnoli.md).
 
@@ -68,6 +68,18 @@ Book · Google SRE contributors · open access
 
 Source page checked: 2026-10-15. Evidence: [sre.google](https://sre.google/workbook/canarying-releases/).
 
-Source review: **2026-10-15**. Draft checked against source; community review pending. Connections are editorial suggestions.
+### [How We Moved Discord Voice to the Edge](https://discord.com/blog/how-we-moved-discord-voice-to-the-edge)
+
+Article · David Chen, Discord · open access
+
+**Suggested next step.** Compare another network-service rollout, including deployment reversals and investigations of async and network behavior.
+
+Publication date: 2026-06-09.
+
+2026 company report; distinct from Discord's 2020 Read States migration.
+
+Source page checked: 2026-10-17. Evidence: [discord.com](https://discord.com/blog/how-we-moved-discord-voice-to-the-edge).
+
+Source review: **2026-10-17**. Draft checked against source; community review pending. Connections are editorial suggestions.
 
 [Sources and reuse](../../docs/source-and-reuse-policy.md) · [Suggest a correction](../../CONTRIBUTING.md#learning-resources-and-archives) · [Structured source](../../community/session-resources/talks-blastbeat-when-a-decade-of-c-meets-rust-and-io-uring.json)

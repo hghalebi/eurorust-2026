@@ -2,7 +2,7 @@
 
 [Official EuroRust session](https://eurorust.eu/talks/compiling-the-linux-kernel-with-gccrs/) · [All session resources](README.md)
 
-Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.
+Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 Speakers and their work: [Arthur Cohen](../speakers/arthur-cohen.md), [Pierre-Emmanuel Patry](../speakers/pierre-emmanuel-patry.md).
 
@@ -68,6 +68,16 @@ The project describes gccrs as experimental; the talk title is not proof that it
 
 Source page checked: 2026-10-15. Evidence: [github.com](https://github.com/Rust-GCC/gccrs).
 
-Source review: **2026-10-15**. Draft checked against source; community review pending. Connections are editorial suggestions.
+### [Rust for Linux](https://rust-for-linux.com/)
+
+Documentation · Rust for Linux project · open access
+
+**Preparation.** Read the kernel project’s Rust policies and references before comparing compiler support and integration work.
+
+Support depends on kernel, toolchain, and target; avoid a universal maturity claim. Index reviewed; linked works need separate review.
+
+Source page checked: 2026-10-17. Evidence: [rust-for-linux.com](https://rust-for-linux.com/).
+
+Source review: **2026-10-17**. Draft checked against source; community review pending. Connections are editorial suggestions.
 
 [Sources and reuse](../../docs/source-and-reuse-policy.md) · [Suggest a correction](../../CONTRIBUTING.md#learning-resources-and-archives) · [Structured source](../../community/session-resources/talks-compiling-the-linux-kernel-with-gccrs.json)

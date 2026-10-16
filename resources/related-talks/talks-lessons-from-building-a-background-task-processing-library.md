@@ -2,7 +2,7 @@
 
 [Official EuroRust session](https://eurorust.eu/talks/lessons-from-building-a-background-task-processing-library/) · [All session resources](README.md)
 
-Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.
+Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 Speakers and their work: [Njuguna Mureithi](../speakers/njuguna-mureithi.md).
 
@@ -60,6 +60,16 @@ Article · Amazon Builders’ Library · open access
 
 Source page checked: 2026-10-15. Evidence: [aws.amazon.com](https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/).
 
-Source review: **2026-10-15**. Draft checked against source; community review pending. Connections are editorial suggestions.
+### [Dealing with cancel safety in async Rust](https://rfd.shared.oxide.computer/rfd/0400)
+
+Article · Rain Paharia, Oxide · open access
+
+**Suggested next step.** Examine cancellation and partial progress when a worker stops; compare task completion with durable recovery.
+
+Living engineering document; dated examples need version checks. Article sections reviewed; code and reported measurements were not reproduced.
+
+Source page checked: 2026-10-17. Evidence: [rfd.shared.oxide.computer](https://rfd.shared.oxide.computer/rfd/0400).
+
+Source review: **2026-10-17**. Draft checked against source; community review pending. Connections are editorial suggestions.
 
 [Sources and reuse](../../docs/source-and-reuse-policy.md) · [Suggest a correction](../../CONTRIBUTING.md#learning-resources-and-archives) · [Structured source](../../community/session-resources/talks-lessons-from-building-a-background-task-processing-library.json)

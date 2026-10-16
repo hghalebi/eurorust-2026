@@ -1,8 +1,8 @@
 {
   "session_id": "talks-compiling-the-linux-kernel-with-gccrs",
-  "checked_on": "2026-10-15",
+  "checked_on": "2026-10-17",
   "review_status": "source_checked_draft",
-  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
   "resources": [
     {
       "id": "rustconf-2026-gccrs",
@@ -100,6 +100,27 @@
       "temporal_status": "published",
       "event": null,
       "caveat": "The project describes gccrs as experimental; the talk title is not proof that it can build the Linux kernel."
+    },
+    {
+      "id": "rust-for-linux",
+      "title": "Rust for Linux",
+      "kind": "documentation",
+      "url": "https://rust-for-linux.com/",
+      "authors": [
+        "Rust for Linux project"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Read the kernel project’s Rust policies and references before comparing compiler support and integration work.",
+      "evidence_urls": [
+        "https://rust-for-linux.com/"
+      ],
+      "checked_on": "2026-10-17",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Support depends on kernel, toolchain, and target; avoid a universal maturity claim. Index reviewed; linked works need separate review."
     }
   ]
 }

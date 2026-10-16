@@ -2,7 +2,7 @@
 
 [Official EuroRust session](https://eurorust.eu/talks/what-s-next-for-rust-s-type-system/) · [All session resources](README.md)
 
-Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.
+Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 Speakers and their work: [lcnr](../speakers/lcnr.md).
 
@@ -68,6 +68,56 @@ Historical analysis with an author correction; check the linked issue for curren
 
 Source page checked: 2026-10-15. Evidence: [lcnr.de](https://lcnr.de/blog/2022/02/05/diving-deep-implied-bounds-and-variance.html).
 
-Source review: **2026-10-15**. Draft checked against source; community review pending. Connections are editorial suggestions.
+### [RustBelt: Securing the Foundations of the Rust Programming Language](https://plv.mpi-sws.org/rustbelt/popl18/)
+
+Paper · Ralf Jung, Jacques-Henri Jourdan, Robbert Krebbers, Derek Dreyer · open access
+
+**Suggested next step.** Explore formal foundations behind Rust’s safety argument through the paper, presentation, and linked proof artifact.
+
+POPL 2018; abstract and asset listing reviewed, not proofs or executable artifact.
+
+Source page checked: 2026-10-17. Evidence: [plv.mpi-sws.org](https://plv.mpi-sws.org/rustbelt/popl18/).
+
+### [GhostCell: Separating Permissions from Data in Rust](https://plv.mpi-sws.org/rustbelt/ghostcell/)
+
+Paper · Joshua Yanovski, Hoang-Hai Dang, Ralf Jung, Derek Dreyer · open access
+
+**Alternative approach.** Explore a research design that separates permission from data when reasoning about shared mutable structures.
+
+ICFP 2021; abstract and asset listing reviewed; results not reproduced.
+
+Source page checked: 2026-10-17. Evidence: [plv.mpi-sws.org](https://plv.mpi-sws.org/rustbelt/ghostcell/).
+
+### [Verus publications and projects](https://verus-lang.github.io/verus/publications-and-projects/)
+
+Documentation · Verus project and cited authors · open access
+
+**Suggested next step.** Find work on Rust verification and distinguish a tool’s proved properties from guarantees supplied by Rust’s type system.
+
+Publication index reviewed; each paper and tool needs separate evaluation.
+
+Source page checked: 2026-10-17. Evidence: [verus-lang.github.io](https://verus-lang.github.io/verus/publications-and-projects/).
+
+### [AutoVerus: Automated Proof Generation for Rust Code](https://arxiv.org/abs/2409.13082)
+
+Paper · Chenyuan Yang and coauthors · open access
+
+**Suggested next step.** Explore LLM-assisted proof construction with verification feedback, beyond the properties checked by ordinary Rust types.
+
+OOPSLA 2025, arXiv revision 22 August 2025; abstract and introduction reviewed. Reported results are bounded to the paper's benchmark and were not reproduced here.
+
+Source page checked: 2026-10-17. Evidence: [arxiv.org](https://arxiv.org/abs/2409.13082).
+
+### [VerusBelt: A Semantic Foundation for Verus’s Proof-Oriented Extensions to the Rust Type System](https://iris-project.org/pdfs/2026-pldi-verusbelt.pdf)
+
+Paper · Travis Hance, Laila Elbeheiry, Yusuke Matsushita, Derek Dreyer · open access
+
+**Suggested next step.** Read research on the semantic foundations of Verus’s proof-oriented types, borrowing, and concurrency.
+
+PLDI 2026; abstract and introduction reviewed. The paper studies a subset and does not verify the Verus implementation or all Rust libraries.
+
+Source page checked: 2026-10-17. Evidence: [iris-project.org](https://iris-project.org/pdfs/2026-pldi-verusbelt.pdf).
+
+Source review: **2026-10-17**. Draft checked against source; community review pending. Connections are editorial suggestions.
 
 [Sources and reuse](../../docs/source-and-reuse-policy.md) · [Suggest a correction](../../CONTRIBUTING.md#learning-resources-and-archives) · [Structured source](../../community/session-resources/talks-what-s-next-for-rust-s-type-system.json)

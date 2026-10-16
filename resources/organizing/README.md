@@ -7,6 +7,11 @@ Copy the [event plan](../../templates/event-plan.md). The
 [worked discussion example](example-event.md) is a planning exercise with explicit
 assumptions; no event has been announced.
 
+For original checklists, teaching material, accessibility guidance, recording
+documentation, and sponsorship examples, browse the
+[conference practice library](../library.md#conference-practice). Each source note
+keeps its author, review date, and limits.
+
 ## Define the event
 
 Agree on outcomes, format, roles, dates, and spending limits. Give each decision

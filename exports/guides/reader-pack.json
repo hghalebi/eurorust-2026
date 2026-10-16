@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "reference_date": "2026-10-16",
+  "reference_date": "2026-10-17",
   "catalog_snapshot_id": "eurorust-2026-71f2ee4aea59a1589532",
   "maintainer": "Repository maintainers; community review welcome",
   "routes": [
@@ -20,7 +20,10 @@
         "rustfest-first-talk",
         "rustfest-accessible-slides",
         "rustfest-remote-setup",
-        "rustcamp-speaker-notes"
+        "rustcamp-speaker-notes",
+        "carpentries-instructor-training",
+        "w3c-accessible-events",
+        "fosdem-speaker-manual-2026"
       ]
     },
     {
@@ -37,7 +40,11 @@
       ],
       "resource_ids": [
         "rustcamp-speaker-notes",
-        "rust-all-hands-retrospective"
+        "rust-all-hands-retrospective",
+        "rust-leadership-council",
+        "rust-survey-results-2025",
+        "rust-survey-coordination",
+        "rust-foundation-publications"
       ]
     },
     {
@@ -54,7 +61,9 @@
       ],
       "resource_ids": [
         "rustfest-viewing",
-        "rust-community"
+        "rust-community",
+        "comprehensive-rust-translations",
+        "w3c-accessible-events"
       ]
     },
     {
@@ -74,7 +83,11 @@
         "rustfest-budget",
         "rust-all-hands-retrospective",
         "pretalx-schedule",
-        "rustfest-remote-setup"
+        "rustfest-remote-setup",
+        "carpentries-workshop-checklists",
+        "numfocus-discover-cookbook",
+        "c3voc-public-wiki",
+        "rustconf-sponsorship-2026"
       ]
     },
     {
@@ -91,7 +104,13 @@
       ],
       "resource_ids": [
         "rust-community",
-        "rustbridge-organizing"
+        "rustbridge-organizing",
+        "rust-rfc-book",
+        "rust-language-design-notes",
+        "producing-open-source-software",
+        "ospo-book",
+        "open-source-welcoming-communities",
+        "chaoss-contributor-sustainability"
       ]
     },
     {
@@ -108,7 +127,9 @@
       ],
       "resource_ids": [
         "rust-community",
-        "rustcamp-speaker-notes"
+        "rustcamp-speaker-notes",
+        "rust-project-roadmaps-2026",
+        "rust-survey-results-2025"
       ]
     }
   ],
@@ -373,6 +394,524 @@
           "Talk notes are not a transcript. Older links, examples, and technical compatibility were not all checked."
         ]
       }
+    },
+    {
+      "id": "comprehensive-rust-translations",
+      "title": "Comprehensive Rust translations",
+      "url": "https://google.github.io/comprehensive-rust/running-the-course/translations.html",
+      "publisher": "Comprehensive Rust translation contributors",
+      "audiences": [
+        "attendee",
+        "speaker",
+        "community"
+      ],
+      "kind": "directory",
+      "language": "en",
+      "access": "free_web_page",
+      "reuse": "Link to the original. Its own terms apply; no permission to republish is inferred.",
+      "why": "Find existing language editions, including Farsi, for learners.",
+      "action": "Choose a language edition and check its completeness before proposing it to a study group.",
+      "context": "general_guidance",
+      "published_on": null,
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "status": "page_checked",
+        "limits": [
+          "Translation completeness varies; some languages are explicitly in progress.",
+          "Index reviewed; linked works need separate review."
+        ]
+      }
+    },
+    {
+      "id": "rust-rfc-book",
+      "title": "The Rust RFC Book",
+      "url": "https://rust-lang.github.io/rfcs/",
+      "publisher": "Rust Project",
+      "audiences": [
+        "speaker",
+        "history",
+        "community",
+        "agent"
+      ],
+      "kind": "documentation",
+      "language": "en",
+      "access": "free_web_page",
+      "reuse": "Link to the original. Its own terms apply; no permission to republish is inferred.",
+      "why": "Original proposals, rationale, alternatives, and the decision process.",
+      "action": "Follow one proposal to its rationale and tracking issue; check implementation status separately.",
+      "context": "general_guidance",
+      "published_on": null,
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "status": "page_checked",
+        "limits": [
+          "An accepted RFC does not establish stable implementation.",
+          "Process and index reviewed; individual proposals need separate review."
+        ]
+      }
+    },
+    {
+      "id": "rust-language-design-notes",
+      "title": "Language design notes",
+      "url": "https://lang-team.rust-lang.org/design_notes.html",
+      "publisher": "Rust Language Design Team",
+      "audiences": [
+        "speaker",
+        "community",
+        "agent"
+      ],
+      "kind": "directory",
+      "language": "en",
+      "access": "free_web_page",
+      "reuse": "Link to the original. Its own terms apply; no permission to republish is inferred.",
+      "why": "Links to proposal discussions and language-design reasoning.",
+      "action": "Read the discussion and unresolved questions behind one language idea.",
+      "context": "general_guidance",
+      "published_on": null,
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "status": "page_checked",
+        "limits": [
+          "Notes can include unresolved or rejected proposals.",
+          "Index reviewed; linked works need separate review."
+        ]
+      }
+    },
+    {
+      "id": "rust-leadership-council",
+      "title": "Rust Leadership Council repository",
+      "url": "https://github.com/rust-lang/leadership-council",
+      "publisher": "Rust Leadership Council",
+      "audiences": [
+        "history",
+        "community",
+        "agent"
+      ],
+      "kind": "directory",
+      "language": "en",
+      "access": "free_web_page",
+      "reuse": "Link to the original. Its own terms apply; no permission to republish is inferred.",
+      "why": "Public minutes, procedures, budgets, and tracked governance work.",
+      "action": "Find the public decision record relevant to a governance question and keep its date.",
+      "context": "general_guidance",
+      "published_on": null,
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "status": "page_checked",
+        "limits": [
+          "Repository entry page inspected; private discussions are outside scope."
+        ]
+      }
+    },
+    {
+      "id": "rust-project-roadmaps-2026",
+      "title": "Rust Project 2026 roadmaps",
+      "url": "https://goals.rust-lang.org/2026/roadmaps.html",
+      "publisher": "Rust Project",
+      "audiences": [
+        "speaker",
+        "community",
+        "agent"
+      ],
+      "kind": "directory",
+      "language": "en",
+      "access": "free_web_page",
+      "reuse": "Link to the original. Its own terms apply; no permission to republish is inferred.",
+      "why": "Original direction-setting documents for technical topics.",
+      "action": "Use a roadmap to find planned work, then check separate evidence of delivery.",
+      "context": "historical",
+      "published_on": null,
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "status": "page_checked",
+        "limits": [
+          "Dated plans, not proof that features shipped.",
+          "Index reviewed; linked works need separate review."
+        ]
+      }
+    },
+    {
+      "id": "rust-survey-results-2025",
+      "title": "2025 State of Rust Survey Results",
+      "url": "https://blog.rust-lang.org/2026/03/02/2025-State-Of-Rust-Survey-results/",
+      "publisher": "Rust Survey Team",
+      "audiences": [
+        "speaker",
+        "history",
+        "community",
+        "agent"
+      ],
+      "kind": "retrospective",
+      "language": "en",
+      "access": "free_web_page",
+      "reuse": "Link to the original. Its own terms apply; no permission to republish is inferred.",
+      "why": "Published survey results for learning and adoption questions.",
+      "action": "Cite a result with the survey year, question, and respondent limits.",
+      "context": "historical",
+      "published_on": "2026-03-02",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "status": "page_checked",
+        "limits": [
+          "Published in 2026 about 2025 respondents; not global market share.",
+          "Survey article reviewed; the underlying analysis was not independently reproduced."
+        ]
+      }
+    },
+    {
+      "id": "rust-survey-coordination",
+      "title": "Rust survey coordination repository",
+      "url": "https://github.com/rust-lang/surveys",
+      "publisher": "Rust Project survey contributors",
+      "audiences": [
+        "history",
+        "community",
+        "agent"
+      ],
+      "kind": "documentation",
+      "language": "en",
+      "access": "free_web_page",
+      "reuse": "Link to the original. Its own terms apply; no permission to republish is inferred.",
+      "why": "Understand how the survey is organized and which materials are public.",
+      "action": "Inspect the public survey materials before comparing results across years.",
+      "context": "general_guidance",
+      "published_on": null,
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "status": "page_checked",
+        "limits": [
+          "No promise of access to raw individual responses.",
+          "Repository introduction and tree reviewed; individual records were not all read."
+        ]
+      }
+    },
+    {
+      "id": "carpentries-workshop-checklists",
+      "title": "Workshop Checklists",
+      "url": "https://docs.carpentries.org/resources/workshops/checklists.html",
+      "publisher": "The Carpentries",
+      "audiences": [
+        "speaker",
+        "organizer"
+      ],
+      "kind": "guide",
+      "language": "en",
+      "access": "free_web_page",
+      "reuse": "Link to the original. Its own terms apply; no permission to republish is inferred.",
+      "why": "Existing before/during/after workshop preparation lists.",
+      "action": "Adapt a before, during, or after checklist to your workshop’s roles and equipment.",
+      "context": "general_guidance",
+      "published_on": null,
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "status": "page_checked",
+        "limits": [
+          "Adapt the program-specific roles and terms to the actual event.",
+          "Guide sections reviewed; recommendations were not tested at an event."
+        ]
+      }
+    },
+    {
+      "id": "carpentries-instructor-training",
+      "title": "Instructor Training",
+      "url": "https://carpentries.github.io/instructor-training/",
+      "publisher": "The Carpentries",
+      "audiences": [
+        "speaker",
+        "organizer",
+        "community"
+      ],
+      "kind": "guide",
+      "language": "en",
+      "access": "free_web_page",
+      "reuse": "Link to the original. Its own terms apply; no permission to republish is inferred.",
+      "why": "Existing curriculum for teaching technical material.",
+      "action": "Choose one teaching practice to discuss with your workshop team.",
+      "context": "general_guidance",
+      "published_on": null,
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "status": "page_checked",
+        "limits": [
+          "Curriculum entry page reviewed; reading it does not confer instructor certification."
+        ]
+      }
+    },
+    {
+      "id": "w3c-accessible-events",
+      "title": "Making Events Accessible",
+      "url": "https://www.w3.org/WAI/teach-advocate/accessible-presentations/",
+      "publisher": "W3C Web Accessibility Initiative",
+      "audiences": [
+        "speaker",
+        "attendee",
+        "organizer"
+      ],
+      "kind": "guide",
+      "language": "en",
+      "access": "free_web_page",
+      "reuse": "Link to the original. Its own terms apply; no permission to republish is inferred.",
+      "why": "Organizer and presenter guidance for access to events and material.",
+      "action": "Review how people will access the venue, presentation, and shared material.",
+      "context": "general_guidance",
+      "published_on": null,
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "status": "page_checked",
+        "limits": [
+          "Guidance does not establish that a named event meets participants' needs.",
+          "Guide sections reviewed; recommendations were not tested at an event."
+        ]
+      }
+    },
+    {
+      "id": "numfocus-discover-cookbook",
+      "title": "DISCOVER Cookbook",
+      "url": "https://discover-cookbook.github.io/",
+      "publisher": "NumFOCUS DISCOVER contributors",
+      "audiences": [
+        "organizer",
+        "community"
+      ],
+      "kind": "guide",
+      "language": "en",
+      "access": "free_web_page",
+      "reuse": "Link to the original. Its own terms apply; no permission to republish is inferred.",
+      "why": "An existing collection about inclusive technical events.",
+      "action": "Choose a relevant inclusion practice and confirm how your event will deliver it.",
+      "context": "general_guidance",
+      "published_on": null,
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "status": "page_checked",
+        "limits": [
+          "Introduction and structure reviewed; recommendations are contextual."
+        ]
+      }
+    },
+    {
+      "id": "fosdem-speaker-manual-2026",
+      "title": "FOSDEM 2026 speaker manual",
+      "url": "https://archive.fosdem.org/2026/manuals/program/speaker/",
+      "publisher": "FOSDEM organizers",
+      "audiences": [
+        "speaker",
+        "organizer",
+        "history"
+      ],
+      "kind": "speaker_notes",
+      "language": "en",
+      "access": "free_web_page",
+      "reuse": "Link to the original. Its own terms apply; no permission to republish is inferred.",
+      "why": "A historical example of speaker, material, and recording responsibilities.",
+      "action": "Compare speaker preparation and recording responsibilities with your own event’s terms.",
+      "context": "historical",
+      "published_on": null,
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "status": "page_checked",
+        "limits": [
+          "2026 edition; no rules or permission automatically transfer to another event.",
+          "Guide page reviewed; procedures were not exercised."
+        ]
+      }
+    },
+    {
+      "id": "c3voc-public-wiki",
+      "title": "C3VOC public wiki",
+      "url": "https://c3voc.de/wiki/",
+      "publisher": "Chaos Computer Club Video Operation Center",
+      "audiences": [
+        "organizer"
+      ],
+      "kind": "documentation",
+      "language": "en",
+      "access": "free_web_page",
+      "reuse": "Link to the original. Its own terms apply; no permission to republish is inferred.",
+      "why": "Recording, streaming, hardware, software, and operations documentation.",
+      "action": "Use the public recording and streaming references to prepare questions for your technical team.",
+      "context": "general_guidance",
+      "published_on": null,
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "status": "page_checked",
+        "limits": [
+          "Entry page reviewed; some material is internal or in German."
+        ]
+      }
+    },
+    {
+      "id": "rustconf-sponsorship-2026",
+      "title": "RustConf 2026 sponsorship prospectus",
+      "url": "https://rustconf.com/wp-content/uploads/2026/03/RustConf_2026_Prospectus.pdf",
+      "publisher": "RustConf / Rust Foundation",
+      "audiences": [
+        "organizer",
+        "history"
+      ],
+      "kind": "documentation",
+      "language": "en",
+      "access": "free_web_page",
+      "reuse": "Link to the original. Its own terms apply; no permission to republish is inferred.",
+      "why": "An original example of sponsorship packages and event positioning.",
+      "action": "Compare sponsorship packages while keeping projected figures separate from observed outcomes.",
+      "context": "historical",
+      "published_on": null,
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "status": "page_checked",
+        "limits": [
+          "Historical prospectus; projections are not final attendance or current offers.",
+          "Document structure and sample sections reviewed; projections were not checked against final results."
+        ]
+      }
+    },
+    {
+      "id": "producing-open-source-software",
+      "title": "Producing Open Source Software",
+      "url": "https://producingoss.com/",
+      "publisher": "Karl Fogel",
+      "audiences": [
+        "community",
+        "organizer"
+      ],
+      "kind": "guide",
+      "language": "en",
+      "access": "free_web_page",
+      "reuse": "Link to the original. Its own terms apply; no permission to republish is inferred.",
+      "why": "An existing book about participation, project culture, and maintenance.",
+      "action": "Choose a chapter that addresses a participation or maintenance problem in your project.",
+      "context": "general_guidance",
+      "published_on": null,
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "status": "page_checked",
+        "limits": [
+          "Landing page and formats reviewed; full book and translations not read."
+        ]
+      }
+    },
+    {
+      "id": "ospo-book",
+      "title": "OSPO Book",
+      "url": "https://ospobook.todogroup.org/",
+      "publisher": "TODO Group and contributors",
+      "audiences": [
+        "community",
+        "organizer"
+      ],
+      "kind": "guide",
+      "language": "en",
+      "access": "free_web_page",
+      "reuse": "Link to the original. Its own terms apply; no permission to republish is inferred.",
+      "why": "Organizational open-source strategy and contribution practices.",
+      "action": "Compare your organization’s contribution process with the book’s open-source program guidance.",
+      "context": "general_guidance",
+      "published_on": null,
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "status": "page_checked",
+        "limits": [
+          "Introduction reviewed; general guidance rather than Rust-specific policy."
+        ]
+      }
+    },
+    {
+      "id": "open-source-welcoming-communities",
+      "title": "Building Welcoming Communities",
+      "url": "https://opensource.guide/building-community/",
+      "publisher": "Open Source Guides contributors",
+      "audiences": [
+        "community",
+        "organizer"
+      ],
+      "kind": "guide",
+      "language": "en",
+      "access": "free_web_page",
+      "reuse": "Link to the original. Its own terms apply; no permission to republish is inferred.",
+      "why": "Practical guidance on joining, helping, and welcoming contributors.",
+      "action": "Review the first steps and expectations a new contributor encounters.",
+      "context": "general_guidance",
+      "published_on": null,
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "status": "page_checked",
+        "limits": [
+          "Practitioner guidance; no measured growth effect established for this repo.",
+          "Guide sections reviewed; recommendations were not tested at an event."
+        ]
+      }
+    },
+    {
+      "id": "chaoss-contributor-sustainability",
+      "title": "Contributor Sustainability",
+      "url": "https://www.chaoss.community/practitioner-guide-contributor-sustainability/",
+      "publisher": "CHAOSS contributors",
+      "audiences": [
+        "community",
+        "organizer"
+      ],
+      "kind": "guide",
+      "language": "en",
+      "access": "free_web_page",
+      "reuse": "Link to the original. Its own terms apply; no permission to republish is inferred.",
+      "why": "Guidance on contributor continuity, review capacity, and maintainership.",
+      "action": "Identify where review capacity or reliance on a few people affects your project.",
+      "context": "general_guidance",
+      "published_on": null,
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "status": "page_checked",
+        "limits": [
+          "Contextual guidance; no community measurement performed here.",
+          "Guide sections reviewed; recommendations were not tested at an event."
+        ]
+      }
+    },
+    {
+      "id": "rust-foundation-publications",
+      "title": "Rust Foundation reports and publications",
+      "url": "https://rustfoundation.org/publications/",
+      "publisher": "Rust Foundation",
+      "audiences": [
+        "history",
+        "community",
+        "agent"
+      ],
+      "kind": "directory",
+      "language": "en",
+      "access": "free_web_page",
+      "reuse": "Link to the original. Its own terms apply; no permission to republish is inferred.",
+      "why": "Find organizational reports, strategy, and ecosystem publications.",
+      "action": "Read a dated report and separate the Foundation’s remit from the wider Rust Project.",
+      "context": "general_guidance",
+      "published_on": null,
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "status": "page_checked",
+        "limits": [
+          "Index reviewed; budgets and reports concern the Foundation's stated scope."
+        ]
+      }
     }
   ],
   "related_collections": [
@@ -381,6 +920,9 @@
     "community/conference-archive/appearances.json",
     "community/conference-archive/coverage.json",
     "community/participation.json",
-    "community/rust-discovery.json"
+    "community/rust-discovery.json",
+    "resources/library.md",
+    "docs/learning-resources.md",
+    "community/learning-manifest.json"
   ]
 }

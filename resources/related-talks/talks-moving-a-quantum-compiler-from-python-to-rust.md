@@ -2,7 +2,7 @@
 
 [Official EuroRust session](https://eurorust.eu/talks/moving-a-quantum-compiler-from-python-to-rust/) · [All session resources](README.md)
 
-Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.
+Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 Speakers and their work: [Jake Lishman](../speakers/jake-lishman.md).
 
@@ -68,6 +68,18 @@ Documentation · IBM Quantum contributors · open access
 
 Source page checked: 2026-10-15. Evidence: [quantum.cloud.ibm.com](https://quantum.cloud.ibm.com/docs/en/guides/transpile).
 
-Source review: **2026-10-15**. Draft checked against source; community review pending. Connections are editorial suggestions.
+### [Rust in production at Figma](https://www.figma.com/blog/rust-in-production-at-figma/)
+
+Article · Evan Wallace, Figma · open access
+
+**Alternative approach.** Compare a targeted service rewrite with a compiler migration, including the role of architectural changes in reported results.
+
+Publication date: 2018-05-02.
+
+Historical 2018 account; not a description of the whole current stack. Article sections reviewed; code and reported measurements were not reproduced.
+
+Source page checked: 2026-10-17. Evidence: [www.figma.com](https://www.figma.com/blog/rust-in-production-at-figma/).
+
+Source review: **2026-10-17**. Draft checked against source; community review pending. Connections are editorial suggestions.
 
 [Sources and reuse](../../docs/source-and-reuse-policy.md) · [Suggest a correction](../../CONTRIBUTING.md#learning-resources-and-archives) · [Structured source](../../community/session-resources/talks-moving-a-quantum-compiler-from-python-to-rust.json)

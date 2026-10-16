@@ -1,8 +1,8 @@
 {
   "session_id": "workshops-building-a-virtual-machine-monitor-in-rust",
-  "checked_on": "2026-10-15",
+  "checked_on": "2026-10-17",
   "review_status": "source_checked_draft",
-  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
   "resources": [
     {
       "id": "firecracker-nsdi-2020",
@@ -78,6 +78,49 @@
       "temporal_status": "published",
       "event": null,
       "caveat": "Reference implementation; no build or guest boot was performed."
+    },
+    {
+      "id": "stanford-cs110l-materials",
+      "title": "CS110L: Safety in Systems Programming",
+      "kind": "course",
+      "url": "https://web.stanford.edu/class/cs110l/handouts/course-material/",
+      "authors": [
+        "Stanford course authors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Find systems-programming teaching material to review ownership and concurrency before studying a virtual machine monitor.",
+      "evidence_urls": [
+        "https://web.stanford.edu/class/cs110l/handouts/course-material/"
+      ],
+      "checked_on": "2026-10-17",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "The inspected schedule is from 2022; retain its historical context."
+    },
+    {
+      "id": "rust-vmm-x41-audit-2023",
+      "title": "Rust VMM code review report",
+      "kind": "documentation",
+      "url": "https://ostif.org/wp-content/uploads/2023/11/X41-rustvmm-final_release.pdf",
+      "authors": [
+        "X41 D-Sec",
+        "OSTIF"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Read the scope and findings of a real rust-vmm audit alongside the workshop’s component and isolation choices.",
+      "evidence_urls": [
+        "https://ostif.org/wp-content/uploads/2023/11/X41-rustvmm-final_release.pdf"
+      ],
+      "checked_on": "2026-10-17",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "2023 report; title, contents, and summary inspected, not independently audited."
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 [Official EuroRust session](https://eurorust.eu/workshops/c-to-rust/) · [All session resources](README.md)
 
-Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.
+Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 Speakers and their work: [Magnus Markling](../speakers/magnus-markling.md).
 
@@ -66,6 +66,38 @@ Historical integration example; certification statements are tied to its publica
 
 Source page checked: 2026-10-15. Evidence: [ferrous-systems.com](https://ferrous-systems.com/blog/rust-and-threadx/).
 
-Source review: **2026-10-15**. Draft checked against source; community review pending. Connections are editorial suggestions.
+### [Rust in Android: move fast and fix things](https://blog.google/security/rust-in-android-move-fast-fix-things/)
+
+Article · Jeff Vander Stoep, Google · open access
+
+**Suggested next step.** Read a company’s account of adopting Rust alongside an existing native codebase; keep its measurements and scope explicit.
+
+Publication date: 2025-11-13.
+
+2025 company report; preserve comparison scope and measurement limits. Article sections reviewed; code and reported measurements were not reproduced.
+
+Source page checked: 2026-10-17. Evidence: [blog.google](https://blog.google/security/rust-in-android-move-fast-fix-things/).
+
+### [Comprehensive Rust](https://google.github.io/comprehensive-rust/)
+
+Course · Google Android team and contributors · open access
+
+**Preparation.** Review ownership and other Rust foundations before studying incremental migration and language boundaries.
+
+Course introduction reviewed; exercises and full course not executed or completed.
+
+Source page checked: 2026-10-17. Evidence: [google.github.io](https://google.github.io/comprehensive-rust/).
+
+### [100 Exercises To Learn Rust](https://rust-exercises.com/100-exercises/)
+
+Course · Luca Palmieri, Mainmatter · open access
+
+**Preparation.** Use short exercises to identify gaps in Rust fundamentals before attempting migration exercises.
+
+Course introduction reviewed; exercises not executed.
+
+Source page checked: 2026-10-17. Evidence: [rust-exercises.com](https://rust-exercises.com/100-exercises/).
+
+Source review: **2026-10-17**. Draft checked against source; community review pending. Connections are editorial suggestions.
 
 [Sources and reuse](../../docs/source-and-reuse-policy.md) · [Suggest a correction](../../CONTRIBUTING.md#learning-resources-and-archives) · [Structured source](../../community/session-resources/workshops-c-to-rust.json)

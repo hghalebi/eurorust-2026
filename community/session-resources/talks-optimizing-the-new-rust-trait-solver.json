@@ -1,8 +1,8 @@
 {
   "session_id": "talks-optimizing-the-new-rust-trait-solver",
-  "checked_on": "2026-10-15",
+  "checked_on": "2026-10-17",
   "review_status": "source_checked_draft",
-  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
   "resources": [
     {
       "id": "next-trait-solver-guide",
@@ -71,6 +71,27 @@
       "temporal_status": "published",
       "event": null,
       "caveat": "Chalk is useful background; it is not the implementation of rustc’s next trait solver."
+    },
+    {
+      "id": "rustc-performance-dashboard",
+      "title": "Rust compiler performance dashboard",
+      "kind": "project",
+      "url": "https://perf.rust-lang.org/",
+      "authors": [
+        "Rust Project rustc-perf contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Explore the compiler performance dashboard when asking how a compiler optimization is measured across workloads.",
+      "evidence_urls": [
+        "https://perf.rust-lang.org/"
+      ],
+      "checked_on": "2026-10-17",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Dashboard shell, help, and project description checked; no interactive query or independent benchmark run."
     }
   ]
 }

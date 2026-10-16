@@ -38,6 +38,10 @@ is a historical example; confirm current tools and event arrangements separately
 
 ## Teach a workshop
 
+Choose existing exercises from the [course and book library](../library.md#courses-and-books).
+The [event practice sources](../library.md#conference-practice) add teaching,
+accessibility, and speaker-preparation guidance. Check each work's reuse terms.
+
 Define one achievable outcome and a small successful exercise. Publish the
 [readiness checklist](../../templates/workshop-readiness.md): platforms, tested
 versions, equipment, expected checks, and a fallback for setup problems.

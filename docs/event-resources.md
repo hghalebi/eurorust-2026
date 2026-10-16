@@ -1,8 +1,10 @@
 # Use the wider conference collection
 
 Start with [six reader routes](find-your-route.md). For original guidance on
-speaking, remote access, budgets, and event delivery, use the
+speaking, governance, community participation, and event delivery, use the
 [annotated source collection](../resources/event-resources.md).
+The [learning and event library](../resources/library.md) also connects courses,
+research papers, and engineering accounts to their detailed reading notes.
 
 The examples help you prepare a proposal, compare events, research a topic, or
 plan a community session. They record no submitted talk, announced event,
@@ -12,7 +14,7 @@ attendance, booking, or completed experiment.
 
 | Input | Use |
 | --- | --- |
-| [Reader pack](../exports/guides/reader-pack.md) | Six workflows and ten annotated original sources |
+| [Reader pack](../exports/guides/reader-pack.md) | Six workflows and annotated original sources |
 | [Structured reader pack](../exports/guides/reader-pack.json) | Routes, resource IDs, audience, access, source dates, and limits |
 | [Pack manifest](../exports/guides/manifest.json) | Catalog identity and hashes of generated files and linked local inputs |
 | [Research a talk](../prompts/research-my-talk.md) | Prior work, evidence, and a proposal angle |
@@ -38,8 +40,10 @@ It does not mean a book was read fully, a recording played, or a tool deployed.
 Historical advice can be useful while its prices, platforms, or support terms
 no longer apply. Source publication dates and review dates are separate.
 
-The source collection currently uses English pages. The wider archive preserves
-other source languages; translations and additional regional guides are welcome.
+The source collection mostly uses English pages. Its translation directory links
+other language editions with varying completeness; the recording wiki also
+includes German material. The wider archive preserves source languages.
+Translations and additional regional guides are welcome.
 Link to original works and retain their terms. A public URL does not grant
 permission to copy a recording or article.
 
@@ -47,7 +51,10 @@ permission to copy a recording or article.
 
 The owner is [event-resources.json](../community/event-resources.json), described
 by its [schema](../schema/event-resources.schema.json). Edit a source or route
-there, then regenerate with the [optional compiled helper](quickstart.md#install-a-reusable-binary):
+there. Keep the handwritten [library index](../resources/library.md) linked to
+the source note; use [session records](learning-resources.md#add-or-correct-a-resource)
+for technical reading tied to a session. Then regenerate with the
+[optional compiled helper](quickstart.md#install-a-reusable-binary):
 
 ```sh
 bin/conference-data build-guides

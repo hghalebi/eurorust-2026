@@ -337,8 +337,8 @@
       "session_id": "talks-beyond-flamegraphs-precise-rust-profiling-with-hotpath-rs"
     },
     {
-      "checked_on": "2026-10-15",
-      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+      "checked_on": "2026-10-17",
+      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
       "resources": [
         {
           "access": "open",
@@ -433,6 +433,28 @@
           "url": "https://rustlab.it/talks/blastbeat-replacing-10-years-of-c-with-rust-and-iouring",
           "verification": "listing_checked",
           "why": "Follow the announced RustLab appearance on the same network-observability rewrite."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "David Chen",
+            "Discord"
+          ],
+          "caveat": "2026 company report; distinct from Discord's 2020 Read States migration.",
+          "checked_on": "2026-10-17",
+          "event": null,
+          "evidence_urls": [
+            "https://discord.com/blog/how-we-moved-discord-voice-to-the-edge"
+          ],
+          "id": "discord-voice-edge-2026",
+          "kind": "article",
+          "published_on": "2026-06-09",
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "How We Moved Discord Voice to the Edge",
+          "url": "https://discord.com/blog/how-we-moved-discord-voice-to-the-edge",
+          "verification": "source_content_checked",
+          "why": "Compare another network-service rollout, including deployment reversals and investigations of async and network behavior."
         }
       ],
       "review_status": "source_checked_draft",
@@ -741,8 +763,8 @@
       "session_id": "talks-building-a-query-system"
     },
     {
-      "checked_on": "2026-10-15",
-      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+      "checked_on": "2026-10-17",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
       "resources": [
         {
           "access": "open",
@@ -840,14 +862,35 @@
           "url": "https://github.com/Rust-GCC/gccrs",
           "verification": "source_content_checked",
           "why": "Provides the compiler source and current development limitations behind the talk."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Rust for Linux project"
+          ],
+          "caveat": "Support depends on kernel, toolchain, and target; avoid a universal maturity claim. Index reviewed; linked works need separate review.",
+          "checked_on": "2026-10-17",
+          "event": null,
+          "evidence_urls": [
+            "https://rust-for-linux.com/"
+          ],
+          "id": "rust-for-linux",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Rust for Linux",
+          "url": "https://rust-for-linux.com/",
+          "verification": "source_content_checked",
+          "why": "Read the kernel project’s Rust policies and references before comparing compiler support and integration work."
         }
       ],
       "review_status": "source_checked_draft",
       "session_id": "talks-compiling-the-linux-kernel-with-gccrs"
     },
     {
-      "checked_on": "2026-10-15",
-      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+      "checked_on": "2026-10-17",
+      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
       "resources": [
         {
           "access": "open",
@@ -912,6 +955,27 @@
           "url": "https://tokio.rs/tokio/tutorial/select",
           "verification": "source_content_checked",
           "why": "Understand what happens to unfinished futures when another stream or cancellation branch wins."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Cloudflare"
+          ],
+          "caveat": "Historical 2025 report; old fixed versions are not current upgrade advice. Article sections reviewed; code and reported measurements were not reproduced.",
+          "checked_on": "2026-10-17",
+          "event": null,
+          "evidence_urls": [
+            "https://blog.cloudflare.com/resolving-a-request-smuggling-vulnerability-in-pingora/"
+          ],
+          "id": "pingora-request-smuggling-2025",
+          "kind": "article",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "Resolving a request smuggling vulnerability in Pingora",
+          "url": "https://blog.cloudflare.com/resolving-a-request-smuggling-vulnerability-in-pingora/",
+          "verification": "source_content_checked",
+          "why": "Study a proxy protocol failure alongside the Pingora design account; memory safety alone does not establish protocol correctness."
         }
       ],
       "review_status": "source_checked_draft",
@@ -1023,8 +1087,8 @@
       "session_id": "talks-fearless-concurrency-on-the-gpu"
     },
     {
-      "checked_on": "2026-10-15",
-      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+      "checked_on": "2026-10-17",
+      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
       "resources": [
         {
           "access": "open",
@@ -1109,6 +1173,93 @@
           "url": "https://doc.rust-lang.org/std/convert/index.html",
           "verification": "source_content_checked",
           "why": "Compare AsRef, From, Into, and fallible conversions alongside Deref and Borrow."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Brown University Cognitive Engineering Lab"
+          ],
+          "caveat": "Experimental adaptation of the Rust Book; quiz behavior not tested. Introduction reviewed; the full work and exercises were not reviewed or executed.",
+          "checked_on": "2026-10-17",
+          "event": null,
+          "evidence_urls": [
+            "https://rust-book.cs.brown.edu/"
+          ],
+          "id": "brown-experimental-rust-book",
+          "kind": "book",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Brown's experimental Rust Book",
+          "url": "https://rust-book.cs.brown.edu/",
+          "verification": "source_content_checked",
+          "why": "Review ownership and borrowing with visual explanations before comparing reference and conversion traits."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Rust library team and contributors"
+          ],
+          "caveat": "Guidance rather than a mandate; a chapter is already linked in this repository.",
+          "checked_on": "2026-10-17",
+          "event": null,
+          "evidence_urls": [
+            "https://rust-lang.github.io/api-guidelines/"
+          ],
+          "id": "rust-api-guidelines",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "Rust API Guidelines",
+          "url": "https://rust-lang.github.io/api-guidelines/",
+          "verification": "source_content_checked",
+          "why": "Use the full API checklist after reading the interoperability chapter already linked for this session."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Rust Design Patterns contributors"
+          ],
+          "caveat": "Community guide; individual examples not evaluated. Introduction reviewed; the full work and exercises were not reviewed or executed.",
+          "checked_on": "2026-10-17",
+          "event": null,
+          "evidence_urls": [
+            "https://rust-unofficial.github.io/patterns/"
+          ],
+          "id": "rust-design-patterns",
+          "kind": "book",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "Rust Design Patterns",
+          "url": "https://rust-unofficial.github.io/patterns/",
+          "verification": "source_content_checked",
+          "why": "Compare API choices with community explanations of Rust idioms, patterns, and anti-patterns."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Aaron Weiss",
+            "Olek Gierczak",
+            "Daniel Patterson",
+            "Amal Ahmed"
+          ],
+          "caveat": "Abstract and publication metadata reviewed; the full paper was not reviewed. This research language is separate from Oxide Computer Company.",
+          "checked_on": "2026-10-17",
+          "event": null,
+          "evidence_urls": [
+            "https://arxiv.org/abs/1903.00982"
+          ],
+          "id": "oxide-essence-of-rust",
+          "kind": "paper",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "Oxide: The Essence of Rust",
+          "url": "https://arxiv.org/abs/1903.00982",
+          "verification": "source_content_checked",
+          "why": "Follow ownership and borrowing explanations into a formal model of a Rust-like language."
         }
       ],
       "review_status": "source_checked_draft",
@@ -1480,8 +1631,8 @@
       "session_id": "talks-inside-cloud-hypervisor-from-kvm-to-a-running-vm"
     },
     {
-      "checked_on": "2026-10-15",
-      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+      "checked_on": "2026-10-17",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
       "resources": [
         {
           "access": "open",
@@ -1567,6 +1718,28 @@
           "url": "https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/",
           "verification": "source_content_checked",
           "why": "Explains retry budgets and backoff choices that keep background workers from multiplying failures."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Rain Paharia",
+            "Oxide"
+          ],
+          "caveat": "Living engineering document; dated examples need version checks. Article sections reviewed; code and reported measurements were not reproduced.",
+          "checked_on": "2026-10-17",
+          "event": null,
+          "evidence_urls": [
+            "https://rfd.shared.oxide.computer/rfd/0400"
+          ],
+          "id": "oxide-cancel-safety",
+          "kind": "article",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "Dealing with cancel safety in async Rust",
+          "url": "https://rfd.shared.oxide.computer/rfd/0400",
+          "verification": "source_content_checked",
+          "why": "Examine cancellation and partial progress when a worker stops; compare task completion with durable recovery."
         }
       ],
       "review_status": "source_checked_draft",
@@ -1671,8 +1844,8 @@
       "session_id": "talks-move-your-problems"
     },
     {
-      "checked_on": "2026-10-15",
-      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+      "checked_on": "2026-10-17",
+      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
       "resources": [
         {
           "access": "open",
@@ -1761,14 +1934,36 @@
           "url": "https://quantum.cloud.ibm.com/docs/en/guides/transpile",
           "verification": "source_content_checked",
           "why": "Learn why quantum circuits need routing and transformation for the target hardware."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Evan Wallace",
+            "Figma"
+          ],
+          "caveat": "Historical 2018 account; not a description of the whole current stack. Article sections reviewed; code and reported measurements were not reproduced.",
+          "checked_on": "2026-10-17",
+          "event": null,
+          "evidence_urls": [
+            "https://www.figma.com/blog/rust-in-production-at-figma/"
+          ],
+          "id": "figma-rust-in-production-2018",
+          "kind": "article",
+          "published_on": "2018-05-02",
+          "relation": "alternative_approach",
+          "temporal_status": "published",
+          "title": "Rust in production at Figma",
+          "url": "https://www.figma.com/blog/rust-in-production-at-figma/",
+          "verification": "source_content_checked",
+          "why": "Compare a targeted service rewrite with a compiler migration, including the role of architectural changes in reported results."
         }
       ],
       "review_status": "source_checked_draft",
       "session_id": "talks-moving-a-quantum-compiler-from-python-to-rust"
     },
     {
-      "checked_on": "2026-10-15",
-      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+      "checked_on": "2026-10-17",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
       "resources": [
         {
           "access": "open",
@@ -1837,6 +2032,27 @@
           "url": "https://rust-lang.github.io/chalk/book/",
           "verification": "listing_checked",
           "why": "Explains logical goals, unification and canonical queries behind Rust trait reasoning."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Rust Project rustc-perf contributors"
+          ],
+          "caveat": "Dashboard shell, help, and project description checked; no interactive query or independent benchmark run.",
+          "checked_on": "2026-10-17",
+          "event": null,
+          "evidence_urls": [
+            "https://perf.rust-lang.org/"
+          ],
+          "id": "rustc-performance-dashboard",
+          "kind": "project",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "Rust compiler performance dashboard",
+          "url": "https://perf.rust-lang.org/",
+          "verification": "source_content_checked",
+          "why": "Explore the compiler performance dashboard when asking how a compiler optimization is measured across workloads."
         }
       ],
       "review_status": "source_checked_draft",
@@ -2263,8 +2479,8 @@
       "session_id": "talks-shipping-temporal-how-the-rust-ecosystem-built-chrome-s-newest-web-api"
     },
     {
-      "checked_on": "2026-10-15",
-      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+      "checked_on": "2026-10-17",
+      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
       "resources": [
         {
           "access": "open",
@@ -2355,14 +2571,56 @@
           "url": "https://arxiv.org/abs/2602.06466",
           "verification": "source_content_checked",
           "why": "Explore effect analysis that narrows the code requiring manual dependency review."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Open Source Technology Improvement Fund"
+          ],
+          "caveat": "Catalog review only; audit findings apply to the stated scope and date. Index reviewed; linked works need separate review.",
+          "checked_on": "2026-10-17",
+          "event": null,
+          "evidence_urls": [
+            "https://ostif.org/audits/"
+          ],
+          "id": "ostif-audit-catalog",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "OSTIF audit catalog",
+          "url": "https://ostif.org/audits/",
+          "verification": "source_content_checked",
+          "why": "Find original audit reports and compare their dates and scope with the dependencies you want to assess."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "rustls maintainers"
+          ],
+          "caveat": "Index reviewed; resolve a specific version against the individual advisory.",
+          "checked_on": "2026-10-17",
+          "event": null,
+          "evidence_urls": [
+            "https://github.com/rustls/rustls/security/advisories"
+          ],
+          "id": "rustls-security-advisories",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "rustls security advisories",
+          "url": "https://github.com/rustls/rustls/security/advisories",
+          "verification": "source_content_checked",
+          "why": "Use maintainers’ advisories as an example of tracing an affected dependency version to a specific report."
         }
       ],
       "review_status": "source_checked_draft",
       "session_id": "talks-supply-chain-attacks-and-how-to-protect-ourselves"
     },
     {
-      "checked_on": "2026-10-15",
-      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+      "checked_on": "2026-10-17",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
       "resources": [
         {
           "access": "open",
@@ -2448,14 +2706,35 @@
           "url": "https://docs.rust-embedded.org/book/",
           "verification": "listing_checked",
           "why": "Builds the no_std and peripheral vocabulary needed to compare embedded ecosystems."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Oxide"
+          ],
+          "caveat": "Organizational perspective, including its own judgments. Article sections reviewed; code and reported measurements were not reproduced.",
+          "checked_on": "2026-10-17",
+          "event": null,
+          "evidence_urls": [
+            "https://rfd.shared.oxide.computer/rfd/0113"
+          ],
+          "id": "oxide-engineering-determination",
+          "kind": "article",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "Engineering Determination",
+          "url": "https://rfd.shared.oxide.computer/rfd/0113",
+          "verification": "source_content_checked",
+          "why": "Compare one company’s embedded-system choices and rejected approaches with the work of building a new Rust platform."
         }
       ],
       "review_status": "source_checked_draft",
       "session_id": "talks-tales-from-the-embedded-rust-frontier-bootstrapping-a-brand-new-ecosystem"
     },
     {
-      "checked_on": "2026-10-15",
-      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed.",
+      "checked_on": "2026-10-17",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
       "resources": [
         {
           "access": "open",
@@ -2576,6 +2855,27 @@
           "url": "https://rustlab.it/talks/bridging-robotics-and-systems-programming-why-copper-is-a-game-changer",
           "verification": "listing_checked",
           "why": "Offers a future comparison of Rust runtime design for robot integration and concurrent execution."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Ferrous Systems"
+          ],
+          "caveat": "Explicit development preview; not evidence that a user's product is certified. Documentation index reviewed; examples were not executed.",
+          "checked_on": "2026-10-17",
+          "event": null,
+          "evidence_urls": [
+            "https://public-docs.ferrocene.dev/main/"
+          ],
+          "id": "ferrocene-public-docs-preview",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "Ferrocene public documentation",
+          "url": "https://public-docs.ferrocene.dev/main/",
+          "verification": "source_content_checked",
+          "why": "Inspect an example of language, safety, and qualification documentation when considering Rust in autonomous systems."
         }
       ],
       "review_status": "source_checked_draft",
@@ -2777,8 +3077,8 @@
       "session_id": "talks-vortex-one-format-for-any-shape"
     },
     {
-      "checked_on": "2026-10-15",
-      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+      "checked_on": "2026-10-17",
+      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
       "resources": [
         {
           "access": "open",
@@ -2869,14 +3169,128 @@
           "url": "https://lcnr.de/blog/2022/02/05/diving-deep-implied-bounds-and-variance.html",
           "verification": "source_content_checked",
           "why": "Work through a concrete soundness problem involving lifetime bounds and variance."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Ralf Jung",
+            "Jacques-Henri Jourdan",
+            "Robbert Krebbers",
+            "Derek Dreyer"
+          ],
+          "caveat": "POPL 2018; abstract and asset listing reviewed, not proofs or executable artifact.",
+          "checked_on": "2026-10-17",
+          "event": null,
+          "evidence_urls": [
+            "https://plv.mpi-sws.org/rustbelt/popl18/"
+          ],
+          "id": "rustbelt-popl-2018",
+          "kind": "paper",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "RustBelt: Securing the Foundations of the Rust Programming Language",
+          "url": "https://plv.mpi-sws.org/rustbelt/popl18/",
+          "verification": "source_content_checked",
+          "why": "Explore formal foundations behind Rust’s safety argument through the paper, presentation, and linked proof artifact."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Joshua Yanovski",
+            "Hoang-Hai Dang",
+            "Ralf Jung",
+            "Derek Dreyer"
+          ],
+          "caveat": "ICFP 2021; abstract and asset listing reviewed; results not reproduced.",
+          "checked_on": "2026-10-17",
+          "event": null,
+          "evidence_urls": [
+            "https://plv.mpi-sws.org/rustbelt/ghostcell/"
+          ],
+          "id": "ghostcell-icfp-2021",
+          "kind": "paper",
+          "published_on": null,
+          "relation": "alternative_approach",
+          "temporal_status": "published",
+          "title": "GhostCell: Separating Permissions from Data in Rust",
+          "url": "https://plv.mpi-sws.org/rustbelt/ghostcell/",
+          "verification": "source_content_checked",
+          "why": "Explore a research design that separates permission from data when reasoning about shared mutable structures."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Verus project and cited authors"
+          ],
+          "caveat": "Publication index reviewed; each paper and tool needs separate evaluation.",
+          "checked_on": "2026-10-17",
+          "event": null,
+          "evidence_urls": [
+            "https://verus-lang.github.io/verus/publications-and-projects/"
+          ],
+          "id": "verus-publications",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "Verus publications and projects",
+          "url": "https://verus-lang.github.io/verus/publications-and-projects/",
+          "verification": "source_content_checked",
+          "why": "Find work on Rust verification and distinguish a tool’s proved properties from guarantees supplied by Rust’s type system."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Chenyuan Yang and coauthors"
+          ],
+          "caveat": "OOPSLA 2025, arXiv revision 22 August 2025; abstract and introduction reviewed. Reported results are bounded to the paper's benchmark and were not reproduced here.",
+          "checked_on": "2026-10-17",
+          "event": null,
+          "evidence_urls": [
+            "https://arxiv.org/abs/2409.13082"
+          ],
+          "id": "autoverus-oopsla-2025",
+          "kind": "paper",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "AutoVerus: Automated Proof Generation for Rust Code",
+          "url": "https://arxiv.org/abs/2409.13082",
+          "verification": "source_content_checked",
+          "why": "Explore LLM-assisted proof construction with verification feedback, beyond the properties checked by ordinary Rust types."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Travis Hance",
+            "Laila Elbeheiry",
+            "Yusuke Matsushita",
+            "Derek Dreyer"
+          ],
+          "caveat": "PLDI 2026; abstract and introduction reviewed. The paper studies a subset and does not verify the Verus implementation or all Rust libraries.",
+          "checked_on": "2026-10-17",
+          "event": null,
+          "evidence_urls": [
+            "https://iris-project.org/pdfs/2026-pldi-verusbelt.pdf"
+          ],
+          "id": "verusbelt-pldi-2026",
+          "kind": "paper",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "VerusBelt: A Semantic Foundation for Verus’s Proof-Oriented Extensions to the Rust Type System",
+          "url": "https://iris-project.org/pdfs/2026-pldi-verusbelt.pdf",
+          "verification": "source_content_checked",
+          "why": "Read research on the semantic foundations of Verus’s proof-oriented types, borrowing, and concurrency."
         }
       ],
       "review_status": "source_checked_draft",
       "session_id": "talks-what-s-next-for-rust-s-type-system"
     },
     {
-      "checked_on": "2026-10-15",
-      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+      "checked_on": "2026-10-17",
+      "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
       "resources": [
         {
           "access": "open",
@@ -2971,6 +3385,48 @@
           "url": "https://rustlab.it/talks/from-scripts-to-contracts-what-rusts-type-system-taught-me-about-infrastructure-c",
           "verification": "listing_checked",
           "why": "Explore an announced design for typed deployment composition, recovery, and agent access to infrastructure."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Oxide"
+          ],
+          "caveat": "Company-specific experience; not a universal verdict on async Rust. Article sections reviewed; code and reported measurements were not reproduced.",
+          "checked_on": "2026-10-17",
+          "event": null,
+          "evidence_urls": [
+            "https://rfd.shared.oxide.computer/rfd/0397"
+          ],
+          "id": "oxide-async-control-plane",
+          "kind": "article",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "Challenges with async/await in the control plane",
+          "url": "https://rfd.shared.oxide.computer/rfd/0397",
+          "verification": "source_content_checked",
+          "why": "Compare compile-time infrastructure checks with async cancellation problems observed in a running control plane."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Xudong Sun and coauthors"
+          ],
+          "caveat": "OSDI 2024; abstract and media index reviewed, not controller execution or proof reproduction.",
+          "checked_on": "2026-10-17",
+          "event": null,
+          "evidence_urls": [
+            "https://www.usenix.org/conference/osdi24/presentation/sun-xudong"
+          ],
+          "id": "anvil-osdi-2024",
+          "kind": "paper",
+          "published_on": null,
+          "relation": "alternative_approach",
+          "temporal_status": "published",
+          "title": "Anvil: Verifying Liveness of Cluster Management Controllers",
+          "url": "https://www.usenix.org/conference/osdi24/presentation/sun-xudong",
+          "verification": "source_content_checked",
+          "why": "Compare compilation-time checks with research on verifying that Rust controllers eventually reconcile infrastructure to a desired state."
         }
       ],
       "review_status": "source_checked_draft",
@@ -3069,8 +3525,8 @@
       "session_id": "workshops-beyond-p99-observing-async-rust"
     },
     {
-      "checked_on": "2026-10-15",
-      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+      "checked_on": "2026-10-17",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
       "resources": [
         {
           "access": "open",
@@ -3146,14 +3602,57 @@
           "url": "https://github.com/rust-vmm/vmm-reference",
           "verification": "source_content_checked",
           "why": "Shows how reusable Rust virtualization components fit together in a small VMM."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Stanford course authors"
+          ],
+          "caveat": "The inspected schedule is from 2022; retain its historical context.",
+          "checked_on": "2026-10-17",
+          "event": null,
+          "evidence_urls": [
+            "https://web.stanford.edu/class/cs110l/handouts/course-material/"
+          ],
+          "id": "stanford-cs110l-materials",
+          "kind": "course",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "CS110L: Safety in Systems Programming",
+          "url": "https://web.stanford.edu/class/cs110l/handouts/course-material/",
+          "verification": "source_content_checked",
+          "why": "Find systems-programming teaching material to review ownership and concurrency before studying a virtual machine monitor."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "X41 D-Sec",
+            "OSTIF"
+          ],
+          "caveat": "2023 report; title, contents, and summary inspected, not independently audited.",
+          "checked_on": "2026-10-17",
+          "event": null,
+          "evidence_urls": [
+            "https://ostif.org/wp-content/uploads/2023/11/X41-rustvmm-final_release.pdf"
+          ],
+          "id": "rust-vmm-x41-audit-2023",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "Rust VMM code review report",
+          "url": "https://ostif.org/wp-content/uploads/2023/11/X41-rustvmm-final_release.pdf",
+          "verification": "source_content_checked",
+          "why": "Read the scope and findings of a real rust-vmm audit alongside the workshop’s component and isolation choices."
         }
       ],
       "review_status": "source_checked_draft",
       "session_id": "workshops-building-a-virtual-machine-monitor-in-rust"
     },
     {
-      "checked_on": "2026-10-15",
-      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+      "checked_on": "2026-10-17",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
       "resources": [
         {
           "access": "open",
@@ -3238,6 +3737,71 @@
           "url": "https://ferrous-systems.com/blog/rust-and-threadx/",
           "verification": "source_content_checked",
           "why": "Provides an embedded example of combining Rust with an existing C real-time operating system."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Jeff Vander Stoep",
+            "Google"
+          ],
+          "caveat": "2025 company report; preserve comparison scope and measurement limits. Article sections reviewed; code and reported measurements were not reproduced.",
+          "checked_on": "2026-10-17",
+          "event": null,
+          "evidence_urls": [
+            "https://blog.google/security/rust-in-android-move-fast-fix-things/"
+          ],
+          "id": "google-rust-in-android-2025",
+          "kind": "article",
+          "published_on": "2025-11-13",
+          "relation": "next_step",
+          "temporal_status": "published",
+          "title": "Rust in Android: move fast and fix things",
+          "url": "https://blog.google/security/rust-in-android-move-fast-fix-things/",
+          "verification": "source_content_checked",
+          "why": "Read a company’s account of adopting Rust alongside an existing native codebase; keep its measurements and scope explicit."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Google Android team and contributors"
+          ],
+          "caveat": "Course introduction reviewed; exercises and full course not executed or completed.",
+          "checked_on": "2026-10-17",
+          "event": null,
+          "evidence_urls": [
+            "https://google.github.io/comprehensive-rust/"
+          ],
+          "id": "google-comprehensive-rust",
+          "kind": "course",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "Comprehensive Rust",
+          "url": "https://google.github.io/comprehensive-rust/",
+          "verification": "source_content_checked",
+          "why": "Review ownership and other Rust foundations before studying incremental migration and language boundaries."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Luca Palmieri",
+            "Mainmatter"
+          ],
+          "caveat": "Course introduction reviewed; exercises not executed.",
+          "checked_on": "2026-10-17",
+          "event": null,
+          "evidence_urls": [
+            "https://rust-exercises.com/100-exercises/"
+          ],
+          "id": "mainmatter-100-rust-exercises",
+          "kind": "course",
+          "published_on": null,
+          "relation": "preparation",
+          "temporal_status": "published",
+          "title": "100 Exercises To Learn Rust",
+          "url": "https://rust-exercises.com/100-exercises/",
+          "verification": "source_content_checked",
+          "why": "Use short exercises to identify gaps in Rust fundamentals before attempting migration exercises."
         }
       ],
       "review_status": "source_checked_draft",
@@ -3350,8 +3914,8 @@
       "session_id": "workshops-containers-are-dead"
     },
     {
-      "checked_on": "2026-10-15",
-      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+      "checked_on": "2026-10-17",
+      "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
       "resources": [
         {
           "access": "open",
@@ -3415,6 +3979,27 @@
           "url": "https://github.com/domenicquirl/rust-embedded-intro",
           "verification": "listing_checked",
           "why": "Offers introductory material from one of the workshop mentors."
+        },
+        {
+          "access": "open",
+          "authors": [
+            "Embassy contributors"
+          ],
+          "caveat": "Root currently redirects to a version/target page; retain actual version when linking an API. Documentation index reviewed; examples were not executed.",
+          "checked_on": "2026-10-17",
+          "event": null,
+          "evidence_urls": [
+            "https://docs.embassy.dev/"
+          ],
+          "id": "embassy-documentation",
+          "kind": "documentation",
+          "published_on": null,
+          "relation": "same_topic",
+          "temporal_status": "published",
+          "title": "Embassy documentation",
+          "url": "https://docs.embassy.dev/",
+          "verification": "source_content_checked",
+          "why": "Find the executor and hardware documentation for the Embassy exercises; match the version and target to the workshop setup."
         }
       ],
       "review_status": "source_checked_draft",

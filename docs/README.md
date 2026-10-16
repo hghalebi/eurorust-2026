@@ -15,6 +15,7 @@ organizing, community participation, or agent-assisted research.
 | Record choices and questions | [Itinerary template](../templates/itinerary.md) and [session notes](../templates/session.md) |
 | Choose a first source | [Four engineering questions](../resources/learning-paths.md), with reading and questions to bring |
 | Read beyond a session | [Session resources](../resources/related-talks/README.md) and [topic indexes](../resources/topics/README.md) |
+| Find original material | [Courses, research, engineering accounts, and event guidance](../resources/library.md) |
 | Explore other conferences | [Conference archives](../resources/conferences/README.md), with programme and recording coverage |
 | Follow new Rust work | [Future events, podcasts, newsletters, and feeds](../resources/stay-current/README.md) |
 | Find a community or activity | [Four learning paths and participation routes](../community/README.md) |

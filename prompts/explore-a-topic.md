@@ -5,6 +5,10 @@ Provide the [learning pack](../exports/archive/learning-pack.md) or
 [manifest](../exports/archive/manifest.json), and the matching conference catalog.
 For wider discovery, add the [edition inventory](../community/conference-archive/editions.json)
 and [archived appearances](../community/conference-archive/appearances.json).
+Use the [library index](../resources/library.md) to find courses and research.
+For governance, community, or event practice, add the
+[reader pack](../exports/guides/reader-pack.json) and its
+[manifest](../exports/guides/manifest.json).
 
 Copy and adapt:
 

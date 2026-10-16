@@ -38,13 +38,35 @@ fn invalid_references_dates_and_private_paths_preserve_existing_outputs() {
     let expected = fs::read(&output).unwrap();
     let input = root.join("community/event-resources.json");
     let original = fs::read(&input).unwrap();
+    let collection: Collection = serde_json::from_slice(&original).unwrap();
+    // Keep the invalid cases relative to the reviewed fixture as it advances.
+    let after_reference: CheckedOn = collection
+        .reference_date
+        .0
+        .succ_opt()
+        .unwrap()
+        .to_string()
+        .try_into()
+        .unwrap();
+    let after_review_window: ReviewDue = collection.resources[0]
+        .review
+        .checked_on
+        .0
+        .checked_add_days(chrono::Days::new(91))
+        .unwrap()
+        .to_string()
+        .try_into()
+        .unwrap();
     let edits = [
         ("/routes/0/guide", json!("docs/../.plan/private.md")),
         ("/routes/0/guide", json!(".plan/private.md")),
         ("/routes/0/guide", json!("/tmp/private.md")),
         ("/routes/0/resource_ids/0", json!("missing-resource")),
-        ("/resources/0/review/checked_on", json!("2026-10-17")),
-        ("/resources/0/review/next_review_on", json!("2027-12-01")),
+        ("/resources/0/review/checked_on", json!(after_reference)),
+        (
+            "/resources/0/review/next_review_on",
+            json!(after_review_window),
+        ),
         ("/resources/0/review/checked_on", json!("2026-02-30")),
         ("/resources/0/review/limits", json!([])),
         ("/resources/0/review/status", json!("unavailable")),

@@ -1,8 +1,8 @@
 {
   "session_id": "talks-your-infrastructure-should-compile-too",
-  "checked_on": "2026-10-15",
+  "checked_on": "2026-10-17",
   "review_status": "source_checked_draft",
-  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
   "resources": [
     {
       "id": "encore-infrastructure-planner",
@@ -97,6 +97,48 @@
         "source_url": "https://rustlab.it/talks/from-scripts-to-contracts-what-rusts-type-system-taught-me-about-infrastructure-c"
       },
       "caveat": "Future session; the abstract's system guarantees have not been independently evaluated."
+    },
+    {
+      "id": "oxide-async-control-plane",
+      "title": "Challenges with async/await in the control plane",
+      "kind": "article",
+      "url": "https://rfd.shared.oxide.computer/rfd/0397",
+      "authors": [
+        "Oxide"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Compare compile-time infrastructure checks with async cancellation problems observed in a running control plane.",
+      "evidence_urls": [
+        "https://rfd.shared.oxide.computer/rfd/0397"
+      ],
+      "checked_on": "2026-10-17",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Company-specific experience; not a universal verdict on async Rust. Article sections reviewed; code and reported measurements were not reproduced."
+    },
+    {
+      "id": "anvil-osdi-2024",
+      "title": "Anvil: Verifying Liveness of Cluster Management Controllers",
+      "kind": "paper",
+      "url": "https://www.usenix.org/conference/osdi24/presentation/sun-xudong",
+      "authors": [
+        "Xudong Sun and coauthors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "alternative_approach",
+      "why": "Compare compilation-time checks with research on verifying that Rust controllers eventually reconcile infrastructure to a desired state.",
+      "evidence_urls": [
+        "https://www.usenix.org/conference/osdi24/presentation/sun-xudong"
+      ],
+      "checked_on": "2026-10-17",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "OSDI 2024; abstract and media index reviewed, not controller execution or proof reproduction."
     }
   ]
 }

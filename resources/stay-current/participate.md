@@ -91,6 +91,10 @@ Preserve the original source, language, and translation credit.
 
 ## Learn together
 
+Find existing reading and exercises in the [source library](../library.md).
+For the group itself, use its [community and organizational guidance](../library.md#community-and-organizational-support)
+on welcoming contributors, sharing maintenance, and supporting participation.
+
 These are formats you can propose, not events hosted by this repository.
 Use the [activity template](../../templates/community-activity.md) to state the
 scope, preparation, access, and intended result.

@@ -3,6 +3,10 @@
 Write one question you want the conference to help answer. Choose a session,
 read or watch one source, and decide what you will do with the answer.
 
+Find a course, paper, or engineering account in the
+[learning library](../resources/library.md). Each source note explains the
+connection, access, and limits, including historical editions.
+
 ## Before choosing
 
 Use the [planning guide](planning-guide.md) for goals, availability, alternatives,

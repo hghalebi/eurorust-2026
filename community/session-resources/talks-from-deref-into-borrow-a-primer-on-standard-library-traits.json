@@ -1,8 +1,8 @@
 {
   "session_id": "talks-from-deref-into-borrow-a-primer-on-standard-library-traits",
-  "checked_on": "2026-10-15",
+  "checked_on": "2026-10-17",
   "review_status": "source_checked_draft",
-  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
   "resources": [
     {
       "id": "rust-book-deref",
@@ -87,6 +87,93 @@
       "temporal_status": "published",
       "event": null,
       "caveat": null
+    },
+    {
+      "id": "brown-experimental-rust-book",
+      "title": "Brown's experimental Rust Book",
+      "kind": "book",
+      "url": "https://rust-book.cs.brown.edu/",
+      "authors": [
+        "Brown University Cognitive Engineering Lab"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Review ownership and borrowing with visual explanations before comparing reference and conversion traits.",
+      "evidence_urls": [
+        "https://rust-book.cs.brown.edu/"
+      ],
+      "checked_on": "2026-10-17",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Experimental adaptation of the Rust Book; quiz behavior not tested. Introduction reviewed; the full work and exercises were not reviewed or executed."
+    },
+    {
+      "id": "rust-api-guidelines",
+      "title": "Rust API Guidelines",
+      "kind": "documentation",
+      "url": "https://rust-lang.github.io/api-guidelines/",
+      "authors": [
+        "Rust library team and contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Use the full API checklist after reading the interoperability chapter already linked for this session.",
+      "evidence_urls": [
+        "https://rust-lang.github.io/api-guidelines/"
+      ],
+      "checked_on": "2026-10-17",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Guidance rather than a mandate; a chapter is already linked in this repository."
+    },
+    {
+      "id": "rust-design-patterns",
+      "title": "Rust Design Patterns",
+      "kind": "book",
+      "url": "https://rust-unofficial.github.io/patterns/",
+      "authors": [
+        "Rust Design Patterns contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Compare API choices with community explanations of Rust idioms, patterns, and anti-patterns.",
+      "evidence_urls": [
+        "https://rust-unofficial.github.io/patterns/"
+      ],
+      "checked_on": "2026-10-17",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Community guide; individual examples not evaluated. Introduction reviewed; the full work and exercises were not reviewed or executed."
+    },
+    {
+      "id": "oxide-essence-of-rust",
+      "title": "Oxide: The Essence of Rust",
+      "kind": "paper",
+      "url": "https://arxiv.org/abs/1903.00982",
+      "authors": [
+        "Aaron Weiss",
+        "Olek Gierczak",
+        "Daniel Patterson",
+        "Amal Ahmed"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Follow ownership and borrowing explanations into a formal model of a Rust-like language.",
+      "evidence_urls": [
+        "https://arxiv.org/abs/1903.00982"
+      ],
+      "checked_on": "2026-10-17",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Abstract and publication metadata reviewed; the full paper was not reviewed. This research language is separate from Oxide Computer Company."
     }
   ]
 }

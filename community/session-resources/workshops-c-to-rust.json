@@ -1,8 +1,8 @@
 {
   "session_id": "workshops-c-to-rust",
-  "checked_on": "2026-10-15",
+  "checked_on": "2026-10-17",
   "review_status": "source_checked_draft",
-  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.",
+  "research_note": "Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
   "resources": [
     {
       "id": "c-to-rust-migration-book",
@@ -87,6 +87,71 @@
       "temporal_status": "published",
       "event": null,
       "caveat": "Historical integration example; certification statements are tied to its publication date."
+    },
+    {
+      "id": "google-rust-in-android-2025",
+      "title": "Rust in Android: move fast and fix things",
+      "kind": "article",
+      "url": "https://blog.google/security/rust-in-android-move-fast-fix-things/",
+      "authors": [
+        "Jeff Vander Stoep",
+        "Google"
+      ],
+      "published_on": "2025-11-13",
+      "access": "open",
+      "relation": "next_step",
+      "why": "Read a company’s account of adopting Rust alongside an existing native codebase; keep its measurements and scope explicit.",
+      "evidence_urls": [
+        "https://blog.google/security/rust-in-android-move-fast-fix-things/"
+      ],
+      "checked_on": "2026-10-17",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "2025 company report; preserve comparison scope and measurement limits. Article sections reviewed; code and reported measurements were not reproduced."
+    },
+    {
+      "id": "google-comprehensive-rust",
+      "title": "Comprehensive Rust",
+      "kind": "course",
+      "url": "https://google.github.io/comprehensive-rust/",
+      "authors": [
+        "Google Android team and contributors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Review ownership and other Rust foundations before studying incremental migration and language boundaries.",
+      "evidence_urls": [
+        "https://google.github.io/comprehensive-rust/"
+      ],
+      "checked_on": "2026-10-17",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Course introduction reviewed; exercises and full course not executed or completed."
+    },
+    {
+      "id": "mainmatter-100-rust-exercises",
+      "title": "100 Exercises To Learn Rust",
+      "kind": "course",
+      "url": "https://rust-exercises.com/100-exercises/",
+      "authors": [
+        "Luca Palmieri",
+        "Mainmatter"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "preparation",
+      "why": "Use short exercises to identify gaps in Rust fundamentals before attempting migration exercises.",
+      "evidence_urls": [
+        "https://rust-exercises.com/100-exercises/"
+      ],
+      "checked_on": "2026-10-17",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Course introduction reviewed; exercises not executed."
     }
   ]
 }

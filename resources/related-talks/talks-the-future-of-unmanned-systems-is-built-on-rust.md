@@ -2,7 +2,7 @@
 
 [Official EuroRust session](https://eurorust.eu/talks/the-future-of-unmanned-systems-is-built-on-rust/) · [All session resources](README.md)
 
-Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed.
+Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 Speakers and their work: [Benedikt Wiethof](../speakers/benedikt-wiethof.md), [Theophil Spiegeler Castañeda](../speakers/theophil-spiegeler-castaneda.md).
 
@@ -80,6 +80,16 @@ Independent alternative; no claim that the speakers use this project.
 
 Source page checked: 2026-10-15. Evidence: [github.com](https://github.com/ros2-rust/ros2_rust).
 
-Source review: **2026-10-15**. Draft checked against source; community review pending. Connections are editorial suggestions.
+### [Ferrocene public documentation](https://public-docs.ferrocene.dev/main/)
+
+Documentation · Ferrous Systems · open access
+
+**Suggested next step.** Inspect an example of language, safety, and qualification documentation when considering Rust in autonomous systems.
+
+Explicit development preview; not evidence that a user's product is certified. Documentation index reviewed; examples were not executed.
+
+Source page checked: 2026-10-17. Evidence: [public-docs.ferrocene.dev](https://public-docs.ferrocene.dev/main/).
+
+Source review: **2026-10-17**. Draft checked against source; community review pending. Connections are editorial suggestions.
 
 [Sources and reuse](../../docs/source-and-reuse-policy.md) · [Suggest a correction](../../CONTRIBUTING.md#learning-resources-and-archives) · [Structured source](../../community/session-resources/talks-the-future-of-unmanned-systems-is-built-on-rust.json)

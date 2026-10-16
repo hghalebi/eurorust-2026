@@ -92,6 +92,10 @@ join on `session_id`. Use the [learning prompt](../prompts/explore-a-topic.md)
 to select a few sources for your goals and available time.
 The [four-question guide](../resources/learning-paths.md) shows a short reading
 route; use its structure with your own goals.
+The [learning and event library](../resources/library.md) connects original
+courses, papers, engineering accounts, and event guidance to both packs.
+Add the [reader pack](../exports/guides/reader-pack.json) and its
+[manifest](../exports/guides/manifest.json) for governance and community sources.
 
 The [format guide](learning-resources.md) explains evidence, access, and archive
 coverage. Keep future announcements distinct from published material. A page

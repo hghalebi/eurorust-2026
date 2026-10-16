@@ -1,8 +1,8 @@
 {
   "session_id": "talks-designing-state-machines-for-streaming-proxies-in-rust",
-  "checked_on": "2026-10-15",
+  "checked_on": "2026-10-17",
   "review_status": "source_checked_draft",
-  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
   "resources": [
     {
       "id": "hoverbear-state-machine-patterns",
@@ -67,6 +67,27 @@
       "temporal_status": "published",
       "event": null,
       "caveat": null
+    },
+    {
+      "id": "pingora-request-smuggling-2025",
+      "title": "Resolving a request smuggling vulnerability in Pingora",
+      "kind": "article",
+      "url": "https://blog.cloudflare.com/resolving-a-request-smuggling-vulnerability-in-pingora/",
+      "authors": [
+        "Cloudflare"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Study a proxy protocol failure alongside the Pingora design account; memory safety alone does not establish protocol correctness.",
+      "evidence_urls": [
+        "https://blog.cloudflare.com/resolving-a-request-smuggling-vulnerability-in-pingora/"
+      ],
+      "checked_on": "2026-10-17",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Historical 2025 report; old fixed versions are not current upgrade advice. Article sections reviewed; code and reported measurements were not reproduced."
     }
   ]
 }

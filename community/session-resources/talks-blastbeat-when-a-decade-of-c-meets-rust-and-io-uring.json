@@ -1,8 +1,8 @@
 {
   "session_id": "talks-blastbeat-when-a-decade-of-c-meets-rust-and-io-uring",
-  "checked_on": "2026-10-15",
+  "checked_on": "2026-10-17",
   "review_status": "source_checked_draft",
-  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
   "resources": [
     {
       "id": "tokio-uring-announcement",
@@ -97,6 +97,28 @@
         "source_url": "https://rustlab.it/talks/blastbeat-replacing-10-years-of-c-with-rust-and-iouring"
       },
       "caveat": "The same project and one EuroRust speaker; presentation details may differ and no future recording is promised."
+    },
+    {
+      "id": "discord-voice-edge-2026",
+      "title": "How We Moved Discord Voice to the Edge",
+      "kind": "article",
+      "url": "https://discord.com/blog/how-we-moved-discord-voice-to-the-edge",
+      "authors": [
+        "David Chen",
+        "Discord"
+      ],
+      "published_on": "2026-06-09",
+      "access": "open",
+      "relation": "next_step",
+      "why": "Compare another network-service rollout, including deployment reversals and investigations of async and network behavior.",
+      "evidence_urls": [
+        "https://discord.com/blog/how-we-moved-discord-voice-to-the-edge"
+      ],
+      "checked_on": "2026-10-17",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "2026 company report; distinct from Discord's 2020 Read States migration."
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 [Official EuroRust session](https://eurorust.eu/workshops/hands-on-embedded-rust/) · [All session resources](README.md)
 
-Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.
+Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 Speakers and their work: [Domenic Quirl](../speakers/domenic-quirl.md), [Björn Barwinski](../speakers/bjorn-barwinski.md).
 
@@ -52,6 +52,16 @@ Repository description checked; exercises and hardware compatibility were not te
 
 Listing checked: 2026-10-15. Evidence: [github.com](https://github.com/domenicquirl/rust-embedded-intro).
 
-Source review: **2026-10-15**. Draft checked against source; community review pending. Connections are editorial suggestions.
+### [Embassy documentation](https://docs.embassy.dev/)
+
+Documentation · Embassy contributors · open access
+
+**Same topic.** Find the executor and hardware documentation for the Embassy exercises; match the version and target to the workshop setup.
+
+Root currently redirects to a version/target page; retain actual version when linking an API. Documentation index reviewed; examples were not executed.
+
+Source page checked: 2026-10-17. Evidence: [docs.embassy.dev](https://docs.embassy.dev/).
+
+Source review: **2026-10-17**. Draft checked against source; community review pending. Connections are editorial suggestions.
 
 [Sources and reuse](../../docs/source-and-reuse-policy.md) · [Suggest a correction](../../CONTRIBUTING.md#learning-resources-and-archives) · [Structured source](../../community/session-resources/workshops-hands-on-embedded-rust.json)

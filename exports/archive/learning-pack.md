@@ -53,7 +53,7 @@ Source page checked: 2026-10-15. Evidence: [github.com](https://github.com/awsla
 
 Session ID: `workshops-building-a-virtual-machine-monitor-in-rust`. [Official source](https://eurorust.eu/workshops/building-a-virtual-machine-monitor-in-rust/).
 
-Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.
+Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 ### [Firecracker: Lightweight Virtualization for Serverless Applications](https://www.usenix.org/conference/nsdi20/presentation/agache)
 
@@ -85,11 +85,31 @@ Reference implementation; no build or guest boot was performed.
 
 Source page checked: 2026-10-15. Evidence: [github.com](https://github.com/rust-vmm/vmm-reference).
 
+### [CS110L: Safety in Systems Programming](https://web.stanford.edu/class/cs110l/handouts/course-material/)
+
+Course · Stanford course authors · open access
+
+**Preparation.** Find systems-programming teaching material to review ownership and concurrency before studying a virtual machine monitor.
+
+The inspected schedule is from 2022; retain its historical context.
+
+Source page checked: 2026-10-17. Evidence: [web.stanford.edu](https://web.stanford.edu/class/cs110l/handouts/course-material/).
+
+### [Rust VMM code review report](https://ostif.org/wp-content/uploads/2023/11/X41-rustvmm-final_release.pdf)
+
+Documentation · X41 D-Sec, OSTIF · open access
+
+**Suggested next step.** Read the scope and findings of a real rust-vmm audit alongside the workshop’s component and isolation choices.
+
+2023 report; title, contents, and summary inspected, not independently audited.
+
+Source page checked: 2026-10-17. Evidence: [ostif.org](https://ostif.org/wp-content/uploads/2023/11/X41-rustvmm-final_release.pdf).
+
 ## C→Rust, Beyond the Basics
 
 Session ID: `workshops-c-to-rust`. [Official source](https://eurorust.eu/workshops/c-to-rust/).
 
-Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.
+Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 ### [The C to Rust Migration Book](https://mainmatter.com/c-to-rust-migration-book/)
 
@@ -130,6 +150,38 @@ Publication date: 2023-12-07.
 Historical integration example; certification statements are tied to its publication date.
 
 Source page checked: 2026-10-15. Evidence: [ferrous-systems.com](https://ferrous-systems.com/blog/rust-and-threadx/).
+
+### [Rust in Android: move fast and fix things](https://blog.google/security/rust-in-android-move-fast-fix-things/)
+
+Article · Jeff Vander Stoep, Google · open access
+
+**Suggested next step.** Read a company’s account of adopting Rust alongside an existing native codebase; keep its measurements and scope explicit.
+
+Publication date: 2025-11-13.
+
+2025 company report; preserve comparison scope and measurement limits. Article sections reviewed; code and reported measurements were not reproduced.
+
+Source page checked: 2026-10-17. Evidence: [blog.google](https://blog.google/security/rust-in-android-move-fast-fix-things/).
+
+### [Comprehensive Rust](https://google.github.io/comprehensive-rust/)
+
+Course · Google Android team and contributors · open access
+
+**Preparation.** Review ownership and other Rust foundations before studying incremental migration and language boundaries.
+
+Course introduction reviewed; exercises and full course not executed or completed.
+
+Source page checked: 2026-10-17. Evidence: [google.github.io](https://google.github.io/comprehensive-rust/).
+
+### [100 Exercises To Learn Rust](https://rust-exercises.com/100-exercises/)
+
+Course · Luca Palmieri, Mainmatter · open access
+
+**Preparation.** Use short exercises to identify gaps in Rust fundamentals before attempting migration exercises.
+
+Course introduction reviewed; exercises not executed.
+
+Source page checked: 2026-10-17. Evidence: [rust-exercises.com](https://rust-exercises.com/100-exercises/).
 
 ## Containers Are Dead: Long Live WebAssembly
 
@@ -179,7 +231,7 @@ Listing checked: 2026-10-15. Evidence: [css.csail.mit.edu](https://css.csail.mit
 
 Session ID: `workshops-hands-on-embedded-rust`. [Official source](https://eurorust.eu/workshops/hands-on-embedded-rust/).
 
-Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.
+Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 ### [The Embedded Rust Book](https://docs.rust-embedded.org/book/)
 
@@ -206,6 +258,16 @@ Project · Domenic Quirl · open access
 Repository description checked; exercises and hardware compatibility were not tested.
 
 Listing checked: 2026-10-15. Evidence: [github.com](https://github.com/domenicquirl/rust-embedded-intro).
+
+### [Embassy documentation](https://docs.embassy.dev/)
+
+Documentation · Embassy contributors · open access
+
+**Same topic.** Find the executor and hardware documentation for the Embassy exercises; match the version and target to the workshop setup.
+
+Root currently redirects to a version/target page; retain actual version when linking an API. Documentation index reviewed; examples were not executed.
+
+Source page checked: 2026-10-17. Evidence: [docs.embassy.dev](https://docs.embassy.dev/).
 
 ## Programming a Line Follower Robot
 
@@ -395,7 +457,7 @@ Listing checked: 2026-10-15. Evidence: [eurorust.eu](https://eurorust.eu/2025/ta
 
 Session ID: `talks-compiling-the-linux-kernel-with-gccrs`. [Official source](https://eurorust.eu/talks/compiling-the-linux-kernel-with-gccrs/).
 
-Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.
+Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 ### [Compiling the Linux Kernel with gccrs](https://rustconf2026.sched.com/event/2KHyD)
 
@@ -441,11 +503,21 @@ The project describes gccrs as experimental; the talk title is not proof that it
 
 Source page checked: 2026-10-15. Evidence: [github.com](https://github.com/Rust-GCC/gccrs).
 
+### [Rust for Linux](https://rust-for-linux.com/)
+
+Documentation · Rust for Linux project · open access
+
+**Preparation.** Read the kernel project’s Rust policies and references before comparing compiler support and integration work.
+
+Support depends on kernel, toolchain, and target; avoid a universal maturity claim. Index reviewed; linked works need separate review.
+
+Source page checked: 2026-10-17. Evidence: [rust-for-linux.com](https://rust-for-linux.com/).
+
 ## The Future of Unmanned Systems Is Built on Rust
 
 Session ID: `talks-the-future-of-unmanned-systems-is-built-on-rust`. [Official source](https://eurorust.eu/talks/the-future-of-unmanned-systems-is-built-on-rust/).
 
-Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed.
+Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 ### [Rust as the Foundation for Future Unmanned Systems](https://oxidizeconf.com/sessions/keynote_rust_as_the-foundation_for_future_unmanned-systems)
 
@@ -503,11 +575,21 @@ Announced session on November 2, 2026; the title is the organizer’s wording, n
 
 Listing checked: 2026-10-15. Evidence: [rustlab.it](https://rustlab.it/talks/bridging-robotics-and-systems-programming-why-copper-is-a-game-changer).
 
+### [Ferrocene public documentation](https://public-docs.ferrocene.dev/main/)
+
+Documentation · Ferrous Systems · open access
+
+**Suggested next step.** Inspect an example of language, safety, and qualification documentation when considering Rust in autonomous systems.
+
+Explicit development preview; not evidence that a user's product is certified. Documentation index reviewed; examples were not executed.
+
+Source page checked: 2026-10-17. Evidence: [public-docs.ferrocene.dev](https://public-docs.ferrocene.dev/main/).
+
 ## Optimizing rustc's Next Trait Solver
 
 Session ID: `talks-optimizing-the-new-rust-trait-solver`. [Official source](https://eurorust.eu/talks/optimizing-the-new-rust-trait-solver/).
 
-Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.
+Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 ### [Next-gen trait solving](https://rustc-dev-guide.rust-lang.org/solve/trait-solving.html)
 
@@ -538,6 +620,16 @@ Book · Chalk contributors · open access
 Chalk is useful background; it is not the implementation of rustc’s next trait solver.
 
 Listing checked: 2026-10-15. Evidence: [rust-lang.github.io](https://rust-lang.github.io/chalk/book/).
+
+### [Rust compiler performance dashboard](https://perf.rust-lang.org/)
+
+Project · Rust Project rustc-perf contributors · open access
+
+**Suggested next step.** Explore the compiler performance dashboard when asking how a compiler optimization is measured across workloads.
+
+Dashboard shell, help, and project description checked; no interactive query or independent benchmark run.
+
+Source page checked: 2026-10-17. Evidence: [perf.rust-lang.org](https://perf.rust-lang.org/).
 
 ## Shipping Temporal: How the Rust Ecosystem Built Chrome’s Newest Web API
 
@@ -635,7 +727,7 @@ Listing checked: 2026-10-15. Evidence: [rustlab.it](https://rustlab.it/talks/tal
 
 Session ID: `talks-tales-from-the-embedded-rust-frontier-bootstrapping-a-brand-new-ecosystem`. [Official source](https://eurorust.eu/talks/tales-from-the-embedded-rust-frontier-bootstrapping-a-brand-new-ecosystem/).
 
-Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.
+Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 ### [Rust on Cortex-R52](https://ferrous-systems.com/blog/rust-cortex-r52/)
 
@@ -676,6 +768,16 @@ Book · Rust Embedded Devices Working Group · open access
 Introductory examples focus on microcontrollers rather than covering every Cortex-A or Cortex-R target.
 
 Listing checked: 2026-10-15. Evidence: [docs.rust-embedded.org](https://docs.rust-embedded.org/book/).
+
+### [Engineering Determination](https://rfd.shared.oxide.computer/rfd/0113)
+
+Article · Oxide · open access
+
+**Suggested next step.** Compare one company’s embedded-system choices and rejected approaches with the work of building a new Rust platform.
+
+Organizational perspective, including its own judgments. Article sections reviewed; code and reported measurements were not reproduced.
+
+Source page checked: 2026-10-17. Evidence: [rfd.shared.oxide.computer](https://rfd.shared.oxide.computer/rfd/0113).
 
 ## From Hardware to Human Interface: Building HID Devices in Rust
 
@@ -757,7 +859,7 @@ Listing checked: 2026-10-15. Evidence: [craftinginterpreters.com](https://crafti
 
 Session ID: `talks-lessons-from-building-a-background-task-processing-library`. [Official source](https://eurorust.eu/talks/lessons-from-building-a-background-task-processing-library/).
 
-Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass.
+Curated from primary pages, abstracts and project descriptions. Books, recordings and code were not fully read, watched or executed. No verified future conference match is included in this pass. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 ### [Apalis](https://apalis.dev/)
 
@@ -792,6 +894,16 @@ Article · Amazon Builders’ Library · open access
 **Suggested next step.** Explains retry budgets and backoff choices that keep background workers from multiplying failures.
 
 Source page checked: 2026-10-15. Evidence: [aws.amazon.com](https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/).
+
+### [Dealing with cancel safety in async Rust](https://rfd.shared.oxide.computer/rfd/0400)
+
+Article · Rain Paharia, Oxide · open access
+
+**Suggested next step.** Examine cancellation and partial progress when a worker stops; compare task completion with durable recovery.
+
+Living engineering document; dated examples need version checks. Article sections reviewed; code and reported measurements were not reproduced.
+
+Source page checked: 2026-10-17. Evidence: [rfd.shared.oxide.computer](https://rfd.shared.oxide.computer/rfd/0400).
 
 ## Running Safely with Scissors: Lock-free Concurrency for Maximum Throughput
 
@@ -921,7 +1033,7 @@ Source page checked: 2026-10-15. Evidence: [github.com](https://github.com/cloud
 
 Session ID: `talks-what-s-next-for-rust-s-type-system`. [Official source](https://eurorust.eu/talks/what-s-next-for-rust-s-type-system/).
 
-Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.
+Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 ### [-Znext-solver: what, why, and when](https://eurorust.eu/2025/talks/znext-solver/)
 
@@ -966,6 +1078,56 @@ Publication date: 2022-02-05.
 Historical analysis with an author correction; check the linked issue for current status.
 
 Source page checked: 2026-10-15. Evidence: [lcnr.de](https://lcnr.de/blog/2022/02/05/diving-deep-implied-bounds-and-variance.html).
+
+### [RustBelt: Securing the Foundations of the Rust Programming Language](https://plv.mpi-sws.org/rustbelt/popl18/)
+
+Paper · Ralf Jung, Jacques-Henri Jourdan, Robbert Krebbers, Derek Dreyer · open access
+
+**Suggested next step.** Explore formal foundations behind Rust’s safety argument through the paper, presentation, and linked proof artifact.
+
+POPL 2018; abstract and asset listing reviewed, not proofs or executable artifact.
+
+Source page checked: 2026-10-17. Evidence: [plv.mpi-sws.org](https://plv.mpi-sws.org/rustbelt/popl18/).
+
+### [GhostCell: Separating Permissions from Data in Rust](https://plv.mpi-sws.org/rustbelt/ghostcell/)
+
+Paper · Joshua Yanovski, Hoang-Hai Dang, Ralf Jung, Derek Dreyer · open access
+
+**Alternative approach.** Explore a research design that separates permission from data when reasoning about shared mutable structures.
+
+ICFP 2021; abstract and asset listing reviewed; results not reproduced.
+
+Source page checked: 2026-10-17. Evidence: [plv.mpi-sws.org](https://plv.mpi-sws.org/rustbelt/ghostcell/).
+
+### [Verus publications and projects](https://verus-lang.github.io/verus/publications-and-projects/)
+
+Documentation · Verus project and cited authors · open access
+
+**Suggested next step.** Find work on Rust verification and distinguish a tool’s proved properties from guarantees supplied by Rust’s type system.
+
+Publication index reviewed; each paper and tool needs separate evaluation.
+
+Source page checked: 2026-10-17. Evidence: [verus-lang.github.io](https://verus-lang.github.io/verus/publications-and-projects/).
+
+### [AutoVerus: Automated Proof Generation for Rust Code](https://arxiv.org/abs/2409.13082)
+
+Paper · Chenyuan Yang and coauthors · open access
+
+**Suggested next step.** Explore LLM-assisted proof construction with verification feedback, beyond the properties checked by ordinary Rust types.
+
+OOPSLA 2025, arXiv revision 22 August 2025; abstract and introduction reviewed. Reported results are bounded to the paper's benchmark and were not reproduced here.
+
+Source page checked: 2026-10-17. Evidence: [arxiv.org](https://arxiv.org/abs/2409.13082).
+
+### [VerusBelt: A Semantic Foundation for Verus’s Proof-Oriented Extensions to the Rust Type System](https://iris-project.org/pdfs/2026-pldi-verusbelt.pdf)
+
+Paper · Travis Hance, Laila Elbeheiry, Yusuke Matsushita, Derek Dreyer · open access
+
+**Suggested next step.** Read research on the semantic foundations of Verus’s proof-oriented types, borrowing, and concurrency.
+
+PLDI 2026; abstract and introduction reviewed. The paper studies a subset and does not verify the Verus implementation or all Rust libraries.
+
+Source page checked: 2026-10-17. Evidence: [iris-project.org](https://iris-project.org/pdfs/2026-pldi-verusbelt.pdf).
 
 ## Image codecs rustification in Chromium
 
@@ -1063,7 +1225,7 @@ Source page checked: 2026-10-15. Evidence: [cxx.rs](https://cxx.rs/).
 
 Session ID: `talks-blastbeat-when-a-decade-of-c-meets-rust-and-io-uring`. [Official source](https://eurorust.eu/talks/blastbeat-when-a-decade-of-c-meets-rust-and-io-uring/).
 
-Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.
+Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 ### [Announcing tokio-uring: io-uring support for Tokio](https://tokio.rs/blog/2021-07-tokio-uring)
 
@@ -1109,11 +1271,23 @@ The same project and one EuroRust speaker; presentation details may differ and n
 
 Listing checked: 2026-10-15. Evidence: [rustlab.it](https://rustlab.it/talks/blastbeat-replacing-10-years-of-c-with-rust-and-iouring).
 
+### [How We Moved Discord Voice to the Edge](https://discord.com/blog/how-we-moved-discord-voice-to-the-edge)
+
+Article · David Chen, Discord · open access
+
+**Suggested next step.** Compare another network-service rollout, including deployment reversals and investigations of async and network behavior.
+
+Publication date: 2026-06-09.
+
+2026 company report; distinct from Discord's 2020 Read States migration.
+
+Source page checked: 2026-10-17. Evidence: [discord.com](https://discord.com/blog/how-we-moved-discord-voice-to-the-edge).
+
 ## Designing State Machines for Streaming Proxies in Rust
 
 Session ID: `talks-designing-state-machines-for-streaming-proxies-in-rust`. [Official source](https://eurorust.eu/talks/designing-state-machines-for-streaming-proxies-in-rust/).
 
-Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.
+Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 ### [Pretty State Machine Patterns in Rust](https://hoverbear.org/blog/rust-state-machine-pattern/)
 
@@ -1146,6 +1320,16 @@ Documentation · Tokio contributors · open access
 **Preparation.** Understand what happens to unfinished futures when another stream or cancellation branch wins.
 
 Source page checked: 2026-10-15. Evidence: [tokio.rs](https://tokio.rs/tokio/tutorial/select).
+
+### [Resolving a request smuggling vulnerability in Pingora](https://blog.cloudflare.com/resolving-a-request-smuggling-vulnerability-in-pingora/)
+
+Article · Cloudflare · open access
+
+**Suggested next step.** Study a proxy protocol failure alongside the Pingora design account; memory safety alone does not establish protocol correctness.
+
+Historical 2025 report; old fixed versions are not current upgrade advice. Article sections reviewed; code and reported measurements were not reproduced.
+
+Source page checked: 2026-10-17. Evidence: [blog.cloudflare.com](https://blog.cloudflare.com/resolving-a-request-smuggling-vulnerability-in-pingora/).
 
 ## Qt Bridges: Bringing a mature C++ UI framework to Rust
 
@@ -1185,7 +1369,7 @@ Source page checked: 2026-10-15. Evidence: [cxx.rs](https://cxx.rs/).
 
 Session ID: `talks-supply-chain-attacks-and-how-to-protect-ourselves`. [Official source](https://eurorust.eu/talks/supply-chain-attacks-and-how-to-protect-ourselves/).
 
-Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.
+Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 ### [RustSec Advisory Database](https://rustsec.org/)
 
@@ -1226,6 +1410,26 @@ Publication date: 2026-02-06.
 Research preprint; metadata and abstract checked, with no independent validation of its evaluation.
 
 Source page checked: 2026-10-15. Evidence: [arxiv.org](https://arxiv.org/abs/2602.06466).
+
+### [OSTIF audit catalog](https://ostif.org/audits/)
+
+Documentation · Open Source Technology Improvement Fund · open access
+
+**Suggested next step.** Find original audit reports and compare their dates and scope with the dependencies you want to assess.
+
+Catalog review only; audit findings apply to the stated scope and date. Index reviewed; linked works need separate review.
+
+Source page checked: 2026-10-17. Evidence: [ostif.org](https://ostif.org/audits/).
+
+### [rustls security advisories](https://github.com/rustls/rustls/security/advisories)
+
+Documentation · rustls maintainers · open access
+
+**Suggested next step.** Use maintainers’ advisories as an example of tracing an affected dependency version to a specific report.
+
+Index reviewed; resolve a specific version against the individual advisory.
+
+Source page checked: 2026-10-17. Evidence: [github.com](https://github.com/rustls/rustls/security/advisories).
 
 ## Build systems: when your systems need systems to build
 
@@ -1379,7 +1583,7 @@ Listing checked: 2026-10-15. Evidence: [rustlab.it](https://rustlab.it/talks/tal
 
 Session ID: `talks-moving-a-quantum-compiler-from-python-to-rust`. [Official source](https://eurorust.eu/talks/moving-a-quantum-compiler-from-python-to-rust/).
 
-Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.
+Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 ### [LightSABRE: A Lightweight and Enhanced SABRE Algorithm](https://arxiv.org/abs/2409.08368)
 
@@ -1422,6 +1626,18 @@ Documentation · IBM Quantum contributors · open access
 **Preparation.** Learn why quantum circuits need routing and transformation for the target hardware.
 
 Source page checked: 2026-10-15. Evidence: [quantum.cloud.ibm.com](https://quantum.cloud.ibm.com/docs/en/guides/transpile).
+
+### [Rust in production at Figma](https://www.figma.com/blog/rust-in-production-at-figma/)
+
+Article · Evan Wallace, Figma · open access
+
+**Alternative approach.** Compare a targeted service rewrite with a compiler migration, including the role of architectural changes in reported results.
+
+Publication date: 2018-05-02.
+
+Historical 2018 account; not a description of the whole current stack. Article sections reviewed; code and reported measurements were not reproduced.
+
+Source page checked: 2026-10-17. Evidence: [www.figma.com](https://www.figma.com/blog/rust-in-production-at-figma/).
 
 ## Building a high performance, thread-per-core, zero-copy OpenTelemetry engine in Rust
 
@@ -1471,7 +1687,7 @@ Source page checked: 2026-10-15. Evidence: [seastar.io](https://seastar.io/share
 
 Session ID: `talks-your-infrastructure-should-compile-too`. [Official source](https://eurorust.eu/talks/your-infrastructure-should-compile-too/).
 
-Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.
+Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 ### [Designing an algorithmic cloud infrastructure provisioning system](https://dev.to/encore/designing-an-algorithmic-cloud-infrastructure-provisioning-system-kde)
 
@@ -1520,6 +1736,26 @@ Talk · Jesús Pérez · registration
 Future session; the abstract's system guarantees have not been independently evaluated.
 
 Listing checked: 2026-10-15. Evidence: [rustlab.it](https://rustlab.it/talks/from-scripts-to-contracts-what-rusts-type-system-taught-me-about-infrastructure-c).
+
+### [Challenges with async/await in the control plane](https://rfd.shared.oxide.computer/rfd/0397)
+
+Article · Oxide · open access
+
+**Suggested next step.** Compare compile-time infrastructure checks with async cancellation problems observed in a running control plane.
+
+Company-specific experience; not a universal verdict on async Rust. Article sections reviewed; code and reported measurements were not reproduced.
+
+Source page checked: 2026-10-17. Evidence: [rfd.shared.oxide.computer](https://rfd.shared.oxide.computer/rfd/0397).
+
+### [Anvil: Verifying Liveness of Cluster Management Controllers](https://www.usenix.org/conference/osdi24/presentation/sun-xudong)
+
+Paper · Xudong Sun and coauthors · open access
+
+**Alternative approach.** Compare compilation-time checks with research on verifying that Rust controllers eventually reconcile infrastructure to a desired state.
+
+OSDI 2024; abstract and media index reviewed, not controller execution or proof reproduction.
+
+Source page checked: 2026-10-17. Evidence: [www.usenix.org](https://www.usenix.org/conference/osdi24/presentation/sun-xudong).
 
 ## Fearless Concurrency on the GPU
 
@@ -1577,7 +1813,7 @@ Listing checked: 2026-10-15. Evidence: [rustconf.com](https://rustconf.com/speak
 
 Session ID: `talks-from-deref-into-borrow-a-primer-on-standard-library-traits`. [Official source](https://eurorust.eu/talks/from-deref-into-borrow-a-primer-on-standard-library-traits/).
 
-Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.
+Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 ### [The Rust Programming Language: Treating Smart Pointers Like Regular References](https://doc.rust-lang.org/book/ch15-02-deref.html)
 
@@ -1610,6 +1846,46 @@ Documentation · Rust project contributors · open access
 **Same topic.** Compare AsRef, From, Into, and fallible conversions alongside Deref and Borrow.
 
 Source page checked: 2026-10-15. Evidence: [doc.rust-lang.org](https://doc.rust-lang.org/std/convert/index.html).
+
+### [Brown's experimental Rust Book](https://rust-book.cs.brown.edu/)
+
+Book · Brown University Cognitive Engineering Lab · open access
+
+**Preparation.** Review ownership and borrowing with visual explanations before comparing reference and conversion traits.
+
+Experimental adaptation of the Rust Book; quiz behavior not tested. Introduction reviewed; the full work and exercises were not reviewed or executed.
+
+Source page checked: 2026-10-17. Evidence: [rust-book.cs.brown.edu](https://rust-book.cs.brown.edu/).
+
+### [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/)
+
+Documentation · Rust library team and contributors · open access
+
+**Suggested next step.** Use the full API checklist after reading the interoperability chapter already linked for this session.
+
+Guidance rather than a mandate; a chapter is already linked in this repository.
+
+Source page checked: 2026-10-17. Evidence: [rust-lang.github.io](https://rust-lang.github.io/api-guidelines/).
+
+### [Rust Design Patterns](https://rust-unofficial.github.io/patterns/)
+
+Book · Rust Design Patterns contributors · open access
+
+**Suggested next step.** Compare API choices with community explanations of Rust idioms, patterns, and anti-patterns.
+
+Community guide; individual examples not evaluated. Introduction reviewed; the full work and exercises were not reviewed or executed.
+
+Source page checked: 2026-10-17. Evidence: [rust-unofficial.github.io](https://rust-unofficial.github.io/patterns/).
+
+### [Oxide: The Essence of Rust](https://arxiv.org/abs/1903.00982)
+
+Paper · Aaron Weiss, Olek Gierczak, Daniel Patterson, Amal Ahmed · open access
+
+**Suggested next step.** Follow ownership and borrowing explanations into a formal model of a Rust-like language.
+
+Abstract and publication metadata reviewed; the full paper was not reviewed. This research language is separate from Oxide Computer Company.
+
+Source page checked: 2026-10-17. Evidence: [arxiv.org](https://arxiv.org/abs/1903.00982).
 
 ## Beyond Flamegraphs: Precise Rust Profiling with hotpath-rs
 

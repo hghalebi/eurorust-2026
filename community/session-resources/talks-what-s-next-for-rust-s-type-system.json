@@ -1,8 +1,8 @@
 {
   "session_id": "talks-what-s-next-for-rust-s-type-system",
-  "checked_on": "2026-10-15",
+  "checked_on": "2026-10-17",
   "review_status": "source_checked_draft",
-  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.",
+  "research_note": "Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below. Additions checked 2026-10-17; earlier entries retain their individual source dates.",
   "resources": [
     {
       "id": "lcnr-next-solver-eurorust-2025",
@@ -93,6 +93,120 @@
       "temporal_status": "published",
       "event": null,
       "caveat": "Historical analysis with an author correction; check the linked issue for current status."
+    },
+    {
+      "id": "rustbelt-popl-2018",
+      "title": "RustBelt: Securing the Foundations of the Rust Programming Language",
+      "kind": "paper",
+      "url": "https://plv.mpi-sws.org/rustbelt/popl18/",
+      "authors": [
+        "Ralf Jung",
+        "Jacques-Henri Jourdan",
+        "Robbert Krebbers",
+        "Derek Dreyer"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Explore formal foundations behind Rust’s safety argument through the paper, presentation, and linked proof artifact.",
+      "evidence_urls": [
+        "https://plv.mpi-sws.org/rustbelt/popl18/"
+      ],
+      "checked_on": "2026-10-17",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "POPL 2018; abstract and asset listing reviewed, not proofs or executable artifact."
+    },
+    {
+      "id": "ghostcell-icfp-2021",
+      "title": "GhostCell: Separating Permissions from Data in Rust",
+      "kind": "paper",
+      "url": "https://plv.mpi-sws.org/rustbelt/ghostcell/",
+      "authors": [
+        "Joshua Yanovski",
+        "Hoang-Hai Dang",
+        "Ralf Jung",
+        "Derek Dreyer"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "alternative_approach",
+      "why": "Explore a research design that separates permission from data when reasoning about shared mutable structures.",
+      "evidence_urls": [
+        "https://plv.mpi-sws.org/rustbelt/ghostcell/"
+      ],
+      "checked_on": "2026-10-17",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "ICFP 2021; abstract and asset listing reviewed; results not reproduced."
+    },
+    {
+      "id": "verus-publications",
+      "title": "Verus publications and projects",
+      "kind": "documentation",
+      "url": "https://verus-lang.github.io/verus/publications-and-projects/",
+      "authors": [
+        "Verus project and cited authors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Find work on Rust verification and distinguish a tool’s proved properties from guarantees supplied by Rust’s type system.",
+      "evidence_urls": [
+        "https://verus-lang.github.io/verus/publications-and-projects/"
+      ],
+      "checked_on": "2026-10-17",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "Publication index reviewed; each paper and tool needs separate evaluation."
+    },
+    {
+      "id": "autoverus-oopsla-2025",
+      "title": "AutoVerus: Automated Proof Generation for Rust Code",
+      "kind": "paper",
+      "url": "https://arxiv.org/abs/2409.13082",
+      "authors": [
+        "Chenyuan Yang and coauthors"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Explore LLM-assisted proof construction with verification feedback, beyond the properties checked by ordinary Rust types.",
+      "evidence_urls": [
+        "https://arxiv.org/abs/2409.13082"
+      ],
+      "checked_on": "2026-10-17",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "OOPSLA 2025, arXiv revision 22 August 2025; abstract and introduction reviewed. Reported results are bounded to the paper's benchmark and were not reproduced here."
+    },
+    {
+      "id": "verusbelt-pldi-2026",
+      "title": "VerusBelt: A Semantic Foundation for Verus’s Proof-Oriented Extensions to the Rust Type System",
+      "kind": "paper",
+      "url": "https://iris-project.org/pdfs/2026-pldi-verusbelt.pdf",
+      "authors": [
+        "Travis Hance",
+        "Laila Elbeheiry",
+        "Yusuke Matsushita",
+        "Derek Dreyer"
+      ],
+      "published_on": null,
+      "access": "open",
+      "relation": "next_step",
+      "why": "Read research on the semantic foundations of Verus’s proof-oriented types, borrowing, and concurrency.",
+      "evidence_urls": [
+        "https://iris-project.org/pdfs/2026-pldi-verusbelt.pdf"
+      ],
+      "checked_on": "2026-10-17",
+      "verification": "source_content_checked",
+      "temporal_status": "published",
+      "event": null,
+      "caveat": "PLDI 2026; abstract and introduction reviewed. The paper studies a subset and does not verify the Verus implementation or all Rust libraries."
     }
   ]
 }

@@ -21,6 +21,7 @@ Preparing a talk, researching conference history, organizing an event, or learni
 | Follow my path | [Goals and choices](my-conference/README.md) and [proposed itinerary](my-conference/itinerary.md) |
 | Make your own plan | [Planning guide](docs/planning-guide.md), [day guide](exports/day-guide.md), and [session calendars](docs/itinerary-calendar.md) |
 | Choose something to learn | [Four engineering questions](resources/learning-paths.md), [talk and workshop reading lists](resources/related-talks/README.md), and [conference archives](resources/conferences/README.md) |
+| Find original material | [Research, courses, engineering accounts, and event guides](resources/library.md) |
 | Keep learning after EuroRust | [Future conferences, podcasts, newsletters, and technical writing](resources/stay-current/README.md) |
 | Find people and a next step | [Communities, contributions, and open calls](community/README.md) |
 | Plan with your agent | [Agent guide](docs/agent-guide.md) and [copyable prompt](prompts/choose-my-path.md) |

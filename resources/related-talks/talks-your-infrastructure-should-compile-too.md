@@ -2,7 +2,7 @@
 
 [Official EuroRust session](https://eurorust.eu/talks/your-infrastructure-should-compile-too/) · [All session resources](README.md)
 
-Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below.
+Selected for this session after checking primary source pages. Connections are editorial judgments, not speaker endorsements. Books, papers, and recordings were not reviewed in full; listing checks and access limits are noted below. Additions checked 2026-10-17; earlier entries retain their individual source dates.
 
 Speakers and their work: [André Eriksson](../speakers/andre-eriksson.md).
 
@@ -72,6 +72,26 @@ The article is published, but describes a pre-beta preview; it does not establis
 
 Source page checked: 2026-10-15. Evidence: [encore.dev](https://encore.dev/blog/encore-rs).
 
-Source review: **2026-10-15**. Draft checked against source; community review pending. Connections are editorial suggestions.
+### [Challenges with async/await in the control plane](https://rfd.shared.oxide.computer/rfd/0397)
+
+Article · Oxide · open access
+
+**Suggested next step.** Compare compile-time infrastructure checks with async cancellation problems observed in a running control plane.
+
+Company-specific experience; not a universal verdict on async Rust. Article sections reviewed; code and reported measurements were not reproduced.
+
+Source page checked: 2026-10-17. Evidence: [rfd.shared.oxide.computer](https://rfd.shared.oxide.computer/rfd/0397).
+
+### [Anvil: Verifying Liveness of Cluster Management Controllers](https://www.usenix.org/conference/osdi24/presentation/sun-xudong)
+
+Paper · Xudong Sun and coauthors · open access
+
+**Alternative approach.** Compare compilation-time checks with research on verifying that Rust controllers eventually reconcile infrastructure to a desired state.
+
+OSDI 2024; abstract and media index reviewed, not controller execution or proof reproduction.
+
+Source page checked: 2026-10-17. Evidence: [www.usenix.org](https://www.usenix.org/conference/osdi24/presentation/sun-xudong).
+
+Source review: **2026-10-17**. Draft checked against source; community review pending. Connections are editorial suggestions.
 
 [Sources and reuse](../../docs/source-and-reuse-policy.md) · [Suggest a correction](../../CONTRIBUTING.md#learning-resources-and-archives) · [Structured source](../../community/session-resources/talks-your-infrastructure-should-compile-too.json)
