@@ -6,6 +6,20 @@ Curated from primary pages, abstracts and project descriptions. Books, recording
 
 Speakers and their work: [Timo Bachmann](../speakers/timo-bachmann.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Use grammar parsing and shared language-server components to build editor features for a specialized language.
+- **Prerequisites:** Not established; ask the organizer.
+- **Setup:** Not established; check the session page.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [Tree-sitter documentation](https://tree-sitter.github.io/tree-sitter/). Explains incremental parsing and grammar construction for editor tooling.
+- **Bring a question:** Which assumption would you test before using this approach in your own project?
+- **Other sessions starting at this time:** [From Hardware to Human Interface: Building HID Devices in Rust](talks-from-hardware-to-human-interface-building-hid-devices-in-rust.md). Choose one; check its full time and access requirements.
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 No specific related conference appearance was verified in this pass. The sources below provide topic background.

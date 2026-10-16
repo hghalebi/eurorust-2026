@@ -6,6 +6,20 @@ Selected for this session after checking primary source pages. Connections are e
 
 Speakers and their work: [Sanskar Jaiswal](../speakers/sanskar-jaiswal.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Model partial streaming progress, cancellation, buffering, and connection reuse as explicit states and transitions in a Rust proxy.
+- **Prerequisites:** Not established; ask the organizer.
+- **Setup:** Not established; check the session page.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [Pretty State Machine Patterns in Rust](https://hoverbear.org/blog/rust-state-machine-pattern/). Compare enums and owned transitions for representing valid protocol states.
+- **Bring a question:** Which rule can the type system enforce, and which still needs a runtime check?
+- **Other sessions starting at this time:** [Blastbeat: When a Decade of C++ Meets Rust and io\_uring](talks-blastbeat-when-a-decade-of-c-meets-rust-and-io-uring.md). Choose one; check its full time and access requirements.
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 No specific related conference appearance was verified in this pass. The sources below provide topic background.

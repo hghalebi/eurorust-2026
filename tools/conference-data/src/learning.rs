@@ -473,6 +473,100 @@ fn render_resource(resource: &Resource) -> String {
     body
 }
 
+fn decision_card(catalog: &Catalog, session: &Session, set: &ResourceSet) -> String {
+    let mut out = String::from(
+        "## Decide and prepare\n\nThese preparation suggestions are editorial. Check the official description for fit and access.\n\n",
+    );
+    if let Some(annotation) = &session.annotation {
+        if annotation.review_status == AnnotationReview::SourceChanged {
+            out.push_str("- The source changed; recheck the summary, prerequisites, and setup.\n");
+        } else {
+            out.push_str(&format!(
+                "- **Focus:** {}\n- **Prerequisites:** {}\n- **Setup:** {}\n",
+                md(annotation.summary.as_str()),
+                md(annotation
+                    .prerequisites
+                    .as_ref()
+                    .map_or("Not established; ask the organizer.", Prerequisite::as_str)),
+                md(annotation.setup.as_ref().map_or(
+                    "Not established; check the session page.",
+                    SetupRequirement::as_str
+                ))
+            ));
+        }
+    }
+    out.push_str(&format!(
+        "- **Access:** {} Remote participation: {}\n",
+        md(session.ticket_requirement.as_ref().map_or(
+            "Ticket conditions unconfirmed; check the official page.",
+            AccessNote::as_str
+        )),
+        md(session
+            .remote_access
+            .as_ref()
+            .map_or("unconfirmed.", AccessNote::as_str))
+    ));
+    let first = set
+        .resources
+        .iter()
+        .find(|r| {
+            r.relation == Relation::Preparation
+                && r.temporal_status == TemporalStatus::Published
+                && r.access == Access::Open
+        })
+        .or_else(|| {
+            set.resources.iter().find(|r| {
+                r.temporal_status == TemporalStatus::Published && r.access == Access::Open
+            })
+        });
+    if let Some(resource) = first {
+        out.push_str(&format!(
+            "- **Start with:** [{}]({}). {}\n",
+            md(resource.title.as_str()),
+            destination(&resource.url),
+            md(resource.why.as_str())
+        ));
+    }
+    let has_topic = |wanted| {
+        session
+            .annotation
+            .as_ref()
+            .filter(|a| a.review_status != AnnotationReview::SourceChanged)
+            .is_some_and(|a| a.topics.iter().any(|t| t.as_str() == wanted))
+    };
+    let question = if session.id.as_str() == "talks-game-show" {
+        "Which clue helps you distinguish a bug from surprising but valid Rust?"
+    } else if has_topic("robotics") || has_topic("embedded") {
+        "Which assumptions need evidence from the real hardware, and which can you test in simulation?"
+    } else if has_topic("types") {
+        "Which rule can the type system enforce, and which still needs a runtime check?"
+    } else if has_topic("infrastructure") {
+        "What confirms the intended configuration became the actual running state?"
+    } else if has_topic("observability") {
+        "How much overhead does the measurement add, and which delays does it reveal or miss?"
+    } else if has_topic("async") || has_topic("production-reliability") {
+        "What happens if this work is cancelled or the process stops halfway through?"
+    } else {
+        "Which assumption would you test before using this approach in your own project?"
+    };
+    out.push_str(&format!("- **Bring a question:** {question}\n"));
+    let alternatives = catalog
+        .sessions
+        .iter()
+        .filter(|other| {
+            other.id != session.id
+                && other.slot.start() == session.slot.start()
+                && matches!(other.kind, SessionKind::Talk | SessionKind::Workshop)
+        })
+        .map(|s| format!("[{}]({}.md)", md(s.title.as_str()), s.id.as_str()))
+        .collect::<Vec<_>>();
+    if !alternatives.is_empty() {
+        out.push_str(&format!("- **Other sessions starting at this time:** {}. Choose one; check its full time and access requirements.\n", alternatives.join(" · ")));
+    }
+    out.push_str("\nAfter studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).\n\n");
+    out
+}
+
 impl CheckedLearning {
     fn views(&self) -> Result<BTreeMap<PathBuf, Vec<u8>>> {
         let catalog = self.bundle.catalog();
@@ -524,6 +618,7 @@ impl CheckedLearning {
             } else {
                 body.push_str(&format!("Speakers and their work: {speakers}.\n\n"));
             }
+            body.push_str(&decision_card(catalog, session, set));
             body.push_str("## Related talks and workshops\n\n");
             let related: Vec<_> = set.resources.iter().filter(|r| r.event.is_some()).collect();
             if related.is_empty() {
@@ -605,7 +700,7 @@ impl CheckedLearning {
                     session.id.as_str()
                 ));
             }
-            body.push_str("\n[All topics](README.md) · [Conference archives](../conferences/README.md) · [Speaker directory](../speakers/README.md)\n");
+            body.push_str("\n[Follow technical questions through conference history](../conferences/history.md#follow-a-technical-question) · [All topics](README.md) · [Conference archives](../conferences/README.md) · [Speaker directory](../speakers/README.md)\n");
             topic_index.push_str(&format!(
                 "| [{}]({}.md) | {} |\n",
                 md(&name),

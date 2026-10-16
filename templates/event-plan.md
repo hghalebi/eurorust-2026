@@ -35,9 +35,20 @@ Use one currency or state exchange assumptions. Date and source each estimate.
 
 ## Delivery and handoff
 
-Record the run sheet, entrances/rooms, equipment checks, fallbacks, change log,
-material permissions, and archive owner. Keep private contacts, attendee lists,
-and incident details outside public copies.
+| Time / timezone | Activity | Owner | Room or joining route | Equipment / fallback |
+| --- | --- | --- | --- | --- |
+| | Setup and access check | | | |
+| | Welcome and help routes | | | |
+| | Session and break | | | |
+| | Close, pack down, hand off | | | |
+
+| Session / work | Author | Permission and scope | Recording / slides / code | Captions status | Archive owner / due |
+| --- | --- | --- | --- | --- | --- |
+| | | Pending / granted / declined | | | |
+
+Record schedule changes with their date, owner, reason, and announcement route.
+Share entrances and room details through the event's appropriate channels. Keep
+private contacts, attendee lists, and incident details outside public copies.
 
 [Handbook](../resources/organizing/README.md) · [Example](../resources/organizing/example-event.md)
 · [Retrospective](event-retrospective.md)

@@ -6,6 +6,20 @@ Selected for this session after checking primary source pages. Connections are e
 
 Speakers and their work: [Francois Mockers](../speakers/francois-mockers.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Map dependency and build-time exposure to available auditing, review, and publishing practices in the Rust ecosystem.
+- **Prerequisites:** Not established; ask the organizer.
+- **Setup:** Not established; check the session page.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [RustSec Advisory Database](https://rustsec.org/). Find published crate advisories and understand the inputs used by dependency audit tools.
+- **Bring a question:** What confirms the intended configuration became the actual running state?
+- **Other sessions starting at this time:** [Qt Bridges: Bringing a mature C++ UI framework to Rust](talks-qt-bridges-bringing-a-mature-c-ui-framework-to-rust.md). Choose one; check its full time and access requirements.
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 No specific related conference appearance was verified in this pass. The sources below provide topic background.

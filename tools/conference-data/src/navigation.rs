@@ -45,6 +45,23 @@ fn headings(body: &str) -> BTreeSet<String> {
     let mut inside = false;
     for event in Parser::new(body) {
         match event {
+            Event::Html(html) | Event::InlineHtml(html) => {
+                // The generated resource indexes use explicit stable IDs. Only
+                // recognize literal empty anchors, not code samples or comments.
+                for line in html.lines() {
+                    if let Some(id) = line
+                        .trim()
+                        .strip_prefix("<a id=\"")
+                        .and_then(|s| s.strip_suffix("\"></a>").or_else(|| s.strip_suffix("\">")))
+                        && !id.is_empty()
+                        && id
+                            .bytes()
+                            .all(|b| b.is_ascii_alphanumeric() || b"-_.".contains(&b))
+                    {
+                        result.insert(id.to_owned());
+                    }
+                }
+            }
             Event::Start(Tag::Heading { .. }) => {
                 inside = true;
                 title.clear();
@@ -254,5 +271,14 @@ mod tests {
         assert!(anchors.contains("first-hello"));
         assert!(anchors.contains("first-hello-1"));
         assert!(!public_path(Path::new(".plan/internal.md")));
+    }
+    #[test]
+    fn explicit_resource_anchors_work_but_code_and_comments_do_not() {
+        let anchors = headings(
+            "<a id=\"source.one\"></a>\n\n<!-- <a id=\"comment\"></a> -->\n\n```html\n<a id=\"sample\"></a>\n```\n",
+        );
+        assert!(anchors.contains("source.one"));
+        assert!(!anchors.contains("comment"));
+        assert!(!anchors.contains("sample"));
     }
 }

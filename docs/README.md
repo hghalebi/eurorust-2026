@@ -10,7 +10,7 @@ organizing, community participation, or agent-assisted research.
 | Your goal | Open |
 | --- | --- |
 | Follow my path | [Learning goals](../my-conference/README.md) and [proposed itinerary](../my-conference/itinerary.md) |
-| Choose sessions | [Planning guide](planning-guide.md) and [schedule](../exports/schedule.md) |
+| Choose sessions | [Planning guide](planning-guide.md), [day guide](../exports/day-guide.md), and [session calendars](itinerary-calendar.md) |
 | Find the venue or room | [Times, places, and known gaps](time-and-place.md) |
 | Record choices and questions | [Itinerary template](../templates/itinerary.md) and [session notes](../templates/session.md) |
 | Choose a first source | [Four engineering questions](../resources/learning-paths.md), with reading and questions to bring |
@@ -29,6 +29,7 @@ The [data guide](data-guide.md) explains formats, source dates, and versions.
 Add [speaker profiles](../community/speaker-profiles.json) for a reading list.
 Use the [learning collection](learning-resources.md) for related talks and additional sources.
 Use the [community prompt](../prompts/find-my-community.md) to choose a group or activity.
+For speaking, history, or organizing, use the [reader pack and source guide](event-resources.md).
 
 ## Contribute
 

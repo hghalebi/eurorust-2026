@@ -6,6 +6,19 @@ Curated from primary pages, abstracts and project descriptions. Books, recording
 
 Speakers and their work: [Amos Wenger](../speakers/amos-wenger.md), [Tris Oaten](../speakers/tris-oaten.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** A community game-show session uses code review and bug-finding as a playful shared activity.
+- **Prerequisites:** Not established; ask the organizer.
+- **Setup:** Not established; check the session page.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [Engineering a Rust optimization quiz](https://fasterthanli.me/articles/engineering-a-rust-optimization-quiz). Shows how one host built an earlier Rust quiz and chose questions about compiler behavior.
+- **Bring a question:** Which clue helps you distinguish a bug from surprising but valid Rust?
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 No specific related conference appearance was verified in this pass. The sources below provide topic background.

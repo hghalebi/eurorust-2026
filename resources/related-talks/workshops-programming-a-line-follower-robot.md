@@ -6,6 +6,20 @@ Curated from primary pages, abstracts and project descriptions. Books, recording
 
 Speakers and their work: [Massimiliano Mantione](../speakers/massimiliano-mantione.md), [Michele Mantione](../speakers/michele-mantione.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Program simulated line-following robots with embedded async Rust, telemetry, and control refinements; this workshop does not supply physical robots.
+- **Prerequisites:** Basic Rust familiarity; prior embedded experience is unnecessary and async knowledge is optional.
+- **Setup:** Bring a Rust development laptop with rustup, Git, and an editor; exercises use simulation.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [Motion Control with Velocity Inputs, Part 2](https://modernrobotics.northwestern.edu/nu-gm-book-resource/11-3-motion-control-with-velocity-inputs-part-2-of-3/). Explains how integral feedback reduces tracking error before tuning a line follower.
+- **Bring a question:** Which assumptions need evidence from the real hardware, and which can you test in simulation?
+- **Other sessions starting at this time:** [Beyond p99: Observing Async Rust](workshops-beyond-p99-observing-async-rust.md) · [Building a virtual machine monitor in Rust](workshops-building-a-virtual-machine-monitor-in-rust.md) · [C→Rust, Beyond the Basics](workshops-c-to-rust.md) · [Containers Are Dead: Long Live WebAssembly](workshops-containers-are-dead.md) · [Hands-On Embedded Rust](workshops-hands-on-embedded-rust.md) · [Rust in Action - Applications of Computer Vision and Control](workshops-rust-in-action.md) · [Rust on the Field: Integrating Real Autonomous Systems](workshops-rust-on-the-field-integrating-real-autonomous-systems.md). Choose one; check its full time and access requirements.
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 ### [Programming a line follower robot](https://rustlab.it/talks/programming-a-line-follower-robot)

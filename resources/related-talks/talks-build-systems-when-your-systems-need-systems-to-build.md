@@ -6,6 +6,20 @@ Selected for this session after checking primary source pages. Connections are e
 
 Speakers and their work: [Jonas Kruckenberg](../speakers/jonas-kruckenberg.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Develop criteria for choosing and evolving build systems as project complexity grows.
+- **Prerequisites:** Not established; ask the organizer.
+- **Setup:** Not established; check the session page.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [Build systems à la carte](https://www.microsoft.com/en-us/research/publication/build-systems-la-carte/). Compare dependency discovery, scheduling, and rebuilding as separate build-system design choices.
+- **Bring a question:** What confirms the intended configuration became the actual running state?
+- **Other sessions starting at this time:** [Vortex: One Format for Any Shape](talks-vortex-one-format-for-any-shape.md). Choose one; check its full time and access requirements.
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 ### [Build systems à la carte](https://www.microsoft.com/en-us/research/publication/build-systems-la-carte/)

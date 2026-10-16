@@ -6,6 +6,20 @@ Selected for this session after checking primary source pages. Connections are e
 
 Speakers and their work: [Matthias Rauter](../speakers/matthias-rauter.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Explore a Rust-facing API for QML applications and the tradeoffs at the boundary with an established C++ UI toolkit.
+- **Prerequisites:** Not established; ask the organizer.
+- **Setup:** Not established; check the session page.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [CXX: Rust and C++ interoperability](https://cxx.rs/). Understand the CXX layer that supports Rust and C++ types crossing the Qt boundary.
+- **Bring a question:** Which assumption would you test before using this approach in your own project?
+- **Other sessions starting at this time:** [Supply Chain Attacks, and how to protect ourselves](talks-supply-chain-attacks-and-how-to-protect-ourselves.md). Choose one; check its full time and access requirements.
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 No specific related conference appearance was verified in this pass. The sources below provide topic background.

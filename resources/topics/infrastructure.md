@@ -16,4 +16,4 @@ see [four engineering questions](../learning-paths.md).
 - [Your Infrastructure Should Compile, Too](../related-talks/talks-your-infrastructure-should-compile-too.md)
 - [Beyond cargo build](../related-talks/talks-beyond-cargo-build.md)
 
-[All topics](README.md) · [Conference archives](../conferences/README.md) · [Speaker directory](../speakers/README.md)
+[Follow technical questions through conference history](../conferences/history.md#follow-a-technical-question) · [All topics](README.md) · [Conference archives](../conferences/README.md) · [Speaker directory](../speakers/README.md)

@@ -6,6 +6,20 @@ Curated from primary pages, abstracts and project descriptions. Books, recording
 
 Speakers and their work: [Filip Petkovski](../speakers/filip-petkovski.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Study append-oriented metrics storage and type-constrained concurrency, including the boundary between safe APIs and carefully isolated unsafe implementation.
+- **Prerequisites:** Not established; ask the organizer.
+- **Setup:** Not established; check the session page.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [Rust Atomics and Locks](https://mara.nl/atomics/). Builds the memory-ordering and synchronization knowledge needed to assess lock-free code.
+- **Bring a question:** Which rule can the type system enforce, and which still needs a runtime check?
+- **Other sessions starting at this time:** [Lessons from building a background task processing library](talks-lessons-from-building-a-background-task-processing-library.md). Choose one; check its full time and access requirements.
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 ### [Talking to ghosts](https://rustlab.it/talks/talking-to-ghosts)

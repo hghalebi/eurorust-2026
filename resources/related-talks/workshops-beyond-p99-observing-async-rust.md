@@ -6,6 +6,20 @@ Curated from primary pages, abstracts and project descriptions. Books, recording
 
 Speakers and their work: [Julián Montes de Oca](../speakers/julian-montes-de-oca.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Instrument async workloads to understand task progress, scheduling delays, slow requests, and the cost of production diagnostics.
+- **Prerequisites:** Comfort with Rust, preferably including some async programming; the named tools need no prior experience.
+- **Setup:** Bring a Rust-ready laptop and follow the emailed preparation instructions.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [Announcing Tokio Console 0.1](https://tokio.rs/blog/2021-12-announcing-tokio-console). Explains task states and why aggregate logs hide async runtime behavior.
+- **Bring a question:** How much overhead does the measurement add, and which delays does it reveal or miss?
+- **Other sessions starting at this time:** [Building a virtual machine monitor in Rust](workshops-building-a-virtual-machine-monitor-in-rust.md) · [C→Rust, Beyond the Basics](workshops-c-to-rust.md) · [Containers Are Dead: Long Live WebAssembly](workshops-containers-are-dead.md) · [Hands-On Embedded Rust](workshops-hands-on-embedded-rust.md) · [Programming a Line Follower Robot](workshops-programming-a-line-follower-robot.md) · [Rust in Action - Applications of Computer Vision and Control](workshops-rust-in-action.md) · [Rust on the Field: Integrating Real Autonomous Systems](workshops-rust-on-the-field-integrating-real-autonomous-systems.md). Choose one; check its full time and access requirements.
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 No specific related conference appearance was verified in this pass. The sources below provide topic background.

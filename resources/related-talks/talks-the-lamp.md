@@ -6,6 +6,20 @@ Selected for this session after checking primary source pages. Connections are e
 
 Speakers and their work: [Uwe Pachler](../speakers/uwe-pachler.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Follow a home-automation project through mechanical, electronic, and embedded-Rust decisions while making a motorized lamp remotely controllable.
+- **Prerequisites:** Not established; ask the organizer.
+- **Setup:** Not established; check the session page.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [The Rust on ESP Book](https://docs.espressif.com/projects/rust/book/). Learn the toolchains and embedded Rust options used around ESP devices.
+- **Bring a question:** Which assumptions need evidence from the real hardware, and which can you test in simulation?
+- **Other sessions starting at this time:** [Beyond Flamegraphs: Precise Rust Profiling with hotpath-rs](talks-beyond-flamegraphs-precise-rust-profiling-with-hotpath-rs.md). Choose one; check its full time and access requirements.
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 No specific related conference appearance was verified in this pass. The sources below provide topic background.

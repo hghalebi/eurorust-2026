@@ -1,14 +1,16 @@
 # Choose a session and leave with a next step
 
 Write one question you want the conference to help answer. Choose a session,
-prepare one source, and decide what you will do with the answer.
+read or watch one source, and decide what you will do with the answer.
 
 ## Before choosing
 
 Use the [planning guide](planning-guide.md) for goals, availability, alternatives,
-and bookings. Check [times and places](time-and-place.md) for entrances and room
-gaps. The [schedule](../exports/schedule.md) is a dated snapshot; confirm changes
+and bookings. Check [times and places](time-and-place.md) for entrances and unknown
+room details. The [day guide](../exports/day-guide.md) is a dated snapshot; confirm changes
 on the official event page.
+
+Keep selected sessions in a [tentative calendar](itinerary-calendar.md).
 
 For another event, try the [worked event comparison](../resources/stay-current/event-comparison.md),
 [announced conferences](../resources/stay-current/conferences.md),

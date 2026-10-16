@@ -6,6 +6,20 @@ Curated from primary pages, abstracts and project descriptions. Books, recording
 
 Speakers and their work: [Njuguna Mureithi](../speakers/njuguna-mureithi.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Explore worker API evolution, extensibility, dependency injection, and production shutdown/restart concerns in a Rust task-processing library.
+- **Prerequisites:** Not established; ask the organizer.
+- **Setup:** Not established; check the session page.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [Graceful Shutdown](https://tokio.rs/tokio/topics/shutdown). Explains cancellation and task completion when workers stop or restart.
+- **Bring a question:** What happens if this work is cancelled or the process stops halfway through?
+- **Other sessions starting at this time:** [Running Safely with Scissors: Lock-free Concurrency for Maximum Throughput](talks-running-safely-with-scissors-lock-free-concurrency-for-maximum-throughput.md). Choose one; check its full time and access requirements.
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 No specific related conference appearance was verified in this pass. The sources below provide topic background.

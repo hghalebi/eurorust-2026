@@ -6,6 +6,20 @@ Curated from primary pages, abstracts and project descriptions. Books, recording
 
 No individual speaker is named in this catalog.
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Integrate vehicle and field-data protocols into a Rust orchestration platform while handling unreliable transport and heterogeneous system models.
+- **Prerequisites:** Comfort with async Rust and Tokio; previous robotics or protocol experience is not required.
+- **Setup:** Bring a stable-Rust development laptop; hardware is provided and setup instructions are sent before the workshop.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [MAVLink Developer Guide](https://mavlink.io/en/). Explains the message, heartbeat and routing concepts behind the workshop’s MAVLink connector.
+- **Bring a question:** Which assumptions need evidence from the real hardware, and which can you test in simulation?
+- **Other sessions starting at this time:** [Beyond p99: Observing Async Rust](workshops-beyond-p99-observing-async-rust.md) · [Building a virtual machine monitor in Rust](workshops-building-a-virtual-machine-monitor-in-rust.md) · [C→Rust, Beyond the Basics](workshops-c-to-rust.md) · [Containers Are Dead: Long Live WebAssembly](workshops-containers-are-dead.md) · [Hands-On Embedded Rust](workshops-hands-on-embedded-rust.md) · [Programming a Line Follower Robot](workshops-programming-a-line-follower-robot.md) · [Rust in Action - Applications of Computer Vision and Control](workshops-rust-in-action.md). Choose one; check its full time and access requirements.
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 No specific related conference appearance was verified in this pass. The sources below provide topic background.

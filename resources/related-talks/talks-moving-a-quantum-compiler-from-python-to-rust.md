@@ -6,6 +6,20 @@ Selected for this session after checking primary source pages. Connections are e
 
 Speakers and their work: [Jake Lishman](../speakers/jake-lishman.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Follow an incremental compiler migration from research-oriented Python toward a Rust-centered implementation and changing hardware requirements.
+- **Prerequisites:** Not established; ask the organizer.
+- **Setup:** Not established; check the session page.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [Introduction to transpilation](https://quantum.cloud.ibm.com/docs/en/guides/transpile). Learn why quantum circuits need routing and transformation for the target hardware.
+- **Bring a question:** Which assumption would you test before using this approach in your own project?
+- **Other sessions starting at this time:** [Atomic Design Patterns in Rust: From Orderings to Code](talks-atomic-design-patterns-in-rust-from-orderings-to-code.md). Choose one; check its full time and access requirements.
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 No specific related conference appearance was verified in this pass. The sources below provide topic background.

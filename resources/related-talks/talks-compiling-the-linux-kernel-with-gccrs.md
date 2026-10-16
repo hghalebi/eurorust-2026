@@ -6,6 +6,20 @@ Curated from primary pages, abstracts and project descriptions. Books, recording
 
 Speakers and their work: [Arthur Cohen](../speakers/arthur-cohen.md), [Pierre-Emmanuel Patry](../speakers/pierre-emmanuel-patry.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Follow gccrs development toward building Rust kernel code and examine the compiler behavior and compatibility work behind that milestone.
+- **Prerequisites:** Not established; ask the organizer.
+- **Setup:** Not established; check the session page.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [gccrs: An alternative compiler for Rust](https://blog.rust-lang.org/2024/11/07/gccrs-an-alternative-compiler-for-rust/). Explains gccrs goals and its relationship to rustc and the wider Rust Project.
+- **Bring a question:** What confirms the intended configuration became the actual running state?
+- **Other sessions starting at this time:** [The Future of Unmanned Systems Is Built on Rust](talks-the-future-of-unmanned-systems-is-built-on-rust.md). Choose one; check its full time and access requirements.
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 ### [Compiling the Linux Kernel with gccrs](https://rustconf2026.sched.com/event/2KHyD)

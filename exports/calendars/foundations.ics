@@ -1,0 +1,333 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hghalebi/eurorust-2026//Selected sessions//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:session-talks-move-your-problems@eurorust-2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261015T080000Z
+DTEND:20261015T084500Z
+SUMMARY:Move your problems to compile-time and get new capabilities out of 
+ it
+URL:https://eurorust.eu/talks/move-your-problems/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Main Stage (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/move-your-problems/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-compiling-the-linux-kernel-with-gccrs@eurorust-2026.hghal
+ ebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261015T090000Z
+DTEND:20261015T093000Z
+SUMMARY:Compiling the Linux kernel with gccrs
+URL:https://eurorust.eu/talks/compiling-the-linux-kernel-with-gccrs/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Main Stage (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/compiling-the-linux-kern
+ el-with-gccrs/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-optimizing-the-new-rust-trait-solver@eurorust-2026.hghale
+ bi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261015T094500Z
+DTEND:20261015T101500Z
+SUMMARY:Optimizing rustc's Next Trait Solver
+URL:https://eurorust.eu/talks/optimizing-the-new-rust-trait-solver/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Side Track (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/optimizing-the-new-rust-
+ trait-solver/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-building-a-query-system@eurorust-2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261015T114500Z
+DTEND:20261015T121500Z
+SUMMARY:Building a Query System
+URL:https://eurorust.eu/talks/building-a-query-system/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Side Track (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/building-a-query-system/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-rebuilding-the-tower-of-babel-write-your-own-language-ser
+ ver-with-tree-sitter@eurorust-2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261015T123000Z
+DTEND:20261015T130000Z
+SUMMARY:Rebuilding the Tower of Babel – Write Your Own Language Server wi
+ th Tree-sitter
+URL:https://eurorust.eu/talks/rebuilding-the-tower-of-babel-write-your-own-
+ language-server-with-tree-sitter/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Side Track (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/rebuilding-the-tower-of-
+ babel-write-your-own-language-server-with-tree-sitter/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-lessons-from-building-a-background-task-processing-librar
+ y@eurorust-2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261015T131500Z
+DTEND:20261015T134500Z
+SUMMARY:Lessons from building a background task processing library
+URL:https://eurorust.eu/talks/lessons-from-building-a-background-task-proce
+ ssing-library/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Side Track (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/lessons-from-building-a-
+ background-task-processing-library/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-game-show@eurorust-2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261015T141500Z
+DTEND:20261015T144500Z
+SUMMARY:Game Show
+URL:https://eurorust.eu/talks/game-show/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Main Stage (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/game-show/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-what-s-next-for-rust-s-type-system@eurorust-2026.hghalebi
+ .github
+DTSTAMP:20261015T123023Z
+DTSTART:20261015T150000Z
+DTEND:20261015T153000Z
+SUMMARY:What's next for Rust's type system
+URL:https://eurorust.eu/talks/what-s-next-for-rust-s-type-system/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Main Stage (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/what-s-next-for-rust-s-t
+ ype-system/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-image-codecs-rustification-in-chromium@eurorust-2026.hgha
+ lebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261015T154500Z
+DTEND:20261015T163000Z
+SUMMARY:Image codecs rustification in Chromium
+URL:https://eurorust.eu/talks/image-codecs-rustification-in-chromium/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Main Stage (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/image-codecs-rustificati
+ on-in-chromium/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-rust-s-influence-on-c-and-python-shaping-the-future-of-th
+ ree-communities@eurorust-2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261016T080000Z
+DTEND:20261016T084500Z
+SUMMARY:Rust's Influence on C++ and Python: Shaping the Future of Three Com
+ munities
+URL:https://eurorust.eu/talks/rust-s-influence-on-c-and-python-shaping-the-
+ future-of-three-communities/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Main Stage (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/rust-s-influence-on-c-an
+ d-python-shaping-the-future-of-three-communities/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-designing-state-machines-for-streaming-proxies-in-rust@eu
+ rorust-2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261016T090000Z
+DTEND:20261016T093000Z
+SUMMARY:Designing State Machines for Streaming Proxies in Rust
+URL:https://eurorust.eu/talks/designing-state-machines-for-streaming-proxie
+ s-in-rust/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Side Track (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/designing-state-machines
+ -for-streaming-proxies-in-rust/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-qt-bridges-bringing-a-mature-c-ui-framework-to-rust@euror
+ ust-2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261016T094500Z
+DTEND:20261016T101500Z
+SUMMARY:Qt Bridges: Bringing a mature C++ UI framework to Rust
+URL:https://eurorust.eu/talks/qt-bridges-bringing-a-mature-c-ui-framework-t
+ o-rust/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Main Stage (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/qt-bridges-bringing-a-ma
+ ture-c-ui-framework-to-rust/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-build-systems-when-your-systems-need-systems-to-build@eur
+ orust-2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261016T114500Z
+DTEND:20261016T121500Z
+SUMMARY:Build systems: when your systems need systems to build
+URL:https://eurorust.eu/talks/build-systems-when-your-systems-need-systems-
+ to-build/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Main Stage (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/build-systems-when-your-
+ systems-need-systems-to-build/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-atomic-design-patterns-in-rust-from-orderings-to-code@eur
+ orust-2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261016T123000Z
+DTEND:20261016T130000Z
+SUMMARY:Atomic Design Patterns in Rust: From Orderings to Code
+URL:https://eurorust.eu/talks/atomic-design-patterns-in-rust-from-orderings
+ -to-code/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Main Stage (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/atomic-design-patterns-i
+ n-rust-from-orderings-to-code/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-your-infrastructure-should-compile-too@eurorust-2026.hgha
+ lebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261016T131500Z
+DTEND:20261016T134500Z
+SUMMARY:Your Infrastructure Should Compile\, Too
+URL:https://eurorust.eu/talks/your-infrastructure-should-compile-too/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Side Track (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/your-infrastructure-shou
+ ld-compile-too/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-from-deref-into-borrow-a-primer-on-standard-library-trait
+ s@eurorust-2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261016T141500Z
+DTEND:20261016T144500Z
+SUMMARY:From Deref Into Borrow\, a Primer on Standard Library Traits
+URL:https://eurorust.eu/talks/from-deref-into-borrow-a-primer-on-standard-l
+ ibrary-traits/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Main Stage (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/from-deref-into-borrow-a
+ -primer-on-standard-library-traits/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-beyond-flamegraphs-precise-rust-profiling-with-hotpath-rs
+ @eurorust-2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261016T150000Z
+DTEND:20261016T153000Z
+SUMMARY:Beyond Flamegraphs: Precise Rust Profiling with hotpath-rs
+URL:https://eurorust.eu/talks/beyond-flamegraphs-precise-rust-profiling-wit
+ h-hotpath-rs/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Side Track (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/beyond-flamegraphs-preci
+ se-rust-profiling-with-hotpath-rs/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-beyond-cargo-build@eurorust-2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261016T154500Z
+DTEND:20261016T163000Z
+SUMMARY:Beyond cargo build
+URL:https://eurorust.eu/talks/beyond-cargo-build/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Main Stage (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/beyond-cargo-build/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

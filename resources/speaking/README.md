@@ -8,7 +8,7 @@ understand or be able to do afterward.
 
 1. Write the audience, problem, and takeaway in the [proposal template](../../templates/talk-proposal.md).
 2. Search [conference history](../conferences/history.md), [topics](../topics/README.md),
-   and [speaker works](../speakers/README.md). Record what earlier material covers
+   and [speakers’ work](../speakers/README.md). Record what earlier material covers
    and what your experience adds. Similar titles do not prove identical content.
 3. Check [calls for talks and workshops](../stay-current/opportunities.md).
    Confirm format, duration, language, eligibility, deadline/timezone, and support

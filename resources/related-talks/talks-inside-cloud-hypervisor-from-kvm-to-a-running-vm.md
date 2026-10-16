@@ -6,6 +6,20 @@ Selected for this session after checking primary source pages. Connections are e
 
 Speakers and their work: [Philipp Schuster](../speakers/philipp-schuster.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Trace VM boot through memory, virtual CPUs, devices, and kernel boundaries while examining the development workflow of a Rust hypervisor.
+- **Prerequisites:** Not established; ask the organizer.
+- **Setup:** Not established; check the session page.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [Quickly Boot a Minimal Linux Kernel + Initrd in Cloud Hypervisor or QEMU](https://phip1611.de/blog/quickly-boot-a-minimal-linux-kernel-initrd-in-cloud-hypervisor-or-qemu/). Build the kernel and initrd inputs needed to follow the session's VM boot sequence.
+- **Bring a question:** What confirms the intended configuration became the actual running state?
+- **Other sessions starting at this time:** [What's next for Rust's type system](talks-what-s-next-for-rust-s-type-system.md). Choose one; check its full time and access requirements.
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 ### [Firecracker: Lightweight Virtualization for Serverless Applications](https://www.usenix.org/conference/nsdi20/presentation/agache)

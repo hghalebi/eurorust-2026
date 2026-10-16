@@ -6,6 +6,20 @@ Selected for this session after checking primary source pages. Connections are e
 
 Speakers and their work: [Paweł Urbanek](../speakers/pawel-urbanek.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Compare instrumentation-oriented profiling with sampling approaches and examine measurement overhead in async-heavy programs.
+- **Prerequisites:** Not established; ask the organizer.
+- **Setup:** Not established; check the session page.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [Rust Performance Profiling using hotpath-rs](https://www.youtube.com/watch?v=ir1WC_rO2Fk). Watch the speaker's earlier profiling explanation and Zed instrumentation demonstration.
+- **Bring a question:** How much overhead does the measurement add, and which delays does it reveal or miss?
+- **Other sessions starting at this time:** [The Lämp](talks-the-lamp.md). Choose one; check its full time and access requirements.
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 ### [Rust Performance Profiling using hotpath-rs](https://www.youtube.com/watch?v=ir1WC_rO2Fk)

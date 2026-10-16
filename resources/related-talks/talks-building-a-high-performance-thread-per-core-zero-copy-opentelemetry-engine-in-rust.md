@@ -6,6 +6,20 @@ Selected for this session after checking primary source pages. Connections are e
 
 Speakers and their work: [Albert Lockett](../speakers/albert-lockett.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Study telemetry architecture using per-core execution, locality, typed thread constraints, and direct columnar processing.
+- **Prerequisites:** Not established; ask the organizer.
+- **Setup:** Not established; check the session page.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [Arrow Columnar Format](https://arrow.apache.org/docs/format/Columnar.html). Understand the columnar buffers that make direct telemetry processing possible.
+- **Bring a question:** Which rule can the type system enforce, and which still needs a runtime check?
+- **Other sessions starting at this time:** [Your Infrastructure Should Compile, Too](talks-your-infrastructure-should-compile-too.md). Choose one; check its full time and access requirements.
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 No specific related conference appearance was verified in this pass. The sources below provide topic background.

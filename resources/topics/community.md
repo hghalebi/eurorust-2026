@@ -6,4 +6,4 @@ see [four engineering questions](../learning-paths.md).
 
 - [Game Show](../related-talks/talks-game-show.md)
 
-[All topics](README.md) · [Conference archives](../conferences/README.md) · [Speaker directory](../speakers/README.md)
+[Follow technical questions through conference history](../conferences/history.md#follow-a-technical-question) · [All topics](README.md) · [Conference archives](../conferences/README.md) · [Speaker directory](../speakers/README.md)

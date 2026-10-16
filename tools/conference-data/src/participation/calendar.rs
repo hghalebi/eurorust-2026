@@ -1,31 +1,7 @@
 //! RFC 5545 snapshot: all-day event spans and separately labelled deadlines.
 use super::{CheckedParticipation, model::*};
+use crate::calendar::{line, text};
 use chrono::Utc;
-
-fn text(value: &str) -> String {
-    value
-        .replace('\\', "\\\\")
-        .replace("\r\n", "\n")
-        .replace('\r', "\n")
-        .replace('\n', "\\n")
-        .replace(';', "\\;")
-        .replace(',', "\\,")
-}
-
-// RFC 5545 section 3.1: 75 octets including continuation whitespace.
-// Split only at UTF-8 boundaries; unfolding must recover the exact content.
-fn line(output: &mut String, value: &str) {
-    let mut width = 0;
-    for ch in value.chars() {
-        if width + ch.len_utf8() > 75 {
-            output.push_str("\r\n ");
-            width = 1;
-        }
-        output.push(ch);
-        width += ch.len_utf8();
-    }
-    output.push_str("\r\n");
-}
 
 impl CheckedParticipation {
     pub(super) fn calendar(&self) -> String {

@@ -12,4 +12,4 @@ see [four engineering questions](../learning-paths.md).
 - [What's next for Rust's type system](../related-talks/talks-what-s-next-for-rust-s-type-system.md)
 - [Moving a quantum compiler from Python to Rust](../related-talks/talks-moving-a-quantum-compiler-from-python-to-rust.md)
 
-[All topics](README.md) · [Conference archives](../conferences/README.md) · [Speaker directory](../speakers/README.md)
+[Follow technical questions through conference history](../conferences/history.md#follow-a-technical-question) · [All topics](README.md) · [Conference archives](../conferences/README.md) · [Speaker directory](../speakers/README.md)

@@ -54,9 +54,18 @@ Search first. Then include the goal, minimal example, toolchain/library versions
 expected behavior, exact error, and what you tried. Remove credentials and private
 data. When solved, explain the result and link the relevant source.
 
-For example: “I expected my worker to finish its current job during shutdown.
-Here is a small reproduction and its output. Which cancellation assumption is
-wrong?” Fill those fields from an actual run; do not invent the output.
+**Worked draft question; not posted:**
+
+> I am designing a Rust background worker. The [Tokio shutdown guide](https://tokio.rs/tokio/topics/shutdown)
+> explains signalling shutdown and waiting for tasks. My question is about
+> persistent recovery: if an external effect succeeds but the process stops
+> before saving completion, what evidence should the next worker use before
+> retrying? I have not run an experiment or observed a bug. Which failure points
+> and stored states should I include in a small test?
+
+This is a design question for the Users Forum. Search earlier discussions and
+read its rules before posting. Add actual versions, a reproduction, and output
+only when you have them; follow up with what the test showed.
 
 ## Make a first contribution
 

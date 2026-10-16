@@ -6,6 +6,20 @@ Selected for this session after checking primary source pages. Connections are e
 
 Speakers and their work: [André Eriksson](../speakers/andre-eriksson.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Explore bringing application infrastructure requirements into compilation so integration mismatches can be discovered earlier in development.
+- **Prerequisites:** Not established; ask the organizer.
+- **Setup:** Not established; check the session page.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [Designing an algorithmic cloud infrastructure provisioning system](https://dev.to/encore/designing-an-algorithmic-cloud-infrastructure-provisioning-system-kde). Read how the speaker connects application analysis, infrastructure dependencies, and deployment constraints.
+- **Bring a question:** Which rule can the type system enforce, and which still needs a runtime check?
+- **Other sessions starting at this time:** [Building a high performance, thread-per-core, zero-copy OpenTelemetry engine in Rust](talks-building-a-high-performance-thread-per-core-zero-copy-opentelemetry-engine-in-rust.md). Choose one; check its full time and access requirements.
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 ### [Why I Needed Rust: Finally, Infrastructure Automation I can sleep on](https://www.rustikon.dev/talk/why-i-needed-rust-finally-infrastructure-automation-i-can-sleep-on)

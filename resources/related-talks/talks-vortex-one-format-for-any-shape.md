@@ -6,6 +6,20 @@ Selected for this session after checking primary source pages. Connections are e
 
 Speakers and their work: [Connor Tsui](../speakers/connor-tsui.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Explore extensible columnar types and compression for heterogeneous data, including event, telemetry, and vector-oriented workloads.
+- **Prerequisites:** Not established; ask the organizer.
+- **Setup:** Not established; check the session page.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [Arrow Columnar Format](https://arrow.apache.org/docs/format/Columnar.html). Learn the buffer layouts, nested types, and extension types behind columnar data interchange.
+- **Bring a question:** How much overhead does the measurement add, and which delays does it reveal or miss?
+- **Other sessions starting at this time:** [Build systems: when your systems need systems to build](talks-build-systems-when-your-systems-need-systems-to-build.md). Choose one; check its full time and access requirements.
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 ### [BtrBlocks: Efficient Columnar Compression for Data Lakes](https://github.com/maxi-k/btrblocks)

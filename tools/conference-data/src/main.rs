@@ -1,6 +1,7 @@
 use clap::{Parser, Subcommand};
 use conference_data::{
-    Result, archive, collect, export, itinerary, learning, navigation, participation,
+    Result, archive, calendar, collect, export, guides, itinerary, learning, navigation,
+    participation,
 };
 use std::{fs, path::PathBuf};
 
@@ -60,6 +61,17 @@ enum Command {
     BuildParticipation,
     /// Check community references, dates, schema, and generated views offline.
     CheckParticipation,
+    /// Regenerate reader resources, a day guide, and fictional itinerary calendars.
+    BuildGuides,
+    /// Check the shared reader records, references, dates, and generated views.
+    CheckGuides,
+    /// Export selected sessions after checking their snapshot and schedule feasibility.
+    ExportItineraryCalendar {
+        #[arg(long)]
+        itinerary: PathBuf,
+        #[arg(long)]
+        output: PathBuf,
+    },
 }
 fn run(args: Args) -> Result<()> {
     match args.command {
@@ -142,6 +154,27 @@ fn run(args: Args) -> Result<()> {
             checked.verify(&args.root)?;
         }
         Command::CheckParticipation => participation::load(&args.root)?.verify(&args.root)?,
+        Command::BuildGuides => {
+            let checked = guides::load(&args.root)?;
+            checked.render(&args.root)?;
+            checked.verify(&args.root)?;
+        }
+        Command::CheckGuides => guides::load(&args.root)?.verify(&args.root)?,
+        Command::ExportItineraryCalendar {
+            itinerary: path,
+            output,
+        } => {
+            let checked = export::verify(&args.root)?;
+            let plan = serde_json::from_slice(&fs::read(path)?)?;
+            for warning in itinerary::check(&checked, &plan)? {
+                println!("NOTE: {warning}");
+            }
+            calendar::from_itinerary(&checked, &plan)?.write(&output)?;
+            println!(
+                "Wrote tentative selected-session calendar to {}; no booking or attendance claim",
+                output.display()
+            );
+        }
     }
     Ok(())
 }

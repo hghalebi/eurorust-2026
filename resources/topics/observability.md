@@ -12,4 +12,4 @@ see [four engineering questions](../learning-paths.md).
 - [Building a high performance, thread-per-core, zero-copy OpenTelemetry engine in Rust](../related-talks/talks-building-a-high-performance-thread-per-core-zero-copy-opentelemetry-engine-in-rust.md)
 - [Beyond Flamegraphs: Precise Rust Profiling with hotpath-rs](../related-talks/talks-beyond-flamegraphs-precise-rust-profiling-with-hotpath-rs.md)
 
-[All topics](README.md) · [Conference archives](../conferences/README.md) · [Speaker directory](../speakers/README.md)
+[Follow technical questions through conference history](../conferences/history.md#follow-a-technical-question) · [All topics](README.md) · [Conference archives](../conferences/README.md) · [Speaker directory](../speakers/README.md)

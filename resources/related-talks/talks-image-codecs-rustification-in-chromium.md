@@ -6,6 +6,19 @@ Selected for this session after checking primary source pages. Connections are e
 
 Speakers and their work: [Johan Rosengren](../speakers/johan-rosengren.md), [Sergio Gonzalez Martin](../speakers/sergio-gonzalez-martin.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Follow incremental replacement of browser image decoders with Rust, including integration, upstream contributions, and staged production evaluation.
+- **Prerequisites:** Not established; ask the organizer.
+- **Setup:** Not established; check the session page.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [Rust PNG crate gets even faster, used by GNOME and Chromium](https://blog.image-rs.org/2026/06/18/png-adoption.html). See the upstream PNG work on partial decoding, compatibility, fuzzing, and browser integration.
+- **Bring a question:** What happens if this work is cancelled or the process stops halfway through?
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 No specific related conference appearance was verified in this pass. The sources below provide topic background.

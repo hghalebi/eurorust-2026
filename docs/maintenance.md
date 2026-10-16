@@ -18,6 +18,8 @@ Read the relevant source and focused checks before expanding the scope.
 | Add session learning resources | [Curated JSON](../community/session-resources/) and [format guide](learning-resources.md) | `build-learning`, `check-learning`, and source evidence |
 | Extend conference archives | [Registry and inventory](../community/conference-archive/) and [directory](../resources/conferences/README.md) | `check-archive`, source links, edition identity, programme counts, and coverage gaps |
 | Add communities or opportunities | [Participation JSON](../community/participation.json), [discovery JSON](../community/rust-discovery.json), and [renderer](../tools/conference-data/src/participation/mod.rs) | Source review, `build-participation`, `check-participation`, and `check-docs` |
+| Improve speaking or organizer resources | [Shared resource JSON](../community/event-resources.json), [field guide](event-resources.md), and [renderer](../tools/conference-data/src/guides/mod.rs) | `build-guides`, `check-guides`, source review, and route walkthroughs |
+| Export selected sessions | [Calendar adapter](../tools/conference-data/src/calendar.rs) and [usage](itinerary-calendar.md) | Snapshot/itinerary validation, privacy, known ends, and independent calendar parsing |
 | Check times and places | [Logistics JSON](../community/session-logistics.json) and [venue guide](time-and-place.md) | Compare official pages, snapshot, session IDs, times, and sources; preserve unknown rooms |
 | Add or move a guide | [Inventory](document-map.json) and [navigation checker](../tools/conference-data/src/navigation.rs) | Incoming links, `check-docs`, historical/private-route fixtures |
 | Change collection | [Collector](../tools/conference-data/src/collect.rs) and [fixture](../tools/conference-data/tests/fixtures/schedule.html) | Valid/malformed input, failed publication, `validate` |
@@ -54,8 +56,9 @@ status and annotations lacking detail evidence. Review summaries and prerequisit
 against the source.
 
 Then [regenerate all example paths](cli.md#recover-after-a-refresh-or-merge)
-and review the diff. The refresh workflow opens a checked proposal without
-merging it automatically.
+and review the diff. The refresh workflow opens a proposal only after its checks
+pass. A changed participation or reader-resource pin stops it for editorial
+reconciliation; it neither advances those pins nor merges automatically.
 
 `refresh` and `export` leave speaker profiles untouched.
 After roster changes, check speaker/session IDs, research additions, and review
@@ -132,6 +135,40 @@ All outputs are computed before writing and each file is replaced atomically.
 A filesystem failure can leave a mixed set. Fix the cause, rebuild from reviewed
 inputs, then run the checks. No automatic refresh, delivery, or subscription is supplied.
 
+## Maintain reader resources
+
+Edit [event-resources.json](../community/event-resources.json) and the linked
+handwritten guides. The [resource guide](event-resources.md) describes the fields,
+source labels, generated outputs, and 90-day review interval.
+
+After a catalog change, review the six routes and sample itineraries before
+updating this companion's `catalog_snapshot_id`. The participation companion has
+its own pin and review. The [logistics companion](../community/session-logistics.json)
+also needs a matching pin and reviewed session, venue, and source references.
+Recheck actual source claims before changing any source
+date; matching a new snapshot does not renew source evidence.
+
+After these reviews, rebuild in this order:
+
+```sh
+bin/conference-data build-participation
+bin/conference-data build-guides
+bin/conference-data check-participation
+bin/conference-data check-guides
+bin/conference-data check-docs
+```
+
+The reader manifest hashes linked guides, templates, archive/discovery records,
+and example itineraries. Rebuild when these inputs change. The pack preserves
+the original source-review dates; archive coverage and current event status
+still have their own checks. Generation is offline and each output is replaced
+atomically. Rebuild and verify after an interrupted write.
+
+The bounded conference refresh workflow does not refresh historical sources,
+community opportunities, or reusable resource pages. A pin failure needs the
+review above before a checked proposal can be published. See the failed job's
+diff, reproduce the refresh locally, reconcile, and run the complete checks.
+
 ## Publish and recover a snapshot
 
 Publication builds the immutable bundle, then atomically renames its directory.
@@ -177,6 +214,7 @@ target/release/conference-data validate
 target/release/conference-data check-learning
 target/release/conference-data check-archive
 target/release/conference-data check-participation
+target/release/conference-data check-guides
 target/release/conference-data check-docs
 ```
 

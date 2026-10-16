@@ -15,4 +15,4 @@ see [four engineering questions](../learning-paths.md).
 - [Fearless Concurrency on the GPU](../related-talks/talks-fearless-concurrency-on-the-gpu.md)
 - [Beyond Flamegraphs: Precise Rust Profiling with hotpath-rs](../related-talks/talks-beyond-flamegraphs-precise-rust-profiling-with-hotpath-rs.md)
 
-[All topics](README.md) · [Conference archives](../conferences/README.md) · [Speaker directory](../speakers/README.md)
+[Follow technical questions through conference history](../conferences/history.md#follow-a-technical-question) · [All topics](README.md) · [Conference archives](../conferences/README.md) · [Speaker directory](../speakers/README.md)

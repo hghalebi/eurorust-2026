@@ -14,4 +14,4 @@ see [four engineering questions](../learning-paths.md).
 - [Your Infrastructure Should Compile, Too](../related-talks/talks-your-infrastructure-should-compile-too.md)
 - [From Deref Into Borrow, a Primer on Standard Library Traits](../related-talks/talks-from-deref-into-borrow-a-primer-on-standard-library-traits.md)
 
-[All topics](README.md) · [Conference archives](../conferences/README.md) · [Speaker directory](../speakers/README.md)
+[Follow technical questions through conference history](../conferences/history.md#follow-a-technical-question) · [All topics](README.md) · [Conference archives](../conferences/README.md) · [Speaker directory](../speakers/README.md)

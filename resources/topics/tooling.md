@@ -10,4 +10,4 @@ see [four engineering questions](../learning-paths.md).
 - [Build systems: when your systems need systems to build](../related-talks/talks-build-systems-when-your-systems-need-systems-to-build.md)
 - [Beyond cargo build](../related-talks/talks-beyond-cargo-build.md)
 
-[All topics](README.md) · [Conference archives](../conferences/README.md) · [Speaker directory](../speakers/README.md)
+[Follow technical questions through conference history](../conferences/history.md#follow-a-technical-question) · [All topics](README.md) · [Conference archives](../conferences/README.md) · [Speaker directory](../speakers/README.md)

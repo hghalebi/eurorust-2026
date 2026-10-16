@@ -6,6 +6,19 @@ Selected for this session after checking primary source pages. Connections are e
 
 Speakers and their work: [Amos Wenger](../speakers/amos-wenger.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Explore a Cargo-compatible build-system effort focused on hermetic execution, remote work, caching, and cross-platform developer feedback.
+- **Prerequisites:** Not established; ask the organizer.
+- **Setup:** Not established; check the session page.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [Why is my Rust build so slow?](https://fasterthanli.me/articles/why-is-my-rust-build-so-slow). Follow the speaker's investigation of build steps, incremental work, and compiler cost.
+- **Bring a question:** What confirms the intended configuration became the actual running state?
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 ### [Build systems à la carte](https://www.microsoft.com/en-us/research/publication/build-systems-la-carte/)

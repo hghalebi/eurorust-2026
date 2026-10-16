@@ -6,6 +6,20 @@ Curated from primary pages, abstracts and project descriptions. Books, recording
 
 Speakers and their work: [Jana Dönszelmann](../speakers/jana-donszelmann.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Study algorithmic improvements and sound caching decisions in the next trait solver, with performance claims understood in their benchmark context.
+- **Prerequisites:** Not established; ask the organizer.
+- **Setup:** Not established; check the session page.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [Next-gen trait solving](https://rustc-dev-guide.rust-lang.org/solve/trait-solving.html). Introduces goals, responses and the structure of rustc’s next trait solver.
+- **Bring a question:** Which rule can the type system enforce, and which still needs a runtime check?
+- **Other sessions starting at this time:** [Shipping Temporal: How the Rust Ecosystem Built Chrome’s Newest Web API](talks-shipping-temporal-how-the-rust-ecosystem-built-chrome-s-newest-web-api.md). Choose one; check its full time and access requirements.
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 ### [-Znext-solver: what, why, and when](https://eurorust.eu/2025/talks/znext-solver/)

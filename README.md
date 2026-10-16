@@ -11,7 +11,7 @@ or give the sourced data to your agent.
 EuroRust times use **Europe/Madrid**.
 Check [venues, entrances, and room details](docs/time-and-place.md).
 
-Preparing a talk, exploring Rust conference history, or organizing an event?
+Preparing a talk, researching conference history, organizing an event, or learning remotely?
 [Choose a route through the collection](docs/find-your-route.md).
 
 ## Start here
@@ -19,15 +19,15 @@ Preparing a talk, exploring Rust conference history, or organizing an event?
 | Your goal | Open |
 | --- | --- |
 | Follow my path | [Goals and choices](my-conference/README.md) and [proposed itinerary](my-conference/itinerary.md) |
-| Make your own plan | [Planning guide](docs/planning-guide.md), [schedule table](exports/schedule.md), or [session-by-session view](exports/conference-pack.md) |
+| Make your own plan | [Planning guide](docs/planning-guide.md), [day guide](exports/day-guide.md), and [session calendars](docs/itinerary-calendar.md) |
 | Choose something to learn | [Four engineering questions](resources/learning-paths.md), [talk and workshop reading lists](resources/related-talks/README.md), and [conference archives](resources/conferences/README.md) |
 | Keep learning after EuroRust | [Future conferences, podcasts, newsletters, and technical writing](resources/stay-current/README.md) |
 | Find people and a next step | [Communities, contributions, and open calls](community/README.md) |
 | Plan with your agent | [Agent guide](docs/agent-guide.md) and [copyable prompt](prompts/choose-my-path.md) |
 
-For my worker-recovery question, I start with the [background-worker reading list](resources/related-talks/talks-lessons-from-building-a-background-task-processing-library.md).
-Start with its Tokio shutdown guide, then ask: **what happens to accepted work
-if the process stops?** The list connects that question to retries and recovery.
+My [background-worker reading list](resources/related-talks/talks-lessons-from-building-a-background-task-processing-library.md)
+starts with Tokio's shutdown guide and a question: **what happens to accepted
+work if the process stops?** Follow it into retries and recovery.
 
 ## Build a path around your questions
 

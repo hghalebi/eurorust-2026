@@ -12,17 +12,34 @@ Choose the [talk-research prompt](../prompts/research-my-talk.md) or
 [event-planning prompt](../prompts/plan-an-event.md). Supply the relevant guide,
 archive and participation files from one checkout, plus your constraints.
 Keep each companion's check date and version; their sources were reviewed separately.
+The [reader pack](event-resources.md#give-the-same-context-to-your-agent) supplies
+six workflows, annotated sources, and input hashes. Use the
+[event comparison prompt](../prompts/compare-events.md) for costs, access, and dates.
 
-**Example response shape, not a live agent evaluation:**
+**Worked offline example, dated October 16, 2026.** This illustrates the expected
+answer; it is not a live agent evaluation.
 
-> Goal: prepare a talk about Rust worker recovery. Start with the
-> [worker reading list](../resources/related-talks/talks-lessons-from-building-a-background-task-processing-library.md).
-> Compare shutdown coordination with persisted job state. Use the
-> [fictional proposal](../resources/speaking/worker-talk-example.md) as a structure;
-> its experiment is still planned. The dated
-> [event comparison](../resources/stay-current/event-comparison.md) identifies a
-> potentially relevant call. Recheck the organizer before submitting. Remote
-> access, acceptance, travel support, and your experimental results remain unknown.
+Filled request: “Help me outline a 25-minute Rust worker-recovery talk. I know
+basic async Rust, have no completed experiment, and cannot browse in this run.
+Use the worker resources checked October 15 and event comparison checked
+October 16. Give me a draft and the decisions that still need evidence.”
+
+Expected draft:
+
+- **Angle:** compare graceful shutdown with recovery after an uncertain external
+  effect. The [worker reading list](../resources/related-talks/talks-lessons-from-building-a-background-task-processing-library.md)
+  links Tokio shutdown guidance and Apalis. Their connection is an editorial
+  suggestion; neither source proves your proposed experiment's outcome.
+- **Outline:** problem (5 minutes), state/evidence model (8), proposed test and
+  failure points (8), limits and questions (4). Use the
+  [fictional proposal](../resources/speaking/worker-talk-example.md) for structure.
+- **Possible call:** the [October 16 comparison](../resources/stay-current/event-comparison.md)
+  records TokioConf 2027's November 30, 23:59 Pacific deadline and typical
+  25–30-minute format. Current call status, access, and support were **not rechecked**.
+- **Alternative:** prepare a [small reading discussion](../resources/organizing/example-event.md)
+  while gathering evidence. No host, event, submission, or experiment is confirmed.
+- **Your next decision:** choose the failure scenario to test; verify the current
+  organizer's call and terms before deciding whether to submit.
 
 Accept an answer only when each recommendation links its evidence, distinguishes
 facts from editorial judgments, retains unknowns, and gives a useful next action.

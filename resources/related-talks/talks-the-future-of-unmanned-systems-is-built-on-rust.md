@@ -6,6 +6,20 @@ Curated from primary pages, abstracts and project descriptions. Books, recording
 
 Speakers and their work: [Benedikt Wiethof](../speakers/benedikt-wiethof.md), [Theophil Spiegeler Castañeda](../speakers/theophil-spiegeler-castaneda.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Examine a distributed ground-control architecture and the practical changes involved in moving an unmanned-systems platform from C++ to Rust.
+- **Prerequisites:** Not established; ask the organizer.
+- **Setup:** Not established; check the session page.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [Comparison of Middlewares in Edge-to-Edge and Edge-to-Cloud Communication for Distributed ROS2 Systems](https://arxiv.org/abs/2309.07496). Compares communication tradeoffs under different networks for distributed robotic systems.
+- **Bring a question:** Which assumptions need evidence from the real hardware, and which can you test in simulation?
+- **Other sessions starting at this time:** [Compiling the Linux kernel with gccrs](talks-compiling-the-linux-kernel-with-gccrs.md). Choose one; check its full time and access requirements.
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 ### [Rust as the Foundation for Future Unmanned Systems](https://oxidizeconf.com/sessions/keynote_rust_as_the-foundation_for_future_unmanned-systems)

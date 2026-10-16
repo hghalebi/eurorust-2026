@@ -1,0 +1,336 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hghalebi/eurorust-2026//Selected sessions//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:session-talks-move-your-problems@eurorust-2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261015T080000Z
+DTEND:20261015T084500Z
+SUMMARY:Move your problems to compile-time and get new capabilities out of 
+ it
+URL:https://eurorust.eu/talks/move-your-problems/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Main Stage (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/move-your-problems/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-the-future-of-unmanned-systems-is-built-on-rust@eurorust-
+ 2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261015T090000Z
+DTEND:20261015T093000Z
+SUMMARY:The Future of Unmanned Systems Is Built on Rust
+URL:https://eurorust.eu/talks/the-future-of-unmanned-systems-is-built-on-ru
+ st/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Side Track (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/the-future-of-unmanned-s
+ ystems-is-built-on-rust/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-optimizing-the-new-rust-trait-solver@eurorust-2026.hghale
+ bi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261015T094500Z
+DTEND:20261015T101500Z
+SUMMARY:Optimizing rustc's Next Trait Solver
+URL:https://eurorust.eu/talks/optimizing-the-new-rust-trait-solver/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Side Track (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/optimizing-the-new-rust-
+ trait-solver/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-tales-from-the-embedded-rust-frontier-bootstrapping-a-bra
+ nd-new-ecosystem@eurorust-2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261015T114500Z
+DTEND:20261015T121500Z
+SUMMARY:Tales from the Embedded Rust Frontier: Bootstrapping a brand new ec
+ osystem
+URL:https://eurorust.eu/talks/tales-from-the-embedded-rust-frontier-bootstr
+ apping-a-brand-new-ecosystem/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Main Stage (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/tales-from-the-embedded-
+ rust-frontier-bootstrapping-a-brand-new-ecosystem/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-from-hardware-to-human-interface-building-hid-devices-in-
+ rust@eurorust-2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261015T123000Z
+DTEND:20261015T130000Z
+SUMMARY:From Hardware to Human Interface: Building HID Devices in Rust
+URL:https://eurorust.eu/talks/from-hardware-to-human-interface-building-hid
+ -devices-in-rust/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Main Stage (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/from-hardware-to-human-i
+ nterface-building-hid-devices-in-rust/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-lessons-from-building-a-background-task-processing-librar
+ y@eurorust-2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261015T131500Z
+DTEND:20261015T134500Z
+SUMMARY:Lessons from building a background task processing library
+URL:https://eurorust.eu/talks/lessons-from-building-a-background-task-proce
+ ssing-library/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Side Track (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/lessons-from-building-a-
+ background-task-processing-library/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-game-show@eurorust-2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261015T141500Z
+DTEND:20261015T144500Z
+SUMMARY:Game Show
+URL:https://eurorust.eu/talks/game-show/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Main Stage (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/game-show/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-inside-cloud-hypervisor-from-kvm-to-a-running-vm@eurorust
+ -2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261015T150000Z
+DTEND:20261015T153000Z
+SUMMARY:Inside Cloud Hypervisor: From KVM to a Running VM
+URL:https://eurorust.eu/talks/inside-cloud-hypervisor-from-kvm-to-a-running
+ -vm/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Side Track (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/inside-cloud-hypervisor-
+ from-kvm-to-a-running-vm/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-image-codecs-rustification-in-chromium@eurorust-2026.hgha
+ lebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261015T154500Z
+DTEND:20261015T163000Z
+SUMMARY:Image codecs rustification in Chromium
+URL:https://eurorust.eu/talks/image-codecs-rustification-in-chromium/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Main Stage (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/image-codecs-rustificati
+ on-in-chromium/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-rust-s-influence-on-c-and-python-shaping-the-future-of-th
+ ree-communities@eurorust-2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261016T080000Z
+DTEND:20261016T084500Z
+SUMMARY:Rust's Influence on C++ and Python: Shaping the Future of Three Com
+ munities
+URL:https://eurorust.eu/talks/rust-s-influence-on-c-and-python-shaping-the-
+ future-of-three-communities/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Main Stage (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/rust-s-influence-on-c-an
+ d-python-shaping-the-future-of-three-communities/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-blastbeat-when-a-decade-of-c-meets-rust-and-io-uring@euro
+ rust-2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261016T090000Z
+DTEND:20261016T093000Z
+SUMMARY:Blastbeat: When a Decade of C++ Meets Rust and io_uring
+URL:https://eurorust.eu/talks/blastbeat-when-a-decade-of-c-meets-rust-and-i
+ o-uring/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Main Stage (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/blastbeat-when-a-decade-
+ of-c-meets-rust-and-io-uring/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-qt-bridges-bringing-a-mature-c-ui-framework-to-rust@euror
+ ust-2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261016T094500Z
+DTEND:20261016T101500Z
+SUMMARY:Qt Bridges: Bringing a mature C++ UI framework to Rust
+URL:https://eurorust.eu/talks/qt-bridges-bringing-a-mature-c-ui-framework-t
+ o-rust/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Main Stage (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/qt-bridges-bringing-a-ma
+ ture-c-ui-framework-to-rust/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-build-systems-when-your-systems-need-systems-to-build@eur
+ orust-2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261016T114500Z
+DTEND:20261016T121500Z
+SUMMARY:Build systems: when your systems need systems to build
+URL:https://eurorust.eu/talks/build-systems-when-your-systems-need-systems-
+ to-build/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Main Stage (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/build-systems-when-your-
+ systems-need-systems-to-build/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-atomic-design-patterns-in-rust-from-orderings-to-code@eur
+ orust-2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261016T123000Z
+DTEND:20261016T130000Z
+SUMMARY:Atomic Design Patterns in Rust: From Orderings to Code
+URL:https://eurorust.eu/talks/atomic-design-patterns-in-rust-from-orderings
+ -to-code/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Main Stage (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/atomic-design-patterns-i
+ n-rust-from-orderings-to-code/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-building-a-high-performance-thread-per-core-zero-copy-ope
+ ntelemetry-engine-in-rust@eurorust-2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261016T131500Z
+DTEND:20261016T134500Z
+SUMMARY:Building a high performance\, thread-per-core\, zero-copy OpenTelem
+ etry engine in Rust
+URL:https://eurorust.eu/talks/building-a-high-performance-thread-per-core-z
+ ero-copy-opentelemetry-engine-in-rust/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Main Stage (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/building-a-high-performa
+ nce-thread-per-core-zero-copy-opentelemetry-engine-in-rust/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-fearless-concurrency-on-the-gpu@eurorust-2026.hghalebi.gi
+ thub
+DTSTAMP:20261015T123023Z
+DTSTART:20261016T141500Z
+DTEND:20261016T144500Z
+SUMMARY:Fearless Concurrency on the GPU
+URL:https://eurorust.eu/talks/fearless-concurrency-on-the-gpu/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Side Track (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/fearless-concurrency-on-
+ the-gpu/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-the-lamp@eurorust-2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261016T150000Z
+DTEND:20261016T153000Z
+SUMMARY:The Lämp
+URL:https://eurorust.eu/talks/the-lamp/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Main Stage (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/the-lamp/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:session-talks-beyond-cargo-build@eurorust-2026.hghalebi.github
+DTSTAMP:20261015T123023Z
+DTSTART:20261016T154500Z
+DTEND:20261016T163000Z
+SUMMARY:Beyond cargo build
+URL:https://eurorust.eu/talks/beyond-cargo-build/
+LOCATION:Auditori L’illa
+DESCRIPTION:Tentative personal selection\; confirm tickets\, access\, setup
+ \, room and travel time with the organizer. No booking or attendance is re
+ corded. Stage label: Main Stage (not a verified physical room). Snapshot: 
+ eurorust-2026-71f2ee4aea59a1589532. Schedule retrieved: 2026-10-15T12:30:2
+ 3.466704+00:00. Source: https://eurorust.eu/talks/beyond-cargo-build/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

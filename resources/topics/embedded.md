@@ -10,4 +10,4 @@ see [four engineering questions](../learning-paths.md).
 - [From Hardware to Human Interface: Building HID Devices in Rust](../related-talks/talks-from-hardware-to-human-interface-building-hid-devices-in-rust.md)
 - [The Lämp](../related-talks/talks-the-lamp.md)
 
-[All topics](README.md) · [Conference archives](../conferences/README.md) · [Speaker directory](../speakers/README.md)
+[Follow technical questions through conference history](../conferences/history.md#follow-a-technical-question) · [All topics](README.md) · [Conference archives](../conferences/README.md) · [Speaker directory](../speakers/README.md)

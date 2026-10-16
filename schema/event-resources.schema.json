@@ -1,0 +1,262 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Collection",
+  "type": "object",
+  "properties": {
+    "catalog_snapshot_id": {
+      "type": "string"
+    },
+    "maintainer": {
+      "type": "string"
+    },
+    "reference_date": {
+      "$ref": "#/$defs/ReferenceDate"
+    },
+    "related_collections": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "resources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Resource"
+      }
+    },
+    "routes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Route"
+      }
+    },
+    "schema_version": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "reference_date",
+    "catalog_snapshot_id",
+    "maintainer",
+    "routes",
+    "resources",
+    "related_collections"
+  ],
+  "$defs": {
+    "Access": {
+      "type": "string",
+      "enum": [
+        "free_web_page",
+        "unknown"
+      ]
+    },
+    "Audience": {
+      "type": "string",
+      "enum": [
+        "speaker",
+        "history",
+        "attendee",
+        "organizer",
+        "community",
+        "agent"
+      ]
+    },
+    "CheckedOn": {
+      "type": "string",
+      "format": "date"
+    },
+    "Language": {
+      "type": "string",
+      "pattern": "^[a-z]{2,3}(-[A-Za-z0-9]{2,8})*$"
+    },
+    "PublishedOn": {
+      "type": "string",
+      "format": "date"
+    },
+    "ReferenceContext": {
+      "type": "string",
+      "enum": [
+        "historical",
+        "general_guidance"
+      ]
+    },
+    "ReferenceDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "Resource": {
+      "type": "object",
+      "properties": {
+        "access": {
+          "$ref": "#/$defs/Access"
+        },
+        "action": {
+          "type": "string"
+        },
+        "audiences": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Audience"
+          }
+        },
+        "context": {
+          "$ref": "#/$defs/ReferenceContext"
+        },
+        "id": {
+          "$ref": "#/$defs/ResourceId"
+        },
+        "kind": {
+          "$ref": "#/$defs/ResourceKind"
+        },
+        "language": {
+          "$ref": "#/$defs/Language"
+        },
+        "published_on": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/PublishedOn"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "publisher": {
+          "type": "string"
+        },
+        "reuse": {
+          "type": "string"
+        },
+        "review": {
+          "$ref": "#/$defs/Review"
+        },
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "why": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "url",
+        "publisher",
+        "audiences",
+        "kind",
+        "language",
+        "access",
+        "reuse",
+        "why",
+        "action",
+        "context",
+        "review"
+      ]
+    },
+    "ResourceId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "ResourceKind": {
+      "type": "string",
+      "enum": [
+        "guide",
+        "budget",
+        "retrospective",
+        "documentation",
+        "directory",
+        "speaker_notes"
+      ]
+    },
+    "Review": {
+      "type": "object",
+      "properties": {
+        "checked_on": {
+          "$ref": "#/$defs/CheckedOn"
+        },
+        "limits": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "next_review_on": {
+          "$ref": "#/$defs/ReviewDue"
+        },
+        "status": {
+          "$ref": "#/$defs/ReviewStatus"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "checked_on",
+        "next_review_on",
+        "status",
+        "limits"
+      ]
+    },
+    "ReviewDue": {
+      "type": "string",
+      "format": "date"
+    },
+    "ReviewStatus": {
+      "type": "string",
+      "enum": [
+        "page_checked",
+        "unavailable"
+      ]
+    },
+    "Route": {
+      "type": "object",
+      "properties": {
+        "audience": {
+          "$ref": "#/$defs/Audience"
+        },
+        "example": {
+          "type": "string"
+        },
+        "guide": {
+          "type": "string"
+        },
+        "outcome": {
+          "type": "string"
+        },
+        "resource_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ResourceId"
+          }
+        },
+        "steps": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "template": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "audience",
+        "title",
+        "guide",
+        "example",
+        "template",
+        "outcome",
+        "steps",
+        "resource_ids"
+      ]
+    }
+  }
+}

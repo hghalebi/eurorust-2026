@@ -6,6 +6,20 @@ Selected for this session after checking primary source pages. Connections are e
 
 Speakers and their work: [Daniel Rodriguez](../speakers/daniel-rodriguez.md), [Giacomo Bagnoli](../speakers/giacomo-bagnoli.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Review a network-observability rewrite using batched I/O, with kernel compatibility and fleet rollout as important parts of the case study.
+- **Prerequisites:** Not established; ask the organizer.
+- **Setup:** Not established; check the session page.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [Announcing tokio-uring: io-uring support for Tokio](https://tokio.rs/blog/2021-07-tokio-uring). Understand why completion-based I/O owns buffers differently from readiness-based async I/O.
+- **Bring a question:** What confirms the intended configuration became the actual running state?
+- **Other sessions starting at this time:** [Designing State Machines for Streaming Proxies in Rust](talks-designing-state-machines-for-streaming-proxies-in-rust.md). Choose one; check its full time and access requirements.
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 ### [Lessons learned from monitoring a large production network](https://devopsdays.org/events/2020-madrid/program/giacomo-bagnoli/)

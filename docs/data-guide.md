@@ -15,6 +15,8 @@ Choose a format for your task. Keep its sources and dates with anything you make
 | Read related talks and additional sources | [Session resources](../resources/related-talks/README.md) · [Learning data guide](learning-resources.md) |
 | Explore other editions | [Conference archive](../resources/conferences/README.md) · [Edition data](../community/conference-archive/editions.json) |
 | Find communities and activities | [Community paths](../community/README.md) · [Participation JSON](../community/participation.json) · [Calendar](../resources/stay-current/events.ics) |
+| Prepare a proposal, research history, or organize | [Reader routes and source records](event-resources.md) · [Reader pack JSON](../exports/guides/reader-pack.json) |
+| Import selected sessions | [Session calendar guide](itinerary-calendar.md) |
 | Check version and coverage | [Manifest](../data/manifest.json) |
 | Check expected structure | [Catalog schema](../schema/catalog.schema.json) · [Participant preferences](../schema/profile.schema.json) · [Itinerary](../schema/itinerary.schema.json) |
 

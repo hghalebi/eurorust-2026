@@ -1638,5 +1638,61 @@
     "purpose": "Browse the partial RustConf 2017 archive and its source limits",
     "scope": "Dated historical program metadata",
     "replacement": null
+  },
+  {
+    "path": "templates/speaker-research.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Research public work before an authorized speaker invitation",
+    "scope": "EuroRust case study and sourced wider conference guidance",
+    "replacement": null
+  },
+  {
+    "path": "prompts/compare-events.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Compare edition-specific costs, access, dates, and unknowns",
+    "scope": "EuroRust case study and sourced wider conference guidance",
+    "replacement": null
+  },
+  {
+    "path": "docs/event-resources.md",
+    "class": "current",
+    "owner": "repository maintainers",
+    "purpose": "Use and maintain the wider reader pack and original guidance",
+    "scope": "EuroRust case study and sourced wider conference guidance",
+    "replacement": null
+  },
+  {
+    "path": "docs/itinerary-calendar.md",
+    "class": "current",
+    "owner": "repository maintainers",
+    "purpose": "Use tentative session calendars without confusing them with bookings",
+    "scope": "EuroRust case study and sourced wider conference guidance",
+    "replacement": null
+  },
+  {
+    "path": "resources/event-resources.md",
+    "class": "generated",
+    "owner": "repository maintainers",
+    "purpose": "Choose sourced guidance for six conference participation tasks",
+    "scope": "EuroRust case study and sourced wider conference guidance",
+    "replacement": null
+  },
+  {
+    "path": "exports/guides/reader-pack.md",
+    "class": "generated",
+    "owner": "repository maintainers",
+    "purpose": "Reuse six workflows and original source annotations with an agent",
+    "scope": "EuroRust case study and sourced wider conference guidance",
+    "replacement": null
+  },
+  {
+    "path": "exports/day-guide.md",
+    "class": "generated",
+    "owner": "repository maintainers",
+    "purpose": "Compare published EuroRust times, stages, and venues by day",
+    "scope": "EuroRust case study and sourced wider conference guidance",
+    "replacement": null
   }
 ]

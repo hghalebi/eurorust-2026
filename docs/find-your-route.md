@@ -25,10 +25,14 @@ For another interest, browse [topics](../resources/topics/README.md),
 
 ## Know what you are reading
 
-Official pages establish published event facts. Topic connections are editorial
-judgments. Examples are labelled; observations require an actual report.
+Use organizer pages for published event details; retain their dates and any
+unresolved conflicts. Topic connections are editorial judgments. Examples are
+labelled; observations require an actual report.
 Check source dates, access conditions, and stated coverage before deciding.
 An older program remains useful even when its recording is unavailable.
 
 [Suggest a correction or resource](../CONTRIBUTING.md). A source link and the
 question it helps answer are enough to start.
+
+[Original guidance for these tasks](../resources/event-resources.md)
+· [Portable reader pack and source labels](event-resources.md)

@@ -6,6 +6,19 @@ Selected for this session after checking primary source pages. Connections are e
 
 Speakers and their work: [Cristián Maureira-Fredes](../speakers/cristian-maureira-fredes.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Examine how Rust, C++, and Python influence each other through memory safety, tooling, and interoperability expectations.
+- **Prerequisites:** Not established; ask the organizer.
+- **Setup:** Not established; check the session page.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [What comes after Rust in the Python ecosystem?](https://www.youtube.com/watch?v=yJPX7n0tMfo). Compare the speaker's earlier account of Rust and other compiled languages extending Python.
+- **Bring a question:** Which assumption would you test before using this approach in your own project?
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 ### [What comes after Rust in the Python ecosystem?](https://www.youtube.com/watch?v=yJPX7n0tMfo)

@@ -22,6 +22,9 @@ For reading and agent-assisted planning, start with the [guides](README.md).
 | `check-archive` | Check series/edition/session references, date bounds, and programme coverage counts | Reject inconsistent inventory; does not prove global completeness or playable recordings |
 | `build-participation` | Validate pinned discovery/catalog references and community records; generate guides, schema, and calendar offline | Rewrite generated participation views; does not refresh sources |
 | `check-participation` | Check pins, IDs, evidence fields, review dates, deadline offsets, and generated views | Reject inconsistent inputs or stale views; does not verify current access or import into an app |
+| `build-guides` | Check six reader routes, dated source records, linked public inputs, and sample itineraries | Generate reader packs, annotated index, schema, day guide, and three example calendars |
+| `check-guides` | Check source references, catalog identity, input hashes, and exact generated output | Reject invalid inputs or stale views; does not recheck the web |
+| `export-itinerary-calendar --itinerary PATH --output PATH` | Check a selected itinerary and export its public session facts | Write a tentative `.ics` snapshot; omit profile details and alternatives |
 
 Global `--root PATH` selects the dataset root. Profile, itinerary, output, and
 explicit `--catalog` paths remain relative to the working directory unless
@@ -130,6 +133,11 @@ For new sources, `refresh` fetches official pages and applies
 Removals stop refresh unless reviewed and accepted with `--accept-removals`.
 Review orphaned annotations. Read the
 [refresh procedure](maintenance.md#refresh-official-data) first.
+
+Then review the independently maintained participation and reader-resource pins.
+Follow [companion reconciliation](maintenance.md#maintain-reader-resources) before
+`build-participation` and `build-guides`. Rebuilding preserves source review dates.
+The refresh workflow stops if those pins need review; it does not silently advance them.
 
 ## Implementation and evidence
 

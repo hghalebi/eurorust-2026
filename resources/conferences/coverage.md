@@ -36,7 +36,6 @@ Choose one edition or material gap. Add its original source and checked date.
 | **TokioConf** (`tokioconf`) | 2026–2027; 2 editions; 18 A / 0 M | Match the 2026 organizer playlist to individual talks. Recheck the announced 2027 program/CFP before giving current participation advice; the ledger's stored call status is not renewed by this audit. |
 | **Conf42 Rustlang** (`conf42-rustlang`) | 2025; 1 edition; 0 A / 0 M | Turn the located organizer talk directory into a dated appearance list with individual recording links. Dates and per-session records are currently absent. |
 | **RustRush** (`rustrush`) | 2018; 1 edition; 0 A / 0 M | Inspect the preserved 2019 Wayback capture and official event-roundup leads, then reconstruct the 2018 program and match materials. Keep capture date, event date, and recording publication dates separate. |
-
 | **RustCamp** (`rustcamp`) | 2015; 1 edition; 1 A / 1 M | Recover the rest of the program from primary sources or dated captures. The old recording destination serves unrelated content; do not recommend it. |
 
 Unlisted years are research questions, not proof that an event was held or missed.

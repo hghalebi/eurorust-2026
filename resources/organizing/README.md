@@ -23,8 +23,9 @@ State audience, formats, duration, prerequisites, selection criteria, deadline
 and timezone, support, and material-sharing terms in the call. Explain review
 conflicts of interest and how decisions are communicated.
 
-Use the [speaking guide](../speaking/README.md) for preparation. Match potential
-speakers to relevant public work, then confirm interest. An archive profile does
+Use the [speaking guide](../speaking/README.md) for preparation and the
+[speaker research template](../../templates/speaker-research.md) to connect
+potential speakers with relevant public work. An archive profile does
 not establish availability. Check room, speaker, setup, and travel constraints.
 Publish schedule changes with a version and explanation;
 [pretalx documents](https://docs.pretalx.org/user/schedule/) one approach.
@@ -67,3 +68,4 @@ Neither establishes a budget or result for your event.
 [Plan with your agent](../../prompts/plan-an-event.md)
 · [Community roles](../stay-current/participate.md#choose-a-role)
 · [Historical programs](../conferences/README.md)
+· [Annotated organizer sources](../event-resources.md#organize-an-event)

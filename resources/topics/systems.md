@@ -13,4 +13,4 @@ see [four engineering questions](../learning-paths.md).
 - [Inside Cloud Hypervisor: From KVM to a Running VM](../related-talks/talks-inside-cloud-hypervisor-from-kvm-to-a-running-vm.md)
 - [Rust's Influence on C++ and Python: Shaping the Future of Three Communities](../related-talks/talks-rust-s-influence-on-c-and-python-shaping-the-future-of-three-communities.md)
 
-[All topics](README.md) · [Conference archives](../conferences/README.md) · [Speaker directory](../speakers/README.md)
+[Follow technical questions through conference history](../conferences/history.md#follow-a-technical-question) · [All topics](README.md) · [Conference archives](../conferences/README.md) · [Speaker directory](../speakers/README.md)

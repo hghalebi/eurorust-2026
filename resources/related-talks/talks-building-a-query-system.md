@@ -6,6 +6,20 @@ Curated from primary pages, abstracts and project descriptions. Books, recording
 
 Speakers and their work: [Arya Dradjica](../speakers/arya-dradjica.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Compare compiler query architectures and incremental-result caching through a Cargo dependency-resolution example.
+- **Prerequisites:** Not established; ask the organizer.
+- **Setup:** Not established; check the session page.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [Queries: demand-driven compilation](https://rustc-dev-guide.rust-lang.org/query.html). Explains memoized queries, providers and dependency tracking in rustc.
+- **Bring a question:** Which assumption would you test before using this approach in your own project?
+- **Other sessions starting at this time:** [Tales from the Embedded Rust Frontier: Bootstrapping a brand new ecosystem](talks-tales-from-the-embedded-rust-frontier-bootstrapping-a-brand-new-ecosystem.md). Choose one; check its full time and access requirements.
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 ### [Talking to ghosts](https://rustlab.it/talks/talking-to-ghosts)

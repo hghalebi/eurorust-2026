@@ -6,6 +6,20 @@ Curated from primary pages, abstracts and project descriptions. Books, recording
 
 Speakers and their work: [Frank Lyaruu](../speakers/frank-lyaruu.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Learn how Rust-based input devices connect through USB and Bluetooth, including the protocols that make them usable by ordinary computers.
+- **Prerequisites:** Not established; ask the organizer.
+- **Setup:** Not established; check the session page.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [Device Class Definition for HID 1.11](https://usb.org/document-library/device-class-definition-hid-111). Defines the descriptors and reports that let input devices work with standard host drivers.
+- **Bring a question:** Which assumptions need evidence from the real hardware, and which can you test in simulation?
+- **Other sessions starting at this time:** [Rebuilding the Tower of Babel – Write Your Own Language Server with Tree-sitter](talks-rebuilding-the-tower-of-babel-write-your-own-language-server-with-tree-sitter.md). Choose one; check its full time and access requirements.
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 ### [From hardware to Human Interface: buiding HID devices in Rust](https://rustlab.it/talks/from-hardware-to-huma-interface-buiding-hid-devices-in-rust)

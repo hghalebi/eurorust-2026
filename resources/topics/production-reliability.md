@@ -20,4 +20,4 @@ see [four engineering questions](../learning-paths.md).
 - [Atomic Design Patterns in Rust: From Orderings to Code](../related-talks/talks-atomic-design-patterns-in-rust-from-orderings-to-code.md)
 - [Beyond cargo build](../related-talks/talks-beyond-cargo-build.md)
 
-[All topics](README.md) · [Conference archives](../conferences/README.md) · [Speaker directory](../speakers/README.md)
+[Follow technical questions through conference history](../conferences/history.md#follow-a-technical-question) · [All topics](README.md) · [Conference archives](../conferences/README.md) · [Speaker directory](../speakers/README.md)

@@ -6,6 +6,20 @@ Selected for this session after checking primary source pages. Connections are e
 
 Speakers and their work: [Martin Ombura Jr.](../speakers/martin-ombura-jr.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Connect memory-ordering arguments to recurring atomic coordination patterns and their correctness and performance tradeoffs.
+- **Prerequisites:** Not established; ask the organizer.
+- **Setup:** Not established; check the session page.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [Rust Atomics and Locks](https://mara.nl/atomics/). Work through memory ordering and the construction of locks and other synchronization primitives.
+- **Bring a question:** Which rule can the type system enforce, and which still needs a runtime check?
+- **Other sessions starting at this time:** [Moving a quantum compiler from Python to Rust](talks-moving-a-quantum-compiler-from-python-to-rust.md). Choose one; check its full time and access requirements.
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 ### [Rust Atomics in the Wild: Memory Ordering Design Patterns from Popular Crates](https://rustconf2026.sched.com/event/2KHth)

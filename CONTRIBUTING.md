@@ -1,7 +1,7 @@
 # Share something useful
 
 A correction, preparation tip, question, or session note can help another
-attendee. [Open an issue](https://github.com/hghalebi/eurorust-2026/issues/new/choose)
+reader. [Open an issue](https://github.com/hghalebi/eurorust-2026/issues/new/choose)
 with a source, or edit a page and propose a pull request. No local tools are needed.
 
 ## Where to contribute
@@ -18,6 +18,7 @@ with a source, or edit a page and propose a pull request. No local tools are nee
 | Related talk or learning resource | [Session resources](resources/related-talks/README.md) | Session ID, original source, specific connection, format, access, checked date |
 | Conference or missing archive | [Conference directory](resources/conferences/README.md) | Series, edition, official programme, material links, known gaps |
 | Community, activity, or support offer | [Participation guide](community/README.md) | Audience, useful next step, primary source, checked date, access limits |
+| Speaking or organizer practice | [Resource guide](docs/event-resources.md) | Task, original author/source, historical context, evidence, and limits |
 | Code example or tool change | [Maintenance guide](docs/maintenance.md) | Goal or failure, reproduction steps, checks, limits |
 
 Unsure where to edit? Include the official URL and the page you were reading
@@ -125,6 +126,10 @@ Include the task helped, original source, author, date, access limits, and what
 you inspected. Preserve historical context and mark examples as examples. An
 organizer budget projection is not final spending; a public abstract is not an
 original proposal. Real reports need attribution and permission to share.
+
+Edit reusable source records in `community/event-resources.json`; use
+`build-guides` and `check-guides` to update and verify their shared views.
+Route guides and templates are edited by hand. Both paths need `check-docs`.
 
 Check names, links, session references, sources, and participation context.
 Can a reader see what is useful and what remains unknown?

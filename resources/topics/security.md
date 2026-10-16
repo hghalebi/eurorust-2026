@@ -8,4 +8,4 @@ see [four engineering questions](../learning-paths.md).
 - [Image codecs rustification in Chromium](../related-talks/talks-image-codecs-rustification-in-chromium.md)
 - [Supply Chain Attacks, and how to protect ourselves](../related-talks/talks-supply-chain-attacks-and-how-to-protect-ourselves.md)
 
-[All topics](README.md) · [Conference archives](../conferences/README.md) · [Speaker directory](../speakers/README.md)
+[Follow technical questions through conference history](../conferences/history.md#follow-a-technical-question) · [All topics](README.md) · [Conference archives](../conferences/README.md) · [Speaker directory](../speakers/README.md)

@@ -6,6 +6,19 @@ Curated from primary pages, abstracts and project descriptions. Books, recording
 
 Speakers and their work: [Oli Scherer](../speakers/oli-scherer.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Explore compile-time evaluation, reflection proposals, and compiler diagnostics, distinguishing available nightly features from designs still under discussion.
+- **Prerequisites:** Not established; ask the organizer.
+- **Setup:** Not established; check the session page.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [Constant evaluation — The Rust Reference](https://doc.rust-lang.org/reference/const_eval.html). Defines what Rust can evaluate during compilation and where const contexts apply.
+- **Bring a question:** Which rule can the type system enforce, and which still needs a runtime check?
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 ### [Misusing Const for Fn and Profit](https://eurorust.eu/2025/talks/misusing-const/)

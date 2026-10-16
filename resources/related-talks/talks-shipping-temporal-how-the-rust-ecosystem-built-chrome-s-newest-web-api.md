@@ -6,6 +6,20 @@ Curated from primary pages, abstracts and project descriptions. Books, recording
 
 Speakers and their work: [Shane Carr](../speakers/shane-carr.md).
 
+## Decide and prepare
+
+These preparation suggestions are editorial. Check the official description for fit and access.
+
+- **Focus:** Explore Rust integration into browser date-and-time APIs through bindings and shared calendrical libraries. This Temporal is unrelated to workflow orchestration.
+- **Prerequisites:** Not established; ask the organizer.
+- **Setup:** Not established; check the session page.
+- **Access:** Ticket conditions unconfirmed; check the official page. Remote participation: unconfirmed.
+- **Start with:** [Implementing Temporal, the new date/time API for JavaScript (and Rust!)](https://boajs.dev/blog/2025/06/15/temporal-impl-1). Explains implementation choices behind calendar and time-zone behavior in Rust.
+- **Bring a question:** Which rule can the type system enforce, and which still needs a runtime check?
+- **Other sessions starting at this time:** [Optimizing rustc's Next Trait Solver](talks-optimizing-the-new-rust-trait-solver.md). Choose one; check its full time and access requirements.
+
+After studying or attending, record one sourced claim, your interpretation, and the next test in a [session note](../../templates/session.md).
+
 ## Related talks and workshops
 
 ### [Beyond ICU4X 2.0: ZeroVec, Diplomat, Yoke, and Unicode’s Contributions to the Rust Ecosystem](https://2025.rustweek.org/talks/shane/)

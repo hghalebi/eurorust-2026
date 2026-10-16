@@ -12,6 +12,22 @@ This is a worked example of the [organizer handbook](README.md).
 | Roles | Facilitator, note taker, access/help contact | Unassigned; people must opt in |
 | Spending | None authorized | Confirm platform and access-support costs before promising free participation |
 
+## Example milestones and budget assumptions
+
+These are planning assumptions. No date, person, service, or funding is committed.
+
+| When | Proposed work | Owner or dependency |
+| --- | --- | --- |
+| Two weeks before | Confirm roles, participation rules, access needs, and costs | Host and access contact unassigned |
+| One week before | Share the source pack and test joining, sound, and text participation | Facilitator unassigned; platform undecided |
+| Within two days after | Review consented notes and write a short retrospective | Authors and archive owner must opt in |
+
+| Item | Illustrative EUR assumption | Decision needed |
+| --- | --- | --- |
+| Existing meeting platform | €0 only if permitted use is confirmed | Check account terms and access |
+| Captions or other access support | Unknown; quote needed | Confirm participant needs and provider |
+| Funding | None confirmed | No spending until a responsible owner agrees funding |
+
 ## Proposed run sheet
 
 | Minutes | Activity | Output |
@@ -29,3 +45,12 @@ questions and asynchronous responses when bandwidth or timing limits participati
 
 Afterward, complete the [retrospective](../../templates/event-retrospective.md)
 from observations. The outputs above remain proposals until they happen.
+
+## Example archive handoff
+
+| Material | Permission | Owner | Publication condition |
+| --- | --- | --- | --- |
+| Source-linked discussion notes and proposed experiment | Pending from each author | Unassigned | Publish after author review; omit private conversation and label unrun experiments |
+
+No recording is planned in this example. A later recording proposal needs its
+own consent, publication, and caption decisions.

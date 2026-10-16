@@ -11,4 +11,4 @@ see [four engineering questions](../learning-paths.md).
 - [Qt Bridges: Bringing a mature C++ UI framework to Rust](../related-talks/talks-qt-bridges-bringing-a-mature-c-ui-framework-to-rust.md)
 - [Moving a quantum compiler from Python to Rust](../related-talks/talks-moving-a-quantum-compiler-from-python-to-rust.md)
 
-[All topics](README.md) · [Conference archives](../conferences/README.md) · [Speaker directory](../speakers/README.md)
+[Follow technical questions through conference history](../conferences/history.md#follow-a-technical-question) · [All topics](README.md) · [Conference archives](../conferences/README.md) · [Speaker directory](../speakers/README.md)
