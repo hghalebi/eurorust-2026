@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
-  "reference_date": "2026-10-16",
+  "reference_date": "2026-10-17",
   "catalog_snapshot_id": "eurorust-2026-71f2ee4aea59a1589532",
-  "discovery_sha256": "7c62f8e001ee23af6ce97c47b736dc8ebc4ef8caf4bf83a9c4eab323bec1f991",
+  "discovery_sha256": "e995a4e21628f6a0c3615ba87d1f1d868ca9c48689a2c2af717db38f136df49e",
   "review_status": "Codex-assisted curation; community review pending. Page review is not proof of access, attendance, or current availability.",
   "communities": [
     {
@@ -1428,8 +1428,8 @@
         "room": null
       },
       "review": {
-        "checked_on": "2026-10-16",
-        "next_review_on": "2026-11-15",
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
         "source_review": "page_checked",
         "evidence_urls": [
           "https://fosdem.org/2027/news/call-for-main-track/"
@@ -2164,11 +2164,12 @@
       "event_id": "rustlab-2026",
       "note": "Landing page has ticket and programme routes; no separate verified support or volunteer application recorded.",
       "review": {
-        "checked_on": "2026-10-16",
-        "next_review_on": "2026-10-23",
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
         "source_review": "page_checked",
         "evidence_urls": [
-          "https://rustlab.it/"
+          "https://rustlab.it/",
+          "https://rustlab.it/schedule"
         ],
         "limits": []
       }
@@ -2177,8 +2178,8 @@
       "event_id": "bettercode-rust-2026",
       "note": "Online event stated. No caption, scholarship, or volunteer terms established.",
       "review": {
-        "checked_on": "2026-10-16",
-        "next_review_on": "2026-11-15",
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
         "source_review": "page_checked",
         "evidence_urls": [
           "https://rust.bettercode.eu/"
@@ -2190,10 +2191,11 @@
       "event_id": "bettercode-rust-workshop-2026",
       "note": "Online workshop page states December 2, 09:00-16:00; timezone not stated, so times are not normalized.",
       "review": {
-        "checked_on": "2026-10-16",
-        "next_review_on": "2026-11-15",
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
         "source_review": "page_checked",
         "evidence_urls": [
+          "https://rust.bettercode.eu/",
           "https://rust.bettercode.eu/veranstaltung-89714-se-0-agent-ready-rust-harness-engineering-fuer-ai-coding-agents.html"
         ],
         "limits": []
@@ -2203,8 +2205,8 @@
       "event_id": "rustcon-2026",
       "note": "Talk-submission route present; programme navigation still says 2025. Current deadline and support terms unknown.",
       "review": {
-        "checked_on": "2026-10-16",
-        "next_review_on": "2026-11-15",
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
         "source_review": "page_checked",
         "evidence_urls": [
           "https://rustcon.ru/"
@@ -2216,8 +2218,8 @@
       "event_id": "rustnation-2027",
       "note": "Open call and conditional speaker support reviewed separately; submission form inaccessible.",
       "review": {
-        "checked_on": "2026-10-16",
-        "next_review_on": "2026-11-15",
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
         "source_review": "page_checked",
         "evidence_urls": [
           "https://www.rustnationuk.com/"
@@ -2229,11 +2231,12 @@
       "event_id": "tokioconf-2027",
       "note": "Announced April 26–27 at The Armory, Portland. The call invites 25–30 minute talks with flexible length. Attendee ticket prices, remote access, and captions were not established.",
       "review": {
-        "checked_on": "2026-10-16",
-        "next_review_on": "2026-11-15",
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
         "source_review": "page_checked",
         "evidence_urls": [
-          "https://tokioconf.com/"
+          "https://tokioconf.com/",
+          "https://tokio.rs/blog/2026-10-06-tokioconf-2027-cfp"
         ],
         "limits": []
       }
@@ -2242,11 +2245,12 @@
       "event_id": "rustweek-2027",
       "note": "Announced May 24–29 in Utrecht; workshops May 24 and conference talks May 25–26. All-Hands and unconference access is restricted. The ticket page has stale dates in sponsor descriptions; confirm those terms separately.",
       "review": {
-        "checked_on": "2026-10-16",
-        "next_review_on": "2026-11-15",
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
         "source_review": "page_checked",
         "evidence_urls": [
-          "https://2027.rustweek.org/"
+          "https://2027.rustweek.org/",
+          "https://rustnl.org/events/"
         ],
         "limits": []
       }
@@ -2255,11 +2259,12 @@
       "event_id": "rustconf-2027",
       "note": "Online edition announced; 2027 access details unknown. Old page-title and 2026 navigation remain.",
       "review": {
-        "checked_on": "2026-10-16",
-        "next_review_on": "2026-11-15",
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
         "source_review": "page_checked",
         "evidence_urls": [
-          "https://rustconf.com/"
+          "https://rustconf.com/",
+          "https://rustconf.com/faq/"
         ],
         "limits": []
       }
@@ -2268,11 +2273,12 @@
       "event_id": "rustcon-2027",
       "note": "Organizer listing only; no edition-specific application or access terms established.",
       "review": {
-        "checked_on": "2026-10-16",
-        "next_review_on": "2026-11-15",
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
         "source_review": "page_checked",
         "evidence_urls": [
-          "https://speach.io/"
+          "https://speach.io/",
+          "https://rustcon.ru/"
         ],
         "limits": []
       }
@@ -2281,11 +2287,12 @@
       "event_id": "eurorust-2026",
       "note": "Barcelona and online edition; use the existing venue guide and official schedule for access and rooms.",
       "review": {
-        "checked_on": "2026-10-16",
-        "next_review_on": "2026-10-23",
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
         "source_review": "page_checked",
         "evidence_urls": [
-          "https://eurorust.eu/"
+          "https://eurorust.eu/",
+          "https://eurorust.eu/schedule/"
         ],
         "limits": []
       }
@@ -2294,8 +2301,8 @@
       "event_id": "rustchinaconf-2026",
       "note": "Published CFP deadline has passed; programme and ticket links remain.",
       "review": {
-        "checked_on": "2026-10-16",
-        "next_review_on": "2026-10-23",
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
         "source_review": "page_checked",
         "evidence_urls": [
           "https://rustchinaconf.org/"
@@ -2307,8 +2314,8 @@
       "event_id": "rustikon-next",
       "note": "Diversity-ticket policy describes the past edition. No next-edition application verified.",
       "review": {
-        "checked_on": "2026-10-16",
-        "next_review_on": "2026-11-15",
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
         "source_review": "page_checked",
         "evidence_urls": [
           "https://www.rustikon.dev/"
@@ -2320,8 +2327,8 @@
       "event_id": "oxidize-next",
       "note": "Accessibility policy inspected; no future edition confirmed.",
       "review": {
-        "checked_on": "2026-10-16",
-        "next_review_on": "2026-11-15",
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
         "source_review": "page_checked",
         "evidence_urls": [
           "https://oxidizeconf.com/"
@@ -2333,8 +2340,8 @@
       "event_id": "rustparis-next",
       "note": "Past 2026 programme and submission history; no next-edition call verified.",
       "review": {
-        "checked_on": "2026-10-16",
-        "next_review_on": "2026-11-15",
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
         "source_review": "page_checked",
         "evidence_urls": [
           "https://rustparis.fr/"
@@ -2346,8 +2353,8 @@
       "event_id": "rustforge-next",
       "note": "Past 2025 edition page; no future participation details established.",
       "review": {
-        "checked_on": "2026-10-16",
-        "next_review_on": "2026-11-15",
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
         "source_review": "page_checked",
         "evidence_urls": [
           "https://rustforgeconf.com/"
@@ -2359,11 +2366,12 @@
       "event_id": "rust-tokyo-next",
       "note": "Past 2024 edition page; no future participation details established.",
       "review": {
-        "checked_on": "2026-10-16",
-        "next_review_on": "2026-11-15",
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
         "source_review": "page_checked",
         "evidence_urls": [
-          "https://rust.tokyo/en"
+          "https://rust.tokyo/en",
+          "https://rust.tokyo/"
         ],
         "limits": []
       }
@@ -2372,8 +2380,8 @@
       "event_id": "rustindia-next",
       "note": "No upcoming event listed. Community event-submission route exists.",
       "review": {
-        "checked_on": "2026-10-16",
-        "next_review_on": "2026-11-15",
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
         "source_review": "page_checked",
         "evidence_urls": [
           "https://rustindia.org/"
@@ -2385,8 +2393,8 @@
       "event_id": "rustfest-next",
       "note": "Historical global/LATAM pages; no current call established.",
       "review": {
-        "checked_on": "2026-10-16",
-        "next_review_on": "2026-11-15",
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
         "source_review": "page_checked",
         "evidence_urls": [
           "https://rustfest.global/"
@@ -2398,8 +2406,8 @@
       "event_id": "rustasia-next",
       "note": "Source returned HTTP 503; participation details could not be reviewed.",
       "review": {
-        "checked_on": "2026-10-16",
-        "next_review_on": "2026-11-15",
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
         "source_review": "unavailable",
         "evidence_urls": [
           "https://www.rustasiaconf.com/"
@@ -2413,8 +2421,8 @@
       "event_id": "conf42-rustlang-next",
       "note": "General speaking route and other upcoming technology events; no new Rustlang edition verified.",
       "review": {
-        "checked_on": "2026-10-16",
-        "next_review_on": "2026-11-15",
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
         "source_review": "page_checked",
         "evidence_urls": [
           "https://www.conf42.com/"
@@ -2426,8 +2434,8 @@
       "event_id": "rustnation-workshops-2027",
       "note": "Workshop day remains planned; no confirmed programme or booking inferred.",
       "review": {
-        "checked_on": "2026-10-16",
-        "next_review_on": "2026-11-15",
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
         "source_review": "page_checked",
         "evidence_urls": [
           "https://www.rustnationuk.com/"
@@ -2439,11 +2447,95 @@
       "event_id": "fosdem-rust-2027",
       "note": "General main-track call verified separately. A Rust devroom is still unconfirmed.",
       "review": {
-        "checked_on": "2026-10-16",
-        "next_review_on": "2026-11-15",
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-20",
         "source_review": "page_checked",
         "evidence_urls": [
-          "https://fosdem.org/2027/"
+          "https://fosdem.org/2027/",
+          "https://fosdem.org/2027/news/call-for-devrooms/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "eurorust-2027",
+      "note": "Use the organizer page for registration and access. The named main venue does not cover workshops or side activities.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://eurorust.eu/",
+          "https://www.tickettailor.com/events/eurorust/2414461"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "rust-in-paris-next",
+      "note": "Use the organizer page for registration and access. No future date established.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.rustinparis.com/",
+          "https://www.rustinparis.com/location"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "rustmeet-next",
+      "note": "Use the organizer page for registration and access. No future date established.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rustmeet.eu/en/",
+          "https://rustmeet.eu/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "scientific-computing-rust-next",
+      "note": "Use the organizer page for registration and access. No future date established.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://scientificcomputing.rs/",
+          "https://scientificcomputing.rs/2026/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "kangrejos-next",
+      "note": "The last workshop required an invitation. No future date or public attendance route established.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://kangrejos.com/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "rust-global-next",
+      "note": "Foundation calendar covers its own supported activities; it is not a global event directory. No future Rust Global date established.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rustfoundation.org/events/",
+          "https://blog.rust-lang.org/inside-rust/2026/03/25/project-director-update/"
         ],
         "limits": []
       }
@@ -2536,5 +2628,5 @@
     "Oceania: Melbourne activity and Sydney archive checked; current New Zealand dates not verified.",
     "Africa and India: existing regional routes reused; individual city groups and new applications still need checks."
   ],
-  "calendar_updated_at": "2026-10-16T08:07:29+00:00"
+  "calendar_updated_at": "2026-10-17T16:40:23+00:00"
 }

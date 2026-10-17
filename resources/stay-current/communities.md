@@ -3,7 +3,7 @@
 Choose a group by the question you want to explore. Start by reading its public
 material and participation rules; chat access and available help need their own check.
 
-27 community routes · source review through **2026-10-16**.
+27 community routes · source review through **2026-10-17**.
 
 [Four personal learning paths](../../community/README.md) · [First contributions and learning](participate.md) · [Calls and activities](opportunities.md)
 

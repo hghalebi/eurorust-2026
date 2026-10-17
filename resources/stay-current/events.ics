@@ -4,28 +4,29 @@ PRODID:-//hghalebi/eurorust-2026//Rust community snapshot//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:event-rustlab-2026@eurorust-2026.hghalebi.github
-DTSTAMP:20261016T080729Z
+DTSTAMP:20261017T164023Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261104
 SUMMARY:RustLab 2026
 URL:https://rustlab.it/
-DESCRIPTION:Independent directory snapshot 2026-10-16. Event dates checked 
- 2026-10-15. Participation page checked 2026-10-16. Review due 2026-10-23. 
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
  Dates only\; session times\, rooms\, registration\, and attendance are not
-  established by this entry. Workshops 1 November\; talks 2–3 November. S
- ource: https://rustlab.it/
+  established by this entry. Workshops 1 November\; talks 2–3 November. T
+ he published programme is provisional\; recheck individual sessions. Sourc
+ e: https://rustlab.it/
 TRANSP:TRANSPARENT
 LOCATION:Savoia Regency Hotel\, Bologna\, Italy
 END:VEVENT
 BEGIN:VEVENT
 UID:event-bettercode-rust-2026@eurorust-2026.hghalebi.github
-DTSTAMP:20261016T080729Z
+DTSTAMP:20261017T164023Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:betterCode() Rust 2026
 URL:https://rust.bettercode.eu/
-DESCRIPTION:Independent directory snapshot 2026-10-16. Event dates checked 
- 2026-10-15. Participation page checked 2026-10-16. Review due 2026-11-15. 
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-11-16. 
  Dates only\; session times\, rooms\, registration\, and attendance are not
   established by this entry. German programme page\; check each session lan
  guage. Workshop on 2 December is a separate event. Source: https://rust.be
@@ -35,14 +36,14 @@ LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 UID:event-bettercode-rust-workshop-2026@eurorust-2026.hghalebi.github
-DTSTAMP:20261016T080729Z
+DTSTAMP:20261017T164023Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Agent-Ready Rust workshop
 URL:https://rust.bettercode.eu/veranstaltung-89714-se-0-agent-ready-rust-ha
  rness-engineering-fuer-ai-coding-agents.html
-DESCRIPTION:Independent directory snapshot 2026-10-16. Event dates checked 
- 2026-10-15. Participation page checked 2026-10-16. Review due 2026-11-15. 
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-11-16. 
  Dates only\; session times\, rooms\, registration\, and attendance are not
   established by this entry. Rainer Stropek. The page gives 09:00–16:00 w
  ithout an explicit timezone\; confirm it before scheduling. Source: https:
@@ -53,13 +54,13 @@ LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 UID:event-rustcon-2026@eurorust-2026.hghalebi.github
-DTSTAMP:20261016T080729Z
+DTSTAMP:20261017T164023Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:RustCon 2026
 URL:https://rustcon.ru/
-DESCRIPTION:Independent directory snapshot 2026-10-16. Event dates checked 
- 2026-10-15. Participation page checked 2026-10-16. Review due 2026-11-15. 
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-11-16. 
  Dates only\; session times\, rooms\, registration\, and attendance are not
   established by this entry. The visible programme is labelled 2025\; do no
  t treat it as the 2026 lineup. Online participation is advertised\; verify
@@ -70,13 +71,13 @@ LOCATION:Loft Prostranstvo VESNA\, Spartakovsky pereulok 2s1\, entrance 7\,
 END:VEVENT
 BEGIN:VEVENT
 UID:event-rustnation-2027@eurorust-2026.hghalebi.github
-DTSTAMP:20261016T080729Z
+DTSTAMP:20261017T164023Z
 DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270219
 SUMMARY:Rust Nation UK 2027
 URL:https://www.rustnationuk.com/
-DESCRIPTION:Independent directory snapshot 2026-10-16. Event dates checked 
- 2026-10-15. Participation page checked 2026-10-16. Review due 2026-11-15. 
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-11-16. 
  Dates only\; session times\, rooms\, registration\, and attendance are not
   established by this entry. The 2027 lineup is being selected. The propose
  d 17 February workshop day is unconfirmed. Source: https://www.rustnationu
@@ -86,13 +87,13 @@ LOCATION:1 Basinghall Avenue\, London EC2V 5DD\, London\, UK
 END:VEVENT
 BEGIN:VEVENT
 UID:event-tokioconf-2027@eurorust-2026.hghalebi.github
-DTSTAMP:20261016T080729Z
+DTSTAMP:20261017T164023Z
 DTSTART;VALUE=DATE:20270426
 DTEND;VALUE=DATE:20270428
 SUMMARY:TokioConf 2027
 URL:https://tokioconf.com/
-DESCRIPTION:Independent directory snapshot 2026-10-16. Event dates checked 
- 2026-10-15. Participation page checked 2026-10-16. Review due 2026-11-15. 
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-11-16. 
  Dates only\; session times\, rooms\, registration\, and attendance are not
   established by this entry. Tickets were not yet on sale when checked\; fo
  llow organizer updates. Source: https://tokioconf.com/
@@ -101,29 +102,31 @@ LOCATION:The Armory\, Portland\, Oregon\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:event-rustweek-2027@eurorust-2026.hghalebi.github
-DTSTAMP:20261016T080729Z
+DTSTAMP:20261017T164023Z
 DTSTART;VALUE=DATE:20270524
 DTEND;VALUE=DATE:20270530
 SUMMARY:RustWeek 2027
 URL:https://2027.rustweek.org/
-DESCRIPTION:Independent directory snapshot 2026-10-16. Event dates checked 
- 2026-10-15. Participation page checked 2026-10-16. Review due 2026-11-15. 
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-11-16. 
  Dates only\; session times\, rooms\, registration\, and attendance are not
   established by this entry. These dates cover the full week\, not six talk
   days. Rust Project All Hands and the unconference are invitation only. Ve
- nues vary by activity. Source: https://2027.rustweek.org/
+ nues vary by activity. Published venues: Kinepolis for talks and the hacka
+ thon\; Beatrixgebouw for workshops\; DUS for All Hands and the unconferenc
+ e. Source: https://2027.rustweek.org/
 TRANSP:TRANSPARENT
 LOCATION:Utrecht\, Netherlands
 END:VEVENT
 BEGIN:VEVENT
 UID:event-rustconf-2027@eurorust-2026.hghalebi.github
-DTSTAMP:20261016T080729Z
+DTSTAMP:20261017T164023Z
 DTSTART;VALUE=DATE:20270907
 DTEND;VALUE=DATE:20270911
 SUMMARY:RustConf 2027
 URL:https://rustconf.com/
-DESCRIPTION:Independent directory snapshot 2026-10-16. Event dates checked 
- 2026-10-15. Participation page checked 2026-10-16. Review due 2026-11-15. 
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-11-16. 
  Dates only\; session times\, rooms\, registration\, and attendance are not
   established by this entry. The 2027 announcement in the page body gives t
  hese dates and city. The page title still says Montreal and 8–11 Septemb
@@ -134,13 +137,13 @@ LOCATION:Vancouver\, Canada\, and online
 END:VEVENT
 BEGIN:VEVENT
 UID:event-rustcon-2027@eurorust-2026.hghalebi.github
-DTSTAMP:20261016T080729Z
+DTSTAMP:20261017T164023Z
 DTSTART;VALUE=DATE:20271203
 DTEND;VALUE=DATE:20271204
 SUMMARY:RustCon 2027
 URL:https://speach.io/
-DESCRIPTION:Independent directory snapshot 2026-10-16. Event dates checked 
- 2026-10-15. Participation page checked 2026-10-16. Review due 2026-11-15. 
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-11-16. 
  Dates only\; session times\, rooms\, registration\, and attendance are not
   established by this entry. Listed on the organizer’s 2027 calendar. The
   conference site still describes 2026\; no 2027 venue or programme is esta
@@ -150,39 +153,63 @@ LOCATION:Moscow\, Russia
 END:VEVENT
 BEGIN:VEVENT
 UID:event-eurorust-2026@eurorust-2026.hghalebi.github
-DTSTAMP:20261016T080729Z
+DTSTAMP:20261017T164023Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261018
 SUMMARY:EuroRust 2026
 URL:https://eurorust.eu/
-DESCRIPTION:Independent directory snapshot 2026-10-16. Event dates checked 
- 2026-10-15. Participation page checked 2026-10-16. Review due 2026-10-23. 
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
  Dates only\; session times\, rooms\, registration\, and attendance are not
   established by this entry. Talk days are 15–16 October. Workshops and s
  ide activities have different venues and access\; use docs/time-and-place.
- md. No 2027 date was established. Source: https://eurorust.eu/
+ md. The 2027 Prague edition has its own record. The homepage now promotes 
+ 2027 while retaining 2026 schedule and venue content. Source: https://euro
+ rust.eu/
 TRANSP:TRANSPARENT
 LOCATION:Barcelona\, Spain\, and online
 END:VEVENT
 BEGIN:VEVENT
 UID:event-rustchinaconf-2026@eurorust-2026.hghalebi.github
-DTSTAMP:20261016T080729Z
+DTSTAMP:20261017T164023Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261018
 SUMMARY:RustChinaConf 2026
 URL:https://rustchinaconf.org/
-DESCRIPTION:Independent directory snapshot 2026-10-16. Event dates checked 
- 2026-10-15. Participation page checked 2026-10-16. Review due 2026-10-23. 
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
  Dates only\; session times\, rooms\, registration\, and attendance are not
-  established by this entry. Co-located with GOSIM. This event starts on th
- e reference date\; later delivery and recordings are unverified. No next-e
- dition date was established. Source: https://rustchinaconf.org/
+  established by this entry. Co-located with GOSIM. Its published date rang
+ e includes the reference date\; delivery and recordings are not verified h
+ ere. No next-edition date was established. Source: https://rustchinaconf.o
+ rg/
 TRANSP:TRANSPARENT
 LOCATION:Shenzhen\, China
 END:VEVENT
 BEGIN:VEVENT
+UID:event-eurorust-2027@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164023Z
+DTSTART;VALUE=DATE:20271013
+DTEND;VALUE=DATE:20271017
+SUMMARY:EuroRust 2027
+URL:https://eurorust.eu/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-11-16. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. Talks 14–15 October at Cubex Centrum. Worksh
+ ops 13 October at a separate city-centre venue whose name is not yet publi
+ shed. Side activities on 13\, 14 and 16 October require separate tickets. 
+ The main ticket page displays 09:00–18:00 without an explicit timezone. 
+ The homepage still contains Barcelona 2026 details below the 2027 announce
+ ment. Do not reuse those venues or assume 2027 online access. Source: http
+ s://eurorust.eu/
+TRANSP:TRANSPARENT
+LOCATION:Cubex Centrum (main conference\, 14–15 October)\, Prague\, Czech
+ ia
+END:VEVENT
+BEGIN:VEVENT
 UID:deadline-tokioconf-cfp@eurorust-2026.hghalebi.github
-DTSTAMP:20261016T080729Z
+DTSTAMP:20261017T164023Z
 DTSTART:20261201T075900Z
 SUMMARY:Submission deadline: TokioConf 2027 call for talks
 URL:https://sessionize.com/tokioconf-2027/
@@ -195,7 +222,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:deadline-rustweek-cfp@eurorust-2026.hghalebi.github
-DTSTAMP:20261016T080729Z
+DTSTAMP:20261017T164023Z
 DTSTART:20270110T225900Z
 SUMMARY:Submission deadline: RustWeek 2027 call for talks
 URL:https://sessionize.com/rustweek-2027/
@@ -207,13 +234,13 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:deadline-fosdem-main-track-cfp@eurorust-2026.hghalebi.github
-DTSTAMP:20261016T080729Z
+DTSTAMP:20261017T164023Z
 DTSTART;VALUE=DATE:20261116
 SUMMARY:Submission deadline: FOSDEM 2027 main-track call
 URL:https://fosdem.org/2027/news/call-for-main-track/
 DESCRIPTION:Date reminder only\; cutoff time and timezone unverified. Origi
  nal wording: 16 November 2026\; closing time and timezone not stated. Page
-  checked 2026-10-16\; review due 2026-11-15. Recheck the organizer before 
+  checked 2026-10-17\; review due 2026-10-24. Recheck the organizer before 
  submitting. This is a deadline reminder\, not an attendance slot. Source: 
  https://fosdem.org/2027/news/call-for-main-track/
 TRANSP:TRANSPARENT

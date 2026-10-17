@@ -1412,7 +1412,7 @@
     "class": "reference",
     "owner": "repository maintainers",
     "purpose": "Choose ongoing Rust learning sources, import checked feeds, and reuse the dated discovery directory with an agent",
-    "scope": "Rust discovery checked on 2026-10-15; participation research through 2026-10-16; separate from the official EuroRust dataset",
+    "scope": "Event review through 2026-10-17; publication and feed checks on 2026-10-15; separate from the EuroRust dataset",
     "replacement": null
   },
   {
@@ -1420,7 +1420,7 @@
     "class": "reference",
     "owner": "repository maintainers",
     "purpose": "Compare announced future Rust events and distinguish ongoing, tentative, and unconfirmed editions",
-    "scope": "Curated Rust discovery directory checked on 2026-10-15; separate from the EuroRust dataset",
+    "scope": "Curated Rust event directory checked on 2026-10-17; separate from the EuroRust dataset",
     "replacement": null
   },
   {
@@ -1452,7 +1452,7 @@
     "class": "generated",
     "owner": "conference-data generator",
     "purpose": "Connect four learning goals to communities, a concrete action, and a smaller alternative",
-    "scope": "Independent Rust community participation companion; source review through 2026-10-16",
+    "scope": "Rust community participation companion; per-record source dates, reference date 2026-10-17",
     "replacement": null
   },
   {
@@ -1460,7 +1460,7 @@
     "class": "generated",
     "owner": "conference-data generator",
     "purpose": "Find sourced communities by topic and region with activity evidence and coverage gaps",
-    "scope": "Independent Rust community participation companion; source review through 2026-10-16",
+    "scope": "Rust community participation companion; per-record source dates, reference date 2026-10-17",
     "replacement": null
   },
   {
@@ -1468,7 +1468,7 @@
     "class": "generated",
     "owner": "conference-data generator",
     "purpose": "Compare calls, participation routes, access limits, and downloadable calendar dates",
-    "scope": "Independent Rust community participation companion; source review through 2026-10-16",
+    "scope": "Rust community participation companion; per-record source dates, reference date 2026-10-17",
     "replacement": null
   },
   {

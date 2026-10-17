@@ -11,7 +11,7 @@ robotics. Adapt them to your own work.
 | Speak, join an activity, or check support | [Calls and participation opportunities](../resources/stay-current/opportunities.md) |
 | Plan with an agent | [Community prompt](../prompts/find-my-community.md) and [structured records](participation.json) |
 
-Checked through **2026-10-16**. These are editorial connections, not speaker endorsements
+Checked through **2026-10-17**. These are editorial connections, not speaker endorsements
 or evidence of attendance. Joining, availability, and access need a current check.
 
 ## Four paths from a session to a community

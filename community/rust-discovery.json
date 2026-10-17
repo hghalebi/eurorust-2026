@@ -1,7 +1,7 @@
 {
   "format_version": 1,
-  "checked_on": "2026-10-15",
-  "reference_date": "2026-10-15",
+  "checked_on": "2026-10-17",
+  "reference_date": "2026-10-17",
   "review_status": "Codex-assisted curation; community review pending",
   "scope": "Rust programming-language conferences, selected workshops, podcasts, newsletters, technical publications, and discovery routes. A researched directory, not an exhaustive or continuously monitored calendar.",
   "selection": "Organizer and publisher sources; concrete learning value for production Rust, types, infrastructure, and embedded systems. Broader engineering sources are labelled.",
@@ -28,12 +28,14 @@
       "url": "https://rustlab.it/",
       "why_follow": "Compare practical Rust talks and workshops.",
       "notes": [
-        "Workshops 1 November; talks 2–3 November."
+        "Workshops 1 November; talks 2–3 November.",
+        "The published programme is provisional; recheck individual sessions."
       ],
       "evidence_urls": [
-        "https://rustlab.it/"
+        "https://rustlab.it/",
+        "https://rustlab.it/schedule"
       ],
-      "checked_on": "2026-10-15",
+      "checked_on": "2026-10-17",
       "source_review": "source_page_checked",
       "parent_event": null
     },
@@ -57,7 +59,7 @@
       "evidence_urls": [
         "https://rust.bettercode.eu/"
       ],
-      "checked_on": "2026-10-15",
+      "checked_on": "2026-10-17",
       "source_review": "source_page_checked",
       "parent_event": null
     },
@@ -82,7 +84,7 @@
         "https://rust.bettercode.eu/",
         "https://rust.bettercode.eu/veranstaltung-89714-se-0-agent-ready-rust-harness-engineering-fuer-ai-coding-agents.html"
       ],
-      "checked_on": "2026-10-15",
+      "checked_on": "2026-10-17",
       "source_review": "source_page_checked",
       "parent_event": null
     },
@@ -106,7 +108,7 @@
       "evidence_urls": [
         "https://rustcon.ru/"
       ],
-      "checked_on": "2026-10-15",
+      "checked_on": "2026-10-17",
       "source_review": "source_page_checked",
       "parent_event": null
     },
@@ -130,7 +132,7 @@
       "evidence_urls": [
         "https://www.rustnationuk.com/"
       ],
-      "checked_on": "2026-10-15",
+      "checked_on": "2026-10-17",
       "source_review": "source_page_checked",
       "parent_event": null
     },
@@ -152,9 +154,10 @@
         "Tickets were not yet on sale when checked; follow organizer updates."
       ],
       "evidence_urls": [
-        "https://tokioconf.com/"
+        "https://tokioconf.com/",
+        "https://tokio.rs/blog/2026-10-06-tokioconf-2027-cfp"
       ],
-      "checked_on": "2026-10-15",
+      "checked_on": "2026-10-17",
       "source_review": "source_page_checked",
       "parent_event": null
     },
@@ -173,13 +176,14 @@
       "url": "https://2027.rustweek.org/",
       "why_follow": "Combine talks, workshops, and community activities.",
       "notes": [
-        "These dates cover the full week, not six talk days. Rust Project All Hands and the unconference are invitation only. Venues vary by activity."
+        "These dates cover the full week, not six talk days. Rust Project All Hands and the unconference are invitation only. Venues vary by activity.",
+        "Published venues: Kinepolis for talks and the hackathon; Beatrixgebouw for workshops; DUS for All Hands and the unconference."
       ],
       "evidence_urls": [
         "https://2027.rustweek.org/",
         "https://rustnl.org/events/"
       ],
-      "checked_on": "2026-10-15",
+      "checked_on": "2026-10-17",
       "source_review": "source_page_checked",
       "parent_event": null
     },
@@ -204,7 +208,7 @@
         "https://rustconf.com/",
         "https://rustconf.com/faq/"
       ],
-      "checked_on": "2026-10-15",
+      "checked_on": "2026-10-17",
       "source_review": "source_page_checked",
       "parent_event": null
     },
@@ -229,7 +233,7 @@
         "https://speach.io/",
         "https://rustcon.ru/"
       ],
-      "checked_on": "2026-10-15",
+      "checked_on": "2026-10-17",
       "source_review": "source_page_checked",
       "parent_event": null
     },
@@ -248,12 +252,14 @@
       "url": "https://eurorust.eu/",
       "why_follow": "Use this repository’s session guides and conference data.",
       "notes": [
-        "Talk days are 15–16 October. Workshops and side activities have different venues and access; use docs/time-and-place.md. No 2027 date was established."
+        "Talk days are 15–16 October. Workshops and side activities have different venues and access; use docs/time-and-place.md.",
+        "The 2027 Prague edition has its own record. The homepage now promotes 2027 while retaining 2026 schedule and venue content."
       ],
       "evidence_urls": [
-        "https://eurorust.eu/"
+        "https://eurorust.eu/",
+        "https://eurorust.eu/schedule/"
       ],
-      "checked_on": "2026-10-15",
+      "checked_on": "2026-10-17",
       "source_review": "source_page_checked",
       "parent_event": null
     },
@@ -267,17 +273,18 @@
       "location": "Shenzhen, China",
       "venue": null,
       "source_languages": [
-        "en"
+        "en",
+        "zh"
       ],
       "url": "https://rustchinaconf.org/",
       "why_follow": "Explore the announced Rust and AI programme.",
       "notes": [
-        "Co-located with GOSIM. This event starts on the reference date; later delivery and recordings are unverified. No next-edition date was established."
+        "Co-located with GOSIM. Its published date range includes the reference date; delivery and recordings are not verified here. No next-edition date was established."
       ],
       "evidence_urls": [
         "https://rustchinaconf.org/"
       ],
-      "checked_on": "2026-10-15",
+      "checked_on": "2026-10-17",
       "source_review": "source_page_checked",
       "parent_event": null
     },
@@ -302,7 +309,7 @@
       "evidence_urls": [
         "https://www.rustikon.dev/"
       ],
-      "checked_on": "2026-10-15",
+      "checked_on": "2026-10-17",
       "source_review": "source_page_checked",
       "parent_event": null
     },
@@ -327,7 +334,7 @@
       "evidence_urls": [
         "https://oxidizeconf.com/"
       ],
-      "checked_on": "2026-10-15",
+      "checked_on": "2026-10-17",
       "source_review": "source_page_checked",
       "parent_event": null
     },
@@ -352,7 +359,7 @@
       "evidence_urls": [
         "https://rustparis.fr/"
       ],
-      "checked_on": "2026-10-15",
+      "checked_on": "2026-10-17",
       "source_review": "source_page_checked",
       "parent_event": null
     },
@@ -377,7 +384,7 @@
       "evidence_urls": [
         "https://rustforgeconf.com/"
       ],
-      "checked_on": "2026-10-15",
+      "checked_on": "2026-10-17",
       "source_review": "source_page_checked",
       "parent_event": null
     },
@@ -391,18 +398,20 @@
       "location": "Japan",
       "venue": null,
       "source_languages": [
-        "en"
+        "en",
+        "ja"
       ],
       "url": "https://rust.tokyo/en",
       "why_follow": "Watch for a new organizer announcement.",
       "notes": [
-        "The inspected English site still describes 2024; no next date established.",
+        "Japanese and English sites still describe the 30 November 2024 edition; no next date established.",
         "Location describes the series or last known edition, not a confirmed future venue."
       ],
       "evidence_urls": [
-        "https://rust.tokyo/en"
+        "https://rust.tokyo/en",
+        "https://rust.tokyo/"
       ],
-      "checked_on": "2026-10-15",
+      "checked_on": "2026-10-17",
       "source_review": "source_page_checked",
       "parent_event": null
     },
@@ -427,7 +436,7 @@
       "evidence_urls": [
         "https://rustindia.org/"
       ],
-      "checked_on": "2026-10-15",
+      "checked_on": "2026-10-17",
       "source_review": "source_page_checked",
       "parent_event": null
     },
@@ -452,7 +461,7 @@
       "evidence_urls": [
         "https://rustfest.global/"
       ],
-      "checked_on": "2026-10-15",
+      "checked_on": "2026-10-17",
       "source_review": "source_page_checked",
       "parent_event": null
     },
@@ -475,7 +484,7 @@
       "evidence_urls": [
         "https://www.rustasiaconf.com/"
       ],
-      "checked_on": "2026-10-15",
+      "checked_on": "2026-10-17",
       "source_review": "unavailable",
       "parent_event": null
     },
@@ -500,7 +509,7 @@
       "evidence_urls": [
         "https://www.conf42.com/"
       ],
-      "checked_on": "2026-10-15",
+      "checked_on": "2026-10-17",
       "source_review": "source_page_checked",
       "parent_event": null
     },
@@ -524,7 +533,7 @@
       "evidence_urls": [
         "https://www.rustnationuk.com/"
       ],
-      "checked_on": "2026-10-15",
+      "checked_on": "2026-10-17",
       "source_review": "source_page_checked",
       "parent_event": null
     },
@@ -543,18 +552,176 @@
       "url": "https://fosdem.org/2027/",
       "why_follow": "Watch for a Rust track announcement.",
       "notes": [
-        "FOSDEM itself is announced for 30–31 January 2027. A Rust devroom and its date were not confirmed in the inspected page; do not create Rust session dates from the parent event."
+        "FOSDEM itself is announced for 30–31 January 2027. A Rust devroom and its date were not confirmed in the inspected page; do not create Rust session dates from the parent event.",
+        "Accepted devrooms are due to be announced on 20 October 2026. Recheck then; the parent dates do not establish a Rust track."
       ],
       "evidence_urls": [
-        "https://fosdem.org/2027/"
+        "https://fosdem.org/2027/",
+        "https://fosdem.org/2027/news/call-for-devrooms/"
       ],
-      "checked_on": "2026-10-15",
+      "checked_on": "2026-10-17",
       "source_review": "source_page_checked",
       "parent_event": {
         "name": "FOSDEM 2027",
         "starts_on": "2027-01-30",
         "ends_on": "2027-01-31"
       }
+    },
+    {
+      "id": "eurorust-2027",
+      "name": "EuroRust 2027",
+      "kind": "conference",
+      "status": "announced",
+      "starts_on": "2027-10-13",
+      "ends_on": "2027-10-16",
+      "location": "Prague, Czechia",
+      "venue": "Cubex Centrum (main conference, 14–15 October)",
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://eurorust.eu/",
+      "why_follow": "Plan the next EuroRust edition using its own dates and access details.",
+      "notes": [
+        "Talks 14–15 October at Cubex Centrum. Workshops 13 October at a separate city-centre venue whose name is not yet published.",
+        "Side activities on 13, 14 and 16 October require separate tickets. The main ticket page displays 09:00–18:00 without an explicit timezone.",
+        "The homepage still contains Barcelona 2026 details below the 2027 announcement. Do not reuse those venues or assume 2027 online access."
+      ],
+      "evidence_urls": [
+        "https://eurorust.eu/",
+        "https://www.tickettailor.com/events/eurorust/2414461"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "rust-in-paris-next",
+      "name": "Rust in Paris",
+      "kind": "conference",
+      "status": "next_date_unconfirmed",
+      "starts_on": null,
+      "ends_on": null,
+      "location": "Paris, France, previous edition",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.rustinparis.com/",
+      "why_follow": "Watch for another Rust in Paris edition.",
+      "notes": [
+        "Site describes 27 March 2026 in Paris and online. This is a different series from the June Rust Paris event; no future date established.",
+        "Locations describe past editions or the series, not a confirmed future venue."
+      ],
+      "evidence_urls": [
+        "https://www.rustinparis.com/",
+        "https://www.rustinparis.com/location"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "rustmeet-next",
+      "name": "RUSTMEET",
+      "kind": "conference",
+      "status": "next_date_unconfirmed",
+      "starts_on": null,
+      "ends_on": null,
+      "location": "Kraków, Poland, previous edition",
+      "venue": null,
+      "source_languages": [
+        "en",
+        "pl"
+      ],
+      "url": "https://rustmeet.eu/en/",
+      "why_follow": "Follow the Polish community conference and workshops.",
+      "notes": [
+        "Site describes 12–14 June 2026 in Kraków and online; no future edition date established.",
+        "Locations describe past editions or the series, not a confirmed future venue."
+      ],
+      "evidence_urls": [
+        "https://rustmeet.eu/en/",
+        "https://rustmeet.eu/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "scientific-computing-rust-next",
+      "name": "Scientific Computing in Rust",
+      "kind": "workshop",
+      "status": "next_date_unconfirmed",
+      "starts_on": null,
+      "ends_on": null,
+      "location": "Online",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://scientificcomputing.rs/",
+      "why_follow": "Follow scientific computing talks, libraries, and community discussions.",
+      "notes": [
+        "The 8–10 July 2026 workshop has finished. Recordings are linked; no next workshop date established.",
+        "Locations describe past editions or the series, not a confirmed future venue."
+      ],
+      "evidence_urls": [
+        "https://scientificcomputing.rs/",
+        "https://scientificcomputing.rs/2026/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "kangrejos-next",
+      "name": "Kangrejos",
+      "kind": "workshop",
+      "status": "next_date_unconfirmed",
+      "starts_on": null,
+      "ends_on": null,
+      "location": "Las Palmas, Spain, previous edition",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://kangrejos.com/",
+      "why_follow": "Follow Rust for Linux workshop announcements and materials.",
+      "notes": [
+        "Site describes 16–17 September 2026 and invitation-only participation. No next date or public registration established.",
+        "Locations describe past editions or the series, not a confirmed future venue."
+      ],
+      "evidence_urls": [
+        "https://kangrejos.com/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "rust-global-next",
+      "name": "Rust Global",
+      "kind": "conference",
+      "status": "next_date_unconfirmed",
+      "starts_on": null,
+      "ends_on": null,
+      "location": null,
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://rustfoundation.org/events/",
+      "why_follow": "Watch for Rust Foundation events on production use.",
+      "notes": [
+        "The Foundation describes its Rust Global series without a future date. A March 2026 Rust Project update reports the earlier Tokyo event. No next location or venue established."
+      ],
+      "evidence_urls": [
+        "https://rustfoundation.org/events/",
+        "https://blog.rust-lang.org/inside-rust/2026/03/25/project-director-update/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
     }
   ],
   "sources": [

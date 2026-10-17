@@ -1,7 +1,7 @@
 # Speak, contribute, or join an activity
 
 Find a call for talks, a learning route, or practical support.
-Statuses below are a snapshot as of **2026-10-16**. Recheck the linked organizer or project
+Statuses below are a snapshot as of **2026-10-17**. Recheck the linked organizer or project
 before making a decision. An open call does not promise selection or funding.
 
 [Open calls](#open-calls) · [Announced activities](#announced-activities) · [Participation routes](#ongoing-participation-routes) · [Past examples](#past-examples) · [Closed calls](#closed-calls)
@@ -79,7 +79,7 @@ Propose a free/open-source topic suitable for the main track.
 
 This is the general main track. It does not confirm a Rust devroom. Calendar entry is a date reminder, not an exact cutoff.
 
-page checked: 2026-10-16 · next review 2026-11-15.
+page checked: 2026-10-17 · next review 2026-10-24.
 
 ## Announced activities
 
@@ -306,28 +306,34 @@ confirmed event. Access applications and rooms remain unknown unless sourced.
 
 | Event or watch item | Participation finding | Checked | Next review |
 | --- | --- | --- | --- |
-| [RustLab 2026](<https://rustlab.it/>) | Landing page has ticket and programme routes; no separate verified support or volunteer application recorded.  (page checked) | 2026-10-16 | 2026-10-23 |
-| [betterCode() Rust 2026](<https://rust.bettercode.eu/>) | Online event stated. No caption, scholarship, or volunteer terms established.  (page checked) | 2026-10-16 | 2026-11-15 |
-| [Agent-Ready Rust workshop](<https://rust.bettercode.eu/veranstaltung-89714-se-0-agent-ready-rust-harness-engineering-fuer-ai-coding-agents.html>) | Online workshop page states December 2, 09:00-16:00; timezone not stated, so times are not normalized.  (page checked) | 2026-10-16 | 2026-11-15 |
-| [RustCon 2026](<https://rustcon.ru/>) | Talk-submission route present; programme navigation still says 2025. Current deadline and support terms unknown.  (page checked) | 2026-10-16 | 2026-11-15 |
-| [Rust Nation UK 2027](<https://www.rustnationuk.com/>) | Open call and conditional speaker support reviewed separately; submission form inaccessible.  (page checked) | 2026-10-16 | 2026-11-15 |
-| [TokioConf 2027](<https://tokioconf.com/>) | Announced April 26–27 at The Armory, Portland. The call invites 25–30 minute talks with flexible length. Attendee ticket prices, remote access, and captions were not established.  (page checked) | 2026-10-16 | 2026-11-15 |
-| [RustWeek 2027](<https://2027.rustweek.org/>) | Announced May 24–29 in Utrecht; workshops May 24 and conference talks May 25–26. All-Hands and unconference access is restricted. The ticket page has stale dates in sponsor descriptions; confirm those terms separately.  (page checked) | 2026-10-16 | 2026-11-15 |
-| [RustConf 2027](<https://rustconf.com/>) | Online edition announced; 2027 access details unknown. Old page-title and 2026 navigation remain.  (page checked) | 2026-10-16 | 2026-11-15 |
-| [RustCon 2027](<https://speach.io/>) | Organizer listing only; no edition-specific application or access terms established.  (page checked) | 2026-10-16 | 2026-11-15 |
-| [EuroRust 2026](<https://eurorust.eu/>) | Barcelona and online edition; use the existing venue guide and official schedule for access and rooms.  (page checked) | 2026-10-16 | 2026-10-23 |
-| [RustChinaConf 2026](<https://rustchinaconf.org/>) | Published CFP deadline has passed; programme and ticket links remain.  (page checked) | 2026-10-16 | 2026-10-23 |
-| [Rustikon](<https://www.rustikon.dev/>) | Diversity-ticket policy describes the past edition. No next-edition application verified.  (page checked) | 2026-10-16 | 2026-11-15 |
-| [Oxidize](<https://oxidizeconf.com/>) | Accessibility policy inspected; no future edition confirmed.  (page checked) | 2026-10-16 | 2026-11-15 |
-| [Rust Paris](<https://rustparis.fr/>) | Past 2026 programme and submission history; no next-edition call verified.  (page checked) | 2026-10-16 | 2026-11-15 |
-| [Rust Forge](<https://rustforgeconf.com/>) | Past 2025 edition page; no future participation details established.  (page checked) | 2026-10-16 | 2026-11-15 |
-| [Rust.Tokyo](<https://rust.tokyo/en>) | Past 2024 edition page; no future participation details established.  (page checked) | 2026-10-16 | 2026-11-15 |
-| [Rust India Conference](<https://rustindia.org/>) | No upcoming event listed. Community event-submission route exists.  (page checked) | 2026-10-16 | 2026-11-15 |
-| [RustFest](<https://rustfest.global/>) | Historical global/LATAM pages; no current call established.  (page checked) | 2026-10-16 | 2026-11-15 |
-| [RUSTAsia](<https://www.rustasiaconf.com/>) | Source returned HTTP 503; participation details could not be reviewed. The source returned HTTP 503. No current participation or next-edition information was verified. (source unavailable) | 2026-10-16 | 2026-11-15 |
-| [Conf42 Rustlang](<https://www.conf42.com/>) | General speaking route and other upcoming technology events; no new Rustlang edition verified.  (page checked) | 2026-10-16 | 2026-11-15 |
-| [Rust Nation workshop day](<https://www.rustnationuk.com/>) | Workshop day remains planned; no confirmed programme or booking inferred.  (page checked) | 2026-10-16 | 2026-11-15 |
-| [FOSDEM Rust devroom](<https://fosdem.org/2027/>) | General main-track call verified separately. A Rust devroom is still unconfirmed.  (page checked) | 2026-10-16 | 2026-11-15 |
+| [RustLab 2026](<https://rustlab.it/>) | Landing page has ticket and programme routes; no separate verified support or volunteer application recorded.  (page checked) | 2026-10-17 | 2026-10-24 |
+| [betterCode() Rust 2026](<https://rust.bettercode.eu/>) | Online event stated. No caption, scholarship, or volunteer terms established.  (page checked) | 2026-10-17 | 2026-11-16 |
+| [Agent-Ready Rust workshop](<https://rust.bettercode.eu/veranstaltung-89714-se-0-agent-ready-rust-harness-engineering-fuer-ai-coding-agents.html>) | Online workshop page states December 2, 09:00-16:00; timezone not stated, so times are not normalized.  (page checked) | 2026-10-17 | 2026-11-16 |
+| [RustCon 2026](<https://rustcon.ru/>) | Talk-submission route present; programme navigation still says 2025. Current deadline and support terms unknown.  (page checked) | 2026-10-17 | 2026-11-16 |
+| [Rust Nation UK 2027](<https://www.rustnationuk.com/>) | Open call and conditional speaker support reviewed separately; submission form inaccessible.  (page checked) | 2026-10-17 | 2026-11-16 |
+| [TokioConf 2027](<https://tokioconf.com/>) | Announced April 26–27 at The Armory, Portland. The call invites 25–30 minute talks with flexible length. Attendee ticket prices, remote access, and captions were not established.  (page checked) | 2026-10-17 | 2026-11-16 |
+| [RustWeek 2027](<https://2027.rustweek.org/>) | Announced May 24–29 in Utrecht; workshops May 24 and conference talks May 25–26. All-Hands and unconference access is restricted. The ticket page has stale dates in sponsor descriptions; confirm those terms separately.  (page checked) | 2026-10-17 | 2026-11-16 |
+| [RustConf 2027](<https://rustconf.com/>) | Online edition announced; 2027 access details unknown. Old page-title and 2026 navigation remain.  (page checked) | 2026-10-17 | 2026-11-16 |
+| [RustCon 2027](<https://speach.io/>) | Organizer listing only; no edition-specific application or access terms established.  (page checked) | 2026-10-17 | 2026-11-16 |
+| [EuroRust 2026](<https://eurorust.eu/>) | Barcelona and online edition; use the existing venue guide and official schedule for access and rooms.  (page checked) | 2026-10-17 | 2026-10-24 |
+| [RustChinaConf 2026](<https://rustchinaconf.org/>) | Published CFP deadline has passed; programme and ticket links remain.  (page checked) | 2026-10-17 | 2026-10-24 |
+| [Rustikon](<https://www.rustikon.dev/>) | Diversity-ticket policy describes the past edition. No next-edition application verified.  (page checked) | 2026-10-17 | 2026-11-16 |
+| [Oxidize](<https://oxidizeconf.com/>) | Accessibility policy inspected; no future edition confirmed.  (page checked) | 2026-10-17 | 2026-11-16 |
+| [Rust Paris](<https://rustparis.fr/>) | Past 2026 programme and submission history; no next-edition call verified.  (page checked) | 2026-10-17 | 2026-11-16 |
+| [Rust Forge](<https://rustforgeconf.com/>) | Past 2025 edition page; no future participation details established.  (page checked) | 2026-10-17 | 2026-11-16 |
+| [Rust.Tokyo](<https://rust.tokyo/en>) | Past 2024 edition page; no future participation details established.  (page checked) | 2026-10-17 | 2026-11-16 |
+| [Rust India Conference](<https://rustindia.org/>) | No upcoming event listed. Community event-submission route exists.  (page checked) | 2026-10-17 | 2026-11-16 |
+| [RustFest](<https://rustfest.global/>) | Historical global/LATAM pages; no current call established.  (page checked) | 2026-10-17 | 2026-11-16 |
+| [RUSTAsia](<https://www.rustasiaconf.com/>) | Source returned HTTP 503; participation details could not be reviewed. The source returned HTTP 503. No current participation or next-edition information was verified. (source unavailable) | 2026-10-17 | 2026-11-16 |
+| [Conf42 Rustlang](<https://www.conf42.com/>) | General speaking route and other upcoming technology events; no new Rustlang edition verified.  (page checked) | 2026-10-17 | 2026-11-16 |
+| [Rust Nation workshop day](<https://www.rustnationuk.com/>) | Workshop day remains planned; no confirmed programme or booking inferred.  (page checked) | 2026-10-17 | 2026-11-16 |
+| [FOSDEM Rust devroom](<https://fosdem.org/2027/>) | General main-track call verified separately. A Rust devroom is still unconfirmed.  (page checked) | 2026-10-17 | 2026-10-20 |
+| [EuroRust 2027](<https://eurorust.eu/>) | Use the organizer page for registration and access. The named main venue does not cover workshops or side activities.  (page checked) | 2026-10-17 | 2026-11-16 |
+| [Rust in Paris](<https://www.rustinparis.com/>) | Use the organizer page for registration and access. No future date established.  (page checked) | 2026-10-17 | 2026-11-16 |
+| [RUSTMEET](<https://rustmeet.eu/en/>) | Use the organizer page for registration and access. No future date established.  (page checked) | 2026-10-17 | 2026-11-16 |
+| [Scientific Computing in Rust](<https://scientificcomputing.rs/>) | Use the organizer page for registration and access. No future date established.  (page checked) | 2026-10-17 | 2026-11-16 |
+| [Kangrejos](<https://kangrejos.com/>) | The last workshop required an invitation. No future date or public attendance route established.  (page checked) | 2026-10-17 | 2026-11-16 |
+| [Rust Global](<https://rustfoundation.org/events/>) | Foundation calendar covers its own supported activities; it is not a global event directory. No future Rust Global date established.  (page checked) | 2026-10-17 | 2026-11-16 |
 
 </details>
 

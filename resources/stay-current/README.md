@@ -3,8 +3,9 @@
 Find your next Rust conference, a useful podcast, or a small reading habit.
 Start with one source that answers a question you already have.
 
-Events and publications checked **15 October 2026**; participation research extends
-through **16 October 2026**. This directory covers the Rust programming language.
+Event research checked **17 October 2026**; publication and feed checks are dated
+**15 October 2026**. Individual records retain their own review dates.
+This directory covers the Rust programming language.
 It is a researched selection; new events and regional sources may be missing.
 
 | You want to | Start here |
