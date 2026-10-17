@@ -3,7 +3,7 @@
 Choose a group by the question you want to explore. Start by reading its public
 material and participation rules; chat access and available help need their own check.
 
-53 community routes · source review through **2026-10-17**.
+70 community routes · source review through **2026-10-17**.
 
 [Four personal learning paths](../../community/README.md) · [First contributions and learning](participate.md) · [Calls and activities](opportunities.md)
 
@@ -303,6 +303,22 @@ Topics: [community](../topics/community.md). Access: online.
 Future announcements were checked; meeting delivery and later recurrence are not established.
 
 page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [luma.com](<https://luma.com/k1978ath>).
+
+### [Open-source operating-system camp](<https://opencamp.cn/os2edu/camp/2026fall>)
+
+related ecosystem · learning · online / global · pages: zh
+
+Study operating-system development with Rust, rCore, and ArceOS. For Learners interested in Rust operating systems.
+
+**First step:** Read the phase requirements and available recordings before choosing an exercise.
+
+Topics: [systems](../topics/systems.md), [compilers](../topics/compilers.md). Access: online · Organizer describes the training as free..
+
+The published cohort start is 27 September 2026. The page conflicts on its end date: 3 January versus 10 January 2027. No calendar span is exported.
+
+Progression requires earlier stages. Chinese source text; international access, spoken language, and late participation were not independently tested.
+
+page checked: 2026-10-17 · next review 2026-10-24.
 
 ## Regional groups
 
@@ -790,6 +806,232 @@ Future announcements were checked; meeting delivery and later recurrence are not
 
 page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [luma.com](<https://luma.com/8wbq8d64>), [www.meetup.com](<https://www.meetup.com/rust-canberra/events/316907340/>).
 
+### [Rust Japan](<https://rust.connpass.com/>)
+
+independent · regional group · Japan · pages: ja, en
+
+Find Japanese Rust workshops and lightning-talk announcements. For Rust learners, speakers, and local organizers.
+
+**First step:** Read the organizer’s latest announcement and verify the date, format, and access before making plans.
+
+Topics: [community](../topics/community.md). Access: mode unverified.
+
+No future date verified; the public organizer page was accessible through direct HTML.
+
+page checked: 2026-10-17 · next review 2027-01-15.
+
+### [Rust online study group](<https://rust-online.connpass.com/>)
+
+independent · regional group · online / global · pages: ja
+
+Find Japanese-language online study and co-working announcements. For Rust learners, speakers, and local organizers.
+
+**First step:** Read the organizer’s latest announcement and verify the date, format, and access before making plans.
+
+Topics: [community](../topics/community.md). Access: online.
+
+The inspected list showed July and August 2026 events. No later date verified; do not extend its recurring description.
+
+page checked: 2026-10-17 · next review 2027-01-15.
+
+### [Seoul Rust](<https://seoul.rs/>)
+
+independent · regional group · Seoul, South Korea · pages: en, ko
+
+Find Seoul Rust community channels and meetup announcements. For Rust learners, speakers, and local organizers.
+
+**First step:** Read the organizer’s latest announcement and verify the date, format, and access before making plans.
+
+Topics: [community](../topics/community.md). Access: mode unverified.
+
+No future dated meeting established.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [www.meetup.com](<https://www.meetup.com/rust-seoul-meetup/>).
+
+### [Rust Korea](<https://www.meetup.com/rustkorea/>)
+
+independent · regional group · South Korea · pages: ko
+
+Find Korean Rust discussions and organizer announcements. For Rust learners, speakers, and local organizers.
+
+**First step:** Read the organizer’s latest announcement and verify the date, format, and access before making plans.
+
+Topics: [community](../topics/community.md). Access: mode unverified.
+
+No upcoming event was listed at inspection.
+
+page checked: 2026-10-17 · next review 2027-01-15.
+
+### [Rust Singapore](<https://www.meetup.com/rust-singapore/>)
+
+independent · regional group · Singapore · pages: en
+
+Find Singapore Rust meetup announcements and earlier talks. For Rust learners, speakers, and local organizers.
+
+**First step:** Read the organizer’s latest announcement and verify the date, format, and access before making plans.
+
+Topics: [community](../topics/community.md). Access: mode unverified.
+
+The latest visible meeting was in September 2024; no next date established.
+
+page checked: 2026-10-17 · next review 2027-01-15.
+
+### [Rust Malaysia](<https://rust-malaysia.github.io/meetup/>)
+
+independent · regional group · Malaysia · pages: en
+
+Find Malaysian Rust recordings, talk proposals, and event channels. For Rust learners, speakers, and local organizers.
+
+**First step:** Read the organizer’s latest announcement and verify the date, format, and access before making plans.
+
+Topics: [community](../topics/community.md). Access: mode unverified.
+
+The dated archive extends to August 2026; no future meeting date verified.
+
+page checked: 2026-10-17 · next review 2027-01-15.
+
+### [Rust Taiwan](<https://github.com/rust-tw/meetup>)
+
+independent · regional group · Taiwan · pages: zh, en
+
+Find Taiwanese Rust meetup materials and group links. For Rust learners, speakers, and local organizers.
+
+**First step:** Read the organizer’s latest announcement and verify the date, format, and access before making plans.
+
+Topics: [community](../topics/community.md). Access: mode unverified.
+
+No future date verified. Older monthly descriptions do not confirm another meeting.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [www.meetup.com](<https://www.meetup.com/taipei-rust-users-group/>).
+
+### [Rust Chinese community event board](<https://rustcc.cn/section?id=39bb9ba5-4349-452a-a9e8-c8932170bb34>)
+
+independent · regional group · China · pages: zh
+
+Discover Chinese-language Rust event announcements. For Rust learners, speakers, and local organizers.
+
+**First step:** Read the organizer’s latest announcement and verify the date, format, and access before making plans.
+
+Topics: [community](../topics/community.md). Access: online.
+
+Community posts are discovery leads; verify each event with its organizer.
+
+page checked: 2026-10-17 · next review 2027-01-15.
+
+### [Johannesburg Rust Meetup](<https://www.meetup.com/johannesburg-rust-meetup/>)
+
+independent · regional group · Johannesburg, South Africa · pages: en
+
+Find Johannesburg Rust meetings and a route for proposing talks. For Rust learners, speakers, and local organizers.
+
+**First step:** Read the organizer’s latest announcement and verify the date, format, and access before making plans.
+
+Topics: [community](../topics/community.md). Access: mode unverified.
+
+Activity evidence: 2026-10-13 · The organizer lists a dated past meeting; attendance and delivery were not observed. [Activity source](<https://www.meetup.com/johannesburg-rust-meetup/>)
+
+The organizer lists a 13 October 2026 meeting among past events. No future meeting was published.
+
+page checked: 2026-10-17 · next review 2027-01-15.
+
+### [Rustaceans Kenya](<https://github.com/RustaceansKenya>)
+
+independent · regional group · Kenya · pages: en
+
+Find Kenyan Rust community projects and event records. For Rust learners, speakers, and local organizers.
+
+**First step:** Read the organizer’s latest announcement and verify the date, format, and access before making plans.
+
+Topics: [community](../topics/community.md). Access: online.
+
+GitHub routes were accessible; rust.ke was unavailable in this review. No future event verified.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [github.com](<https://github.com/RustaceansKenya/Events>).
+
+### [Rust Brisbane](<https://www.meetup.com/rust-brisbane/>)
+
+independent · regional group · Brisbane, Australia · pages: en
+
+Find Brisbane Rust talks and learning sessions. For Rust learners, speakers, and local organizers.
+
+**First step:** Read the organizer’s latest announcement and verify the date, format, and access before making plans.
+
+Topics: [community](../topics/community.md). Access: mode unverified.
+
+A July 2026 meeting was visible; no future date verified.
+
+page checked: 2026-10-17 · next review 2027-01-15.
+
+### [Rust Wellington](<https://www.meetup.com/rust-wellington/>)
+
+independent · regional group · Wellington, New Zealand · pages: en
+
+Follow Wellington Rust community announcements. For Rust learners, speakers, and local organizers.
+
+**First step:** Read the organizer’s latest announcement and verify the date, format, and access before making plans.
+
+Topics: [community](../topics/community.md). Access: mode unverified.
+
+The retrieved page retained Rust Forge 2025 material; current scheduling is unverified.
+
+page checked: 2026-10-17 · next review 2027-01-15.
+
+### [Rust MX](<https://www.meetup.com/rust-mx/>)
+
+independent · regional group · Mexico City, Mexico · pages: es
+
+Find the Mexico City Rust community and its event announcements. For Rust learners, speakers, and local organizers.
+
+**First step:** Read the organizer’s latest announcement and verify the date, format, and access before making plans.
+
+Topics: [community](../topics/community.md). Access: mode unverified.
+
+The inspected page listed past events; no future date verified.
+
+page checked: 2026-10-17 · next review 2027-01-15.
+
+### [Rust en Español](<https://www.meetup.com/rust-argentina/>)
+
+independent · regional group · Argentina · pages: es
+
+Find Spanish-language Rust talks and community discussion. For Rust learners, speakers, and local organizers.
+
+**First step:** Read the organizer’s latest announcement and verify the date, format, and access before making plans.
+
+Topics: [community](../topics/community.md). Access: mode unverified.
+
+Localized group views showed different past-event selections; no future instance verified.
+
+page checked: 2026-10-17 · next review 2027-01-15.
+
+### [Czech Rust community](<https://rustlang.cz/>)
+
+independent · regional group · Czech Republic · pages: en, cs
+
+Find Prague and Moravia groups, teaching material, and recordings. For Rust learners, speakers, and local organizers.
+
+**First step:** Read the organizer’s latest announcement and verify the date, format, and access before making plans.
+
+Topics: [community](../topics/community.md). Access: mode unverified.
+
+The latest listed event predates this review; no next date inferred.
+
+page checked: 2026-10-17 · next review 2027-01-15.
+
+### [RustNL](<https://rustnl.org/events/>)
+
+independent · regional group · Netherlands · pages: en
+
+Find RustWeek and Dutch Rust meetup routes. For Rust learners, speakers, and local organizers.
+
+**First step:** Read the organizer’s latest announcement and verify the date, format, and access before making plans.
+
+Topics: [community](../topics/community.md). Access: in person.
+
+RustWeek has a dated record. No separate next local meetup was verified on this page.
+
+page checked: 2026-10-17 · next review 2027-01-15.
+
 ## Coverage and gaps
 
 This is a researched selection. A covered category has a useful route, not exhaustive
@@ -798,13 +1040,13 @@ English-language sources remain strongest.
 
 | Area | Coverage | Evidence or gap |
 | --- | --- | --- |
-| Regional and online groups | partial | Dated meetups and group routes cover Europe, the Americas, Asia, and Oceania, with global online sessions. African future dates and university clubs remain gaps. |
+| Regional and online groups | partial | Regional routes cover five regions and online communities. Selected dated meetups are included; African future dates and university clubs remain incomplete. |
 | Questions and discussion | covered | User help, internals, project Q&amp;A, and official chat entry points are distinguished. |
 | Specialist projects | covered | Project routes cover the four personal goals plus security, WebAssembly, and game development. |
 | Open meetings | partial | Types and embedded meetings and Bytecode meetup routes included; no separately verified office-hour or AMA schedule. |
 | First contributions | covered | Compiler, Tokio, embedded, Snix, and community-documentation contribution routes included; individual issue availability must be checked. |
-| Mentoring and learning | partial | Exercism, RustBridge, and Rust Edu included. No current student cohort or guaranteed pairing place established. |
-| Working events | partial | RustWeek public hackathon included. Current hardware labs, bug bashes, and game-jam dates remain gaps. |
+| Mentoring and learning | partial | Exercism, RustBridge, Rust Edu, and an operating-system camp route included. Cohort access and mentoring availability need separate confirmation. |
+| Working events | partial | RustWeek public hackathon date and separate invitation-only All Hands dates are included. Dedicated hardware labs, bug bashes, and game-jam dates remain gaps. |
 | Speaking and volunteering | partial | Four current calls and a closed example included. No current volunteer, poster, or reviewer application verified. |
 | Attendance and access | partial | Online attendance, conditional speaker travel support, and past access policies included. Current captions, room access, and student-ticket offers remain incomplete. |
 | Related ecosystems | partial | Nix, Snix, ROS 2, and Bytecode routes included. Current dedicated robotics and type-research event programmes remain gaps. |
@@ -812,11 +1054,12 @@ English-language sources remain strongest.
 | Shared practice | covered | Six activity formats are proposals/templates; no repository-hosted event is announced. |
 | Agent and calendar reuse | covered | Companion records, four routes, agent guidance, and a dated calendar support reuse; no automatic refresh. |
 
-- Africa: regional sources are present, but no future dated meetup was verified in this sweep.
-- Asia: Bengaluru, Tel Aviv, and a Japanese meetup have dated records; many cities and language communities remain unlisted.
-- Europe and the Americas: selected dated organizer pages were checked, not every group or every future occurrence.
-- Oceania: Melbourne and Canberra have dated events; the Sydney record remains an archive route and New Zealand future dates are unverified.
-- Online: published instances are included; recurrence rules and later chapter lists were not expanded into assumed meetings.
+- Africa: Rust Africa, Johannesburg, and Kenya routes were checked; no future dated African meetup was verified.
+- Asia: dated Bengaluru, Tel Aviv, and Japanese meetup records sit alongside broader regional routes. Chinese OS camp end dates conflict; no calendar span was invented.
+- Europe and the Americas: selected organizers and Spanish, Portuguese, Czech, Dutch, German, French, Polish, and English routes were checked. Many cities and university groups remain unlisted.
+- Oceania: Melbourne and Canberra have dated events; Brisbane and Wellington have discovery routes. Sydney remains an archive route, and New Zealand future dates are unverified.
+- Online: published instances are included. Later chapter schedules, generic recurrence rules, and private-channel announcements were not converted into assumed meeting instances.
+- Global: announcements after 17 October 2026, unindexed pages, access-blocked sources, and private groups remain outside this review. No source claims worldwide completeness.
 
 Codex-assisted curation; community review pending. Page review is not proof of access, attendance, or current availability.
 

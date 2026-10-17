@@ -1411,7 +1411,7 @@
     "path": "resources/stay-current/README.md",
     "class": "reference",
     "owner": "repository maintainers",
-    "purpose": "Choose ongoing Rust learning sources, import checked feeds, and reuse the dated discovery directory with an agent",
+    "purpose": "Find future Rust events and ongoing learning sources; reuse dated data, calendar reminders, and checked feeds",
     "scope": "Event review through 2026-10-17; publication and feed checks on 2026-10-15; separate from the EuroRust dataset",
     "replacement": null
   },
@@ -1419,7 +1419,7 @@
     "path": "resources/stay-current/conferences.md",
     "class": "reference",
     "owner": "repository maintainers",
-    "purpose": "Compare announced future Rust events and distinguish ongoing, tentative, and unconfirmed editions",
+    "purpose": "Compare announced Rust conferences and community activities while distinguishing tentative and unconfirmed editions",
     "scope": "Curated Rust event directory checked on 2026-10-17; separate from the EuroRust dataset",
     "replacement": null
   },
@@ -1707,7 +1707,7 @@
     "path": "resources/stay-current/meetups.md",
     "class": "reference",
     "owner": "repository maintainers",
-    "purpose": "Find dated local and online Rust meetups with organizer links, source-local times, and unresolved access details",
+    "purpose": "Find dated Rust meetups, online sessions, and regional discovery routes with organizer evidence and access limits",
     "scope": "Organizer announcements checked on 2026-10-17; selected events, not a worldwide census",
     "replacement": null
   }

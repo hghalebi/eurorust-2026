@@ -11,7 +11,8 @@ types, workers, infrastructure, and robotics to a first source and a question.
 | [A Rust topic](topics/README.md) | Session reading lists grouped by types, infrastructure, robotics, and other interests |
 | [The learning and event library](library.md) | Original courses, papers, engineering accounts, governance records, and organizer guidance |
 | [Conference archives](conferences/README.md) | Programmes, speakers, recordings, and known gaps across events and years |
-| [Keep learning after EuroRust](stay-current/README.md) | Announced conferences, podcasts, newsletters, blogs, and feeds, with source dates |
+| [Upcoming Rust events](stay-current/conferences.md) and [meetups](stay-current/meetups.md) | Dated announcements, online sessions, community routes, and access limits |
+| [Keep learning after EuroRust](stay-current/README.md) | Podcasts, newsletters, blogs, and feeds, with source dates |
 | [Find a community](../community/README.md) | Groups, first contributions, activities, and calls connected to your learning goals |
 | [A speaker](speakers/README.md) | Their work, public accounts, and sources supporting attribution |
 | [Your agent](../docs/learning-resources.md) | Portable learning packs, JSON, and a prompt for a short reading list |

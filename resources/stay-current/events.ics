@@ -4,7 +4,7 @@ PRODID:-//hghalebi/eurorust-2026//Rust community snapshot//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:event-rustlab-2026@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261104
 SUMMARY:RustLab 2026
@@ -20,7 +20,7 @@ LOCATION:Savoia Regency Hotel\, Bologna\, Italy
 END:VEVENT
 BEGIN:VEVENT
 UID:event-bettercode-rust-2026@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:betterCode() Rust 2026
@@ -36,7 +36,7 @@ LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 UID:event-bettercode-rust-workshop-2026@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Agent-Ready Rust workshop
@@ -54,7 +54,7 @@ LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 UID:event-rustcon-2026@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:RustCon 2026
@@ -71,7 +71,7 @@ LOCATION:Loft Prostranstvo VESNA\, Spartakovsky pereulok 2s1\, entrance 7\,
 END:VEVENT
 BEGIN:VEVENT
 UID:event-rustnation-2027@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270219
 SUMMARY:Rust Nation UK 2027
@@ -87,7 +87,7 @@ LOCATION:1 Basinghall Avenue\, London EC2V 5DD\, London\, UK
 END:VEVENT
 BEGIN:VEVENT
 UID:event-tokioconf-2027@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20270426
 DTEND;VALUE=DATE:20270428
 SUMMARY:TokioConf 2027
@@ -102,7 +102,7 @@ LOCATION:The Armory\, Portland\, Oregon\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:event-rustweek-2027@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20270524
 DTEND;VALUE=DATE:20270530
 SUMMARY:RustWeek 2027
@@ -120,7 +120,7 @@ LOCATION:Utrecht\, Netherlands
 END:VEVENT
 BEGIN:VEVENT
 UID:event-rustconf-2027@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20270907
 DTEND;VALUE=DATE:20270911
 SUMMARY:RustConf 2027
@@ -137,7 +137,7 @@ LOCATION:Vancouver\, Canada\, and online
 END:VEVENT
 BEGIN:VEVENT
 UID:event-rustcon-2027@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20271203
 DTEND;VALUE=DATE:20271204
 SUMMARY:RustCon 2027
@@ -153,7 +153,7 @@ LOCATION:Moscow\, Russia
 END:VEVENT
 BEGIN:VEVENT
 UID:event-eurorust-2026@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261018
 SUMMARY:EuroRust 2026
@@ -171,7 +171,7 @@ LOCATION:Barcelona\, Spain\, and online
 END:VEVENT
 BEGIN:VEVENT
 UID:event-rustchinaconf-2026@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261018
 SUMMARY:RustChinaConf 2026
@@ -188,7 +188,7 @@ LOCATION:Shenzhen\, China
 END:VEVENT
 BEGIN:VEVENT
 UID:event-eurorust-2027@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20271013
 DTEND;VALUE=DATE:20271017
 SUMMARY:EuroRust 2027
@@ -209,7 +209,7 @@ LOCATION:Cubex Centrum (main conference\, 14–15 October)\, Prague\, Czech
 END:VEVENT
 BEGIN:VEVENT
 UID:event-dallas-deep-learning-2026-10-18@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:Rust Deep Learning: Third Sunday
@@ -226,7 +226,7 @@ LOCATION:Online (Dallas\, Texas\, USA)
 END:VEVENT
 BEGIN:VEVENT
 UID:event-leipzig-dioxus-2026-10-20@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 SUMMARY:Creating a realtime web Multiuser Dungeon game with Dioxus
@@ -245,7 +245,7 @@ LOCATION:Basislager Coworking Leipzig\, Peterssteinweg 14\, Leipzig\, Germa
 END:VEVENT
 BEGIN:VEVENT
 UID:event-rust-dc-2026-10-20@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 SUMMARY:Mid-month Rustful
@@ -261,7 +261,7 @@ LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 UID:event-sf-rust-hacking-2026-10-20@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 SUMMARY:Rust Hacking in Person
@@ -279,7 +279,7 @@ LOCATION:Pebblebed\, 1417 15th St\, San Francisco\, California\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:event-bay-area-embedded-2026-10-21@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 SUMMARY:Bay Area Rust - Embedded Meetup
@@ -296,7 +296,7 @@ LOCATION:Atuin office\, San Francisco\, California\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:event-vancouver-rust-2026-10-21@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 SUMMARY:Rust Study/Hack/Hang-out
@@ -314,7 +314,7 @@ LOCATION:116 W 6th Ave\, suite 300\, Vancouver\, Canada\, and online
 END:VEVENT
 BEGIN:VEVENT
 UID:event-berlin-hack-learn-2026-10-22@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:Rust Hack and Learn
@@ -332,7 +332,7 @@ LOCATION:Online (Berlin\, Germany)
 END:VEVENT
 BEGIN:VEVENT
 UID:event-gdansk-rust-2026-10-22@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:Rust Poland x Gdańsk #13
@@ -352,7 +352,7 @@ LOCATION:Europejskie Centrum Solidarności\, Plac Solidarności 1\, Gdańsk
 END:VEVENT
 BEGIN:VEVENT
 UID:event-karlsruhe-hack-learn-2026-10-22@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:Karlsruhe Rust Hack and Learn Meetup bei BlueYonder
@@ -370,7 +370,7 @@ LOCATION:BlueYonder GmbH\, Ohiostraße 8\, Karlsruhe\, Germany
 END:VEVENT
 BEGIN:VEVENT
 UID:event-maven-wgpu-2026-10-22@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:Rust and the GPU from Native to Web: An Introduction to wgpu
@@ -386,7 +386,7 @@ LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 UID:event-nyc-code-matters-2026-10-22@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:Rust NYC w/Bryan Cantrill - Code Matters: Reflections on Rust in th
@@ -405,7 +405,7 @@ LOCATION:Datadog\, New York Times Building\, 620 8th Avenue\, New York\, US
 END:VEVENT
 BEGIN:VEVENT
 UID:event-rust-melbourne-2026-10-22@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:Rust Melbourne Meetup
@@ -422,7 +422,7 @@ LOCATION:Stone & Chalk Melbourne Startup Hub\, 121 King St\, Melbourne VIC
 END:VEVENT
 BEGIN:VEVENT
 UID:event-toulouse-rust-python-2026-10-22@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:Soirée Rust - Interopérabilité Rust et Python
@@ -440,7 +440,7 @@ LOCATION:Epitech Toulouse\, 40 Boulevard de la Marquette\; ground-floor amp
 END:VEVENT
 BEGIN:VEVENT
 UID:event-boston-davis-lunch-2026-10-24@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:Davis Square Rust Lunch\, Oct 24
@@ -457,7 +457,7 @@ LOCATION:Diesel Cafe\, 257 Elm Street\, Somerville\, Massachusetts\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:event-maven-tiny-mcu-2026-10-26@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 SUMMARY:No Python was harmed: teaching a tiny MCU to learn as it goes
@@ -473,7 +473,7 @@ LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 UID:event-aarhus-rust-ai-2026-10-27@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 SUMMARY:Hack Night: Rust meets AI
@@ -492,7 +492,7 @@ LOCATION:Folkehuset Møllestien\, Grønnegade 10\; Opholdsstue 1\, Aarhus\,
 END:VEVENT
 BEGIN:VEVENT
 UID:event-dallas-bookclub-2026-10-27@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 SUMMARY:Fourth Tuesday Rust Bookclub
@@ -509,7 +509,7 @@ LOCATION:Online (Dallas\, Texas\, USA)
 END:VEVENT
 BEGIN:VEVENT
 UID:event-paris-rust-89-2026-10-27@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 SUMMARY:Rust meetup #89
@@ -526,7 +526,7 @@ LOCATION:EPITA\, 14–16 Rue Voltaire\, Le Kremlin-Bicêtre\, France
 END:VEVENT
 BEGIN:VEVENT
 UID:event-women-rust-async-2026-10-27@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 SUMMARY:Lunch & Learn: Reasoning with Async Rust
@@ -543,7 +543,7 @@ LOCATION:Online (London\, UK)
 END:VEVENT
 BEGIN:VEVENT
 UID:event-maven-hex-editor-2026-10-29@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 SUMMARY:Creating a hexadecimal editor in Rust
@@ -559,7 +559,7 @@ LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 UID:event-boston-north-end-lunch-2026-10-31@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:North End Rust Lunch\, Oct 31
@@ -576,7 +576,7 @@ LOCATION:Thinking Cup\, 236 Hanover Street\, Boston\, Massachusetts\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:event-stockholm-fika-2026-10-31@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Ferris' Fika Forum #31
@@ -594,7 +594,7 @@ LOCATION:Espresso House Norrlandsgatan\, Norrlandsgatan 18\, Stockholm\, Sw
 END:VEVENT
 BEGIN:VEVENT
 UID:event-dallas-deep-learning-2026-11-01@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Rust Deep Learning: First Sunday
@@ -611,7 +611,7 @@ LOCATION:Online (Dallas\, Texas\, USA)
 END:VEVENT
 BEGIN:VEVENT
 UID:event-maven-solverforge-2026-11-03@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:Solving Real-World Planning Problems in Rust with SolverForge
@@ -627,7 +627,7 @@ LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 UID:event-rust-tlv-2026-11-03@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:Rust at AWS in Tel Aviv
@@ -644,7 +644,7 @@ LOCATION:AWS Floor 28\, Derech Menachem Begin 121\, Tel Aviv-Yafo\, Tel Avi
 END:VEVENT
 BEGIN:VEVENT
 UID:event-women-rust-catchup-2026-11-03@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:Community Catch Up
@@ -661,7 +661,7 @@ LOCATION:Online (London\, UK)
 END:VEVENT
 BEGIN:VEVENT
 UID:event-dublin-rust-database-2026-11-04@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:Rust 263: Getting Started with the New Rust Driver for Oracle AI Da
@@ -683,7 +683,7 @@ LOCATION:tcube workspaces\, 1 O’Connell Street Lower\, Dublin\, Ireland
 END:VEVENT
 BEGIN:VEVENT
 UID:event-indy-rust-2026-11-04@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:Indy.rs - with Social Distancing
@@ -700,7 +700,7 @@ LOCATION:Online (Indianapolis\, Indiana\, USA)
 END:VEVENT
 BEGIN:VEVENT
 UID:event-berlin-hack-learn-2026-11-05@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:Rust Hack and Learn
@@ -717,7 +717,7 @@ LOCATION:Online (Berlin\, Germany)
 END:VEVENT
 BEGIN:VEVENT
 UID:event-milan-embedded-trains-2026-11-05@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:Digital Model Trains & Rust: Bare-Metal DCC Command Station on ESP3
@@ -736,7 +736,7 @@ LOCATION:Kalpa\, Via Giosuè Carducci 39\, Sesto San Giovanni\, Italy
 END:VEVENT
 BEGIN:VEVENT
 UID:event-stl-htmx-rust-2026-11-05@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:HTMX and Rust
@@ -754,7 +754,7 @@ LOCATION:OCI\, suite 310\, 12140 Woodcrest Executive Drive\, St. Louis\, Mi
 END:VEVENT
 BEGIN:VEVENT
 UID:event-sao-paulo-rust-2026-11-07@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:Rust SP Nov/2026
@@ -772,7 +772,7 @@ LOCATION:Avenida Nhandú 848\, Planalto Paulista\, São Paulo\, Brazil
 END:VEVENT
 BEGIN:VEVENT
 UID:event-dallas-second-tuesday-2026-11-10@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:Second Tuesday
@@ -789,7 +789,7 @@ LOCATION:Online (Dallas\, Texas\, USA)
 END:VEVENT
 BEGIN:VEVENT
 UID:event-rust-bangalore-2026-11-14@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:November 2026 Rustacean Meetup
@@ -806,7 +806,7 @@ LOCATION:Bengaluru\, India
 END:VEVENT
 BEGIN:VEVENT
 UID:event-maven-cursed-rust-2026-11-15@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Cursed Rust
@@ -823,7 +823,7 @@ LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 UID:event-maven-miscompilation-2026-11-17@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Miscompilation in Rust 1.97
@@ -839,7 +839,7 @@ LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 UID:event-berlin-hack-learn-2026-11-19@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Rust Hack and Learn
@@ -856,7 +856,7 @@ LOCATION:Online (Berlin\, Germany)
 END:VEVENT
 BEGIN:VEVENT
 UID:event-boston-winter-hill-lunch-2026-11-21@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Winter Hill Rust Lunch\, Nov 21
@@ -874,7 +874,7 @@ LOCATION:Rooted Armory Cafe\, 191 Highland Avenue\, unit 1B\, Somerville\,
 END:VEVENT
 BEGIN:VEVENT
 UID:event-rust-canberra-2026-11-24@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:November CRUG
@@ -891,7 +891,7 @@ LOCATION:Microsoft Canberra office\, 4/6 National Circuit\, Barton ACT\; en
 END:VEVENT
 BEGIN:VEVENT
 UID:event-berlin-hack-learn-2026-12-03@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Rust Hack and Learn
@@ -908,7 +908,7 @@ LOCATION:Online (Berlin\, Germany)
 END:VEVENT
 BEGIN:VEVENT
 UID:event-tokyo-rustaceans-2027-01-24@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:TOKYO RUSTACEANS
@@ -923,8 +923,44 @@ DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:event-rustweek-hackathon-2027@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164654Z
+DTSTART;VALUE=DATE:20270527
+DTEND;VALUE=DATE:20270528
+SUMMARY:RustWeek public hackathon
+URL:https://2027.rustweek.org/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-11-16. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. Open to everyone according to the organizer\; 
+ registration and cost still need confirmation. The week schedule gives 09:
+ 00–18:00 without an explicit timezone. This date is separate from the in
+ vitation-only All Hands and unconference. Source: https://2027.rustweek.or
+ g/
+TRANSP:TRANSPARENT
+LOCATION:Kinepolis\, Utrecht\, Utrecht\, Netherlands
+END:VEVENT
+BEGIN:VEVENT
+UID:event-rust-all-hands-2027@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164654Z
+DTSTART;VALUE=DATE:20270527
+DTEND;VALUE=DATE:20270530
+SUMMARY:Rust All Hands and Unconference — invitation only
+URL:https://2027.rustweek.org/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-11-16. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. Invitation only for Rust Project members and i
+ nvited guests. A public conference ticket does not establish access. The o
+ rganizer lists 09:00–18:00 on each day without an explicit timezone. Ind
+ ividual rooms and detailed sessions are not established here. Source: http
+ s://2027.rustweek.org/
+TRANSP:TRANSPARENT
+LOCATION:DUS\, Utrecht\, Utrecht\, Netherlands
+END:VEVENT
+BEGIN:VEVENT
 UID:deadline-tokioconf-cfp@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART:20261201T075900Z
 SUMMARY:Submission deadline: TokioConf 2027 call for talks
 URL:https://sessionize.com/tokioconf-2027/
@@ -937,7 +973,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:deadline-rustweek-cfp@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART:20270110T225900Z
 SUMMARY:Submission deadline: RustWeek 2027 call for talks
 URL:https://sessionize.com/rustweek-2027/
@@ -949,7 +985,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:deadline-fosdem-main-track-cfp@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164244Z
+DTSTAMP:20261017T164654Z
 DTSTART;VALUE=DATE:20261116
 SUMMARY:Submission deadline: FOSDEM 2027 main-track call
 URL:https://fosdem.org/2027/news/call-for-main-track/

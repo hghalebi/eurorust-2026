@@ -89,6 +89,13 @@ Use stable IDs. Keep tentative dates and unknown venues explicit. A page for an
 older edition does not confirm next year's event. A feed date does not establish
 an event date, future publishing schedule, or recording playback.
 
+For meetups, link the individual organizer announcement and record the date,
+location or online format, and known access limits. Keep exact time and timezone
+wording in the notes. Do not create future instances from a recurring description.
+Use the [meetup guide](resources/stay-current/meetups.md) for the reading-page style.
+Each discovery event also needs a matching `event_reviews[]` record in
+[participation.json](community/participation.json).
+
 Fetch and parse a feed before marking it checked. Mark drafts, ended series,
 unavailable sources, and wider engineering coverage clearly. Change review dates
 only after inspecting evidence. Link to original work and preserve its terms.

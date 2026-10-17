@@ -37,6 +37,20 @@ For EuroRust 2027, use the Prague announcement and 2027 ticket page. The homepag
 still contains Barcelona 2026 venues and programme details; online access for
 2027 is not established here.
 
+## RustWeek community activities
+
+The [week schedule](https://2027.rustweek.org/) separates these activities from
+talks and workshops. Confirm access for the activity you choose.
+
+| Dates | Activity | Venue and access |
+| --- | --- | --- |
+| 27 May 2027 | Public hackathon | Kinepolis, Utrecht. Open to everyone according to the organizer; cost and registration still need confirmation. |
+| 27–29 May 2027 | Rust All Hands and Unconference | DUS, Utrecht. Invitation only; a conference ticket does not establish access. |
+
+The [Rust Project announcement](https://blog.rust-lang.org/inside-rust/2026/07/31/all-hands-2026-retrospective/)
+also confirms the All Hands dates. Published daily hours are 09:00–18:00 without
+an explicit timezone, so the calendar keeps date reminders.
+
 ## Dates that include the reference day
 
 These published ranges include 17 October. They do not prove that an activity

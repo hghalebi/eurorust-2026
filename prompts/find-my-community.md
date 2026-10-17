@@ -35,6 +35,9 @@ Use these rules:
 4. Separate event dates from submission deadlines. Preserve the organizer's
    timezone and date precision. An all-day reminder does not establish a cutoff
    time; a past edition does not establish a future event.
+   Compare end dates with my requested dates. Do not turn recurring descriptions
+   or parent-conference dates into confirmed meetings. Prefer the current
+   organizer page over search snippets; report conflicting times or venues.
 5. Distinguish official teams, independent groups, project communities, and
    related ecosystems. Explain the fit as your reasoning, not an endorsement.
 6. Do not infer price, eligibility, seats, mentoring, language, captions, hardware
@@ -48,7 +51,8 @@ Return:
 
 - **Best fit:** community ID, reason, source link, review date, and current-check result.
 - **First action:** opportunity ID if present, prerequisites, and a concrete small step.
-- **Date and access:** event or deadline evidence; unresolved constraints.
+- **Date and access:** event ID, organizer link, source-local time and offset if
+  established, conversion to my timezone if possible, and unresolved constraints.
 - **Alternative:** why it may fit better, with its sources and limits.
 - **My decision:** the choice I should review before taking part.
 

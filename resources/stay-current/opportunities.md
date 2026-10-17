@@ -85,15 +85,15 @@ page checked: 2026-10-17 · next review 2026-10-24.
 
 ### [RustWeek public hackathon](<https://2027.rustweek.org/>)
 
-hackathon · in person
+hackathon · in person · venue: Kinepolis, Utrecht
 
 Read the week schedule and participation details before choosing a project.
 
-Event: [RustWeek 2027](<https://2027.rustweek.org/>). See [conference dates and limits](conferences.md).
+Event: [RustWeek public hackathon](<https://2027.rustweek.org/>). See [conference dates and limits](conferences.md).
 
-Open to everyone according to the page; cost and registration requirements not established. Exact hackathon day/time not normalized here. All Hands and the unconference require invitations.
+Open to everyone according to the page; cost and registration requirements remain unverified. Published time 09:00–18:00 has no explicit timezone. All Hands and the unconference require invitations.
 
-page checked: 2026-10-16 · next review 2026-11-15.
+page checked: 2026-10-17 · next review 2026-11-16.
 
 ### [RustConf 2027 online attendance](<https://rustconf.com/>)
 
@@ -106,6 +106,18 @@ Event: [RustConf 2027](<https://rustconf.com/>). See [conference dates and limit
 Online edition announced; price, captions, timetable, and registration availability unverified. Page title retains older details.
 
 page checked: 2026-10-16 · next review 2026-11-15.
+
+### [Rust All Hands and Unconference: invited participation](<https://2027.rustweek.org/>)
+
+attendance · in person · Invitation required; Rust Project members and invited guests. · venue: DUS, Utrecht
+
+Use the organizer information to confirm an invitation and arrangements. General conference registration does not establish access.
+
+Event: [Rust All Hands and Unconference — invitation only](<https://2027.rustweek.org/>). See [conference dates and limits](conferences.md).
+
+No open public application, detailed session programme, or room allocation established.
+
+page checked: 2026-10-17 · next review 2026-11-16. Further evidence: [blog.rust-lang.org](<https://blog.rust-lang.org/inside-rust/2026/07/31/all-hands-2026-retrospective/>).
 
 ## Ongoing participation routes
 
@@ -255,6 +267,18 @@ No funding amount or award is guaranteed.
 
 page checked: 2026-10-16 · next review 2026-11-15.
 
+### [Explore the autumn Rust OS training camp](<https://opencamp.cn/os2edu/camp/2026fall>)
+
+learning · online · Organizer describes the training as free.
+
+Read the Rust preparation and rCore/ArceOS phase requirements, then choose one exercise or recording. Confirm eligibility for later phases separately.
+
+The published cohort start is 27 September 2026. The page conflicts on its end date: 3 January versus 10 January 2027. No calendar span is exported.
+
+Progression requires earlier stages. Chinese source text; international access, spoken language, and late participation were not independently tested.
+
+page checked: 2026-10-17 · next review 2026-10-24.
+
 ## Past examples
 
 ### [Rustikon diversity-ticket reference](<https://www.rustikon.dev/diversity>)
@@ -376,6 +400,8 @@ confirmed event. Access applications and rooms remain unknown unless sourced.
 | [November CRUG](<https://luma.com/8wbq8d64>) | Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.  (page checked) | 2026-10-17 | 2026-11-16 |
 | [Rust Hack and Learn](<https://www.meetup.com/rust-berlin/events/316907782/>) | Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.  (page checked) | 2026-10-17 | 2026-11-16 |
 | [TOKYO RUSTACEANS](<https://tokyo-rustaceans.connpass.com/event/404065/>) | Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.  (page checked) | 2026-10-17 | 2026-11-16 |
+| [RustWeek public hackathon](<https://2027.rustweek.org/>) | Open to everyone according to the organizer; registration and cost still need confirmation.  (page checked) | 2026-10-17 | 2026-11-16 |
+| [Rust All Hands and Unconference — invitation only](<https://2027.rustweek.org/>) | Invitation only for Rust Project members and invited guests. A public conference ticket does not establish access.  (page checked) | 2026-10-17 | 2026-11-16 |
 
 </details>
 

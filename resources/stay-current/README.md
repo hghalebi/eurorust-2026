@@ -1,6 +1,6 @@
 # Keep learning after EuroRust
 
-Find your next Rust conference, a useful podcast, or a small reading habit.
+Find a Rust event, a useful podcast, or a small reading habit.
 Start with one source that answers a question you already have.
 
 Event research checked **17 October 2026**; publication and feed checks are dated
@@ -62,10 +62,19 @@ Try this request:
 > pages. Explain each choice, link its evidence, and list unresolved details.
 > Keep tentative events separate. Do not infer bookings or availability.
 
-`events[]` stores dates, location, venue, status, sources, and limits.
+`events[]` covers conferences, workshops, tracks, meetups, and community events.
+It stores dates, location, venue, status, sources, and limits. Filter by your
+request date and the event's end date; a snapshot label alone does not mean future.
 Statuses use `reference_date`: `announced`, `ongoing`, `tentative`, or
-`next_date_unconfirmed`. Unknown dates and venues stay `null`.
-For the FOSDEM watch item, `parent_event` dates belong to FOSDEM, not a confirmed Rust track.
+`next_date_unconfirmed`; cancelled records use `cancelled` and leave the calendar.
+Unknown dates and venues stay `null`. `parent_event` identifies a wider event:
+FOSDEM dates do not confirm a Rust track, and RustWeek dates do not give access
+to every activity.
+
+Meetup notes retain published times and UTC offsets where verified. The
+[calendar](opportunities.md#use-the-calendar) exports event dates as all-day
+reminders, with application deadlines separate. The [meetup guide](meetups.md)
+shows source-local start times; check each date's offset before converting.
 
 `sources[]` stores publisher, type, topics, feed, and `latest_observed` publication
 metadata where established. `activity` records an observation, an unknown date,
@@ -92,9 +101,12 @@ Dates come from organizers. Publication descriptions and dates come from authors
 publishers, or feeds. Checks covered pages and metadata; recordings were not
 played. Entries are Codex-assisted drafts awaiting community review.
 
-Searches covered existing conference series and regional leads across Europe,
-the Americas, Asia, Africa, and Oceania. Coverage is strongest for English-language
-sources. Unannounced dates, unavailable sites, and older publications remain visible.
+Event searches covered organizer sites and regional leads across Europe, the
+Americas, Asia, Africa, and Oceania, including non-English pages. Search results,
+digests, and shared calendars supplied leads; dated records use organizer evidence.
+Some dates required public page metadata or an organizer ICS. Live source
+conflicts remain visible. Coverage is uneven, especially for African future
+dates, university clubs, private groups, and unindexed announcements.
 
 [Suggest a source or correction](../../CONTRIBUTING.md#events-and-ongoing-sources).
 For direct edits, keep the JSON, reading page, and OPML consistent. Advance check

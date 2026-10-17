@@ -17,6 +17,7 @@ organizing, community participation, or agent-assisted research.
 | Read beyond a session | [Session resources](../resources/related-talks/README.md) and [topic indexes](../resources/topics/README.md) |
 | Find original material | [Courses, research, engineering accounts, and event guidance](../resources/library.md) |
 | Explore other conferences | [Conference archives](../resources/conferences/README.md), with programme and recording coverage |
+| Find an upcoming event | [Conference dates](../resources/stay-current/conferences.md), [meetups and online sessions](../resources/stay-current/meetups.md), and [calendar reminders](../resources/stay-current/opportunities.md#use-the-calendar) |
 | Follow new Rust work | [Future events, podcasts, newsletters, and feeds](../resources/stay-current/README.md) |
 | Find a community or activity | [Four learning paths and participation routes](../community/README.md) |
 | Explore a speaker's work | [Speaker directory](../resources/speakers/README.md) |

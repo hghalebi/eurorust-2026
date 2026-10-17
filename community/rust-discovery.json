@@ -1774,6 +1774,65 @@
       "checked_on": "2026-10-17",
       "source_review": "source_page_checked",
       "parent_event": null
+    },
+    {
+      "id": "rustweek-hackathon-2027",
+      "name": "RustWeek public hackathon",
+      "kind": "community_event",
+      "status": "announced",
+      "starts_on": "2027-05-27",
+      "ends_on": "2027-05-27",
+      "location": "Utrecht, Netherlands",
+      "venue": "Kinepolis, Utrecht",
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://2027.rustweek.org/",
+      "why_follow": "Work on a Rust project with other participants.",
+      "notes": [
+        "Open to everyone according to the organizer; registration and cost still need confirmation.",
+        "The week schedule gives 09:00–18:00 without an explicit timezone. This date is separate from the invitation-only All Hands and unconference."
+      ],
+      "evidence_urls": [
+        "https://2027.rustweek.org/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": {
+        "name": "RustWeek 2027",
+        "starts_on": "2027-05-24",
+        "ends_on": "2027-05-29"
+      }
+    },
+    {
+      "id": "rust-all-hands-2027",
+      "name": "Rust All Hands and Unconference — invitation only",
+      "kind": "community_event",
+      "status": "announced",
+      "starts_on": "2027-05-27",
+      "ends_on": "2027-05-29",
+      "location": "Utrecht, Netherlands",
+      "venue": "DUS, Utrecht",
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://2027.rustweek.org/",
+      "why_follow": "Follow Rust Project and ecosystem collaboration announcements.",
+      "notes": [
+        "Invitation only for Rust Project members and invited guests. A public conference ticket does not establish access.",
+        "The organizer lists 09:00–18:00 on each day without an explicit timezone. Individual rooms and detailed sessions are not established here."
+      ],
+      "evidence_urls": [
+        "https://2027.rustweek.org/",
+        "https://blog.rust-lang.org/inside-rust/2026/07/31/all-hands-2026-retrospective/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": {
+        "name": "RustWeek 2027",
+        "starts_on": "2027-05-24",
+        "ends_on": "2027-05-29"
+      }
     }
   ],
   "sources": [
@@ -2837,11 +2896,14 @@
       "feed_url": null,
       "feed_type": null,
       "feed_checked_on": null,
-      "notes": [],
-      "evidence_urls": [
-        "https://rust-lang.org/community/"
+      "notes": [
+        "The page links a public community calendar. Use it to discover events, then verify the specific organizer page and displayed timezone."
       ],
-      "checked_on": "2026-10-15",
+      "evidence_urls": [
+        "https://rust-lang.org/community/",
+        "https://calendar.google.com/calendar/embed?showTitle=0&showPrint=0&showTabs=0&showCalendars=0&mode=AGENDA&height=400&wkst=1&bgcolor=%23FFFFFF&src=apd9vmbc22egenmtu5l6c5jbfc%40group.calendar.google.com&color=%23691426&ctz=Europe%2FMadrid"
+      ],
+      "checked_on": "2026-10-17",
       "source_review": "source_page_checked"
     },
     {

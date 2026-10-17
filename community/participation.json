@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "reference_date": "2026-10-17",
   "catalog_snapshot_id": "eurorust-2026-71f2ee4aea59a1589532",
-  "discovery_sha256": "e57ec82c64c5bd26e66665f468cd482ca8b9b65d98bda637818805bd6709ebcc",
+  "discovery_sha256": "0941d79b558e7d507b6b6a891bfec766d8194a390ad0d07307ca42d0bca3b7a0",
   "review_status": "Codex-assisted curation; community review pending. Page review is not proof of access, attendance, or current availability.",
   "communities": [
     {
@@ -2554,6 +2554,814 @@
       "audience": "Rust learners and contributors",
       "contribution_url": null,
       "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-japan",
+      "name": "Rust Japan",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "asia",
+      "location": "Japan",
+      "source_languages": [
+        "ja",
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://rust.connpass.com/",
+      "discovery_source_id": null,
+      "purpose": "Find Japanese Rust workshops and lightning-talk announcements.",
+      "first_step": "Read the organizer’s latest announcement and verify the date, format, and access before making plans.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://rust.connpass.com/",
+        "note": "The community route was checked; recent activity and the next meeting need separate evidence."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rust.connpass.com/"
+        ],
+        "limits": [
+          "No future date verified; the public organizer page was accessible through direct HTML."
+        ]
+      },
+      "audience": "Rust learners, speakers, and local organizers",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-online-japan",
+      "name": "Rust online study group",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "global",
+      "location": null,
+      "source_languages": [
+        "ja"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://rust-online.connpass.com/",
+      "discovery_source_id": null,
+      "purpose": "Find Japanese-language online study and co-working announcements.",
+      "first_step": "Read the organizer’s latest announcement and verify the date, format, and access before making plans.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://rust-online.connpass.com/",
+        "note": "The community route was checked; recent activity and the next meeting need separate evidence."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rust-online.connpass.com/"
+        ],
+        "limits": [
+          "The inspected list showed July and August 2026 events. No later date verified; do not extend its recurring description."
+        ]
+      },
+      "audience": "Rust learners, speakers, and local organizers",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "seoul-rust",
+      "name": "Seoul Rust",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "asia",
+      "location": "Seoul, South Korea",
+      "source_languages": [
+        "en",
+        "ko"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://seoul.rs/",
+      "discovery_source_id": null,
+      "purpose": "Find Seoul Rust community channels and meetup announcements.",
+      "first_step": "Read the organizer’s latest announcement and verify the date, format, and access before making plans.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://seoul.rs/",
+        "note": "The community route was checked; recent activity and the next meeting need separate evidence."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://seoul.rs/",
+          "https://www.meetup.com/rust-seoul-meetup/"
+        ],
+        "limits": [
+          "No future dated meeting established."
+        ]
+      },
+      "audience": "Rust learners, speakers, and local organizers",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-korea",
+      "name": "Rust Korea",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "asia",
+      "location": "South Korea",
+      "source_languages": [
+        "ko"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/rustkorea/",
+      "discovery_source_id": null,
+      "purpose": "Find Korean Rust discussions and organizer announcements.",
+      "first_step": "Read the organizer’s latest announcement and verify the date, format, and access before making plans.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://www.meetup.com/rustkorea/",
+        "note": "The community route was checked; recent activity and the next meeting need separate evidence."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rustkorea/"
+        ],
+        "limits": [
+          "No upcoming event was listed at inspection."
+        ]
+      },
+      "audience": "Rust learners, speakers, and local organizers",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-singapore",
+      "name": "Rust Singapore",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "asia",
+      "location": "Singapore",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/rust-singapore/",
+      "discovery_source_id": null,
+      "purpose": "Find Singapore Rust meetup announcements and earlier talks.",
+      "first_step": "Read the organizer’s latest announcement and verify the date, format, and access before making plans.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://www.meetup.com/rust-singapore/",
+        "note": "The community route was checked; recent activity and the next meeting need separate evidence."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-singapore/"
+        ],
+        "limits": [
+          "The latest visible meeting was in September 2024; no next date established."
+        ]
+      },
+      "audience": "Rust learners, speakers, and local organizers",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-malaysia",
+      "name": "Rust Malaysia",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "asia",
+      "location": "Malaysia",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://rust-malaysia.github.io/meetup/",
+      "discovery_source_id": null,
+      "purpose": "Find Malaysian Rust recordings, talk proposals, and event channels.",
+      "first_step": "Read the organizer’s latest announcement and verify the date, format, and access before making plans.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://rust-malaysia.github.io/meetup/",
+        "note": "The community route was checked; recent activity and the next meeting need separate evidence."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rust-malaysia.github.io/meetup/"
+        ],
+        "limits": [
+          "The dated archive extends to August 2026; no future meeting date verified."
+        ]
+      },
+      "audience": "Rust learners, speakers, and local organizers",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-taiwan",
+      "name": "Rust Taiwan",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "asia",
+      "location": "Taiwan",
+      "source_languages": [
+        "zh",
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://github.com/rust-tw/meetup",
+      "discovery_source_id": null,
+      "purpose": "Find Taiwanese Rust meetup materials and group links.",
+      "first_step": "Read the organizer’s latest announcement and verify the date, format, and access before making plans.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://github.com/rust-tw/meetup",
+        "note": "The community route was checked; recent activity and the next meeting need separate evidence."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://github.com/rust-tw/meetup",
+          "https://www.meetup.com/taipei-rust-users-group/"
+        ],
+        "limits": [
+          "No future date verified. Older monthly descriptions do not confirm another meeting."
+        ]
+      },
+      "audience": "Rust learners, speakers, and local organizers",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-china-events",
+      "name": "Rust Chinese community event board",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "asia",
+      "location": "China",
+      "source_languages": [
+        "zh"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://rustcc.cn/section?id=39bb9ba5-4349-452a-a9e8-c8932170bb34",
+      "discovery_source_id": null,
+      "purpose": "Discover Chinese-language Rust event announcements.",
+      "first_step": "Read the organizer’s latest announcement and verify the date, format, and access before making plans.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://rustcc.cn/section?id=39bb9ba5-4349-452a-a9e8-c8932170bb34",
+        "note": "The community route was checked; recent activity and the next meeting need separate evidence."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rustcc.cn/section?id=39bb9ba5-4349-452a-a9e8-c8932170bb34"
+        ],
+        "limits": [
+          "Community posts are discovery leads; verify each event with its organizer."
+        ]
+      },
+      "audience": "Rust learners, speakers, and local organizers",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-johannesburg",
+      "name": "Johannesburg Rust Meetup",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "africa",
+      "location": "Johannesburg, South Africa",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/johannesburg-rust-meetup/",
+      "discovery_source_id": null,
+      "purpose": "Find Johannesburg Rust meetings and a route for proposing talks.",
+      "first_step": "Read the organizer’s latest announcement and verify the date, format, and access before making plans.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": "2026-10-13",
+        "evidence_url": "https://www.meetup.com/johannesburg-rust-meetup/",
+        "note": "The organizer lists a dated past meeting; attendance and delivery were not observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/johannesburg-rust-meetup/"
+        ],
+        "limits": [
+          "The organizer lists a 13 October 2026 meeting among past events. No future meeting was published."
+        ]
+      },
+      "audience": "Rust learners, speakers, and local organizers",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-kenya",
+      "name": "Rustaceans Kenya",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "africa",
+      "location": "Kenya",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://github.com/RustaceansKenya",
+      "discovery_source_id": null,
+      "purpose": "Find Kenyan Rust community projects and event records.",
+      "first_step": "Read the organizer’s latest announcement and verify the date, format, and access before making plans.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://github.com/RustaceansKenya",
+        "note": "The community route was checked; recent activity and the next meeting need separate evidence."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://github.com/RustaceansKenya",
+          "https://github.com/RustaceansKenya/Events"
+        ],
+        "limits": [
+          "GitHub routes were accessible; rust.ke was unavailable in this review. No future event verified."
+        ]
+      },
+      "audience": "Rust learners, speakers, and local organizers",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-brisbane",
+      "name": "Rust Brisbane",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "oceania",
+      "location": "Brisbane, Australia",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/rust-brisbane/",
+      "discovery_source_id": null,
+      "purpose": "Find Brisbane Rust talks and learning sessions.",
+      "first_step": "Read the organizer’s latest announcement and verify the date, format, and access before making plans.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://www.meetup.com/rust-brisbane/",
+        "note": "The community route was checked; recent activity and the next meeting need separate evidence."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-brisbane/"
+        ],
+        "limits": [
+          "A July 2026 meeting was visible; no future date verified."
+        ]
+      },
+      "audience": "Rust learners, speakers, and local organizers",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-wellington",
+      "name": "Rust Wellington",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "oceania",
+      "location": "Wellington, New Zealand",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/rust-wellington/",
+      "discovery_source_id": null,
+      "purpose": "Follow Wellington Rust community announcements.",
+      "first_step": "Read the organizer’s latest announcement and verify the date, format, and access before making plans.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://www.meetup.com/rust-wellington/",
+        "note": "The community route was checked; recent activity and the next meeting need separate evidence."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-wellington/"
+        ],
+        "limits": [
+          "The retrieved page retained Rust Forge 2025 material; current scheduling is unverified."
+        ]
+      },
+      "audience": "Rust learners, speakers, and local organizers",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-mx",
+      "name": "Rust MX",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "americas",
+      "location": "Mexico City, Mexico",
+      "source_languages": [
+        "es"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/rust-mx/",
+      "discovery_source_id": null,
+      "purpose": "Find the Mexico City Rust community and its event announcements.",
+      "first_step": "Read the organizer’s latest announcement and verify the date, format, and access before making plans.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://www.meetup.com/rust-mx/",
+        "note": "The community route was checked; recent activity and the next meeting need separate evidence."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-mx/"
+        ],
+        "limits": [
+          "The inspected page listed past events; no future date verified."
+        ]
+      },
+      "audience": "Rust learners, speakers, and local organizers",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-argentina",
+      "name": "Rust en Español",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "americas",
+      "location": "Argentina",
+      "source_languages": [
+        "es"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/rust-argentina/",
+      "discovery_source_id": null,
+      "purpose": "Find Spanish-language Rust talks and community discussion.",
+      "first_step": "Read the organizer’s latest announcement and verify the date, format, and access before making plans.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://www.meetup.com/rust-argentina/",
+        "note": "The community route was checked; recent activity and the next meeting need separate evidence."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-argentina/"
+        ],
+        "limits": [
+          "Localized group views showed different past-event selections; no future instance verified."
+        ]
+      },
+      "audience": "Rust learners, speakers, and local organizers",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-czech",
+      "name": "Czech Rust community",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "europe",
+      "location": "Czech Republic",
+      "source_languages": [
+        "en",
+        "cs"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://rustlang.cz/",
+      "discovery_source_id": null,
+      "purpose": "Find Prague and Moravia groups, teaching material, and recordings.",
+      "first_step": "Read the organizer’s latest announcement and verify the date, format, and access before making plans.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://rustlang.cz/",
+        "note": "The community route was checked; recent activity and the next meeting need separate evidence."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rustlang.cz/"
+        ],
+        "limits": [
+          "The latest listed event predates this review; no next date inferred."
+        ]
+      },
+      "audience": "Rust learners, speakers, and local organizers",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rustnl",
+      "name": "RustNL",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "europe",
+      "location": "Netherlands",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://rustnl.org/events/",
+      "discovery_source_id": null,
+      "purpose": "Find RustWeek and Dutch Rust meetup routes.",
+      "first_step": "Read the organizer’s latest announcement and verify the date, format, and access before making plans.",
+      "access": {
+        "mode": "in_person",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://rustnl.org/events/",
+        "note": "The community route was checked; recent activity and the next meeting need separate evidence."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rustnl.org/events/"
+        ],
+        "limits": [
+          "RustWeek has a dated record. No separate next local meetup was verified on this page."
+        ]
+      },
+      "audience": "Rust learners, speakers, and local organizers",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "open-os-camp",
+      "name": "Open-source operating-system camp",
+      "kind": "learning",
+      "affiliation": "adjacent",
+      "region": "global",
+      "location": null,
+      "source_languages": [
+        "zh"
+      ],
+      "topics": [
+        "systems",
+        "compilers"
+      ],
+      "url": "https://opencamp.cn/os2edu/camp/2026fall",
+      "discovery_source_id": null,
+      "purpose": "Study operating-system development with Rust, rCore, and ArceOS.",
+      "first_step": "Read the phase requirements and available recordings before choosing an exercise.",
+      "access": {
+        "mode": "online",
+        "cost": "Organizer describes the training as free.",
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://opencamp.cn/os2edu/camp/2026fall",
+        "note": "The current cohort page was inspected; teaching delivery and participation were not observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://opencamp.cn/os2edu/camp/2026fall"
+        ],
+        "limits": [
+          "The published cohort start is 27 September 2026. The page conflicts on its end date: 3 January versus 10 January 2027. No calendar span is exported.",
+          "Progression requires earlier stages. Chinese source text; international access, spoken language, and late participation were not independently tested."
+        ]
+      },
+      "audience": "Learners interested in Rust operating systems",
+      "contribution_url": null,
+      "code_of_conduct_url": null
     }
   ],
   "opportunities": [
@@ -2708,8 +3516,8 @@
       "kind": "hackathon",
       "status": "announced",
       "url": "https://2027.rustweek.org/",
-      "community_id": null,
-      "event_id": "rustweek-2027",
+      "community_id": "rustnl",
+      "event_id": "rustweek-hackathon-2027",
       "deadline": null,
       "action": "Read the week schedule and participation details before choosing a project.",
       "access": {
@@ -2719,18 +3527,18 @@
         "captions": null,
         "eligibility": null,
         "equipment": null,
-        "venue": null,
+        "venue": "Kinepolis, Utrecht",
         "room": null
       },
       "review": {
-        "checked_on": "2026-10-16",
-        "next_review_on": "2026-11-15",
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
         "source_review": "page_checked",
         "evidence_urls": [
           "https://2027.rustweek.org/"
         ],
         "limits": [
-          "Open to everyone according to the page; cost and registration requirements not established. Exact hackathon day/time not normalized here. All Hands and the unconference require invitations."
+          "Open to everyone according to the page; cost and registration requirements remain unverified. Published time 09:00–18:00 has no explicit timezone. All Hands and the unconference require invitations."
         ]
       }
     },
@@ -3333,6 +4141,72 @@
           "https://rustchinaconf.org/"
         ],
         "limits": []
+      }
+    },
+    {
+      "id": "open-os-camp-learning",
+      "title": "Explore the autumn Rust OS training camp",
+      "kind": "learning",
+      "status": "route",
+      "url": "https://opencamp.cn/os2edu/camp/2026fall",
+      "community_id": "open-os-camp",
+      "event_id": null,
+      "deadline": null,
+      "action": "Read the Rust preparation and rCore/ArceOS phase requirements, then choose one exercise or recording. Confirm eligibility for later phases separately.",
+      "access": {
+        "mode": "online",
+        "cost": "Organizer describes the training as free.",
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://opencamp.cn/os2edu/camp/2026fall"
+        ],
+        "limits": [
+          "The published cohort start is 27 September 2026. The page conflicts on its end date: 3 January versus 10 January 2027. No calendar span is exported.",
+          "Progression requires earlier stages. Chinese source text; international access, spoken language, and late participation were not independently tested."
+        ]
+      }
+    },
+    {
+      "id": "rust-all-hands-invited",
+      "title": "Rust All Hands and Unconference: invited participation",
+      "kind": "attendance",
+      "status": "announced",
+      "url": "https://2027.rustweek.org/",
+      "community_id": "rust-project",
+      "event_id": "rust-all-hands-2027",
+      "deadline": null,
+      "action": "Use the organizer information to confirm an invitation and arrangements. General conference registration does not establish access.",
+      "access": {
+        "mode": "in_person",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": "Invitation required; Rust Project members and invited guests.",
+        "equipment": null,
+        "venue": "DUS, Utrecht",
+        "room": null
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://2027.rustweek.org/",
+          "https://blog.rust-lang.org/inside-rust/2026/07/31/all-hands-2026-retrospective/"
+        ],
+        "limits": [
+          "No open public application, detailed session programme, or room allocation established."
+        ]
       }
     }
   ],
@@ -4360,13 +5234,40 @@
         ],
         "limits": []
       }
+    },
+    {
+      "event_id": "rustweek-hackathon-2027",
+      "note": "Open to everyone according to the organizer; registration and cost still need confirmation.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://2027.rustweek.org/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "rust-all-hands-2027",
+      "note": "Invitation only for Rust Project members and invited guests. A public conference ticket does not establish access.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://2027.rustweek.org/",
+          "https://blog.rust-lang.org/inside-rust/2026/07/31/all-hands-2026-retrospective/"
+        ],
+        "limits": []
+      }
     }
   ],
   "coverage": [
     {
       "category": "C01",
       "status": "partial",
-      "note": "Dated meetups and group routes cover Europe, the Americas, Asia, and Oceania, with global online sessions. African future dates and university clubs remain gaps.",
+      "note": "Regional routes cover five regions and online communities. Selected dated meetups are included; African future dates and university clubs remain incomplete.",
       "area": "Regional and online groups"
     },
     {
@@ -4396,13 +5297,13 @@
     {
       "category": "C06",
       "status": "partial",
-      "note": "Exercism, RustBridge, and Rust Edu included. No current student cohort or guaranteed pairing place established.",
+      "note": "Exercism, RustBridge, Rust Edu, and an operating-system camp route included. Cohort access and mentoring availability need separate confirmation.",
       "area": "Mentoring and learning"
     },
     {
       "category": "C07",
       "status": "partial",
-      "note": "RustWeek public hackathon included. Current hardware labs, bug bashes, and game-jam dates remain gaps.",
+      "note": "RustWeek public hackathon date and separate invitation-only All Hands dates are included. Dedicated hardware labs, bug bashes, and game-jam dates remain gaps.",
       "area": "Working events"
     },
     {
@@ -4443,11 +5344,12 @@
     }
   ],
   "regional_gaps": [
-    "Africa: regional sources are present, but no future dated meetup was verified in this sweep.",
-    "Asia: Bengaluru, Tel Aviv, and a Japanese meetup have dated records; many cities and language communities remain unlisted.",
-    "Europe and the Americas: selected dated organizer pages were checked, not every group or every future occurrence.",
-    "Oceania: Melbourne and Canberra have dated events; the Sydney record remains an archive route and New Zealand future dates are unverified.",
-    "Online: published instances are included; recurrence rules and later chapter lists were not expanded into assumed meetings."
+    "Africa: Rust Africa, Johannesburg, and Kenya routes were checked; no future dated African meetup was verified.",
+    "Asia: dated Bengaluru, Tel Aviv, and Japanese meetup records sit alongside broader regional routes. Chinese OS camp end dates conflict; no calendar span was invented.",
+    "Europe and the Americas: selected organizers and Spanish, Portuguese, Czech, Dutch, German, French, Polish, and English routes were checked. Many cities and university groups remain unlisted.",
+    "Oceania: Melbourne and Canberra have dated events; Brisbane and Wellington have discovery routes. Sydney remains an archive route, and New Zealand future dates are unverified.",
+    "Online: published instances are included. Later chapter schedules, generic recurrence rules, and private-channel announcements were not converted into assumed meeting instances.",
+    "Global: announcements after 17 October 2026, unindexed pages, access-blocked sources, and private groups remain outside this review. No source claims worldwide completeness."
   ],
-  "calendar_updated_at": "2026-10-17T16:42:44+00:00"
+  "calendar_updated_at": "2026-10-17T16:46:54+00:00"
 }

@@ -85,6 +85,18 @@ sources. Follow its [field reference](data-guide.md#community-participation-comp
 and the [contribution rules](../CONTRIBUTING.md#communities-and-participation).
 Keep event dates in the discovery registry and application deadlines in the companion.
 
+For an individual meetup or community event, check the organizer's current page
+and its edition or occurrence. Record exact published times and offsets in event
+notes; keep calendar dates separate. Public event metadata or an organizer ICS
+can help verify dates omitted by page extraction. Retain conflicting sources and
+failed access attempts. A search snippet, recurring description, or parent event
+does not establish an individual meeting.
+
+Keep the [conference guide](../resources/stay-current/conferences.md) and
+[meetup guide](../resources/stay-current/meetups.md) aligned with discovery records.
+Every event needs one matching participation review. Recheck short-notice events
+weekly; preserve original observation dates for sources not reviewed again.
+
 Review the discovery diff before updating `discovery_sha256`. This command reads
 its current byte hash; it does not establish source accuracy:
 
@@ -102,7 +114,9 @@ With the [compiled helper installed](quickstart.md#install-a-reusable-binary):
 
 ```sh
 bin/conference-data build-participation
+bin/conference-data build-guides
 bin/conference-data check-participation
+bin/conference-data check-guides
 bin/conference-data check-docs
 ```
 

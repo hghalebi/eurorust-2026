@@ -138,6 +138,14 @@ original wording, or `date` with an ISO date and original wording. Date-only
 deadlines have no established cutoff time or timezone. Event dates remain in
 the discovery registry. Never copy a deadline into an event date.
 
+Discovery events include conferences, workshops, tracks, meetups, and community
+activities. Their start and inclusive end dates follow the organizer's calendar.
+Exact published times and offsets, where checked, remain in `notes`; they are not
+separate timed-event fields. Calendar exports use all-day reminders. Recheck end
+dates against the date of a request, and distinguish an individual announcement
+from a recurring group description. `parent_event` dates belong to the wider
+event and do not establish every activity's date or access.
+
 `review.checked_on` records page inspection or an unsuccessful access attempt;
 `source_review` distinguishes them. Evidence and limits travel with the record.
 `activity.observed_on` records dated activity evidence, not a guarantee of current

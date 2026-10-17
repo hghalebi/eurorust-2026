@@ -115,13 +115,32 @@ language of a meeting.
 
 ## Find the next announcement
 
-Use the [regional community routes](communities.md#regional-groups),
-[Rust's community calendar](https://rust-lang.org/community/#events), and
-[This Week in Rust](https://this-week-in-rust.org/). Follow each listing to its
-organizer; older dates and recurring descriptions do not confirm another meeting.
+Start with [Rust's community calendar](https://rust-lang.org/community/#events)
+or [This Week in Rust](https://this-week-in-rust.org/), then follow the listing to
+its organizer. The [full community directory](communities.md) includes source
+reviews and limits. Older dates and recurring descriptions do not confirm another meeting.
 
-No future dated African meetup was verified in this sweep. See
-[Rust Africa](https://rustafrica.org/) for regional discovery. Missing countries,
-private groups, university clubs, and announcements after the check date remain
-gaps. [Suggest an event](../../CONTRIBUTING.md#events-and-ongoing-sources) with an
+| Region | Further organizer and community routes |
+| --- | --- |
+| Online | [Rust Maven](https://luma.com/rust-maven), [Women in Rust](https://www.meetup.com/women-in-rust/), [Dallas Rust](https://www.meetup.com/dallasrust/), [Japanese study group](https://rust-online.connpass.com/) |
+| Europe | [Czech Rust](https://rustlang.cz/), [RustNL](https://rustnl.org/events/), [Rust Berlin](https://berline.rs/) |
+| Americas | [Rust MX](https://www.meetup.com/rust-mx/), [Rust en Español](https://www.meetup.com/rust-argentina/), [Rust-SP](https://luma.com/rustsp) |
+| Asia | [Rust Japan](https://rust.connpass.com/), [Seoul Rust](https://seoul.rs/), [Rust Korea](https://www.meetup.com/rustkorea/), [Singapore](https://www.meetup.com/rust-singapore/), [Malaysia](https://rust-malaysia.github.io/meetup/), [Taiwan](https://github.com/rust-tw/meetup), [Chinese event board](https://rustcc.cn/section?id=39bb9ba5-4349-452a-a9e8-c8932170bb34) |
+| Africa | [Rust Africa](https://rustafrica.org/), [Johannesburg](https://www.meetup.com/johannesburg-rust-meetup/), [Rustaceans Kenya](https://github.com/RustaceansKenya/Events) |
+| Oceania | [Melbourne](https://luma.com/rustmelbourne), [Canberra](https://www.meetup.com/rust-canberra/), [Brisbane](https://www.meetup.com/rust-brisbane/), [Wellington](https://www.meetup.com/rust-wellington/) |
+
+Dallas organizers also publish chapter plans through May 2027 in the
+[deep-learning](https://www.meetup.com/dallasrust/events/316331277/) and
+[book-club](https://www.meetup.com/dallasrust/events/310254771/) pages. Individual
+later meetings and their times were not checked; those plans stay out of this calendar.
+
+For longer study, the [online Rust operating-system camp](https://opencamp.cn/os2edu/camp/2026fall)
+offers Rust, rCore, and ArceOS material. Its published cohort starts on 27 September 2026, but the page
+conflicts on the end date: 3 or 10 January 2027. Use the
+[learning route and prerequisites](opportunities.md#explore-the-autumn-rust-os-training-camp);
+no calendar span is inferred.
+
+No future dated African meetup was verified in this sweep. Missing countries,
+private groups, university clubs, and later announcements remain gaps.
+[Suggest an event](../../CONTRIBUTING.md#events-and-ongoing-sources) with an
 organizer link, date, location or online format, and what you checked.

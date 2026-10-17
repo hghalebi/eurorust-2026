@@ -101,11 +101,14 @@ The [format guide](learning-resources.md) explains evidence, access, and archive
 coverage. Keep future announcements distinct from published material. A page
 check does not establish video playback or a full reading of a book or paper.
 
-For future conferences and ongoing sources, add the
+For future conferences, meetups, community events, and ongoing sources, add the
 [discovery directory JSON](../community/rust-discovery.json) and its
 [usage notes](../resources/stay-current/README.md#give-the-directory-to-your-agent).
-Recheck dated event statuses. Keep tentative dates, publication dates, and
-event dates distinct; this companion has its own check date and Git revision.
+Recheck dated event statuses and compare end dates with the requested date.
+Keep tentative dates, publication dates, and event dates distinct; this companion
+has its own check date and Git revision. The [meetup guide](../resources/stay-current/meetups.md)
+shows source-local times. Calendar entries are date reminders; preserve any
+published UTC offset and source conflict before converting a meeting time.
 
 ### Add communities and practical next steps
 

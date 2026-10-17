@@ -8,6 +8,7 @@ practical example, and something to adapt. Read on GitHub; local tools are optio
 | Give a talk or teach | [Prepare a proposal and a session](../resources/speaking/README.md) | A topic brief, proposal draft, and preparation checklist |
 | Explore conference history | [Follow events and ideas over time](../resources/conferences/history.md) | Sources to cite, with missing material visible |
 | Attend or learn remotely | [Choose, prepare, and follow up](attend-and-learn.md) | A realistic path and one question to investigate |
+| Find my next event | [Conferences](../resources/stay-current/conferences.md) or [meetups and online sessions](../resources/stay-current/meetups.md) | Organizer links, source dates, and details to confirm |
 | Organize an event | [Plan a meetup, workshop, or conference](../resources/organizing/README.md) | An event plan, delivery checklist, and archive handoff |
 | Help the community | [Choose a role and a first action](../resources/stay-current/participate.md#choose-a-role) | A suitable group, question, or contribution |
 | Work with an agent | [Give it sources and review its answer](agent-guide.md#research-speaking-and-organizing) | A sourced draft with assumptions and open questions |
