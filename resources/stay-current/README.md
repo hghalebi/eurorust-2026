@@ -11,6 +11,7 @@ It is a researched selection; new events and regional sources may be missing.
 | You want to | Start here |
 | --- | --- |
 | Plan another conference | [Announced dates and events to watch](conferences.md) |
+| Join a local or online session | [Dated meetups, talks, and study groups](meetups.md) |
 | Hear how people use Rust | [Podcasts, with observed publication dates](podcasts.md) |
 | Follow new work | [Newsletters and publication archives](newsletters.md) |
 | Explore technical ideas | [Blogs, videos, and community channels](blogs-and-videos.md) |

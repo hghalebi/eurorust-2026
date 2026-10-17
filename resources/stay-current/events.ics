@@ -4,7 +4,7 @@ PRODID:-//hghalebi/eurorust-2026//Rust community snapshot//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:event-rustlab-2026@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164023Z
+DTSTAMP:20261017T164244Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261104
 SUMMARY:RustLab 2026
@@ -20,7 +20,7 @@ LOCATION:Savoia Regency Hotel\, Bologna\, Italy
 END:VEVENT
 BEGIN:VEVENT
 UID:event-bettercode-rust-2026@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164023Z
+DTSTAMP:20261017T164244Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:betterCode() Rust 2026
@@ -36,7 +36,7 @@ LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 UID:event-bettercode-rust-workshop-2026@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164023Z
+DTSTAMP:20261017T164244Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Agent-Ready Rust workshop
@@ -54,7 +54,7 @@ LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 UID:event-rustcon-2026@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164023Z
+DTSTAMP:20261017T164244Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:RustCon 2026
@@ -71,7 +71,7 @@ LOCATION:Loft Prostranstvo VESNA\, Spartakovsky pereulok 2s1\, entrance 7\,
 END:VEVENT
 BEGIN:VEVENT
 UID:event-rustnation-2027@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164023Z
+DTSTAMP:20261017T164244Z
 DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270219
 SUMMARY:Rust Nation UK 2027
@@ -87,7 +87,7 @@ LOCATION:1 Basinghall Avenue\, London EC2V 5DD\, London\, UK
 END:VEVENT
 BEGIN:VEVENT
 UID:event-tokioconf-2027@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164023Z
+DTSTAMP:20261017T164244Z
 DTSTART;VALUE=DATE:20270426
 DTEND;VALUE=DATE:20270428
 SUMMARY:TokioConf 2027
@@ -102,7 +102,7 @@ LOCATION:The Armory\, Portland\, Oregon\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:event-rustweek-2027@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164023Z
+DTSTAMP:20261017T164244Z
 DTSTART;VALUE=DATE:20270524
 DTEND;VALUE=DATE:20270530
 SUMMARY:RustWeek 2027
@@ -120,7 +120,7 @@ LOCATION:Utrecht\, Netherlands
 END:VEVENT
 BEGIN:VEVENT
 UID:event-rustconf-2027@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164023Z
+DTSTAMP:20261017T164244Z
 DTSTART;VALUE=DATE:20270907
 DTEND;VALUE=DATE:20270911
 SUMMARY:RustConf 2027
@@ -137,7 +137,7 @@ LOCATION:Vancouver\, Canada\, and online
 END:VEVENT
 BEGIN:VEVENT
 UID:event-rustcon-2027@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164023Z
+DTSTAMP:20261017T164244Z
 DTSTART;VALUE=DATE:20271203
 DTEND;VALUE=DATE:20271204
 SUMMARY:RustCon 2027
@@ -153,7 +153,7 @@ LOCATION:Moscow\, Russia
 END:VEVENT
 BEGIN:VEVENT
 UID:event-eurorust-2026@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164023Z
+DTSTAMP:20261017T164244Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261018
 SUMMARY:EuroRust 2026
@@ -171,7 +171,7 @@ LOCATION:Barcelona\, Spain\, and online
 END:VEVENT
 BEGIN:VEVENT
 UID:event-rustchinaconf-2026@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164023Z
+DTSTAMP:20261017T164244Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261018
 SUMMARY:RustChinaConf 2026
@@ -188,7 +188,7 @@ LOCATION:Shenzhen\, China
 END:VEVENT
 BEGIN:VEVENT
 UID:event-eurorust-2027@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164023Z
+DTSTAMP:20261017T164244Z
 DTSTART;VALUE=DATE:20271013
 DTEND;VALUE=DATE:20271017
 SUMMARY:EuroRust 2027
@@ -208,8 +208,723 @@ LOCATION:Cubex Centrum (main conference\, 14–15 October)\, Prague\, Czech
  ia
 END:VEVENT
 BEGIN:VEVENT
+UID:event-dallas-deep-learning-2026-10-18@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Rust Deep Learning: Third Sunday
+URL:https://www.meetup.com/dallasrust/events/316563013/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. Online via Discord\; prepare chapter 4 and exe
+ rcises using tch. Publisher event metadata: 2026-10-18T19:00:00-05:00 to 2
+ 026-10-18T20:30:00-05:00. Source: https://www.meetup.com/dallasrust/events
+ /316563013/
+TRANSP:TRANSPARENT
+LOCATION:Online (Dallas\, Texas\, USA)
+END:VEVENT
+BEGIN:VEVENT
+UID:event-leipzig-dioxus-2026-10-20@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:Creating a realtime web Multiuser Dungeon game with Dioxus
+URL:https://www.meetup.com/rust-modern-systems-programming-in-leipzig/event
+ s/313816496/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. In person. Bring a laptop to participate or wa
+ tch the workshop. Publisher event metadata: 2026-10-20T19:00:00+02:00 to 2
+ 026-10-20T21:00:00+02:00. Source: https://www.meetup.com/rust-modern-syste
+ ms-programming-in-leipzig/events/313816496/
+TRANSP:TRANSPARENT
+LOCATION:Basislager Coworking Leipzig\, Peterssteinweg 14\, Leipzig\, Germa
+ ny
+END:VEVENT
+BEGIN:VEVENT
+UID:event-rust-dc-2026-10-20@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:Mid-month Rustful
+URL:https://www.meetup.com/rustdc/events/316788257/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. 19:00–20:30 UTC−04:00. Online\; no speaker
+  was listed. The organizer welcomes all experience levels. Source: https:/
+ /www.meetup.com/rustdc/events/316788257/
+TRANSP:TRANSPARENT
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:event-sf-rust-hacking-2026-10-20@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:Rust Hacking in Person
+URL:https://www.meetup.com/san-francisco-rust-study-group/events/ghhwqtyjcn
+ bbc/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. In person. Bring a laptop\; beginners are welc
+ ome. Publisher event metadata: 2026-10-20T19:00:00-07:00 to 2026-10-20T21:
+ 00:00-07:00. Source: https://www.meetup.com/san-francisco-rust-study-group
+ /events/ghhwqtyjcnbbc/
+TRANSP:TRANSPARENT
+LOCATION:Pebblebed\, 1417 15th St\, San Francisco\, California\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:event-bay-area-embedded-2026-10-21@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Bay Area Rust - Embedded Meetup
+URL:https://luma.com/ur4pm34i
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. In person. Registration requires host approval
+ \; the full address is shown after registration. Talks start at 18:30. Pub
+ lisher event metadata: 2026-10-21T18:00:00.000-07:00 to 2026-10-21T20:30:0
+ 0.000-07:00. Source: https://luma.com/ur4pm34i
+TRANSP:TRANSPARENT
+LOCATION:Atuin office\, San Francisco\, California\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:event-vancouver-rust-2026-10-21@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Rust Study/Hack/Hang-out
+URL:https://www.meetup.com/vancouver-rust/events/315210233/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. Hybrid according to the event description\; on
+ line access is for registered attendees. The newsletter used a different t
+ alk title\; this record follows the current event page. Publisher event me
+ tadata: 2026-10-21T18:00:00-07:00 to 2026-10-21T19:30:00-07:00. Source: ht
+ tps://www.meetup.com/vancouver-rust/events/315210233/
+TRANSP:TRANSPARENT
+LOCATION:116 W 6th Ave\, suite 300\, Vancouver\, Canada\, and online
+END:VEVENT
+BEGIN:VEVENT
+UID:event-berlin-hack-learn-2026-10-22@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:Rust Hack and Learn
+URL:https://www.meetup.com/rust-berlin/events/316272609/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. Online. All experience levels welcome\; bring 
+ a computer. The dated header and Meetup metadata say CEST\; generic websit
+ e instructions say CET. Publisher event metadata: 2026-10-22T19:00:00+02:0
+ 0 to 2026-10-22T22:00:00+02:00. Source: https://www.meetup.com/rust-berlin
+ /events/316272609/
+TRANSP:TRANSPARENT
+LOCATION:Online (Berlin\, Germany)
+END:VEVENT
+BEGIN:VEVENT
+UID:event-gdansk-rust-2026-10-22@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:Rust Poland x Gdańsk #13
+URL:https://www.meetup.com/rust-poland-meetup/events/316900264/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. In person. Registration and matching valid ID 
+ required\; aliases are not accepted for entry. The organizer homepage reta
+ ins a different edition number and topic\; this record follows the event p
+ age. Publisher event metadata: 2026-10-22T18:00:00+02:00 to 2026-10-22T21:
+ 00:00+02:00. Source: https://www.meetup.com/rust-poland-meetup/events/3169
+ 00264/
+TRANSP:TRANSPARENT
+LOCATION:Europejskie Centrum Solidarności\, Plac Solidarności 1\, Gdańsk
+ \, Poland
+END:VEVENT
+BEGIN:VEVENT
+UID:event-karlsruhe-hack-learn-2026-10-22@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:Karlsruhe Rust Hack and Learn Meetup bei BlueYonder
+URL:https://www.meetup.com/rust-hack-learn-karlsruhe/events/316799366/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. In person. Limit 40 participants\; no dogs in 
+ the building. Bring a laptop for coding. One listed talk is postponed\, no
+ t the whole event. Publisher event metadata: 2026-10-22T19:00:00+02:00 to 
+ 2026-10-22T21:00:00+02:00. Source: https://www.meetup.com/rust-hack-learn-
+ karlsruhe/events/316799366/
+TRANSP:TRANSPARENT
+LOCATION:BlueYonder GmbH\, Ohiostraße 8\, Karlsruhe\, Germany
+END:VEVENT
+BEGIN:VEVENT
+UID:event-maven-wgpu-2026-10-22@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:Rust and the GPU from Native to Web: An Introduction to wgpu
+URL:https://luma.com/k1978ath
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. Online via Zoom. 18:30–20:00 Asia/Jerusalem 
+ (UTC+03:00). Register on the organizer page for online attendance. Source:
+  https://luma.com/k1978ath
+TRANSP:TRANSPARENT
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:event-nyc-code-matters-2026-10-22@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:Rust NYC w/Bryan Cantrill - Code Matters: Reflections on Rust in th
+ e LLM Age
+URL:https://www.meetup.com/rust-nyc/events/316901518/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. In person. Doors open at 18:30\; the talk star
+ ts at 19:15. Publisher event metadata: 2026-10-22T18:30:00-04:00 to 2026-1
+ 0-22T20:30:00-04:00. Source: https://www.meetup.com/rust-nyc/events/316901
+ 518/
+TRANSP:TRANSPARENT
+LOCATION:Datadog\, New York Times Building\, 620 8th Avenue\, New York\, US
+ A
+END:VEVENT
+BEGIN:VEVENT
+UID:event-rust-melbourne-2026-10-22@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:Rust Melbourne Meetup
+URL:https://luma.com/fdvdqkq9
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. 17:30–20:00 Australia/Melbourne (UTC+11)\, v
+ erified in organizer page metadata. Registration is on Luma. Speaker detai
+ ls were not listed. Source: https://luma.com/fdvdqkq9
+TRANSP:TRANSPARENT
+LOCATION:Stone & Chalk Melbourne Startup Hub\, 121 King St\, Melbourne VIC 
+ 3000\, Melbourne\, Australia
+END:VEVENT
+BEGIN:VEVENT
+UID:event-toulouse-rust-python-2026-10-22@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:Soirée Rust - Interopérabilité Rust et Python
+URL:https://www.meetup.com/rust-community-toulouse/events/316880185/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. In person. Reception at 18:45 in the ground-fl
+ oor amphitheatre\; talks begin at 19:00. Publisher event metadata: 2026-10
+ -22T18:45:00+02:00 to 2026-10-22T21:45:00+02:00. Source: https://www.meetu
+ p.com/rust-community-toulouse/events/316880185/
+TRANSP:TRANSPARENT
+LOCATION:Epitech Toulouse\, 40 Boulevard de la Marquette\; ground-floor amp
+ hitheatre\, Toulouse\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:event-boston-davis-lunch-2026-10-24@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Davis Square Rust Lunch\, Oct 24
+URL:https://www.meetup.com/bostonrust/events/316924143/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. In person\; informal conversation. Check food 
+ and drink costs with the venue. Publisher event metadata: 2026-10-24T11:00
+ :00-04:00 to 2026-10-24T13:00:00-04:00. Source: https://www.meetup.com/bos
+ tonrust/events/316924143/
+TRANSP:TRANSPARENT
+LOCATION:Diesel Cafe\, 257 Elm Street\, Somerville\, Massachusetts\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:event-maven-tiny-mcu-2026-10-26@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:No Python was harmed: teaching a tiny MCU to learn as it goes
+URL:https://luma.com/1byfc495
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. Online via Zoom. 18:00–20:00 Asia/Jerusalem 
+ (UTC+02:00). Register on the organizer page for online attendance. Source:
+  https://luma.com/1byfc495
+TRANSP:TRANSPARENT
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:event-aarhus-rust-ai-2026-10-27@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:Hack Night: Rust meets AI
+URL:https://www.meetup.com/rust-aarhus/events/316796329/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. In person. Bring a laptop. No prior AI experie
+ nce required. Organizer asks for Hacktoberfest signup\; food is not provid
+ ed and outside food is not allowed. Publisher event metadata: 2026-10-27T1
+ 8:00:00+01:00 to 2026-10-27T21:00:00+01:00. Source: https://www.meetup.com
+ /rust-aarhus/events/316796329/
+TRANSP:TRANSPARENT
+LOCATION:Folkehuset Møllestien\, Grønnegade 10\; Opholdsstue 1\, Aarhus\,
+  Denmark
+END:VEVENT
+BEGIN:VEVENT
+UID:event-dallas-bookclub-2026-10-27@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:Fourth Tuesday Rust Bookclub
+URL:https://www.meetup.com/dallasrust/events/310254771/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. Online via Discord. The announced chapter for 
+ this date is chapter 2 of Advanced Rust by Nouman Azam\; prepare before jo
+ ining. Publisher event metadata: 2026-10-27T19:00:00-05:00 to 2026-10-27T2
+ 0:30:00-05:00. Source: https://www.meetup.com/dallasrust/events/310254771/
+TRANSP:TRANSPARENT
+LOCATION:Online (Dallas\, Texas\, USA)
+END:VEVENT
+BEGIN:VEVENT
+UID:event-paris-rust-89-2026-10-27@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:Rust meetup #89
+URL:https://www.meetup.com/rust-paris/events/316865643/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. In person. All experience levels welcome. Brin
+ g your editor\; optional talks are 5–10 minutes. Publisher event metadat
+ a: 2026-10-27T18:30:00+01:00 to 2026-10-27T21:30:00+01:00. Source: https:/
+ /www.meetup.com/rust-paris/events/316865643/
+TRANSP:TRANSPARENT
+LOCATION:EPITA\, 14–16 Rue Voltaire\, Le Kremlin-Bicêtre\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:event-women-rust-async-2026-10-27@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:Lunch & Learn: Reasoning with Async Rust
+URL:https://www.meetup.com/women-in-rust/events/315297195/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. Online link is for registered attendees. Women
+ -focused community\; check the organizer’s participation policy. Publish
+ er event metadata: 2026-10-27T13:00:00Z to 2026-10-27T14:00:00Z. Source: h
+ ttps://www.meetup.com/women-in-rust/events/315297195/
+TRANSP:TRANSPARENT
+LOCATION:Online (London\, UK)
+END:VEVENT
+BEGIN:VEVENT
+UID:event-maven-hex-editor-2026-10-29@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:Creating a hexadecimal editor in Rust
+URL:https://luma.com/q8i3385k
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. Online via Zoom. 20:00–21:30 Asia/Jerusalem 
+ (UTC+02:00). Register on the organizer page for online attendance. Source:
+  https://luma.com/q8i3385k
+TRANSP:TRANSPARENT
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:event-boston-north-end-lunch-2026-10-31@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:North End Rust Lunch\, Oct 31
+URL:https://www.meetup.com/bostonrust/events/316924288/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. In person\; informal conversation. Check food 
+ and drink costs with the venue. Publisher event metadata: 2026-10-31T11:00
+ :00-04:00 to 2026-10-31T13:00:00-04:00. Source: https://www.meetup.com/bos
+ tonrust/events/316924288/
+TRANSP:TRANSPARENT
+LOCATION:Thinking Cup\, 236 Hanover Street\, Boston\, Massachusetts\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:event-stockholm-fika-2026-10-31@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Ferris' Fika Forum #31
+URL:https://www.meetup.com/stockholm-rust/events/316721062/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. In person. No Rust knowledge required\; childr
+ en and laptops are welcome. Check cafe purchase costs separately. Publishe
+ r event metadata: 2026-10-31T10:00:00+01:00 to 2026-10-31T12:00:00+01:00. 
+ Source: https://www.meetup.com/stockholm-rust/events/316721062/
+TRANSP:TRANSPARENT
+LOCATION:Espresso House Norrlandsgatan\, Norrlandsgatan 18\, Stockholm\, Sw
+ eden
+END:VEVENT
+BEGIN:VEVENT
+UID:event-dallas-deep-learning-2026-11-01@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Rust Deep Learning: First Sunday
+URL:https://www.meetup.com/dallasrust/events/316331277/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. Online via Discord\; prepare chapter 5 and exe
+ rcises using tch. Publisher event metadata: 2026-11-01T19:00:00-06:00 to 2
+ 026-11-01T20:30:00-06:00. Source: https://www.meetup.com/dallasrust/events
+ /316331277/
+TRANSP:TRANSPARENT
+LOCATION:Online (Dallas\, Texas\, USA)
+END:VEVENT
+BEGIN:VEVENT
+UID:event-maven-solverforge-2026-11-03@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Solving Real-World Planning Problems in Rust with SolverForge
+URL:https://luma.com/rfbzk3ae
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. Online via Zoom. 10:00–12:00 Asia/Jerusalem 
+ (UTC+02:00). Register on the organizer page for online attendance. Source:
+  https://luma.com/rfbzk3ae
+TRANSP:TRANSPARENT
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:event-rust-tlv-2026-11-03@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Rust at AWS in Tel Aviv
+URL:https://www.meetup.com/rust-tlv/events/316440864/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. 18:00–21:00 UTC+02:00. The organizer labels 
+ the custom-kernel talk English and the cryptography talk Hebrew. Source: h
+ ttps://www.meetup.com/rust-tlv/events/316440864/
+TRANSP:TRANSPARENT
+LOCATION:AWS Floor 28\, Derech Menachem Begin 121\, Tel Aviv-Yafo\, Tel Avi
+ v\, Israel
+END:VEVENT
+BEGIN:VEVENT
+UID:event-women-rust-catchup-2026-11-03@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Community Catch Up
+URL:https://www.meetup.com/women-in-rust/events/315773682/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. Online link is for registered attendees. Women
+ -focused community\; check the organizer’s participation policy. Publish
+ er event metadata: 2026-11-03T13:00:00Z to 2026-11-03T13:30:00Z. Source: h
+ ttps://www.meetup.com/women-in-rust/events/315773682/
+TRANSP:TRANSPARENT
+LOCATION:Online (London\, UK)
+END:VEVENT
+BEGIN:VEVENT
+UID:event-dublin-rust-database-2026-11-04@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Rust 263: Getting Started with the New Rust Driver for Oracle AI Da
+ tabase
+URL:https://rustdublin.org/events/263-new-rust-driver-for-oracle-ai-databas
+ e
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. In person. The organizer asks attendees to boo
+ k on rustdublin.org\, not just RSVP on Meetup. Publisher event metadata: 2
+ 026-11-04T18:15:00Z to 2026-11-04T21:15:00Z. The booking page returned HTT
+ P 403 during an automated recheck. The organizer Meetup listing independen
+ tly confirms the date and time and directs bookings to rustdublin.org. Sou
+ rce: https://rustdublin.org/events/263-new-rust-driver-for-oracle-ai-datab
+ ase
+TRANSP:TRANSPARENT
+LOCATION:tcube workspaces\, 1 O’Connell Street Lower\, Dublin\, Ireland
+END:VEVENT
+BEGIN:VEVENT
+UID:event-indy-rust-2026-11-04@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Indy.rs - with Social Distancing
+URL:https://www.meetup.com/indyrs/events/317002824/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. Online via Jitsi. The listing has generic repe
+ ated copy and no confirmed talk\; verify the agenda before attending. Publ
+ isher event metadata: 2026-11-04T19:00:00-05:00 to 2026-11-04T20:30:00-05:
+ 00. Source: https://www.meetup.com/indyrs/events/317002824/
+TRANSP:TRANSPARENT
+LOCATION:Online (Indianapolis\, Indiana\, USA)
+END:VEVENT
+BEGIN:VEVENT
+UID:event-berlin-hack-learn-2026-11-05@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:Rust Hack and Learn
+URL:https://www.meetup.com/rust-berlin/events/316907780/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. Online. All experience levels welcome\; bring 
+ a computer. Publisher event metadata: 2026-11-05T19:00:00+01:00 to 2026-11
+ -05T22:00:00+01:00. Source: https://www.meetup.com/rust-berlin/events/3169
+ 07780/
+TRANSP:TRANSPARENT
+LOCATION:Online (Berlin\, Germany)
+END:VEVENT
+BEGIN:VEVENT
+UID:event-milan-embedded-trains-2026-11-05@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:Digital Model Trains & Rust: Bare-Metal DCC Command Station on ESP3
+ 2
+URL:https://www.meetup.com/rust-language-milan/events/316213872/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. In person. Intermediate level\; English is exp
+ licitly stated. Capacity is limited\; RSVP. Doors 18:30\, talk and demo 18
+ :45. Publisher event metadata: 2026-11-05T18:30:00+01:00 to 2026-11-05T20:
+ 30:00+01:00. Source: https://www.meetup.com/rust-language-milan/events/316
+ 213872/
+TRANSP:TRANSPARENT
+LOCATION:Kalpa\, Via Giosuè Carducci 39\, Sesto San Giovanni\, Italy
+END:VEVENT
+BEGIN:VEVENT
+UID:event-stl-htmx-rust-2026-11-05@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:HTMX and Rust
+URL:https://www.meetup.com/stl-rust/events/316896797/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. In person. This record covers the published in
+ stance\; it does not repeat the topic on future monthly dates. Publisher e
+ vent metadata: 2026-11-05T18:00:00-06:00 to 2026-11-05T20:00:00-06:00. Sou
+ rce: https://www.meetup.com/stl-rust/events/316896797/
+TRANSP:TRANSPARENT
+LOCATION:OCI\, suite 310\, 12140 Woodcrest Executive Drive\, St. Louis\, Mi
+ ssouri\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:event-sao-paulo-rust-2026-11-07@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Rust SP Nov/2026
+URL:https://luma.com/x2z9bbk9
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. In person. Register on Luma: the group is movi
+ ng from Meetup. Luma metadata ends at 13:00\; the older Meetup listing end
+ s at noon. Confirm the latest schedule. Publisher event metadata: 2026-11-
+ 07T09:00:00.000-03:00 to 2026-11-07T13:00:00.000-03:00. Source: https://lu
+ ma.com/x2z9bbk9
+TRANSP:TRANSPARENT
+LOCATION:Avenida Nhandú 848\, Planalto Paulista\, São Paulo\, Brazil
+END:VEVENT
+BEGIN:VEVENT
+UID:event-dallas-second-tuesday-2026-11-10@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Second Tuesday
+URL:https://www.meetup.com/dallasrust/events/310254770/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. Online via Discord. Informal member presentati
+ ons are 5–15 minutes. Publisher event metadata: 2026-11-10T19:00:00-06:0
+ 0 to 2026-11-10T20:30:00-06:00. Source: https://www.meetup.com/dallasrust/
+ events/310254770/
+TRANSP:TRANSPARENT
+LOCATION:Online (Dallas\, Texas\, USA)
+END:VEVENT
+BEGIN:VEVENT
+UID:event-rust-bangalore-2026-11-14@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:November 2026 Rustacean Meetup
+URL:https://hasgeek.com/rustbangalore/november-2026-rustacean-meetup/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. 10:30–13:30 UTC+05:30 from organizer metadat
+ a. The description says in person and venue TBD\; its structured attendanc
+ e-mode field says online. Verify the venue before travel. Source: https://
+ hasgeek.com/rustbangalore/november-2026-rustacean-meetup/
+TRANSP:TRANSPARENT
+LOCATION:Bengaluru\, India
+END:VEVENT
+BEGIN:VEVENT
+UID:event-maven-cursed-rust-2026-11-15@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Cursed Rust
+URL:https://luma.com/omlooqv8
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-10-24. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. Online via Zoom. 20:00–21:30 Asia/Jerusalem 
+ (UTC+02:00). Register on the organizer page for online attendance. Live or
+ ganizer metadata says 15 November\; This Week in Rust 673 listed 1 Novembe
+ r. Source: https://luma.com/omlooqv8
+TRANSP:TRANSPARENT
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:event-maven-miscompilation-2026-11-17@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Miscompilation in Rust 1.97
+URL:https://luma.com/2qfai4a8
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-11-16. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. Online via Zoom. 20:00–22:00 Asia/Jerusalem 
+ (UTC+02:00). Register on the organizer page for online attendance. Source:
+  https://luma.com/2qfai4a8
+TRANSP:TRANSPARENT
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:event-berlin-hack-learn-2026-11-19@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Rust Hack and Learn
+URL:https://www.meetup.com/rust-berlin/events/316907781/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-11-16. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. Online. All experience levels welcome\; bring 
+ a computer. Publisher event metadata: 2026-11-19T19:00:00+01:00 to 2026-11
+ -19T22:00:00+01:00. Source: https://www.meetup.com/rust-berlin/events/3169
+ 07781/
+TRANSP:TRANSPARENT
+LOCATION:Online (Berlin\, Germany)
+END:VEVENT
+BEGIN:VEVENT
+UID:event-boston-winter-hill-lunch-2026-11-21@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Winter Hill Rust Lunch\, Nov 21
+URL:https://www.meetup.com/bostonrust/events/316924366/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-11-16. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. In person\; informal conversation. Check food 
+ and drink costs with the venue. Publisher event metadata: 2026-11-21T11:00
+ :00-05:00 to 2026-11-21T13:00:00-05:00. Source: https://www.meetup.com/bos
+ tonrust/events/316924366/
+TRANSP:TRANSPARENT
+LOCATION:Rooted Armory Cafe\, 191 Highland Avenue\, unit 1B\, Somerville\, 
+ Massachusetts\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:event-rust-canberra-2026-11-24@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:November CRUG
+URL:https://luma.com/8wbq8d64
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-11-16. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. 18:00–20:00 UTC+11:00. Meet first at Hotel K
+ urrajong at 18:00\; move to the office at 18:30. Tutorial topic was not an
+ nounced. Source: https://luma.com/8wbq8d64
+TRANSP:TRANSPARENT
+LOCATION:Microsoft Canberra office\, 4/6 National Circuit\, Barton ACT\; en
+ trance on Bligh St\, Canberra\, Australia
+END:VEVENT
+BEGIN:VEVENT
+UID:event-berlin-hack-learn-2026-12-03@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Rust Hack and Learn
+URL:https://www.meetup.com/rust-berlin/events/316907782/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-11-16. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. Online. All experience levels welcome\; bring 
+ a computer. Publisher event metadata: 2026-12-03T19:00:00+01:00 to 2026-12
+ -03T22:00:00+01:00. Source: https://www.meetup.com/rust-berlin/events/3169
+ 07782/
+TRANSP:TRANSPARENT
+LOCATION:Online (Berlin\, Germany)
+END:VEVENT
+BEGIN:VEVENT
+UID:event-tokyo-rustaceans-2027-01-24@eurorust-2026.hghalebi.github
+DTSTAMP:20261017T164244Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:TOKYO RUSTACEANS
+URL:https://tokyo-rustaceans.connpass.com/event/404065/
+DESCRIPTION:Independent directory snapshot 2026-10-17. Event dates checked 
+ 2026-10-17. Participation page checked 2026-10-17. Review due 2026-11-16. 
+ Dates only\; session times\, rooms\, registration\, and attendance are not
+  established by this entry. Live organizer page and ICS list 24 January 20
+ 27\, 13:00–19:00 UTC+09:00\; cached search results still show 31 October
+  2026. Venue is not announced. Current tickets show 3\,000 yen payable at 
+ the venue. Source: https://tokyo-rustaceans.connpass.com/event/404065/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:deadline-tokioconf-cfp@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164023Z
+DTSTAMP:20261017T164244Z
 DTSTART:20261201T075900Z
 SUMMARY:Submission deadline: TokioConf 2027 call for talks
 URL:https://sessionize.com/tokioconf-2027/
@@ -222,7 +937,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:deadline-rustweek-cfp@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164023Z
+DTSTAMP:20261017T164244Z
 DTSTART:20270110T225900Z
 SUMMARY:Submission deadline: RustWeek 2027 call for talks
 URL:https://sessionize.com/rustweek-2027/
@@ -234,7 +949,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:deadline-fosdem-main-track-cfp@eurorust-2026.hghalebi.github
-DTSTAMP:20261017T164023Z
+DTSTAMP:20261017T164244Z
 DTSTART;VALUE=DATE:20261116
 SUMMARY:Submission deadline: FOSDEM 2027 main-track call
 URL:https://fosdem.org/2027/news/call-for-main-track/

@@ -3,7 +3,7 @@
 Choose a group by the question you want to explore. Start by reading its public
 material and participation rules; chat access and available help need their own check.
 
-27 community routes · source review through **2026-10-17**.
+53 community routes · source review through **2026-10-17**.
 
 [Four personal learning paths](../../community/README.md) · [First contributions and learning](participate.md) · [Calls and activities](opportunities.md)
 
@@ -290,6 +290,20 @@ A current student cohort, course place, or university club meeting was not verif
 
 page checked: 2026-10-16 · next review 2027-01-14.
 
+### [Rust Maven](<https://luma.com/rust-maven>)
+
+independent · learning · online / global · pages: en
+
+Find online Rust talks on compilers, GPUs, embedded systems, and applications. For Rust learners and contributors.
+
+**First step:** Open a dated event and check its format, preparation, and registration before joining.
+
+Topics: [community](../topics/community.md). Access: online.
+
+Future announcements were checked; meeting delivery and later recurrence are not established.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [luma.com](<https://luma.com/k1978ath>).
+
 ## Regional groups
 
 ### [Rust Paris meetup](<https://www.meetup.com/fr-fr/rust-paris/>)
@@ -298,15 +312,15 @@ independent · regional group · Paris, France · pages: fr, en
 
 Meet Rust users in the Paris area. For people exploring this local or language community.
 
-**First step:** Check the next organizer announcement and its venue before making plans.
+**First step:** Open the next dated event and confirm its venue, language, and registration.
 
 Topics: [community](../topics/community.md). Access: in person.
 
 Activity evidence: 2026-09-08 · A September 2026 meeting appears in the organizer listing. [Activity source](<https://www.meetup.com/fr-fr/rust-paris/>)
 
-No next meeting date verified; page languages do not establish the spoken language of a future event.
+Future announcements were checked; meeting delivery and later recurrence are not established.
 
-page checked: 2026-10-16 · next review 2027-01-14.
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [www.meetup.com](<https://www.meetup.com/rust-paris/>), [www.meetup.com](<https://www.meetup.com/rust-paris/events/316865643/>).
 
 ### [Rust London User Group](<https://www.meetup.com/rust-london-user-group/>)
 
@@ -384,21 +398,21 @@ The directory establishes group links, not recent activity or working chat invit
 
 page checked: 2026-10-16 · next review 2027-01-14.
 
-### [Rust Melbourne](<https://www.meetup.com/rust-melbourne/>)
+### [Rust Melbourne](<https://luma.com/rustmelbourne>)
 
 independent · regional group · Melbourne, Australia · pages: en
 
 Find Rust talks and community events in Melbourne. For people exploring this local or language community.
 
-**First step:** Check the next organizer event and access details.
+**First step:** Open the next Luma event and check its programme and registration.
 
 Topics: [community](../topics/community.md). Access: in person.
 
 Activity evidence: 2026-08-27 · An August 2026 meetup appears in the organizer listing. [Activity source](<https://www.meetup.com/rust-melbourne/>)
 
-No next meeting date verified.
+Registration moved from Meetup to Luma. The October announcement is separate from the older observed activity below.
 
-page checked: 2026-10-16 · next review 2027-01-14.
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [luma.com](<https://luma.com/fdvdqkq9>), [www.meetup.com](<https://www.meetup.com/rust-melbourne/>), [rustmelbourne.com](<https://rustmelbourne.com/>).
 
 ### [Rust Sydney archive](<https://github.com/RustAU/Sydney>)
 
@@ -414,6 +428,368 @@ The Meetup landing page returned Group not found. The repository is retained as 
 
 page checked: 2026-10-16 · next review 2027-01-14.
 
+### [Dallas Rust User Meetup](<https://www.meetup.com/dallasrust/>)
+
+independent · regional group · Dallas, Texas, USA · pages: en
+
+Discuss Rust books, deep learning exercises, and member projects online. For Rust learners and contributors.
+
+**First step:** Open a dated event and check its format, preparation, and registration before joining.
+
+Topics: [community](../topics/community.md). Access: online.
+
+Future announcements were checked; meeting delivery and later recurrence are not established.
+
+Later chapter dates are published in the linked study pages; individual later meeting URLs and times were not checked.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [www.meetup.com](<https://www.meetup.com/dallasrust/events/310254770/>).
+
+### [Rust - Modern Systems Programming in Leipzig](<https://www.meetup.com/rust-modern-systems-programming-in-leipzig/>)
+
+independent · regional group · Leipzig, Germany · pages: en
+
+Learn Rust through talks and practical sessions in Leipzig. For Rust learners and contributors.
+
+**First step:** Open a dated event and check its format, preparation, and registration before joining.
+
+Topics: [community](../topics/community.md). Access: in person.
+
+Future announcements were checked; meeting delivery and later recurrence are not established.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [www.meetup.com](<https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/313816496/>).
+
+### [San Francisco Rust Study Group](<https://www.meetup.com/san-francisco-rust-study-group/>)
+
+independent · regional group · San Francisco, California, USA · pages: en
+
+Work on a Rust project with other learners in San Francisco. For Rust learners and contributors.
+
+**First step:** Open a dated event and check its format, preparation, and registration before joining.
+
+Topics: [community](../topics/community.md). Access: in person.
+
+Future announcements were checked; meeting delivery and later recurrence are not established.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [www.meetup.com](<https://www.meetup.com/san-francisco-rust-study-group/events/ghhwqtyjcnbbc/>).
+
+### [Vancouver Rust](<https://www.meetup.com/vancouver-rust/>)
+
+independent · regional group · Vancouver, Canada · pages: en
+
+Study Rust, share projects, and ask questions in Vancouver or online. For Rust learners and contributors.
+
+**First step:** Open a dated event and check its format, preparation, and registration before joining.
+
+Topics: [community](../topics/community.md). Access: online and in person.
+
+Future announcements were checked; meeting delivery and later recurrence are not established.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [www.meetup.com](<https://www.meetup.com/vancouver-rust/events/315210233/>).
+
+### [Bay Area Rust](<https://luma.com/bayarearust>)
+
+independent · regional group · San Francisco, California, USA · pages: en
+
+Find Bay Area Rust talks, including embedded systems. For Rust learners and contributors.
+
+**First step:** Open a dated event and check its format, preparation, and registration before joining.
+
+Topics: [community](../topics/community.md). Access: in person.
+
+Future announcements were checked; meeting delivery and later recurrence are not established.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [luma.com](<https://luma.com/ur4pm34i>).
+
+### [Rust Berlin](<https://www.meetup.com/rust-berlin/>)
+
+independent · regional group · Berlin, Germany · pages: en
+
+Find Berlin Rust meetups and online hack-and-learn sessions. For Rust learners and contributors.
+
+**First step:** Open a dated event and check its format, preparation, and registration before joining.
+
+Topics: [community](../topics/community.md). Access: online and in person.
+
+Future announcements were checked; meeting delivery and later recurrence are not established.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [www.meetup.com](<https://www.meetup.com/rust-berlin/events/316907782/>), [berline.rs](<https://berline.rs/2026/10/01/rust-berlin-on-location.html>).
+
+### [Rust Hack &amp; Learn Karlsruhe](<https://www.meetup.com/rust-hack-learn-karlsruhe/>)
+
+independent · regional group · Karlsruhe, Germany · pages: de, en
+
+Discuss Rust and work on projects with the Karlsruhe community. For Rust learners and contributors.
+
+**First step:** Open a dated event and check its format, preparation, and registration before joining.
+
+Topics: [community](../topics/community.md). Access: in person.
+
+Future announcements were checked; meeting delivery and later recurrence are not established.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [www.meetup.com](<https://www.meetup.com/rust-hack-learn-karlsruhe/events/316799366/>).
+
+### [Rust Toulouse](<https://www.meetup.com/rust-community-toulouse/>)
+
+independent · regional group · Toulouse, France · pages: fr
+
+Find technical Rust talks in Toulouse. For Rust learners and contributors.
+
+**First step:** Open a dated event and check its format, preparation, and registration before joining.
+
+Topics: [community](../topics/community.md). Access: in person.
+
+Future announcements were checked; meeting delivery and later recurrence are not established.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [www.meetup.com](<https://www.meetup.com/rust-community-toulouse/events/316880185/>).
+
+### [Rust NYC](<https://www.meetup.com/rust-nyc/>)
+
+independent · regional group · New York, USA · pages: en
+
+Find New York Rust talks and discussions. For Rust learners and contributors.
+
+**First step:** Open a dated event and check its format, preparation, and registration before joining.
+
+Topics: [community](../topics/community.md). Access: in person.
+
+Future announcements were checked; meeting delivery and later recurrence are not established.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [www.meetup.com](<https://www.meetup.com/rust-nyc/events/316901518/>).
+
+### [Rust Poland](<https://www.meetup.com/rust-poland-meetup/>)
+
+independent · regional group · Gdańsk, Poland · pages: en
+
+Follow Rust Poland meetups and their local registration requirements. For Rust learners and contributors.
+
+**First step:** Open a dated event and check its format, preparation, and registration before joining.
+
+Topics: [community](../topics/community.md). Access: in person.
+
+Future announcements were checked; meeting delivery and later recurrence are not established.
+
+The dedicated event page takes precedence over older edition copy on the group homepage.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [www.meetup.com](<https://www.meetup.com/rust-poland-meetup/events/316900264/>).
+
+### [Boston Rust Meetup](<https://www.meetup.com/bostonrust/>)
+
+independent · regional group · Boston area, Massachusetts, USA · pages: en
+
+Meet Boston-area Rust users for informal conversations. For Rust learners and contributors.
+
+**First step:** Open a dated event and check its format, preparation, and registration before joining.
+
+Topics: [community](../topics/community.md). Access: in person.
+
+Future announcements were checked; meeting delivery and later recurrence are not established.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [www.meetup.com](<https://www.meetup.com/bostonrust/events/316924366/>).
+
+### [Rust Aarhus](<https://www.meetup.com/rust-aarhus/>)
+
+independent · regional group · Aarhus, Denmark · pages: en
+
+Learn and experiment with the Aarhus Rust community. For Rust learners and contributors.
+
+**First step:** Open a dated event and check its format, preparation, and registration before joining.
+
+Topics: [community](../topics/community.md). Access: in person.
+
+Future announcements were checked; meeting delivery and later recurrence are not established.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [www.meetup.com](<https://www.meetup.com/rust-aarhus/events/316796329/>).
+
+### [Women in Rust](<https://www.meetup.com/women-in-rust/>)
+
+independent · regional group · online / global · pages: en
+
+Find online learning and conversation with the Women in Rust community. For Rust learners and contributors.
+
+**First step:** Open a dated event and check its format, preparation, and registration before joining.
+
+Topics: [community](../topics/community.md). Access: online.
+
+Future announcements were checked; meeting delivery and later recurrence are not established.
+
+Women-focused community; read its participation policy before joining.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [www.meetup.com](<https://www.meetup.com/women-in-rust/events/315773682/>).
+
+### [Stockholm Rust](<https://www.meetup.com/Stockholm-Rust/>)
+
+independent · regional group · Stockholm, Sweden · pages: en
+
+Meet the Stockholm Rust community for informal discussion. For Rust learners and contributors.
+
+**First step:** Open a dated event and check its format, preparation, and registration before joining.
+
+Topics: [community](../topics/community.md). Access: in person.
+
+Future announcements were checked; meeting delivery and later recurrence are not established.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [www.meetup.com](<https://www.meetup.com/stockholm-rust/events/316721062/>).
+
+### [Rust Dublin](<https://www.meetup.com/rust-dublin/>)
+
+independent · regional group · Dublin, Ireland · pages: en
+
+Find practical Rust talks and organizer booking details in Dublin. For Rust learners and contributors.
+
+**First step:** Open a dated event and check its format, preparation, and registration before joining.
+
+Topics: [community](../topics/community.md). Access: in person.
+
+Future announcements were checked; meeting delivery and later recurrence are not established.
+
+Use rustdublin.org for event booking; Meetup RSVP alone is not the stated booking route.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [www.meetup.com](<https://www.meetup.com/rust-dublin/events/316898325/>).
+
+### [Indy Rust](<https://www.meetup.com/indyrs/>)
+
+independent · regional group · Indianapolis, Indiana, USA · pages: en
+
+Join the Indianapolis Rust community online. For Rust learners and contributors.
+
+**First step:** Open a dated event and check its format, preparation, and registration before joining.
+
+Topics: [community](../topics/community.md). Access: online.
+
+Future announcements were checked; meeting delivery and later recurrence are not established.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [www.meetup.com](<https://www.meetup.com/indyrs/events/wqzhftyjcpbgb/>).
+
+### [Rust Language Milan](<https://www.meetup.com/rust-language-milan/>)
+
+independent · regional group · Milan area, Italy · pages: en
+
+Find Rust talks and demonstrations around Milan. For Rust learners and contributors.
+
+**First step:** Open a dated event and check its format, preparation, and registration before joining.
+
+Topics: [community](../topics/community.md). Access: in person.
+
+Future announcements were checked; meeting delivery and later recurrence are not established.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [www.meetup.com](<https://www.meetup.com/rust-language-milan/events/316213872/>).
+
+### [STL Rust](<https://www.meetup.com/stl-rust/>)
+
+independent · regional group · St. Louis, Missouri, USA · pages: en
+
+Explore Rust application development with the St. Louis group. For Rust learners and contributors.
+
+**First step:** Open a dated event and check its format, preparation, and registration before joining.
+
+Topics: [community](../topics/community.md). Access: in person.
+
+Future announcements were checked; meeting delivery and later recurrence are not established.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [www.meetup.com](<https://www.meetup.com/stl-rust/events/316896797/>).
+
+### [Rust-SP](<https://luma.com/rustsp>)
+
+independent · regional group · São Paulo, Brazil · pages: pt
+
+Find São Paulo Rust talks and registration on Luma. For Rust learners and contributors.
+
+**First step:** Open a dated event and check its format, preparation, and registration before joining.
+
+Topics: [community](../topics/community.md). Access: in person.
+
+Future announcements were checked; meeting delivery and later recurrence are not established.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [luma.com](<https://luma.com/x2z9bbk9>).
+
+### [Rust Leeds Meetup Group](<https://www.meetup.com/rust-leeds-meetup-group/>)
+
+independent · regional group · Leeds, UK · pages: en
+
+Follow the Leeds group for a confirmed programme and venue. For Rust learners and contributors.
+
+**First step:** Open a dated event and check its format, preparation, and registration before joining.
+
+Topics: [community](../topics/community.md). Access: mode unverified.
+
+The October listing has no confirmed venue or programme and conflicting times.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [www.meetup.com](<https://www.meetup.com/rust-leeds-meetup-group/events/316180757/>).
+
+### [Rust DC](<https://www.meetup.com/rustdc/>)
+
+independent · regional group · Washington, DC, USA · pages: en
+
+Join informal Rust hack sessions online. For Rust learners and contributors.
+
+**First step:** Open a dated event and check its format, preparation, and registration before joining.
+
+Topics: [community](../topics/community.md). Access: online.
+
+Future announcements were checked; meeting delivery and later recurrence are not established.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [www.meetup.com](<https://www.meetup.com/rustdc/events/316788257/>).
+
+### [Rust Bangalore](<https://hasgeek.com/rustbangalore>)
+
+independent · regional group · Bengaluru, India · pages: en
+
+Find Bangalore Rust meetups and the standing route for talk proposals. For Rust learners and contributors.
+
+**First step:** Open a dated event and check its format, preparation, and registration before joining.
+
+Topics: [community](../topics/community.md). Access: mode unverified.
+
+Future announcements were checked; meeting delivery and later recurrence are not established.
+
+The November event prose says in person with venue TBD, while structured metadata says online. Confirm the format with the organizer.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [hasgeek.com](<https://hasgeek.com/rustbangalore/november-2026-rustacean-meetup/>).
+
+### [TOKYO RUSTACEANS](<https://tokyo-rustaceans.connpass.com/>)
+
+independent · regional group · Asia · pages: ja
+
+Follow a Japanese Rust technical meetup and its registration page. For Rust learners and contributors.
+
+**First step:** Open a dated event and check its format, preparation, and registration before joining.
+
+Topics: [community](../topics/community.md). Access: in person.
+
+Future announcements were checked; meeting delivery and later recurrence are not established.
+
+Live event and ICS show January 2027; search results retain October 2026. Venue and city are not established by the group name.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [tokyo-rustaceans.connpass.com](<https://tokyo-rustaceans.connpass.com/event/404065/>), [connpass.com](<https://connpass.com/event/404065.ics>).
+
+### [Rust Israel / TLV](<https://rust.org.il/events/>)
+
+independent · regional group · Tel Aviv, Israel · pages: en
+
+Find technical Rust meetups with per-talk language labels. For Rust learners and contributors.
+
+**First step:** Open a dated event and check its format, preparation, and registration before joining.
+
+Topics: [community](../topics/community.md). Access: in person.
+
+Future announcements were checked; meeting delivery and later recurrence are not established.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [www.meetup.com](<https://www.meetup.com/rust-tlv/events/316440864/>), [rust.org.il](<https://rust.org.il/events/2026-11-03-in-person>).
+
+### [Canberra Rust User Group](<https://www.meetup.com/rust-canberra/>)
+
+independent · regional group · Canberra, Australia · pages: en
+
+Find Canberra Rust discussions, project updates, and learning sessions. For Rust learners and contributors.
+
+**First step:** Open a dated event and check its format, preparation, and registration before joining.
+
+Topics: [community](../topics/community.md). Access: in person.
+
+Future announcements were checked; meeting delivery and later recurrence are not established.
+
+page checked: 2026-10-17 · next review 2027-01-15. Further evidence: [luma.com](<https://luma.com/8wbq8d64>), [www.meetup.com](<https://www.meetup.com/rust-canberra/events/316907340/>).
+
 ## Coverage and gaps
 
 This is a researched selection. A covered category has a useful route, not exhaustive
@@ -422,7 +798,7 @@ English-language sources remain strongest.
 
 | Area | Coverage | Evidence or gap |
 | --- | --- | --- |
-| Regional and online groups | partial | Regional routes cover five regions; individual next meetings and university clubs remain incomplete. |
+| Regional and online groups | partial | Dated meetups and group routes cover Europe, the Americas, Asia, and Oceania, with global online sessions. African future dates and university clubs remain gaps. |
 | Questions and discussion | covered | User help, internals, project Q&amp;A, and official chat entry points are distinguished. |
 | Specialist projects | covered | Project routes cover the four personal goals plus security, WebAssembly, and game development. |
 | Open meetings | partial | Types and embedded meetings and Bytecode meetup routes included; no separately verified office-hour or AMA schedule. |
@@ -436,11 +812,11 @@ English-language sources remain strongest.
 | Shared practice | covered | Six activity formats are proposals/templates; no repository-hosted event is announced. |
 | Agent and calendar reuse | covered | Companion records, four routes, agent guidance, and a dated calendar support reuse; no automatic refresh. |
 
-- Japan: search-index listing found; live connpass page required a browser challenge.
-- China and RustDC: source access failed in this pass; no current group record added.
-- Americas: a Brazilian organizer directory was checked; North American local groups need further research.
-- Oceania: Melbourne activity and Sydney archive checked; current New Zealand dates not verified.
-- Africa and India: existing regional routes reused; individual city groups and new applications still need checks.
+- Africa: regional sources are present, but no future dated meetup was verified in this sweep.
+- Asia: Bengaluru, Tel Aviv, and a Japanese meetup have dated records; many cities and language communities remain unlisted.
+- Europe and the Americas: selected dated organizer pages were checked, not every group or every future occurrence.
+- Oceania: Melbourne and Canberra have dated events; the Sydney record remains an archive route and New Zealand future dates are unverified.
+- Online: published instances are included; recurrence rules and later chapter lists were not expanded into assumed meetings.
 
 Codex-assisted curation; community review pending. Page review is not proof of access, attendance, or current availability.
 

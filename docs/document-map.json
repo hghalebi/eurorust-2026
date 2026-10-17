@@ -1702,5 +1702,13 @@
     "purpose": "Browse original technical, teaching, governance, and event resources with links to their detailed source records",
     "scope": "Curated reading and event references; selection assembled on 2026-10-17",
     "replacement": null
+  },
+  {
+    "path": "resources/stay-current/meetups.md",
+    "class": "reference",
+    "owner": "repository maintainers",
+    "purpose": "Find dated local and online Rust meetups with organizer links, source-local times, and unresolved access details",
+    "scope": "Organizer announcements checked on 2026-10-17; selected events, not a worldwide census",
+    "replacement": null
   }
 ]

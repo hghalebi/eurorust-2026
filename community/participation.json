@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "reference_date": "2026-10-17",
   "catalog_snapshot_id": "eurorust-2026-71f2ee4aea59a1589532",
-  "discovery_sha256": "e995a4e21628f6a0c3615ba87d1f1d868ca9c48689a2c2af717db38f136df49e",
+  "discovery_sha256": "e57ec82c64c5bd26e66665f468cd482ca8b9b65d98bda637818805bd6709ebcc",
   "review_status": "Codex-assisted curation; community review pending. Page review is not proof of access, attendance, or current availability.",
   "communities": [
     {
@@ -931,7 +931,7 @@
       "url": "https://www.meetup.com/fr-fr/rust-paris/",
       "discovery_source_id": null,
       "purpose": "Meet Rust users in the Paris area.",
-      "first_step": "Check the next organizer announcement and its venue before making plans.",
+      "first_step": "Open the next dated event and confirm its venue, language, and registration.",
       "access": {
         "mode": "in_person",
         "cost": null,
@@ -948,14 +948,15 @@
         "note": "A September 2026 meeting appears in the organizer listing."
       },
       "review": {
-        "checked_on": "2026-10-16",
-        "next_review_on": "2027-01-14",
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
         "source_review": "page_checked",
         "evidence_urls": [
-          "https://www.meetup.com/fr-fr/rust-paris/"
+          "https://www.meetup.com/rust-paris/",
+          "https://www.meetup.com/rust-paris/events/316865643/"
         ],
         "limits": [
-          "No next meeting date verified; page languages do not establish the spoken language of a future event."
+          "Future announcements were checked; meeting delivery and later recurrence are not established."
         ]
       },
       "audience": "people exploring this local or language community",
@@ -1211,10 +1212,10 @@
       "topics": [
         "community"
       ],
-      "url": "https://www.meetup.com/rust-melbourne/",
+      "url": "https://luma.com/rustmelbourne",
       "discovery_source_id": null,
       "purpose": "Find Rust talks and community events in Melbourne.",
-      "first_step": "Check the next organizer event and access details.",
+      "first_step": "Open the next Luma event and check its programme and registration.",
       "access": {
         "mode": "in_person",
         "cost": null,
@@ -1231,14 +1232,17 @@
         "note": "An August 2026 meetup appears in the organizer listing."
       },
       "review": {
-        "checked_on": "2026-10-16",
-        "next_review_on": "2027-01-14",
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
         "source_review": "page_checked",
         "evidence_urls": [
-          "https://www.meetup.com/rust-melbourne/"
+          "https://luma.com/rustmelbourne",
+          "https://luma.com/fdvdqkq9",
+          "https://www.meetup.com/rust-melbourne/",
+          "https://rustmelbourne.com/"
         ],
         "limits": [
-          "No next meeting date verified."
+          "Registration moved from Meetup to Luma. The October announcement is separate from the older observed activity below."
         ]
       },
       "audience": "people exploring this local or language community",
@@ -1289,6 +1293,1265 @@
         ]
       },
       "audience": "people exploring this local or language community",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-dallas",
+      "name": "Dallas Rust User Meetup",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "americas",
+      "location": "Dallas, Texas, USA",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/dallasrust/",
+      "discovery_source_id": null,
+      "purpose": "Discuss Rust books, deep learning exercises, and member projects online.",
+      "first_step": "Open a dated event and check its format, preparation, and registration before joining.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://www.meetup.com/dallasrust/events/310254770/",
+        "note": "A future event announcement was checked; delivery has not been observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/dallasrust/",
+          "https://www.meetup.com/dallasrust/events/310254770/"
+        ],
+        "limits": [
+          "Future announcements were checked; meeting delivery and later recurrence are not established.",
+          "Later chapter dates are published in the linked study pages; individual later meeting URLs and times were not checked."
+        ]
+      },
+      "audience": "Rust learners and contributors",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-leipzig",
+      "name": "Rust - Modern Systems Programming in Leipzig",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "europe",
+      "location": "Leipzig, Germany",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/rust-modern-systems-programming-in-leipzig/",
+      "discovery_source_id": null,
+      "purpose": "Learn Rust through talks and practical sessions in Leipzig.",
+      "first_step": "Open a dated event and check its format, preparation, and registration before joining.",
+      "access": {
+        "mode": "in_person",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/313816496/",
+        "note": "A future event announcement was checked; delivery has not been observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-modern-systems-programming-in-leipzig/",
+          "https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/313816496/"
+        ],
+        "limits": [
+          "Future announcements were checked; meeting delivery and later recurrence are not established."
+        ]
+      },
+      "audience": "Rust learners and contributors",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-san-francisco",
+      "name": "San Francisco Rust Study Group",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "americas",
+      "location": "San Francisco, California, USA",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/san-francisco-rust-study-group/",
+      "discovery_source_id": null,
+      "purpose": "Work on a Rust project with other learners in San Francisco.",
+      "first_step": "Open a dated event and check its format, preparation, and registration before joining.",
+      "access": {
+        "mode": "in_person",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://www.meetup.com/san-francisco-rust-study-group/events/ghhwqtyjcnbbc/",
+        "note": "A future event announcement was checked; delivery has not been observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/san-francisco-rust-study-group/",
+          "https://www.meetup.com/san-francisco-rust-study-group/events/ghhwqtyjcnbbc/"
+        ],
+        "limits": [
+          "Future announcements were checked; meeting delivery and later recurrence are not established."
+        ]
+      },
+      "audience": "Rust learners and contributors",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-vancouver",
+      "name": "Vancouver Rust",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "americas",
+      "location": "Vancouver, Canada",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/vancouver-rust/",
+      "discovery_source_id": null,
+      "purpose": "Study Rust, share projects, and ask questions in Vancouver or online.",
+      "first_step": "Open a dated event and check its format, preparation, and registration before joining.",
+      "access": {
+        "mode": "mixed",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://www.meetup.com/vancouver-rust/events/315210233/",
+        "note": "A future event announcement was checked; delivery has not been observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/vancouver-rust/",
+          "https://www.meetup.com/vancouver-rust/events/315210233/"
+        ],
+        "limits": [
+          "Future announcements were checked; meeting delivery and later recurrence are not established."
+        ]
+      },
+      "audience": "Rust learners and contributors",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "bay-area-rust",
+      "name": "Bay Area Rust",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "americas",
+      "location": "San Francisco, California, USA",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://luma.com/bayarearust",
+      "discovery_source_id": null,
+      "purpose": "Find Bay Area Rust talks, including embedded systems.",
+      "first_step": "Open a dated event and check its format, preparation, and registration before joining.",
+      "access": {
+        "mode": "in_person",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://luma.com/ur4pm34i",
+        "note": "A future event announcement was checked; delivery has not been observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://luma.com/bayarearust",
+          "https://luma.com/ur4pm34i"
+        ],
+        "limits": [
+          "Future announcements were checked; meeting delivery and later recurrence are not established."
+        ]
+      },
+      "audience": "Rust learners and contributors",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-berlin",
+      "name": "Rust Berlin",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "europe",
+      "location": "Berlin, Germany",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/rust-berlin/",
+      "discovery_source_id": null,
+      "purpose": "Find Berlin Rust meetups and online hack-and-learn sessions.",
+      "first_step": "Open a dated event and check its format, preparation, and registration before joining.",
+      "access": {
+        "mode": "mixed",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://www.meetup.com/rust-berlin/events/316907782/",
+        "note": "A future event announcement was checked; delivery has not been observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-berlin/",
+          "https://www.meetup.com/rust-berlin/events/316907782/",
+          "https://berline.rs/2026/10/01/rust-berlin-on-location.html"
+        ],
+        "limits": [
+          "Future announcements were checked; meeting delivery and later recurrence are not established."
+        ]
+      },
+      "audience": "Rust learners and contributors",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-karlsruhe",
+      "name": "Rust Hack & Learn Karlsruhe",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "europe",
+      "location": "Karlsruhe, Germany",
+      "source_languages": [
+        "de",
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/rust-hack-learn-karlsruhe/",
+      "discovery_source_id": null,
+      "purpose": "Discuss Rust and work on projects with the Karlsruhe community.",
+      "first_step": "Open a dated event and check its format, preparation, and registration before joining.",
+      "access": {
+        "mode": "in_person",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://www.meetup.com/rust-hack-learn-karlsruhe/events/316799366/",
+        "note": "A future event announcement was checked; delivery has not been observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-hack-learn-karlsruhe/",
+          "https://www.meetup.com/rust-hack-learn-karlsruhe/events/316799366/"
+        ],
+        "limits": [
+          "Future announcements were checked; meeting delivery and later recurrence are not established."
+        ]
+      },
+      "audience": "Rust learners and contributors",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-toulouse",
+      "name": "Rust Toulouse",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "europe",
+      "location": "Toulouse, France",
+      "source_languages": [
+        "fr"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/rust-community-toulouse/",
+      "discovery_source_id": null,
+      "purpose": "Find technical Rust talks in Toulouse.",
+      "first_step": "Open a dated event and check its format, preparation, and registration before joining.",
+      "access": {
+        "mode": "in_person",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://www.meetup.com/rust-community-toulouse/events/316880185/",
+        "note": "A future event announcement was checked; delivery has not been observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-community-toulouse/",
+          "https://www.meetup.com/rust-community-toulouse/events/316880185/"
+        ],
+        "limits": [
+          "Future announcements were checked; meeting delivery and later recurrence are not established."
+        ]
+      },
+      "audience": "Rust learners and contributors",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-nyc",
+      "name": "Rust NYC",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "americas",
+      "location": "New York, USA",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/rust-nyc/",
+      "discovery_source_id": null,
+      "purpose": "Find New York Rust talks and discussions.",
+      "first_step": "Open a dated event and check its format, preparation, and registration before joining.",
+      "access": {
+        "mode": "in_person",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://www.meetup.com/rust-nyc/events/316901518/",
+        "note": "A future event announcement was checked; delivery has not been observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-nyc/",
+          "https://www.meetup.com/rust-nyc/events/316901518/"
+        ],
+        "limits": [
+          "Future announcements were checked; meeting delivery and later recurrence are not established."
+        ]
+      },
+      "audience": "Rust learners and contributors",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-poland",
+      "name": "Rust Poland",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "europe",
+      "location": "Gdańsk, Poland",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/rust-poland-meetup/",
+      "discovery_source_id": null,
+      "purpose": "Follow Rust Poland meetups and their local registration requirements.",
+      "first_step": "Open a dated event and check its format, preparation, and registration before joining.",
+      "access": {
+        "mode": "in_person",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://www.meetup.com/rust-poland-meetup/events/316900264/",
+        "note": "A future event announcement was checked; delivery has not been observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-poland-meetup/",
+          "https://www.meetup.com/rust-poland-meetup/events/316900264/"
+        ],
+        "limits": [
+          "Future announcements were checked; meeting delivery and later recurrence are not established.",
+          "The dedicated event page takes precedence over older edition copy on the group homepage."
+        ]
+      },
+      "audience": "Rust learners and contributors",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "boston-rust",
+      "name": "Boston Rust Meetup",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "americas",
+      "location": "Boston area, Massachusetts, USA",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/bostonrust/",
+      "discovery_source_id": null,
+      "purpose": "Meet Boston-area Rust users for informal conversations.",
+      "first_step": "Open a dated event and check its format, preparation, and registration before joining.",
+      "access": {
+        "mode": "in_person",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://www.meetup.com/bostonrust/events/316924366/",
+        "note": "A future event announcement was checked; delivery has not been observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/bostonrust/",
+          "https://www.meetup.com/bostonrust/events/316924366/"
+        ],
+        "limits": [
+          "Future announcements were checked; meeting delivery and later recurrence are not established."
+        ]
+      },
+      "audience": "Rust learners and contributors",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-aarhus",
+      "name": "Rust Aarhus",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "europe",
+      "location": "Aarhus, Denmark",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/rust-aarhus/",
+      "discovery_source_id": null,
+      "purpose": "Learn and experiment with the Aarhus Rust community.",
+      "first_step": "Open a dated event and check its format, preparation, and registration before joining.",
+      "access": {
+        "mode": "in_person",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://www.meetup.com/rust-aarhus/events/316796329/",
+        "note": "A future event announcement was checked; delivery has not been observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-aarhus/",
+          "https://www.meetup.com/rust-aarhus/events/316796329/"
+        ],
+        "limits": [
+          "Future announcements were checked; meeting delivery and later recurrence are not established."
+        ]
+      },
+      "audience": "Rust learners and contributors",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "women-in-rust",
+      "name": "Women in Rust",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "global",
+      "location": null,
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/women-in-rust/",
+      "discovery_source_id": null,
+      "purpose": "Find online learning and conversation with the Women in Rust community.",
+      "first_step": "Open a dated event and check its format, preparation, and registration before joining.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://www.meetup.com/women-in-rust/events/315773682/",
+        "note": "A future event announcement was checked; delivery has not been observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/women-in-rust/",
+          "https://www.meetup.com/women-in-rust/events/315773682/"
+        ],
+        "limits": [
+          "Future announcements were checked; meeting delivery and later recurrence are not established.",
+          "Women-focused community; read its participation policy before joining."
+        ]
+      },
+      "audience": "Rust learners and contributors",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-stockholm",
+      "name": "Stockholm Rust",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "europe",
+      "location": "Stockholm, Sweden",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/Stockholm-Rust/",
+      "discovery_source_id": null,
+      "purpose": "Meet the Stockholm Rust community for informal discussion.",
+      "first_step": "Open a dated event and check its format, preparation, and registration before joining.",
+      "access": {
+        "mode": "in_person",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://www.meetup.com/stockholm-rust/events/316721062/",
+        "note": "A future event announcement was checked; delivery has not been observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/Stockholm-Rust/",
+          "https://www.meetup.com/stockholm-rust/events/316721062/"
+        ],
+        "limits": [
+          "Future announcements were checked; meeting delivery and later recurrence are not established."
+        ]
+      },
+      "audience": "Rust learners and contributors",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-dublin",
+      "name": "Rust Dublin",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "europe",
+      "location": "Dublin, Ireland",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/rust-dublin/",
+      "discovery_source_id": null,
+      "purpose": "Find practical Rust talks and organizer booking details in Dublin.",
+      "first_step": "Open a dated event and check its format, preparation, and registration before joining.",
+      "access": {
+        "mode": "in_person",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://www.meetup.com/rust-dublin/events/316898325/",
+        "note": "A future event announcement was checked; delivery has not been observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-dublin/",
+          "https://www.meetup.com/rust-dublin/events/316898325/"
+        ],
+        "limits": [
+          "Future announcements were checked; meeting delivery and later recurrence are not established.",
+          "Use rustdublin.org for event booking; Meetup RSVP alone is not the stated booking route."
+        ]
+      },
+      "audience": "Rust learners and contributors",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "indy-rust",
+      "name": "Indy Rust",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "americas",
+      "location": "Indianapolis, Indiana, USA",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/indyrs/",
+      "discovery_source_id": null,
+      "purpose": "Join the Indianapolis Rust community online.",
+      "first_step": "Open a dated event and check its format, preparation, and registration before joining.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://www.meetup.com/indyrs/events/wqzhftyjcpbgb/",
+        "note": "A future event announcement was checked; delivery has not been observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/indyrs/",
+          "https://www.meetup.com/indyrs/events/wqzhftyjcpbgb/"
+        ],
+        "limits": [
+          "Future announcements were checked; meeting delivery and later recurrence are not established."
+        ]
+      },
+      "audience": "Rust learners and contributors",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-milan",
+      "name": "Rust Language Milan",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "europe",
+      "location": "Milan area, Italy",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/rust-language-milan/",
+      "discovery_source_id": null,
+      "purpose": "Find Rust talks and demonstrations around Milan.",
+      "first_step": "Open a dated event and check its format, preparation, and registration before joining.",
+      "access": {
+        "mode": "in_person",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://www.meetup.com/rust-language-milan/events/316213872/",
+        "note": "A future event announcement was checked; delivery has not been observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-language-milan/",
+          "https://www.meetup.com/rust-language-milan/events/316213872/"
+        ],
+        "limits": [
+          "Future announcements were checked; meeting delivery and later recurrence are not established."
+        ]
+      },
+      "audience": "Rust learners and contributors",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "stl-rust",
+      "name": "STL Rust",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "americas",
+      "location": "St. Louis, Missouri, USA",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/stl-rust/",
+      "discovery_source_id": null,
+      "purpose": "Explore Rust application development with the St. Louis group.",
+      "first_step": "Open a dated event and check its format, preparation, and registration before joining.",
+      "access": {
+        "mode": "in_person",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://www.meetup.com/stl-rust/events/316896797/",
+        "note": "A future event announcement was checked; delivery has not been observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/stl-rust/",
+          "https://www.meetup.com/stl-rust/events/316896797/"
+        ],
+        "limits": [
+          "Future announcements were checked; meeting delivery and later recurrence are not established."
+        ]
+      },
+      "audience": "Rust learners and contributors",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-sp",
+      "name": "Rust-SP",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "americas",
+      "location": "São Paulo, Brazil",
+      "source_languages": [
+        "pt"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://luma.com/rustsp",
+      "discovery_source_id": null,
+      "purpose": "Find São Paulo Rust talks and registration on Luma.",
+      "first_step": "Open a dated event and check its format, preparation, and registration before joining.",
+      "access": {
+        "mode": "in_person",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://luma.com/x2z9bbk9",
+        "note": "A future event announcement was checked; delivery has not been observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://luma.com/rustsp",
+          "https://luma.com/x2z9bbk9"
+        ],
+        "limits": [
+          "Future announcements were checked; meeting delivery and later recurrence are not established."
+        ]
+      },
+      "audience": "Rust learners and contributors",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-leeds",
+      "name": "Rust Leeds Meetup Group",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "europe",
+      "location": "Leeds, UK",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/rust-leeds-meetup-group/",
+      "discovery_source_id": null,
+      "purpose": "Follow the Leeds group for a confirmed programme and venue.",
+      "first_step": "Open a dated event and check its format, preparation, and registration before joining.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://www.meetup.com/rust-leeds-meetup-group/events/316180757/",
+        "note": "A future event announcement was checked; delivery has not been observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-leeds-meetup-group/",
+          "https://www.meetup.com/rust-leeds-meetup-group/events/316180757/"
+        ],
+        "limits": [
+          "The October listing has no confirmed venue or programme and conflicting times."
+        ]
+      },
+      "audience": "Rust learners and contributors",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-dc",
+      "name": "Rust DC",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "americas",
+      "location": "Washington, DC, USA",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/rustdc/",
+      "discovery_source_id": null,
+      "purpose": "Join informal Rust hack sessions online.",
+      "first_step": "Open a dated event and check its format, preparation, and registration before joining.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://www.meetup.com/rustdc/events/316788257/",
+        "note": "A future event announcement was checked; delivery has not been observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rustdc/",
+          "https://www.meetup.com/rustdc/events/316788257/"
+        ],
+        "limits": [
+          "Future announcements were checked; meeting delivery and later recurrence are not established."
+        ]
+      },
+      "audience": "Rust learners and contributors",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-maven",
+      "name": "Rust Maven",
+      "kind": "learning",
+      "affiliation": "independent",
+      "region": "global",
+      "location": null,
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://luma.com/rust-maven",
+      "discovery_source_id": null,
+      "purpose": "Find online Rust talks on compilers, GPUs, embedded systems, and applications.",
+      "first_step": "Open a dated event and check its format, preparation, and registration before joining.",
+      "access": {
+        "mode": "online",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://luma.com/k1978ath",
+        "note": "A future event announcement was checked; delivery has not been observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://luma.com/rust-maven",
+          "https://luma.com/k1978ath"
+        ],
+        "limits": [
+          "Future announcements were checked; meeting delivery and later recurrence are not established."
+        ]
+      },
+      "audience": "Rust learners and contributors",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-bangalore",
+      "name": "Rust Bangalore",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "asia",
+      "location": "Bengaluru, India",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://hasgeek.com/rustbangalore",
+      "discovery_source_id": null,
+      "purpose": "Find Bangalore Rust meetups and the standing route for talk proposals.",
+      "first_step": "Open a dated event and check its format, preparation, and registration before joining.",
+      "access": {
+        "mode": "unknown",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://hasgeek.com/rustbangalore/november-2026-rustacean-meetup/",
+        "note": "A future event announcement was checked; delivery has not been observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://hasgeek.com/rustbangalore",
+          "https://hasgeek.com/rustbangalore/november-2026-rustacean-meetup/"
+        ],
+        "limits": [
+          "Future announcements were checked; meeting delivery and later recurrence are not established.",
+          "The November event prose says in person with venue TBD, while structured metadata says online. Confirm the format with the organizer."
+        ]
+      },
+      "audience": "Rust learners and contributors",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "tokyo-rustaceans",
+      "name": "TOKYO RUSTACEANS",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "asia",
+      "location": null,
+      "source_languages": [
+        "ja"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://tokyo-rustaceans.connpass.com/",
+      "discovery_source_id": null,
+      "purpose": "Follow a Japanese Rust technical meetup and its registration page.",
+      "first_step": "Open a dated event and check its format, preparation, and registration before joining.",
+      "access": {
+        "mode": "in_person",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://tokyo-rustaceans.connpass.com/event/404065/",
+        "note": "A future event announcement was checked; delivery has not been observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://tokyo-rustaceans.connpass.com/",
+          "https://tokyo-rustaceans.connpass.com/event/404065/",
+          "https://connpass.com/event/404065.ics"
+        ],
+        "limits": [
+          "Future announcements were checked; meeting delivery and later recurrence are not established.",
+          "Live event and ICS show January 2027; search results retain October 2026. Venue and city are not established by the group name."
+        ]
+      },
+      "audience": "Rust learners and contributors",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-israel",
+      "name": "Rust Israel / TLV",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "asia",
+      "location": "Tel Aviv, Israel",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://rust.org.il/events/",
+      "discovery_source_id": null,
+      "purpose": "Find technical Rust meetups with per-talk language labels.",
+      "first_step": "Open a dated event and check its format, preparation, and registration before joining.",
+      "access": {
+        "mode": "in_person",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://www.meetup.com/rust-tlv/events/316440864/",
+        "note": "A future event announcement was checked; delivery has not been observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rust.org.il/events/",
+          "https://www.meetup.com/rust-tlv/events/316440864/",
+          "https://rust.org.il/events/2026-11-03-in-person"
+        ],
+        "limits": [
+          "Future announcements were checked; meeting delivery and later recurrence are not established."
+        ]
+      },
+      "audience": "Rust learners and contributors",
+      "contribution_url": null,
+      "code_of_conduct_url": null
+    },
+    {
+      "id": "rust-canberra",
+      "name": "Canberra Rust User Group",
+      "kind": "regional",
+      "affiliation": "independent",
+      "region": "oceania",
+      "location": "Canberra, Australia",
+      "source_languages": [
+        "en"
+      ],
+      "topics": [
+        "community"
+      ],
+      "url": "https://www.meetup.com/rust-canberra/",
+      "discovery_source_id": null,
+      "purpose": "Find Canberra Rust discussions, project updates, and learning sessions.",
+      "first_step": "Open a dated event and check its format, preparation, and registration before joining.",
+      "access": {
+        "mode": "in_person",
+        "cost": null,
+        "spoken_languages": null,
+        "captions": null,
+        "eligibility": null,
+        "equipment": null,
+        "venue": null,
+        "room": null
+      },
+      "activity": {
+        "observed_on": null,
+        "evidence_url": "https://luma.com/8wbq8d64",
+        "note": "A future event announcement was checked; delivery has not been observed."
+      },
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2027-01-15",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-canberra/",
+          "https://luma.com/8wbq8d64",
+          "https://www.meetup.com/rust-canberra/events/316907340/"
+        ],
+        "limits": [
+          "Future announcements were checked; meeting delivery and later recurrence are not established."
+        ]
+      },
+      "audience": "Rust learners and contributors",
       "contribution_url": null,
       "code_of_conduct_url": null
     }
@@ -2539,13 +3802,571 @@
         ],
         "limits": []
       }
+    },
+    {
+      "event_id": "dallas-deep-learning-2026-10-18",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/dallasrust/events/316563013/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "leipzig-dioxus-2026-10-20",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/313816496/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "rust-dc-2026-10-20",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rustdc/events/316788257/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "sf-rust-hacking-2026-10-20",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/san-francisco-rust-study-group/events/ghhwqtyjcnbbc/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "bay-area-embedded-2026-10-21",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://luma.com/ur4pm34i"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "leeds-october-2026",
+      "note": "Use the linked event page for registration, access, and the latest time. Venue, programme, and time need confirmation; excluded from the calendar.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-leeds-meetup-group/events/316180757/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "vancouver-rust-2026-10-21",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/vancouver-rust/events/315210233/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "berlin-hack-learn-2026-10-22",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-berlin/events/316272609/",
+          "https://berline.rs/2026/10/22/rust-hack-and-learn.html"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "gdansk-rust-2026-10-22",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-poland-meetup/events/316900264/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "karlsruhe-hack-learn-2026-10-22",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-hack-learn-karlsruhe/events/316799366/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "maven-wgpu-2026-10-22",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://luma.com/k1978ath"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "nyc-code-matters-2026-10-22",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-nyc/events/316901518/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "rust-melbourne-2026-10-22",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://luma.com/fdvdqkq9",
+          "https://www.meetup.com/rust-melbourne/",
+          "https://rustmelbourne.com/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "toulouse-rust-python-2026-10-22",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-community-toulouse/events/316880185/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "boston-davis-lunch-2026-10-24",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/bostonrust/events/316924143/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "maven-tiny-mcu-2026-10-26",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://luma.com/1byfc495"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "aarhus-rust-ai-2026-10-27",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-aarhus/events/316796329/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "dallas-bookclub-2026-10-27",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/dallasrust/events/310254771/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "paris-rust-89-2026-10-27",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-paris/events/316865643/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "women-rust-async-2026-10-27",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/women-in-rust/events/315297195/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "maven-hex-editor-2026-10-29",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://luma.com/q8i3385k"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "boston-north-end-lunch-2026-10-31",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/bostonrust/events/316924288/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "stockholm-fika-2026-10-31",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/stockholm-rust/events/316721062/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "dallas-deep-learning-2026-11-01",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/dallasrust/events/316331277/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "maven-solverforge-2026-11-03",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://luma.com/rfbzk3ae"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "rust-tlv-2026-11-03",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-tlv/events/316440864/",
+          "https://rust.org.il/events/2026-11-03-in-person"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "women-rust-catchup-2026-11-03",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/women-in-rust/events/315773682/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "dublin-rust-database-2026-11-04",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://rustdublin.org/events/263-new-rust-driver-for-oracle-ai-database",
+          "https://www.meetup.com/rust-dublin/events/316898325/"
+        ],
+        "limits": [
+          "Booking page blocked the automated recheck; dated organizer Meetup evidence was accessible."
+        ]
+      }
+    },
+    {
+      "event_id": "indy-rust-2026-11-04",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/indyrs/events/wqzhftyjcpbgb/",
+          "https://www.meetup.com/indyrs/events/317002824/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "berlin-hack-learn-2026-11-05",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-berlin/events/316907780/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "milan-embedded-trains-2026-11-05",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-language-milan/events/316213872/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "stl-htmx-rust-2026-11-05",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/stl-rust/events/316896797/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "sao-paulo-rust-2026-11-07",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://luma.com/x2z9bbk9",
+          "https://www.meetup.com/rust-sao-paulo-meetup/events/316812852/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "dallas-second-tuesday-2026-11-10",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/dallasrust/events/310254770/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "rust-bangalore-2026-11-14",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://hasgeek.com/rustbangalore/november-2026-rustacean-meetup/",
+          "https://hasgeek.com/rustbangalore"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "maven-cursed-rust-2026-11-15",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-10-24",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://luma.com/omlooqv8"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "maven-miscompilation-2026-11-17",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://luma.com/2qfai4a8"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "berlin-hack-learn-2026-11-19",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-berlin/events/316907781/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "boston-winter-hill-lunch-2026-11-21",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/bostonrust/events/316924366/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "rust-canberra-2026-11-24",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://luma.com/8wbq8d64",
+          "https://www.meetup.com/rust-canberra/events/316907340/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "berlin-hack-learn-2026-12-03",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://www.meetup.com/rust-berlin/events/316907782/"
+        ],
+        "limits": []
+      }
+    },
+    {
+      "event_id": "tokyo-rustaceans-2027-01-24",
+      "note": "Use the linked event page for registration, access, and the latest time. Date-only calendar reminder; source-local times and limits are in the event notes.",
+      "review": {
+        "checked_on": "2026-10-17",
+        "next_review_on": "2026-11-16",
+        "source_review": "page_checked",
+        "evidence_urls": [
+          "https://tokyo-rustaceans.connpass.com/event/404065/",
+          "https://connpass.com/event/404065.ics"
+        ],
+        "limits": []
+      }
     }
   ],
   "coverage": [
     {
       "category": "C01",
       "status": "partial",
-      "note": "Regional routes cover five regions; individual next meetings and university clubs remain incomplete.",
+      "note": "Dated meetups and group routes cover Europe, the Americas, Asia, and Oceania, with global online sessions. African future dates and university clubs remain gaps.",
       "area": "Regional and online groups"
     },
     {
@@ -2622,11 +4443,11 @@
     }
   ],
   "regional_gaps": [
-    "Japan: search-index listing found; live connpass page required a browser challenge.",
-    "China and RustDC: source access failed in this pass; no current group record added.",
-    "Americas: a Brazilian organizer directory was checked; North American local groups need further research.",
-    "Oceania: Melbourne activity and Sydney archive checked; current New Zealand dates not verified.",
-    "Africa and India: existing regional routes reused; individual city groups and new applications still need checks."
+    "Africa: regional sources are present, but no future dated meetup was verified in this sweep.",
+    "Asia: Bengaluru, Tel Aviv, and a Japanese meetup have dated records; many cities and language communities remain unlisted.",
+    "Europe and the Americas: selected dated organizer pages were checked, not every group or every future occurrence.",
+    "Oceania: Melbourne and Canberra have dated events; the Sydney record remains an archive route and New Zealand future dates are unverified.",
+    "Online: published instances are included; recurrence rules and later chapter lists were not expanded into assumed meetings."
   ],
-  "calendar_updated_at": "2026-10-17T16:40:23+00:00"
+  "calendar_updated_at": "2026-10-17T16:42:44+00:00"
 }

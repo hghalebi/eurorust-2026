@@ -3,7 +3,7 @@
   "checked_on": "2026-10-17",
   "reference_date": "2026-10-17",
   "review_status": "Codex-assisted curation; community review pending",
-  "scope": "Rust programming-language conferences, selected workshops, podcasts, newsletters, technical publications, and discovery routes. A researched directory, not an exhaustive or continuously monitored calendar.",
+  "scope": "Rust programming-language conferences, meetups, online community events, selected workshops, podcasts, newsletters, technical publications, and discovery routes. A researched directory, not an exhaustive or continuously monitored calendar.",
   "selection": "Organizer and publisher sources; concrete learning value for production Rust, types, infrastructure, and embedded systems. Broader engineering sources are labelled.",
   "limits": [
     "Event status is relative to reference_date. Recheck official dates and access before making plans.",
@@ -718,6 +718,1058 @@
       "evidence_urls": [
         "https://rustfoundation.org/events/",
         "https://blog.rust-lang.org/inside-rust/2026/03/25/project-director-update/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "dallas-deep-learning-2026-10-18",
+      "name": "Rust Deep Learning: Third Sunday",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-10-18",
+      "ends_on": "2026-10-18",
+      "location": "Online (Dallas, Texas, USA)",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.meetup.com/dallasrust/events/316563013/",
+      "why_follow": "Discuss deep learning and work through exercises in Rust.",
+      "notes": [
+        "Online via Discord; prepare chapter 4 and exercises using tch.",
+        "Publisher event metadata: 2026-10-18T19:00:00-05:00 to 2026-10-18T20:30:00-05:00."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/dallasrust/events/316563013/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "leipzig-dioxus-2026-10-20",
+      "name": "Creating a realtime web Multiuser Dungeon game with Dioxus",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-10-20",
+      "ends_on": "2026-10-20",
+      "location": "Leipzig, Germany",
+      "venue": "Basislager Coworking Leipzig, Peterssteinweg 14",
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/313816496/",
+      "why_follow": "Build a multiplayer game with Dioxus.",
+      "notes": [
+        "In person. Bring a laptop to participate or watch the workshop.",
+        "Publisher event metadata: 2026-10-20T19:00:00+02:00 to 2026-10-20T21:00:00+02:00."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/rust-modern-systems-programming-in-leipzig/events/313816496/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "rust-dc-2026-10-20",
+      "name": "Mid-month Rustful",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-10-20",
+      "ends_on": "2026-10-20",
+      "location": "Online",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.meetup.com/rustdc/events/316788257/",
+      "why_follow": "Join an informal Rust hack session.",
+      "notes": [
+        "19:00–20:30 UTC−04:00. Online; no speaker was listed. The organizer welcomes all experience levels."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/rustdc/events/316788257/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "sf-rust-hacking-2026-10-20",
+      "name": "Rust Hacking in Person",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-10-20",
+      "ends_on": "2026-10-20",
+      "location": "San Francisco, California, USA",
+      "venue": "Pebblebed, 1417 15th St",
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.meetup.com/san-francisco-rust-study-group/events/ghhwqtyjcnbbc/",
+      "why_follow": "Work on a Rust project with other learners.",
+      "notes": [
+        "In person. Bring a laptop; beginners are welcome.",
+        "Publisher event metadata: 2026-10-20T19:00:00-07:00 to 2026-10-20T21:00:00-07:00."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/san-francisco-rust-study-group/events/ghhwqtyjcnbbc/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "bay-area-embedded-2026-10-21",
+      "name": "Bay Area Rust - Embedded Meetup",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-10-21",
+      "ends_on": "2026-10-21",
+      "location": "San Francisco, California, USA",
+      "venue": "Atuin office",
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://luma.com/ur4pm34i",
+      "why_follow": "Meet developers working on embedded Rust.",
+      "notes": [
+        "In person. Registration requires host approval; the full address is shown after registration. Talks start at 18:30.",
+        "Publisher event metadata: 2026-10-21T18:00:00.000-07:00 to 2026-10-21T20:30:00.000-07:00."
+      ],
+      "evidence_urls": [
+        "https://luma.com/ur4pm34i"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "leeds-october-2026",
+      "name": "October - TBC",
+      "kind": "meetup",
+      "status": "tentative",
+      "starts_on": "2026-10-21",
+      "ends_on": "2026-10-21",
+      "location": "Leeds, UK",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.meetup.com/rust-leeds-meetup-group/events/316180757/",
+      "why_follow": "Watch for the next Rust Leeds programme.",
+      "notes": [
+        "Tentative: venue and programme are TBC. Header says 19:00–21:00 BST, while the approximate agenda says 18:00–20:00. Confirm both time and venue.",
+        "Publisher event metadata: 2026-10-21T19:00:00+01:00 to 2026-10-21T21:00:00+01:00."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/rust-leeds-meetup-group/events/316180757/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "vancouver-rust-2026-10-21",
+      "name": "Rust Study/Hack/Hang-out",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-10-21",
+      "ends_on": "2026-10-21",
+      "location": "Vancouver, Canada, and online",
+      "venue": "116 W 6th Ave, suite 300",
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.meetup.com/vancouver-rust/events/315210233/",
+      "why_follow": "Study Rust, share projects, and ask questions.",
+      "notes": [
+        "Hybrid according to the event description; online access is for registered attendees. The newsletter used a different talk title; this record follows the current event page.",
+        "Publisher event metadata: 2026-10-21T18:00:00-07:00 to 2026-10-21T19:30:00-07:00."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/vancouver-rust/events/315210233/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "berlin-hack-learn-2026-10-22",
+      "name": "Rust Hack and Learn",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-10-22",
+      "ends_on": "2026-10-22",
+      "location": "Online (Berlin, Germany)",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.meetup.com/rust-berlin/events/316272609/",
+      "why_follow": "Bring Rust questions or a project to a shared learning session.",
+      "notes": [
+        "Online. All experience levels welcome; bring a computer. The dated header and Meetup metadata say CEST; generic website instructions say CET.",
+        "Publisher event metadata: 2026-10-22T19:00:00+02:00 to 2026-10-22T22:00:00+02:00."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/rust-berlin/events/316272609/",
+        "https://berline.rs/2026/10/22/rust-hack-and-learn.html"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "gdansk-rust-2026-10-22",
+      "name": "Rust Poland x Gdańsk #13",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-10-22",
+      "ends_on": "2026-10-22",
+      "location": "Gdańsk, Poland",
+      "venue": "Europejskie Centrum Solidarności, Plac Solidarności 1",
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.meetup.com/rust-poland-meetup/events/316900264/",
+      "why_follow": "Discuss Myrmic and Rust for resilient edge systems.",
+      "notes": [
+        "In person. Registration and matching valid ID required; aliases are not accepted for entry. The organizer homepage retains a different edition number and topic; this record follows the event page.",
+        "Publisher event metadata: 2026-10-22T18:00:00+02:00 to 2026-10-22T21:00:00+02:00."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/rust-poland-meetup/events/316900264/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "karlsruhe-hack-learn-2026-10-22",
+      "name": "Karlsruhe Rust Hack and Learn Meetup bei BlueYonder",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-10-22",
+      "ends_on": "2026-10-22",
+      "location": "Karlsruhe, Germany",
+      "venue": "BlueYonder GmbH, Ohiostraße 8",
+      "source_languages": [
+        "de",
+        "en"
+      ],
+      "url": "https://www.meetup.com/rust-hack-learn-karlsruhe/events/316799366/",
+      "why_follow": "Discuss const evaluation and share Rust projects.",
+      "notes": [
+        "In person. Limit 40 participants; no dogs in the building. Bring a laptop for coding. One listed talk is postponed, not the whole event.",
+        "Publisher event metadata: 2026-10-22T19:00:00+02:00 to 2026-10-22T21:00:00+02:00."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/rust-hack-learn-karlsruhe/events/316799366/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "maven-wgpu-2026-10-22",
+      "name": "Rust and the GPU from Native to Web: An Introduction to wgpu",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-10-22",
+      "ends_on": "2026-10-22",
+      "location": "Online",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://luma.com/k1978ath",
+      "why_follow": "Learn about wgpu for native programs and the browser.",
+      "notes": [
+        "Online via Zoom. 18:30–20:00 Asia/Jerusalem (UTC+03:00). Register on the organizer page for online attendance."
+      ],
+      "evidence_urls": [
+        "https://luma.com/k1978ath"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "nyc-code-matters-2026-10-22",
+      "name": "Rust NYC w/Bryan Cantrill - Code Matters: Reflections on Rust in the LLM Age",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-10-22",
+      "ends_on": "2026-10-22",
+      "location": "New York, USA",
+      "venue": "Datadog, New York Times Building, 620 8th Avenue",
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.meetup.com/rust-nyc/events/316901518/",
+      "why_follow": "Hear Bryan Cantrill discuss responsibility for Rust code made with LLMs.",
+      "notes": [
+        "In person. Doors open at 18:30; the talk starts at 19:15.",
+        "Publisher event metadata: 2026-10-22T18:30:00-04:00 to 2026-10-22T20:30:00-04:00."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/rust-nyc/events/316901518/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "rust-melbourne-2026-10-22",
+      "name": "Rust Melbourne Meetup",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-10-22",
+      "ends_on": "2026-10-22",
+      "location": "Melbourne, Australia",
+      "venue": "Stone & Chalk Melbourne Startup Hub, 121 King St, Melbourne VIC 3000",
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://luma.com/fdvdqkq9",
+      "why_follow": "Meet Melbourne Rust developers and hear two talks.",
+      "notes": [
+        "17:30–20:00 Australia/Melbourne (UTC+11), verified in organizer page metadata. Registration is on Luma. Speaker details were not listed."
+      ],
+      "evidence_urls": [
+        "https://luma.com/fdvdqkq9",
+        "https://www.meetup.com/rust-melbourne/",
+        "https://rustmelbourne.com/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "toulouse-rust-python-2026-10-22",
+      "name": "Soirée Rust - Interopérabilité Rust et Python",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-10-22",
+      "ends_on": "2026-10-22",
+      "location": "Toulouse, France",
+      "venue": "Epitech Toulouse, 40 Boulevard de la Marquette; ground-floor amphitheatre",
+      "source_languages": [
+        "fr"
+      ],
+      "url": "https://www.meetup.com/rust-community-toulouse/events/316880185/",
+      "why_follow": "Explore Rust and Python interoperability.",
+      "notes": [
+        "In person. Reception at 18:45 in the ground-floor amphitheatre; talks begin at 19:00.",
+        "Publisher event metadata: 2026-10-22T18:45:00+02:00 to 2026-10-22T21:45:00+02:00."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/rust-community-toulouse/events/316880185/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "boston-davis-lunch-2026-10-24",
+      "name": "Davis Square Rust Lunch, Oct 24",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-10-24",
+      "ends_on": "2026-10-24",
+      "location": "Somerville, Massachusetts, USA",
+      "venue": "Diesel Cafe, 257 Elm Street",
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.meetup.com/bostonrust/events/316924143/",
+      "why_follow": "Meet local Rust developers over lunch.",
+      "notes": [
+        "In person; informal conversation. Check food and drink costs with the venue.",
+        "Publisher event metadata: 2026-10-24T11:00:00-04:00 to 2026-10-24T13:00:00-04:00."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/bostonrust/events/316924143/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "maven-tiny-mcu-2026-10-26",
+      "name": "No Python was harmed: teaching a tiny MCU to learn as it goes",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-10-26",
+      "ends_on": "2026-10-26",
+      "location": "Online",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://luma.com/1byfc495",
+      "why_follow": "Explore a Rust neural network with on-chip training.",
+      "notes": [
+        "Online via Zoom. 18:00–20:00 Asia/Jerusalem (UTC+02:00). Register on the organizer page for online attendance."
+      ],
+      "evidence_urls": [
+        "https://luma.com/1byfc495"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "aarhus-rust-ai-2026-10-27",
+      "name": "Hack Night: Rust meets AI",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-10-27",
+      "ends_on": "2026-10-27",
+      "location": "Aarhus, Denmark",
+      "venue": "Folkehuset Møllestien, Grønnegade 10; Opholdsstue 1",
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.meetup.com/rust-aarhus/events/316796329/",
+      "why_follow": "Experiment with running AI models in Rust.",
+      "notes": [
+        "In person. Bring a laptop. No prior AI experience required. Organizer asks for Hacktoberfest signup; food is not provided and outside food is not allowed.",
+        "Publisher event metadata: 2026-10-27T18:00:00+01:00 to 2026-10-27T21:00:00+01:00."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/rust-aarhus/events/316796329/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "dallas-bookclub-2026-10-27",
+      "name": "Fourth Tuesday Rust Bookclub",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-10-27",
+      "ends_on": "2026-10-27",
+      "location": "Online (Dallas, Texas, USA)",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.meetup.com/dallasrust/events/310254771/",
+      "why_follow": "Read and discuss an intermediate Rust book.",
+      "notes": [
+        "Online via Discord. The announced chapter for this date is chapter 2 of Advanced Rust by Nouman Azam; prepare before joining.",
+        "Publisher event metadata: 2026-10-27T19:00:00-05:00 to 2026-10-27T20:30:00-05:00."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/dallasrust/events/310254771/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "paris-rust-89-2026-10-27",
+      "name": "Rust meetup #89",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-10-27",
+      "ends_on": "2026-10-27",
+      "location": "Le Kremlin-Bicêtre, France",
+      "venue": "EPITA, 14–16 Rue Voltaire",
+      "source_languages": [
+        "fr",
+        "en"
+      ],
+      "url": "https://www.meetup.com/rust-paris/events/316865643/",
+      "why_follow": "Share a short Rust talk or learn with the Paris community.",
+      "notes": [
+        "In person. All experience levels welcome. Bring your editor; optional talks are 5–10 minutes.",
+        "Publisher event metadata: 2026-10-27T18:30:00+01:00 to 2026-10-27T21:30:00+01:00."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/rust-paris/events/316865643/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "women-rust-async-2026-10-27",
+      "name": "Lunch & Learn: Reasoning with Async Rust",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-10-27",
+      "ends_on": "2026-10-27",
+      "location": "Online (London, UK)",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.meetup.com/women-in-rust/events/315297195/",
+      "why_follow": "Learn to reason about concurrent Rust code with Zainab Ali.",
+      "notes": [
+        "Online link is for registered attendees. Women-focused community; check the organizer’s participation policy.",
+        "Publisher event metadata: 2026-10-27T13:00:00Z to 2026-10-27T14:00:00Z."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/women-in-rust/events/315297195/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "maven-hex-editor-2026-10-29",
+      "name": "Creating a hexadecimal editor in Rust",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-10-29",
+      "ends_on": "2026-10-29",
+      "location": "Online",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://luma.com/q8i3385k",
+      "why_follow": "Hear how a security researcher built a Rust hex editor.",
+      "notes": [
+        "Online via Zoom. 20:00–21:30 Asia/Jerusalem (UTC+02:00). Register on the organizer page for online attendance."
+      ],
+      "evidence_urls": [
+        "https://luma.com/q8i3385k"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "boston-north-end-lunch-2026-10-31",
+      "name": "North End Rust Lunch, Oct 31",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-10-31",
+      "ends_on": "2026-10-31",
+      "location": "Boston, Massachusetts, USA",
+      "venue": "Thinking Cup, 236 Hanover Street",
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.meetup.com/bostonrust/events/316924288/",
+      "why_follow": "Meet local Rust developers over lunch.",
+      "notes": [
+        "In person; informal conversation. Check food and drink costs with the venue.",
+        "Publisher event metadata: 2026-10-31T11:00:00-04:00 to 2026-10-31T13:00:00-04:00."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/bostonrust/events/316924288/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "stockholm-fika-2026-10-31",
+      "name": "Ferris' Fika Forum #31",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-10-31",
+      "ends_on": "2026-10-31",
+      "location": "Stockholm, Sweden",
+      "venue": "Espresso House Norrlandsgatan, Norrlandsgatan 18",
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.meetup.com/stockholm-rust/events/316721062/",
+      "why_follow": "Meet the Stockholm Rust community for an informal conversation.",
+      "notes": [
+        "In person. No Rust knowledge required; children and laptops are welcome. Check cafe purchase costs separately.",
+        "Publisher event metadata: 2026-10-31T10:00:00+01:00 to 2026-10-31T12:00:00+01:00."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/stockholm-rust/events/316721062/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "dallas-deep-learning-2026-11-01",
+      "name": "Rust Deep Learning: First Sunday",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-11-01",
+      "ends_on": "2026-11-01",
+      "location": "Online (Dallas, Texas, USA)",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.meetup.com/dallasrust/events/316331277/",
+      "why_follow": "Discuss deep learning and work through exercises in Rust.",
+      "notes": [
+        "Online via Discord; prepare chapter 5 and exercises using tch.",
+        "Publisher event metadata: 2026-11-01T19:00:00-06:00 to 2026-11-01T20:30:00-06:00."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/dallasrust/events/316331277/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "maven-solverforge-2026-11-03",
+      "name": "Solving Real-World Planning Problems in Rust with SolverForge",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-11-03",
+      "ends_on": "2026-11-03",
+      "location": "Online",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://luma.com/rfbzk3ae",
+      "why_follow": "Explore modelling constraints and planning problems in Rust.",
+      "notes": [
+        "Online via Zoom. 10:00–12:00 Asia/Jerusalem (UTC+02:00). Register on the organizer page for online attendance."
+      ],
+      "evidence_urls": [
+        "https://luma.com/rfbzk3ae"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "rust-tlv-2026-11-03",
+      "name": "Rust at AWS in Tel Aviv",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-11-03",
+      "ends_on": "2026-11-03",
+      "location": "Tel Aviv, Israel",
+      "venue": "AWS Floor 28, Derech Menachem Begin 121, Tel Aviv-Yafo",
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.meetup.com/rust-tlv/events/316440864/",
+      "why_follow": "Hear talks on self-hosting Rust and cryptographic applications.",
+      "notes": [
+        "18:00–21:00 UTC+02:00. The organizer labels the custom-kernel talk English and the cryptography talk Hebrew."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/rust-tlv/events/316440864/",
+        "https://rust.org.il/events/2026-11-03-in-person"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "women-rust-catchup-2026-11-03",
+      "name": "Community Catch Up",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-11-03",
+      "ends_on": "2026-11-03",
+      "location": "Online (London, UK)",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.meetup.com/women-in-rust/events/315773682/",
+      "why_follow": "Meet other members of the Women in Rust community.",
+      "notes": [
+        "Online link is for registered attendees. Women-focused community; check the organizer’s participation policy.",
+        "Publisher event metadata: 2026-11-03T13:00:00Z to 2026-11-03T13:30:00Z."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/women-in-rust/events/315773682/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "dublin-rust-database-2026-11-04",
+      "name": "Rust 263: Getting Started with the New Rust Driver for Oracle AI Database",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-11-04",
+      "ends_on": "2026-11-04",
+      "location": "Dublin, Ireland",
+      "venue": "tcube workspaces, 1 O’Connell Street Lower",
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://rustdublin.org/events/263-new-rust-driver-for-oracle-ai-database",
+      "why_follow": "Explore the Rust driver for Oracle Database.",
+      "notes": [
+        "In person. The organizer asks attendees to book on rustdublin.org, not just RSVP on Meetup.",
+        "Publisher event metadata: 2026-11-04T18:15:00Z to 2026-11-04T21:15:00Z.",
+        "The booking page returned HTTP 403 during an automated recheck. The organizer Meetup listing independently confirms the date and time and directs bookings to rustdublin.org."
+      ],
+      "evidence_urls": [
+        "https://rustdublin.org/events/263-new-rust-driver-for-oracle-ai-database",
+        "https://www.meetup.com/rust-dublin/events/316898325/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "indy-rust-2026-11-04",
+      "name": "Indy.rs - with Social Distancing",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-11-04",
+      "ends_on": "2026-11-04",
+      "location": "Online (Indianapolis, Indiana, USA)",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.meetup.com/indyrs/events/317002824/",
+      "why_follow": "Join a Rust discussion and follow local speaking opportunities.",
+      "notes": [
+        "Online via Jitsi. The listing has generic repeated copy and no confirmed talk; verify the agenda before attending.",
+        "Publisher event metadata: 2026-11-04T19:00:00-05:00 to 2026-11-04T20:30:00-05:00."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/indyrs/events/wqzhftyjcpbgb/",
+        "https://www.meetup.com/indyrs/events/317002824/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "berlin-hack-learn-2026-11-05",
+      "name": "Rust Hack and Learn",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-11-05",
+      "ends_on": "2026-11-05",
+      "location": "Online (Berlin, Germany)",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.meetup.com/rust-berlin/events/316907780/",
+      "why_follow": "Bring Rust questions or a project to a shared learning session.",
+      "notes": [
+        "Online. All experience levels welcome; bring a computer.",
+        "Publisher event metadata: 2026-11-05T19:00:00+01:00 to 2026-11-05T22:00:00+01:00."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/rust-berlin/events/316907780/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "milan-embedded-trains-2026-11-05",
+      "name": "Digital Model Trains & Rust: Bare-Metal DCC Command Station on ESP32",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-11-05",
+      "ends_on": "2026-11-05",
+      "location": "Sesto San Giovanni, Italy",
+      "venue": "Kalpa, Via Giosuè Carducci 39",
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.meetup.com/rust-language-milan/events/316213872/",
+      "why_follow": "See an ESP32 model-train controller built with bare-metal Rust.",
+      "notes": [
+        "In person. Intermediate level; English is explicitly stated. Capacity is limited; RSVP. Doors 18:30, talk and demo 18:45.",
+        "Publisher event metadata: 2026-11-05T18:30:00+01:00 to 2026-11-05T20:30:00+01:00."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/rust-language-milan/events/316213872/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "stl-htmx-rust-2026-11-05",
+      "name": "HTMX and Rust",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-11-05",
+      "ends_on": "2026-11-05",
+      "location": "St. Louis, Missouri, USA",
+      "venue": "OCI, suite 310, 12140 Woodcrest Executive Drive",
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.meetup.com/stl-rust/events/316896797/",
+      "why_follow": "Explore HTMX, Axum, and live updates with NATS.",
+      "notes": [
+        "In person. This record covers the published instance; it does not repeat the topic on future monthly dates.",
+        "Publisher event metadata: 2026-11-05T18:00:00-06:00 to 2026-11-05T20:00:00-06:00."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/stl-rust/events/316896797/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "sao-paulo-rust-2026-11-07",
+      "name": "Rust SP Nov/2026",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-11-07",
+      "ends_on": "2026-11-07",
+      "location": "São Paulo, Brazil",
+      "venue": "Avenida Nhandú 848, Planalto Paulista",
+      "source_languages": [
+        "pt"
+      ],
+      "url": "https://luma.com/x2z9bbk9",
+      "why_follow": "Discuss Rust for the web, machine learning, and PostgreSQL extensions.",
+      "notes": [
+        "In person. Register on Luma: the group is moving from Meetup. Luma metadata ends at 13:00; the older Meetup listing ends at noon. Confirm the latest schedule.",
+        "Publisher event metadata: 2026-11-07T09:00:00.000-03:00 to 2026-11-07T13:00:00.000-03:00."
+      ],
+      "evidence_urls": [
+        "https://luma.com/x2z9bbk9",
+        "https://www.meetup.com/rust-sao-paulo-meetup/events/316812852/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "dallas-second-tuesday-2026-11-10",
+      "name": "Second Tuesday",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-11-10",
+      "ends_on": "2026-11-10",
+      "location": "Online (Dallas, Texas, USA)",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.meetup.com/dallasrust/events/310254770/",
+      "why_follow": "Share a short presentation about a Rust project.",
+      "notes": [
+        "Online via Discord. Informal member presentations are 5–15 minutes.",
+        "Publisher event metadata: 2026-11-10T19:00:00-06:00 to 2026-11-10T20:30:00-06:00."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/dallasrust/events/310254770/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "rust-bangalore-2026-11-14",
+      "name": "November 2026 Rustacean Meetup",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-11-14",
+      "ends_on": "2026-11-14",
+      "location": "Bengaluru, India",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://hasgeek.com/rustbangalore/november-2026-rustacean-meetup/",
+      "why_follow": "Meet the Bangalore Rust community or propose a talk.",
+      "notes": [
+        "10:30–13:30 UTC+05:30 from organizer metadata. The description says in person and venue TBD; its structured attendance-mode field says online. Verify the venue before travel."
+      ],
+      "evidence_urls": [
+        "https://hasgeek.com/rustbangalore/november-2026-rustacean-meetup/",
+        "https://hasgeek.com/rustbangalore"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "maven-cursed-rust-2026-11-15",
+      "name": "Cursed Rust",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-11-15",
+      "ends_on": "2026-11-15",
+      "location": "Online",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://luma.com/omlooqv8",
+      "why_follow": "Explore unusual Rust grammar and language examples.",
+      "notes": [
+        "Online via Zoom. 20:00–21:30 Asia/Jerusalem (UTC+02:00). Register on the organizer page for online attendance.",
+        "Live organizer metadata says 15 November; This Week in Rust 673 listed 1 November."
+      ],
+      "evidence_urls": [
+        "https://luma.com/omlooqv8"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "maven-miscompilation-2026-11-17",
+      "name": "Miscompilation in Rust 1.97",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-11-17",
+      "ends_on": "2026-11-17",
+      "location": "Online",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://luma.com/2qfai4a8",
+      "why_follow": "Follow a compiler bug investigation with its reporter.",
+      "notes": [
+        "Online via Zoom. 20:00–22:00 Asia/Jerusalem (UTC+02:00). Register on the organizer page for online attendance."
+      ],
+      "evidence_urls": [
+        "https://luma.com/2qfai4a8"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "berlin-hack-learn-2026-11-19",
+      "name": "Rust Hack and Learn",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-11-19",
+      "ends_on": "2026-11-19",
+      "location": "Online (Berlin, Germany)",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.meetup.com/rust-berlin/events/316907781/",
+      "why_follow": "Bring Rust questions or a project to a shared learning session.",
+      "notes": [
+        "Online. All experience levels welcome; bring a computer.",
+        "Publisher event metadata: 2026-11-19T19:00:00+01:00 to 2026-11-19T22:00:00+01:00."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/rust-berlin/events/316907781/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "boston-winter-hill-lunch-2026-11-21",
+      "name": "Winter Hill Rust Lunch, Nov 21",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-11-21",
+      "ends_on": "2026-11-21",
+      "location": "Somerville, Massachusetts, USA",
+      "venue": "Rooted Armory Cafe, 191 Highland Avenue, unit 1B",
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.meetup.com/bostonrust/events/316924366/",
+      "why_follow": "Meet local Rust developers over lunch.",
+      "notes": [
+        "In person; informal conversation. Check food and drink costs with the venue.",
+        "Publisher event metadata: 2026-11-21T11:00:00-05:00 to 2026-11-21T13:00:00-05:00."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/bostonrust/events/316924366/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "rust-canberra-2026-11-24",
+      "name": "November CRUG",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-11-24",
+      "ends_on": "2026-11-24",
+      "location": "Canberra, Australia",
+      "venue": "Microsoft Canberra office, 4/6 National Circuit, Barton ACT; entrance on Bligh St",
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://luma.com/8wbq8d64",
+      "why_follow": "Join the Canberra Rust group for project updates and a planned tutorial.",
+      "notes": [
+        "18:00–20:00 UTC+11:00. Meet first at Hotel Kurrajong at 18:00; move to the office at 18:30. Tutorial topic was not announced."
+      ],
+      "evidence_urls": [
+        "https://luma.com/8wbq8d64",
+        "https://www.meetup.com/rust-canberra/events/316907340/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "berlin-hack-learn-2026-12-03",
+      "name": "Rust Hack and Learn",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2026-12-03",
+      "ends_on": "2026-12-03",
+      "location": "Online (Berlin, Germany)",
+      "venue": null,
+      "source_languages": [
+        "en"
+      ],
+      "url": "https://www.meetup.com/rust-berlin/events/316907782/",
+      "why_follow": "Bring Rust questions or a project to a shared learning session.",
+      "notes": [
+        "Online. All experience levels welcome; bring a computer.",
+        "Publisher event metadata: 2026-12-03T19:00:00+01:00 to 2026-12-03T22:00:00+01:00."
+      ],
+      "evidence_urls": [
+        "https://www.meetup.com/rust-berlin/events/316907782/"
+      ],
+      "checked_on": "2026-10-17",
+      "source_review": "source_page_checked",
+      "parent_event": null
+    },
+    {
+      "id": "tokyo-rustaceans-2027-01-24",
+      "name": "TOKYO RUSTACEANS",
+      "kind": "meetup",
+      "status": "announced",
+      "starts_on": "2027-01-24",
+      "ends_on": "2027-01-24",
+      "location": null,
+      "venue": null,
+      "source_languages": [
+        "ja"
+      ],
+      "url": "https://tokyo-rustaceans.connpass.com/event/404065/",
+      "why_follow": "Follow a Japanese Rust technical meetup.",
+      "notes": [
+        "Live organizer page and ICS list 24 January 2027, 13:00–19:00 UTC+09:00; cached search results still show 31 October 2026. Venue is not announced. Current tickets show 3,000 yen payable at the venue."
+      ],
+      "evidence_urls": [
+        "https://tokyo-rustaceans.connpass.com/event/404065/",
+        "https://connpass.com/event/404065.ics"
       ],
       "checked_on": "2026-10-17",
       "source_review": "source_page_checked",
